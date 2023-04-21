@@ -1,0 +1,43 @@
+---
+title: single page
+comments: true
+layout: default
+---
+<div class="container bg-light py-5 my-5">
+  <div class="py-2 text-center">
+      <h1 class="title">
+        {{page.title}}
+      </h1>
+      <h3 class="text-muted">
+          {{ page.date | date: "%b %d, %Y - %a" }}
+      </h3>
+      </h1>
+      <hr>
+      <div>
+        {% if page.view_on_github %}
+          <a target="_blank" class="btn btn-lg btn-outline-info mx-3 my-3" href="https://github.com/{{site.github}}/{{page.repo}}">View On Github</a>
+        {% endif %}
+        {% if page.download_class %}
+          <a class="btn btn-lg btn-outline-danger mx-3" href="https://codeload.github.com/{{site.github}}/{{page.repo}}/zip/master">Download class file</a>
+        {% endif %}
+      </div>
+      <hr>
+  </div>
+
+  <div class="">
+    {{content}}
+  </div>
+
+  <div class="text-center p-5">
+    {% if page.previous.url %}
+      <a class="btn btn-info btn-lg .d-inline-block my-1" href="{{site.url}}{{site.baseurl}}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="btn btn-success btn-lg .d-inline-block my-1" href="{{site.url}}{{site.baseurl}}{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+  </div>
+
+
+  {% include disqus.html %}
+</div>
+

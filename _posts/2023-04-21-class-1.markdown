@@ -1,0 +1,55 @@
+---
+download_class: false
+number: 1 
+---
+
+### Hardware and os relationship
+
+`Hardware > kernel > operating system`
+
+## Hardware
+* processor
+* ram
+* storage
+* other peripheral ( keyboard, mouse peripheral )
+* monitor, display, printer
+
+
+###  common Hardware(processor) for operating system     
+
+1. x86 architecture -> complex set of instruction (intel + amd) -> (IBM - 60s)      
+2. arm architecture -> simple set of instruction (opensource) - arm holdings (acorn computer limited (uk)) (4nm)
+
+my case: i5 8400 -> 65w (14nm lithography)
+
+### soc    
+
+system on chip -> processor(cpu), DSP, GPU, Model, Bluetooth, rf, wifi
+
+
+### rendering a 4k video in x86 processor vs arm processor
+
+* i9 10th gen 4k 15 => 1h (125w)
+* iphone 12 (arm) => 5m (5w)
+
+Currently all new apple laptops come with arm processor.    
+
+### OS
+* ubuntu (linux)
+* android (linux)
+* mac os (unix)
+* microsoft windows XP (windows)
+* microsoft windows 10 (windows)
+* microsoft windows 11 (windows)
+
+### Companies 
+* apple
+* microsoft
+* tesla
+* qualcomm
+* tsmc (processor)
+* foxconn(oem)
+
+
+
+

@@ -1,0 +1,47 @@
+# all students should keep their github repo name lower case with username prefix
+# structures
+baseurl: '/ananya'
+name: Ananya
+title: Ananya Class
+permalink: /:title/
+all_batches: https://polodev.github.io/
+
+# personal
+project_status: Ongoing
+students_number: 17
+myfacebook: shibudebpolo
+mygithub: polodev
+
+#sass:
+#  style: compressed
+collections:
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      published: true
+      no: 1
+      category: php
+      tags: [html, css, php, web-design, 'web development']
+      repo: 
+      download_class: true
+      view_on_github: true
+
+  # projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      name: a project
+      published: true
+      team: []
+      number: 1
+      status: ongoing
+      # demo and github link will be full url
+      github: https://github.com
+      demo:
+      about: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam provident, id. Necessitatibus, corporis, odit. Officia maiores facere repellendus voluptates doloremque dicta soluta, mollitia deleniti quos sequi sed aliquid temporibus expedita nostrum obcaecati quo laudantium molestiae reprehenderit, quae ducimus sint eaque illo! Natus quo eos ipsam non earum debitis, tempora quisquam cum. Similique iure quia sit magni vitae, qui aut, nisi modi omnis ex vel? At architecto quae, aperiam necessitatibus excepturi magnam quaerat inventore dignissimos laudantium voluptates ex iste unde placeat quibusdam vel dolor minima earum eligendi, explicabo aut atque quisquam nobis reprehenderit ut. Aliquam error accusantium, ullam ipsum expedita nihil.
+      

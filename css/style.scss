@@ -1,0 +1,98 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+@import 'syntax';
+$font: 'Roboto', sans-serif;
+$fs: 20px;
+$ssl: seagreen;
+body {
+  font-size: $fs;
+  font-family: $font;
+}
+
+a, button, p, .list-group-item {
+  font-size: $fs;
+}
+a.student_back_button {
+  color: inherit;
+  font-size: inherit;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+img.icon {
+  height: 40px;
+  margin-right: 5px;
+}
+.dn {
+  display: none;
+}
+.student-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 350px;
+    margin-bottom: 1em;
+  }
+}
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+
+.link-wrapper {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  a {
+    i {
+      margin-right: 5px;
+      color: lightgrey;
+    }
+    color: white;
+    display: block;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.list-group {
+  .list-group-item {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  a {
+    padding: 20px;
+    display: block;
+    text-align: left;
+    color: white;
+    transition: all .3s;
+    &:hover {
+      color: white;
+      text-indent: 20px;
+      transition: all .3s;
+      text-decoration: none;
+
+    }
+  }
+}
+
+
+

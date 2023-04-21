@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="container bg-light mt-2 py-4">
+  <div class="bg_random_color text-light p-5">
+    <h2 class="title">All classes</h2>
+    <p>All classes of {{site.title}} batch, chronologically listed here. </p>
+  </div>
+
+  <ul class="list-group my-2">
+    {% assign sorted = site.posts | sort: 'date' %}
+    {% for post in sorted %}
+       {% unless post.published %} {% continue %}{% endunless %}
+      <li class="list-group-item bg_random_color hover_random_color">
+        <a href="{{site.url}}{{site.baseurl}}{{ post.url }}">
+          {{post.title}} - 
+          <span>
+            {{ post.date | date: "%b %d, %Y - %a" }}
+          </span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{{content}}
