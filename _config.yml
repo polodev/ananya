@@ -26,8 +26,8 @@ defaults:
       category: php
       tags: [html, css, php, web-design, 'web development']
       repo: 
-      download_class: true
-      view_on_github: true
+      download_class: false
+      view_on_github: false
 
   # projects
   - scope:
