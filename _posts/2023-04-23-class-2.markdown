@@ -1,0 +1,71 @@
+---
+number: 2 
+---
+
+## Command Line 101
+There are some linux command 
+
+## command (powerful)
+argument/parameter
+
+* `ls` - listing
+* `pwd` - present/print working directory
+* `mkdir <folder>` - make a directory/folder
+* `touch <filename>` - to make file
+* `cd <folder>` - change a directory
+* `cp <location1> <location2>` - copy
+* `mv <location1> <location2>` - move/rename
+* `rm <anything>` - remove
+* `echo "something"` to write something on console/terminal
+
+* `output > <filename>` - to write something to a file 
+* `output >> <filename>` - to append something to a file
+  single `>` to write, double `>>`  to  append.
+
+* `cat <file>` - to read a file
+
+
+
+## flag
+flag comes after command.     
+flag start with single `-` when flag is shorter form.   
+flag start with `--` when flag is full form    
+
+* `r` - recursive
+* `f` - force
+* `a` - all
+* `v` - version
+
+
+## identifier 
+* `.` - current folder/directory
+* `..` - previous folder/directory
+* `*` - everything
+
+
+## some completed command  for your references
+
+~~~
+touch apple.txt orange.txt
+pwd
+ls -a
+cd fruits/
+cp ../orange.txt .
+rm * 
+ls ..
+mv ../apple.txt .
+mv ../orange.txt .
+mv apple.txt grap.txt
+mv grap.txt grape.txt
+cat grape.txt
+echo 'hello world'
+echo "amar name amuk" > grape.txt
+echo 'hello world' > grape.txt
+ls >> grape.txt
+ls > grape.txt
+ls 
+touch banana.txt
+~~~
+
+
+
