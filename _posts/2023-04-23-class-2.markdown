@@ -18,9 +18,10 @@ argument/parameter
 * `rm <anything>` - remove
 * `echo "something"` to write something on console/terminal
 
-* `output > <filename>` - to write something to a file 
-* `output >> <filename>` - to append something to a file
-  single `>` to write, double `>>`  to  append.
+* `output > <filename>` - to write something to a file .
+* `output >> <filename>` - to append something to a file.      
+
+>> single `>` to write, double `>>`  to  append.
 
 * `cat <file>` - to read a file
 
