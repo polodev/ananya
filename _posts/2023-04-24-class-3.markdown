@@ -1,0 +1,48 @@
+---
+number: 3
+repo: polodev/ananya-april-24-2023
+---
+
+Html -> hyper text markup language
+
+basic block
+
+~~~html
+<html>
+  <head>
+    <!-- meta information -->
+  </head>
+  <body>
+
+  </body>
+</html>
+
+~~~
+
+## Tag 
+* `html`
+* `head`
+* `title`
+* `h1` to `h6`
+* `p`
+* `ul`
+* `ol`
+* `li`
+* `a`
+* `img`
+* `b` /  `strong`
+* `i`
+* `br`
+* `hr`
+* `u`
+
+## Attribute
+* `href` // its a `a` anchor attribute
+* `src` // source attribute for `img` tag
+* `alt` // alternative text attribute for `img` tag
+
+
+
+
+
+

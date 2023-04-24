@@ -15,7 +15,7 @@ layout: default
       <hr>
       <div>
         {% if page.view_on_github %}
-          <a target="_blank" class="btn btn-lg btn-outline-info mx-3 my-3" href="https://github.com/{{site.github}}/{{page.repo}}">View On Github</a>
+          <a target="_blank" class="btn btn-lg btn-outline-info mx-3 my-3" href="https://github.com/{{site.github}}{{page.repo}}">View On Github</a>
         {% endif %}
         {% if page.download_class %}
           <a class="btn btn-lg btn-outline-danger mx-3" href="https://codeload.github.com/{{site.github}}/{{page.repo}}/zip/master">Download class file</a>
