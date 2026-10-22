@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "তোমার শুরুর বেতন নিয়ে আরও আত্মবিশ্বাসের সঙ্গে কথা বলা উচিত ছিল।",
+    "pron_bn": "",
+    "text": "You should have negotiated your starting salary more confidently during the interview in Chittagong."
+   },
+   {
+    "bn": "তুমি থাকার খরচ কমাতে কোম্পানির হোস্টেলের জন্য আবেদন করতে পারতে।",
+    "pron_bn": "",
+    "text": "You could have applied for company accommodation to reduce your living costs in Dhaka city."
+   },
+   {
+    "bn": "ম্যানেজার নিশ্চয়ই মিটিংয়ের আগেই তোমার সিভি আর সার্টিফিকেট দেখে রেখেছেন।",
+    "pron_bn": "",
+    "text": "The manager must have checked your CV and certificates before the final negotiation meeting yesterday."
+   },
+   {
+    "bn": "তারা হয়তো ভেবেছে তুমি কম বেতনেও চাঁদপুরে কাজ করতে রাজি হবে।",
+    "pron_bn": "",
+    "text": "They might have thought you would accept a lower salary to work comfortably in Chandpur."
+   }
+  ],
+  "points_bn": [
+   "<b>should have + verb-3</b> মানে অতীতে করা উচিত ছিল, কিন্তু করা হয়নি — আফসোস বা সমালোচনা বোঝায়।",
+   "<b>could have + verb-3</b> মানে পারতে, সুযোগ ছিল, কিন্তু করোনি — বিকল্প সম্ভাবনা বোঝায়।",
+   "<b>must have + verb-3</b> মানে অতীত নিয়ে জোরালো অনুমান — নিশ্চয়ই এমনটা ঘটেছে।",
+   "<b>might have + verb-3</b> মানে অতীত নিয়ে হালকা অনুমান — হয়তো এমনটা হতে পারে।"
+  ],
+  "quiz": [
+   {
+    "answer": 2,
+    "options": [
+     "You should accept the first offer.",
+     "You should negotiating a higher salary.",
+     "You should have negotiated a higher salary.",
+     "You should has negotiated a higher salary."
+    ],
+    "q": "You accepted a low salary and now regret it. Choose the correct sentence.",
+    "why_bn": "অতীতের আফসোস বোঝাতে should have + verb-3 হয়, তাই negotiated সঠিক।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "The boss must have approved my leave application yesterday.",
+     "The boss must approve my leave application yesterday.",
+     "The boss must has approved my leave application yesterday.",
+     "The boss must approving my leave application yesterday."
+    ],
+    "q": "Your leave is approved. You guess the boss did it yesterday. Choose the correct sentence.",
+    "why_bn": "অতীত নিয়ে নিশ্চিত অনুমানে must have + verb-3 বসে, তাই approved সঠিক।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "They might accept the proposal tomorrow.",
+     "They might accepted the proposal last week.",
+     "They might accepts the proposal last week.",
+     "They might have accepted the proposal last week."
+    ],
+    "q": "You are not sure about last week. Choose the correct sentence.",
+    "why_bn": "অতীত নিয়ে অনিশ্চিত অনুমানে might have + verb-3 হয়, তাই have accepted সঠিক।"
+   }
+  ],
+  "title_bn": "অতীত নিয়ে আফসোস ও অনুমান: should have, could have, must have, might have"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি বেতন, দাম আর শর্ত নিয়ে ভদ্রভাবে দর-কষাকষি করতে পারবে এবং অতীতের ভুল নিয়ে should have, could have দিয়ে বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "চূড়ান্ত চুক্তিতে সই করার আগে আমরা কি বেতন নিয়ে আরেকবার আলোচনা করতে পারি?",
+   "pron_bn": "",
+   "text": "Could we discuss the salary package once more before I sign the final agreement with you?"
+  },
+  {
+   "bn": "আমার অভিজ্ঞতা আর কাজের চাপ বিবেচনা করে কিছুটা বেশি বেতন কি সম্ভব?",
+   "pron_bn": "",
+   "text": "Considering my experience and workload, would it be possible to offer a slightly higher monthly salary?"
+  },
+  {
+   "bn": "আপনাদের বাজেট বুঝতে পারছি, তবে মাঝামাঝি একটা সমঝোতায় কি আমরা পৌঁছাতে পারি?",
+   "pron_bn": "",
+   "text": "I understand your budget problem, but can we meet in the middle and reach a fair compromise today?"
+  },
+  {
+   "bn": "উৎসব বোনাস, ছুটি আর ওভারটাইমের বিষয়টা কি দয়া করে পরিষ্কার করে বলবেন?",
+   "pron_bn": "",
+   "text": "Could you please clarify the festival bonus, weekly holidays and overtime payment rules for me?"
+  },
+  {
+   "bn": "এই দামটা আমার জন্য একটু বেশি, দয়া করে কি কিছুটা কমানো যাবে?",
+   "pron_bn": "",
+   "text": "This price is a little too high for me, so could you please reduce it a little for regular customers?"
+  },
+  {
+   "bn": "আমি যদি একসঙ্গে বেশি পরিমাণে কিনি, তাহলে কি বিশেষ ছাড় দেবেন?",
+   "pron_bn": "",
+   "text": "If I buy a large quantity of rice and vegetables together, will you give me a special discount price?"
+  },
+  {
+   "bn": "আপনার প্রস্তাবের জন্য ধন্যবাদ, এটা নিয়ে ভাবার জন্য আমার একদিন সময় দরকার।",
+   "pron_bn": "",
+   "text": "Thank you for your kind offer, but I need one day to think carefully and discuss it with family."
+  },
+  {
+   "bn": "আমি এই শর্তে রাজি হতে পারছি না, তবে বিকল্প কোনো প্রস্তাব থাকলে জানাবেন।",
+   "pron_bn": "",
+   "text": "I cannot accept this condition right now, but please let me know if you have any alternative proposal."
+  },
+  {
+   "bn": "আমরা কি পুরো চুক্তিটা লিখিতভাবে নিতে পারি, যাতে পরে কোনো ভুল বোঝাবুঝি না হয়?",
+   "pron_bn": "",
+   "text": "Can we please take the whole agreement in writing so there will be no misunderstanding in future?"
+  },
+  {
+   "bn": "কাজের সময় নমনীয় হলে আমি এই বেতনে আনন্দের সঙ্গে যোগ দিতে পারব।",
+   "pron_bn": "",
+   "text": "If the working hours are a little flexible, I can happily join this job with the offered salary package."
+  },
+  {
+   "bn": "চূড়ান্ত সিদ্ধান্ত নেওয়ার আগে সময়সীমাটা আরেকবার নিশ্চিত করে নিতে পারি কি?",
+   "pron_bn": "",
+   "text": "Before we make the final decision, could we please confirm the joining date and deadline once again?"
+  },
+  {
+   "bn": "আশা করি আমরা এমন একটা সমাধানে পৌঁছাব যা আমাদের দুজনের জন্যই ভালো হবে।",
+   "pron_bn": "",
+   "text": "I hope we can settle this matter peacefully with a fair deal that is good for both sides today."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আমার মনে হয় ঢাকায় আমাদের প্রথম মিটিংয়েই ম্যানেজারের পুরো বেতনের প্যাকেজ বুঝিয়ে দেওয়া উচিত ছিল।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I believe the manager should have explained the full salary package during our first meeting in Dhaka."
+  },
+  {
+   "bn": "তুমি ঠিক বলেছ, আর চাকরির প্রস্তাব নেওয়ার আগে তুমি যাতায়াত ভাতার কথা জিজ্ঞেস করতে পারতে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "You are right, and you could have asked about transport allowance before accepting the job offer."
+  },
+  {
+   "bn": "গত মাসে এইচআর টিম নিশ্চয়ই আমার লিখিত চুক্তিতে উৎসব বোনাস যোগ করতে ভুলে গেছে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "The HR team must have forgotten to include the festival bonus in my written agreement last month."
+  },
+  {
+   "bn": "তারা হয়তো ভেবেছে নতুন কর্মীরা বার্ষিক বেতন পর্যালোচনার নিয়ম আগে থেকেই জানে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "They might have assumed that new staff already understood the company rules about annual salary review."
+  },
+  {
+   "bn": "গতকাল তানভীরের সঙ্গে কাজের সময় আর ওভারটাইমের টাকা নিয়ে আমার আরও স্পষ্ট করে কথা বলা উচিত ছিল।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I should have discussed the working hours and overtime payment more clearly with Tanvir yesterday."
+  },
+  {
+   "bn": "প্রথম প্রস্তাব এত তাড়াতাড়ি ফিরিয়ে না দিয়ে তুমি একটা ভালো সমঝোতার প্রস্তাব দিতে পারতে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "You could have suggested a fair compromise instead of rejecting their first proposal so quickly."
+  },
+  {
+   "bn": "নাদিয়া আমাকে বলল, কোম্পানি নিশ্চয়ই এই বছর অভিজ্ঞ কর্মীদের জন্য বেশি বাজেট অনুমোদন করেছে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Nadia told me the company must have approved a higher budget for experienced workers this year."
+  },
+  {
+   "bn": "আলোচনার মিটিংয়ের আগে কাগজপত্র তৈরি রাখলে হয়তো আমরা আরও ভালো সমঝোতায় পৌঁছাতাম।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "We might have reached a better agreement if we had prepared our documents before the negotiation meeting."
+  },
+  {
+   "bn": "সত্যি বলতে, সবকিছু লিখিত রাখা উচিত ছিল, তাহলে দুই পক্ষ শান্তিতে চূড়ান্ত শর্ত মেনে নিতে পারত।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Honestly, we should have kept everything in writing, so both sides could settle the final terms peacefully."
+  }
+ ],
+ "tip_bn": "দর-কষাকষির সময় রাগ কোরো না, শান্তভাবে হাসিমুখে কথা বলো। আগে বাজারদর জেনে যাও, তাহলে আত্মবিশ্বাসের সঙ্গে ন্যায্য দাম চাইতে পারবে।",
+ "title": "Negotiating Salary and Agreements",
+ "words": [
+  {
+   "bn": "আলোচনা করে সমঝোতা করা",
+   "example": "We negotiated with the shop owner for an hour to get a fair price for fish.",
+   "example_bn": "মাছের ন্যায্য দামের জন্য আমরা দোকানদারের সঙ্গে এক ঘণ্টা দর-কষাকষি করলাম।",
+   "pron_bn": "নেগোশিয়েট",
+   "text": "negotiate"
+  },
+  {
+   "bn": "পাল্টা প্রস্তাব",
+   "example": "The company rejected my demand, so I made a polite counteroffer with extra holidays.",
+   "example_bn": "কোম্পানি আমার দাবি মানেনি, তাই অতিরিক্ত ছুটি চেয়ে আমি ভদ্রভাবে পাল্টা প্রস্তাব দিলাম।",
+   "pron_bn": "কাউন্টার-অফার",
+   "text": "counteroffer"
+  },
+  {
+   "bn": "সমঝোতা, মাঝামাঝি সমাধান",
+   "example": "Both sides made a compromise and finally agreed on a reasonable monthly salary.",
+   "example_bn": "দুই পক্ষই ছাড় দিল এবং শেষ পর্যন্ত যুক্তিসংগত মাসিক বেতনে রাজি হলো।",
+   "pron_bn": "কমপ্রোমাইজ",
+   "text": "compromise"
+  },
+  {
+   "bn": "শেষ সময়সীমা",
+   "example": "The manager gave us a one-week deadline to accept or reject the job offer.",
+   "example_bn": "চাকরির প্রস্তাব মানা বা না মানার জন্য ম্যানেজার আমাদের এক সপ্তাহ সময়সীমা দিলেন।",
+   "pron_bn": "ডেডলাইন",
+   "text": "deadline"
+  },
+  {
+   "bn": "বাজেট, নির্দিষ্ট খরচের পরিকল্পনা",
+   "example": "Our family budget for Sylhet is tight, so we cannot spend extra money now.",
+   "example_bn": "সিলেটে আমাদের পারিবারিক বাজেট এখন টানটান, তাই বাড়তি খরচ করা সম্ভব নয়।",
+   "pron_bn": "বাজেট",
+   "text": "budget"
+  },
+  {
+   "bn": "চুক্তি, আনুষ্ঠানিক সম্মতি",
+   "example": "We signed a clear written agreement about salary, holidays and working hours.",
+   "example_bn": "বেতন, ছুটি আর কাজের সময় নিয়ে আমরা স্পষ্ট লিখিত চুক্তিতে সই করলাম।",
+   "pron_bn": "এগ্রিমেন্ট",
+   "text": "agreement"
+  },
+  {
+   "bn": "ন্যায্য লেনদেন",
+   "example": "After long discussion, the farmer and I settled on a fair deal for vegetables.",
+   "example_bn": "দীর্ঘ আলোচনার পর কৃষক আর আমি সবজির ন্যায্য দামে রাজি হলাম।",
+   "pron_bn": "ফেয়ার ডিল",
+   "text": "fair deal"
+  },
+  {
+   "bn": "নমনীয়",
+   "example": "My boss is quite flexible about office time during the rainy season in Dhaka.",
+   "example_bn": "ঢাকায় বর্ষাকালে অফিসের সময় নিয়ে আমার বস বেশ নমনীয়।",
+   "pron_bn": "ফ্লেক্সিবল",
+   "text": "flexible"
+  },
+  {
+   "bn": "প্রত্যাখ্যান করা",
+   "example": "Nadia politely rejected the low offer and asked the manager for a better salary.",
+   "example_bn": "নাদিয়া ভদ্রভাবে কম প্রস্তাব ফিরিয়ে দিল এবং ম্যানেজারের কাছে ভালো বেতন চাইল।",
+   "pron_bn": "রিজেক্ট",
+   "text": "reject"
+  },
+  {
+   "bn": "মীমাংসা করা",
+   "example": "After talking calmly for thirty minutes, we finally settled the price of chicken.",
+   "example_bn": "তিরিশ মিনিট শান্তভাবে কথা বলে আমরা শেষ পর্যন্ত মুরগির দাম ঠিক করলাম।",
+   "pron_bn": "সেটল",
+   "text": "settle"
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "সে বলল যে বাসটি দেরি করে চলছে।",
+    "pron_bn": "",
+    "text": "He said that the bus was running late today."
+   },
+   {
+    "bn": "সে আমাকে বলল যে পরদিন অফিস বন্ধ থাকবে।",
+    "pron_bn": "",
+    "text": "She told me that the office would be closed the next day."
+   },
+   {
+    "bn": "তিনি জিজ্ঞেস করলেন আমরা অনুষ্ঠানে গিয়েছিলাম কি না।",
+    "pron_bn": "",
+    "text": "He asked if we went to the programme yesterday."
+   },
+   {
+    "bn": "তারা বলল যে ভারী বৃষ্টির কারণে রাস্তা বন্ধ আছে।",
+    "pron_bn": "",
+    "text": "They said that the road was closed because of heavy rain."
+   }
+  ],
+  "points_bn": [
+   "কারো কথা অন্যকে জানাতে <b>said that</b> ব্যবহার করো: He said that...।",
+   "<b>told me that</b> মানে আমাকে বলল যে: She told me that...। say-এর পরে নাম থাকে না, tell-এর পরে নাম থাকে।",
+   "হ্যাঁ-না প্রশ্ন জানাতে <b>asked if</b> ব্যবহার করো: He asked if...।",
+   "that-এর পরে বাক্যে am/is বদলে was, are বদলে were, will বদলে would হয়।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "He said me that he was busy.",
+     "He said that he was busy.",
+     "He told that he was busy.",
+     "He asked that he was busy."
+    ],
+    "q": "Rafi was busy. Choose the correct reported speech.",
+    "why_bn": "say-এর পরে me বসে না, said that বসে। tell-এর পরে নাম লাগে, তাই He said that he was busy সঠিক।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "She told to me that she will come.",
+     "She said me that she would come.",
+     "She asked that she would come.",
+     "She told me that she would come."
+    ],
+    "q": "Choose the correct sentence with told me that.",
+    "why_bn": "tell-এর পরে সরাসরি নাম বসে, to বসে না। তাই She told me that সঠিক, told to me ভুল।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "She asked if I needed any help.",
+     "She asked that I needed any help.",
+     "She said if I needed any help.",
+     "She told if I needed any help."
+    ],
+    "q": "She asked: Do you need help? Choose the correct reported speech.",
+    "why_bn": "হ্যাঁ-না প্রশ্ন জানাতে asked if ব্যবহার করতে হয়। তাই She asked if I needed any help সঠিক।"
+   }
+  ],
+  "title_bn": "অন্যের কথা জানানো: said that, told me that, asked if"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি খবর ও ঘটনা নিয়ে অন্যের বলা কথা ইংরেজিতে জানাতে পারবে।",
+ "phrases": [
+  {
+   "bn": "সে বলল যে ট্রেন দুই ঘণ্টা দেরি করেছে।",
+   "pron_bn": "",
+   "text": "He said that the train was two hours late."
+  },
+  {
+   "bn": "সে আমাকে বলল যে পরদিন স্কুল বন্ধ থাকবে।",
+   "pron_bn": "",
+   "text": "She told me that the school would stay closed the next day."
+  },
+  {
+   "bn": "তারা জিজ্ঞেস করল আমি আজ সকালে খবরটা দেখেছি কি না।",
+   "pron_bn": "",
+   "text": "They asked if I watched the news this morning."
+  },
+  {
+   "bn": "ডাক্তার বললেন আমার বাবার আরও বিশ্রাম দরকার।",
+   "pron_bn": "",
+   "text": "The doctor said that my father needs more rest."
+  },
+  {
+   "bn": "মিতু আমাকে বলল যে বাস ভাড়া বেড়ে গেছে।",
+   "pron_bn": "",
+   "text": "Mitu told me that the bus fare has increased."
+  },
+  {
+   "bn": "তিনি জিজ্ঞেস করলেন রাস্তা এখন খোলা আছে কি না।",
+   "pron_bn": "",
+   "text": "He asked if the road was open."
+  },
+  {
+   "bn": "খবরে বলা হলো ভারী বৃষ্টি সেই রাতেই থামবে।",
+   "pron_bn": "",
+   "text": "The news said that the heavy rain would stop that night."
+  },
+  {
+   "bn": "আমার শিক্ষক বললেন পরীক্ষা সোমবার থেকে শুরু হবে।",
+   "pron_bn": "",
+   "text": "My teacher said that the exam would start on Monday."
+  },
+  {
+   "bn": "সে আমাকে বলল যে সে চাঁদপুরে বন্যা দেখেছে।",
+   "pron_bn": "",
+   "text": "He told me that he saw the flood in Chandpur."
+  },
+  {
+   "bn": "পুলিশ জিজ্ঞেস করল আমরা কিছু দেখেছি কি না।",
+   "pron_bn": "",
+   "text": "The police asked if we saw anything there."
+  },
+  {
+   "bn": "আমি শুনেছি যে নতুন হাসপাতাল আগামী মাসে খুলবে।",
+   "pron_bn": "",
+   "text": "I heard that the new hospital will open next month."
+  },
+  {
+   "bn": "সে বলল যে এটা শুধু গুজব, সত্যি খবর নয়।",
+   "pron_bn": "",
+   "text": "She said that it was only a rumour, not true news."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "তুমি কি বন্যার রিপোর্ট দেখেছ যেখানে বলা হলো নদীর পানি দ্রুত বাড়ছে?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Did you watch the flood report that said that the river was rising fast?"
+  },
+  {
+   "bn": "হ্যাঁ, সাংবাদিক বললেন চাঁদপুরের কাছে তিনটি গ্রামে এরই মধ্যে পানি উঠেছে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Yes, the reporter said that three villages near Chandpur were already flooded."
+  },
+  {
+   "bn": "আমার চাচাতো ভাই আমাকে বলল তার স্কুল এখন পরিবারদের আশ্রয়কেন্দ্র।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "My cousin told me that his school is now a shelter for families."
+  },
+  {
+   "bn": "একজন প্রত্যক্ষদর্শী বললেন নৌকায় করে আজ সকালে খাবার আর পানি আনা হয়েছে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "A witness said that boats carried food and clean water this morning."
+  },
+  {
+   "bn": "আমাদের শিক্ষক বললেন আমাদের কলেজ শুকনো খাবার আর কাপড় তুলবে।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "Our teacher said that our college will collect clothes and dry food."
+  },
+  {
+   "bn": "তিনি আরও জিজ্ঞেস করলেন আমরা চাল, রুটি আর শিশুখাদ্য আনতে পারব কি না।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "She also asked if we could bring rice, bread, and baby food."
+  },
+  {
+   "bn": "স্থানীয় সাংবাদিক জিজ্ঞেস করলেন সিলেটের রাস্তা এখনো খোলা আছে কি না।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "The local reporter asked if the roads to Sylhet were still open."
+  },
+  {
+   "bn": "তিনি বললেন বাস দেরি করছে কিন্তু ত্রাণের গাড়ি এখনো যেতে পারছে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "He said that buses were delayed but relief trucks could still pass."
+  },
+  {
+   "bn": "আমি ভাইকে বলেছি যে শুক্রবারে আমরা সাহায্য করব।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "I told my brother that we would help on Friday."
+  }
+ ],
+ "tip_bn": "খবর শুনে কাউকে জানানোর সময় He said, She told me দিয়ে শুরু করে দেখো। প্রথমে ছোট খবর নিয়ে বন্ধুদের সঙ্গে চর্চা করো, এতে আত্মবিশ্বাস বাড়বে।",
+ "title": "What People Said",
+ "words": [
+  {
+   "bn": "প্রধান শিরোনাম",
+   "example": "The main headline said that the ferry service was delayed.",
+   "example_bn": "প্রধান শিরোনামে বলা হলো ফেরি চলাচল দেরি হবে।",
+   "pron_bn": "হেডলাইন",
+   "text": "headline"
+  },
+  {
+   "bn": "প্রতিবেদন, জানানো",
+   "example": "The TV report said that schools in Sylhet were closed.",
+   "example_bn": "টিভি রিপোর্টে বলা হলো সিলেটের স্কুলগুলো বন্ধ।",
+   "pron_bn": "রিপোর্ট",
+   "text": "report"
+  },
+  {
+   "bn": "তথ্যের উৎস",
+   "example": "The source told me that the new road would open soon.",
+   "example_bn": "উৎসটি আমাকে বলল নতুন রাস্তা শিগগিরই খুলবে।",
+   "pron_bn": "সোর্স",
+   "text": "source"
+  },
+  {
+   "bn": "প্রত্যক্ষদর্শী",
+   "example": "A witness said that the truck stopped before the bridge.",
+   "example_bn": "একজন প্রত্যক্ষদর্শী বললেন ট্রাকটি ব্রিজের আগে থেমেছিল।",
+   "pron_bn": "উইটনেস",
+   "text": "witness"
+  },
+  {
+   "bn": "নিশ্চিত করা",
+   "example": "The headmaster confirmed that the exam date had changed.",
+   "example_bn": "প্রধান শিক্ষক নিশ্চিত করলেন পরীক্ষার তারিখ বদলেছে।",
+   "pron_bn": "কনফার্ম",
+   "text": "confirm"
+  },
+  {
+   "bn": "ঘোষণা করা",
+   "example": "The mayor announced that a free medical camp would start the next day.",
+   "example_bn": "মেয়র ঘোষণা করলেন যে পরদিন বিনামূল্যে চিকিৎসা ক্যাম্প শুরু হবে।",
+   "pron_bn": "অ্যানাউন্স",
+   "text": "announce"
+  },
+  {
+   "bn": "ঘটনা, দুর্ঘটনা",
+   "example": "He said that nobody was hurt in the road incident.",
+   "example_bn": "সে বলল সড়কের ঘটনায় কেউ আহত হয়নি।",
+   "pron_bn": "ইনসিডেন্ট",
+   "text": "incident"
+  },
+  {
+   "bn": "সর্বশেষ খবর",
+   "example": "She asked if I had heard the latest weather update.",
+   "example_bn": "সে জিজ্ঞেস করল আমি আবহাওয়ার সর্বশেষ খবর শুনেছি কি না।",
+   "pron_bn": "আপডেট",
+   "text": "update"
+  },
+  {
+   "bn": "সাক্ষাৎকার",
+   "example": "In the interview, he said that farmers need more support.",
+   "example_bn": "সাক্ষাৎকারে তিনি বললেন কৃষকদের আরও সহায়তা দরকার।",
+   "pron_bn": "ইন্টারভিউ",
+   "text": "interview"
+  },
+  {
+   "bn": "নির্ভরযোগ্য",
+   "example": "My friend said that this news channel is very reliable.",
+   "example_bn": "আমার বন্ধু বলল এই খবরের চ্যানেলটি খুব নির্ভরযোগ্য।",
+   "pron_bn": "রিলায়েবল",
+   "text": "reliable"
+  }
+ ]
+}

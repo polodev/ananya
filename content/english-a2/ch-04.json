@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "তোমার প্রচুর পানি পান করা উচিত।",
+    "pron_bn": "ইউ শুড ড্রিংক আ লট অফ ওয়াটার।",
+    "text": "You should drink a lot of water."
+   },
+   {
+    "bn": "বৃষ্টিতে তোমার বাইরে যাওয়া উচিত নয়।",
+    "pron_bn": "ইউ শুডন্ট গো আউট ইন দ্য রেইন।",
+    "text": "You shouldn't go out in the rain."
+   },
+   {
+    "bn": "তার সময়মতো ওষুধ খাওয়া উচিত।",
+    "pron_bn": "হি শুড টেক হিজ মেডিসিন অন টাইম।",
+    "text": "He should take his medicine on time."
+   },
+   {
+    "bn": "আমার কি আজ বাসায় বিশ্রাম নেওয়া উচিত?",
+    "pron_bn": "শুড আই রেস্ট অ্যাট হোম টুডে?",
+    "text": "Should I rest at home today?"
+   }
+  ],
+  "points_bn": [
+   "<b>should</b> মানে উচিত। ভালো পরামর্শ দিতে বসে।",
+   "<b>shouldn't</b> মানে উচিত নয়। নিষেধ বা সাবধান করতে বসে।",
+   "<b>should</b> এর পরে মূল verb বসে, to বসে না।",
+   "প্রশ্নে <b>Should</b> বাক্যের শুরুতে বসে।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "should to",
+     "should",
+     "shoulds",
+     "shouldn't not"
+    ],
+    "q": "You ___ drink clean water every day.",
+    "why_bn": "should এর পরে সরাসরি মূল verb বসে। to বা s যোগ হয় না।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Should",
+     "Do",
+     "Does",
+     "Is"
+    ],
+    "q": "___ I rest at home today?",
+    "why_bn": "should দিয়ে প্রশ্ন শুরু হয়। I এর সাথে Do নয়, Should বসে।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "should go",
+     "should to go",
+     "shoulds go",
+     "shouldn't go"
+    ],
+    "q": "My head hurts. You ___ go to work.",
+    "why_bn": "অসুস্থ অবস্থায় কাজে যাওয়া ঠিক নয়, তাই shouldn't go হবে।"
+   }
+  ],
+  "title_bn": "should / shouldn't দিয়ে পরামর্শ দেওয়া"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি ফার্মেসিতে অসুখের কথা বলতে পারবে এবং ডাক্তারের পরামর্শ বুঝতে পারবে।",
+ "phrases": [
+  {
+   "bn": "গত রাতে আমার জ্বর এসেছিল।",
+   "pron_bn": "আই হ্যাড আ ফিভার লাস্ট নাইট।",
+   "text": "I had a fever last night."
+  },
+  {
+   "bn": "আমার খুব কাশি আর সর্দি হয়েছে।",
+   "pron_bn": "আই হ্যাভ আ ব্যাড কাফ অ্যান্ড কোল্ড।",
+   "text": "I have a bad cough and cold."
+  },
+  {
+   "bn": "আজ আমার মাথা খুব ব্যথা করছে।",
+   "pron_bn": "মাই হেড হার্টস ভেরি ব্যাডলি টুডে।",
+   "text": "My head hurts very badly today."
+  },
+  {
+   "bn": "এই ব্যথার জন্য কিছু আছে কি?",
+   "pron_bn": "ডু ইউ হ্যাভ সামথিং ফর দিস পেইন?",
+   "text": "Do you have something for this pain?"
+  },
+  {
+   "bn": "তোমার খুব তাড়াতাড়ি ডাক্তার দেখানো উচিত।",
+   "pron_bn": "ইউ শুড সি আ ডক্টর ভেরি সুন।",
+   "text": "You should see a doctor very soon."
+  },
+  {
+   "bn": "আজ তোমার কাজে যাওয়া উচিত নয়।",
+   "pron_bn": "ইউ শুডন্ট গো টু ওয়ার্ক টুডে।",
+   "text": "You shouldn't go to work today."
+  },
+  {
+   "bn": "দয়া করে এই ওষুধ দিনে দুবার খাও।",
+   "pron_bn": "টেক দিস মেডিসিন টোয়াইস আ ডে প্লিজ।",
+   "text": "Take this medicine twice a day please."
+  },
+  {
+   "bn": "দয়া করে প্রতিদিন খাবারের পরে খাও।",
+   "pron_bn": "প্লিজ টেক ইট আফটার ফুড এভরি ডে।",
+   "text": "Please take it after food every day."
+  },
+  {
+   "bn": "দয়া করে প্রচুর পরিষ্কার পানি পান করো।",
+   "pron_bn": "প্লিজ ড্রিংক আ লট অফ ক্লিন ওয়াটার।",
+   "text": "Please drink a lot of clean water."
+  },
+  {
+   "bn": "আজ তোমার বাসায় বিশ্রাম নেওয়া উচিত।",
+   "pron_bn": "ইউ শুড রেস্ট অ্যাট হোম টুডে।",
+   "text": "You should rest at home today."
+  },
+  {
+   "bn": "আশা করি তুমি খুব তাড়াতাড়ি সুস্থ হবে।",
+   "pron_bn": "আই হোপ ইউ গেট ওয়েল ভেরি সুন।",
+   "text": "I hope you get well very soon."
+  },
+  {
+   "bn": "আমাকে আবার কখন আসতে হবে?",
+   "pron_bn": "হোয়েন শুড আই কাম ব্যাক এগেইন?",
+   "text": "When should I come back again?"
+  }
+ ],
+ "reading": [
+  {
+   "bn": "সুপ্রভাত! আমার জ্বর আর কাশি হয়েছে।",
+   "pron_bn": "গুড মর্নিং! আই হ্যাভ আ ফিভার অ্যান্ড কাফ।",
+   "speaker": "Rafi",
+   "text": "Good morning! I have a fever and cough."
+  },
+  {
+   "bn": "শুনে খারাপ লাগল। আগে তোমার ডাক্তার দেখানো উচিত।",
+   "pron_bn": "আই অ্যাম সরি। ইউ শুড সি আ ডক্টর ফার্স্ট।",
+   "speaker": "Mitu",
+   "text": "I am sorry. You should see a doctor first."
+  },
+  {
+   "bn": "আমি ডাক্তার দেখিয়েছি, আর এই যে আমার প্রেসক্রিপশন।",
+   "pron_bn": "আই স আ ডক্টর, অ্যান্ড হিয়ার ইজ মাই প্রেসক্রিপশন।",
+   "speaker": "Rafi",
+   "text": "I saw a doctor, and here is my prescription."
+  },
+  {
+   "bn": "ভালো। তোমার এই ওষুধ দিনে দুবার খাওয়া উচিত।",
+   "pron_bn": "গুড। ইউ শুড টেক দিস মেডিসিন টোয়াইস ডেইলি।",
+   "speaker": "Mitu",
+   "text": "Good. You should take this medicine twice daily."
+  },
+  {
+   "bn": "খাবারের আগে না পরে খাব?",
+   "pron_bn": "শুড আই টেক ইট বিফোর অর আফটার ফুড?",
+   "speaker": "Rafi",
+   "text": "Should I take it before or after food?"
+  },
+  {
+   "bn": "খাবারের পরে এক গ্লাস পানি দিয়ে খাও।",
+   "pron_bn": "টেক ইট আফটার ফুড উইথ আ গ্লাস অফ ওয়াটার।",
+   "speaker": "Mitu",
+   "text": "Take it after food with a glass of water."
+  },
+  {
+   "bn": "এই মাথাব্যথা নিয়ে কি কাজে যাওয়া উচিত?",
+   "pron_bn": "শুড আই গো টু ওয়ার্ক উইথ দিস হেডেক?",
+   "speaker": "Rafi",
+   "text": "Should I go to work with this headache?"
+  },
+  {
+   "bn": "না, বাইরে যাওয়া উচিত নয়। তোমার বিশ্রাম নেওয়া উচিত।",
+   "pron_bn": "নো, ইউ শুডন্ট গো আউট। ইউ শুড রেস্ট।",
+   "speaker": "Mitu",
+   "text": "No, you shouldn't go out. You should rest."
+  }
+ ],
+ "tip_bn": "ফার্মেসিতে প্রেসক্রিপশন সাথে রাখো এবং ওষুধ খাওয়ার নিয়ম জিজ্ঞেস করো। বাংলাদেশে ফার্মেসি থেকে বিনা কারণে অ্যান্টিবায়োটিক না কেনাই ভালো।",
+ "title": "At the Pharmacy",
+ "words": [
+  {
+   "bn": "জ্বর",
+   "example": "I have a slight fever today.",
+   "example_bn": "আজ আমার হালকা জ্বর আছে।",
+   "pron_bn": "ফিভার",
+   "text": "fever"
+  },
+  {
+   "bn": "কাশি",
+   "example": "My cough is very bad this morning.",
+   "example_bn": "আজ সকালে আমার কাশি খুব বেশি।",
+   "pron_bn": "কাফ",
+   "text": "cough"
+  },
+  {
+   "bn": "মাথাব্যথা",
+   "example": "I have a bad headache today.",
+   "example_bn": "আজ আমার খুব মাথাব্যথা করছে।",
+   "pron_bn": "হেডেক",
+   "text": "headache"
+  },
+  {
+   "bn": "সর্দি, ঠান্ডা লাগা",
+   "example": "Tanvir has a cold and sore throat.",
+   "example_bn": "তানভিরের সর্দি আর গলা ব্যথা হয়েছে।",
+   "pron_bn": "কোল্ড",
+   "text": "cold"
+  },
+  {
+   "bn": "ওষুধ",
+   "example": "Take your medicine after dinner daily.",
+   "example_bn": "প্রতিদিন রাতের খাবারের পরে ওষুধ খাও।",
+   "pron_bn": "মেডিসিন",
+   "text": "medicine"
+  },
+  {
+   "bn": "ফার্মেসি, ওষুধের দোকান",
+   "example": "The pharmacy is near Dhaka Medical College.",
+   "example_bn": "ফার্মেসিটি ঢাকা মেডিকেল কলেজের কাছে।",
+   "pron_bn": "ফার্মেসি",
+   "text": "pharmacy"
+  },
+  {
+   "bn": "প্রেসক্রিপশন",
+   "example": "Please show your prescription at the counter.",
+   "example_bn": "দয়া করে কাউন্টারে তোমার প্রেসক্রিপশন দেখাও।",
+   "pron_bn": "প্রেসক্রিপশন",
+   "text": "prescription"
+  },
+  {
+   "bn": "বিশ্রাম নেওয়া",
+   "example": "You should rest at home today.",
+   "example_bn": "আজ তোমার বাসায় বিশ্রাম নেওয়া উচিত।",
+   "pron_bn": "রেস্ট",
+   "text": "rest"
+  },
+  {
+   "bn": "ব্যথা",
+   "example": "I feel pain in my whole body.",
+   "example_bn": "আমার সারা শরীরে ব্যথা করছে।",
+   "pron_bn": "পেইন",
+   "text": "pain"
+  },
+  {
+   "bn": "দিনে দুবার",
+   "example": "Take this syrup twice a day please.",
+   "example_bn": "দয়া করে এই সিরাপ দিনে দুবার খাও।",
+   "pron_bn": "টোয়াইস আ ডে",
+   "text": "twice a day"
+  }
+ ]
+}

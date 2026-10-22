@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি আগামীকাল অফিসের পর ঘরের কাজে মাকে সাহায্য করব।",
+    "pron_bn": "",
+    "text": "I will help my mother with housework after office tomorrow."
+   },
+   {
+    "bn": "ভালো চাকরি পেতে আমি কম্পিউটার স্কিল শিখব।",
+    "pron_bn": "",
+    "text": "I'm going to learn computer skills to get a better job."
+   },
+   {
+    "bn": "পদোন্নতির বিষয়ে কথা বলতে আমি আগামীকাল দশটায় ম্যানেজারের সঙ্গে দেখা করছি।",
+    "pron_bn": "",
+    "text": "I'm meeting my manager at ten tomorrow for my promotion."
+   },
+   {
+    "bn": "আগামীকাল এই সময়ে আমি বাসে করে সিলেটের পথে থাকব।",
+    "pron_bn": "",
+    "text": "This time tomorrow, I'll be travelling to Sylhet by bus."
+   }
+  ],
+  "points_bn": [
+   "হঠাৎ সিদ্ধান্ত, প্রতিশ্রুতি বা মতামত বোঝাতে <b>will</b> ব্যবহার করো, যেমন: I will help you।",
+   "আগে থেকে ঠিক করা ইচ্ছা বা স্পষ্ট লক্ষণ দেখে অনুমান বোঝাতে <b>going to</b> ব্যবহার করো, যেমন: I'm going to save money।",
+   "সময় ঠিক হয়ে আছে এমন ভবিষ্যৎ প্ল্যান বোঝাতে <b>present continuous (am/is/are + verb-ing)</b> ব্যবহার করো, যেমন: I'm meeting him tomorrow।",
+   "ভবিষ্যতে কোনো সময়ে কাজ চলতে থাকবে বোঝাতে <b>future continuous (will be + verb-ing)</b> ব্যবহার করো, যেমন: I'll be working at ten।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "I will meeting my teacher tomorrow at ten for guidance.",
+     "I'm meeting my teacher tomorrow at ten for good guidance.",
+     "I will be meet my teacher tomorrow at ten for guidance.",
+     "I'm meet my teacher tomorrow at ten for good guidance."
+    ],
+    "q": "Rafi has a fixed meeting with his teacher tomorrow at ten. Which sentence is correct?",
+    "why_bn": "সময় ঠিক করা ভবিষ্যৎ প্ল্যানের জন্য present continuous হয়, তাই I'm meeting সঠিক। will meeting বা will be meet ভুল গঠন।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "This time next year, I go to work in a big Dhaka company.",
+     "This time next year, I am go to working in a big company.",
+     "This time next year, I will be working in a big Dhaka company.",
+     "This time next year, I will working in a big Dhaka company."
+    ],
+    "q": "Mitu is talking about her life this time next year. Which sentence is correct?",
+    "why_bn": "ভবিষ্যতে কোনো সময়ে কাজ চলতে থাকবে বোঝাতে future continuous (will be + verb-ing) হয়, তাই will be working সঠিক।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Look at the clouds! It is going to rain heavily in Sylhet tonight.",
+     "Look at the clouds! It will to rain heavily in Sylhet tonight.",
+     "Look at the clouds! It rains heavily in Sylhet tonight for sure.",
+     "Look at the clouds! It is rain heavily in Sylhet tonight surely."
+    ],
+    "q": "Nadia sees dark clouds in the sky over Sylhet. Which sentence is correct?",
+    "why_bn": "স্পষ্ট লক্ষণ দেখে অনুমান বোঝাতে going to ব্যবহার হয়, তাই is going to rain সঠিক।"
+   }
+  ],
+  "title_bn": "ভবিষ্যৎ পরিকল্পনা: will, going to, present continuous, future continuous"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি পাঁচ বছর পরের স্বপ্ন ও লক্ষ্য নিয়ে ইংরেজিতে কথা বলতে পারবে এবং নিজের ভবিষ্যৎ পরিকল্পনা সহজে বর্ণনা করতে পারবে।",
+ "phrases": [
+  {
+   "bn": "পাঁচ বছর পরে আমি একজন দক্ষ অফিস ম্যানেজার হতে চাই।",
+   "pron_bn": "",
+   "text": "In five years, I want to be a skilled office manager."
+  },
+  {
+   "bn": "ভবিষ্যতের জন্য আমি প্রতি মাসে টাকা জমাব।",
+   "pron_bn": "",
+   "text": "I'm going to save money every month for my future."
+  },
+  {
+   "bn": "আমার লক্ষ্য নিয়ে কথা বলতে আমি আগামীকাল শিক্ষকের সঙ্গে দেখা করছি।",
+   "pron_bn": "",
+   "text": "I'm meeting my teacher tomorrow to talk about my goals."
+  },
+  {
+   "bn": "আগামী সপ্তাহে এই সময়ে আমি কম্পিউটার কোর্সের পড়া পড়ব।",
+   "pron_bn": "",
+   "text": "This time next week, I'll be studying for my computer course."
+  },
+  {
+   "bn": "আমার স্বপ্ন পূরণ করতে আমি কঠোর পরিশ্রম করব।",
+   "pron_bn": "",
+   "text": "I will work hard to achieve my dream."
+  },
+  {
+   "bn": "তুমি কি শিগগির নতুন চাকরির জন্য আবেদন করবে?",
+   "pron_bn": "",
+   "text": "Are you going to apply for a new job soon?"
+  },
+  {
+   "bn": "আমাদের পরিকল্পনা নিয়ে আলোচনা করতে আজ রাতে পারিবারিক মিটিং করছি।",
+   "pron_bn": "",
+   "text": "We're having a family meeting tonight to discuss our plans."
+  },
+  {
+   "bn": "চিন্তা কোরো না, আমি তোমার ইংরেজি প্র্যাকটিসে সাহায্য করব।",
+   "pron_bn": "",
+   "text": "Don't worry, I will help you with your English practice."
+  },
+  {
+   "bn": "নতুন ট্রেনিং প্রোগ্রামের জন্য আমি ঢাকায় থাকব।",
+   "pron_bn": "",
+   "text": "I'll be living in Dhaka for my new training program."
+  },
+  {
+   "bn": "আমি সিলেটে একটি ছোট ব্যবসা শুরু করতে চাই।",
+   "pron_bn": "",
+   "text": "I plan to start a small business in Sylhet."
+  },
+  {
+   "bn": "আমার ভাই আগামী মাসে চট্টগ্রামে নতুন অফিসে যোগ দিচ্ছে।",
+   "pron_bn": "",
+   "text": "My brother is joining a new office in Chittagong next month."
+  },
+  {
+   "bn": "ভবিষ্যতে আমি প্রতিদিন কাজে ইংরেজি ব্যবহার করব।",
+   "pron_bn": "",
+   "text": "In the future, I will be using English at work every day."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "ভবিষ্যৎ পরিকল্পনা নিয়ে আলোচনা করতে আমি আগামীকাল সকালে ক্যারিয়ার কাউন্সেলরের সঙ্গে দেখা করছি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I'm meeting my career counselor tomorrow morning to discuss my future plans."
+  },
+  {
+   "bn": "খুব ভালো! তুমি তাঁকে কী জিজ্ঞেস করবে?",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "That's great! What are you going to ask him?"
+  },
+  {
+   "bn": "আমি আইটি ট্রেনিংয়ের কথা জিজ্ঞেস করব, কারণ ঢাকায় এগোতে চাই।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I'm going to ask about IT training because I want to grow in Dhaka."
+  },
+  {
+   "bn": "আমার মনে হয় নতুন স্কিল শিখলে তুমি শিগগির ভালো চাকরি পাবে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "I think you will get a good job soon if you learn new skills."
+  },
+  {
+   "bn": "আগামী বছর এই সময়ে আমি একটা বড় সফটওয়্যার কোম্পানিতে কাজ করব।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "This time next year, I will be working in a big software company."
+  },
+  {
+   "bn": "যোগাযোগ দক্ষতা বাড়াতে আমি আগামী মাসে অনলাইন ইংরেজি কোর্স শুরু করছি।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "I am starting an online English course next month to improve my communication."
+  },
+  {
+   "bn": "ভালো পরিকল্পনা! অনলাইনে পড়ার সময় তুমি কি চট্টগ্রামেই থাকবে?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Good plan! Will you be living in Chittagong while you study online?"
+  },
+  {
+   "bn": "না, আমি পরিবারের সঙ্গে চাঁদপুরে থাকব আর টাকা জমাব।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "No, I'm going to stay in Chandpur with my family and save money."
+  },
+  {
+   "bn": "পাঁচ বছর পরে আমাদের সফল ক্যারিয়ার হবে এবং একসঙ্গে সমাজকে সাহায্য করব।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "In five years, we will have successful careers and help our community together."
+  }
+ ],
+ "tip_bn": "প্রতিদিন রাতে আয়নার সামনে দাঁড়িয়ে In five years, I will... দিয়ে দুটি বাক্য বলো। মোবাইলে তোমার তিনটি লক্ষ্য ইংরেজিতে লিখে রাখো, এতে ভবিষ্যতের রূপগুলো সহজে মনে থাকবে।",
+ "title": "Dreams and Goals in Five Years",
+ "words": [
+  {
+   "bn": "লক্ষ্য",
+   "example": "I'm working hard every day to achieve my main goal.",
+   "example_bn": "আমার মূল লক্ষ্য অর্জন করতে আমি প্রতিদিন কঠোর পরিশ্রম করছি।",
+   "pron_bn": "গোল",
+   "text": "goal"
+  },
+  {
+   "bn": "পরিকল্পনা",
+   "example": "We're going to follow our study plan very carefully.",
+   "example_bn": "আমরা আমাদের পড়ার পরিকল্পনা খুব মনোযোগ দিয়ে মেনে চলব।",
+   "pron_bn": "প্ল্যান",
+   "text": "plan"
+  },
+  {
+   "bn": "অর্জন করা",
+   "example": "She will achieve success if she practices English daily.",
+   "example_bn": "প্রতিদিন ইংরেজি চর্চা করলে সে সফলতা অর্জন করবে।",
+   "pron_bn": "অ্যাচিভ",
+   "text": "achieve"
+  },
+  {
+   "bn": "দক্ষতা",
+   "example": "I'm learning new computer skills for my future office job.",
+   "example_bn": "ভবিষ্যতের অফিস চাকরির জন্য আমি নতুন কম্পিউটার দক্ষতা শিখছি।",
+   "pron_bn": "স্কিল",
+   "text": "skill"
+  },
+  {
+   "bn": "পেশা, ক্যারিয়ার",
+   "example": "In five years, I want to build a good teaching career.",
+   "example_bn": "পাঁচ বছরে আমি ভালো শিক্ষকতার পেশা গড়তে চাই।",
+   "pron_bn": "ক্যারিয়ার",
+   "text": "career"
+  },
+  {
+   "bn": "সুযোগ",
+   "example": "This training will give me a better job opportunity.",
+   "example_bn": "এই প্রশিক্ষণ আমাকে আরও ভালো চাকরির সুযোগ দেবে।",
+   "pron_bn": "অপরচুনিটি",
+   "text": "opportunity"
+  },
+  {
+   "bn": "সফল",
+   "example": "He will be a successful businessman in Chittagong city.",
+   "example_bn": "সে চট্টগ্রাম শহরে একজন সফল ব্যবসায়ী হবে।",
+   "pron_bn": "সাকসেসফুল",
+   "text": "successful"
+  },
+  {
+   "bn": "ভবিষ্যৎ",
+   "example": "We are saving money now for our children's bright future.",
+   "example_bn": "আমরা এখন আমাদের সন্তানদের উজ্জ্বল ভবিষ্যতের জন্য টাকা জমাচ্ছি।",
+   "pron_bn": "ফিউচার",
+   "text": "future"
+  },
+  {
+   "bn": "প্রশিক্ষণ",
+   "example": "I'm joining a six-month computer training program next week.",
+   "example_bn": "আমি আগামী সপ্তাহে ছয় মাসের কম্পিউটার প্রশিক্ষণে যোগ দিচ্ছি।",
+   "pron_bn": "ট্রেইনিং",
+   "text": "training"
+  },
+  {
+   "bn": "টাকা জমিয়ে রাখা",
+   "example": "I'm going to save up money to buy a new laptop.",
+   "example_bn": "নতুন ল্যাপটপ কেনার জন্য আমি টাকা জমাব।",
+   "pron_bn": "সেইভ আপ",
+   "text": "save up"
+  }
+ ]
+}

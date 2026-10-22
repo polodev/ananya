@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি ভালোভাবে ভাত আর সবজি রাঁধতে পারি।",
+    "pron_bn": "আই ক্যান কুক রাইস অ্যান্ড ভেজিটেবলস ওয়েল।",
+    "text": "I can cook rice and vegetables well."
+   },
+   {
+    "bn": "সে ঢাকায় বাস চালাতে পারে না।",
+    "pron_bn": "শি কান্ট ড্রাইভ আ বাস ইন ঢাকা।",
+    "text": "She can't drive a bus in Dhaka."
+   },
+   {
+    "bn": "কাজে আমাকে ইউনিফর্ম পরতেই হবে।",
+    "pron_bn": "আই হ্যাভ টু ওয়্যার আ ইউনিফর্ম অ্যাট ওয়ার্ক।",
+    "text": "I have to wear a uniform at work."
+   },
+   {
+    "bn": "শুক্রবার সকালে তোমাকে কাজ করতে হবে না।",
+    "pron_bn": "ইউ ডোন্ট হ্যাভ টু ওয়ার্ক অন ফ্রাইডে মর্নিং।",
+    "text": "You don't have to work on Friday morning."
+   }
+  ],
+  "points_bn": [
+   "<b>can</b> মানে পারি, <b>can't</b> মানে পারি না। নিজের দক্ষতা বলতে এটা ব্যবহার করো।",
+   "<b>have to</b> মানে করতেই হবে। এটা নিয়ম বা জরুরি কাজ বোঝায়।",
+   "<b>don't have to</b> মানে না করলেও চলবে। এতে কোনো বাধ্যবাধকতা নেই।",
+   "নিয়ম জানতে <b>Do I have to...?</b> দিয়ে প্রশ্ন করো।"
+  ],
+  "quiz": [
+   {
+    "answer": 2,
+    "options": [
+     "cans",
+     "don't have",
+     "can",
+     "to have"
+    ],
+    "q": "Choose the right sentence: I ___ cook chicken well.",
+    "why_bn": "I-এর সঙ্গে দক্ষতা বোঝাতে can বসে। can-এর পর সরাসরি মূল verb বসে, cans হয় না।"
+   },
+   {
+    "answer": 1,
+    "options": [
+     "don't have to",
+     "have to",
+     "can't",
+     "can to"
+    ],
+    "q": "You ___ wear a uniform. It is the rule.",
+    "why_bn": "ইউনিফর্ম পরা নিয়ম, মানে বাধ্যতামূলক। তাই have to হবে, don't have to হলে না পরলেও চলত।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "have to",
+     "cans",
+     "can to",
+     "don't have to"
+    ],
+    "q": "You ___ come on Friday. The shop is closed.",
+    "why_bn": "শুক্রবার দোকান বন্ধ, তাই আসার দরকার নেই। দরকার নেই বোঝাতে don't have to ব্যবহার হয়।"
+   }
+  ],
+  "title_bn": "পারা আর নিয়ম: can / have to"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি নিজের দক্ষতার কথা বলতে পারবে, চাকরির নিয়ম জিজ্ঞেস করতে পারবে আর প্রথম ইন্টারভিউতে সহজ ইংরেজিতে কথা বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমি এই চাকরির জন্য আবেদন করতে চাই।",
+   "pron_bn": "আই ওয়ান্ট টু অ্যাপ্লাই ফর দিস জব।",
+   "text": "I want to apply for this job."
+  },
+  {
+   "bn": "আমি একটু একটু ইংরেজি বলতে পারি।",
+   "pron_bn": "আই ক্যান স্পিক ইংলিশ আ লিটল।",
+   "text": "I can speak English a little."
+  },
+  {
+   "bn": "আমি ভালোভাবে কম্পিউটার চালাতে পারি।",
+   "pron_bn": "আই ক্যান ইউজ আ কম্পিউটার ওয়েল।",
+   "text": "I can use a computer well."
+  },
+  {
+   "bn": "আমার অভিজ্ঞতা নেই, কিন্তু আমি দ্রুত শিখি।",
+   "pron_bn": "আই হ্যাভ নো এক্সপিরিয়েন্স, বাট আই লার্ন কুইকলি।",
+   "text": "I have no experience, but I learn quickly."
+  },
+  {
+   "bn": "আমাকে কয়টায় আসতে হবে?",
+   "pron_bn": "হোয়াট টাইম ডু আই হ্যাভ টু কাম?",
+   "text": "What time do I have to come?"
+  },
+  {
+   "bn": "আমাকে কি ইউনিফর্ম পরতে হবে?",
+   "pron_bn": "ডু আই হ্যাভ টু ওয়্যার আ ইউনিফর্ম?",
+   "text": "Do I have to wear a uniform?"
+  },
+  {
+   "bn": "আমি শুক্রবার সকালে কাজ করতে পারব না।",
+   "pron_bn": "আই কান্ট ওয়ার্ক অন ফ্রাইডে মর্নিং।",
+   "text": "I can't work on Friday morning."
+  },
+  {
+   "bn": "আমাকে কবে থেকে কাজ শুরু করতে হবে?",
+   "pron_bn": "হোয়েন ডু আই হ্যাভ টু স্টার্ট ওয়ার্ক?",
+   "text": "When do I have to start work?"
+  },
+  {
+   "bn": "মাসের বেতন কত?",
+   "pron_bn": "হাউ মাচ ইজ দা মান্থলি স্যালারি?",
+   "text": "How much is the monthly salary?"
+  },
+  {
+   "bn": "আমাকে রাতে কাজ করতে হবে না, তাই না?",
+   "pron_bn": "আই ডোন্ট হ্যাভ টু ওয়ার্ক অ্যাট নাইট, রাইট?",
+   "text": "I don't have to work at night, right?"
+  },
+  {
+   "bn": "ইন্টারভিউ নেওয়ার জন্য ধন্যবাদ।",
+   "pron_bn": "থ্যাংক ইউ ফর দা ইন্টারভিউ।",
+   "text": "Thank you for the interview."
+  },
+  {
+   "bn": "আপনারা আমাকে কবে ফোন করবেন?",
+   "pron_bn": "হোয়েন উইল ইউ কল মি ব্যাক?",
+   "text": "When will you call me back?"
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আমি বাংলা আর একটু একটু ইংরেজি বলতে পারি।",
+   "pron_bn": "আই ক্যান স্পিক বাংলা অ্যান্ড আ লিটল ইংলিশ।",
+   "speaker": "Rafi",
+   "text": "I can speak Bangla and a little English."
+  },
+  {
+   "bn": "ভালো! আপনি কি কম্পিউটার চালাতে পারেন?",
+   "pron_bn": "গুড! ক্যান ইউ ইউজ আ কম্পিউটার?",
+   "speaker": "Nadia",
+   "text": "Good! Can you use a computer?"
+  },
+  {
+   "bn": "হ্যাঁ, আমি কম্পিউটার চালাতে পারি, কিন্তু গাড়ি চালাতে পারি না।",
+   "pron_bn": "ইয়েস, আই ক্যান ইউজ আ কম্পিউটার, বাট আই কান্ট ড্রাইভ।",
+   "speaker": "Rafi",
+   "text": "Yes, I can use a computer, but I can't drive."
+  },
+  {
+   "bn": "আপনাকে প্রতি সপ্তাহে ছয় দিন কাজ করতে হবে।",
+   "pron_bn": "ইউ হ্যাভ টু ওয়ার্ক সিক্স ডেজ এভরি উইক।",
+   "speaker": "Nadia",
+   "text": "You have to work six days every week."
+  },
+  {
+   "bn": "কাজে আমাকে কি ইউনিফর্ম পরতে হবে?",
+   "pron_bn": "ডু আই হ্যাভ টু ওয়্যার আ ইউনিফর্ম অ্যাট ওয়ার্ক?",
+   "speaker": "Rafi",
+   "text": "Do I have to wear a uniform at work?"
+  },
+  {
+   "bn": "হ্যাঁ, তবে রাতে কাজ করতে হবে না।",
+   "pron_bn": "ইয়েস, বাট ইউ ডোন্ট হ্যাভ টু ওয়ার্ক অ্যাট নাইট।",
+   "speaker": "Nadia",
+   "text": "Yes, but you don't have to work at night."
+  },
+  {
+   "bn": "শুক্রবার সকালে আমি কাজ করতে পারব না, সমস্যা হবে?",
+   "pron_bn": "আই কান্ট ওয়ার্ক অন ফ্রাইডে মর্নিং, ইজ দ্যাট ওকে?",
+   "speaker": "Rafi",
+   "text": "I can't work on Friday morning, is that okay?"
+  },
+  {
+   "bn": "কোনো সমস্যা নেই। দুপুরের আগে আসার দরকার নেই।",
+   "pron_bn": "নো প্রবলেম। ইউ ডোন্ট হ্যাভ টু কাম বিফোর নুন।",
+   "speaker": "Nadia",
+   "text": "No problem. You don't have to come before noon."
+  }
+ ],
+ "tip_bn": "ইন্টারভিউতে হাসিমুখে স্পষ্ট করে কথা বলো, আর can দিয়ে দু-তিনটা দক্ষতা আগে থেকে তৈরি রেখো। ছুটি বা কাজের সময় নিয়ে প্রশ্ন থাকলে ভদ্রভাবে জিজ্ঞেস করো — এতে ভালো ধারণা হয়।",
+ "title": "Jobs and Work",
+ "words": [
+  {
+   "bn": "চাকরির ইন্টারভিউ",
+   "example": "I have a job interview tomorrow morning.",
+   "example_bn": "আগামীকাল সকালে আমার একটা চাকরির ইন্টারভিউ আছে।",
+   "pron_bn": "ইন্টারভিউ",
+   "text": "interview"
+  },
+  {
+   "bn": "দক্ষতা",
+   "example": "Computer skills are very useful.",
+   "example_bn": "কম্পিউটারের দক্ষতা খুব কাজের।",
+   "pron_bn": "স্কিল",
+   "text": "skill"
+  },
+  {
+   "bn": "জীবনবৃত্তান্ত",
+   "example": "Please send your CV by email.",
+   "example_bn": "দয়া করে ইমেইলে আপনার সিভি পাঠান।",
+   "pron_bn": "সিভি",
+   "text": "CV"
+  },
+  {
+   "bn": "বেতন",
+   "example": "The monthly salary is twelve thousand taka.",
+   "example_bn": "মাসের বেতন বারো হাজার টাকা।",
+   "pron_bn": "স্যালারি",
+   "text": "salary"
+  },
+  {
+   "bn": "ইউনিফর্ম",
+   "example": "We have to wear a blue uniform.",
+   "example_bn": "আমাদের নীল ইউনিফর্ম পরতেই হয়।",
+   "pron_bn": "ইউনিফর্ম",
+   "text": "uniform"
+  },
+  {
+   "bn": "কাজের পালা",
+   "example": "My morning shift starts at eight o'clock.",
+   "example_bn": "আমার সকালের শিফট আটটায় শুরু হয়।",
+   "pron_bn": "শিফট",
+   "text": "shift"
+  },
+  {
+   "bn": "ক্রেতা",
+   "example": "I can help every customer politely.",
+   "example_bn": "আমি ভদ্রভাবে প্রত্যেক ক্রেতাকে সাহায্য করতে পারি।",
+   "pron_bn": "কাস্টমার",
+   "text": "customer"
+  },
+  {
+   "bn": "ব্যবস্থাপক",
+   "example": "The manager is very kind.",
+   "example_bn": "ম্যানেজার খুব ভালো মানুষ।",
+   "pron_bn": "ম্যানেজার",
+   "text": "manager"
+  },
+  {
+   "bn": "আবেদন করা",
+   "example": "I want to apply for that shop job.",
+   "example_bn": "আমি ওই দোকানের চাকরির জন্য আবেদন করতে চাই।",
+   "pron_bn": "অ্যাপ্লাই",
+   "text": "apply"
+  },
+  {
+   "bn": "প্রশিক্ষণ",
+   "example": "We have free training every Friday morning.",
+   "example_bn": "প্রতি শুক্রবার সকালে আমাদের বিনামূল্যে প্রশিক্ষণ হয়।",
+   "pron_bn": "ট্রেইনিং",
+   "text": "training"
+  }
+ ]
+}

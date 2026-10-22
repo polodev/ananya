@@ -1,0 +1,256 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি আমার চাচাতো ভাইদের সাথে ফুটবল খেলেছিলাম।",
+    "pron_bn": "আই প্লেইড ফুটবল উইথ মাই কাজিনস।",
+    "text": "I played football with my cousins."
+   },
+   {
+    "bn": "সে গত শনিবার সিলেটে গিয়েছিল।",
+    "pron_bn": "শি ওয়েন্ট টু সিলেট লাস্ট স্যাটারডে।",
+    "text": "She went to Sylhet last Saturday."
+   },
+   {
+    "bn": "তুমি কি সকালে চা খেয়েছিলে?",
+    "pron_bn": "ডিড ইউ ড্রিংক টি ইন দা মর্নিং?",
+    "text": "Did you drink tea in the morning?"
+   },
+   {
+    "bn": "না, আমি আজ চা খাইনি।",
+    "pron_bn": "নো, আই ডিড নট ড্রিংক টি টুডে।",
+    "text": "No, I did not drink tea today."
+   }
+  ],
+  "points_bn": [
+   "অতীতের শেষ হয়ে যাওয়া কাজ বোঝাতে <b>past simple</b> ব্যবহার করি, যেমন yesterday, last Friday, last weekend এর সাথে।",
+   "বেশিরভাগ verb এর শেষে <b>-ed</b> যোগ হয়, যেমন visit - visited, play - played, cook - cooked।",
+   "কিছু verb অনিয়মিত, রূপ বদলে যায়, যেমন go - <b>went</b>, eat - <b>ate</b>, see - <b>saw</b>, have - <b>had</b>।",
+   "প্রশ্ন করতে শুরুতে <b>Did</b> বসে এবং মূল verb বদলায় না, যেমন Did you go? উত্তর: Yes, I did. / No, I didn't.",
+   "না-বোধকে <b>did not / didn't</b> ব্যবহার করি, যেমন I didn't go, We didn't eat।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Did you went to the river?",
+     "Did you go to the river?",
+     "Do you went to the river?",
+     "You did go to the river?"
+    ],
+    "q": "Which question is correct?",
+    "why_bn": "Did এর পরে সবসময় verb এর প্রথম রূপ বসে। তাই Did you go সঠিক, Did you went ভুল।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "eated",
+     "eaten",
+     "ate",
+     "eat"
+    ],
+    "q": "We ___ rice and fish yesterday.",
+    "why_bn": "eat এর past রূপ হলো ate। এটি অনিয়মিত verb, এর সাথে -ed যোগ হয় না।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "No, I didn't. I was at home.",
+     "No, I don't. I was at home.",
+     "No, I not. I was at home.",
+     "No, I no. I was at home."
+    ],
+    "q": "Did you visit your uncle? - ___ Which answer is correct?",
+    "why_bn": "Past simple প্রশ্নের না-বোধক উত্তরে I didn't ব্যবহার করি। I don't বর্তমানের কথা বোঝায়, তাই এখানে ভুল।"
+   }
+  ],
+  "title_bn": "পাস্ট সিম্পল – গত সপ্তাহান্তের কথা বলা"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি গত সপ্তাহান্তে কী করেছ তা ইংরেজিতে বলতে পারবে। আত্মীয়ের বাড়ি বেড়ানো আর নদীতে ঘোরা নিয়ে সহজে প্রশ্ন করতে ও উত্তর দিতে পারবে।",
+ "phrases": [
+  {
+   "bn": "তোমার সপ্তাহান্ত কেমন কেটেছে, রাফি?",
+   "pron_bn": "হাউ ওয়াজ ইয়োর উইকএন্ড, রাফি?",
+   "text": "How was your weekend, Rafi?"
+  },
+  {
+   "bn": "আমি শুক্রবারে আমার আত্মীয়দের বাড়ি গিয়েছিলাম।",
+   "pron_bn": "আই ভিজিটেড মাই রিলেটিভস অন ফ্রাইডে।",
+   "text": "I visited my relatives on Friday."
+  },
+  {
+   "bn": "আমরা একসাথে নদীর পাড়ে গিয়েছিলাম।",
+   "pron_bn": "উই ওয়েন্ট টু দা রিভার টুগেদার।",
+   "text": "We went to the river together."
+  },
+  {
+   "bn": "তোমার সপ্তাহান্ত কি ভালো কেটেছে?",
+   "pron_bn": "ডিড ইউ হ্যাভ আ গুড উইকএন্ড?",
+   "text": "Did you have a good weekend?"
+  },
+  {
+   "bn": "হ্যাঁ, আমি খুব সুন্দর সময় কাটিয়েছি।",
+   "pron_bn": "ইয়েস, আই হ্যাড আ ভেরি নাইস টাইম।",
+   "text": "Yes, I had a very nice time."
+  },
+  {
+   "bn": "আমরা গতকাল নৌকায় ঘুরেছি।",
+   "pron_bn": "উই টুক আ বোট ট্রিপ ইয়েস্টারডে।",
+   "text": "We took a boat trip yesterday."
+  },
+  {
+   "bn": "আবহাওয়া সুন্দর আর ঠান্ডা ছিল।",
+   "pron_bn": "দা ওয়েদার ওয়াজ নাইস অ্যান্ড কুল।",
+   "text": "The weather was nice and cool."
+  },
+  {
+   "bn": "আমরা একসাথে ভাত আর মাছ খেয়েছি।",
+   "pron_bn": "উই এইট রাইস অ্যান্ড ফিশ টুগেদার।",
+   "text": "We ate rice and fish together."
+  },
+  {
+   "bn": "নদীর পাশে আমি অনেক ছবি তুলেছি।",
+   "pron_bn": "আই টুক মেনি ফোটোস নিয়ার দা রিভার।",
+   "text": "I took many photos near the river."
+  },
+  {
+   "bn": "তুমি কি গ্রামে তানভীরকে দেখেছিলে?",
+   "pron_bn": "ডিড ইউ মিট তানভীর অ্যাট দা ভিলেজ?",
+   "text": "Did you meet Tanvir at the village?"
+  },
+  {
+   "bn": "না, আমি তাকে সেখানে দেখিনি।",
+   "pron_bn": "নো, আই ডিড নট সি হিম দেয়ার।",
+   "text": "No, I did not see him there."
+  },
+  {
+   "bn": "আমি সন্ধ্যায় দেরি করে বাড়ি এসেছি।",
+   "pron_bn": "আই কেইম হোম লেইট ইন দি ইভনিং।",
+   "text": "I came home late in the evening."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হাই মিতু! তোমার সপ্তাহান্ত কেমন ছিল?",
+   "pron_bn": "হাই মিতু! হাউ ওয়াজ ইয়োর উইকএন্ড?",
+   "speaker": "Rafi",
+   "text": "Hi Mitu! How was your weekend?"
+  },
+  {
+   "bn": "খুব ভালো ছিল! আমি আমার চাচির বাড়ি গিয়েছিলাম।",
+   "pron_bn": "ইট ওয়াজ গ্রেইট! আই ভিজিটেড মাই আন্ট।",
+   "speaker": "Mitu",
+   "text": "It was great! I visited my aunt."
+  },
+  {
+   "bn": "তোমরা কি একসাথে চাঁদপুরে গিয়েছিলে?",
+   "pron_bn": "ডিড ইউ ট্র্যাভেল টু চাঁদপুর টুগেদার?",
+   "speaker": "Rafi",
+   "text": "Did you travel to Chandpur together?"
+  },
+  {
+   "bn": "হ্যাঁ, আমরা শুক্রবারে বাসে গিয়েছিলাম।",
+   "pron_bn": "ইয়েস, উই ওয়েন্ট বাই বাস অন ফ্রাইডে।",
+   "speaker": "Mitu",
+   "text": "Yes, we went by bus on Friday."
+  },
+  {
+   "bn": "তোমরা কি নদীতে নৌকায় ঘুরেছিলে?",
+   "pron_bn": "ডিড ইউ টেইক আ বোট ট্রিপ অন দা রিভার?",
+   "speaker": "Rafi",
+   "text": "Did you take a boat trip on the river?"
+  },
+  {
+   "bn": "হ্যাঁ, ঘুরেছি। নদীটা খুব সুন্দর ছিল।",
+   "pron_bn": "ইয়েস, উই ডিড। দা রিভার ওয়াজ ভেরি বিউটিফুল।",
+   "speaker": "Mitu",
+   "text": "Yes, we did. The river was very beautiful."
+  },
+  {
+   "bn": "তোমার চাচির বাড়িতে কী খেয়েছিলে?",
+   "pron_bn": "হোয়াট ডিড ইউ ইট অ্যাট ইয়োর আন্টস হাউস?",
+   "speaker": "Rafi",
+   "text": "What did you eat at your aunt's house?"
+  },
+  {
+   "bn": "আমরা একসাথে ভাত, মাছ আর সবজি খেয়েছি।",
+   "pron_bn": "উই এইট রাইস, ফিশ অ্যান্ড ভেজিটেবলস টুগেদার।",
+   "speaker": "Mitu",
+   "text": "We ate rice, fish and vegetables together."
+  }
+ ],
+ "tip_bn": "গতকাল কী করেছ তা প্রতিদিন রাতে ২-৩ লাইনে ইংরেজিতে বলার চেষ্টা করো। প্রথমে I went, I ate, I saw দিয়ে শুরু করো, এতে past রূপগুলো সহজে মনে থাকবে।",
+ "title": "Last Weekend",
+ "words": [
+  {
+   "bn": "সপ্তাহান্ত",
+   "example": "I visited my village last weekend.",
+   "example_bn": "আমি গত সপ্তাহান্তে আমার গ্রামে গিয়েছিলাম।",
+   "pron_bn": "উইকএন্ড",
+   "text": "weekend"
+  },
+  {
+   "bn": "আত্মীয়",
+   "example": "I met my relatives on Friday.",
+   "example_bn": "আমি শুক্রবারে আমার আত্মীয়দের সাথে দেখা করেছি।",
+   "pron_bn": "রিলেটিভ",
+   "text": "relative"
+  },
+  {
+   "bn": "নদী",
+   "example": "We sat by the river in the evening.",
+   "example_bn": "আমরা সন্ধ্যায় নদীর পাশে বসেছিলাম।",
+   "pron_bn": "রিভার",
+   "text": "river"
+  },
+  {
+   "bn": "ভ্রমণ, ঘোরা",
+   "example": "Our boat trip was short and nice.",
+   "example_bn": "আমাদের নৌকা ভ্রমণ ছোট কিন্তু সুন্দর ছিল।",
+   "pron_bn": "ট্রিপ",
+   "text": "trip"
+  },
+  {
+   "bn": "বেড়াতে যাওয়া (অতীত: visited)",
+   "example": "I visited my uncle yesterday evening.",
+   "example_bn": "আমি গতকাল সন্ধ্যায় আমার চাচার বাড়ি গিয়েছিলাম।",
+   "pron_bn": "ভিজিট",
+   "text": "visit"
+  },
+  {
+   "bn": "উপভোগ করা (অতীত: enjoyed)",
+   "example": "We enjoyed hot tea in the boat.",
+   "example_bn": "আমরা নৌকায় গরম চা উপভোগ করেছিলাম।",
+   "pron_bn": "এনজয়",
+   "text": "enjoy"
+  },
+  {
+   "bn": "চাচাতো/মামাতো/খালাতো ভাই-বোন",
+   "example": "My cousin lives in Chandpur.",
+   "example_bn": "আমার কাজিন চাঁদপুরে থাকে।",
+   "pron_bn": "কাজিন",
+   "text": "cousin"
+  },
+  {
+   "bn": "নৌকা",
+   "example": "We took a small boat across the river.",
+   "example_bn": "আমরা একটা ছোট নৌকায় নদী পার হলাম।",
+   "pron_bn": "বোট",
+   "text": "boat"
+  },
+  {
+   "bn": "গ্রাম",
+   "example": "The village was quiet and green.",
+   "example_bn": "গ্রামটি শান্ত আর সবুজ ছিল।",
+   "pron_bn": "ভিলেজ",
+   "text": "village"
+  },
+  {
+   "bn": "ক্লান্ত",
+   "example": "We were tired but very happy.",
+   "example_bn": "আমরা ক্লান্ত ছিলাম কিন্তু খুব খুশি ছিলাম।",
+   "pron_bn": "টায়ার্ড",
+   "text": "tired"
+  }
+ ]
+}

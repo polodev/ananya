@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "তিনি দাবি করলেন যে সিলেটের নতুন হাসপাতালটি আগামী মাসে সবার জন্য খুলে দেওয়া হবে।",
+    "pron_bn": "",
+    "text": "He claimed that the new hospital in Sylhet would open next month for everyone."
+   },
+   {
+    "bn": "দোকানদার বাসি মাছ বিক্রির কথা অস্বীকার করলেন এবং গতকাল ভুলভাবে সংরক্ষণের কথা স্বীকার করলেন।",
+    "pron_bn": "",
+    "text": "The shopkeeper denied selling old fish and admitted storing them incorrectly yesterday."
+   },
+   {
+    "bn": "শিক্ষক পরামর্শ দিলেন যেন পরীক্ষার খবর অনলাইনে শেয়ার করার আগে আমরা দুটি উৎস দেখে নিই।",
+    "pron_bn": "",
+    "text": "The teacher suggested that we check two sources before sharing exam news online."
+   },
+   {
+    "bn": "পুলিশ অপরিচিত লোকের বিনামূল্যে চাল দেওয়ার বার্তা বিশ্বাস না করতে সবাইকে সতর্ক করেছে।",
+    "pron_bn": "",
+    "text": "The police warned people not to believe messages about free rice from strangers."
+   }
+  ],
+  "points_bn": [
+   "<b>claim</b> মানে জোর দিয়ে দাবি করা, এরপর সাধারণত <b>that</b> দিয়ে পুরো বাক্য বসে।",
+   "<b>deny</b> আর <b>admit</b> এরপর <b>that</b> দিয়ে বাক্য অথবা ভার্বের সঙ্গে <b>-ing</b> বসে।",
+   "<b>suggest</b> এরপর <b>that</b> দিয়ে বাক্য অথবা ভার্বের সঙ্গে <b>-ing</b> বসে, কখনো <b>to</b> বসে না।",
+   "<b>warn</b> এরপর কাকে বলছি সেটা বসে, তারপর <b>not to</b> দিয়ে কী না করতে হবে তা বসে।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "He denied to share the fake news about Chandpur market with his neighbours.",
+     "He denied sharing the fake news about Chandpur market with his neighbours.",
+     "He denied to sharing the fake news about Chandpur market with his neighbours.",
+     "He denied share the fake news about Chandpur market with his neighbours."
+    ],
+    "q": "Choose the correct sentence to report the incident in Chandpur market yesterday.",
+    "why_bn": "deny এরপর to + ভার্ব বসে না, ভার্বের সঙ্গে -ing বসে। তাই He denied sharing সঠিক।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "The doctor admitted us not to trust every health video on Facebook.",
+     "The doctor denied us not to trust every health video on Facebook.",
+     "The doctor suggested us not to trust every health video on Facebook.",
+     "The doctor warned us not to trust every health video on Facebook."
+    ],
+    "q": "Choose the correct sentence with the verb warn for social media videos.",
+    "why_bn": "কাউকে সতর্ক করে নিষেধ করতে warn + ব্যক্তি + not to + ভার্ব বসে। তাই warned us not to trust সঠিক।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "He suggested that we check the headline first before sharing Chittagong news online.",
+     "He suggested to check the headline first before sharing Chittagong news online.",
+     "He suggested checking to the headline first before sharing Chittagong news online.",
+     "He suggested check the headline first before sharing Chittagong news online."
+    ],
+    "q": "Choose the correct sentence with suggest about checking headlines in Chittagong.",
+    "why_bn": "suggest এরপর that + সাবজেক্ট + ভার্ব বসে। suggest to check বলা ভুল, তাই প্রথম বাক্যটি সঠিক।"
+   }
+  ],
+  "title_bn": "রিপোর্টিং ভার্ব: claim, deny, suggest, warn, admit"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি মিডিয়া আর সোশ্যাল মিডিয়ার খবর নিয়ে ইংরেজিতে আলোচনা করতে পারবে। ভুয়া খবর চিনে রিপোর্টিং ভার্ব দিয়ে সঠিকভাবে মতামত দিতে পারবে।",
+ "phrases": [
+  {
+   "bn": "অন্যদের সঙ্গে শেয়ার করার আগে তুমি কি আসল উৎসটা দেখেছ?",
+   "pron_bn": "",
+   "text": "Did you check the original source before sharing this news with others?"
+  },
+  {
+   "bn": "এই শিরোনামটা ভুয়া মনে হচ্ছে, তাই অনলাইনে দ্রুত যাচাই করে দেখি।",
+   "pron_bn": "",
+   "text": "This headline looks fake, so let me fact-check it quickly online."
+  },
+  {
+   "bn": "আমাদের সমাজে আতঙ্ক ছড়াতে পারে এমন গুজব ছড়িও না।",
+   "pron_bn": "",
+   "text": "Please do not spread rumours that can create panic in our community."
+  },
+  {
+   "bn": "রিপোর্টে আগামীকাল ছুটির দাবি করা হলেও আমাদের স্কুল গুজবটি অস্বীকার করেছে।",
+   "pron_bn": "",
+   "text": "The report claimed a holiday tomorrow, but our school denied the rumour."
+  },
+  {
+   "bn": "বিশেষজ্ঞরা সোশ্যাল মিডিয়ার প্রতিটি ভাইরাল ভিডিও বিশ্বাস না করতে সতর্ক করেন।",
+   "pron_bn": "",
+   "text": "Experts warn us not to trust every viral video on social media."
+  },
+  {
+   "bn": "আমি স্বীকার করছি যে কে লিখেছে তা না দেখেই পোস্টটি শেয়ার করেছিলাম।",
+   "pron_bn": "",
+   "text": "I admit I shared that post without checking who wrote it first."
+  },
+  {
+   "bn": "চট্টগ্রামের খবরের জন্য একটা বিশ্বস্ত নিউজ চ্যানেল বলতে পারো?",
+   "pron_bn": "",
+   "text": "Can you suggest a trustworthy news channel for updates about Chittagong?"
+  },
+  {
+   "bn": "খবরটি বিশ্বাস করার আগে অন্তত দুটি নির্ভরযোগ্য উৎস মিলিয়ে দেখতে তিনি বললেন।",
+   "pron_bn": "",
+   "text": "She suggested comparing at least two reliable sources before believing the story."
+  },
+  {
+   "bn": "তারিখ বা স্পষ্ট জায়গা ছাড়া আবেগী ছবি দেখে প্রভাবিত হয়ো না।",
+   "pron_bn": "",
+   "text": "Do not be manipulated by emotional photos with no date or clear location."
+  },
+  {
+   "bn": "পরিবারের সদস্যদের মধ্যে ভুল তথ্য নিয়ে সচেতনতা বাড়াতে হবে।",
+   "pron_bn": "",
+   "text": "We need to raise awareness about misinformation among our family members."
+  },
+  {
+   "bn": "খবরটি একপেশে ছিল বলে তিনি স্বীকার করলেন এবং শেয়ার করার জন্য দুঃখ প্রকাশ করলেন।",
+   "pron_bn": "",
+   "text": "He admitted that the story was biased and apologized for sharing it."
+  },
+  {
+   "bn": "চলো এই ভুয়া খবরটি রিপোর্ট করি, যাতে কম মানুষ প্রতারিত হয়।",
+   "pron_bn": "",
+   "text": "Let us report this hoax so fewer people are fooled by it."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "চেয়ারম্যান দাবি করলেন যে চাঁদপুরে একটি নতুন ব্রিজ সব যানজটের সমস্যা চিরদিনের জন্য মিটিয়ে দেবে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "The chairman claimed that a new bridge in Chandpur would solve all traffic problems forever."
+  },
+  {
+   "bn": "কিন্তু স্থানীয় ইঞ্জিনিয়াররা সেই দাবি অস্বীকার করলেন এবং স্বীকার করলেন যে পরিকল্পনাটির জন্য এখনো সঠিক তহবিল দরকার।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "But the local engineers denied that claim and admitted that the plan still needs proper funding."
+  },
+  {
+   "bn": "আমার চাচা আমাদের সতর্ক করলেন যেন নির্ভরযোগ্য উৎস না দেখে প্রতিটি ভাইরাল ভিডিও ফরোয়ার্ড না করি।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "My uncle warned us not to forward every viral video without checking a reliable source first."
+  },
+  {
+   "bn": "আমি একমত, আর বিশেষজ্ঞরা পরামর্শ দেন যে কোনো খবর বিশ্বাস করার আগে তারিখ, শিরোনাম আর লেখক দেখে নাও।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "I agree, and experts suggest checking the date, headline, and author before believing any story."
+  },
+  {
+   "bn": "গতকাল একটি পেজ দাবি করেছে যে লেবু দিয়ে গরম চা খেলেই সব ভাইরাল জ্বর সঙ্গে সঙ্গে সেরে যাবে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Yesterday a page claimed that drinking hot tea with lemon can cure all viral fevers instantly."
+  },
+  {
+   "bn": "ডাক্তাররা সেই ভুল তথ্য অস্বীকার করেছেন এবং জ্বরের সঠিক চিকিৎসা অবহেলা না করতে সবাইকে সতর্ক করেছেন।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Doctors denied that misinformation and warned people not to ignore proper treatment for fever."
+  },
+  {
+   "bn": "কিছু পোস্ট ইচ্ছে করে আমাদের আবেগকে প্রভাবিত করে, তাই ঢাকার বন্যার ছবি যাচাই করতে বিশেষজ্ঞরা সতর্ক করেন।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "Some posts deliberately manipulate our emotions, so experts warn us to fact-check Dhaka flood photos."
+  },
+  {
+   "bn": "আমি স্বীকার করছি, একবার উৎস যাচাই না করেই ফ্রি মোবাইল ডেটার একটা ভুয়া খবর শেয়ার করেছিলাম।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "I admit that I once shared a hoax about free mobile data before checking the source."
+  },
+  {
+   "bn": "আমাদের শিক্ষক পরামর্শ দিলেন যে পরিবারকে বিশ্বস্ত অভ্যাস শিখিয়ে আমরা সচেতনতা বাড়াতে পারি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Our teacher suggested that we raise awareness by teaching trustworthy habits to our families."
+  }
+ ],
+ "tip_bn": "কোনো চাঞ্চল্যকর খবর পেলে সঙ্গে সঙ্গে শেয়ার না করে এক মিনিট থামো। শিরোনাম, তারিখ আর নির্ভরযোগ্য উৎস দেখে নিলে বেশিরভাগ ভুয়া খবর সহজেই ধরা যায়।",
+ "title": "Media and Fake News",
+ "words": [
+  {
+   "bn": "ভুল তথ্য",
+   "example": "Misinformation about the floods in Chandpur spread quickly through social media groups yesterday.",
+   "example_bn": "গতকাল চাঁদপুরের বন্যা নিয়ে ভুল তথ্য সোশ্যাল মিডিয়া গ্রুপে দ্রুত ছড়িয়ে পড়ে।",
+   "pron_bn": "মিসইনফরমেশন",
+   "text": "misinformation"
+  },
+  {
+   "bn": "নির্ভরযোগ্য উৎস",
+   "example": "Always check a reliable source before you share any shocking news with your family.",
+   "example_bn": "পরিবারের সঙ্গে কোনো চাঞ্চল্যকর খবর শেয়ার করার আগে সবসময় নির্ভরযোগ্য উৎস দেখে নাও।",
+   "pron_bn": "রিলায়েবল সোর্স",
+   "text": "reliable source"
+  },
+  {
+   "bn": "দ্রুত ভাইরাল হওয়া",
+   "example": "A false video about free fish in Chittagong went viral within just a few hours.",
+   "example_bn": "চট্টগ্রামে বিনামূল্যে মাছ নিয়ে একটি মিথ্যা ভিডিও মাত্র কয়েক ঘণ্টায় ভাইরাল হয়ে গেল।",
+   "pron_bn": "গো ভাইরাল",
+   "text": "go viral"
+  },
+  {
+   "bn": "পক্ষপাত",
+   "example": "Some channels show clear bias when they report only one side of the story.",
+   "example_bn": "কিছু চ্যানেল গল্পের এক পক্ষই প্রচার করলে স্পষ্ট পক্ষপাত দেখা যায়।",
+   "pron_bn": "বায়াস",
+   "text": "bias"
+  },
+  {
+   "bn": "তথ্য যাচাই করা",
+   "example": "Mitu learned to fact-check every health tip she finds on Facebook or YouTube.",
+   "example_bn": "মিতু ফেসবুক বা ইউটিউবে পাওয়া প্রতিটি স্বাস্থ্য পরামর্শ যাচাই করতে শিখেছে।",
+   "pron_bn": "ফ্যাক্ট-চেক",
+   "text": "fact-check"
+  },
+  {
+   "bn": "খবরের শিরোনাম",
+   "example": "Do not trust a dramatic headline without reading the full article carefully first.",
+   "example_bn": "পুরো লেখাটি মন দিয়ে না পড়ে চমকপ্রদ শিরোনাম বিশ্বাস কোরো না।",
+   "pron_bn": "হেডলাইন",
+   "text": "headline"
+  },
+  {
+   "bn": "ধোঁকাবাজিমূলক ভুয়া খবর",
+   "example": "The message about closed schools in Sylhet turned out to be a complete hoax.",
+   "example_bn": "সিলেটে স্কুল বন্ধ নিয়ে বার্তাটি শেষে পুরোপুরি ভুয়া খবর বলে প্রমাণিত হলো।",
+   "pron_bn": "হোক্স",
+   "text": "hoax"
+  },
+  {
+   "bn": "বিশ্বস্ত, ভরসাযোগ্য",
+   "example": "Nadia follows only two trustworthy news pages for updates about Dhaka traffic.",
+   "example_bn": "ঢাকার যানজটের খবরের জন্য নাদিয়া মাত্র দুটি বিশ্বস্ত নিউজ পেজ অনুসরণ করে।",
+   "pron_bn": "ট্রাস্টওয়ার্দি",
+   "text": "trustworthy"
+  },
+  {
+   "bn": "কৌশলে প্রভাবিত করা",
+   "example": "Some posts use emotional photos to manipulate readers and get more angry comments.",
+   "example_bn": "কিছু পোস্ট পাঠককে প্রভাবিত করতে আবেগী ছবি ব্যবহার করে বেশি রাগী মন্তব্য পেতে চায়।",
+   "pron_bn": "ম্যানিপিউলেট",
+   "text": "manipulate"
+  },
+  {
+   "bn": "সচেতনতা বাড়ানো",
+   "example": "Tanvir made a short video to raise awareness about fake health news online.",
+   "example_bn": "অনলাইনে ভুয়া স্বাস্থ্য খবর নিয়ে সচেতনতা বাড়াতে তানভির একটি ছোট ভিডিও বানাল।",
+   "pron_bn": "রেইজ অ্যাওয়ারনেস",
+   "text": "raise awareness"
+  }
+ ]
+}

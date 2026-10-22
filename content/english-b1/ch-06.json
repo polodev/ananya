@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আপনি কি দয়া করে আজকের মধ্যে আমাকে দামের তালিকাটা পাঠাবেন?",
+    "pron_bn": "",
+    "text": "Could you please send me the price list by today?"
+   },
+   {
+    "bn": "আমি ফাইলটা দেখার সময় একটু অপেক্ষা করতে আপনার আপত্তি আছে কি?",
+    "pron_bn": "",
+    "text": "Would you mind waiting a moment while I check the file?"
+   },
+   {
+    "bn": "আমি ভাবছিলাম, এই ইমেইলটার ব্যাপারে আপনি কি আমাকে সাহায্য করতে পারবেন?",
+    "pron_bn": "",
+    "text": "I was wondering if you could help me with this email."
+   },
+   {
+    "bn": "আমি কি মিটিংয়ের তথ্যগুলো আপনাকে ফরওয়ার্ড করে দেব?",
+    "pron_bn": "",
+    "text": "Would you like me to forward the meeting details to you?"
+   }
+  ],
+  "points_bn": [
+   "<b>Could you ...?</b> দিয়ে ভদ্রভাবে অনুরোধ করো, শেষে প্রশ্নবোধক চিহ্ন দাও।",
+   "<b>Would you mind ...?</b> এর পরে সবসময় verb-এর সঙ্গে <b>-ing</b> বসে, যেমন waiting, sending।",
+   "<b>I was wondering if ...</b> খুব নম্র অনুরোধ — ম্যানেজার বা ক্লায়েন্টের সঙ্গে ব্যবহার করো। এটা প্রশ্নের মতো শোনালেও শেষে সাধারণত দাঁড়ি (.) বসে।",
+   "অনুরোধের সঙ্গে <b>please, kindly, as soon as possible</b> যোগ করলে কথা আরও ভদ্র শোনায়।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Do you mind to open the window?",
+     "Would you mind opening the window?",
+     "Will you mind open the window?",
+     "Could you mind opened the window?"
+    ],
+    "q": "Choose the correct polite request:",
+    "why_bn": "Would you mind-এর পরে সবসময় verb+ing হয়, তাই opening সঠিক।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "I am wondering if you can to help me.",
+     "I wonder if you can helped me.",
+     "I was wondering if you could help me.",
+     "I was wondered if you could help me."
+    ],
+    "q": "Choose the correct polite email sentence:",
+    "why_bn": "নম্র অনুরোধের সঠিক গঠন হলো I was wondering if + you could, এটা মুখস্থ বাক্যের মতো শিখে নাও।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Could you please confirm the meeting time?",
+     "Could you to please confirm the meeting time?",
+     "Could you please confirming the meeting time?",
+     "Could you pleased confirm the meeting time?"
+    ],
+    "q": "Choose the correct sentence for an office email:",
+    "why_bn": "Could you-এর পরে সবসময় verb-এর মূল রূপ বসে, তাই confirm সঠিক।"
+   }
+  ],
+  "title_bn": "ভদ্রভাবে অনুরোধ করা ও সাহায্যের প্রস্তাব দেওয়া"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি ম্যানেজার বা ক্লায়েন্টকে ভদ্রভাবে ইমেইল লিখতে পারবে এবং বিনয়ের সঙ্গে অনুরোধ করতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আপনি কি দয়া করে আগামীকাল সকালের মধ্যে ফাইনাল রিপোর্টটা পাঠাবেন?",
+   "pron_bn": "",
+   "text": "Could you please send me the final report by tomorrow morning?"
+  },
+  {
+   "bn": "পাঠানোর আগে আমার ইমেইলটা দেখে ভুলগুলো ধরিয়ে দিলে আপত্তি আছে কি?",
+   "pron_bn": "",
+   "text": "Would you mind checking my email for mistakes before I send it?"
+  },
+  {
+   "bn": "আমি ভাবছিলাম, আপনি কি আজ তিনটার অনলাইন মিটিংয়ে যোগ দিতে পারবেন?",
+   "pron_bn": "",
+   "text": "I was wondering if you could join the online meeting at three today."
+  },
+  {
+   "bn": "আপনি কি দয়া করে জানাবেন যে গতকালের ইমেইলটা পেয়েছেন?",
+   "pron_bn": "",
+   "text": "Could you kindly confirm that you received my last email yesterday?"
+  },
+  {
+   "bn": "ক্লায়েন্টের মেসেজটা আজ সকালে তানভীরকে ফরওয়ার্ড করে দিলে আপত্তি আছে কি?",
+   "pron_bn": "",
+   "text": "Would you mind forwarding the client's message to Tanvir this morning?"
+  },
+  {
+   "bn": "আমি ভাবছিলাম, আগামী সপ্তাহে আমি কি একদিনের ছুটি নিতে পারি?",
+   "pron_bn": "",
+   "text": "I was wondering if I could take leave for one day next week."
+  },
+  {
+   "bn": "আপনি কি দয়া করে আমার অনুরোধটা অনুমোদন করে ইমেইলে জানাবেন?",
+   "pron_bn": "",
+   "text": "Could you please approve my request and let me know by email?"
+  },
+  {
+   "bn": "নতুন সময়সূচি সম্পর্কে জানালে আমি খুব কৃতজ্ঞ থাকব।",
+   "pron_bn": "",
+   "text": "I would be grateful if you could update me about the new schedule."
+  },
+  {
+   "bn": "আপনার সদয় বিবেচনার জন্য এই ইমেইলের সঙ্গে রিপোর্টটি সংযুক্ত করে দিলাম।",
+   "pron_bn": "",
+   "text": "Please find the report attached with this email for your kind review."
+  },
+  {
+   "bn": "আগামীকাল একটা ছোট কলের জন্য সুবিধাজনক সময় জানাবেন কি?",
+   "pron_bn": "",
+   "text": "Could you let me know a convenient time for a short call tomorrow?"
+  },
+  {
+   "bn": "আপনার ইমেইল সিগনেচারের নিচে ফোন নম্বরটা যোগ করলে আপত্তি আছে কি?",
+   "pron_bn": "",
+   "text": "Would you mind adding your phone number below your email signature?"
+  },
+  {
+   "bn": "সাহায্যের জন্য ধন্যবাদ, আপনার উত্তরের অপেক্ষায় রইলাম।",
+   "pron_bn": "",
+   "text": "Thank you for your help, and I look forward to your kind reply."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হাই নাদিয়া, পাঠানোর আগে আমার ইমেইলটা একটু দেখে দেবে কি?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Hi Nadia, could you please check my email before I send it?"
+  },
+  {
+   "bn": "অবশ্যই! ভালো কথা, ক্লায়েন্টের মাসিক রিপোর্টটা কি শেষ করেছ?",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "Of course! By the way, have you finished the monthly report for our client?"
+  },
+  {
+   "bn": "প্রায় শেষ। অ্যাটাচমেন্টটা যোগ করার সময় দশ মিনিট অপেক্ষা করলে আপত্তি আছে কি?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Almost done. Would you mind waiting ten minutes while I add the attachment?"
+  },
+  {
+   "bn": "কোনো সমস্যা নেই। তানভীরের সঙ্গে মিটিংয়ের সময়টা নিশ্চিত করবে কি?",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "No problem at all. Could you also confirm the meeting schedule with Tanvir?"
+  },
+  {
+   "bn": "অবশ্যই। আমি ভাবছিলাম, আমরা কি আগামীকাল সকালে ঢাকায় ক্লায়েন্টের সঙ্গে দেখা করতে পারি?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Sure. I was wondering if we could meet the client in Dhaka tomorrow morning."
+  },
+  {
+   "bn": "আমার জন্য ঠিক আছে। তার আগের ইমেইলটা আজ আমাকে ফরওয়ার্ড করলে আপত্তি আছে কি?",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "That works for me. Would you mind forwarding his last email to me today?"
+  },
+  {
+   "bn": "যত তাড়াতাড়ি সম্ভব করে দেব। আমার ছুটির অনুরোধটা অনুমোদন করবে কি?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I will do it as soon as possible. Could you please approve my leave request?"
+  },
+  {
+   "bn": "হ্যাঁ, অবশ্যই। যাওয়ার আগে আমাকে শুধু ছোট একটা আপডেট পাঠিয়ো।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "Yes, of course. Just send me a short update before you leave."
+  },
+  {
+   "bn": "তোমাকে অনেক ধন্যবাদ। আজ রাতে ডেডলাইনের আগেই সব পাঠিয়ে দেব।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Thank you so much. I will send everything before the deadline tonight."
+  }
+ ],
+ "tip_bn": "অফিস ইমেইলে সবসময় স্পষ্ট সাবজেক্ট লেখো এবং শেষে Best regards বা Kind regards দাও। রাগ বা তাড়াহুড়ো থাকলেও পাঠানোর আগে একবার পড়ে নাও, তাহলে ভুল কম হবে।",
+ "title": "Office Emails",
+ "words": [
+  {
+   "bn": "সংযুক্তি",
+   "example": "Please check the attachment with this email from our Chittagong office.",
+   "example_bn": "আমাদের চট্টগ্রাম অফিসের এই ইমেইলের সংযুক্তিটা একটু দেখো।",
+   "pron_bn": "অ্যাটাচমেন্ট",
+   "text": "attachment"
+  },
+  {
+   "bn": "শেষ তারিখ",
+   "example": "Our manager extended the deadline for the report until Sunday evening.",
+   "example_bn": "আমাদের ম্যানেজার রিপোর্টের শেষ তারিখ রবিবার সন্ধ্যা পর্যন্ত বাড়িয়ে দিয়েছেন।",
+   "pron_bn": "ডেডলাইন",
+   "text": "deadline"
+  },
+  {
+   "bn": "নিশ্চিত করা",
+   "example": "Could you please confirm the meeting time with the client today?",
+   "example_bn": "তুমি কি আজ ক্লায়েন্টের সঙ্গে মিটিংয়ের সময়টা নিশ্চিত করবে?",
+   "pron_bn": "কনফার্ম",
+   "text": "confirm"
+  },
+  {
+   "bn": "অন্য কাউকে পাঠিয়ে দেওয়া",
+   "example": "Would you mind forwarding this email to Mitu in the Dhaka office?",
+   "example_bn": "ঢাকা অফিসে মিতুকে এই ইমেইলটা ফরওয়ার্ড করে দিলে আপত্তি আছে কি?",
+   "pron_bn": "ফরওয়ার্ড",
+   "text": "forward"
+  },
+  {
+   "bn": "অনুমোদন করা",
+   "example": "The manager will approve our leave request after checking the new schedule.",
+   "example_bn": "নতুন সময়সূচি দেখে ম্যানেজার আমাদের ছুটির অনুরোধ অনুমোদন করবেন।",
+   "pron_bn": "অ্যাপ্রুভ",
+   "text": "approve"
+  },
+  {
+   "bn": "সময়সূচি",
+   "example": "I was wondering if we could change the schedule for tomorrow's training.",
+   "example_bn": "আমি ভাবছিলাম, আমরা কি আগামীকালের ট্রেনিংয়ের সময়সূচি বদলাতে পারি?",
+   "pron_bn": "শেডিউল",
+   "text": "schedule"
+  },
+  {
+   "bn": "অনুরোধ",
+   "example": "I sent a polite request to my manager for one day of leave.",
+   "example_bn": "একদিনের ছুটির জন্য আমি ম্যানেজারের কাছে একটা ভদ্র অনুরোধ পাঠিয়েছি।",
+   "pron_bn": "রিকোয়েস্ট",
+   "text": "request"
+  },
+  {
+   "bn": "সর্বশেষ খবর",
+   "example": "Could you send me a short update about the Sylhet project tonight?",
+   "example_bn": "সিলেট প্রজেক্ট সম্পর্কে আজ রাতে আমাকে ছোট একটা আপডেট পাঠাবে কি?",
+   "pron_bn": "আপডেট",
+   "text": "update"
+  },
+  {
+   "bn": "স্বাক্ষর",
+   "example": "Please add your name and phone number below your email signature.",
+   "example_bn": "তোমার ইমেইল সিগনেচারের নিচে নাম ও ফোন নম্বর যোগ করো।",
+   "pron_bn": "সিগনেচার",
+   "text": "signature"
+  },
+  {
+   "bn": "বিষয়ের লাইন",
+   "example": "Please write a clear subject line so the manager can understand quickly.",
+   "example_bn": "ম্যানেজার যেন দ্রুত বুঝতে পারেন, সেজন্য স্পষ্ট সাবজেক্ট লাইন লেখো।",
+   "pron_bn": "সাবজেক্ট লাইন",
+   "text": "subject line"
+  }
+ ]
+}

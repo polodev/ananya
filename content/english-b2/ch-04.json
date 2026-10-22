@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "তুমি গত রাতে তাড়াতাড়ি ঘুমিয়ে পড়লে এখন নিজেকে সতেজ আর কর্মঠ লাগত।",
+    "pron_bn": "",
+    "text": "If you had slept early last night, you would feel fresh and active right now."
+   },
+   {
+    "bn": "রাফি পানি খাওয়ার ব্যাপারে আরেকটু সতর্ক হলে গতকাল পানিশূন্যতায় ভুগত না।",
+    "pron_bn": "",
+    "text": "If Rafi were more careful about drinking water, he would not have suffered from dehydration yesterday."
+   },
+   {
+    "bn": "মিতু সময়মতো টিকা নিয়ে থাকলে এই ফ্লুর মৌসুমে সে বেশি নিরাপদ থাকত।",
+    "pron_bn": "",
+    "text": "If Mitu had taken the vaccine on time, she would be safer during this flu season."
+   },
+   {
+    "bn": "ফাস্টফুড আসলেই ক্ষতিকর না হলে গত বছর এত তরুণ বাড়তি ওজন পেত না।",
+    "pron_bn": "",
+    "text": "If junk food were really harmless, many young people would not have gained excess weight last year."
+   }
+  ],
+  "points_bn": [
+   "<b>If + had + V3, would + V1</b> দিয়ে অতীতের কাজের বর্তমান ফল বোঝায়।",
+   "<b>If + V2, would have + V3</b> দিয়ে বর্তমানের অভ্যাস বা সত্যের অতীত ফল বোঝায়।",
+   "if-ওয়ালা অংশে <b>would</b> বসে না, would বসে ফলাফলের অংশে।",
+   "স্বাস্থ্যের ভুল ধারণা ভাঙতে আগের অভ্যাস আর এখনকার অবস্থা জুড়তে এই গঠন খুব কাজে লাগে।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "If you will drink more water, you would feel better now.",
+     "If you had drunk more water, you would feel better now.",
+     "If you drink more water, you will feel better now.",
+     "If you had drunk more water, you would have felt better now."
+    ],
+    "q": "Choose the correct sentence to show a past action affecting the present.",
+    "why_bn": "অতীতের কাজ আর বর্তমানের ফল বোঝাতে If + had + V3 আর would + V1 লাগে। তাই দ্বিতীয় বাক্যটি ঠিক।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "If he eats vegetables daily, he would have felt stronger last month.",
+     "If he had eaten vegetables daily, he will feel stronger last month.",
+     "If he ate vegetables regularly, he would have felt stronger last month.",
+     "If he ate vegetables regularly, he will have felt stronger last month."
+    ],
+    "q": "Choose the correct sentence to show a general habit affecting a past event.",
+    "why_bn": "সাধারণ অভ্যাসের অতীত ফল বোঝাতে If + V2 আর would have + V3 লাগে। তাই তৃতীয় বাক্যটি ঠিক।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "If people had checked the evidence, they would not believe this myth now.",
+     "If people checked the evidence, they will not believe this myth now.",
+     "If people have checked the evidence, they would not believe this myth now.",
+     "If people would have checked the evidence, they would not believe this myth now."
+    ],
+    "q": "Which sentence correctly talks about a myth and its present result?",
+    "why_bn": "অতীতে প্রমাণ না দেখার ফলে এখনও ভুল ধারণা আছে, তাই If + had + V3 আর would + V1 ঠিক। if-এর ভেতরে would বসে না।"
+   }
+  ],
+  "title_bn": "মিক্সড কন্ডিশনাল দিয়ে স্বাস্থ্যের ভুল ধারণা নিয়ে কথা বলা"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি স্বাস্থ্য নিয়ে প্রচলিত ভুল ধারণাগুলো ইংরেজিতে আলোচনা করতে পারবে। প্রমাণ দিয়ে নিজের মতামত বুঝিয়ে বলতেও শিখবে।",
+ "phrases": [
+  {
+   "bn": "ব্যায়ামের পর ঠান্ডা পানি খেলে কি আসলেই পেটের খুব ক্ষতি হয়?",
+   "pron_bn": "",
+   "text": "Is it true that drinking cold water after exercise harms your stomach badly?"
+  },
+  {
+   "bn": "বাংলাদেশে এই প্রচলিত স্বাস্থ্য পরামর্শের পক্ষে ডাক্তারদের কাছে কী প্রমাণ আছে?",
+   "pron_bn": "",
+   "text": "What evidence do doctors have for this common health advice in Bangladesh?"
+  },
+  {
+   "bn": "তুমি ঠিকমতো বিশ্রাম নিলে এখন এই ফ্লু থেকে অনেক দ্রুত সেরে উঠতে।",
+   "pron_bn": "",
+   "text": "If you had rested properly, you would recover from this flu much faster now."
+  },
+  {
+   "bn": "আমি ভাবতাম চিকেন স্যুপে সর্দি সারে, কিন্তু এটা শুধু একটা ভুল ধারণা।",
+   "pron_bn": "",
+   "text": "I thought chicken soup could cure a cold, but that is just a myth."
+  },
+  {
+   "bn": "আমার ডাক্তার বলেছেন এই ধরনের ভাইরাল জ্বরে আমার অ্যান্টিবায়োটিক দরকার নেই।",
+   "pron_bn": "",
+   "text": "My doctor says I do not need antibiotics for this kind of viral fever."
+  },
+  {
+   "bn": "আমরা প্রতিদিন বেশি সবজি খেলে গত সপ্তাহে এত ক্লান্ত লাগত না।",
+   "pron_bn": "",
+   "text": "If we ate more vegetables daily, we would have felt less tired last week."
+  },
+  {
+   "bn": "বাংলায় স্বাস্থ্যের তথ্য যাচাই করার নির্ভরযোগ্য কোনো ওয়েবসাইট তুমি জানো?",
+   "pron_bn": "",
+   "text": "Do you know any reliable website to check health information in Bangla?"
+  },
+  {
+   "bn": "গরমে পানিশূন্যতা এড়াতে আমি অন্তত আট গ্লাস পানি খাই।",
+   "pron_bn": "",
+   "text": "I drink at least eight glasses of water to avoid dehydration during summer."
+  },
+  {
+   "bn": "ওই লেখায় দাবি করেছে চা-এ প্রেশার সারে, কিন্তু আসল প্রমাণ কোথায়?",
+   "pron_bn": "",
+   "text": "That article claims tea cures blood pressure, but where is the real proof?"
+  },
+  {
+   "bn": "সে সুষম খাবারের তালিকা মেনে চললে আজ তার গায়ে বেশি শক্তি থাকত।",
+   "pron_bn": "",
+   "text": "If she had followed the balanced diet chart, she would have more energy today."
+  },
+  {
+   "bn": "ফরোয়ার্ড করা এই স্বাস্থ্য বার্তা বিশ্বাস করার আগে চলো ক্লিনিকের নার্সকে জিজ্ঞেস করি।",
+   "pron_bn": "",
+   "text": "Let us ask the clinic nurse before believing this forwarded health message."
+  },
+  {
+   "bn": "একটা মারাত্মক পার্শ্বপ্রতিক্রিয়ার কথা শুনেছি বলে টিকা নিয়ে আমি দুশ্চিন্তায় আছি।",
+   "pron_bn": "",
+   "text": "I feel anxious about vaccines because I heard about a serious side effect."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "গতকাল বেশি পানি খেয়ে থাকলে আজকের লম্বা হাঁটায় তোমাকে অনেক বেশি সতেজ লাগত।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If you had drunk more water yesterday, you would feel much more energetic during today's long walk."
+  },
+  {
+   "bn": "আঙুল ফোটালে সত্যিই বাত হলে আমার চাচার বহু আগেই জয়েন্টে মারাত্মক ব্যথা হতো।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "If cracking your knuckles really caused arthritis, my uncle would have developed serious joint pain years ago."
+  },
+  {
+   "bn": "অ্যান্টিবায়োটিক নিয়ে সঠিক প্রমাণ বুঝলে মানুষ প্রতিটা সাধারণ সর্দিতে এটা চাইত না।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "If people understood proper evidence about antibiotics, they would not have demanded them for every common cold."
+  },
+  {
+   "bn": "আমার দাদি শুধু ভেষজ চায়ের ওপর ভরসা করে থাকলে আজও উচ্চ প্রেশারে ভুগতেন।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "If my grandmother had trusted only herbal tea, she would still suffer from high blood pressure today."
+  },
+  {
+   "bn": "রাতে ভাত না খেলেই আসলেই চর্বি কমলে আমাদের হোস্টেলের সবাই গত মাসে ওজন কমাত।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If skipping rice at night actually burned fat, everyone in our hostel would have lost weight last month."
+  },
+  {
+   "bn": "গত বছর সুষম খাবার খেয়ে থাকলে এই শীতে তোমার রোগ প্রতিরোধ ক্ষমতা অনেক বেশি শক্ত থাকত।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "If you had eaten a balanced diet last year, your immune system would be much stronger this winter season."
+  },
+  {
+   "bn": "শুধু ঠান্ডা আবহাওয়ায় ফ্লু হলে সিলেটের কৃষকদের ডিসেম্বরের প্রতিটা কুয়াশার সকালে ফ্লু হতো।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "If cold weather alone caused flu, farmers in Sylhet would have caught it every foggy morning in December."
+  },
+  {
+   "bn": "মিতু আগে নির্ভরযোগ্য স্বাস্থ্য ওয়েবসাইট দেখে থাকলে এখন এই প্রচলিত ভুলগুলো বিশ্বাস করত না।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "If Mitu had checked reliable health websites earlier, she would not believe these common myths right now."
+  },
+  {
+   "bn": "প্রতিবেশীদের সঙ্গে স্পষ্ট প্রমাণ শেয়ার করলে আমাদের এলাকা স্বাস্থ্য নিয়ে অনেক অযথা দুশ্চিন্তা এড়াত।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If we shared clear evidence with neighbours, our community would have avoided many unnecessary worries about health."
+  }
+ ],
+ "tip_bn": "ফেসবুকে পাওয়া স্বাস্থ্য খবর শেয়ার করার আগে নির্ভরযোগ্য ডাক্তার বা ক্লিনিকে জিজ্ঞেস করো। নতুন বাক্য শিখলে নিজের জীবনের উদাহরণ দিয়ে If দিয়ে বলার অভ্যাস করো।",
+ "title": "Health Myths and Real Evidence",
+ "words": [
+  {
+   "bn": "ভুল ধারণা বা মিথ",
+   "example": "Many people still believe the old myth that cold rice always causes severe stomach problems.",
+   "example_bn": "অনেকে এখনও পুরোনো ভুল ধারণাটি বিশ্বাস করে যে ঠান্ডা ভাত সবসময় পেটের মারাত্মক সমস্যা করে।",
+   "pron_bn": "মিথ",
+   "text": "myth"
+  },
+  {
+   "bn": "প্রমাণ",
+   "example": "Doctors in Chittagong shared strong evidence that regular walking improves heart health significantly.",
+   "example_bn": "চট্টগ্রামের ডাক্তাররা জোরালো প্রমাণ দিয়েছেন যে নিয়মিত হাঁটা হার্টের স্বাস্থ্যের অনেক উন্নতি করে।",
+   "pron_bn": "এভিডেন্স",
+   "text": "evidence"
+  },
+  {
+   "bn": "ভুল ধারণা",
+   "example": "The idea that fish and milk together cause skin disease is a common misconception here.",
+   "example_bn": "মাছ আর দুধ একসাথে খেলে চর্মরোগ হয়, এই ধারণাটা এখানে খুব প্রচলিত ভুল।",
+   "pron_bn": "মিসকনসেপশন",
+   "text": "misconception"
+  },
+  {
+   "bn": "রোগ প্রতিরোধ ব্যবস্থা",
+   "example": "If you had slept well last month, your immune system would fight infections more effectively now.",
+   "example_bn": "গত মাসে ভালো ঘুমিয়ে থাকলে তোমার রোগ প্রতিরোধ ব্যবস্থা এখন সংক্রমণ ঠেকাতে বেশি কার্যকর হতো।",
+   "pron_bn": "ইমিউন সিসটেম",
+   "text": "immune system"
+  },
+  {
+   "bn": "পানিশূন্যতা",
+   "example": "If he had carried water during the trip, he would not suffer from dehydration in this heat.",
+   "example_bn": "সফরে সঙ্গে পানি নিলে এই গরমে সে পানিশূন্যতায় ভুগত না।",
+   "pron_bn": "ডিহাইড্রেশন",
+   "text": "dehydration"
+  },
+  {
+   "bn": "সুষম খাবার",
+   "example": "A balanced diet with fish, vegetables and fruit keeps your energy stable throughout the day.",
+   "example_bn": "মাছ, সবজি আর ফলসহ সুষম খাবার সারাদিন তোমার শক্তি ঠিক রাখে।",
+   "pron_bn": "ব্যালান্সড ডায়েট",
+   "text": "balanced diet"
+  },
+  {
+   "bn": "অ্যান্টিবায়োটিক ওষুধ",
+   "example": "If patients understood antibiotics better, they would not have asked for them unnecessarily last winter.",
+   "example_bn": "রোগীরা অ্যান্টিবায়োটিক ভালোভাবে বুঝলে গত শীতে অযথা এটা চাইত না।",
+   "pron_bn": "অ্যান্টিবায়োটিকস",
+   "text": "antibiotics"
+  },
+  {
+   "bn": "বিপাক (খাবার থেকে শরীরে শক্তি তৈরির প্রক্রিয়া)",
+   "example": "Your metabolism slows down a little as you get older.",
+   "example_bn": "বয়স বাড়ার সঙ্গে বিপাকের গতি একটু কমে যায়।",
+   "pron_bn": "মেটাবলিজম",
+   "text": "metabolism"
+  },
+  {
+   "bn": "কোনো খাবারের তীব্র ইচ্ছা",
+   "example": "I often have a craving for sweets after dinner.",
+   "example_bn": "রাতের খাবারের পর প্রায়ই আমার মিষ্টি খাওয়ার তীব্র ইচ্ছা হয়।",
+   "pron_bn": "ক্রেভিং",
+   "text": "craving"
+  },
+  {
+   "bn": "পার্শ্বপ্রতিক্রিয়া",
+   "example": "If the clinic had explained the side effect clearly, patients would feel less anxious about the vaccine now.",
+   "example_bn": "ক্লিনিক পার্শ্বপ্রতিক্রিয়া স্পষ্ট করে বুঝিয়ে থাকলে টিকা নিয়ে রোগীরা এখন কম দুশ্চিন্তা করত।",
+   "pron_bn": "সাইড ইফেক্ট",
+   "text": "side effect"
+  }
+ ]
+}

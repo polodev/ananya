@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি রাফি।",
+    "pron_bn": "ইশ বিন রাফি।",
+    "text": "Ich bin Rafi."
+   },
+   {
+    "bn": "তুমি আনা।",
+    "pron_bn": "ডু বিস্ট আনা।",
+    "text": "Du bist Anna."
+   },
+   {
+    "bn": "তোমার নাম কী?",
+    "pron_bn": "ভি হাইস্ট ডু?",
+    "text": "Wie heißt du?"
+   },
+   {
+    "bn": "আপনি কে?",
+    "pron_bn": "ভেয়া জিন্ট জি?",
+    "text": "Wer sind Sie?"
+   }
+  ],
+  "points_bn": [
+   "<b>ich bin, du bist, er ist</b> — এটা দিয়ে পরিচয় দেবে। যেমন: আমি রাফি, তুমি আনা।",
+   "<b>ich heiße, du heißt, er heißt</b> — নাম বলতে এই রূপগুলো লাগে। Sie হলে হয় <b>heißen</b>।",
+   "<b>Wie?</b> মানে কেমন, <b>Wer?</b> মানে কে। প্রশ্ন সবসময় প্রথমে বসে।",
+   "বন্ধুদের বলো <b>du</b>, অচেনা বা বড়দের বলো <b>Sie</b>। Sie সবসময় বড় হাতের।"
+  ],
+  "quiz": [
+   {
+    "answer": 2,
+    "options": [
+     "heißt",
+     "heißen",
+     "heiße",
+     "heißt du"
+    ],
+    "q": "Ich ___ Rafi. খালি জায়গায় কী বসবে?",
+    "why_bn": "ich-এর সঙ্গে সবসময় heiße হয়। তাই সঠিক উত্তর: Ich heiße Rafi।"
+   },
+   {
+    "answer": 1,
+    "options": [
+     "Wer",
+     "Wie",
+     "Wo",
+     "Was"
+    ],
+    "q": "___ geht es dir? কেমন আছো বলতে কী বসবে?",
+    "why_bn": "কেমন আছো জিজ্ঞেস করতে Wie দিয়ে শুরু করতে হয়। Wer মানে কে, তাই এখানে হবে না।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "heißen",
+     "heiße",
+     "heißt",
+     "bin"
+    ],
+    "q": "Frau Weber-কে ভদ্রভাবে জিজ্ঞেস করো: Wie ___ Sie?",
+    "why_bn": "Sie-এর সঙ্গে heißen হয়। অচেনা বা বড়দের নাম জানতে বলো: Wie heißen Sie?"
+   }
+  ],
+  "title_bn": "sein আর heißen, আর Wie / Wer প্রশ্ন"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি জার্মান ভাষায় অভিবাদন জানাতে পারবে, নিজের নাম বলতে পারবে আর কেমন আছো জিজ্ঞেস করতে পারবে।",
+ "phrases": [
+  {
+   "bn": "হ্যালো, তুমি কেমন আছো?",
+   "pron_bn": "হালো, ভি গেট এস ডিয়া?",
+   "text": "Hallo, wie geht es dir?"
+  },
+  {
+   "bn": "আমি ভালো আছি, ধন্যবাদ।",
+   "pron_bn": "মিয়া গেট এস গুট, ডাংকে।",
+   "text": "Mir geht es gut, danke."
+  },
+  {
+   "bn": "আমার নাম রাফি।",
+   "pron_bn": "ইশ হাইসে রাফি।",
+   "text": "Ich heiße Rafi."
+  },
+  {
+   "bn": "আমি ঢাকা থেকে এসেছি।",
+   "pron_bn": "ইশ বিন আউস ঢাকা।",
+   "text": "Ich bin aus Dhaka."
+  },
+  {
+   "bn": "তুমি কে?",
+   "pron_bn": "ভেয়া বিস্ট ডু ডেন?",
+   "text": "Wer bist du denn?"
+  },
+  {
+   "bn": "তোমার নাম কী?",
+   "pron_bn": "ভি হাইস্ট ডু ডেন?",
+   "text": "Wie heißt du denn?"
+  },
+  {
+   "bn": "শুভ সকাল, আপনি কেমন আছেন?",
+   "pron_bn": "গুটেন মর্গেন, ভি গেট এস ইনেন?",
+   "text": "Guten Morgen, wie geht es Ihnen?"
+  },
+  {
+   "bn": "আপনার নাম কী?",
+   "pron_bn": "ভি হাইসেন জি ডেন?",
+   "text": "Wie heißen Sie denn?"
+  },
+  {
+   "bn": "খুশি হলাম, আমি মিতু।",
+   "pron_bn": "ফ্রয়ট মিশ, ইশ বিন মিতু।",
+   "text": "Freut mich, ich bin Mitu."
+  },
+  {
+   "bn": "পরে দেখা হবে, টাটা!",
+   "pron_bn": "বিস শ্পেটা, চ্যুস!",
+   "text": "Bis später, tschüss!"
+  },
+  {
+   "bn": "দুঃখিত, আপনি কে?",
+   "pron_bn": "এন্টশুলডিগুং, ভেয়া জিন্ট জি?",
+   "text": "Entschuldigung, wer sind Sie?"
+  },
+  {
+   "bn": "শুভ সন্ধ্যা, আমি তানভীর।",
+   "pron_bn": "গুটেন আবেন্ট, ইশ বিন তানভীর।",
+   "text": "Guten Abend, ich bin Tanvir."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হ্যালো, আমার নাম রাফি।",
+   "pron_bn": "হালো, ইশ হাইসে রাফি।",
+   "speaker": "Rafi",
+   "text": "Hallo, ich heiße Rafi."
+  },
+  {
+   "bn": "হ্যালো রাফি, আমি আনা।",
+   "pron_bn": "হালো রাফি, ইশ বিন আনা।",
+   "speaker": "Anna",
+   "text": "Hallo Rafi, ich bin Anna."
+  },
+  {
+   "bn": "আনা, তুমি কেমন আছো?",
+   "pron_bn": "ভি গেট এস ডিয়া, আনা?",
+   "speaker": "Rafi",
+   "text": "Wie geht es dir, Anna?"
+  },
+  {
+   "bn": "আমি ভালো আছি, তুমি কেমন আছো?",
+   "pron_bn": "মিয়া গেট এস গুট, ভি গেট এস ডিয়া?",
+   "speaker": "Anna",
+   "text": "Mir geht es gut, wie geht es dir?"
+  },
+  {
+   "bn": "ভালো, আর ওটা কে?",
+   "pron_bn": "গুট, উন্ট ভেয়া ইস্ট ডাস?",
+   "speaker": "Rafi",
+   "text": "Gut, und wer ist das?"
+  },
+  {
+   "bn": "ওটা লুকাস, ও আমার বন্ধু।",
+   "pron_bn": "ডাস ইস্ট লুকাস, এয়া ইস্ট মাইন ফ্রয়ন্ট।",
+   "speaker": "Anna",
+   "text": "Das ist Lukas, er ist mein Freund."
+  },
+  {
+   "bn": "ওর নাম কী?",
+   "pron_bn": "ভি হাইস্ট এয়া ডেন?",
+   "speaker": "Rafi",
+   "text": "Wie heißt er denn?"
+  },
+  {
+   "bn": "ওর নাম লুকাস আর ও খুব ভালো।",
+   "pron_bn": "এয়া হাইস্ট লুকাস উন্ট ইস্ট নেট।",
+   "speaker": "Anna",
+   "text": "Er heißt Lukas und ist nett."
+  }
+ ],
+ "tip_bn": "জার্মানিতে বন্ধুদের tschüss বলো, কিন্তু দোকানে বা অচেনা মানুষকে Guten Tag আর Sie বলো। প্রতিদিন আয়নার সামনে দাঁড়িয়ে নিজের নাম আর কেমন আছো তিনবার করে বলো।",
+ "title": "Hallo! Ich bin Rafi",
+ "words": [
+  {
+   "bn": "হ্যালো",
+   "example": "Hallo, ich bin Rafi.",
+   "example_bn": "হ্যালো, আমি রাফি।",
+   "pron_bn": "হালো",
+   "text": "Hallo"
+  },
+  {
+   "bn": "শুভ সকাল",
+   "example": "Guten Morgen, Frau Weber!",
+   "example_bn": "শুভ সকাল, মিসেস ওয়েবার!",
+   "pron_bn": "গুটেন মর্গেন",
+   "text": "Guten Morgen"
+  },
+  {
+   "bn": "টাটা, বিদায়",
+   "example": "Tschüss, bis morgen!",
+   "example_bn": "টাটা, কাল দেখা হবে!",
+   "pron_bn": "চ্যুস",
+   "text": "Tschüss"
+  },
+  {
+   "bn": "নাম",
+   "example": "Mein Name ist Tanvir.",
+   "example_bn": "আমার নাম তানভীর।",
+   "pron_bn": "ডেয়া নামে",
+   "text": "der Name"
+  },
+  {
+   "bn": "নাম হওয়া",
+   "example": "Ich heiße Nadia.",
+   "example_bn": "আমার নাম নাদিয়া।",
+   "pron_bn": "হাইসেন",
+   "text": "heißen"
+  },
+  {
+   "bn": "কেমন, কীভাবে",
+   "example": "Wie geht es dir?",
+   "example_bn": "তুমি কেমন আছো?",
+   "pron_bn": "ভি",
+   "text": "Wie"
+  },
+  {
+   "bn": "কে",
+   "example": "Wer ist das?",
+   "example_bn": "ওটা কে?",
+   "pron_bn": "ভেয়া",
+   "text": "Wer"
+  },
+  {
+   "bn": "ভালো",
+   "example": "Mir geht es gut.",
+   "example_bn": "আমি ভালো আছি।",
+   "pron_bn": "গুট",
+   "text": "gut"
+  },
+  {
+   "bn": "ধন্যবাদ",
+   "example": "Danke, und dir?",
+   "example_bn": "ধন্যবাদ, আর তুমি?",
+   "pron_bn": "ডাংকে",
+   "text": "danke"
+  },
+  {
+   "bn": "ভালো, সুন্দর মনের",
+   "example": "Anna ist sehr nett.",
+   "example_bn": "আনা খুব ভালো মেয়ে।",
+   "pron_bn": "নেট",
+   "text": "nett"
+  }
+ ]
+}

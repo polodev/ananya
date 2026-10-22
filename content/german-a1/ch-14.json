@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "ঠান্ডা পড়ছে।",
+    "pron_bn": "এস ইস্ট কাল্ট।",
+    "text": "Es ist kalt."
+   },
+   {
+    "bn": "গরম এবং রোদেলা আবহাওয়া।",
+    "pron_bn": "এস ইস্ট ভার্ম উন্ট জোনিশ।",
+    "text": "Es ist warm und sonnig."
+   },
+   {
+    "bn": "আজ বৃষ্টি হচ্ছে।",
+    "pron_bn": "এস রেগনেট হয়টে।",
+    "text": "Es regnet heute."
+   },
+   {
+    "bn": "জ্যাকেটটা সুন্দর আর গরম।",
+    "pron_bn": "ডি ইয়াকে ইস্ট শ্যোন উন্ট ভার্ম।",
+    "text": "Die Jacke ist schön und warm."
+   }
+  ],
+  "points_bn": [
+   "আবহাওয়া বলতে সবসময় <b>Es ist ...</b> বলো। যেমন: Es ist kalt, Es ist warm।",
+   "বৃষ্টি হচ্ছে বোঝাতে বলো <b>es regnet</b>। এখানে es বাদ দেওয়া যায় না।",
+   "<b>sein</b> (ist / sind) এর পরে বিশেষণ বদলায় না। যেমন: Die Jacke ist schön।",
+   "পোশাক কেমন তা বলতে বিশেষণ ব্যবহার করো: <b>warm, kalt, schön, klein, groß</b>।"
+  ],
+  "quiz": [
+   {
+    "answer": 0,
+    "options": [
+     "Es",
+     "Er",
+     "Ich",
+     "Du"
+    ],
+    "q": "___ ist kalt. খালি জায়গায় কী বসবে?",
+    "why_bn": "আবহাওয়া বলতে সবসময় Es দিয়ে শুরু করতে হয়। তাই সঠিক বাক্য হলো Es ist kalt।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "খুব গরম",
+     "বাতাস বইছে",
+     "রোদ উঠেছে",
+     "বৃষ্টি হচ্ছে"
+    ],
+    "q": "“es regnet” মানে কী?",
+    "why_bn": "es regnet মানে বৃষ্টি হচ্ছে। regnen ক্রিয়ার অর্থ বৃষ্টি হওয়া।"
+   },
+   {
+    "answer": 1,
+    "options": [
+     "sind",
+     "ist",
+     "bist",
+     "seid"
+    ],
+    "q": "Die Jacke ___ warm. খালি জায়গায় কী বসবে?",
+    "why_bn": "Die Jacke একবচন, তাই sein ক্রিয়ার রূপ ist বসবে। বাক্যটি হবে Die Jacke ist warm।"
+   }
+  ],
+  "title_bn": "আবহাওয়া বলা: Es ist ... আর বিশেষণ"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি আবহাওয়া সম্পর্কে বলতে পারবে এবং ঠান্ডা বা গরম অনুযায়ী সঠিক পোশাক বেছে নিতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আজ ঠান্ডা পড়ছে।",
+   "pron_bn": "এস ইস্ট হয়টে কাল্ট।",
+   "text": "Es ist heute kalt."
+  },
+  {
+   "bn": "আজ গরম পড়ছে।",
+   "pron_bn": "এস ইস্ট হয়টে ভার্ম।",
+   "text": "Es ist heute warm."
+  },
+  {
+   "bn": "জোরে বৃষ্টি হচ্ছে।",
+   "pron_bn": "এস রেগনেট শ্টার্ক।",
+   "text": "Es regnet stark."
+  },
+  {
+   "bn": "রোদ উঠেছে।",
+   "pron_bn": "ডি জনে শাইন্ট।",
+   "text": "Die Sonne scheint."
+  },
+  {
+   "bn": "আমার একটা জ্যাকেট দরকার।",
+   "pron_bn": "ইশ ব্রাউখে আইনে ইয়াকে।",
+   "text": "Ich brauche eine Jacke."
+  },
+  {
+   "bn": "জ্যাকেটটা কি যথেষ্ট গরম?",
+   "pron_bn": "ইস্ট ডি ইয়াকে ভার্ম গেনুক?",
+   "text": "Ist die Jacke warm genug?"
+  },
+  {
+   "bn": "আমি পুলওভারটা পরে নিচ্ছি।",
+   "pron_bn": "ইশ ৎসিয়ে ডেন পুলোফা আন।",
+   "text": "Ich ziehe den Pullover an."
+  },
+  {
+   "bn": "টি-শার্টটা সুন্দর।",
+   "pron_bn": "ডাস টি-শার্ট ইস্ট শ্যোন।",
+   "text": "Das T-Shirt ist schön."
+  },
+  {
+   "bn": "আমার জুতো ভিজে গেছে।",
+   "pron_bn": "মাইনে শুয়ে জিন্ট নাস।",
+   "text": "Meine Schuhe sind nass."
+  },
+  {
+   "bn": "একটা ছাতা সাথে নিন।",
+   "pron_bn": "নেমেন জি আইনেন রেগেনশির্ম মিট।",
+   "text": "Nehmen Sie einen Regenschirm mit."
+  },
+  {
+   "bn": "সিলেটে আবহাওয়া কেমন?",
+   "pron_bn": "ভি ইস্ট ডাস ভেটা ইন সিলেট?",
+   "text": "Wie ist das Wetter in Sylhet?"
+  },
+  {
+   "bn": "আমি গরম আবহাওয়া পছন্দ করি।",
+   "pron_bn": "ইশ মাক ভার্মেস ভেটা।",
+   "text": "Ich mag warmes Wetter."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আজ আবহাওয়া কেমন?",
+   "pron_bn": "ভি ইস্ট ডাস ভেটা হয়টে?",
+   "speaker": "Rafi",
+   "text": "Wie ist das Wetter heute?"
+  },
+  {
+   "bn": "ঠান্ডা পড়ছে আর বৃষ্টি হচ্ছে।",
+   "pron_bn": "এস ইস্ট কাল্ট উন্ট এস রেগনেট।",
+   "speaker": "Anna",
+   "text": "Es ist kalt und es regnet."
+  },
+  {
+   "bn": "আমার কি জ্যাকেট লাগবে?",
+   "pron_bn": "ব্রাউখে ইশ আইনে ইয়াকে?",
+   "speaker": "Rafi",
+   "text": "Brauche ich eine Jacke?"
+  },
+  {
+   "bn": "হ্যাঁ, জ্যাকেটটা গরম আর ভালো।",
+   "pron_bn": "ইয়া, ডি ইয়াকে ইস্ট ভার্ম উন্ট গুট।",
+   "speaker": "Anna",
+   "text": "Ja, die Jacke ist warm und gut."
+  },
+  {
+   "bn": "আমার জ্যাকেটটা কি খুব ছোট?",
+   "pron_bn": "ইস্ট মাইনে ইয়াকে ৎসু ক্লাইন?",
+   "speaker": "Rafi",
+   "text": "Ist meine Jacke zu klein?"
+  },
+  {
+   "bn": "না, এটা সুন্দর আর বেশ বড়।",
+   "pron_bn": "নাইন, জি ইস্ট শ্যোন উন্ট গ্রোস গেনুক।",
+   "speaker": "Anna",
+   "text": "Nein, sie ist schön und groß genug."
+  },
+  {
+   "bn": "আমার কি একটা ছাতাও লাগবে?",
+   "pron_bn": "ব্রাউখে ইশ আউখ আইনেন রেগেনশির্ম?",
+   "speaker": "Rafi",
+   "text": "Brauche ich auch einen Regenschirm?"
+  },
+  {
+   "bn": "হ্যাঁ, এটা খুব ভালো বুদ্ধি!",
+   "pron_bn": "ইয়া, ডাস ইস্ট আইনে গুটে ইডে!",
+   "speaker": "Anna",
+   "text": "Ja, das ist eine gute Idee!"
+  }
+ ],
+ "tip_bn": "জার্মানিতে আবহাওয়া খুব তাড়াতাড়ি বদলে যায়, তাই বাইরে যাওয়ার আগে Wie ist das Wetter? জিজ্ঞেস করো। ব্যাগে সবসময় একটা ছোট ছাতা রাখো, এটা জার্মানদের খুব সাধারণ অভ্যাস।",
+ "title": "Wetter und Kleidung",
+ "words": [
+  {
+   "bn": "আবহাওয়া",
+   "example": "Das Wetter ist heute schön.",
+   "example_bn": "আজ আবহাওয়া সুন্দর।",
+   "pron_bn": "ডাস ভেটা",
+   "text": "das Wetter"
+  },
+  {
+   "bn": "ঠান্ডা",
+   "example": "Es ist sehr kalt.",
+   "example_bn": "খুব ঠান্ডা পড়ছে।",
+   "pron_bn": "কাল্ট",
+   "text": "kalt"
+  },
+  {
+   "bn": "গরম",
+   "example": "Die Jacke ist warm.",
+   "example_bn": "জ্যাকেটটা গরম।",
+   "pron_bn": "ভার্ম",
+   "text": "warm"
+  },
+  {
+   "bn": "রোদেলা",
+   "example": "Es ist sonnig und warm.",
+   "example_bn": "রোদেলা আর গরম আবহাওয়া।",
+   "pron_bn": "জোনিশ",
+   "text": "sonnig"
+  },
+  {
+   "bn": "বৃষ্টি হওয়া",
+   "example": "Es regnet heute in Dhaka.",
+   "example_bn": "আজ ঢাকায় বৃষ্টি হচ্ছে।",
+   "pron_bn": "রেগনেন",
+   "text": "regnen"
+  },
+  {
+   "bn": "জ্যাকেট",
+   "example": "Ich brauche eine warme Jacke.",
+   "example_bn": "আমার একটা গরম জ্যাকেট দরকার।",
+   "pron_bn": "ডি ইয়াকে",
+   "text": "die Jacke"
+  },
+  {
+   "bn": "পুলওভার, সোয়েটার",
+   "example": "Der Pullover ist weich und warm.",
+   "example_bn": "পুলওভারটা নরম আর গরম।",
+   "pron_bn": "ডেয়া পুলোফা",
+   "text": "der Pullover"
+  },
+  {
+   "bn": "টি-শার্ট",
+   "example": "Das T-Shirt ist zu klein.",
+   "example_bn": "টি-শার্টটা খুব ছোট।",
+   "pron_bn": "ডাস টি-শার্ট",
+   "text": "das T-Shirt"
+  },
+  {
+   "bn": "ছাতা",
+   "example": "Ich nehme einen Regenschirm mit.",
+   "example_bn": "আমি একটা ছাতা সাথে নিচ্ছি।",
+   "pron_bn": "ডেয়া রেগেনশির্ম",
+   "text": "der Regenschirm"
+  },
+  {
+   "bn": "জুতো",
+   "example": "Meine Schuhe sind neu und schön.",
+   "example_bn": "আমার জুতোগুলো নতুন আর সুন্দর।",
+   "pron_bn": "ডি শুয়ে",
+   "text": "die Schuhe"
+  }
+ ]
+}

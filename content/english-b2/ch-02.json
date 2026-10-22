@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি যদি গত রাতে আগে ঘুমাতাম, তাহলে সকালের মিটিংয়ে অনেক বেশি ঝরঝরে লাগত।",
+    "pron_bn": "",
+    "text": "If I had slept earlier last night, I would have felt much fresher at the morning meeting."
+   },
+   {
+    "bn": "মিতু যদি চট্টগ্রামে বাড়তি কাজ না নিত, তাহলে শুক্রবারে পরিবারের দুপুরের খাবারে যোগ দিতে পারত।",
+    "pron_bn": "",
+    "text": "If Mitu had not taken extra work in Chittagong, she would have joined the family lunch on Friday."
+   },
+   {
+    "bn": "তানভির যদি জ্বরের সময় ঠিকমতো বিশ্রাম নিত, তাহলে আরও দ্রুত সুস্থ হয়ে কাজে ফিরতে পারত।",
+    "pron_bn": "",
+    "text": "If Tanvir had rested properly during the fever, he would have recovered much faster and returned to work."
+   },
+   {
+    "bn": "আমরা যদি অফিসের কাজগুলো ঠিকমতো ভাগ করে নিতাম, তাহলে গতকাল কেউ চাপে পড়ত না বা দেরি করে থাকত না।",
+    "pron_bn": "",
+    "text": "If we had shared the office tasks fairly, nobody would have felt stressed or stayed late yesterday."
+   }
+  ],
+  "points_bn": [
+   "<b>If + had + V3, would have + V3</b> দিয়ে অতীতের এমন ঘটনা বোঝায় যা আসলে ঘটেনি।",
+   "বেশিরভাগ সময় এই গঠন দিয়ে অতীত সিদ্ধান্ত নিয়ে আফসোস বা সমালোচনা করা হয়।",
+   "<b>If</b> অংশে অতীতের কারণ থাকে, আর মূল অংশে তার কাল্পনিক ফল থাকে।",
+   "না-বোধক বাক্যে <b>had not + V3</b> বসে, যেমন If I had not worked late।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Unless",
+     "If",
+     "Wished",
+     "Have"
+    ],
+    "q": "Choose the correct word: ___ you had rested, you would have felt better.",
+    "why_bn": "অতীতের কাল্পনিক শর্ত বোঝাতে If বসে। Unless মানে যদি না, যা এখানে মানায় না।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "work",
+     "have worked",
+     "will work",
+     "had worked"
+    ],
+    "q": "Fill in the blank: If I ___ harder, I would have finished the report on time.",
+    "why_bn": "থার্ড কন্ডিশনালের If অংশে had + V3 বসে। তাই had worked সঠিক, বাকিগুলো এই গঠনের নয়।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "would have helped",
+     "will help",
+     "help",
+     "have helped"
+    ],
+    "q": "Fill in the blank: If Nadia had asked for help, her colleagues ___ her happily.",
+    "why_bn": "মূল অংশে would have + V3 বসে। তাই would have helped সঠিক, কারণ ঘটনাটি অতীতের কল্পনা।"
+   }
+  ],
+  "title_bn": "থার্ড কন্ডিশনাল - অতীত নিয়ে আফসোস"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি কাজের চাপ, বিশ্রাম আর অতীত সিদ্ধান্ত নিয়ে ইংরেজিতে খোলাখুলি কথা বলতে পারবে। অতীত নিয়ে আফসোস জানাতে থার্ড কন্ডিশনাল ব্যবহার করতে শিখবে।",
+ "phrases": [
+  {
+   "bn": "গত বছর যদি আরও ছুটি নিতাম, তাহলে ঢাকায় পরিবারের সঙ্গে সময় কাটাতে পারতাম।",
+   "pron_bn": "",
+   "text": "I wish I had taken more leave last year to spend time with my family in Dhaka."
+  },
+  {
+   "bn": "আমি যদি অফিস থেকে আগে বের হতাম, তাহলে আজ রাতে এই ভয়ানক মাথাব্যথা এড়াতে পারতাম।",
+   "pron_bn": "",
+   "text": "If only I had left the office earlier, I would have avoided this terrible headache tonight."
+  },
+  {
+   "bn": "ইদানীং আমি খুব ক্লান্ত বোধ করছি, তাই সুস্থ হতে আমার একটা ঠিকঠাক ছুটির দিন দরকার।",
+   "pron_bn": "",
+   "text": "I have been feeling completely exhausted lately, so I need a proper weekend to recover."
+  },
+  {
+   "bn": "আমাদের সন্ধ্যা আর ছুটির দিন বাঁচায় এমন স্বাস্থ্যকর কাজের রুটিন নিয়ে কি কথা বলতে পারি?",
+   "pron_bn": "",
+   "text": "Could we please discuss a healthier work routine that protects our evenings and weekends?"
+  },
+  {
+   "bn": "রাতের দেরির ফোনকলের ব্যাপারে আমাকে স্পষ্ট সীমা টানতে হবে, যাতে পরিবারের সঙ্গে শান্তিতে রাতের খাবার খেতে পারি।",
+   "pron_bn": "",
+   "text": "I need to set clear limits on late calls so I can have dinner peacefully with family."
+  },
+  {
+   "bn": "বিকেলে ছোট একটা চা-বিরতি নিলে কাজে আমার মনোযোগ সত্যিই অনেক ভালো হয়।",
+   "pron_bn": "",
+   "text": "Taking a short tea break in the afternoon really helps me focus better at work."
+  },
+  {
+   "bn": "চাঁদপুরে বাড়িতে ঠিকমতো বিশ্রাম না নিয়ে পুরো ছুটিতে কাজ করায় আমার আফসোস হচ্ছে।",
+   "pron_bn": "",
+   "text": "I regret working through the whole holiday instead of resting properly at home in Chandpur."
+  },
+  {
+   "bn": "আজ রাতে দেরি করে না থেকে এই রিপোর্টটা কি আগামীকাল সকালে শেষ করা যাবে?",
+   "pron_bn": "",
+   "text": "Would it be possible to finish this report tomorrow morning instead of staying late tonight?"
+  },
+  {
+   "bn": "আমি প্রতিদিন দেরি করে কাজ করছি, আর আমার স্বাস্থ্য এখন স্পষ্টভাবে খারাপ হতে শুরু করেছে।",
+   "pron_bn": "",
+   "text": "I have been working late every day, and my health is clearly starting to suffer now."
+  },
+  {
+   "bn": "চলো আগামী সপ্তাহের কাজগুলো আগে থেকে ঠিক করি, যাতে শেষ মুহূর্তে তাড়াহুড়ো না লাগে।",
+   "pron_bn": "",
+   "text": "Let’s plan our tasks for next week so we do not feel rushed at the last moment."
+  },
+  {
+   "bn": "ওই বাড়তি দায়িত্বে আমার না বলা উচিত ছিল, তবে পরের বার আমি সময় আরও ভালোভাবে সামলাব।",
+   "pron_bn": "",
+   "text": "I should have said no to that extra duty, but I will manage my time better next time."
+  },
+  {
+   "bn": "কাজের পর শান্ত হাঁটা আর এক কাপ চা অফিসের চাপ পুরোপুরি ভুলতে আমাকে সাহায্য করে।",
+   "pron_bn": "",
+   "text": "After work, a quiet walk and a cup of tea help me forget office pressure completely."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "গত বছর যদি আমি স্পষ্ট সীমা ঠিক করে রাখতাম, তাহলে কাজে আমি এতটা পুরোপুরি ক্লান্ত হয়ে পড়তাম না।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If I had set clear boundaries last year, I would not have felt so completely burned out at work."
+  },
+  {
+   "bn": "তানভির যদি ঢাকায় ওই বাড়তি প্রজেক্টটা ফিরিয়ে দিত, তাহলে পরিবারের জন্য তার হাতে আরও সময় থাকত।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "If Tanvir had turned down that extra project in Dhaka, he would have had more time for his family."
+  },
+  {
+   "bn": "সত্যি বলতে, আমি যদি আগে নিজের স্বাস্থ্যকে গুরুত্ব দিতাম, তাহলে প্রতিদিন সন্ধ্যায় এত চাপে পড়া এড়াতে পারতাম।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "Honestly, if I had prioritized my health earlier, I would have avoided feeling overwhelmed every single evening."
+  },
+  {
+   "bn": "আমরা যদি ডেডলাইনগুলো আরও বাস্তবভাবে ঠিক করতাম, তাহলে ঠিকমতো শক্তি ফিরে পাওয়ার জন্য যথেষ্ট সময় রাখতে পারতাম।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "If we had planned our deadlines more realistically, we would have left enough time to properly recharge."
+  },
+  {
+   "bn": "আমি যদি মাঝরাতে অফিসের ইমেইল না দেখতাম, তাহলে আরও ভালো ঘুম হতো আর জীবনে আফসোসও অনেক কম থাকত।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If I had not checked office emails at midnight, I would have slept better and regretted much less in life."
+  },
+  {
+   "bn": "রাফি যদি চাঁদপুরে ঈদের সময় ছুটি নিত, তাহলে বাবা-মায়ের সঙ্গে ভাত, মাছ আর চা খেয়ে আনন্দ করতে পারত।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "If Rafi had taken leave during Eid in Chandpur, he would have enjoyed rice, fish and tea with his parents."
+  },
+  {
+   "bn": "আমাদের ম্যানেজার যদি ওয়ার্ক-লাইফ ব্যালেন্সকে সম্মান করত, তাহলে আমাদের কেউ এত অতিরিক্ত কাজে ক্লান্ত হতো না।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "If our manager had respected work-life balance, none of us would have become so overworked and exhausted."
+  },
+  {
+   "bn": "আমি যদি আরও আগে ‘না’ বলতে শিখতাম, তাহলে বিশ্রাম, বন্ধু আর লম্বা হাঁটার জন্য ছুটির দিনগুলো বাঁচিয়ে রাখতে পারতাম।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "If I had learned to say no sooner, I would have protected my weekends for rest, friends and long walks."
+  },
+  {
+   "bn": "আমরা যদি গত মাসে নিজেদের আফসোস খোলাখুলি বলতাম, তাহলে সবার জন্য অনেক স্বাস্থ্যকর রুটিন বানাতে পারতাম।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "If we had discussed our regrets openly last month, we would have created a much healthier routine for everyone."
+  }
+ ],
+ "tip_bn": "প্রতিদিন রাতে দুই মিনিট ভাবো, আজ কাজ আর বিশ্রামের ভারসাম্য কেমন ছিল। তারপর থার্ড কন্ডিশনাল দিয়ে ডায়েরিতে একটা বাক্য লেখো, যেমন If I had...।",
+ "title": "Work-Life Balance",
+ "words": [
+  {
+   "bn": "অতিরিক্ত কাজের চাপে শারীরিক ও মানসিক ক্লান্তি",
+   "example": "After six months without a proper holiday, Tanvir faced serious burnout and could not concentrate at all.",
+   "example_bn": "ঠিকমতো ছুটি ছাড়া ছয় মাস পর তানভির ভীষণ ক্লান্তিতে পড়ল আর একদম মন দিতে পারল না।",
+   "pron_bn": "বার্নআউট",
+   "text": "burnout"
+  },
+  {
+   "bn": "প্রয়োজনের বেশি কাজের চাপে থাকা",
+   "example": "Mitu felt completely overworked in Chittagong because she handled three urgent projects at the same time.",
+   "example_bn": "মিতু চট্টগ্রামে নিজেকে খুব কাজের চাপে পিষ্ট মনে করল, কারণ সে একসঙ্গে তিনটা জরুরি প্রজেক্ট সামলাচ্ছিল।",
+   "pron_bn": "ওভারওয়ার্কড",
+   "text": "overworked"
+  },
+  {
+   "bn": "সবচেয়ে গুরুত্বপূর্ণ কাজকে আগে রাখা",
+   "example": "Rafi decided to prioritize his health this year by leaving the office before eight every evening.",
+   "example_bn": "রাফি ঠিক করল এই বছর সে স্বাস্থ্যকে সবচেয়ে বেশি গুরুত্ব দেবে, তাই প্রতিদিন সন্ধ্যা আটটার আগে অফিস ছাড়বে।",
+   "pron_bn": "প্রায়োরিটাইজ",
+   "text": "prioritize"
+  },
+  {
+   "bn": "কাজ ও ব্যক্তিগত জীবনের মধ্যে স্পষ্ট সীমা",
+   "example": "Setting clear boundaries between office work and family time protected Nadia from constant stress and guilt.",
+   "example_bn": "অফিসের কাজ আর পরিবারের সময়ের মধ্যে স্পষ্ট সীমা রাখা নাদিয়াকে সবসময়ের চাপ আর অপরাধবোধ থেকে বাঁচাল।",
+   "pron_bn": "বাউন্ডারিজ",
+   "text": "boundaries"
+  },
+  {
+   "bn": "আফসোস করা, অতীত সিদ্ধান্তে কষ্ট পাওয়া",
+   "example": "Now she deeply regrets missing her sister’s school event because of an unnecessary late office meeting.",
+   "example_bn": "অফিসের অপ্রয়োজনীয় দেরির মিটিংয়ের কারণে বোনের স্কুলের অনুষ্ঠানে যেতে না পারায় এখন তার খুব আফসোস হয়।",
+   "pron_bn": "রিগ্রেট",
+   "text": "regret"
+  },
+  {
+   "bn": "কাজ শেষ করার শেষ তারিখ",
+   "example": "The sudden deadline in Sylhet forced the whole team to work late without proper food or rest.",
+   "example_bn": "সিলেটে হঠাৎ ডেডলাইন আসায় পুরো টিমকে ঠিকমতো খাওয়া আর বিশ্রাম ছাড়াই দেরি করে কাজ করতে হলো।",
+   "pron_bn": "ডেডলাইন",
+   "text": "deadline"
+  },
+  {
+   "bn": "বিশ্রাম নিয়ে মনে নতুন শক্তি আনা",
+   "example": "During the weekend in Chandpur, Rafi drank tea by the river to relax and fully recharge his mind.",
+   "example_bn": "চাঁদপুরে ছুটির দিনে রাফি নদীর পাশে চা খেল, মন শান্ত করতে আর পুরো শক্তি ফিরে পেতে।",
+   "pron_bn": "রিচার্জ",
+   "text": "recharge"
+  },
+  {
+   "bn": "বিনয়ের সঙ্গে কোনো প্রস্তাব বা কাজ ফিরিয়ে দেওয়া",
+   "example": "Nadia had to turn down extra evening work so that she could care for her elderly parents at home.",
+   "example_bn": "নাদিয়াকে সন্ধ্যার বাড়তি কাজ ফিরিয়ে দিতে হলো, যাতে বাড়িতে বয়স্ক বাবা-মায়ের দেখাশোনা করতে পারে।",
+   "pron_bn": "টার্ন ডাউন",
+   "text": "turn down"
+  },
+  {
+   "bn": "কাজের চাপে দিশেহারা লাগা",
+   "example": "After answering fifty customer calls alone, Mitu felt completely overwhelmed and needed a short quiet break.",
+   "example_bn": "একা পঞ্চাশটা কাস্টমার কল ধরে মিতু পুরো দিশেহারা হয়ে গেল আর তার ছোট একটা শান্ত বিরতি দরকার হলো।",
+   "pron_bn": "ওভারহোয়েলমড",
+   "text": "overwhelmed"
+  },
+  {
+   "bn": "কাজ আর ব্যক্তিগত জীবনের সুস্থ ভারসাম্য",
+   "example": "Good work-life balance helped Tanvir enjoy his job in Dhaka while spending peaceful evenings with family.",
+   "example_bn": "ভালো ওয়ার্ক-লাইফ ব্যালেন্স তানভিরকে ঢাকায় চাকরি উপভোগ করতে আর পরিবারের সঙ্গে শান্ত সন্ধ্যা কাটাতে সাহায্য করল।",
+   "pron_bn": "ওয়ার্ক-লাইফ ব্যালেন্স",
+   "text": "work-life balance"
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি চিনি দিয়ে চা খেতাম, কিন্তু এখন এড়িয়ে চলি।",
+    "pron_bn": "",
+    "text": "I used to drink tea with sugar, but now I avoid it."
+   },
+   {
+    "bn": "আমরা প্রতি শুক্রবার বিকেলে মাঠে ফুটবল খেলতাম।",
+    "pron_bn": "",
+    "text": "We would play football in the field every Friday afternoon."
+   },
+   {
+    "bn": "সে ব্যায়াম করত না, তাই প্রায়ই দুর্বল লাগত।",
+    "pron_bn": "",
+    "text": "She did not use to exercise, so she felt weak often."
+   },
+   {
+    "bn": "তুমি সিলেটে থাকতে কি কলেজে হেঁটে যেতে?",
+    "pron_bn": "",
+    "text": "Did you use to walk to college when you lived in Sylhet?"
+   }
+  ],
+  "points_bn": [
+   "অতীতের নিয়মিত অভ্যাস, যা এখন আর নেই, বোঝাতে <b>used to + verb</b> বসে।",
+   "<b>would + verb</b> দিয়েও অতীতের বারবার করা কাজ বোঝায়, গল্পে সুন্দর শোনায়।",
+   "অতীতের অবস্থা বোঝাতে <b>would</b> বসে না, তখন শুধু <b>used to</b> হয়।",
+   "প্রশ্ন ও না-বোধকে <b>did</b> এর পরে <b>use to</b> হয়, d ছাড়া।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "use to",
+     "used to",
+     "uses to",
+     "using to"
+    ],
+    "q": "I ___ to eat junk food after class, but now I eat fruit.",
+    "why_bn": "অতীতের অভ্যাস বোঝাতে used to বসে। use to ভুল, কারণ হ্যাঁ-বোধকে d সহ used to হয়।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "would",
+     "will",
+     "uses to",
+     "is"
+    ],
+    "q": "When I lived in Chandpur, we ___ play football every afternoon.",
+    "why_bn": "অতীতের বারবার করা কাজের জন্য would বসে। will বর্তমান-ভবিষ্যতের জন্য, তাই এখানে হবে না।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "will",
+     "would",
+     "using",
+     "use to"
+    ],
+    "q": "I did not ___ to walk in the morning.",
+    "why_bn": "did এর পরে base form বসে, তাই did not use to হবে। did এর পরে used to হয় না।"
+   }
+  ],
+  "title_bn": "used to / would দিয়ে অতীতের অভ্যাস"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি আগের ও এখনকার স্বাস্থ্য অভ্যাস নিয়ে ইংরেজিতে কথা বলতে পারবে। used to ও would দিয়ে অতীতের অভ্যাস বর্ণনা করতে শিখবে।",
+ "phrases": [
+  {
+   "bn": "আমি আগে সকালের নাশতা বাদ দিতাম, কিন্তু এখন সময়মতো খাই।",
+   "pron_bn": "",
+   "text": "I used to skip breakfast, but now I eat on time."
+  },
+  {
+   "bn": "আমার বাবা প্রতিদিন খুব সকালে বাজারে হেঁটে যেতেন।",
+   "pron_bn": "",
+   "text": "My father would walk to the market every morning early."
+  },
+  {
+   "bn": "আমরা ঢাকায় অফিসের দিনগুলোতে রাতে দেরি করে খেতাম।",
+   "pron_bn": "",
+   "text": "We used to eat late at night in Dhaka during office days."
+  },
+  {
+   "bn": "আমি জুস খেতাম, কিন্তু এখন বেশিরভাগ সময় পরিষ্কার পানি খাই।",
+   "pron_bn": "",
+   "text": "I would drink juice, but now I mostly drink clean water."
+  },
+  {
+   "bn": "সে ক্লান্ত বোধ করত কারণ সে প্রতিদিন অনেক দেরি করে ঘুমাত।",
+   "pron_bn": "",
+   "text": "She used to feel tired because she slept very late daily."
+  },
+  {
+   "bn": "আমরা প্রতি সপ্তাহে মুরগি, মাছ আর টাটকা সবজি খাওয়ার চেষ্টা করি।",
+   "pron_bn": "",
+   "text": "We try to eat chicken, fish and fresh vegetables weekly."
+  },
+  {
+   "bn": "আমি চিনি কমাতে চাই আর বেশি পানি খেতে চাই।",
+   "pron_bn": "",
+   "text": "I want to cut down on sugar and drink more water."
+  },
+  {
+   "bn": "আমার ভাই কোমল পানীয় ছেড়ে দিয়েছে আর অনেক বেশি চটপটে আছে।",
+   "pron_bn": "",
+   "text": "My brother gave up soft drinks and feels much more active."
+  },
+  {
+   "bn": "তুমি কি আমাদের সাথে পার্কে সকালের হাঁটায় যোগ দেবে?",
+   "pron_bn": "",
+   "text": "Would you like to join our morning walk in the park?"
+  },
+  {
+   "bn": "তুমি তোমার প্রতিদিনের রুটিন আর জীবনযাপন এত সুন্দর বদলালে কীভাবে?",
+   "pron_bn": "",
+   "text": "How did you change your daily routine and lifestyle so well?"
+  },
+  {
+   "bn": "আমি এখন তাড়াতাড়ি ঘুমাই, তাই প্রতিদিন সকালে সতেজ উঠি।",
+   "pron_bn": "",
+   "text": "I sleep early now, so I wake up fresh every morning."
+  },
+  {
+   "bn": "চলো প্রতিদিন সুস্থ থাকার জন্য একটা ছোট পরিকল্পনা করি।",
+   "pron_bn": "",
+   "text": "Let's make a small plan to stay healthy every single day."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আমি আগে প্রতিদিন সকালে তিন কাপ মিষ্টি চা খেতাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I used to drink three cups of sweet tea every morning."
+  },
+  {
+   "bn": "সত্যি? আমি সকাল শুরু করতাম হালকা গরম পানি আর ফল দিয়ে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Really? I would start my day with warm water and fruit."
+  },
+  {
+   "bn": "হ্যাঁ, আর আমি মোবাইলে ভিডিও দেখে অনেক রাত জেগে থাকতাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Yes, and I used to stay up late watching videos on my phone."
+  },
+  {
+   "bn": "বুঝতে পারছি। আমিও দেরি করে ঘুমাতাম, আর প্রতিদিন ক্লান্ত লাগত।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "I understand. I would sleep late too, and I felt tired daily."
+  },
+  {
+   "bn": "এখন আমার স্বাস্থ্যকর রুটিন আছে আর প্রতিদিন পার্কে হাঁটি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Now I have a healthy routine and I walk in the park daily."
+  },
+  {
+   "bn": "বাহ! আমি অফিসের কাজের পর অনেক জাংক ফুড খেতাম।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Great! I used to eat a lot of junk food after office work."
+  },
+  {
+   "bn": "আমিও তাই করতাম, কিন্তু এখন ভাত, মাছ আর সবজি ভালো লাগে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I would do the same, but now I enjoy rice, fish and vegetables."
+  },
+  {
+   "bn": "আমি কোমল পানীয় ছেড়ে দিয়েছি, আর এখন প্রতিদিন অনেক বেশি এনার্জি পাই।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "I gave up soft drinks, and now I have much more energy daily."
+  },
+  {
+   "bn": "আমার জীবনযাপন এখন ভালো, আর আমি ফিট থাকার চেষ্টা করি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "My lifestyle is better now, and I try to stay in shape."
+  }
+ ],
+ "tip_bn": "আয়নার সামনে দাঁড়িয়ে used to দিয়ে নিজের তিনটি পুরোনো অভ্যাস বলো। তারপর now দিয়ে এখন কী করো সেটা বলো, এতে অতীত-বর্তমানের পার্থক্য সহজ হবে।",
+ "title": "Healthy Habits Then and Now",
+ "words": [
+  {
+   "bn": "অভ্যাস",
+   "example": "Drinking water in the morning is a very healthy habit.",
+   "example_bn": "সকালে পানি খাওয়া খুব স্বাস্থ্যকর অভ্যাস।",
+   "pron_bn": "হ্যাবিট",
+   "text": "habit"
+  },
+  {
+   "bn": "প্রতিদিনের নিয়ম",
+   "example": "My morning routine includes a short walk and light exercise.",
+   "example_bn": "আমার সকালের রুটিনে ছোট হাঁটা আর হালকা ব্যায়াম আছে।",
+   "pron_bn": "রুটিন",
+   "text": "routine"
+  },
+  {
+   "bn": "শক্তি",
+   "example": "After good sleep, I feel full of energy for work.",
+   "example_bn": "ভালো ঘুমের পর কাজের জন্য শরীরে অনেক শক্তি পাই।",
+   "pron_bn": "এনার্জি",
+   "text": "energy"
+  },
+  {
+   "bn": "জীবনযাপন পদ্ধতি",
+   "example": "A simple lifestyle with good food keeps us healthy and happy.",
+   "example_bn": "ভালো খাবারসহ সাধারণ জীবনযাপন আমাদের সুস্থ ও সুখী রাখে।",
+   "pron_bn": "লাইফস্টাইল",
+   "text": "lifestyle"
+  },
+  {
+   "bn": "ব্যায়াম",
+   "example": "I do light exercise at home for thirty minutes every day.",
+   "example_bn": "আমি প্রতিদিন বাড়িতে ত্রিশ মিনিট হালকা ব্যায়াম করি।",
+   "pron_bn": "এক্সারসাইজ",
+   "text": "exercise"
+  },
+  {
+   "bn": "সুষম খাবার",
+   "example": "We try to eat a balanced diet with rice and vegetables.",
+   "example_bn": "আমরা ভাত ও সবজি দিয়ে সুষম খাবার খাওয়ার চেষ্টা করি।",
+   "pron_bn": "ব্যালান্সড ডায়েট",
+   "text": "balanced diet"
+  },
+  {
+   "bn": "অস্বাস্থ্যকর খাবার",
+   "example": "He used to eat junk food, but now he avoids it.",
+   "example_bn": "সে আগে জাংক ফুড খেত, কিন্তু এখন এড়িয়ে চলে।",
+   "pron_bn": "জাংক ফুড",
+   "text": "junk food"
+  },
+  {
+   "bn": "ছেড়ে দেওয়া",
+   "example": "I decided to give up soft drinks for my better health.",
+   "example_bn": "ভালো স্বাস্থ্যের জন্য আমি কোমল পানীয় ছেড়ে দেওয়ার সিদ্ধান্ত নিলাম।",
+   "pron_bn": "গিভ আপ",
+   "text": "give up"
+  },
+  {
+   "bn": "কমিয়ে দেওয়া",
+   "example": "The doctor said to cut down on sugar and extra salt.",
+   "example_bn": "ডাক্তার চিনি আর অতিরিক্ত লবণ কমাতে বলেছেন।",
+   "pron_bn": "কাট ডাউন অন",
+   "text": "cut down on"
+  },
+  {
+   "bn": "ফিট থাকা",
+   "example": "Walking daily and eating well helps me stay in shape.",
+   "example_bn": "প্রতিদিন হাঁটা আর ভালো খাওয়া আমাকে ফিট থাকতে সাহায্য করে।",
+   "pron_bn": "স্টে ইন শেপ",
+   "text": "stay in shape"
+  }
+ ]
+}

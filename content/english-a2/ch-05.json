@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "ফার্মেসিটি ব্যাংকের পাশে।",
+    "pron_bn": "দ্য ফার্মেসি ইজ নেক্সট টু দ্য ব্যাংক।",
+    "text": "The pharmacy is next to the bank."
+   },
+   {
+    "bn": "বাস স্টপটি স্কুলের উল্টো দিকে।",
+    "pron_bn": "দ্য বাস স্টপ ইজ অপোজিট দ্য স্কুল।",
+    "text": "The bus stop is opposite the school."
+   },
+   {
+    "bn": "বামে ঘোরো আর সোজা হাঁটো।",
+    "pron_bn": "টার্ন লেফট অ্যান্ড ওয়াক স্ট্রেইট নাউ।",
+    "text": "Turn left and walk straight now."
+   },
+   {
+    "bn": "দোকান দুটোর মাঝখানে অপেক্ষা করো।",
+    "pron_bn": "প্লিজ ওয়েইট বিটুইন দ্য টু শপস।",
+    "text": "Please wait between the two shops."
+   }
+  ],
+  "points_bn": [
+   "<b>next to</b> মানে ঠিক পাশে। যেমন: পাশাপাশি দুই দোকান।",
+   "<b>opposite</b> মানে উল্টো দিকে। রাস্তার এপার-ওপার বোঝায়।",
+   "<b>between</b> মানে দুটো জায়গার মাঝখানে।",
+   "<b>imperative</b> মানে নির্দেশ। ক্রিয়া দিয়ে শুরু হয়। যেমন: Go, Turn, Walk।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "The bank is next the market.",
+     "The bank is next to the market.",
+     "The bank is next to market.",
+     "The bank next to is the market."
+    ],
+    "q": "Choose the correct sentence with next to.",
+    "why_bn": "next to সবসময় একসাথে বসে। আর the market বলতে হবে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Turn left at the corner now.",
+     "You will to turn left now.",
+     "Turning left at the corner now.",
+     "Left turn you at corner now."
+    ],
+    "q": "Choose the correct imperative sentence for directions.",
+    "why_bn": "নির্দেশ দিতে ক্রিয়া দিয়ে শুরু করি। Turn left সঠিক রূপ।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "The shop is among the bank school.",
+     "The shop is between to the bank.",
+     "The shop between the bank and school.",
+     "The shop is between the bank and school."
+    ],
+    "q": "Choose the correct sentence with between.",
+    "why_bn": "between এর পরে দুটো জায়গা and দিয়ে বলি। is বাদ দেওয়া যাবে না।"
+   }
+  ],
+  "title_bn": "জায়গা বোঝানো আর পথের নির্দেশ দেওয়া"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি শহরে সহজে রাস্তা জিজ্ঞেস করতে পারবে। রিকশা, বাস আর ট্রেনের পথও বুঝিয়ে দিতে পারবে।",
+ "phrases": [
+  {
+   "bn": "মাফ করবেন, বাস স্টেশনটা কোথায়?",
+   "pron_bn": "এক্সকিউজ মি, হোয়্যার ইজ দ্য বাস স্টেশন?",
+   "text": "Excuse me, where is the bus station?"
+  },
+  {
+   "bn": "চাঁদপুর স্টেশনে আমি কীভাবে যাব?",
+   "pron_bn": "হাউ ডু আই গেট টু চাঁদপুর স্টেশন?",
+   "text": "How do I get to Chandpur station?"
+  },
+  {
+   "bn": "সোজা যাও, তারপর বামে ঘোরো।",
+   "pron_bn": "গো স্ট্রেইট অ্যান্ড দেন টার্ন লেফট।",
+   "text": "Go straight and then turn left."
+  },
+  {
+   "bn": "বড় মোড়ে ডানে ঘোরো।",
+   "pron_bn": "টার্ন রাইট অ্যাট দ্য বিগ কর্নার।",
+   "text": "Turn right at the big corner."
+  },
+  {
+   "bn": "এটা বাজারের পাশে।",
+   "pron_bn": "ইট ইজ নেক্সট টু দ্য মার্কেট।",
+   "text": "It is next to the market."
+  },
+  {
+   "bn": "এটা ব্যাংকের উল্টো দিকে।",
+   "pron_bn": "ইট ইজ অপোজিট দ্য ব্যাংক।",
+   "text": "It is opposite the bank."
+  },
+  {
+   "bn": "এটা স্কুল আর দোকানের মাঝখানে।",
+   "pron_bn": "ইট ইজ বিটুইন দ্য স্কুল অ্যান্ড শপ।",
+   "text": "It is between the school and shop."
+  },
+  {
+   "bn": "বাস ভাড়া কত?",
+   "pron_bn": "হাউ মাচ ইজ দ্য বাস ফেয়ার?",
+   "text": "How much is the bus fare?"
+  },
+  {
+   "bn": "এখানে থামুন, স্টেশনের কাছে।",
+   "pron_bn": "প্লিজ স্টপ হিয়ার, নিয়ার দ্য স্টেশন।",
+   "text": "Please stop here, near the station."
+  },
+  {
+   "bn": "ট্রেন স্টেশনে রিকশা নাও।",
+   "pron_bn": "টেইক আ রিকশা টু দ্য ট্রেইন স্টেশন।",
+   "text": "Take a rickshaw to the train station."
+  },
+  {
+   "bn": "এখান থেকে হেঁটে কি অনেক দূর?",
+   "pron_bn": "ইজ ইট ফার ফ্রম হিয়ার অন ফুট?",
+   "text": "Is it far from here on foot?"
+  },
+  {
+   "bn": "তোমার সুন্দর সাহায্যের জন্য ধন্যবাদ!",
+   "pron_bn": "থ্যাংক ইউ ফর ইয়োর কাইন্ড হেল্প!",
+   "text": "Thank you for your kind help!"
+  }
+ ],
+ "reading": [
+  {
+   "bn": "মাফ করবেন, বাস স্টেশনে কীভাবে যাব?",
+   "pron_bn": "এক্সকিউজ মি, হাউ ডু আই গেট টু দ্য বাস স্টেশন?",
+   "speaker": "Rafi",
+   "text": "Excuse me, how do I get to the bus station?"
+  },
+  {
+   "bn": "সোজা যান, তারপর বাজারের কাছে বাঁয়ে ঘুরুন।",
+   "pron_bn": "গো স্ট্রেইট অ্যান্ড টার্ন লেফট অ্যাট দ্য মার্কেট।",
+   "speaker": "Nadia",
+   "text": "Go straight and turn left at the market."
+  },
+  {
+   "bn": "স্টেশনটা কি বাজারের পাশে?",
+   "pron_bn": "ইজ দ্য স্টেশন নেক্সট টু দ্য মার্কেট?",
+   "speaker": "Rafi",
+   "text": "Is the station next to the market?"
+  },
+  {
+   "bn": "না, ওটা পোস্ট অফিসের উল্টো দিকে।",
+   "pron_bn": "নো, ইট ইজ অপোজিট দ্য পোস্ট অফিস।",
+   "speaker": "Nadia",
+   "text": "No, it is opposite the post office."
+  },
+  {
+   "bn": "এখান থেকে কি অনেক দূর?",
+   "pron_bn": "ইজ ইট ফার ফ্রম হিয়ার?",
+   "speaker": "Rafi",
+   "text": "Is it far from here?"
+  },
+  {
+   "bn": "না, হেঁটে দশ মিনিটের মতো।",
+   "pron_bn": "নো, ইট ইজ অ্যাবাউট টেন মিনিটস অন ফুট।",
+   "speaker": "Nadia",
+   "text": "No, it is about ten minutes on foot."
+  },
+  {
+   "bn": "আর টিকিট কোথায় কিনব?",
+   "pron_bn": "অ্যান্ড হোয়্যার ক্যান আই বাই আ টিকেট?",
+   "speaker": "Rafi",
+   "text": "And where can I buy a ticket?"
+  },
+  {
+   "bn": "টিকিট কাউন্টারটা গেট আর চায়ের দোকানের মাঝখানে।",
+   "pron_bn": "দ্য টিকেট কাউন্টার ইজ বিটুইন দ্য গেইট অ্যান্ড দ্য টি স্টল।",
+   "speaker": "Nadia",
+   "text": "The ticket counter is between the gate and the tea stall."
+  }
+ ],
+ "tip_bn": "অচেনা জায়গায় প্রথমে ভদ্রভাবে Excuse me বলো, তারপর পথ জিজ্ঞেস করো। রিকশা বা বাসে ওঠার আগে ভাড়া জিজ্ঞেস করে নাও।",
+ "title": "Finding the Way",
+ "words": [
+  {
+   "bn": "ঘোরা",
+   "example": "Turn left at the big market corner.",
+   "example_bn": "বড় বাজারের মোড়ে বামে ঘোরো।",
+   "pron_bn": "টার্ন",
+   "text": "turn"
+  },
+  {
+   "bn": "সোজা",
+   "example": "Go straight for five minutes from here.",
+   "example_bn": "এখান থেকে পাঁচ মিনিট সোজা যাও।",
+   "pron_bn": "স্ট্রেইট",
+   "text": "straight"
+  },
+  {
+   "bn": "মোড়",
+   "example": "The tea shop is on the corner.",
+   "example_bn": "চায়ের দোকানটা মোড়ের ওপর।",
+   "pron_bn": "কর্নার",
+   "text": "corner"
+  },
+  {
+   "bn": "পাশে",
+   "example": "The bank is next to the bus stop.",
+   "example_bn": "ব্যাংকটা বাস স্টপের পাশে।",
+   "pron_bn": "নেক্সট টু",
+   "text": "next to"
+  },
+  {
+   "bn": "উল্টো দিকে",
+   "example": "The school is opposite the train station.",
+   "example_bn": "স্কুলটা ট্রেন স্টেশনের উল্টো দিকে।",
+   "pron_bn": "অপোজিট",
+   "text": "opposite"
+  },
+  {
+   "bn": "মাঝখানে",
+   "example": "The shop is between the bank and school.",
+   "example_bn": "দোকানটা ব্যাংক আর স্কুলের মাঝখানে।",
+   "pron_bn": "বিটুইন",
+   "text": "between"
+  },
+  {
+   "bn": "স্টেশন",
+   "example": "Where is the nearest bus station please?",
+   "example_bn": "কাছের বাস স্টেশনটা কোথায় বলুন?",
+   "pron_bn": "স্টেশন",
+   "text": "station"
+  },
+  {
+   "bn": "থামার জায়গা",
+   "example": "The bus stop is near the market.",
+   "example_bn": "বাস স্টপটা বাজারের কাছে।",
+   "pron_bn": "স্টপ",
+   "text": "stop"
+  },
+  {
+   "bn": "ভাড়া",
+   "example": "What is the rickshaw fare to Mirpur?",
+   "example_bn": "মিরপুরে রিকশা ভাড়া কত?",
+   "pron_bn": "ফেয়ার",
+   "text": "fare"
+  },
+  {
+   "bn": "রিকশা",
+   "example": "Take a rickshaw to the old town.",
+   "example_bn": "পুরনো শহরে রিকশা নাও।",
+   "pron_bn": "রিকশা",
+   "text": "rickshaw"
+  }
+ ]
+}

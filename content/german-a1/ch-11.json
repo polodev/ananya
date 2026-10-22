@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "বাজারটা কোথায়?",
+    "pron_bn": "ভো ইস্ট ডেয়া মার্ক্ট?",
+    "text": "Wo ist der Markt?"
+   },
+   {
+    "bn": "ব্যাংকটা শহরের মাঝখানে আছে।",
+    "pron_bn": "ডি বাংক ইস্ট ইম ৎসেন্ট্রুম।",
+    "text": "Die Bank ist im Zentrum."
+   },
+   {
+    "bn": "বাসটা বাজারের কাছে আছে।",
+    "pron_bn": "ডেয়া বুস ইস্ট আম মার্ক্ট।",
+    "text": "Der Bus ist am Markt."
+   },
+   {
+    "bn": "দয়া করে সোজা যান।",
+    "pron_bn": "গেয়েন জি বিটে গেরাডেআউস।",
+    "text": "Gehen Sie bitte geradeaus."
+   }
+  ],
+  "points_bn": [
+   "<b>Wo ist ...?</b> মানে কোথায় আছে? অচেনা জায়গায় পথ জানতে এটাই বলবে, যেমন Wo ist der Bahnhof?",
+   "<b>im = in + dem</b> মানে ভেতরে বা মাঝখানে, আর <b>am = an + dem</b> মানে কাছে বা ধারে। যেমন im Zentrum, am Markt।",
+   "<b>neben dem</b> মানে পাশে। in, an, neben-এর পরে der, das বদলে dem হয়, যেমন neben dem Park।",
+   "<b>Gehen Sie, Nehmen Sie</b> মানে ভদ্রভাবে বলা আদেশ। অচেনা মানুষকে Sie দিয়ে বলো, যেমন Nehmen Sie den Bus।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Wie",
+     "Wo",
+     "Wer",
+     "Was"
+    ],
+    "q": "___ ist der Bahnhof?",
+    "why_bn": "স্টেশনের জায়গা জানতে চাইলে Wo বলতে হয়। Wie মানে কেমন, Wer মানে কে।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "am",
+     "an",
+     "im",
+     "in"
+    ],
+    "q": "Die Bank ist ___ Zentrum.",
+    "why_bn": "Zentrum-এর ভেতরে বোঝাতে in + dem মিলে im হয়। am হয় an + dem থেকে, যার মানে কাছে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Gehen",
+     "Geh",
+     "Gehst",
+     "Geht"
+    ],
+    "q": "___ Sie bitte geradeaus!",
+    "why_bn": "অচেনা কাউকে ভদ্রভাবে পথ বলতে Sie দিয়ে Gehen Sie বলতে হয়। Geh শুধু বন্ধুদের জন্য।"
+   }
+  ],
+  "title_bn": "Wo ist ...?, im / am এবং Sie দিয়ে ভদ্র আদেশ"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি শহরে পথ জিজ্ঞেস করতে পারবে আর স্টেশন, বাজার, বাসস্ট্যান্ড কোথায় সেটা বুঝতে ও বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "মাফ করবেন, স্টেশনটা কোথায়?",
+   "pron_bn": "এন্টশুলডিগুং, ভো ইস্ট ডেয়া বানহোফ?",
+   "text": "Entschuldigung, wo ist der Bahnhof?"
+  },
+  {
+   "bn": "দয়া করে বাসস্ট্যান্ডটা কোথায়?",
+   "pron_bn": "ভো ইস্ট ডি বুসহালটেশ্টেলে, বিটে?",
+   "text": "Wo ist die Bushaltestelle, bitte?"
+  },
+  {
+   "bn": "সোজা যান, দয়া করে।",
+   "pron_bn": "গেয়েন জি গেরাডেআউস, বিটে।",
+   "text": "Gehen Sie geradeaus, bitte."
+  },
+  {
+   "bn": "বাঁ দিকে যান।",
+   "pron_bn": "গেয়েন জি নাখ লিংক্স।",
+   "text": "Gehen Sie nach links."
+  },
+  {
+   "bn": "ডান দিকে যান।",
+   "pron_bn": "গেয়েন জি নাখ রেশ্টস।",
+   "text": "Gehen Sie nach rechts."
+  },
+  {
+   "bn": "দুই নম্বর বাসটা নিন।",
+   "pron_bn": "নেমেন জি ডেন বুস নুমা ৎসভাই।",
+   "text": "Nehmen Sie den Bus Nummer zwei."
+  },
+  {
+   "bn": "এটা কি এখান থেকে দূরে?",
+   "pron_bn": "ইস্ট এস ভাইট ফন হিয়া?",
+   "text": "Ist es weit von hier?"
+  },
+  {
+   "bn": "এটা কি কাছেই?",
+   "pron_bn": "ইস্ট এস ইন ডেয়া নেয়ে?",
+   "text": "Ist es in der Nähe?"
+  },
+  {
+   "bn": "এটা পার্কের পাশে।",
+   "pron_bn": "এস ইস্ট নেবেন ডেম পার্ক।",
+   "text": "Es ist neben dem Park."
+  },
+  {
+   "bn": "এটা বাজারের কাছে।",
+   "pron_bn": "এস ইস্ট আম মার্ক্ট।",
+   "text": "Es ist am Markt."
+  },
+  {
+   "bn": "এটা শহরের মাঝখানে।",
+   "pron_bn": "এস ইস্ট ইম ৎসেন্ট্রুম।",
+   "text": "Es ist im Zentrum."
+  },
+  {
+   "bn": "সাহায্যের জন্য অনেক ধন্যবাদ।",
+   "pron_bn": "ফিলেন ডাংক ফ্যুয়া ইরে হিলফে।",
+   "text": "Vielen Dank für Ihre Hilfe."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "মাফ করবেন, স্টেশনটা কোথায়?",
+   "pron_bn": "এন্টশুলডিগুং, ভো ইস্ট ডেয়া বানহোফ?",
+   "speaker": "Rafi",
+   "text": "Entschuldigung, wo ist der Bahnhof?"
+  },
+  {
+   "bn": "সোজা যান, দয়া করে।",
+   "pron_bn": "গেয়েন জি গেরাডেআউস, বিটে।",
+   "speaker": "Anna",
+   "text": "Gehen Sie geradeaus, bitte."
+  },
+  {
+   "bn": "স্টেশনটা কি পার্কের পাশে?",
+   "pron_bn": "ইস্ট ডেয়া বানহোফ নেবেন ডেম পার্ক?",
+   "speaker": "Rafi",
+   "text": "Ist der Bahnhof neben dem Park?"
+  },
+  {
+   "bn": "হ্যাঁ, এটা পার্কের পাশেই।",
+   "pron_bn": "ইয়া, এয়া ইস্ট নেবেন ডেম পার্ক।",
+   "speaker": "Anna",
+   "text": "Ja, er ist neben dem Park."
+  },
+  {
+   "bn": "দয়া করে বাসস্ট্যান্ডটা কোথায়?",
+   "pron_bn": "ভো ইস্ট ডি বুসহালটেশ্টেলে, বিটে?",
+   "speaker": "Rafi",
+   "text": "Wo ist die Bushaltestelle, bitte?"
+  },
+  {
+   "bn": "তিন নম্বর বাসটা নিন।",
+   "pron_bn": "নেমেন জি ডেন বুস নুমা ড্রাই।",
+   "speaker": "Anna",
+   "text": "Nehmen Sie den Bus Nummer drei."
+  },
+  {
+   "bn": "স্টপেজটা কি বাজারের কাছে?",
+   "pron_bn": "ইস্ট ডি হালটেশ্টেলে আম মার্ক্ট?",
+   "speaker": "Rafi",
+   "text": "Ist die Haltestelle am Markt?"
+  },
+  {
+   "bn": "হ্যাঁ, এটা শহরের মাঝখানে, বাঁ দিকে।",
+   "pron_bn": "ইয়া, জি ইস্ট ইম ৎসেন্ট্রুম, লিংক্স।",
+   "speaker": "Anna",
+   "text": "Ja, sie ist im Zentrum, links."
+  }
+ ],
+ "tip_bn": "জার্মানিতে অচেনা কাউকে পথ জিজ্ঞেস করার আগে Entschuldigung বলো আর সবসময় Sie দিয়ে কথা বলো। পথ বুঝতে না পারলে হাসিমুখে Noch einmal, bitte বলো, মানুষ আবার ধীরে বুঝিয়ে দেবে।",
+ "title": "Weg in der Stadt",
+ "words": [
+  {
+   "bn": "রেলস্টেশন",
+   "example": "Wo ist der Bahnhof?",
+   "example_bn": "স্টেশনটা কোথায়?",
+   "pron_bn": "ডেয়া বানহোফ",
+   "text": "der Bahnhof"
+  },
+  {
+   "bn": "বাসস্ট্যান্ড",
+   "example": "Die Bushaltestelle ist links.",
+   "example_bn": "বাসস্ট্যান্ডটা বাঁ দিকে।",
+   "pron_bn": "ডি বুসহালটেশ্টেলে",
+   "text": "die Bushaltestelle"
+  },
+  {
+   "bn": "বাজার",
+   "example": "Der Markt ist im Zentrum.",
+   "example_bn": "বাজারটা শহরের মাঝখানে।",
+   "pron_bn": "ডেয়া মার্ক্ট",
+   "text": "der Markt"
+  },
+  {
+   "bn": "পার্ক, বাগান",
+   "example": "Der Park ist neben dem Markt.",
+   "example_bn": "পার্কটা বাজারের পাশে।",
+   "pron_bn": "ডেয়া পার্ক",
+   "text": "der Park"
+  },
+  {
+   "bn": "শহরের কেন্দ্র",
+   "example": "Ich bin im Zentrum.",
+   "example_bn": "আমি শহরের মাঝখানে আছি।",
+   "pron_bn": "ডাস ৎসেন্ট্রুম",
+   "text": "das Zentrum"
+  },
+  {
+   "bn": "বাঁ দিকে",
+   "example": "Gehen Sie nach links.",
+   "example_bn": "বাঁ দিকে যান।",
+   "pron_bn": "লিংক্স",
+   "text": "links"
+  },
+  {
+   "bn": "ডান দিকে",
+   "example": "Gehen Sie nach rechts.",
+   "example_bn": "ডান দিকে যান।",
+   "pron_bn": "রেশ্টস",
+   "text": "rechts"
+  },
+  {
+   "bn": "সোজা",
+   "example": "Gehen Sie geradeaus, bitte.",
+   "example_bn": "দয়া করে সোজা যান।",
+   "pron_bn": "গেরাডেআউস",
+   "text": "geradeaus"
+  },
+  {
+   "bn": "কাছে",
+   "example": "Ist der Markt nah?",
+   "example_bn": "বাজারটা কি কাছে?",
+   "pron_bn": "না",
+   "text": "nah"
+  },
+  {
+   "bn": "বাস",
+   "example": "Nehmen Sie den Bus.",
+   "example_bn": "বাসটা নিন।",
+   "pron_bn": "ডেয়া বুস",
+   "text": "der Bus"
+  }
+ ]
+}

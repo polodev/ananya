@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "ঢাকা চাঁদপুরের চেয়ে বড়।",
+    "pron_bn": "ঢাকা ইজ বিগার দ্যান চাঁদপুর।",
+    "text": "Dhaka is bigger than Chandpur."
+   },
+   {
+    "bn": "চা কফির চেয়ে সস্তা।",
+    "pron_bn": "টি ইজ চিপার দ্যান কফি।",
+    "text": "Tea is cheaper than coffee."
+   },
+   {
+    "bn": "এটা দোকানের সবচেয়ে ভালো ফোন।",
+    "pron_bn": "দিস ইজ দা বেস্ট ফোন ইন দা শপ।",
+    "text": "This is the best phone in the shop."
+   },
+   {
+    "bn": "ঢাকা বাংলাদেশের সবচেয়ে ভিড়ের শহর।",
+    "pron_bn": "ঢাকা ইজ দা মোস্ট ক্রাউডেড সিটি ইন বাংলাদেশ।",
+    "text": "Dhaka is the most crowded city in Bangladesh."
+   }
+  ],
+  "points_bn": [
+   "ছোট adjective-এর সঙ্গে <b>-er</b> যোগ করে দুটির মধ্যে তুলনা করো, যেমন big থেকে bigger।",
+   "সবচেয়ে বোঝাতে <b>the</b> + adjective + <b>-est</b> বসাও, যেমন cheapest।",
+   "বড় adjective-এর আগে <b>more</b> আর <b>the most</b> বসে, যেমন more modern, the most popular।",
+   "তুলনায় <b>than</b> বসে, আর <b>good → better → best</b>, <b>bad → worse → worst</b> মুখস্থ রাখো।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "more big",
+     "bigger",
+     "biggest",
+     "big"
+    ],
+    "q": "This shop is ___ than that one.",
+    "why_bn": "big ছোট adjective, তাই তুলনায় bigger হবে। biggest সবচেয়ে বোঝায়, এখানে than আছে তাই bigger ঠিক।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "cleaner",
+     "most clean",
+     "cleanest",
+     "more clean"
+    ],
+    "q": "Sylhet is the ___ city here.",
+    "why_bn": "সবচেয়ে বোঝাতে the-এর পরে cleanest বসে। cleaner দুটির তুলনায় ব্যবহার হয়, তাই cleanest ঠিক।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "the best",
+     "better",
+     "more good",
+     "bestest"
+    ],
+    "q": "This is ___ phone in the shop.",
+    "why_bn": "good-এর superlative হলো the best। better তুলনার জন্য, আর more good ভুল। তাই the best ঠিক।"
+   }
+  ],
+  "title_bn": "তুলনামূলক এবং সর্বোচ্চ বিশেষণ"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি মোবাইল, শহর আর দোকানের মধ্যে সহজে তুলনা করতে পারবে। দাম, মান আর সাইজ নিয়ে আত্মবিশ্বাসের সঙ্গে ইংরেজিতে কথা বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমার ফোন তোমারটার চেয়ে ভালো।",
+   "pron_bn": "মাই ফোন ইজ বেটার দ্যান ইওরস।",
+   "text": "My phone is better than yours."
+  },
+  {
+   "bn": "এই দোকানটা ওই দোকানের চেয়ে সস্তা।",
+   "pron_bn": "দিস শপ ইজ চিপার দ্যান দ্যাট শপ।",
+   "text": "This shop is cheaper than that shop."
+  },
+  {
+   "bn": "ঢাকা চাঁদপুরের চেয়ে বড়।",
+   "pron_bn": "ঢাকা ইজ বিগার দ্যান চাঁদপুর।",
+   "text": "Dhaka is bigger than Chandpur."
+  },
+  {
+   "bn": "এটা এখানকার সবচেয়ে ভালো দোকান।",
+   "pron_bn": "দিস ইজ দা বেস্ট শপ হিয়ার।",
+   "text": "This is the best shop here."
+  },
+  {
+   "bn": "কোন ফোনটা সবচেয়ে দ্রুত? ",
+   "pron_bn": "উইচ ফোন ইজ দা ফাস্টেস্ট?",
+   "text": "Which phone is the fastest?"
+  },
+  {
+   "bn": "এই রাস্তাটা ওটার চেয়ে পরিষ্কার।",
+   "pron_bn": "দিস স্ট্রিট ইজ ক্লিনার দ্যান দ্যাট ওয়ান।",
+   "text": "This street is cleaner than that one."
+  },
+  {
+   "bn": "সন্ধ্যায় বাজার বেশি ব্যস্ত থাকে।",
+   "pron_bn": "দা মার্কেট ইজ বিজিয়ার ইন দা ইভনিং।",
+   "text": "The market is busier in the evening."
+  },
+  {
+   "bn": "এই রেস্টুরেন্টটা সবচেয়ে জনপ্রিয়।",
+   "pron_bn": "দিস রেস্টুরেন্ট ইজ দা মোস্ট পপুলার ওয়ান।",
+   "text": "This restaurant is the most popular one."
+  },
+  {
+   "bn": "আমার পুরনো ফোনটা এটার চেয়ে ধীর ছিল।",
+   "pron_bn": "মাই ওল্ড ফোন ওয়াজ স্লোয়ার দ্যান দিস ওয়ান।",
+   "text": "My old phone was slower than this one."
+  },
+  {
+   "bn": "বাংলাদেশের সবচেয়ে বড় শহর কোনটা?",
+   "pron_bn": "উইচ সিটি ইজ দা বিগেস্ট ইন বাংলাদেশ?",
+   "text": "Which city is the biggest in Bangladesh?"
+  },
+  {
+   "bn": "এই মলটা ওটার চেয়ে বেশি আধুনিক।",
+   "pron_bn": "দিস মল ইজ মোর মডার্ন দ্যান দ্যাট ওয়ান।",
+   "text": "This mall is more modern than that one."
+  },
+  {
+   "bn": "চলো সবচেয়ে সস্তা দোকানে যাই।",
+   "pron_bn": "লেটস গো টু দা চিপেস্ট শপ।",
+   "text": "Let's go to the cheapest shop."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আমার নতুন ফোন তোমারটার চেয়ে সস্তা।",
+   "pron_bn": "মাই নিউ ফোন ইজ চিপার দ্যান ইওরস।",
+   "speaker": "Rafi",
+   "text": "My new phone is cheaper than yours."
+  },
+  {
+   "bn": "সত্যি? আমার ফোন তোমারটার চেয়ে দ্রুত।",
+   "pron_bn": "রিয়েলি? মাই ফোন ইজ ফাস্টার দ্যান ইওরস।",
+   "speaker": "Mitu",
+   "text": "Really? My phone is faster than yours."
+  },
+  {
+   "bn": "আমার মনে হয় সিলেট ঢাকার চেয়ে পরিষ্কার।",
+   "pron_bn": "সিলেট ইজ ক্লিনার দ্যান ঢাকা, আই থিংক।",
+   "speaker": "Rafi",
+   "text": "Sylhet is cleaner than Dhaka, I think."
+  },
+  {
+   "bn": "হ্যাঁ, কিন্তু ঢাকায় সবচেয়ে বড় দোকান আছে।",
+   "pron_bn": "ইয়েস, বাট ঢাকা হ্যাজ দা বিগেস্ট শপস।",
+   "speaker": "Mitu",
+   "text": "Yes, but Dhaka has the biggest shops."
+  },
+  {
+   "bn": "এই দোকানটা ওটার চেয়ে ভালো।",
+   "pron_bn": "দিস শপ ইজ বেটার দ্যান দ্যাট ওয়ান।",
+   "speaker": "Rafi",
+   "text": "This shop is better than that one."
+  },
+  {
+   "bn": "আমাদের কাছের বাজার সবচেয়ে সস্তা জায়গা।",
+   "pron_bn": "দা মার্কেট নিয়ার আস ইজ দা চিপেস্ট প্লেস।",
+   "speaker": "Mitu",
+   "text": "The market near us is the cheapest place."
+  },
+  {
+   "bn": "চট্টগ্রাম চাঁদপুরের চেয়ে বেশি ব্যস্ত।",
+   "pron_bn": "চিটাগং ইজ বিজিয়ার দ্যান চাঁদপুর।",
+   "speaker": "Rafi",
+   "text": "Chittagong is busier than Chandpur."
+  },
+  {
+   "bn": "চলো তোমার জন্য সেরা ফোনটা কিনি।",
+   "pron_bn": "লেটস বাই দা বেস্ট ফোন ফর ইউ।",
+   "speaker": "Mitu",
+   "text": "Let's buy the best phone for you."
+  }
+ ],
+ "tip_bn": "তুলনা করার সময় than আর the নিয়ে গুলিয়ে ফেলো না। দোকানে বা বন্ধুদের সঙ্গে ছোট ছোট বাক্যে তুলনা করে বলো, এতে দ্রুত মনে থাকবে।",
+ "title": "Comparing Phones, Cities and Shops",
+ "words": [
+  {
+   "bn": "সস্তা",
+   "example": "This market sells cheap fresh vegetables.",
+   "example_bn": "এই বাজারে সস্তায় টাটকা সবজি বিক্রি হয়।",
+   "pron_bn": "চিপ",
+   "text": "cheap"
+  },
+  {
+   "bn": "দামি",
+   "example": "This phone shop is very expensive.",
+   "example_bn": "এই মোবাইলের দোকানটা খুব দামি।",
+   "pron_bn": "এক্সপেনসিভ",
+   "text": "expensive"
+  },
+  {
+   "bn": "বড়",
+   "example": "Dhaka is a very big city.",
+   "example_bn": "ঢাকা খুব বড় শহর।",
+   "pron_bn": "বিগ",
+   "text": "big"
+  },
+  {
+   "bn": "ছোট",
+   "example": "Chandpur is a small quiet town.",
+   "example_bn": "চাঁদপুর ছোট শান্ত শহর।",
+   "pron_bn": "স্মল",
+   "text": "small"
+  },
+  {
+   "bn": "দ্রুত",
+   "example": "My new phone has fast internet.",
+   "example_bn": "আমার নতুন ফোনে দ্রুত ইন্টারনেট আছে।",
+   "pron_bn": "ফাস্ট",
+   "text": "fast"
+  },
+  {
+   "bn": "ব্যস্ত",
+   "example": "The bus station is always busy.",
+   "example_bn": "বাস স্টেশন সবসময় ব্যস্ত থাকে।",
+   "pron_bn": "বিজি",
+   "text": "busy"
+  },
+  {
+   "bn": "পরিষ্কার",
+   "example": "Sylhet city is very clean.",
+   "example_bn": "সিলেট শহর খুব পরিষ্কার।",
+   "pron_bn": "ক্লিন",
+   "text": "clean"
+  },
+  {
+   "bn": "আধুনিক",
+   "example": "This is a modern shopping mall.",
+   "example_bn": "এটা একটা আধুনিক শপিং মল।",
+   "pron_bn": "মডার্ন",
+   "text": "modern"
+  },
+  {
+   "bn": "ভিড়ে ভরা",
+   "example": "The evening market is very crowded.",
+   "example_bn": "সন্ধ্যার বাজারে খুব ভিড় থাকে।",
+   "pron_bn": "ক্রাউডেড",
+   "text": "crowded"
+  },
+  {
+   "bn": "জনপ্রিয়",
+   "example": "This tea shop is very popular.",
+   "example_bn": "এই চায়ের দোকানটা খুব জনপ্রিয়।",
+   "pron_bn": "পপুলার",
+   "text": "popular"
+  }
+ ]
+}

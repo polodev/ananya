@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমার আসলে দরকার ফাইনাল পরীক্ষার আগে আরও স্পিকিং প্র্যাকটিস।",
+    "pron_bn": "",
+    "text": "What I need is extra speaking practice before the final test."
+   },
+   {
+    "bn": "নাদিয়াই অংকের লেসনটা খুব সহজ করে বুঝিয়ে দিয়েছিল।",
+    "pron_bn": "",
+    "text": "It was Nadia that explained the math lesson in a very easy way."
+   },
+   {
+    "bn": "আমাকে সবচেয়ে বেশি চিন্তায় ফেলে না বুঝে শুধু মুখস্থ করা।",
+    "pron_bn": "",
+    "text": "What worries me most is too much memorization without real understanding."
+   },
+   {
+    "bn": "শেষ মুহূর্তে পড়ার চেয়ে নিয়মিত চর্চাই পরীক্ষার ফল ভালো করে।",
+    "pron_bn": "",
+    "text": "It is regular practice that improves exam results more than last-minute study."
+   }
+  ],
+  "points_bn": [
+   "<b>What ... is/was ...</b> দিয়ে বাক্যের একটা অংশে জোর দাও, যেমন What I need is practice.",
+   "<b>It is/was ... that ...</b> দিয়ে ব্যক্তি, জিনিস বা কারণে জোর দাও, যেমন It was Rafi that won.",
+   "Cleft-এর পরে verb-এর number আর tense ঠিক রাখো, that বাদ দিও না।",
+   "বিতর্কে নিজের মত জোরালো করতে cleft ব্যবহার করো, সব বাক্যে নয়।"
+  ],
+  "quiz": [
+   {
+    "answer": 2,
+    "options": [
+     "What I need to more practice.",
+     "What I needs is more practice.",
+     "What I need is more practice.",
+     "What is need more practice."
+    ],
+    "q": "Choose the correct cleft sentence:",
+    "why_bn": "সঠিক গঠন হলো What I need is ...। need-এর পরে is বসে, needs হবে না।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "It was Tanvir that helped me with the project.",
+     "It was Tanvir helped me with the project.",
+     "It Tanvir was that helped me.",
+     "It is Tanvir helped me that with project."
+    ],
+    "q": "Choose the correct emphatic sentence:",
+    "why_bn": "It was ... that ... গঠনে that অবশ্যই থাকবে। তাই প্রথম বাক্যটাই ঠিক।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "What improves confidence is regular practice.",
+     "What improve confidence are regular practice.",
+     "What confidence improves is practice regular.",
+     "What improves confidence are regular practice."
+    ],
+    "q": "Which sentence is correct?",
+    "why_bn": "What দিয়ে শুরু অংশটা একটাই জিনিস ধরা হয়, তাই verb হবে singular: improves, আর পরে is। তাই What improves confidence is regular practice সঠিক।"
+   }
+  ],
+  "title_bn": "জোর বোঝাতে ক্লেফট সেন্টেন্স"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি পরীক্ষা বনাম দক্ষতা নিয়ে বিতর্ক করতে পারবে এবং cleft sentence দিয়ে নিজের কথায় জোর দিতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমার মতে আসল চাকরিতে কাজে লাগে এমন দক্ষতা শেখাই জরুরি।",
+   "pron_bn": "",
+   "text": "What I think is important is learning skills we can use in real jobs."
+  },
+  {
+   "bn": "গত বোর্ড পরীক্ষাই আমাকে চাপ সামলাতে শিখিয়েছে।",
+   "pron_bn": "",
+   "text": "It was the last board exam that taught me how to handle stress."
+  },
+  {
+   "bn": "আমার মনে হয় না বেশি নম্বর মানেই আসল যোগ্যতা।",
+   "pron_bn": "",
+   "text": "I do not think high marks always show true ability."
+  },
+  {
+   "bn": "স্কুলের উচিত সৃজনশীলতা আর সমস্যা সমাধানে মন দেওয়া।",
+   "pron_bn": "",
+   "text": "What schools should focus on is creativity and problem solving."
+  },
+  {
+   "bn": "কলেজের পর চাকরি পেতে হাতে-কলমে অভিজ্ঞতাই সাহায্য করে।",
+   "pron_bn": "",
+   "text": "It is practical experience that helps students get jobs after college."
+  },
+  {
+   "bn": "দক্ষতাভিত্তিক শিক্ষা বলতে তুমি কী বোঝাও একটু বুঝিয়ে বলবে?",
+   "pron_bn": "",
+   "text": "Could you please explain what you mean by skill-based education?"
+  },
+  {
+   "bn": "আমি আংশিক একমত, তবে পরীক্ষাও নিয়মানুবর্তিতা আর ধৈর্য শেখায়।",
+   "pron_bn": "",
+   "text": "I partly agree, but exams also teach discipline and patience."
+  },
+  {
+   "bn": "চট্টগ্রামে বিতর্ক ক্লাবে যোগ দেওয়াটাই আমাকে সবচেয়ে বেশি সাহায্য করেছে।",
+   "pron_bn": "",
+   "text": "What helped me most was joining a debate club in Chittagong."
+  },
+  {
+   "bn": "শুধু একটা ফাইনাল পরীক্ষা দিয়ে ছাত্রের ভবিষ্যৎ ঠিক হওয়া উচিত নয়।",
+   "pron_bn": "",
+   "text": "It is not one final test that should decide a student's future."
+  },
+  {
+   "bn": "চলো পরীক্ষার সুবিধা আর অসুবিধাগুলো শান্তভাবে তুলনা করি।",
+   "pron_bn": "",
+   "text": "Let us compare the advantages and disadvantages of exams calmly."
+  },
+  {
+   "bn": "আমার স্কুলের অভিজ্ঞতায় বইয়ের চেয়ে প্রজেক্ট থেকে অনেক বেশি শেখা যায়।",
+   "pron_bn": "",
+   "text": "In my school experience, practical projects teach far more than textbooks."
+  },
+  {
+   "bn": "আমাদের এমন ব্যবস্থা দরকার যা জ্ঞান আর দক্ষতা দুটোকেই মূল্য দেয়।",
+   "pron_bn": "",
+   "text": "What we need is a system that values both knowledge and skills."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আমাদের স্কুলে সবচেয়ে বেশি দরকার হাতে-কলমে দক্ষতা, শুধু ফাইনাল পরীক্ষায় ভালো নম্বর নয়।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "What our schools need most is practical skills, not just good marks in final exams."
+  },
+  {
+   "bn": "আমার কলেজের বিতর্কই আমাকে দেখিয়েছিল আগে আমার যুক্তিশীল চিন্তা কত দুর্বল ছিল।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "It was my college debate that showed me how weak my critical thinking was before."
+  },
+  {
+   "bn": "আজকের নিয়োগকর্তারা চান আসল সৃজনশীলতা, মুখস্থ উত্তরে ভরা সার্টিফিকেট নয়।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "What employers want today is real creativity, not certificates full of memorized answers."
+  },
+  {
+   "bn": "ঢাকায় অনেক ছাত্রকে আনন্দ নিয়ে শিখতে দেয় না এই বিশাল পরীক্ষার চাপই।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "It is the huge exam pressure that stops many students in Dhaka from learning happily."
+  },
+  {
+   "bn": "একটা ভালো মূল্যায়নের কাজ হওয়া উচিত বোঝাপড়া মাপা, শুধু দ্রুত মুখস্থ নয়।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "What a fair assessment should do is measure understanding, not just fast memorization."
+  },
+  {
+   "bn": "চাঁদপুরে আমার কাজিনই কম্পিউটার যোগ্যতার কারণে চাকরি পেয়েছিল।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "It was my cousin in Chandpur that got a job because of his computer qualification."
+  },
+  {
+   "bn": "আমাদের পাঠ্যক্রমে সবচেয়ে অভাব প্রজেক্ট ওয়ার্কের, যা পড়াকে বাস্তব জীবনের সাথে জোড়ে।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "What our curriculum lacks most is project work that connects lessons to real life."
+  },
+  {
+   "bn": "শিক্ষকদের সহযোগিতা আর নিয়মিত চর্চাই কঠিন ইন্টারভিউয়ের জন্য আসল আত্মবিশ্বাস গড়ে।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "It is teachers' support and regular practice that build real confidence for difficult interviews."
+  },
+  {
+   "bn": "শেষ পর্যন্ত আসলে জরুরি ভালো পরীক্ষা আর কাজের দক্ষতার মধ্যে ভারসাম্য।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "What really matters in the end is a balance between good exams and useful skills."
+  }
+ ],
+ "tip_bn": "বিতর্ক করার সময় প্রথমে অন্যের কথা মন দিয়ে শোনো, তারপর What I mean is ... বা It is ... that ... দিয়ে নিজের মত বলো। এতে তোমার ইংরেজি ভদ্র আর আত্মবিশ্বাসী শোনাবে।",
+ "title": "Debating Exams and Skills",
+ "words": [
+  {
+   "bn": "পাঠ্যক্রম",
+   "example": "Our new curriculum includes computer skills and project work for every class.",
+   "example_bn": "আমাদের নতুন পাঠ্যক্রমে প্রতিটা ক্লাসের জন্য কম্পিউটার দক্ষতা আর প্রজেক্ট ওয়ার্ক আছে।",
+   "pron_bn": "কারিকুলাম",
+   "text": "curriculum"
+  },
+  {
+   "bn": "মূল্যায়ন",
+   "example": "A fair assessment checks understanding, not only memorized answers from books.",
+   "example_bn": "ভালো মূল্যায়ন বোঝাপড়া যাচাই করে, শুধু বই থেকে মুখস্থ উত্তর নয়।",
+   "pron_bn": "অ্যাসেসমেন্ট",
+   "text": "assessment"
+  },
+  {
+   "bn": "মুখস্থ করা",
+   "example": "Too much memorization without understanding does not help in real jobs.",
+   "example_bn": "না বুঝে বেশি মুখস্থ করা আসল চাকরিতে কোনো কাজে আসে না।",
+   "pron_bn": "মেমোরাইজেশন",
+   "text": "memorization"
+  },
+  {
+   "bn": "যুক্তিশীল চিন্তা",
+   "example": "Debate clubs in Sylhet help students develop strong critical thinking.",
+   "example_bn": "সিলেটে বিতর্ক ক্লাব ছাত্রদের ভালো যুক্তিশীল চিন্তা গড়তে সাহায্য করে।",
+   "pron_bn": "ক্রিটিক্যাল থিংকিং",
+   "text": "critical thinking"
+  },
+  {
+   "bn": "ব্যবহারিক দক্ষতা",
+   "example": "Rafi learned practical skills like typing and email writing at college.",
+   "example_bn": "রাফি কলেজে টাইপিং আর ইমেইল লেখার মতো ব্যবহারিক দক্ষতা শিখেছে।",
+   "pron_bn": "প্র্যাকটিক্যাল স্কিলস",
+   "text": "practical skills"
+  },
+  {
+   "bn": "সৃজনশীলতা",
+   "example": "Teachers should give projects that encourage creativity among young learners.",
+   "example_bn": "শিক্ষকদের এমন প্রজেক্ট দেওয়া উচিত যা ছোট শিক্ষার্থীদের সৃজনশীলতা বাড়ায়।",
+   "pron_bn": "ক্রিয়েটিভিটি",
+   "text": "creativity"
+  },
+  {
+   "bn": "চাপ",
+   "example": "Many students in Dhaka feel huge pressure before board exams.",
+   "example_bn": "ঢাকায় অনেক ছাত্র বোর্ড পরীক্ষার আগে প্রচণ্ড চাপ অনুভব করে।",
+   "pron_bn": "প্রেশার",
+   "text": "pressure"
+  },
+  {
+   "bn": "যোগ্যতা",
+   "example": "A computer qualification helped Tanvir get a part-time office job.",
+   "example_bn": "একটা কম্পিউটার যোগ্যতা তানভীরকে পার্ট-টাইম অফিসের চাকরি পেতে সাহায্য করেছে।",
+   "pron_bn": "কোয়ালিফিকেশন",
+   "text": "qualification"
+  },
+  {
+   "bn": "বিতর্ক",
+   "example": "Our college organized a lively debate on exams and future careers.",
+   "example_bn": "আমাদের কলেজে পরীক্ষা আর ভবিষ্যৎ পেশা নিয়ে প্রাণবন্ত বিতর্ক হয়েছে।",
+   "pron_bn": "ডিবেট",
+   "text": "debate"
+  },
+  {
+   "bn": "নিয়োগকর্তা",
+   "example": "Most employers today look for communication skills and computer knowledge.",
+   "example_bn": "আজকাল বেশিরভাগ নিয়োগকর্তা কথা বলার দক্ষতা আর কম্পিউটার জ্ঞান খোঁজেন।",
+   "pron_bn": "এমপ্লয়ার",
+   "text": "employer"
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি আগামী মাসে একটা কম্পিউটার কোর্সে ভর্তি হব।",
+    "pron_bn": "আই অ্যাম গোয়িং টু জয়েন আ কম্পিউটার কোর্স নেক্সট মান্থ।",
+    "text": "I am going to join a computer course next month."
+   },
+   {
+    "bn": "বিয়ের জন্য আমরা টাকা জমাব।",
+    "pron_bn": "উই আর গোয়িং টু সেইভ মানি ফর দা ওয়েডিং।",
+    "text": "We are going to save money for the wedding."
+   },
+   {
+    "bn": "আগামীকাল উপহারটা কিনতে আমি তোমাকে সাহায্য করব।",
+    "pron_bn": "আই উইল হেল্প ইউ বাই দা গিফট টুমরো।",
+    "text": "I will help you buy the gift tomorrow."
+   },
+   {
+    "bn": "তোমাকে দেখে সে অনেক খুশি হবে।",
+    "pron_bn": "শি উইল বি হ্যাপি টু সি ইউ দেয়ার।",
+    "text": "She will be happy to see you there."
+   }
+  ],
+  "points_bn": [
+   "আগে থেকে ঠিক করা পরিকল্পনার জন্য <b>going to</b> ব্যবহার করো।",
+   "কথা বলার সময় হঠাৎ নেওয়া সিদ্ধান্ত বা প্রতিশ্রুতির জন্য <b>will</b> ব্যবহার করো।",
+   "গঠন মনে রাখো: am / is / are + <b>going to</b> + verb, আর <b>will</b> + verb।",
+   "ভবিষ্যৎ নিয়ে অনুমান বা আশা বোঝাতে সাধারণত <b>will</b> বসে।"
+  ],
+  "quiz": [
+   {
+    "answer": 0,
+    "options": [
+     "am going to",
+     "will to",
+     "am go to",
+     "going"
+    ],
+    "q": "My plan is ready. I ___ save money every week.",
+    "why_bn": "পরিকল্পনা আগে থেকেই ঠিক আছে, তাই am going to হবে। will to বা am go to ভুল গঠন।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "am going to help",
+     "going help",
+     "will help",
+     "wills help"
+    ],
+    "q": "I ___ help you now. (you decide now)",
+    "why_bn": "এখনই সিদ্ধান্ত নিচ্ছো, তাই will help হবে। will-এর পরে verb-এর সঙ্গে s যোগ হয় না।"
+   },
+   {
+    "answer": 1,
+    "options": [
+     "am carry",
+     "will carry",
+     "going carry",
+     "carries"
+    ],
+    "q": "A: My bag is heavy. B: I ___ carry it for you.",
+    "why_bn": "এটা তৎক্ষণাৎ সাহায্যের প্রতিশ্রুতি, তাই will carry সঠিক। am carry বা going carry দিয়ে পুরো বাক্য হয় না।"
+   }
+  ],
+  "title_bn": "going to বনাম will — ভবিষ্যৎ পরিকল্পনার কথা বলা"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি আগামী মাসের পরিকল্পনা নিয়ে কথা বলতে পারবে — কার বিয়েতে যাবে, কোন কোর্স শুরু করবে আর কীভাবে টাকা জমাবে।",
+ "phrases": [
+  {
+   "bn": "আগামী মাসে তুমি কী করবে?",
+   "pron_bn": "হোয়াট আর ইউ গোয়িং টু ডু নেক্সট মান্থ?",
+   "text": "What are you going to do next month?"
+  },
+  {
+   "bn": "আমি চাঁদপুরে একটা বিয়েতে যাচ্ছি।",
+   "pron_bn": "আই অ্যাম গোয়িং টু অ্যাটেন্ড আ ওয়েডিং ইন চাঁদপুর।",
+   "text": "I am going to attend a wedding in Chandpur."
+  },
+  {
+   "bn": "আগামীকাল আমি তোমাকে সাহায্য করব, চিন্তা কোরো না।",
+   "pron_bn": "আই উইল হেল্প ইউ টুমরো, ডু নট ওয়ারি।",
+   "text": "I will help you tomorrow, do not worry."
+  },
+  {
+   "bn": "আমি একটা নতুন ইংরেজি কোর্স শুরু করছি।",
+   "pron_bn": "আই অ্যাম গোয়িং টু স্টার্ট আ নিউ ইংলিশ কোর্স।",
+   "text": "I am going to start a new English course."
+  },
+  {
+   "bn": "বিয়ে কয়টায় শুরু হবে?",
+   "pron_bn": "হোয়াট টাইম উইল দা ওয়েডিং স্টার্ট?",
+   "text": "What time will the wedding start?"
+  },
+  {
+   "bn": "কোর্সের জন্য আমি টাকা জমাব।",
+   "pron_bn": "আই অ্যাম গোয়িং টু সেইভ মানি ফর দা কোর্স।",
+   "text": "I am going to save money for the course."
+  },
+  {
+   "bn": "এই মাসে আমি বাড়তি টাকা খরচ করব না।",
+   "pron_bn": "আই উইল নট স্পেন্ড এক্সট্রা মানি দিস মান্থ।",
+   "text": "I will not spend extra money this month."
+  },
+  {
+   "bn": "আমরা পরিবারের জন্য একটা উপহার কিনব।",
+   "pron_bn": "উই উইল বাই আ গিফট ফর দা ফ্যামিলি।",
+   "text": "We will buy a gift for the family."
+  },
+  {
+   "bn": "আমি তানভীরকে ফোন করব আর তাকেও দাওয়াত দেব।",
+   "pron_bn": "আই উইল কল তানভীর অ্যান্ড ইনভাইট হিম টু।",
+   "text": "I will call Tanvir and invite him too."
+  },
+  {
+   "bn": "শুভকামনা! তোমার পরিকল্পনা খুব ভালোভাবে সফল হবে।",
+   "pron_bn": "গুড লাক! ইয়োর প্ল্যান উইল গো ভেরি ওয়েল।",
+   "text": "Good luck! Your plan will go very well."
+  },
+  {
+   "bn": "আমি বাসে করে ঢাকা যাব।",
+   "pron_bn": "আই অ্যাম গোয়িং টু টেক দা বাস টু ঢাকা।",
+   "text": "I am going to take the bus to Dhaka."
+  },
+  {
+   "bn": "চলো আগামী সপ্তাহে দেখা করে আমাদের পরিকল্পনা নিয়ে কথা বলি।",
+   "pron_bn": "লেট আস মিট নেক্সট উইক অ্যান্ড ডিসকাস আওয়ার প্ল্যানস।",
+   "text": "Let us meet next week and discuss our plans."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "মিতু, আগামী মাসে তুমি কী করবে?",
+   "pron_bn": "মিতু, হোয়াট আর ইউ গোয়িং টু ডু নেক্সট মান্থ?",
+   "speaker": "Rafi",
+   "text": "Mitu, what are you going to do next month?"
+  },
+  {
+   "bn": "আমি চাঁদপুরে আমার কাজিনের বিয়েতে যাব।",
+   "pron_bn": "আই অ্যাম গোয়িং টু অ্যাটেন্ড মাই কাজিন্স ওয়েডিং ইন চাঁদপুর।",
+   "speaker": "Mitu",
+   "text": "I am going to attend my cousin's wedding in Chandpur."
+  },
+  {
+   "bn": "বাহ! আগামীকাল উপহার কিনতে আমি তোমাকে সাহায্য করব।",
+   "pron_bn": "নাইস! আই উইল হেল্প ইউ বাই আ গিফট টুমরো।",
+   "speaker": "Rafi",
+   "text": "Nice! I will help you buy a gift tomorrow."
+  },
+  {
+   "bn": "ধন্যবাদ! আমি একটা নতুন কম্পিউটার কোর্সও শুরু করছি।",
+   "pron_bn": "থ্যাংকস! আই অ্যাম গোয়িং টু স্টার্ট আ নিউ কম্পিউটার কোর্স টু।",
+   "speaker": "Mitu",
+   "text": "Thanks! I am going to start a new computer course too."
+  },
+  {
+   "bn": "দারুণ! আমি ঢাকায় একটা ইংরেজি কোর্সে ভর্তি হচ্ছি।",
+   "pron_bn": "গ্রেট! আই অ্যাম গোয়িং টু জয়েন অ্যান ইংলিশ কোর্স ইন ঢাকা।",
+   "speaker": "Rafi",
+   "text": "Great! I am going to join an English course in Dhaka."
+  },
+  {
+   "bn": "কোর্সের ফি তুমি কীভাবে দেবে?",
+   "pron_bn": "হাউ উইল ইউ পে ফর দা কোর্স ফিজ?",
+   "speaker": "Mitu",
+   "text": "How will you pay for the course fees?"
+  },
+  {
+   "bn": "আমি টাকা জমাব আর প্রতিদিন বাসায় খাব।",
+   "pron_bn": "আই উইল সেইভ মানি অ্যান্ড ইট অ্যাট হোম ডেইলি।",
+   "speaker": "Rafi",
+   "text": "I will save money and eat at home daily."
+  },
+  {
+   "bn": "ভালো পরিকল্পনা! আমিও তোমার সাথে টাকা জমাব।",
+   "pron_bn": "গুড প্ল্যান! আই অ্যাম গোয়িং টু সেইভ মানি উইথ ইউ।",
+   "speaker": "Mitu",
+   "text": "Good plan! I am going to save money with you."
+  }
+ ],
+ "tip_bn": "প্রতিদিন একটা ছোট ভবিষ্যৎ পরিকল্পনা ইংরেজিতে বলার চেষ্টা করো, যেমন আগামীকাল কী করবে। পরিবারের সঙ্গে কথা বলার সময় going to আর will মিলিয়ে ব্যবহার করলে দ্রুত সহজ হয়ে যাবে।",
+ "title": "Plans for Next Month",
+ "words": [
+  {
+   "bn": "বিয়ে",
+   "example": "We are going to attend a wedding in Sylhet.",
+   "example_bn": "আমরা সিলেটে একটা বিয়েতে যাচ্ছি।",
+   "pron_bn": "ওয়েডিং",
+   "text": "wedding"
+  },
+  {
+   "bn": "দাওয়াত দেওয়া",
+   "example": "They will invite all neighbours to the wedding.",
+   "example_bn": "তারা সব প্রতিবেশীকে বিয়েতে দাওয়াত দেবে।",
+   "pron_bn": "ইনভাইট",
+   "text": "invite"
+  },
+  {
+   "bn": "উপহার",
+   "example": "I am going to buy a gift for Nadia.",
+   "example_bn": "আমি নাদিয়ার জন্য একটা উপহার কিনব।",
+   "pron_bn": "গিফট",
+   "text": "gift"
+  },
+  {
+   "bn": "কোর্স",
+   "example": "Tanvir is going to start a computer course soon.",
+   "example_bn": "তানভীর শিগগিরই একটা কম্পিউটার কোর্স শুরু করছে।",
+   "pron_bn": "কোর্স",
+   "text": "course"
+  },
+  {
+   "bn": "বেতন বা ফি",
+   "example": "I will pay the course fee next week.",
+   "example_bn": "আমি আগামী সপ্তাহে কোর্সের ফি দেব।",
+   "pron_bn": "ফি",
+   "text": "fee"
+  },
+  {
+   "bn": "টাকা জমানো",
+   "example": "We are going to save money every month.",
+   "example_bn": "আমরা প্রতি মাসে টাকা জমাব।",
+   "pron_bn": "সেইভ",
+   "text": "save"
+  },
+  {
+   "bn": "খরচ করা",
+   "example": "I will not spend extra money this month.",
+   "example_bn": "এই মাসে আমি বাড়তি টাকা খরচ করব না।",
+   "pron_bn": "স্পেন্ড",
+   "text": "spend"
+  },
+  {
+   "bn": "পরিকল্পনা",
+   "example": "I am going to share my plan with Mitu.",
+   "example_bn": "আমি মিতুকে আমার পরিকল্পনার কথা বলব।",
+   "pron_bn": "প্ল্যান",
+   "text": "plan"
+  },
+  {
+   "bn": "উপস্থিত থাকা (অনুষ্ঠানে)",
+   "example": "We will attend the wedding together on Friday.",
+   "example_bn": "শুক্রবারে আমরা একসঙ্গে বিয়েতে যাব।",
+   "pron_bn": "অ্যাটেন্ড",
+   "text": "attend"
+  },
+  {
+   "bn": "আগামী মাস",
+   "example": "Rafi is going to visit Chittagong next month.",
+   "example_bn": "রাফি আগামী মাসে চট্টগ্রাম বেড়াতে যাচ্ছে।",
+   "pron_bn": "নেক্সট মান্থ",
+   "text": "next month"
+  }
+ ]
+}

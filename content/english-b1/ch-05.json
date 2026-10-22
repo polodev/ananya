@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "স্বেচ্ছাসেবীরা প্রতি শুক্রবার সকালে বাজার পরিষ্কার করে।",
+    "pron_bn": "",
+    "text": "The market is cleaned by volunteers every Friday morning."
+   },
+   {
+    "bn": "ঢাকার অনেক দোকানে এখন প্লাস্টিক ব্যাগ নিষিদ্ধ।",
+    "pron_bn": "",
+    "text": "Plastic bags are banned in many shops in Dhaka now."
+   },
+   {
+    "bn": "অনেক বছর আগে কারখানার বর্জ্যে নদীটি দূষিত হয়েছিল।",
+    "pron_bn": "",
+    "text": "The river was polluted by factory waste many years ago."
+   },
+   {
+    "bn": "গত বছর সিলেটে বন্যায় অনেক বাড়ি ক্ষতিগ্রস্ত হয়েছিল।",
+    "pron_bn": "",
+    "text": "Many houses were damaged by the flood in Sylhet last year."
+   }
+  ],
+  "points_bn": [
+   "বর্তমানে কিছু <b>করা হয়</b> বোঝাতে <b>am / is / are + verb-3</b> বসাও, যেমন is cleaned, are banned।",
+   "অতীতে কিছু <b>করা হয়েছিল</b> বোঝাতে <b>was / were + verb-3</b> বসাও, যেমন was damaged, were cleaned।",
+   "কে করেছে তা জানা না থাকলে বা গুরুত্বপূর্ণ না হলে passive ব্যবহার করো।",
+   "কে করেছে তা বলতে চাইলে বাক্যের শেষে <b>by + ব্যক্তি</b> যোগ করো।"
+  ],
+  "quiz": [
+   {
+    "answer": 0,
+    "options": [
+     "are",
+     "is",
+     "was",
+     "be"
+    ],
+    "q": "The plastic bottles ___ recycled every week.",
+    "why_bn": "বোতলগুলো plural আর every week মানে বর্তমানের নিয়মিত কাজ, তাই present passive are + verb-3 হবে।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "is",
+     "are",
+     "were",
+     "was"
+    ],
+    "q": "The road ___ damaged by the flood last year.",
+    "why_bn": "road singular আর last year মানে অতীত, তাই past passive was + verb-3 হবে।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "is",
+     "was",
+     "are",
+     "were"
+    ],
+    "q": "Many trees ___ planted by our club now.",
+    "why_bn": "trees plural আর now মানে বর্তমান, তাই present passive are + verb-3 হবে।"
+   }
+  ],
+  "title_bn": "Present ও Past Simple Passive Voice"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি দূষণ, প্লাস্টিক ও বন্যা নিয়ে ইংরেজিতে কথা বলতে পারবে এবং কী করা হচ্ছে বা হয়েছিল তা passive দিয়ে বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমাদের এলাকা প্লাস্টিক ব্যাগ ও খাবারের বর্জ্যে দূষিত।",
+   "pron_bn": "",
+   "text": "Our area is polluted by plastic bags and food waste."
+  },
+  {
+   "bn": "আমাদের শহরে প্লাস্টিক বোতল থেকে নতুন চেয়ার বানানো হয়।",
+   "pron_bn": "",
+   "text": "Plastic bottles are recycled into new chairs in our town."
+  },
+  {
+   "bn": "গত শুক্রবার স্বেচ্ছাসেবীরা বুড়িগঙ্গা নদী পরিষ্কার করেছে।",
+   "pron_bn": "",
+   "text": "The Buriganga river was cleaned by volunteers last Friday."
+  },
+  {
+   "bn": "প্রতিদিন সকাল আটটায় আমাদের বাসা থেকে ময়লা নেওয়া হয়।",
+   "pron_bn": "",
+   "text": "Garbage is collected from our house every morning at eight."
+  },
+  {
+   "bn": "গত বছর চাঁদপুরে বন্যায় অনেক রাস্তা নষ্ট হয়েছিল।",
+   "pron_bn": "",
+   "text": "Many roads were damaged by the flood in Chandpur last year."
+  },
+  {
+   "bn": "আমাদের স্থানীয় বাজারে এখন প্লাস্টিক ব্যাগ নিষিদ্ধ।",
+   "pron_bn": "",
+   "text": "Plastic bags are banned in our local market now."
+  },
+  {
+   "bn": "পুরোনো বাস ও ইটভাটার ধোঁয়ায় বাতাস দূষিত হয়।",
+   "pron_bn": "",
+   "text": "The air is polluted by smoke from old buses and kilns."
+  },
+  {
+   "bn": "প্রতি বৃহস্পতিবার বিকেলে ছাত্ররা আমাদের স্কুল পরিষ্কার করে।",
+   "pron_bn": "",
+   "text": "Our school campus is cleaned by students every Thursday afternoon."
+  },
+  {
+   "bn": "সিলেটের কাছে বন্যায় ক্ষতিগ্রস্তদের বিশুদ্ধ খাবার পানি দেওয়া হয়েছিল।",
+   "pron_bn": "",
+   "text": "Clean drinking water was given to flood victims near Sylhet."
+  },
+  {
+   "bn": "খালে বা নদীতে ময়লা ফেলা উচিত নয়।",
+   "pron_bn": "",
+   "text": "Rubbish should not be dumped into the canal or river."
+  },
+  {
+   "bn": "আমাদের গ্রামের পরিবেশ রক্ষায় প্রতি বছর গাছ লাগানো হয়।",
+   "pron_bn": "",
+   "text": "Trees are planted every year to protect our village environment."
+  },
+  {
+   "bn": "গত মাসে চট্টগ্রামে নতুন রিসাইক্লিং কারখানা চালু হয়েছিল।",
+   "pron_bn": "",
+   "text": "The new recycling plant was opened in Chittagong last month."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "মিতু, তুমি কি শুনেছ আমাদের বাজারে প্লাস্টিক ব্যাগ নিষিদ্ধ হয়েছে?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Mitu, did you hear that plastic bags were banned in our market?"
+  },
+  {
+   "bn": "হ্যাঁ, শুনেছি, আর এখন স্বেচ্ছাসেবীরা অনেক দোকান পরীক্ষা করে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Yes, I heard it, and many shops are checked by volunteers now."
+  },
+  {
+   "bn": "ভালো খবর। প্রতি মাসে স্কুলের ছাত্ররা আমাদের খাল পরিষ্কার করে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Good news. Our canal is cleaned up by school students every month."
+  },
+  {
+   "bn": "গত শুক্রবার আমিও তাদের সঙ্গে ছিলাম, দুই ঘণ্টায় অনেক ময়লা তোলা হয়েছিল।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "I joined them last Friday, and much waste was collected in two hours."
+  },
+  {
+   "bn": "চাঁদপুরে গত বছর বন্যায় অনেক রাস্তা নষ্ট হয়েছিল।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "In Chandpur, many roads were damaged by the flood last year."
+  },
+  {
+   "bn": "হ্যাঁ, তবে গ্রাম রক্ষায় নদীর পাশে এখন নতুন গাছ লাগানো হচ্ছে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Yes, but new trees are planted along the river to protect villages."
+  },
+  {
+   "bn": "আব্বা বলেন, আগের চেয়ে এখন কারখানার ধোঁয়া ভালোভাবে নিয়ন্ত্রণ করা হয়।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "My father says factory smoke is controlled better now than before."
+  },
+  {
+   "bn": "ঠিক বলেছ। আমাদের শিশু ও বয়স্কদের জন্য পরিষ্কার বাতাস দরকার।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "That is true. Clean air is needed for our children and old parents."
+  },
+  {
+   "bn": "চলো, এই শুক্রবার সকালে যে পরিচ্ছন্নতা কর্মসূচি হবে তাতে যোগ দিই।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Let us join the clean-up programme that is organised this Friday morning."
+  }
+ ],
+ "tip_bn": "পরিবেশ নিয়ে কথা বলার সময় active না বলে passive বলার চেষ্টা করো, যেমন they clean it না বলে it is cleaned বলো। ঢাকার রাস্তায় বা বাজারে যা দেখো, মনে মনে তার ইংরেজি passive বাক্য বানাও।",
+ "title": "Fighting Pollution Together",
+ "words": [
+  {
+   "bn": "দূষণ",
+   "example": "Air pollution is caused mainly by old buses and brick kilns.",
+   "example_bn": "পুরোনো বাস ও ইটভাটার কারণে বায়ুদূষণ হয়।",
+   "pron_bn": "পলিউশন",
+   "text": "pollution"
+  },
+  {
+   "bn": "প্লাস্টিক বর্জ্য",
+   "example": "Plastic waste is collected every Friday by our local youth club.",
+   "example_bn": "আমাদের স্থানীয় যুব সংঘ প্রতি শুক্রবার প্লাস্টিক বর্জ্য সংগ্রহ করে।",
+   "pron_bn": "প্লাস্টিক ওয়েস্ট",
+   "text": "plastic waste"
+  },
+  {
+   "bn": "বন্যা",
+   "example": "The village road was damaged by the sudden flood last year.",
+   "example_bn": "গত বছর হঠাৎ বন্যায় গ্রামের রাস্তাটি নষ্ট হয়েছিল।",
+   "pron_bn": "ফ্লাড",
+   "text": "flood"
+  },
+  {
+   "bn": "পুনর্ব্যবহার করা",
+   "example": "We recycle plastic bottles to make new benches for schools.",
+   "example_bn": "স্কুলের নতুন বেঞ্চ বানাতে আমরা প্লাস্টিক বোতল পুনর্ব্যবহার করি।",
+   "pron_bn": "রিসাইকেল",
+   "text": "recycle"
+  },
+  {
+   "bn": "নিষিদ্ধ করা",
+   "example": "Single-use plastic bags were banned in our market last month.",
+   "example_bn": "গত মাসে আমাদের বাজারে একবার ব্যবহার্য প্লাস্টিক ব্যাগ নিষিদ্ধ হয়েছে।",
+   "pron_bn": "ব্যান",
+   "text": "ban"
+  },
+  {
+   "bn": "পরিষ্কার করা",
+   "example": "The canal near Chandpur is cleaned up by volunteers every month.",
+   "example_bn": "চাঁদপুরের কাছের খালটি প্রতি মাসে স্বেচ্ছাসেবীরা পরিষ্কার করে।",
+   "pron_bn": "ক্লিন আপ",
+   "text": "clean up"
+  },
+  {
+   "bn": "যেখানে-সেখানে ফেলা",
+   "example": "People should not dump rubbish into the river or pond.",
+   "example_bn": "নদী বা পুকুরে ময়লা ফেলা উচিত নয়।",
+   "pron_bn": "ডাম্প",
+   "text": "dump"
+  },
+  {
+   "bn": "কারখানা",
+   "example": "The new factory was built far away from the residential area.",
+   "example_bn": "নতুন কারখানাটি বসত এলাকা থেকে অনেক দূরে তৈরি হয়েছিল।",
+   "pron_bn": "ফ্যাক্টরি",
+   "text": "factory"
+  },
+  {
+   "bn": "ধোঁয়া",
+   "example": "Thick smoke is produced by old brick kilns around Dhaka.",
+   "example_bn": "ঢাকার আশপাশের পুরোনো ইটভাটা থেকে ঘন ধোঁয়া বের হয়।",
+   "pron_bn": "স্মোক",
+   "text": "smoke"
+  },
+  {
+   "bn": "রক্ষা করা",
+   "example": "We must protect our rivers if we want safe fish.",
+   "example_bn": "নিরাপদ মাছ চাইলে আমাদের নদীগুলো রক্ষা করতেই হবে।",
+   "pron_bn": "প্রটেক্ট",
+   "text": "protect"
+  }
+ ]
+}

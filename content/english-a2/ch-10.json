@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি কখনো থাই স্যুপ খাইনি।",
+    "pron_bn": "আই হ্যাভ নেভার ইটেন থাই সুপ।",
+    "text": "I have never eaten Thai soup."
+   },
+   {
+    "bn": "তুমি কি কখনো সিলেট শহরে গিয়েছো?",
+    "pron_bn": "হ্যাভ ইউ এভার ভিজিটেড সিলেট সিটি?",
+    "text": "Have you ever visited Sylhet city?"
+   },
+   {
+    "bn": "সে দুইবার নতুন ফলের জুস খেয়ে দেখেছে।",
+    "pron_bn": "শি হ্যাজ ট্রাইড নিউ ফ্রুট জুস টোয়াইস।",
+    "text": "She has tried new fruit juice twice."
+   },
+   {
+    "bn": "তারা কখনো একসাথে বাসে ভ্রমণ করেনি।",
+    "pron_bn": "দেই হ্যাভ নেভার ট্রাভেলড বাই বাস টুগেদার।",
+    "text": "They have never travelled by bus together."
+   }
+  ],
+  "points_bn": [
+   "অভিজ্ঞতা নিয়ে প্রশ্ন করতে <b>Have you ever</b> ব্যবহার করো।",
+   "কোনো অভিজ্ঞতা হয়নি বোঝাতে <b>have never / has never</b> বলো।",
+   "<b>ever</b> বসে প্রশ্নে, <b>never</b> বসে না-বোধক উত্তরে।",
+   "মূল ক্রিয়ার <b>past participle</b> রূপ ব্যবহার করো, যেমন eaten, visited।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Has",
+     "Have",
+     "Did",
+     "Do"
+    ],
+    "q": "___ you ever visited Dhaka?",
+    "why_bn": "you-এর সাথে have বসে, তাই Have you ever সঠিক।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "always",
+     "ever",
+     "never",
+     "did"
+    ],
+    "q": "I have ___ travelled by train.",
+    "why_bn": "না-বোধক অভিজ্ঞতা বোঝাতে have-এর পরে never বসে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "eaten",
+     "ate",
+     "eat",
+     "eating"
+    ],
+    "q": "She has never ___ chicken biryani.",
+    "why_bn": "has-এর পরে মূল ক্রিয়ার past participle বসে, তাই eaten সঠিক।"
+   }
+  ],
+  "title_bn": "এভার আর নেভার দিয়ে প্রেজেন্ট পারফেক্ট"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি ভ্রমণ, খাবার আর নতুন অভিজ্ঞতা নিয়ে ইংরেজিতে কথা বলতে পারবে। ever আর never দিয়ে প্রশ্ন করতে ও উত্তর দিতে পারবে।",
+ "phrases": [
+  {
+   "bn": "তুমি কি কখনো চট্টগ্রাম গিয়েছো?",
+   "pron_bn": "হ্যাভ ইউ এভার ভিজিটেড চিটাগং?",
+   "text": "Have you ever visited Chittagong?"
+  },
+  {
+   "bn": "আমি কখনো বাংলাদেশের বাইরে ভ্রমণ করিনি।",
+   "pron_bn": "আই হ্যাভ নেভার ট্রাভেলড আউটসাইড বাংলাদেশ।",
+   "text": "I have never travelled outside Bangladesh."
+  },
+  {
+   "bn": "আমি একবার চাইনিজ খাবার খেয়ে দেখেছি।",
+   "pron_bn": "আই হ্যাভ ট্রাইড চাইনিজ ফুড ওয়ান্স।",
+   "text": "I have tried Chinese food once."
+  },
+  {
+   "bn": "তুমি কি কখনো এখানে আমের জুস খেয়েছো?",
+   "pron_bn": "হ্যাভ ইউ এভার টেস্টেড ম্যাংগো জুস হিয়ার?",
+   "text": "Have you ever tasted mango juice here?"
+  },
+  {
+   "bn": "আমি আজ ভাত আর মাছ খেয়েছি।",
+   "pron_bn": "আই হ্যাভ ইটেন রাইস অ্যান্ড ফিশ টুডে।",
+   "text": "I have eaten rice and fish today."
+  },
+  {
+   "bn": "সে আগে কখনো সিলেট যায়নি।",
+   "pron_bn": "শি হ্যাজ নেভার ভিজিটেড সিলেট বিফোর।",
+   "text": "She has never visited Sylhet before."
+  },
+  {
+   "bn": "তুমি কি কখনো বাসায় সবজি রান্না করেছো?",
+   "pron_bn": "হ্যাভ ইউ এভার কুকড ভেজিটেবলস অ্যাট হোম?",
+   "text": "Have you ever cooked vegetables at home?"
+  },
+  {
+   "bn": "আমরা অনেকবার একসাথে ঢাকা গিয়েছি।",
+   "pron_bn": "উই হ্যাভ ভিজিটেড ঢাকা মেনি টাইমস টুগেদার।",
+   "text": "We have visited Dhaka many times together."
+  },
+  {
+   "bn": "আমি কখনো চিনি ছাড়া চা খাইনি।",
+   "pron_bn": "আই হ্যাভ নেভার ড্রাংক টি উইদাউট সুগার।",
+   "text": "I have never drunk tea without sugar."
+  },
+  {
+   "bn": "তুমি কি শীতে পদ্মা নদী দেখেছো?",
+   "pron_bn": "হ্যাভ ইউ এভার সিন পদ্মা রিভার ইন উইন্টার?",
+   "text": "Have you ever seen Padma River in winter?"
+  },
+  {
+   "bn": "এটাই আমার জীবনের সেরা ভ্রমণ।",
+   "pron_bn": "দ্যাট ওয়াজ মাই বেস্ট ট্রিপ এভার।",
+   "text": "That was my best trip ever."
+  },
+  {
+   "bn": "তোমার ভ্রমণের গল্পটা বলো তো।",
+   "pron_bn": "টেল মি অ্যাবাউট ইয়োর ট্রিপ, প্লিজ।",
+   "text": "Tell me about your trip, please."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "তুমি কি কখনো সিলেট গিয়েছ?",
+   "pron_bn": "হ্যাভ ইউ এভার বিন টু সিলেট?",
+   "speaker": "Rafi",
+   "text": "Have you ever been to Sylhet?"
+  },
+  {
+   "bn": "হ্যাঁ, আমি একবার সিলেট গিয়েছি।",
+   "pron_bn": "ইয়েস, আই হ্যাভ ভিজিটেড সিলেট ওয়ান্স।",
+   "speaker": "Mitu",
+   "text": "Yes, I have visited Sylhet once."
+  },
+  {
+   "bn": "তুমি কি কখনো চা-বাগানে গিয়েছ?",
+   "pron_bn": "হ্যাভ ইউ এভার ভিজিটেড আ টি গার্ডেন?",
+   "speaker": "Rafi",
+   "text": "Have you ever visited a tea garden?"
+  },
+  {
+   "bn": "হ্যাঁ! সেখানে একটা বড় চা-বাগানে হেঁটেছি।",
+   "pron_bn": "ইয়েস! আই হ্যাভ ওয়াকড ইন আ বিগ টি গার্ডেন দেয়ার।",
+   "speaker": "Mitu",
+   "text": "Yes! I have walked in a big tea garden there."
+  },
+  {
+   "bn": "আমি কখনো চা-বাগান দেখিনি।",
+   "pron_bn": "আই হ্যাভ নেভার সিন আ টি গার্ডেন।",
+   "speaker": "Rafi",
+   "text": "I have never seen a tea garden."
+  },
+  {
+   "bn": "তুমি কি কখনো ট্রেনে ভ্রমণ করেছ?",
+   "pron_bn": "হ্যাভ ইউ এভার ট্রাভেলড বাই ট্রেন?",
+   "speaker": "Mitu",
+   "text": "Have you ever travelled by train?"
+  },
+  {
+   "bn": "না, আমি কখনো ট্রেনে ভ্রমণ করিনি।",
+   "pron_bn": "নো, আই হ্যাভ নেভার ট্রাভেলড বাই ট্রেন।",
+   "speaker": "Rafi",
+   "text": "No, I have never travelled by train."
+  },
+  {
+   "bn": "তাহলে চলো একসাথে ট্রেনে করে সিলেট যাই!",
+   "pron_bn": "দেন লেটস গো টু সিলেট বাই ট্রেন টুগেদার!",
+   "speaker": "Mitu",
+   "text": "Then let's go to Sylhet by train together!"
+  }
+ ],
+ "tip_bn": "নিজের জীবন নিয়ে ছোট তালিকা বানাও: কোথায় গিয়েছো, কী খেয়েছো। প্রতিদিন একজনকে Have you ever দিয়ে একটি প্রশ্ন করো।",
+ "title": "My Life Experiences",
+ "words": [
+  {
+   "bn": "অভিজ্ঞতা",
+   "example": "I have had a good experience in Chittagong.",
+   "example_bn": "চট্টগ্রামে আমার ভালো অভিজ্ঞতা হয়েছে।",
+   "pron_bn": "এক্সপিরিয়েন্স",
+   "text": "experience"
+  },
+  {
+   "bn": "ভ্রমণ, সফর",
+   "example": "I have enjoyed every trip to Chandpur.",
+   "example_bn": "চাঁদপুরের প্রতিটি ভ্রমণ আমি উপভোগ করেছি।",
+   "pron_bn": "ট্রিপ",
+   "text": "trip"
+  },
+  {
+   "bn": "ভ্রমণ করা",
+   "example": "I have travelled to Dhaka many times.",
+   "example_bn": "আমি অনেকবার ঢাকা ভ্রমণ করেছি।",
+   "pron_bn": "ট্রাভেল",
+   "text": "travel"
+  },
+  {
+   "bn": "স্বাদ নেওয়া",
+   "example": "Can I taste this mango?",
+   "example_bn": "আমি কি আমটা চেখে দেখতে পারি?",
+   "pron_bn": "টেস্ট",
+   "text": "taste"
+  },
+  {
+   "bn": "খুব মজার",
+   "example": "I have eaten very delicious fish today.",
+   "example_bn": "আমি আজ খুব মজার মাছ খেয়েছি।",
+   "pron_bn": "ডেলিশাস",
+   "text": "delicious"
+  },
+  {
+   "bn": "চেষ্টা করে দেখা",
+   "example": "I have never tried green tea.",
+   "example_bn": "আমি কখনো গ্রিন টি খেয়ে দেখিনি।",
+   "pron_bn": "ট্রাই",
+   "text": "try"
+  },
+  {
+   "bn": "বিদেশে",
+   "example": "I have never been abroad.",
+   "example_bn": "আমি কখনো বিদেশে যাইনি।",
+   "pron_bn": "অ্যাব্রড",
+   "text": "abroad"
+  },
+  {
+   "bn": "কখনো",
+   "example": "Have you ever eaten hilsa fish curry?",
+   "example_bn": "তুমি কি কখনো ইলিশ মাছের তরকারি খেয়েছো?",
+   "pron_bn": "এভার",
+   "text": "ever"
+  },
+  {
+   "bn": "কখনোই না",
+   "example": "I have never cooked Chinese vegetables before.",
+   "example_bn": "আমি আগে কখনো চাইনিজ সবজি রান্না করিনি।",
+   "pron_bn": "নেভার",
+   "text": "never"
+  },
+  {
+   "bn": "নতুন",
+   "example": "I have learned many new things this year.",
+   "example_bn": "আমি এ বছর অনেক নতুন জিনিস শিখেছি।",
+   "pron_bn": "নিউ",
+   "text": "new"
+  }
+ ]
+}

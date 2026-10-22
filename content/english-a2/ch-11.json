@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আজ খুব গরম।",
+    "pron_bn": "ইট ইজ ভেরি হট টুডে।",
+    "text": "It is very hot today."
+   },
+   {
+    "bn": "চাঁদপুরে এখন মুষলধারে বৃষ্টি হচ্ছে।",
+    "pron_bn": "ইট ইজ রেইনিং হেভিলি ইন চাঁদপুর।",
+    "text": "It is raining heavily in Chandpur."
+   },
+   {
+    "bn": "সে দ্রুত হেঁটে বাস স্টপে যায়।",
+    "pron_bn": "শি ওয়াকস কুইকলি টু দা বাস স্টপ।",
+    "text": "She walks quickly to the bus stop."
+   },
+   {
+    "bn": "গতকাল সকালে ঠান্ডা আর কুয়াশা ছিল।",
+    "pron_bn": "ইট ওয়াজ কুল অ্যান্ড ফগি ইয়েস্টারডে মর্নিং।",
+    "text": "It was cool and foggy yesterday morning."
+   }
+  ],
+  "points_bn": [
+   "আবহাওয়া বলতে বাক্যের শুরুতে <b>It is</b> বসাও, তারপর আবহাওয়ার <b>adjective</b>। যেমন: It is hot, It is cloudy।",
+   "<b>adverb of manner</b> দিয়ে কাজটা কীভাবে হচ্ছে বোঝাই। এটা সাধারণত verb-এর পরে বসে। যেমন: rains heavily, walks quickly।",
+   "<b>heavily</b> মানে মুষলধারে বা খুব বেশি করে, আর <b>quickly</b> মানে দ্রুত। বর্ষাকালে বৃষ্টি নিয়ে heavily খুব ব্যবহার হয়।",
+   "মনে রাখো: আবহাওয়ার বাক্যে It-এর পরে <b>is</b> বসে, are বসে না। যেমন: It is sunny, It is not cool।"
+  ],
+  "quiz": [
+   {
+    "answer": 0,
+    "options": [
+     "It",
+     "They",
+     "We",
+     "I"
+    ],
+    "q": "___ is very hot today.",
+    "why_bn": "আবহাওয়া বলতে বাক্যের শুরুতে It বসে। তাই সঠিক উত্তর It।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "heavy",
+     "quick",
+     "heavily",
+     "hot"
+    ],
+    "q": "It rains ___ in the monsoon.",
+    "why_bn": "rains হলো verb, তাই এরপর কাজের ধরন বোঝাতে adverb heavily বসবে। heavy হলো adjective।"
+   },
+   {
+    "answer": 1,
+    "options": [
+     "quick",
+     "quickly",
+     "quicker",
+     "quickest"
+    ],
+    "q": "She walks ___ to school.",
+    "why_bn": "walks কীভাবে হয় বোঝাতে adverb দরকার। quick-এর adverb হলো quickly।"
+   }
+  ],
+  "title_bn": "It is + adjective আর কাজের ধরন বোঝানো adverb"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি বাংলাদেশের ছয় ঋতু আর বর্ষাকাল নিয়ে সহজে কথা বলতে পারবে। আবহাওয়া কেমন তা It is দিয়ে বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "ঢাকায় আজ খুব গরম।",
+   "pron_bn": "ইট ইজ ভেরি হট টুডে ইন ঢাকা।",
+   "text": "It is very hot today in Dhaka."
+  },
+  {
+   "bn": "বাইরে এখন মুষলধারে বৃষ্টি হচ্ছে।",
+   "pron_bn": "ইট ইজ রেইনিং হেভিলি আউটসাইড নাউ।",
+   "text": "It is raining heavily outside now."
+  },
+  {
+   "bn": "আজ বাতাস খুব জোরে বইছে।",
+   "pron_bn": "দা উইন্ড ইজ ব্লোইং ভেরি স্ট্রংলি টুডে।",
+   "text": "The wind is blowing very strongly today."
+  },
+  {
+   "bn": "মেঘলা আছে, ছাতা নিয়ে নাও।",
+   "pron_bn": "ইট ইজ ক্লাউডি, প্লিজ টেক ইওর আমব্রেলা।",
+   "text": "It is cloudy, please take your umbrella."
+  },
+  {
+   "bn": "আজ সকালে আবহাওয়া ঠান্ডা আর সুন্দর।",
+   "pron_bn": "ইট ইজ কুল অ্যান্ড প্লেজেন্ট দিস মর্নিং।",
+   "text": "It is cool and pleasant this morning."
+  },
+  {
+   "bn": "সিলেটে শীতের সকাল কুয়াশাচ্ছন্ন থাকে।",
+   "pron_bn": "উইন্টার মর্নিংস আর ফগি ইন সিলেট।",
+   "text": "Winter mornings are foggy in Sylhet."
+  },
+  {
+   "bn": "বর্ষার বৃষ্টি আমাদের ধান ও সবজির জন্য ভালো।",
+   "pron_bn": "মনসুন রেইন হেল্পস আওয়ার রাইস অ্যান্ড ভেজিটেবলস।",
+   "text": "Monsoon rain helps our rice and vegetables."
+  },
+  {
+   "bn": "আস্তে গাড়ি চালাও, রাস্তা পিচ্ছিল।",
+   "pron_bn": "প্লিজ ড্রাইভ স্লোলি, দা রোড ইজ স্লিপারি।",
+   "text": "Please drive slowly, the road is slippery."
+  },
+  {
+   "bn": "রোদ আছে, তাই যথেষ্ট পরিষ্কার পানি খাও।",
+   "pron_bn": "ইট ইজ সানি, সো ড্রিংক এনাফ ক্লিন ওয়াটার।",
+   "text": "It is sunny, so drink enough clean water."
+  },
+  {
+   "bn": "শরৎকালে আকাশ নীল আর খুব সুন্দর থাকে।",
+   "pron_bn": "অটাম স্কাই ইজ ব্লু অ্যান্ড ভেরি বিউটিফুল।",
+   "text": "Autumn sky is blue and very beautiful."
+  },
+  {
+   "bn": "শীতের সন্ধ্যায় তাড়াতাড়ি অন্ধকার নামে।",
+   "pron_bn": "ইট গেটস ডার্ক কুইকলি ইন দা উইন্টার ইভনিং।",
+   "text": "It gets dark quickly in the winter evening."
+  },
+  {
+   "bn": "বসন্ত বাংলাদেশে আমার প্রিয় ঋতু।",
+   "pron_bn": "স্প্রিং ইজ মাই ফেভারিট সিজন ইন বাংলাদেশ।",
+   "text": "Spring is my favourite season in Bangladesh."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "ঢাকায় আজ খুব গরম।",
+   "pron_bn": "ইট ইজ ভেরি হট টুডে ইন ঢাকা।",
+   "speaker": "Rafi",
+   "text": "It is very hot today in Dhaka."
+  },
+  {
+   "bn": "হ্যাঁ, রোদ আছে আর খুব ভ্যাপসা গরম।",
+   "pron_bn": "ইয়েস, ইট ইজ সানি অ্যান্ড ভেরি হিউমিড।",
+   "speaker": "Mitu",
+   "text": "Yes, it is sunny and very humid."
+  },
+  {
+   "bn": "বর্ষাকালে মুষলধারে বৃষ্টি হয়।",
+   "pron_bn": "ইট রেইনস হেভিলি ইন দা মনসুন সিজন।",
+   "speaker": "Rafi",
+   "text": "It rains heavily in the monsoon season."
+  },
+  {
+   "bn": "নদীর কাছে বাতাস খুব জোরে বয়।",
+   "pron_bn": "দা উইন্ড ব্লোজ স্ট্রংলি নিয়ার দা রিভার।",
+   "speaker": "Mitu",
+   "text": "The wind blows strongly near the river."
+  },
+  {
+   "bn": "আজ মেঘলা, ছাতা নিয়ে নাও।",
+   "pron_bn": "ইট ইজ ক্লাউডি টুডে, টেক ইওর আমব্রেলা।",
+   "speaker": "Rafi",
+   "text": "It is cloudy today, take your umbrella."
+  },
+  {
+   "bn": "চাঁদপুরে শীতকালে ঠান্ডা পড়ে।",
+   "pron_bn": "ইট ইজ কুল ইন উইন্টার ইন চাঁদপুর।",
+   "speaker": "Mitu",
+   "text": "It is cool in winter in Chandpur."
+  },
+  {
+   "bn": "মুষলধারে বৃষ্টি হলে কৃষকরা কঠোর পরিশ্রম করেন।",
+   "pron_bn": "ফার্মারস ওয়ার্ক হার্ড হোয়েন ইট রেইনস হেভিলি।",
+   "speaker": "Rafi",
+   "text": "Farmers work hard when it rains heavily."
+  },
+  {
+   "bn": "বসন্ত আমার পছন্দ, আবহাওয়া সুন্দর আর শান্ত থাকে।",
+   "pron_bn": "আই লাইক স্প্রিং, ইট ইজ বিউটিফুল অ্যান্ড কাম।",
+   "speaker": "Mitu",
+   "text": "I like spring, it is beautiful and calm."
+  }
+ ],
+ "tip_bn": "আকাশ দেখে প্রতিদিন একটা বাক্য বলো: It is sunny, It is cloudy। বর্ষায় heavily আর quickly দিয়ে দুটো বাক্য বানিয়ে প্র্যাকটিস করো।",
+ "title": "Weather and Seasons",
+ "words": [
+  {
+   "bn": "রোদেলা",
+   "example": "It is sunny today in Chittagong.",
+   "example_bn": "আজ চট্টগ্রামে রোদ আছে।",
+   "pron_bn": "সানি",
+   "text": "sunny"
+  },
+  {
+   "bn": "মেঘলা",
+   "example": "It is cloudy, so take an umbrella.",
+   "example_bn": "মেঘলা আছে, তাই ছাতা নাও।",
+   "pron_bn": "ক্লাউডি",
+   "text": "cloudy"
+  },
+  {
+   "bn": "ভ্যাপসা গরম",
+   "example": "It is very humid in Dhaka today.",
+   "example_bn": "আজ ঢাকায় খুব ভ্যাপসা গরম।",
+   "pron_bn": "হিউমিড",
+   "text": "humid"
+  },
+  {
+   "bn": "বর্ষাকাল",
+   "example": "Rice grows well in the monsoon season.",
+   "example_bn": "বর্ষাকালে ধান ভালো হয়।",
+   "pron_bn": "মনসুন",
+   "text": "monsoon"
+  },
+  {
+   "bn": "ছাতা",
+   "example": "Take your umbrella, it rains heavily today.",
+   "example_bn": "তোমার ছাতা নাও, আজ মুষলধারে বৃষ্টি হচ্ছে।",
+   "pron_bn": "আমব্রেলা",
+   "text": "umbrella"
+  },
+  {
+   "bn": "বাতাস বইছে এমন",
+   "example": "It is windy near the river today.",
+   "example_bn": "আজ নদীর কাছে খুব বাতাস বইছে।",
+   "pron_bn": "উইন্ডি",
+   "text": "windy"
+  },
+  {
+   "bn": "কুয়াশাচ্ছন্ন",
+   "example": "It is foggy in Sylhet this morning.",
+   "example_bn": "আজ সকালে সিলেটে কুয়াশা আছে।",
+   "pron_bn": "ফগি",
+   "text": "foggy"
+  },
+  {
+   "bn": "বৃষ্টিময়",
+   "example": "July is very rainy in our country.",
+   "example_bn": "আমাদের দেশে জুলাই মাসে অনেক বৃষ্টি হয়।",
+   "pron_bn": "রেইনি",
+   "text": "rainy"
+  },
+  {
+   "bn": "ঠান্ডা, শীতল",
+   "example": "It is cool and calm in winter.",
+   "example_bn": "শীতকালে আবহাওয়া ঠান্ডা আর শান্ত থাকে।",
+   "pron_bn": "কুল",
+   "text": "cool"
+  },
+  {
+   "bn": "ঋতু",
+   "example": "Bangladesh has six beautiful seasons.",
+   "example_bn": "বাংলাদেশে ছয়টি সুন্দর ঋতু আছে।",
+   "pron_bn": "সিজন",
+   "text": "season"
+  }
+ ]
+}

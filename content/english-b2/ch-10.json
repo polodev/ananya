@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "বৈশাখী মেলা থেকে হেঁটে বাড়ি ফেরার সময় আমরা একসাথে আনন্দে ভাটিয়ালি গান গাইলাম।",
+    "pron_bn": "",
+    "text": "Walking home from the Boishakhi fair, we sang folk songs together happily."
+   },
+   {
+    "bn": "ঈদের দুপুরের খাওয়া শেষ করে আমার পরিবার চাঁদপুরে প্রতিবেশীদের বাড়ি গেল।",
+    "pron_bn": "",
+    "text": "Having finished the Eid lunch, my family visited our neighbours in Chandpur."
+   },
+   {
+    "bn": "রঙিন বাতি দিয়ে সাজানো পূজা মণ্ডপটি গত রাতে শত শত দর্শনার্থীকে আকর্ষণ করেছিল।",
+    "pron_bn": "",
+    "text": "Decorated with colourful lights, the Puja pandal attracted hundreds of visitors last night."
+   },
+   {
+    "bn": "সকাল থেকে রান্না করে ক্লান্ত হয়ে নাদিয়া বিশ্রাম নিল, তখন অতিথিরা চা আর মিষ্টি খেল।",
+    "pron_bn": "",
+    "text": "Tired after cooking all morning, Nadia rested while guests enjoyed tea and sweets."
+   }
+  ],
+  "points_bn": [
+   "<b>Walking home, Having finished...</b> দিয়ে বাক্য শুরু করলে দুটো কাজ একসাথে বা একটার পর একটা হয়েছে বোঝায়।",
+   "সাধারণত দুটো কাজের <b>কর্তা একই</b> হয়, যেমন Walking through the fair, Mitu felt happy।",
+   "<b>Having + V3</b> মানে প্রথম কাজটা আগেই শেষ হয়েছে, যেমন Having finished the cooking, we ate together।",
+   "<b>Decorated with..., Tired after...</b> এর মতো V3 দিয়ে বাক্য শুরু করলে অবস্থা বা ফল বোঝায়।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Eating breakfast every day and he goes to work.",
+     "Having eaten breakfast, he went to work with Tanvir.",
+     "He having eaten breakfast go to work daily.",
+     "Having eat breakfast he going to work now."
+    ],
+    "q": "Choose the correct participle clause sentence.",
+    "why_bn": "Having eaten breakfast দিয়ে বোঝায় নাশতা আগেই শেষ হয়েছে, তারপর সে কাজে গেছে। এটাই সঠিক গঠন: Having + V3 + কমা + মূল বাক্য।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "Walking to the pandal, the lights were very beautiful.",
+     "Walking to the pandal, they were very beautiful lights.",
+     "While walking to the pandal, the lights very beautiful.",
+     "Walking to the pandal, we saw very beautiful lights."
+    ],
+    "q": "Which sentence is correct? The doer must be the same in both parts.",
+    "why_bn": "Participle clause আর মূল বাক্যের কর্তা একই হতে হয়। এখানে আমরাই হাঁটছি আর আমরাই দেখছি, তাই শেষ বাক্যটি সঠিক।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Decorated with alpana and lights, our home looked festive for Pohela Boishakh.",
+     "Decorated with alpana and lights, looked our home festive for Pohela Boishakh.",
+     "Decorating with alpana and lights, was our home looked festive.",
+     "Our home decorated with alpana, and lights was looking festive it."
+    ],
+    "q": "Choose the natural sentence to describe a decorated home.",
+    "why_bn": "Decorated with... দিয়ে সাজানো অবস্থা বোঝায় এবং বাক্যটি সম্পূর্ণ ও স্বাভাবিক। বাকিগুলোর word order ভুল।"
+   }
+  ],
+  "title_bn": "পার্টিসিপল ক্লজ (Having finished..., Walking home...)"
+ },
+ "intro_bn": "এই অধ্যায় শেষ করে তুমি পহেলা বৈশাখ, ঈদ আর দুর্গাপূজার খাবার ও ঐতিহ্য নিয়ে সুন্দর করে ইংরেজিতে বলতে পারবে। Participle clause দিয়ে লম্বা ও স্মার্ট বাক্য বানাতেও শিখবে।",
+ "phrases": [
+  {
+   "bn": "তোমাকে শুভ নববর্ষ! গান, খাবার আর আনন্দে ভরা সুন্দর দিন কাটুক।",
+   "pron_bn": "",
+   "text": "Wishing you a joyful Pohela Boishakh filled with music, food and happy moments together."
+  },
+  {
+   "bn": "ঈদের প্রথম দিন আমাদের বাসায় দুপুরে খেতে আসবে?",
+   "pron_bn": "",
+   "text": "Would you like to join our family for lunch on the first day of Eid?"
+  },
+  {
+   "bn": "এই পান্তা ইলিশটা দারুণ মজা, তোমার মা কি আজ সকালে রান্না করেছেন?",
+   "pron_bn": "",
+   "text": "This panta ilish tastes amazing, did your mother prepare it this morning?"
+  },
+  {
+   "bn": "আমাদের এলাকায় প্রতি বছর দুর্গাপূজার আগে পুরো রাস্তা সুন্দর করে সাজানো হয়।",
+   "pron_bn": "",
+   "text": "Our neighbourhood decorates the whole street beautifully before Durga Puja every year."
+  },
+  {
+   "bn": "আরেকটু চিকেন কারি আর সবজি নাও, অতিথিদের জন্য আমরা বেশি করে রেঁধেছি।",
+   "pron_bn": "",
+   "text": "Please have some more chicken curry and vegetables, we cooked extra for guests."
+  },
+  {
+   "bn": "ঢাকার মঙ্গল শোভাযাত্রার মতো এত রঙিন শোভাযাত্রা আমি আর দেখিনি।",
+   "pron_bn": "",
+   "text": "I have never seen such colourful processions as the Mangal Shobhajatra in Dhaka."
+  },
+  {
+   "bn": "চলো বৈশাখী মেলায় নাদিয়ার স্টলে গিয়ে হাতে বানানো জিনিস কিনি।",
+   "pron_bn": "",
+   "text": "Let us visit Nadia’s stall at the Boishakhi fair to buy handmade crafts."
+  },
+  {
+   "bn": "ঈদ মোবারক! তোমার ঘর শান্তি, আনন্দ আর ভালো খাবারে ভরে উঠুক।",
+   "pron_bn": "",
+   "text": "Eid Mubarak! May your home be filled with peace, happiness and good food."
+  },
+  {
+   "bn": "গত রাতে পূজা মণ্ডপে ঘুরতে ঘুরতে আমাদের সবার ঐতিহ্য নিয়ে গর্ব হলো।",
+   "pron_bn": "",
+   "text": "Walking through the Puja pandal last night, we felt proud of our shared traditions."
+  },
+  {
+   "bn": "পহেলা বৈশাখের সকালে সাধারণত কী কী খাবার খাওয়া হয়, বলবে?",
+   "pron_bn": "",
+   "text": "Could you tell me what dishes are usually served during Pohela Boishakh breakfast?"
+  },
+  {
+   "bn": "ঈদের মিষ্টি আর পূজার নাড়ু দুটোই খেয়ে আমি আমাদের উৎসবের খাবার সবচেয়ে ভালোবাসি।",
+   "pron_bn": "",
+   "text": "Having tasted both Eid sweets and Puja naru, I love our festive food culture most."
+  },
+  {
+   "bn": "দাওয়াতের জন্য ধন্যবাদ, তোমাদের আতিথেয়তায় সন্ধ্যাটা সত্যিই সুন্দর হয়েছে।",
+   "pron_bn": "",
+   "text": "Thank you for inviting us, your family’s hospitality made the evening truly special."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "চাঁদপুরে বড় হওয়ায় রাফি অনলাইনে বিদেশি বন্ধুদের কাছে পহেলা বৈশাখের গল্প বলতে ভালোবাসে।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Having grown up in Chandpur, Rafi loves describing Pohela Boishakh to foreign friends online."
+  },
+  {
+   "bn": "ঢাকায় মঙ্গল শোভাযাত্রায় হাঁটতে হাঁটতে মিতু আমাদের রঙিন ঐতিহ্য নিয়ে গর্ব অনুভব করল।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Walking through the Mangal Shobhajatra in Dhaka, Mitu felt proud of our colourful heritage and traditions."
+  },
+  {
+   "bn": "বাতি আর আলপনায় সাজানো পুরো এলাকাটা গত অক্টোবরে দুর্গাপূজার আগে খুব আনন্দময় লাগছিল।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Decorated with lights and alpana, the whole neighbourhood looked joyful before Durga Puja last October."
+  },
+  {
+   "bn": "ঈদের দিন আত্মীয়দের বাড়ি ঘুরে এসে তানভীর ও তার পরিবার বাসায় একসাথে বড় ভোজ খেল।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Having visited relatives on Eid day, Tanvir and his family enjoyed a large feast together at home."
+  },
+  {
+   "bn": "চিকেন কারি, সবজি আর মিষ্টি ভাগ করে সিলেটের উদার প্রতিবেশীরা প্রতিটি উৎসবে সম্প্রীতি ধরে রাখে।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Sharing chicken curry, vegetables and sweets, generous neighbours in Sylhet preserve harmony during every festival."
+  },
+  {
+   "bn": "কারুশিল্প মেলায় দর্শনার্থীদের সাথে কথা বলতে বলতে নাদিয়া বোঝাল হাতে বানানো পুতুল কীভাবে গ্রামের জীবন তুলে ধরে।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Talking to visitors at the craft fair, Nadia explained how handmade dolls reflect our village life and hospitality."
+  },
+  {
+   "bn": "পান্তা ইলিশ আর টাটকা জুস খেয়ে অনেক অতিথি বৈশাখী সকালের ঐতিহ্যবাহী রেসিপি শিখতে চাইল।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Having tasted panta ilish and fresh juice, many guests wanted to learn the traditional Boishakh breakfast recipe."
+  },
+  {
+   "bn": "চট্টগ্রামে পাশাপাশি উদযাপিত ঈদ আর দুর্গাপূজা আমাদের সব বিশ্বাসকে সম্মান করতে শেখায়।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Celebrated side by side in Chittagong, Eid and Durga Puja remind us to respect all beliefs and celebrations."
+  },
+  {
+   "bn": "কারুশিল্প আর লোকগান বাঁচিয়ে রেখে বাংলাদেশের তরুণরা ভবিষ্যতের জন্য জীবন্ত সংস্কৃতি রক্ষা করছে।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Keeping our crafts and folk songs alive, young people in Bangladesh protect a living culture for the future."
+  }
+ ],
+ "tip_bn": "উৎসবের সময় মোবাইলে ২-৩ লাইনে ইংরেজি ডায়েরি লেখো, যেমন Having visited the fair... দিয়ে। ঈদে বা পূজায় প্রতিবেশীকে ইংরেজিতে শুভেচ্ছা জানালে এই বাক্যগুলো সহজে মনে থাকবে।",
+ "title": "Culture and Heritage",
+ "words": [
+  {
+   "bn": "ঐতিহ্য",
+   "example": "Shakrain and Pohela Boishakh are important parts of our cultural heritage in Bangladesh.",
+   "example_bn": "সাকরাইন আর পহেলা বৈশাখ বাংলাদেশে আমাদের সাংস্কৃতিক ঐতিহ্যের গুরুত্বপূর্ণ অংশ।",
+   "pron_bn": "হেরিটেজ",
+   "text": "heritage"
+  },
+  {
+   "bn": "ঐতিহ্য, প্রথা",
+   "example": "Wearing white and red sarees on Pohela Boishakh is a beautiful old tradition.",
+   "example_bn": "পহেলা বৈশাখে সাদা-লাল শাড়ি পরা একটি সুন্দর পুরোনো প্রথা।",
+   "pron_bn": "ট্রাডিশন",
+   "text": "tradition"
+  },
+  {
+   "bn": "উৎসব উদযাপন",
+   "example": "Eid celebrations in Dhaka bring families together with food, new clothes and warm smiles.",
+   "example_bn": "ঢাকায় ঈদ উদযাপন খাবার, নতুন জামা আর আন্তরিক হাসিতে পরিবারকে এক করে।",
+   "pron_bn": "সেলিব্রেশন",
+   "text": "celebration"
+  },
+  {
+   "bn": "সাজানো",
+   "example": "People decorate their homes with lights and alpana during festivals like Durga Puja.",
+   "example_bn": "দুর্গাপূজার মতো উৎসবে মানুষ বাতি আর আলপনা দিয়ে ঘর সাজায়।",
+   "pron_bn": "ডেকোরেট",
+   "text": "decorate"
+  },
+  {
+   "bn": "উদার, দানশীল",
+   "example": "During Eid, many generous neighbours share chicken curry and sweets with poor families.",
+   "example_bn": "ঈদের সময় অনেক উদার প্রতিবেশী গরিব পরিবারের সাথে চিকেন কারি আর মিষ্টি ভাগ করে নেয়।",
+   "pron_bn": "জেনারাস",
+   "text": "generous"
+  },
+  {
+   "bn": "সম্প্রীতি, মিল",
+   "example": "Celebrating Eid and Puja side by side shows the harmony among people in Bangladesh.",
+   "example_bn": "পাশাপাশি ঈদ আর পূজা উদযাপন বাংলাদেশের মানুষের মধ্যে সম্প্রীতি দেখায়।",
+   "pron_bn": "হারমোনি",
+   "text": "harmony"
+  },
+  {
+   "bn": "সংরক্ষণ করা, ধরে রাখা",
+   "example": "We should preserve our folk songs and crafts so the next generation can enjoy them.",
+   "example_bn": "আমাদের লোকগান আর কারুশিল্প ধরে রাখা উচিত, যাতে পরের প্রজন্ম তা উপভোগ করতে পারে।",
+   "pron_bn": "প্রিজার্ভ",
+   "text": "preserve"
+  },
+  {
+   "bn": "ভোজ",
+   "example": "On Eid morning, our whole family enjoyed a delicious feast with rice and fish.",
+   "example_bn": "ঈদের সকালে আমাদের পুরো পরিবার ভাত আর মাছ দিয়ে মজার ভোজ খেল।",
+   "pron_bn": "ফিস্ট",
+   "text": "feast"
+  },
+  {
+   "bn": "হস্তশিল্প",
+   "example": "Mitu bought handmade clay dolls and a painted plate from a local craft fair.",
+   "example_bn": "মিতু স্থানীয় কারুশিল্প মেলা থেকে মাটির পুতুল আর রং করা প্লেট কিনল।",
+   "pron_bn": "ক্রাফট",
+   "text": "craft"
+  },
+  {
+   "bn": "আতিথেয়তা",
+   "example": "Visitors always praise the warm hospitality they receive in Bangladeshi homes during festivals.",
+   "example_bn": "উৎসবের সময় বাংলাদেশি বাসায় যে আন্তরিক আতিথেয়তা পায়, অতিথিরা সবসময় তার প্রশংসা করে।",
+   "pron_bn": "হসপিটালিটি",
+   "text": "hospitality"
+  }
+ ]
+}

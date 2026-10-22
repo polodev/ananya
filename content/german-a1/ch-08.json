@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি একটা আপেল কিনছি।",
+    "pron_bn": "ইশ কাউফে আইনেন আপফেল।",
+    "text": "Ich kaufe einen Apfel."
+   },
+   {
+    "bn": "আমি একটা কলা কিনছি।",
+    "pron_bn": "ইশ কাউফে আইনে বানানে।",
+    "text": "Ich kaufe eine Banane."
+   },
+   {
+    "bn": "আমি একটা পাউরুটি কিনছি।",
+    "pron_bn": "ইশ কাউফে আইন ব্রোট।",
+    "text": "Ich kaufe ein Brot."
+   },
+   {
+    "bn": "এক কিলো চালের দাম কত?",
+    "pron_bn": "ভি ফিল কস্টেট আইন কিলো রাইস?",
+    "text": "Wie viel kostet ein Kilo Reis?"
+   }
+  ],
+  "points_bn": [
+   "ছেলে-শব্দ <b>der</b>, যেমন Fisch, কিনলে বা নিলে <b>einen</b> হয়। যেমন: einen Fisch।",
+   "মেয়ে-শব্দ <b>die</b> আর নিরপেক্ষ-শব্দ <b>das</b> বদলায় না। যেমন: <b>eine Banane</b>, <b>ein Brot</b>।",
+   "দাম জানতে বলো: <b>Wie viel kostet ...?</b> মানে ‘এটার দাম কত?’",
+   "একটা জিনিসের জন্য <b>kostet</b> বলো। যেমন: Das kostet zwei Euro।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "ein",
+     "einen",
+     "eine",
+     "einem"
+    ],
+    "q": "Ich nehme ___ Apfel.",
+    "why_bn": "Apfel ছেলে-শব্দ (der Apfel)। কিনছি বা নিচ্ছি, তাই einen হবে।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "einen",
+     "ein",
+     "eine",
+     "einer"
+    ],
+    "q": "Ich möchte ___ Banane.",
+    "why_bn": "Banane মেয়ে-শব্দ (die Banane)। তাই eine হবে, বদলায় না।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "ein",
+     "eine",
+     "einen",
+     "einem"
+    ],
+    "q": "Wie viel kostet ___ Brot?",
+    "why_bn": "Brot নিরপেক্ষ-শব্দ (das Brot)। তাই ein হবে।"
+   }
+  ],
+  "title_bn": "অ্যাকুজাটিভ: einen / eine / ein আর দাম জিজ্ঞেস করা"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি সুপারমার্কেটে জিনিস খুঁজতে, দাম জিজ্ঞেস করতে আর ইউরোতে কিনতে পারবে।",
+ "phrases": [
+  {
+   "bn": "এটার দাম কত?",
+   "pron_bn": "ভি ফিল কস্টেট ডাস?",
+   "text": "Wie viel kostet das?"
+  },
+  {
+   "bn": "আমি একটা মাছ খুঁজছি।",
+   "pron_bn": "ইশ জুখে আইনেন ফিশ।",
+   "text": "Ich suche einen Fisch."
+  },
+  {
+   "bn": "আমি একটা পাউরুটি নিচ্ছি।",
+   "pron_bn": "ইশ নেমে আইন ব্রোট।",
+   "text": "Ich nehme ein Brot."
+  },
+  {
+   "bn": "আপনার কাছে কি চা আছে?",
+   "pron_bn": "হাবেন জি আউখ টে?",
+   "text": "Haben Sie auch Tee?"
+  },
+  {
+   "bn": "আমি একটা কলা চাই।",
+   "pron_bn": "ইশ ম্যোশ্টে আইনে বানানে।",
+   "text": "Ich möchte eine Banane."
+  },
+  {
+   "bn": "এটা কি সস্তা না দামি?",
+   "pron_bn": "ইস্ট ডাস বিলিশ ওডা টয়া?",
+   "text": "Ist das billig oder teuer?"
+  },
+  {
+   "bn": "এটা বেশি দামি।",
+   "pron_bn": "ডাস ইস্ট ৎসু টয়া।",
+   "text": "Das ist zu teuer."
+  },
+  {
+   "bn": "ক্যাশ কাউন্টার কোথায়?",
+   "pron_bn": "ভো ইস্ট ডি কাসে?",
+   "text": "Wo ist die Kasse?"
+  },
+  {
+   "bn": "আমি ইউরোতে দাম দিচ্ছি।",
+   "pron_bn": "ইশ ৎসালে ইন অয়রো।",
+   "text": "Ich zahle in Euro."
+  },
+  {
+   "bn": "আমাকে একটা আপেল দিন।",
+   "pron_bn": "গেবেন জি মিয়া আইনেন আপফেল।",
+   "text": "Geben Sie mir einen Apfel."
+  },
+  {
+   "bn": "আমার এক কিলো চাল লাগবে।",
+   "pron_bn": "ইশ ব্রাউখে আইন কিলো রাইস।",
+   "text": "Ich brauche ein Kilo Reis."
+  },
+  {
+   "bn": "ধন্যবাদ, এটাই সব।",
+   "pron_bn": "ডাংকে, ডাস ইস্ট আলেস।",
+   "text": "Danke, das ist alles."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "শুভ দিন! আমি একটা মাছ খুঁজছি।",
+   "pron_bn": "গুটেন টাক! ইশ জুখে আইনেন ফিশ।",
+   "speaker": "Rafi",
+   "text": "Guten Tag! Ich suche einen Fisch."
+  },
+  {
+   "bn": "শুভ দিন! মাছ এখানে আছে।",
+   "pron_bn": "গুটেন টাক! ডেয়া ফিশ ইস্ট হিয়া।",
+   "speaker": "Anna",
+   "text": "Guten Tag! Der Fisch ist hier."
+  },
+  {
+   "bn": "এক কিলো মাছের দাম কত?",
+   "pron_bn": "ভি ফিল কস্টেট আইন কিলো ফিশ?",
+   "speaker": "Rafi",
+   "text": "Wie viel kostet ein Kilo Fisch?"
+  },
+  {
+   "bn": "এক কিলোর দাম দশ ইউরো।",
+   "pron_bn": "আইন কিলো কস্টেট ৎসেন অয়রো।",
+   "speaker": "Anna",
+   "text": "Ein Kilo kostet zehn Euro."
+  },
+  {
+   "bn": "আমি একটা পাউরুটি আর একটা চা নিচ্ছি।",
+   "pron_bn": "ইশ নেমে আইন ব্রোট উন্ট আইনেন টে।",
+   "speaker": "Rafi",
+   "text": "Ich nehme ein Brot und einen Tee."
+  },
+  {
+   "bn": "আপনি কি একটা কলাও নেবেন?",
+   "pron_bn": "ম্যোশ্টেন জি আউখ আইনে বানানে?",
+   "speaker": "Anna",
+   "text": "Möchten Sie auch eine Banane?"
+  },
+  {
+   "bn": "হ্যাঁ, আমি একটা কলা নিচ্ছি।",
+   "pron_bn": "ইয়া, ইশ নেমে আইনে বানানে।",
+   "speaker": "Rafi",
+   "text": "Ja, ich nehme eine Banane."
+  },
+  {
+   "bn": "সব মিলিয়ে পাঁচ ইউরো।",
+   "pron_bn": "ডাস কস্টেট ফ্যুনফ অয়রো ৎসুজামেন।",
+   "speaker": "Anna",
+   "text": "Das kostet fünf Euro zusammen."
+  }
+ ],
+ "tip_bn": "জার্মান দোকানে অচেনা মানুষকে Sie বলো আর শুরুতে Guten Tag বলো। দামে কমা দেখলে ঘাবড়ে যেও না, যেমন ২,৫০ মানে দুই ইউরো পঞ্চাশ সেন্ট।",
+ "title": "Einkaufen im Supermarkt",
+ "words": [
+  {
+   "bn": "সুপারমার্কেট",
+   "example": "Ich kaufe im Supermarkt ein.",
+   "example_bn": "আমি সুপারমার্কেটে বাজার করি।",
+   "pron_bn": "ডেয়া জুপামার্ক্ট",
+   "text": "der Supermarkt"
+  },
+  {
+   "bn": "বাজারের ঝুড়ি",
+   "example": "Ich nehme einen Korb.",
+   "example_bn": "আমি একটা ঝুড়ি নিচ্ছি।",
+   "pron_bn": "ডেয়া কর্প",
+   "text": "der Korb"
+  },
+  {
+   "bn": "ক্যাশ কাউন্টার",
+   "example": "Wo ist die Kasse?",
+   "example_bn": "ক্যাশ কাউন্টার কোথায়?",
+   "pron_bn": "ডি কাসে",
+   "text": "die Kasse"
+  },
+  {
+   "bn": "দাম",
+   "example": "Der Preis ist gut.",
+   "example_bn": "দামটা ভালো।",
+   "pron_bn": "ডেয়া প্রাইস",
+   "text": "der Preis"
+  },
+  {
+   "bn": "ইউরো",
+   "example": "Das kostet zwei Euro.",
+   "example_bn": "এটার দাম দুই ইউরো।",
+   "pron_bn": "ডেয়া অয়রো",
+   "text": "der Euro"
+  },
+  {
+   "bn": "কিলো",
+   "example": "Ich kaufe ein Kilo Reis.",
+   "example_bn": "আমি এক কিলো চাল কিনছি।",
+   "pron_bn": "ডাস কিলো",
+   "text": "das Kilo"
+  },
+  {
+   "bn": "সস্তা",
+   "example": "Der Apfel ist billig.",
+   "example_bn": "আপেলটা সস্তা।",
+   "pron_bn": "বিলিশ",
+   "text": "billig"
+  },
+  {
+   "bn": "দামি",
+   "example": "Der Fisch ist teuer.",
+   "example_bn": "মাছটা দামি।",
+   "pron_bn": "টয়া",
+   "text": "teuer"
+  },
+  {
+   "bn": "কলা",
+   "example": "Ich esse eine Banane.",
+   "example_bn": "আমি একটা কলা খাই।",
+   "pron_bn": "ডি বানানে",
+   "text": "die Banane"
+  },
+  {
+   "bn": "আপেল",
+   "example": "Ich kaufe einen Apfel.",
+   "example_bn": "আমি একটা আপেল কিনছি।",
+   "pron_bn": "ডেয়া আপফেল",
+   "text": "der Apfel"
+  }
+ ]
+}

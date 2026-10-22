@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি অবসরে বই পড়তে ভালোবাসি।",
+    "pron_bn": "ইশ লেজে গের্ন ব্যুশা।",
+    "text": "Ich lese gern Bücher."
+   },
+   {
+    "bn": "আমি ভালো রান্না করতে পারি না।",
+    "pron_bn": "ইশ কান নিশ্ট গুট কখেন।",
+    "text": "Ich kann nicht gut kochen."
+   },
+   {
+    "bn": "তুমি কি সাঁতার কাটতে পারো?",
+    "pron_bn": "কান্স্ট ডু শ্ভিমেন?",
+    "text": "Kannst du schwimmen?"
+   },
+   {
+    "bn": "নাদিয়া ফুটবল খেলতে ভালোবাসে না।",
+    "pron_bn": "নাদিয়া শ্পিল্ট নিশ্ট গের্ন ফুসবাল।",
+    "text": "Nadia spielt nicht gern Fußball."
+   }
+  ],
+  "points_bn": [
+   "পছন্দ বোঝাতে verb-এর পরে <b>gern</b> বসে। যেমন: Ich spiele <b>gern</b> Fußball মানে আমি ভালোবেসে ফুটবল খেলি।",
+   "অপছন্দ বোঝাতে <b>nicht gern</b> বসে। যেমন: Ich koche <b>nicht gern</b> মানে আমি রান্না করতে ভালোবাসি না।",
+   "<b>können</b> মানে পারা। ich kann, du kannst, er / sie kann হয়। যেমন: Ich <b>kann</b> schwimmen।",
+   "<b>können</b> থাকলে মূল verb সবশেষে যায়। যেমন: Kannst du gut <b>spielen</b>?"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Ich gern spiele Fußball.",
+     "Ich spiele gern Fußball.",
+     "Ich spiele Fußball gern ich.",
+     "Gern ich Fußball spiele."
+    ],
+    "q": "কোন বাক্যটি সঠিক?",
+    "why_bn": "gern সবসময় verb-এর পরে বসে। তাই সঠিক রূপ হলো Ich spiele gern Fußball।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "Ich kann gut schwimmen.",
+     "Kannst du schwimmen?",
+     "Ich schwimme gern.",
+     "Ich kann nicht Fahrrad fahren."
+    ],
+    "q": "কোন বাক্যে অপছন্দ বা না পারা বোঝাচ্ছে?",
+    "why_bn": "kann nicht মানে পারি না। তাই Ich kann nicht Fahrrad fahren মানে আমি সাইকেল চালাতে পারি না।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Was machst du gern?",
+     "Was du gern machst?",
+     "Machst was du gern?",
+     "Du was gern machst?"
+    ],
+    "q": "ছুটির দিনে শখ জানতে কী বলবে?",
+    "why_bn": "W-প্রশ্নে প্রথমে Was, তারপর verb আসে। তাই সঠিক প্রশ্ন হলো Was machst du gern?"
+   }
+  ],
+  "title_bn": "gern / nicht gern এবং können"
+ },
+ "intro_bn": "এই অধ্যায় শেষ করে তুমি অবসর সময়ে কী করতে ভালোবাসো তা বলতে পারবে। তুমি পারা বা না পারা নিয়েও সহজে কথা বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "তুমি কী করতে ভালোবাসো?",
+   "pron_bn": "ভাস মাখ্স্ট ডু গের্ন?",
+   "text": "Was machst du gern?"
+  },
+  {
+   "bn": "আমি ফুটবল খেলতে ভালোবাসি।",
+   "pron_bn": "ইশ শ্পিলে গের্ন ফুসবাল।",
+   "text": "Ich spiele gern Fußball."
+  },
+  {
+   "bn": "আমি বই পড়তে ভালোবাসি।",
+   "pron_bn": "ইশ লেজে গের্ন ব্যুশা।",
+   "text": "Ich lese gern Bücher."
+  },
+  {
+   "bn": "আমি গান শুনতে ভালোবাসি।",
+   "pron_bn": "ইশ হ্যোরে গের্ন মুজিক।",
+   "text": "Ich höre gern Musik."
+  },
+  {
+   "bn": "আমি রান্না করতে ভালোবাসি না।",
+   "pron_bn": "ইশ কখে নিশ্ট গের্ন।",
+   "text": "Ich koche nicht gern."
+  },
+  {
+   "bn": "তুমি কি সাঁতার কাটতে পারো?",
+   "pron_bn": "কান্স্ট ডু শ্ভিমেন?",
+   "text": "Kannst du schwimmen?"
+  },
+  {
+   "bn": "হ্যাঁ, আমি সাঁতার কাটতে পারি।",
+   "pron_bn": "ইয়া, ইশ কান শ্ভিমেন।",
+   "text": "Ja, ich kann schwimmen."
+  },
+  {
+   "bn": "না, আমি সাইকেল চালাতে পারি না।",
+   "pron_bn": "নাইন, ইশ কান নিশ্ট ফারাট ফারেন।",
+   "text": "Nein, ich kann nicht Fahrrad fahren."
+  },
+  {
+   "bn": "তোমার শখ কী?",
+   "pron_bn": "ভাস ইস্ট ডাইন হবি?",
+   "text": "Was ist dein Hobby?"
+  },
+  {
+   "bn": "আমার শখ ছবি তোলা।",
+   "pron_bn": "মাইন হবি ইস্ট ফোটোগ্রাফিরেন।",
+   "text": "Mein Hobby ist Fotografieren."
+  },
+  {
+   "bn": "তুমি কি ফুটবল খেলতে ভালোবাসো?",
+   "pron_bn": "শ্পিল্স্ট ডু গের্ন ফুসবাল?",
+   "text": "Spielst du gern Fußball?"
+  },
+  {
+   "bn": "রবিবারে আমি হাঁটতে যাই।",
+   "pron_bn": "আম জোনটাক গেয়ে ইশ শ্পাৎসিরেন।",
+   "text": "Am Sonntag gehe ich spazieren."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হ্যালো লুকাস! তুমি কী করতে ভালোবাসো?",
+   "pron_bn": "হালো লুকাস! ভাস মাখ্স্ট ডু গের্ন?",
+   "speaker": "Rafi",
+   "text": "Hallo Lukas! Was machst du gern?"
+  },
+  {
+   "bn": "আমি ফুটবল খেলতে ভালোবাসি।",
+   "pron_bn": "ইশ শ্পিলে গের্ন ফুসবাল।",
+   "speaker": "Lukas",
+   "text": "Ich spiele gern Fußball."
+  },
+  {
+   "bn": "বাহ, সুন্দর! তুমি কি ভালো খেলতে পারো?",
+   "pron_bn": "শ্যোন! কান্স্ট ডু গুট শ্পিলেন?",
+   "speaker": "Rafi",
+   "text": "Schön! Kannst du gut spielen?"
+  },
+  {
+   "bn": "হ্যাঁ, আমি ভালো খেলতে পারি।",
+   "pron_bn": "ইয়া, ইশ কান গুট শ্পিলেন।",
+   "speaker": "Lukas",
+   "text": "Ja, ich kann gut spielen."
+  },
+  {
+   "bn": "আমি বই পড়তে ভালোবাসি।",
+   "pron_bn": "ইশ লেজে গের্ন ব্যুশা।",
+   "speaker": "Rafi",
+   "text": "Ich lese gern Bücher."
+  },
+  {
+   "bn": "তুমি কী পড়তে ভালোবাসো?",
+   "pron_bn": "ভাস লিস্ট ডু গের্ন?",
+   "speaker": "Lukas",
+   "text": "Was liest du gern?"
+  },
+  {
+   "bn": "আমি গল্প পড়তে ভালোবাসি। আর তুমি কী করতে ভালোবাসো না?",
+   "pron_bn": "ইশ লেজে গের্ন গেশিশটেন। উন্ট ভাস মাখস্ট ডু নিশ্ট গের্ন?",
+   "speaker": "Rafi",
+   "text": "Ich lese gern Geschichten. Und was machst du nicht gern?"
+  },
+  {
+   "bn": "আমি রান্না করতে ভালোবাসি না।",
+   "pron_bn": "ইশ কখে নিশ্ট গের্ন।",
+   "speaker": "Lukas",
+   "text": "Ich koche nicht gern."
+  }
+ ],
+ "tip_bn": "জার্মানিতে নতুন পরিচয়ে প্রায়ই শখ নিয়ে প্রশ্ন করা হয়। তুমিও প্রথমে Was machst du gern? বলো, তারপর নিজের উত্তর দাও। এতে কথা সহজে এগিয়ে যায়।",
+ "title": "Freizeit und Hobbys",
+ "words": [
+  {
+   "bn": "অবসর সময়",
+   "example": "Ich habe am Sonntag Freizeit.",
+   "example_bn": "রবিবারে আমার অবসর সময় আছে।",
+   "pron_bn": "ডি ফ্রাইৎসাইট",
+   "text": "die Freizeit"
+  },
+  {
+   "bn": "শখ",
+   "example": "Mein Hobby ist Musik.",
+   "example_bn": "আমার শখ হলো গান।",
+   "pron_bn": "ডাস হবি",
+   "text": "das Hobby"
+  },
+  {
+   "bn": "পড়া",
+   "example": "Ich lese gern Bücher.",
+   "example_bn": "আমি বই পড়তে ভালোবাসি।",
+   "pron_bn": "লেজেন",
+   "text": "lesen"
+  },
+  {
+   "bn": "সাঁতার কাটা",
+   "example": "Kannst du schwimmen?",
+   "example_bn": "তুমি কি সাঁতার কাটতে পারো?",
+   "pron_bn": "শ্ভিমেন",
+   "text": "schwimmen"
+  },
+  {
+   "bn": "রান্না করা",
+   "example": "Ich koche gern Reis.",
+   "example_bn": "আমি ভাত রান্না করতে ভালোবাসি।",
+   "pron_bn": "কখেন",
+   "text": "kochen"
+  },
+  {
+   "bn": "ফুটবল খেলা",
+   "example": "Ich spiele gern Fußball.",
+   "example_bn": "আমি ফুটবল খেলতে ভালোবাসি।",
+   "pron_bn": "ফুসবাল শ্পিলেন",
+   "text": "Fußball spielen"
+  },
+  {
+   "bn": "গান শোনা",
+   "example": "Ich höre gern Musik.",
+   "example_bn": "আমি গান শুনতে ভালোবাসি।",
+   "pron_bn": "মুজিক হ্যোরেন",
+   "text": "Musik hören"
+  },
+  {
+   "bn": "হাঁটতে যাওয়া",
+   "example": "Ich gehe gern spazieren.",
+   "example_bn": "আমি হাঁটতে যেতে ভালোবাসি।",
+   "pron_bn": "শ্পাৎসিরেন গেয়েন",
+   "text": "spazieren gehen"
+  },
+  {
+   "bn": "ছবি তোলা",
+   "example": "Ich fotografiere gern Blumen.",
+   "example_bn": "আমি ফুলের ছবি তুলতে ভালোবাসি।",
+   "pron_bn": "ফোটোগ্রাফিরেন",
+   "text": "fotografieren"
+  },
+  {
+   "bn": "সাইকেল চালানো",
+   "example": "Ich kann Fahrrad fahren.",
+   "example_bn": "আমি সাইকেল চালাতে পারি।",
+   "pron_bn": "ফারাট ফারেন",
+   "text": "Fahrrad fahren"
+  }
+ ]
+}

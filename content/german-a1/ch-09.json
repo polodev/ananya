@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি তাড়াতাড়ি ঘুম থেকে উঠি।",
+    "pron_bn": "ইশ শ্টেয়ে ফ্র্যু আউফ।",
+    "text": "Ich stehe früh auf."
+   },
+   {
+    "bn": "আমরা আজ বাজার করি।",
+    "pron_bn": "ভিয়া কাউফেন হয়টে আইন।",
+    "text": "Wir kaufen heute ein."
+   },
+   {
+    "bn": "এখন আটটা বাজে।",
+    "pron_bn": "এস ইস্ট আখ্ট উয়া।",
+    "text": "Es ist acht Uhr."
+   },
+   {
+    "bn": "শুক্রবারে তুমি কী করো?",
+    "pron_bn": "ভাস মাখস্ট ডু আম ফ্রাইটাক?",
+    "text": "Was machst du am Freitag?"
+   }
+  ],
+  "points_bn": [
+   "<b>aufstehen, einkaufen</b> এর মতো ক্রিয়ার ছোট অংশটা বাক্যের একদম শেষে বসে, যেমন auf, ein।",
+   "“কয়টায়” বলতে <b>um</b> ব্যবহার করো: um sechs Uhr = ছয়টায়। কিন্তু “এখন কয়টা বাজে” বলতে um লাগে না: Es ist sechs Uhr।",
+   "বারের নামের আগে <b>am</b> বসে, যেমন am Montag মানে সোমবারে।",
+   "সময় জানতে <b>Wann</b> দিয়ে প্রশ্ন করো, Wann মানে কখন।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "am ... auf",
+     "um ... auf",
+     "um ... ein",
+     "am ... ein"
+    ],
+    "q": "Ich stehe ___ sechs Uhr ___.",
+    "why_bn": "ঘড়ির সময়ের আগে um বসে আর aufstehen ক্রিয়ার auf অংশটা শেষে বসে। তাই সঠিক উত্তর um ... auf।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "Um",
+     "Im",
+     "Am",
+     "An"
+    ],
+    "q": "___ Montag kaufe ich ein.",
+    "why_bn": "বারের নামের আগে am বসে। তাই সোমবারে বোঝাতে Am Montag হবে।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "stehe",
+     "steht",
+     "stehen",
+     "stehst"
+    ],
+    "q": "Wann ___ du auf?",
+    "why_bn": "du এর সঙ্গে ক্রিয়ার শেষে st যোগ হয়। তাই du stehst auf হবে, মানে তুমি ওঠো।"
+   }
+  ],
+  "title_bn": "আলাদা ক্রিয়া আর um দিয়ে সময় বলা"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি ঘড়ির সময় বলতে পারবে, সপ্তাহের দিনগুলোর নাম বলতে পারবে আর তোমার সারাদিনের রুটিন সহজ জার্মান ভাষায় বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "এখন কটা বাজে, দয়া করে?",
+   "pron_bn": "ভি শ্পেট ইস্ট এস বিটে?",
+   "text": "Wie spät ist es bitte?"
+  },
+  {
+   "bn": "এখন নয়টা বাজে।",
+   "pron_bn": "এস ইস্ট নয়ন উয়া।",
+   "text": "Es ist neun Uhr."
+  },
+  {
+   "bn": "তুমি কখন ঘুম থেকে ওঠো?",
+   "pron_bn": "ভান শ্টেস্ট ডু আউফ?",
+   "text": "Wann stehst du auf?"
+  },
+  {
+   "bn": "আমি ছয়টায় ঘুম থেকে উঠি।",
+   "pron_bn": "ইশ শ্টেয়ে উম জেক্স উয়া আউফ।",
+   "text": "Ich stehe um sechs Uhr auf."
+  },
+  {
+   "bn": "রবিবারে তুমি কী করো?",
+   "pron_bn": "ভাস মাখস্ট ডু আম জোনটাক?",
+   "text": "Was machst du am Sonntag?"
+  },
+  {
+   "bn": "আমি সোমবারে বাজার করি।",
+   "pron_bn": "ইশ কাউফে আম মোনটাক আইন।",
+   "text": "Ich kaufe am Montag ein."
+  },
+  {
+   "bn": "তুমি কয়টায় সকালের নাস্তা খাও?",
+   "pron_bn": "উম ভি ফিল উয়া ফ্র্যুশ্ট্যুকস্ট ডু?",
+   "text": "Um wie viel Uhr frühstückst du?"
+  },
+  {
+   "bn": "আমি সাতটায় নাস্তা খাই।",
+   "pron_bn": "ইশ ফ্র্যুশ্ট্যুকে উম জিবেন উয়া।",
+   "text": "Ich frühstücke um sieben Uhr."
+  },
+  {
+   "bn": "আপনি কখন কাজে যান?",
+   "pron_bn": "ভান গেয়েন জি ৎসুয়া আরবাইট?",
+   "text": "Wann gehen Sie zur Arbeit?"
+  },
+  {
+   "bn": "সন্ধ্যায় আমি চা খাই।",
+   "pron_bn": "আম আবেন্ট ট্রিংকে ইশ টে।",
+   "text": "Am Abend trinke ich Tee."
+  },
+  {
+   "bn": "আমি পাঁচটায় সবজি কিনি।",
+   "pron_bn": "ইশ কাউফে উম ফ্যুনফ উয়া গেম্যুজে আইন।",
+   "text": "Ich kaufe um fünf Uhr Gemüse ein."
+  },
+  {
+   "bn": "আপনার দিনটা সুন্দর কাটুক, ফ্রাউ ভেবার!",
+   "pron_bn": "শ্যোনেন টাক নখ, ফ্রাউ ভেবা!",
+   "text": "Schönen Tag noch, Frau Weber!"
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হ্যালো আনা! তুমি কখন ঘুম থেকে ওঠো?",
+   "pron_bn": "হালো আনা! ভান শ্টেস্ট ডু আউফ?",
+   "speaker": "Rafi",
+   "text": "Hallo Anna! Wann stehst du auf?"
+  },
+  {
+   "bn": "আমি ছয়টায় ঘুম থেকে উঠি।",
+   "pron_bn": "ইশ শ্টেয়ে উম জেক্স উয়া আউফ।",
+   "speaker": "Anna",
+   "text": "Ich stehe um sechs Uhr auf."
+  },
+  {
+   "bn": "সোমবারে তুমি কী করো?",
+   "pron_bn": "ভাস মাখস্ট ডু আম মোনটাক?",
+   "speaker": "Rafi",
+   "text": "Was machst du am Montag?"
+  },
+  {
+   "bn": "সোমবারে আমি দশটায় বাজার করি।",
+   "pron_bn": "আম মোনটাক কাউফে ইশ উম ৎসেন উয়া আইন।",
+   "speaker": "Anna",
+   "text": "Am Montag kaufe ich um zehn Uhr ein."
+  },
+  {
+   "bn": "সন্ধ্যায় তুমি কখন চা খাও?",
+   "pron_bn": "ভান ট্রিংক্স্ট ডু আম আবেন্ট টে?",
+   "speaker": "Rafi",
+   "text": "Wann trinkst du am Abend Tee?"
+  },
+  {
+   "bn": "আমি আটটায় চা খাই।",
+   "pron_bn": "ইশ ট্রিংকে উম আখ্ট উয়া টে।",
+   "speaker": "Anna",
+   "text": "Ich trinke um acht Uhr Tee."
+  },
+  {
+   "bn": "শুক্রবারে তুমি কি মাছ কিনো?",
+   "pron_bn": "কাউফস্ট ডু আম ফ্রাইটাক ফিশ আইন?",
+   "speaker": "Rafi",
+   "text": "Kaufst du am Freitag Fisch ein?"
+  },
+  {
+   "bn": "হ্যাঁ, শুক্রবারে আমি মাছ কিনি।",
+   "pron_bn": "ইয়া, ইশ কাউফে আম ফ্রাইটাক ফিশ আইন।",
+   "speaker": "Anna",
+   "text": "Ja, ich kaufe am Freitag Fisch ein."
+  }
+ ],
+ "tip_bn": "জার্মানিতে সময় মেনে চলা খুব গুরুত্বপূর্ণ, তাই সবসময় um দিয়ে সঠিক সময় বলার অভ্যাস করো। রবিবারে বেশিরভাগ দোকান বন্ধ থাকে, তাই শনিবারের মধ্যেই সপ্তাহের বাজার সেরে রাখতে হয়।",
+ "title": "Mein Tag",
+ "words": [
+  {
+   "bn": "ঘুম থেকে ওঠা",
+   "example": "Ich stehe um sechs Uhr auf.",
+   "example_bn": "আমি ছয়টায় ঘুম থেকে উঠি।",
+   "pron_bn": "আউফশ্টেয়েন",
+   "text": "aufstehen"
+  },
+  {
+   "bn": "বাজার করা, কেনাকাটা করা",
+   "example": "Wir kaufen am Montag ein.",
+   "example_bn": "আমরা সোমবারে বাজার করি।",
+   "pron_bn": "আইনকাউফেন",
+   "text": "einkaufen"
+  },
+  {
+   "bn": "ঘড়ি; সময় বলতে …টা (drei Uhr = তিনটা)",
+   "example": "Es ist drei Uhr.",
+   "example_bn": "এখন তিনটা বাজে।",
+   "pron_bn": "ডি উয়া",
+   "text": "die Uhr"
+  },
+  {
+   "bn": "সকাল",
+   "example": "Am Morgen trinke ich Tee.",
+   "example_bn": "সকালে আমি চা খাই।",
+   "pron_bn": "ডেয়া মর্গেন",
+   "text": "der Morgen"
+  },
+  {
+   "bn": "সন্ধ্যা",
+   "example": "Am Abend trinke ich Wasser.",
+   "example_bn": "সন্ধ্যায় আমি পানি খাই।",
+   "pron_bn": "ডেয়া আবেন্ট",
+   "text": "der Abend"
+  },
+  {
+   "bn": "সোমবার",
+   "example": "Am Montag arbeite ich viel.",
+   "example_bn": "সোমবারে আমি অনেক কাজ করি।",
+   "pron_bn": "ডেয়া মোনটাক",
+   "text": "der Montag"
+  },
+  {
+   "bn": "শুক্রবার",
+   "example": "Am Freitag kaufe ich Fisch ein.",
+   "example_bn": "শুক্রবারে আমি মাছ কিনি।",
+   "pron_bn": "ডেয়া ফ্রাইটাক",
+   "text": "der Freitag"
+  },
+  {
+   "bn": "সকালের নাস্তা খাওয়া",
+   "example": "Ich frühstücke um sieben Uhr.",
+   "example_bn": "আমি সাতটায় নাস্তা খাই।",
+   "pron_bn": "ফ্র্যুশ্ট্যুকেন",
+   "text": "frühstücken"
+  },
+  {
+   "bn": "দুপুর",
+   "example": "Am Mittag esse ich Reis.",
+   "example_bn": "দুপুরে আমি ভাত খাই।",
+   "pron_bn": "ডেয়া মিটাক",
+   "text": "der Mittag"
+  },
+  {
+   "bn": "সপ্তাহ",
+   "example": "Die Woche hat sieben Tage.",
+   "example_bn": "সপ্তাহে সাত দিন থাকে।",
+   "pron_bn": "ডি ভখে",
+   "text": "die Woche"
+  }
+ ]
+}

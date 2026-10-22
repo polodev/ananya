@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি বন্ধুদের সাথে ইংরেজি চর্চা করতে ভালোবাসি।",
+    "pron_bn": "",
+    "text": "I enjoy practising English with my friends every day."
+   },
+   {
+    "bn": "নাদিয়া সিদ্ধান্ত নিয়েছে প্রতিদিন সন্ধ্যায় এক ঘণ্টা পড়বে।",
+    "pron_bn": "",
+    "text": "Nadia decided to study one hour every evening."
+   },
+   {
+    "bn": "তানভির রাতের খাবারের আগেই নোট পড়ে শেষ করেছে।",
+    "pron_bn": "",
+    "text": "Tanvir finished revising his notes before dinner."
+   },
+   {
+    "bn": "আমরা পড়ার সময় মোবাইল ব্যবহার না করার প্রতিশ্রুতি দিয়েছি।",
+    "pron_bn": "",
+    "text": "We promised to avoid using mobile phones during study time."
+   }
+  ],
+  "points_bn": [
+   "<b>enjoy, mind, finish, suggest, keep</b> এর পরে verb-এর সাথে -ing বসে, যেমন enjoy doing।",
+   "<b>decide, want, hope, promise, manage</b> এর পরে to + verb বসে, যেমন decide to do।",
+   "Preposition-এর পরে সবসময় verb-এর <b>-ing form</b> বসে, যেমন by studying, for revising।",
+   "কোন verb-এর পরে কোনটা বসবে সেটা মুখস্থ রাখো, পুরো বাক্য মুখস্থ করলে সহজ হবে।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "to listen",
+     "listening",
+     "listen",
+     "listened"
+    ],
+    "q": "She enjoys ___ English songs in the evening.",
+    "why_bn": "enjoy-এর পরে সবসময় verb-এর -ing form বসে, তাই listening সঠিক।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "revising",
+     "revise",
+     "revised",
+     "to revise"
+    ],
+    "q": "I have promised ___ my vocabulary every day.",
+    "why_bn": "promise-এর পরে to + verb বসে, তাই to revise সঠিক।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "helping",
+     "to help",
+     "help",
+     "helped"
+    ],
+    "q": "Do you mind ___ me with my study plan?",
+    "why_bn": "mind-এর পরে verb-এর -ing form বসে, তাই helping সঠিক।"
+   }
+  ],
+  "title_bn": "Gerund বনাম Infinitive"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি ভাষা শেখা, পরীক্ষার প্রস্তুতি আর পড়ার অভ্যাস নিয়ে ইংরেজিতে সহজে কথা বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমি সন্ধ্যায় ইংরেজি পড়তে ভালোবাসি।",
+   "pron_bn": "",
+   "text": "I enjoy studying English in the evening."
+  },
+  {
+   "bn": "আমি পরীক্ষার জন্য প্রতিদিন পড়ার সিদ্ধান্ত নিয়েছি।",
+   "pron_bn": "",
+   "text": "I have decided to study every day for the exam."
+  },
+  {
+   "bn": "আমার পড়ার পরিকল্পনা বানাতে সাহায্য করবে?",
+   "pron_bn": "",
+   "text": "Can you help me make a study plan?"
+  },
+  {
+   "bn": "চলো একসাথে শব্দভান্ডার চর্চা করি।",
+   "pron_bn": "",
+   "text": "Let's practise vocabulary together after dinner."
+  },
+  {
+   "bn": "আমি গত সপ্তাহে আমার নোট পড়ে শেষ করেছি।",
+   "pron_bn": "",
+   "text": "I finished revising my notes last week."
+  },
+  {
+   "bn": "পড়ার সময় মোবাইল ব্যবহার এড়িয়ে চলার চেষ্টা করো।",
+   "pron_bn": "",
+   "text": "Try to avoid using your mobile while studying."
+  },
+  {
+   "bn": "আমি প্রতিদিন বিশ মিনিট শুনে চর্চা করতে চাই।",
+   "pron_bn": "",
+   "text": "I want to practise listening for twenty minutes daily."
+  },
+  {
+   "bn": "তুমি কি আমাকে ইংরেজি বলতে সাহায্য করতে আপত্তি করবে?",
+   "pron_bn": "",
+   "text": "Do you mind helping me with spoken English?"
+  },
+  {
+   "bn": "আমি ভালো ফল করার আশা করছি।",
+   "pron_bn": "",
+   "text": "I hope to do well in the exam."
+  },
+  {
+   "bn": "তুমি প্রতিদিন কতক্ষণ পড়ো?",
+   "pron_bn": "",
+   "text": "How long do you study every day?"
+  },
+  {
+   "bn": "আমি ছোট ছোট অংশে পড়ে ভালো শিখি।",
+   "pron_bn": "",
+   "text": "I learn better by studying in small parts."
+  },
+  {
+   "bn": "চলো আগামী শুক্রবার একটা মডেল টেস্ট দিই।",
+   "pron_bn": "",
+   "text": "Let's take a mock test next Friday."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আমি সিদ্ধান্ত নিয়েছি আগামী মাসে ঢাকায় একটা নতুন ইংরেজি কোর্সে ভর্তি হবো।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I have decided to join a new English course in Dhaka next month."
+  },
+  {
+   "bn": "খুব ভালো! অন্য ছাত্রদের সাথে নতুন ভাষা শিখতে আমার খুব ভালো লাগে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "That's great! I really enjoy learning new languages with other students."
+  },
+  {
+   "bn": "আমি কথা বলা ভালো করতে চাই, কিন্তু প্রতিদিন সন্ধ্যায় চর্চা করতে দেরি করে ফেলি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I want to improve my speaking, but I keep putting off practising every evening."
+  },
+  {
+   "bn": "বুঝতে পারছি। আমি প্রতিদিন একটু একটু পড়ে গত পরীক্ষায় পাশ করতে পেরেছিলাম।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "I understand. I managed to pass my last exam by studying a little daily."
+  },
+  {
+   "bn": "সন্ধ্যার জন্য একটা সহজ পড়ার পরিকল্পনা বানাতে আমাকে সাহায্য করতে আপত্তি করবে?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Do you mind helping me make a simple study plan for the evening?"
+  },
+  {
+   "bn": "একদম না। আমি বলবো প্রতিদিন বিশ মিনিট শুনে চর্চা দিয়ে শুরু করো।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Of course not. I suggest starting with twenty minutes of listening practice daily."
+  },
+  {
+   "bn": "রাতে পড়ার সময় ফোন ব্যবহার না করার প্রতিশ্রুতি দিয়েছি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I have promised to avoid using my phone while I am studying at night."
+  },
+  {
+   "bn": "ভালো বুদ্ধি। আমি তাড়াতাড়ি নোট পড়া শেষ করেছি, তারপর শব্দগুলো ঝালিয়ে নিয়েছি।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Good idea. I finished reading my notes early and then I revised vocabulary."
+  },
+  {
+   "bn": "আশা করি পরীক্ষায় ভালো করবো আর একসাথে মজা নিয়ে ইংরেজি শিখতে থাকবো।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I hope to do well in the exam and keep enjoying learning English together."
+  }
+ ],
+ "tip_bn": "প্রতিদিন একই সময়ে বিশ থেকে ত্রিশ মিনিট পড়ো, তাহলে পড়া অভ্যাসে পরিণত হবে। পড়ার সময় খাতায় ছোট নোট লেখো আর শুক্রবারে সেটা আবার দেখো।",
+ "title": "Studying and Learning",
+ "words": [
+  {
+   "bn": "পরীক্ষা",
+   "example": "I want to do well in my English exam.",
+   "example_bn": "আমি ইংরেজি পরীক্ষায় ভালো করতে চাই।",
+   "pron_bn": "এক্সাম",
+   "text": "exam"
+  },
+  {
+   "bn": "শব্দভান্ডার",
+   "example": "Reading every day builds your vocabulary.",
+   "example_bn": "প্রতিদিন পড়লে শব্দভান্ডার বাড়ে।",
+   "pron_bn": "ভোক্যাবুলারি",
+   "text": "vocabulary"
+  },
+  {
+   "bn": "ঝালিয়ে নেওয়া, আবার পড়া",
+   "example": "She finished revising her notes before dinner.",
+   "example_bn": "সে রাতের খাবারের আগেই নোট ঝালিয়ে নেওয়া শেষ করেছে।",
+   "pron_bn": "রিভাইজ",
+   "text": "revise"
+  },
+  {
+   "bn": "পড়ার পরিকল্পনা",
+   "example": "Tanvir made a simple study plan for the evening.",
+   "example_bn": "তানভির সন্ধ্যার জন্য একটা সহজ পড়ার পরিকল্পনা বানিয়েছে।",
+   "pron_bn": "স্টাডি প্ল্যান",
+   "text": "study plan"
+  },
+  {
+   "bn": "উন্নতি",
+   "example": "My speaking is showing good progress now.",
+   "example_bn": "আমার কথা বলায় এখন ভালো উন্নতি দেখা যাচ্ছে।",
+   "pron_bn": "প্রোগ্রেস",
+   "text": "progress"
+  },
+  {
+   "bn": "মনোযোগ দেওয়া",
+   "example": "I try to concentrate when I study at night.",
+   "example_bn": "রাতে পড়ার সময় আমি মনোযোগ দেওয়ার চেষ্টা করি।",
+   "pron_bn": "কনসেনট্রেট",
+   "text": "concentrate"
+  },
+  {
+   "bn": "চর্চা করা",
+   "example": "Nadia enjoys practising English with her friends.",
+   "example_bn": "বন্ধুদের সাথে ইংরেজি চর্চা করতে নাদিয়ার ভালো লাগে।",
+   "pron_bn": "প্র্যাকটিস",
+   "text": "practise"
+  },
+  {
+   "bn": "মুখস্থ করা",
+   "example": "I memorized ten new words before the mock test.",
+   "example_bn": "মডেল টেস্টের আগে আমি দশটা নতুন শব্দ মুখস্থ করেছি।",
+   "pron_bn": "মেমোরাইজ",
+   "text": "memorize"
+  },
+  {
+   "bn": "দক্ষতা",
+   "example": "Reading is an important skill for the exam.",
+   "example_bn": "পরীক্ষার জন্য পড়া একটা জরুরি দক্ষতা।",
+   "pron_bn": "স্কিল",
+   "text": "skill"
+  },
+  {
+   "bn": "মডেল টেস্ট",
+   "example": "We took a mock test at our college in Chittagong.",
+   "example_bn": "আমরা চট্টগ্রামে আমাদের কলেজে একটা মডেল টেস্ট দিয়েছিলাম।",
+   "pron_bn": "মক টেস্ট",
+   "text": "mock test"
+  }
+ ]
+}

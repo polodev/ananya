@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "বাক্সটা ভেজা, তাই বৃষ্টির পানিতে ভেতরে নষ্ট হয়েছে বলেই মনে হচ্ছে।",
+    "pron_bn": "",
+    "text": "The box is wet, so it must be damaged by rain water."
+   },
+   {
+    "bn": "রাফি উত্তর দিচ্ছে না, তাই সে এখন কাজে ব্যস্ত থাকতে পারে।",
+    "pron_bn": "",
+    "text": "Rafi is not answering, so he might be busy at work now."
+   },
+   {
+    "bn": "দোকানটা বন্ধ আছে, তাই আগামীকাল সকালের আগে খোলা থাকা সম্ভব নয়।",
+    "pron_bn": "",
+    "text": "The shop is closed, so it can't be open before tomorrow morning."
+   },
+   {
+    "bn": "এই বিলটা ভুল বলেই মনে হচ্ছে, কারণ আমি মাত্র পাঁচশ টাকা দিয়েছি।",
+    "pron_bn": "",
+    "text": "This bill must be wrong because I paid only five hundred taka."
+   }
+  ],
+  "points_bn": [
+   "<b>must</b> মানে প্রায় নিশ্চিত অনুমান — প্রমাণ দেখে মনে হচ্ছে এটাই সত্য।",
+   "<b>might</b> মানে হয়তো — নিশ্চিত না, এটা সম্ভব হতে পারে।",
+   "<b>can't</b> মানে অসম্ভব — প্রমাণ দেখে মনে হচ্ছে এটা সত্য নয়।",
+   "এই তিনটির পরে সবসময় <b>be</b> বা verb-এর সাধারণ রূপ বসে।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "might",
+     "must",
+     "can't",
+     "will"
+    ],
+    "q": "The box is completely wet. It ___ be damaged inside.",
+    "why_bn": "বাক্স সম্পূর্ণ ভেজা — এটা শক্ত প্রমাণ, তাই প্রায় নিশ্চিত অনুমানে must বসবে।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "must",
+     "can't",
+     "might",
+     "enjoy"
+    ],
+    "q": "Nadia is not in Dhaka or Sylhet. She ___ be in Chittagong, but I am not sure.",
+    "why_bn": "বক্তা নিশ্চিত নয়, শুধু সম্ভাবনার কথা বলছে, তাই might বসবে।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "must",
+     "might",
+     "will",
+     "can't"
+    ],
+    "q": "The shop is closed and dark. It ___ be open now.",
+    "why_bn": "দোকান বন্ধ ও অন্ধকার — খোলা থাকা অসম্ভব, তাই can't বসবে।"
+   }
+  ],
+  "title_bn": "অনুমান বোঝাতে must, might, can't"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি নষ্ট পণ্য বা দেরিতে আসা ডেলিভারি নিয়ে ভদ্রভাবে অভিযোগ করতে পারবে, আর must, might, can't দিয়ে অনুমান করে কথা বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমার অর্ডারটা নষ্ট এসেছে, তাই দয়া করে বদলে একটা চাই।",
+   "pron_bn": "",
+   "text": "My order arrived broken, so I would like a replacement please."
+  },
+  {
+   "bn": "আমার পার্সেল ছয় দিন দেরি হয়েছে, দয়া করে এখনই একটু দেখুন।",
+   "pron_bn": "",
+   "text": "My parcel is six days late, can you please check it now?"
+  },
+  {
+   "bn": "বাক্সটা বাইরে থেকে নষ্ট ছিল, তাই দয়া করে আজই পণ্যটা বদলে দিন।",
+   "pron_bn": "",
+   "text": "The box was damaged outside, so please change this product today."
+  },
+  {
+   "bn": "দ্রুত ডেলিভারির টাকা দিয়েছি, কিন্তু খাবার ঠান্ডা হয়ে গিয়েছিল।",
+   "pron_bn": "",
+   "text": "I paid for fast delivery, but the food was already cold."
+  },
+  {
+   "bn": "এই কুকারটা কাজ করছে না বলে কি পুরো টাকা ফেরত পেতে পারি?",
+   "pron_bn": "",
+   "text": "Can I get a full refund because this cooker does not work?"
+  },
+  {
+   "bn": "দয়া করে আগামীকাল আমার বাসায় মেশিনটা দেখতে কাউকে পাঠান।",
+   "pron_bn": "",
+   "text": "Please send someone to check the machine at my home tomorrow."
+  },
+  {
+   "bn": "বিল আর ট্র্যাকিং নম্বর এখন আমার কাছেই আছে।",
+   "pron_bn": "",
+   "text": "I have the bill and the tracking number with me right now."
+  },
+  {
+   "bn": "ঝামেলার জন্য দুঃখিত, আমরা আপনার সমস্যা খুব দ্রুত সমাধান করব।",
+   "pron_bn": "",
+   "text": "Sorry for the trouble, we will solve your problem very quickly."
+  },
+  {
+   "bn": "এই সপ্তাহে বিনা খরচে আপনার পণ্যটা বদলে দেব।",
+   "pron_bn": "",
+   "text": "We will replace your product at no extra cost this week."
+  },
+  {
+   "bn": "আপনার নতুন পার্সেল আগামীকাল সকাল দশটার আগে আসবে।",
+   "pron_bn": "",
+   "text": "Your new parcel will arrive tomorrow morning before ten o'clock."
+  },
+  {
+   "bn": "কুরিয়ার ফেরত না নেওয়া পর্যন্ত পুরনো বাক্সটা রেখে দিন।",
+   "pron_bn": "",
+   "text": "Please keep the old box until the courier takes it back."
+  },
+  {
+   "bn": "ধৈর্য ধরার জন্য ধন্যবাদ, ডেলিভারির পর আমরা আপনাকে ফোন করব।",
+   "pron_bn": "",
+   "text": "Thank you for your patience, we will call you after delivery."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হ্যালো, আমার নতুন রাইস কুকার আজ এসেছে, কিন্তু চলছে না।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Hello, my new rice cooker arrived today, but it doesn't work."
+  },
+  {
+   "bn": "আমি সত্যিই দুঃখিত, স্যার। বাক্সটা কি নষ্ট হয়েছে?",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "I'm really sorry, sir. Is the box damaged?"
+  },
+  {
+   "bn": "হ্যাঁ, বাক্সটা ভেজা আর ছেঁড়া, তাই কুকারটা নিশ্চয়ই ভেতরে নষ্ট।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Yes, the box is wet and torn, so the cooker must be damaged inside."
+  },
+  {
+   "bn": "সুইচে সমস্যা থাকতে পারে। বাতিটা কি জ্বলছে?",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "It might be a problem with the switch. Is the light on?"
+  },
+  {
+   "bn": "একদম বাতি জ্বলছে না। প্লাগের সমস্যা হতে পারে না, কারণ একই প্লাগে আমার ফ্যান চলছে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "No light at all. It can't be the plug, because my fan works on it."
+  },
+  {
+   "bn": "তাহলে নিশ্চয়ই কুকারের ভেতরে কোনো ত্রুটি আছে।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "Then it must be a fault inside the cooker."
+  },
+  {
+   "bn": "তাছাড়া আমি দ্রুত ডেলিভারির টাকা দিয়েছিলাম, কিন্তু ছয় দিন লেগেছে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Also, I paid for fast delivery, but it took six days."
+  },
+  {
+   "bn": "দুঃখিত। আমরা নতুন একটা কুকার পাঠাব আর ডেলিভারি চার্জ ফেরত দেব।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "I'm sorry. We will send a new cooker and refund the delivery charge."
+  },
+  {
+   "bn": "ধন্যবাদ, এটা ঠিক আছে। দয়া করে আগামীকাল সকালে পাঠাবেন।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Thank you, that sounds fair. Please send it tomorrow morning."
+  }
+ ],
+ "tip_bn": "অভিযোগ করার সময় শান্ত আর ভদ্র থাকো, আগে থেকে বিল আর ছবি হাতের কাছে রাখো। I would like a replacement, please বললে সমাধান পাওয়া অনেক সহজ হয়।",
+ "title": "Solving Problems and Complaints",
+ "words": [
+  {
+   "bn": "নষ্ট, ভাঙা",
+   "example": "My new fan arrived broken.",
+   "example_bn": "আমার নতুন ফ্যানটা ভাঙা অবস্থায় এসেছে।",
+   "pron_bn": "ব্রোকেন",
+   "text": "broken"
+  },
+  {
+   "bn": "ডেলিভারি, পণ্য পৌঁছে দেওয়া",
+   "example": "The delivery was three days late, so I called customer service yesterday.",
+   "example_bn": "ডেলিভারি তিন দিন দেরি হয়েছিল, তাই গতকাল কাস্টমার সার্ভিসে ফোন করেছিলাম।",
+   "pron_bn": "ডেলিভারি",
+   "text": "delivery"
+  },
+  {
+   "bn": "অভিযোগ",
+   "example": "I made a complaint because my chicken order never arrived at home.",
+   "example_bn": "আমার চিকেনের অর্ডার বাসায় না আসায় আমি একটা অভিযোগ করেছিলাম।",
+   "pron_bn": "কমপ্লেইন্ট",
+   "text": "complaint"
+  },
+  {
+   "bn": "টাকা ফেরত",
+   "example": "They gave me a full refund because the water filter was badly damaged.",
+   "example_bn": "পানির ফিল্টারটা খুব নষ্ট ছিল বলে তারা পুরো টাকা ফেরত দিয়েছিল।",
+   "pron_bn": "রিফান্ড",
+   "text": "refund"
+  },
+  {
+   "bn": "বদলে দেওয়া নতুন পণ্য",
+   "example": "The shop offered a free replacement for my broken rice cooker yesterday.",
+   "example_bn": "দোকানটা গতকাল আমার নষ্ট রাইস কুকারের বদলে ফ্রি নতুনটা দিতে চেয়েছিল।",
+   "pron_bn": "রিপ্লেসমেন্ট",
+   "text": "replacement"
+  },
+  {
+   "bn": "ক্ষতিগ্রস্ত",
+   "example": "The box looked damaged, so it might be broken inside the box.",
+   "example_bn": "বাক্সটা ক্ষতিগ্রস্ত লাগছিল, তাই ভেতরের জিনিস নষ্ট হতে পারে।",
+   "pron_bn": "ড্যামেজড",
+   "text": "damaged"
+  },
+  {
+   "bn": "দেরি",
+   "example": "Our vegetables arrived very late, so they can't be fresh now.",
+   "example_bn": "আমাদের সবজি অনেক দেরিতে এসেছে, তাই এখন তাজা থাকা সম্ভব নয়।",
+   "pron_bn": "লেইট",
+   "text": "late"
+  },
+  {
+   "bn": "কুরিয়ার, পণ্য পৌঁছে দেওয়ার লোক",
+   "example": "The courier left the parcel in the rain, so it must be wet inside.",
+   "example_bn": "কুরিয়ার পার্সেলটা বৃষ্টিতে রেখে গেছে, তাই ভেতরে ভেজা বলেই মনে হচ্ছে।",
+   "pron_bn": "কুরিয়ার",
+   "text": "courier"
+  },
+  {
+   "bn": "গ্রাহক সেবা",
+   "example": "Customer service was very polite and solved my delivery problem quickly.",
+   "example_bn": "কাস্টমার সার্ভিস খুব ভদ্র ছিল এবং আমার ডেলিভারি সমস্যা দ্রুত সমাধান করেছিল।",
+   "pron_bn": "কাস্টমার সার্ভিস",
+   "text": "customer service"
+  },
+  {
+   "bn": "ট্র্যাকিং নম্বর",
+   "example": "This tracking number shows no update, so it might be a system problem.",
+   "example_bn": "এই ট্র্যাকিং নম্বরে কোনো আপডেট নেই, তাই সিস্টেমের সমস্যা হতে পারে।",
+   "pron_bn": "ট্র্যাকিং নাম্বার",
+   "text": "tracking number"
+  }
+ ]
+}

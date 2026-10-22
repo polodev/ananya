@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আগামীকাল বৃষ্টি হলে আমরা বাসায় থাকব আর চা খাব।",
+    "pron_bn": "",
+    "text": "If it rains tomorrow, we will stay at home and drink tea."
+   },
+   {
+    "bn": "তুমি চার্জার ভুলে গেলে আমি তোমাকে আমার পাওয়ার ব্যাংক দেব।",
+    "pron_bn": "",
+    "text": "If you forget your charger, I will lend you my power bank."
+   },
+   {
+    "bn": "নাদিয়া তাড়াতাড়ি কাজ শেষ করলে সিলেটে মিতুকে ফোন করবে।",
+    "pron_bn": "",
+    "text": "If Nadia finishes her work early, she will call Mitu in Sylhet."
+   },
+   {
+    "bn": "অ্যাপটা আপডেট না করলে আগামীকাল এটা ঠিকমতো চলবে না।",
+    "pron_bn": "",
+    "text": "If they do not update the app, it will not work properly tomorrow."
+   }
+  ],
+  "points_bn": [
+   "<b>If + present simple</b> দিয়ে শর্ত বলো, আর <b>will</b> দিয়ে ফলাফল বলো।",
+   "If-এর অংশে <b>will</b> বসবে না, will বসবে পরের অংশে।",
+   "ভবিষ্যতে হতে পারে এমন আসল পরিস্থিতি নিয়ে কথা বলতে এটা ব্যবহার করো।",
+   "না-বোধক আর প্রশ্নেও If-এর পরে present simple থাকে, will থাকে অন্য অংশে।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "If you will click that link, you lose your money.",
+     "If you click that link, you will lose your money.",
+     "If you click that link, you lose your money tomorrow will.",
+     "If you clicked that link, you will lose your money."
+    ],
+    "q": "Choose the correct first conditional sentence about online safety.",
+    "why_bn": "If-এর পরে present simple বসে, will বসে পরের অংশে। তাই If you click... you will lose... সঠিক।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "borrow",
+     "borrows",
+     "will borrow",
+     "borrowed"
+    ],
+    "q": "If my phone battery dies in Chandpur, I ___ my charger from Rafi.",
+    "why_bn": "এটা ফার্স্ট কন্ডিশনাল, তাই ফলাফলের অংশে will + verb বসবে। সঠিক উত্তর will borrow।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "If",
+     "While",
+     "Because yesterday",
+     "Will if"
+    ],
+    "q": "___ you update your password regularly, your account will stay safe.",
+    "why_bn": "শর্ত বোঝাতে বাক্যের শুরুতে If বসে। If-এর পরে present simple আর পরে will থাকে।"
+   }
+  ],
+  "title_bn": "ফার্স্ট কন্ডিশনাল — If + Present, will"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি স্মার্টফোন, অ্যাপ আর অনলাইন নিরাপত্তা নিয়ে ইংরেজিতে কথা বলতে পারবে। If দিয়ে ভবিষ্যতের শর্ত বোঝাতেও শিখবে।",
+ "phrases": [
+  {
+   "bn": "আমার ফোনের ব্যাটারি কম, তাই এখন আমার একটা চার্জার দরকার।",
+   "pron_bn": "",
+   "text": "My phone battery is low, so I need a charger now."
+  },
+  {
+   "bn": "আমার ফোনে এই ব্যাংকের অ্যাপটা ইনস্টল করতে সাহায্য করবে?",
+   "pron_bn": "",
+   "text": "Can you help me install this banking app on my phone?"
+  },
+  {
+   "bn": "পাসওয়ার্ড ভুলে গেলে আমি কীভাবে নিরাপদে এটা ঠিক করব?",
+   "pron_bn": "",
+   "text": "If I forget my password, how can I reset it safely?"
+  },
+  {
+   "bn": "তোমার অ্যাপগুলো আপডেট করো, নাহলে ঠিকমতো চলবে না।",
+   "pron_bn": "",
+   "text": "Please update your apps, or they will stop working properly."
+  },
+  {
+   "bn": "টাকা বাঁচাতে চাইলে তোমার মোবাইল ডেটা বন্ধ করে রাখো।",
+   "pron_bn": "",
+   "text": "Turn off your mobile data if you want to save money."
+  },
+  {
+   "bn": "অদ্ভুত কোনো লিংক পেলে একদম ক্লিক কোরো না।",
+   "pron_bn": "",
+   "text": "If you get a strange link, do not click it at all."
+  },
+  {
+   "bn": "এই মেসেজটা প্রতারণা মনে হচ্ছে, তাই এখনই মুছে ফেলো।",
+   "pron_bn": "",
+   "text": "This message looks like a scam, so please delete it now."
+  },
+  {
+   "bn": "আমার স্ক্রিন ভাঙা, তাই আজ কিছুই পরিষ্কার পড়তে পারছি না।",
+   "pron_bn": "",
+   "text": "My screen is broken, so I cannot read anything clearly today."
+  },
+  {
+   "bn": "আমার ফোন ধীর হলে আজ কিছু জায়গা খালি করে নেব।",
+   "pron_bn": "",
+   "text": "If my phone is slow, I will clear some storage space today."
+  },
+  {
+   "bn": "আজ আমার ইন্টারনেট প্যাক শেষ হলে তোমার ওয়াই-ফাই ব্যবহার করতে পারি?",
+   "pron_bn": "",
+   "text": "Can I use your Wi-Fi if my internet pack finishes today?"
+  },
+  {
+   "bn": "তোমার ওটিপি কাউকে দিলে তোমার টাকা হারিয়ে যাবে।",
+   "pron_bn": "",
+   "text": "If you share your OTP with anyone, you will lose your money."
+  },
+  {
+   "bn": "পাঁচটার মধ্যে কাজ শেষ হলে চায়ের দোকানে দেখা করি।",
+   "pron_bn": "",
+   "text": "Let's meet at the tea stall if you finish work by five."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "তুমি যদি এই বাসের অ্যাপটা ইনস্টল করো, ঢাকার বাসের সময় সহজে পেয়ে যাবে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If you install this bus app, you will find the Dhaka bus time easily."
+  },
+  {
+   "bn": "দারুণ তো! আমার মোবাইল ডেটা শেষ হয়ে গেলে অ্যাপটা কি অফলাইনে চলবে?",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "That's great! If my mobile data finishes, will the app still work offline?"
+  },
+  {
+   "bn": "বের হওয়ার আগে রুটটা সেভ করে রাখলে ইন্টারনেট ছাড়াই দেখতে পারবে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If you save the route before you leave, you will see it without internet."
+  },
+  {
+   "bn": "আমার ব্যাটারি খুব তাড়াতাড়ি শেষ হয়ে যায়। স্ক্রিন উজ্জ্বল রাখলে কি চার্জ আরও তাড়াতাড়ি শেষ হবে?",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "My battery dies so fast. If I keep the screen bright, will it drain faster?"
+  },
+  {
+   "bn": "হ্যাঁ! উজ্জ্বলতা কমিয়ে রাখলে আজ তোমার ব্যাটারি অনেক বেশি চলবে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Yes! If you lower the brightness, your battery will last much longer today."
+  },
+  {
+   "bn": "গতকাল একটা অদ্ভুত মেসেজ পেয়েছি। লিংকে ক্লিক করলে আমার অ্যাকাউন্ট কি নিরাপদ থাকবে?",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "I got a strange message yesterday. If I click the link, will my account stay safe?"
+  },
+  {
+   "bn": "ক্লিক কোরো না! এটা প্রতারণা মনে হলে কেউ তোমার পাসওয়ার্ড চুরি করে নেবে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Don't click it! If it looks like a scam, someone will steal your password."
+  },
+  {
+   "bn": "তুমি ঠিক বলেছ। নিয়মিত অ্যাপ আপডেট করলে আমার স্মার্টফোন কি আরও নিরাপদ থাকবে?",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "You're right. If I update my apps regularly, will my smartphone stay more secure?"
+  },
+  {
+   "bn": "হ্যাঁ, আর এই কৌশলটা তানভিরকে বললে ও চট্টগ্রামেও এটা ব্যবহার করতে পারবে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Yes, and if you tell Tanvir about this trick, he will use it in Chittagong too."
+  }
+ ],
+ "tip_bn": "অচেনা নম্বর থেকে আসা লিংকে ক্লিক করার আগে একটু থেমে ভাবো। দরকার হলে পরিবারের কাউকে জিজ্ঞেস করো, এতে তোমার টাকা আর তথ্য নিরাপদ থাকবে।",
+ "title": "Technology and Mobile",
+ "words": [
+  {
+   "bn": "স্মার্টফোন",
+   "example": "I bought a new smartphone in Dhaka last Friday morning.",
+   "example_bn": "গত শুক্রবার সকালে আমি ঢাকায় একটা নতুন স্মার্টফোন কিনেছি।",
+   "pron_bn": "স্মার্টফোন",
+   "text": "smartphone"
+  },
+  {
+   "bn": "মোবাইল অ্যাপ",
+   "example": "This train app will help you buy tickets very quickly.",
+   "example_bn": "এই ট্রেনের অ্যাপটা তোমাকে খুব তাড়াতাড়ি টিকিট কিনতে সাহায্য করবে।",
+   "pron_bn": "অ্যাপ",
+   "text": "app"
+  },
+  {
+   "bn": "পাসওয়ার্ড",
+   "example": "Never share your password with anyone, not even close friends.",
+   "example_bn": "তোমার পাসওয়ার্ড কাউকে দেবে না, খুব কাছের বন্ধুকেও না।",
+   "pron_bn": "পাসওয়ার্ড",
+   "text": "password"
+  },
+  {
+   "bn": "আপডেট করা",
+   "example": "If you update the app now, it will work much faster.",
+   "example_bn": "এখন অ্যাপটা আপডেট করলে এটা অনেক দ্রুত চলবে।",
+   "pron_bn": "আপডেট",
+   "text": "update"
+  },
+  {
+   "bn": "ইনস্টল করা",
+   "example": "My brother will install a fish curry recipe app for mother.",
+   "example_bn": "আমার ভাই মায়ের জন্য মাছের ঝোল রান্নার অ্যাপ ইনস্টল করে দেবে।",
+   "pron_bn": "ইনস্টল",
+   "text": "install"
+  },
+  {
+   "bn": "ব্যাটারি",
+   "example": "If you turn on power saving, your battery will last longer.",
+   "example_bn": "পাওয়ার সেভিং চালু করলে তোমার ব্যাটারি বেশি সময় চলবে।",
+   "pron_bn": "ব্যাটারি",
+   "text": "battery"
+  },
+  {
+   "bn": "স্ক্রিন",
+   "example": "The phone screen is big, so I can read messages very easily.",
+   "example_bn": "ফোনের স্ক্রিনটা বড়, তাই আমি মেসেজ খুব সহজে পড়তে পারি।",
+   "pron_bn": "স্ক্রিন",
+   "text": "screen"
+  },
+  {
+   "bn": "মোবাইল ডেটা",
+   "example": "If you turn off mobile data, you will save money every month.",
+   "example_bn": "মোবাইল ডেটা বন্ধ রাখলে প্রতি মাসে তোমার টাকা বাঁচবে।",
+   "pron_bn": "মোবাইল ডেটা",
+   "text": "mobile data"
+  },
+  {
+   "bn": "প্রতারণা",
+   "example": "If a message asks for money, it is probably a scam.",
+   "example_bn": "কোনো মেসেজে টাকা চাইলে সেটা সম্ভবত প্রতারণা।",
+   "pron_bn": "স্ক্যাম",
+   "text": "scam"
+  },
+  {
+   "bn": "নিরাপদ",
+   "example": "If you use a strong password, your account will stay safe.",
+   "example_bn": "শক্ত পাসওয়ার্ড ব্যবহার করলে তোমার অ্যাকাউন্ট নিরাপদ থাকবে।",
+   "pron_bn": "সেইফ",
+   "text": "safe"
+  }
+ ]
+}

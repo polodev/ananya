@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "রাফি এমন একজন বন্ধু যে ঢাকায় থাকে এবং একটা অফিসে কাজ করে।",
+    "pron_bn": "",
+    "text": "Rafi is a friend who lives in Dhaka and works in an office."
+   },
+   {
+    "bn": "এটা সেই বইটা যেটা আমি গত সপ্তাহে আমার সহকর্মীর জন্য কিনেছি।",
+    "pron_bn": "",
+    "text": "This is the book that I bought for my colleague last week."
+   },
+   {
+    "bn": "ওটা সেই চায়ের দোকান যেখানে আমরা প্রতিদিন সন্ধ্যায় প্রতিবেশীদের সাথে দেখা করি।",
+    "pron_bn": "",
+    "text": "That is the tea shop where we meet our neighbours every evening."
+   },
+   {
+    "bn": "আমার ঐ ফোনটা পছন্দ যেটা পরিষ্কার ছবি তোলে আর ব্যবহার করা সহজ।",
+    "pron_bn": "",
+    "text": "I like the phone which takes clear photos and is easy to use."
+   }
+  ],
+  "points_bn": [
+   "মানুষের জন্য <b>who</b> বসে, আর জায়গার জন্য <b>where</b> বসে।",
+   "জিনিসের জন্য <b>which</b> বা <b>that</b> বসে, দুটোই ঠিক।",
+   "মানুষের জন্যও <b>that</b> ব্যবহার করা যায়, যেমন the friend that helps me।",
+   "এই বাক্যে কমা বসে না, কারণ তথ্যটা মানুষ বা জিনিসটাকে চিনতে সাহায্য করে।"
+  ],
+  "quiz": [
+   {
+    "answer": 2,
+    "options": [
+     "where",
+     "which",
+     "who",
+     "when"
+    ],
+    "q": "I have a friend ___ lives near the station in Sylhet.",
+    "why_bn": "বন্ধু হলো মানুষ, তাই মানুষের জন্য who বসবে। where বসে জায়গার জন্য।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "where",
+     "who",
+     "whom",
+     "whose"
+    ],
+    "q": "This is the park ___ we meet our friends every Friday.",
+    "why_bn": "park হলো জায়গা, তাই জায়গার জন্য where বসবে। মানুষের জন্য who বসত।"
+   },
+   {
+    "answer": 1,
+    "options": [
+     "who",
+     "which",
+     "where",
+     "when"
+    ],
+    "q": "I bought a bag ___ is strong and easy to carry.",
+    "why_bn": "bag হলো জিনিস, তাই জিনিসের জন্য which বসবে। who বসে শুধু মানুষের জন্য।"
+   }
+  ],
+  "title_bn": "পরিচয় বোঝানো Relative Clause: who, which, that, where"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি বন্ধু, প্রতিবেশী আর সহকর্মীর বর্ণনা দিতে পারবে। who, which, that, where দিয়ে তাদের পরিচয় সহজে বোঝাতে পারবে।",
+ "phrases": [
+  {
+   "bn": "সে আমার সেই বন্ধু যে প্রতিদিন আমার ইংরেজি হোমওয়ার্কে সাহায্য করে।",
+   "pron_bn": "",
+   "text": "He is the friend who helps me with my English homework every day."
+  },
+  {
+   "bn": "সে এমন একজন সহকর্মী যার সাথে আমি ঢাকার অফিসে একই রুমে বসি।",
+   "pron_bn": "",
+   "text": "She is a colleague that I share my office room with in Dhaka."
+  },
+  {
+   "bn": "তারা এমন প্রতিবেশী যারা সন্ধ্যায় সবসময় আমাদের চায়ের দাওয়াত দেয়।",
+   "pron_bn": "",
+   "text": "They are neighbours who always invite us for tea in the evening."
+  },
+  {
+   "bn": "এটা সেই রেস্টুরেন্ট যেখানে আমরা কাজের পর মুরগি আর ভাত খাই।",
+   "pron_bn": "",
+   "text": "This is the restaurant where we eat chicken and rice after work."
+  },
+  {
+   "bn": "নাদিয়া এমন একজন মানুষ যে সবসময় মন দিয়ে শোনে আর সুন্দর করে কথা বলে।",
+   "pron_bn": "",
+   "text": "Nadia is a person who always listens carefully and speaks kindly."
+  },
+  {
+   "bn": "তানভীর আমাকে শহরের জীবন নিয়ে যে বইটা দিয়েছে সেটা আমার পছন্দ।",
+   "pron_bn": "",
+   "text": "I like the book which Tanvir gave me about healthy city life."
+  },
+  {
+   "bn": "ওটা সেই পার্ক যেখানে বাচ্চারা প্রতি শুক্রবার বিকেলে ফুটবল খেলে।",
+   "pron_bn": "",
+   "text": "That is the park where children play football every Friday afternoon."
+  },
+  {
+   "bn": "আমার প্রতিবেশী এমন একজন যাকে আমার সাহায্য দরকার হলে ভরসা করতে পারি।",
+   "pron_bn": "",
+   "text": "My neighbour is someone that I can trust when I need help."
+  },
+  {
+   "bn": "আমরা এমন মানুষদের সাথে কাজ করি যারা চাঁদপুর, সিলেট আর চট্টগ্রাম থেকে এসেছে।",
+   "pron_bn": "",
+   "text": "We work with people who come from Chandpur, Sylhet and Chittagong."
+  },
+  {
+   "bn": "আমি একটা দোকান চিনি যেখানে আমরা তাজা মাছ, ফল আর সবজি কিনতে পারি।",
+   "pron_bn": "",
+   "text": "I know a shop where we can buy fresh fish, fruit and vegetables."
+  },
+  {
+   "bn": "তার এমন একজন বন্ধু আছে যে ভালো ইংরেজি বলে আর নতুন সহকর্মীদের সাহায্য করে।",
+   "pron_bn": "",
+   "text": "She has a friend who speaks English well and helps new colleagues."
+  },
+  {
+   "bn": "ইনি সেই সহকর্মী যিনি আমাকে অফিসে ভদ্র ইমেইল পাঠাতে শিখিয়েছেন।",
+   "pron_bn": "",
+   "text": "This is the colleague who taught me to send polite emails at work."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "মিতু, আমার পাশে অফিসে যে সহকর্মী বসে তাকে কি তুমি চেনো?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Mitu, do you know the colleague who sits next to me at work?"
+  },
+  {
+   "bn": "সে কি সেই মানুষ যিনি গত মাসে নতুন প্রজেক্টে তোমাকে সাহায্য করেছিলেন?",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Is he the person that helped you with the new project last month?"
+  },
+  {
+   "bn": "হ্যাঁ, তানভীর এমন বন্ধু যে সবসময় সুন্দর আর সহজ করে বুঝিয়ে দেয়।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Yes, Tanvir is a friend who always explains things clearly and kindly."
+  },
+  {
+   "bn": "আমার এক প্রতিবেশী আছে যে ঐ ফ্ল্যাটে থাকে যেখানে আমার চাচাতো ভাই থাকে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "I have a neighbour who lives in the flat where my cousin stays."
+  },
+  {
+   "bn": "চাঁদপুরে তোমার প্রতিবেশীদের কোন জিনিসটা তোমার সবচেয়ে ভালো লাগে?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "What is the thing which you like most about your neighbours in Chandpur?"
+  },
+  {
+   "bn": "তারা এমন মানুষ যারা সবজি ভাগ করে দেয় আর আমাদের একসাথে চায়ের দাওয়াত দেয়।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "They are people that share vegetables and invite us for tea together."
+  },
+  {
+   "bn": "আমার অফিসে এমন একটা রুম আছে যেখানে সহকর্মীরা প্রতিদিন দুপুরে খায় আর গল্প করে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "My office has a room where colleagues eat lunch and talk every day."
+  },
+  {
+   "bn": "নাদিয়া সেই বন্ধু যার সাথে ঢাকায় ইংরেজি ক্লাসে আমার পরিচয় হয়েছিল।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Nadia is the friend that I met at the English class in Dhaka."
+  },
+  {
+   "bn": "চলো কাছাকাছি থাকে এমন বন্ধুদের শুক্রবারে মাছ-ভাতের জন্য দাওয়াত দিই।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Let's invite the friends who live nearby for fish and rice on Friday."
+  }
+ ],
+ "tip_bn": "নতুন কাউকে বর্ণনা করার সময় একটা ছোট who বা where বাক্য যোগ করো। যেমন My friend who lives nearby — এতে কথা শুনতে স্বাভাবিক আর পরিষ্কার লাগে।",
+ "title": "Friends, Neighbours and Colleagues",
+ "words": [
+  {
+   "bn": "প্রতিবেশী",
+   "example": "My neighbour is a kind man who always says hello in the morning.",
+   "example_bn": "আমার প্রতিবেশী খুব ভালো মানুষ, সকালে দেখা হলেই হাসিমুখে কথা বলেন।",
+   "pron_bn": "নেইবার",
+   "text": "neighbour"
+  },
+  {
+   "bn": "সহকর্মী",
+   "example": "My new colleague is a woman that helps me with office work daily.",
+   "example_bn": "আমার নতুন সহকর্মী এমন একজন নারী যিনি প্রতিদিন অফিসের কাজে সাহায্য করেন।",
+   "pron_bn": "কলিগ",
+   "text": "colleague"
+  },
+  {
+   "bn": "মিশুক, বন্ধুসুলভ",
+   "example": "Our new neighbours are very friendly and talk to everyone with a smile.",
+   "example_bn": "আমাদের নতুন প্রতিবেশীরা খুব মিশুক আর সবার সাথে হাসিমুখে কথা বলে।",
+   "pron_bn": "ফ্রেন্ডলি",
+   "text": "friendly"
+  },
+  {
+   "bn": "উপকারী",
+   "example": "Tanvir is a very helpful friend who explains computer problems clearly.",
+   "example_bn": "তানভীর খুব উপকারী বন্ধু যে কম্পিউটারের সমস্যা সহজ করে বুঝিয়ে দেয়।",
+   "pron_bn": "হেল্পফুল",
+   "text": "helpful"
+  },
+  {
+   "bn": "সৎ",
+   "example": "I trust Mitu because she is an honest friend who always tells the truth.",
+   "example_bn": "আমি মিতুকে ভরসা করি কারণ সে সৎ বন্ধু যে সবসময় সত্যি কথা বলে।",
+   "pron_bn": "অনেস্ট",
+   "text": "honest"
+  },
+  {
+   "bn": "দয়ালু",
+   "example": "Nadia is a kind neighbour who gives vegetables to families in need.",
+   "example_bn": "নাদিয়া দয়ালু প্রতিবেশী যিনি দরকারি পরিবারগুলোকে সবজি দেন।",
+   "pron_bn": "কাইন্ড",
+   "text": "kind"
+  },
+  {
+   "bn": "ভরসা করা",
+   "example": "I trust the colleague who never shares my personal stories with others.",
+   "example_bn": "আমি সেই সহকর্মীকে ভরসা করি যিনি আমার ব্যক্তিগত কথা অন্যদের বলে না।",
+   "pron_bn": "ট্রাস্ট",
+   "text": "trust"
+  },
+  {
+   "bn": "সাহায্য, পাশে থাকা",
+   "example": "Good friends give support when we feel tired or worried about work.",
+   "example_bn": "আমরা কাজ নিয়ে ক্লান্ত বা চিন্তিত থাকলে ভালো বন্ধুরা পাশে থাকে।",
+   "pron_bn": "সাপোর্ট",
+   "text": "support"
+  },
+  {
+   "bn": "মিলেমিশে থাকা",
+   "example": "I get along with the colleague who sits next to me every day.",
+   "example_bn": "প্রতিদিন আমার পাশে বসে যে সহকর্মী তার সাথে আমার ভালো সম্পর্ক আছে।",
+   "pron_bn": "গেট অ্যালং উইথ",
+   "text": "get along with"
+  },
+  {
+   "bn": "কাছাকাছি",
+   "example": "Many colleagues who live nearby walk to the office together every morning.",
+   "example_bn": "কাছাকাছি থাকে এমন অনেক সহকর্মী প্রতিদিন সকালে একসাথে হেঁটে অফিসে যায়।",
+   "pron_bn": "নিয়ারবাই",
+   "text": "nearby"
+  }
+ ]
+}

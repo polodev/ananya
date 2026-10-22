@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমাদের গ্রামের রাস্তা সম্প্রতি মেরামত করা হয়েছে এবং স্ট্রিট লাইট লাগানো হয়েছে।",
+    "pron_bn": "",
+    "text": "Our village road has been repaired and street lights have been installed recently."
+   },
+   {
+    "bn": "গুরুত্বপূর্ণ কাগজপত্র এখন কয়েক মিনিটের মধ্যে স্ক্যান করে ইমেইলে পাঠানো যায়।",
+    "pron_bn": "",
+    "text": "Important documents can be scanned and sent by email within a few minutes today."
+   },
+   {
+    "bn": "নতুন কোর্স শুরু করার আগে আমি আমার পুরোনো ল্যাপটপটি দোকান থেকে পরিষ্কার ও আপগ্রেড করিয়ে নিয়েছিলাম।",
+    "pron_bn": "",
+    "text": "I had my old laptop professionally cleaned and upgraded before starting my new course."
+   },
+   {
+    "bn": "নাদিয়া ঢাকার একটি ভালো ক্লিনিকে চোখ পরীক্ষা করিয়ে নতুন চশমা বানিয়ে নিয়েছে।",
+    "pron_bn": "",
+    "text": "Nadia got her eyes tested and new glasses made at a good clinic in Dhaka."
+   }
+  ],
+  "points_bn": [
+   "প্যাসিভে কে কাজটা করেছে সেটা বড় কথা নয়, কাজটাই আসল। এজন্য <b>be + V3</b> ব্যবহার করো, যেমন are paid, was repaired।",
+   "কোন সময়ের কথা বলছো সেটা be verb দেখে বোঝা যায়। যেমন <b>has been changed</b> মানে পরিবর্তন হয়ে গেছে, <b>will be reduced</b> মানে কমানো হবে।",
+   "যখন অন্য কাউকে দিয়ে কাজ করিয়ে নাও, তখন <b>have / get + জিনিস + V3</b> বসে। যেমন I had my phone repaired মানে আমি ফোনটা মেরামত করিয়ে নিয়েছি।",
+   "<b>have something done</b> একটু ফরমাল, <b>get something done</b> একটু বেশি কথ্য ও পরিচিত ভঙ্গি। দুটোর অর্থ প্রায় একই।"
+  ],
+  "quiz": [
+   {
+    "answer": 2,
+    "options": [
+     "Our bills pay online every month now.",
+     "Our bills are pay online every month now.",
+     "Our bills are paid online every month now.",
+     "Our bills have pay online every month now."
+    ],
+    "q": "Choose the correct sentence.",
+    "why_bn": "বিল নিজে নিজে পে করে না, বিল পে করা হয়। তাই are + paid হবে। এটা simple present passive।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "had",
+     "have been",
+     "am",
+     "are"
+    ],
+    "q": "I ___ my phone repaired in Chandpur yesterday.",
+    "why_bn": "গতকাল অন্য কাউকে দিয়ে ফোন মেরামত করিয়ে নিয়েছি, তাই causative have-এর past form had হবে। had + মোবাইল + repaired।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "to upgrade",
+     "upgrade",
+     "upgrading",
+     "upgraded"
+    ],
+    "q": "She got her laptop ___.",
+    "why_bn": "get something done নিয়মে get-এর পরে জিনিস, তারপর verb-এর V3 বসে। তাই laptop-এর পরে upgraded হবে।"
+   }
+  ],
+  "title_bn": "অ্যাডভান্সড প্যাসিভ ও কজেটিভ (have / get something done)"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি প্রযুক্তি ও দৈনন্দিন সেবা নিয়ে সহজে কথা বলতে পারবে। দোকান বা অফিসে মেরামত ও সেবার কাজ করিয়ে নেওয়ার কথাও ইংরেজিতে বলতে শিখবে।",
+ "phrases": [
+  {
+   "bn": "গতকাল ঢাকার একটা বিশ্বস্ত দোকান থেকে আমি আমার ফোনের স্ক্রিন বদলে নিয়েছি।",
+   "pron_bn": "",
+   "text": "I had my phone screen replaced at a trusted shop in Dhaka yesterday."
+  },
+  {
+   "bn": "আমাদের ওয়াই-ফাই রাউটারটা পরীক্ষা করিয়ে নিতে হবে, কারণ সংযোগ বারবার চলে যাচ্ছে।",
+   "pron_bn": "",
+   "text": "We need to get our Wi-Fi router checked because the connection keeps dropping suddenly."
+  },
+  {
+   "bn": "অফিসের পাশেই মাত্র দশ মিনিটে আমার পাসপোর্ট ছবি তোলা ও প্রিন্ট করা হয়েছিল।",
+   "pron_bn": "",
+   "text": "My passport photo was taken and printed in just ten minutes near the office."
+  },
+  {
+   "bn": "দ্রুত ও নিরাপদে ল্যাপটপ ঠিক করতে পারে এমন একজন ভালো টেকনিশিয়ানের খোঁজ দিতে পারো?",
+   "pron_bn": "",
+   "text": "Can you recommend a reliable technician who can repair laptops quickly and safely?"
+  },
+  {
+   "bn": "আমি প্রতি মাসে মোবাইল অ্যাপ দিয়ে বিদ্যুৎ ও গ্যাসের সব বিল পরিশোধ করি।",
+   "pron_bn": "",
+   "text": "I pay all my electricity and gas bills through a mobile app every month."
+  },
+  {
+   "bn": "গতকাল আমাদের নতুন ইন্টারনেট সংযোগ লাগিয়ে দেওয়া হয়েছে, আর এখন খুব ভালো চলছে।",
+   "pron_bn": "",
+   "text": "Our new internet connection was installed yesterday, and it works really well now."
+  },
+  {
+   "bn": "আজ সকালে আমার জরুরি কাগজপত্র স্ক্যান করিয়ে অফিসে ইমেইল করে পাঠিয়েছি।",
+   "pron_bn": "",
+   "text": "I got my important documents scanned and emailed to the office this morning."
+  },
+  {
+   "bn": "আজ চট্টগ্রামে ভারী বৃষ্টির কারণে তোমার ডেলিভারি অর্ডারে কি দেরি হয়েছে?",
+   "pron_bn": "",
+   "text": "Has your delivery order been delayed because of heavy rain in Chittagong today?"
+  },
+  {
+   "bn": "তোমার পাসওয়ার্ড গোপন রাখো এবং ওটিপি কখনো কারো সঙ্গে শেয়ার কোরো না।",
+   "pron_bn": "",
+   "text": "Please keep your password private and never share your OTP with anyone."
+  },
+  {
+   "bn": "আমাদের বাড়ির সামনের রাস্তা মেরামত করা হচ্ছে, তাই অন্য দরজা দিয়ে যাও।",
+   "pron_bn": "",
+   "text": "The road outside our house is being repaired, so please use the other entrance."
+  },
+  {
+   "bn": "সিলেট শহরে চলাচলের জন্য আমি আমার বাস কার্ডের সাবস্ক্রিপশন নবায়ন করেছি।",
+   "pron_bn": "",
+   "text": "I have just renewed my bus card subscription for travel inside Sylhet city."
+  },
+  {
+   "bn": "নতুন হাসপাতাল সেবা চালু হয়েছে, ফলে রোগীরা ভিডিওতে ডাক্তার দেখাতে পারছে।",
+   "pron_bn": "",
+   "text": "New hospital services have been introduced so patients can consult doctors by video."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "তুমি কি খেয়াল করেছ, সস্তা ইন্টারনেটে ঢাকায় আমাদের জীবন কত দ্রুত বদলে গেছে?",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Have you noticed how quickly our lives in Dhaka have been changed by cheap internet?"
+  },
+  {
+   "bn": "হ্যাঁ, এখন অনেক দৈনন্দিন কাজ স্বয়ংক্রিয়ভাবে হয়, আর লম্বা লাইন প্রায় উঠেই গেছে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Yes, many everyday tasks are now automated, and long queues have almost completely disappeared."
+  },
+  {
+   "bn": "চাঁদপুরে আমি আমার ফোনটা ঠিক করিয়ে নিয়েছিলাম, আর এক ঘণ্টারও কম সময়ে কাজ শেষ হয়েছিল।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "I had my phone repaired in Chandpur, and the service was completed in less than an hour."
+  },
+  {
+   "bn": "চট্টগ্রাম পর্যন্ত না গিয়েই আমার মা চোখ পরীক্ষা করিয়ে নতুন চশমা বানিয়ে নিয়েছেন।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "My mother got her eyes tested and new glasses made without travelling all the way to Chittagong."
+  },
+  {
+   "bn": "স্থানীয় মানুষের প্রয়োজন বোঝে এমন তরুণ সেবাদাতাদের হাত ধরে ব্যাপক উদ্ভাবন এগিয়ে গেছে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Widespread innovation has been driven by young service providers who understand local community needs."
+  },
+  {
+   "bn": "আমাদের ব্যক্তিগত তথ্যের গোপনীয়তা আরও ভালোভাবে রক্ষা করা উচিত, কারণ অনলাইনে অনেক তথ্য ছড়িয়ে যাচ্ছে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Our personal data privacy should be better protected, because too much information is being shared online."
+  },
+  {
+   "bn": "নতুন চাকরি শুরু করার আগে আমি ল্যাপটপ আপগ্রেড করিয়ে সব জরুরি ফাইল ব্যাকআপ করে নিয়েছি।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "I just got my laptop upgraded and all my important files backed up before starting a new job."
+  },
+  {
+   "bn": "গত সপ্তাহে একটা বড় অগ্রগতির খবর দেওয়া হয়েছিল, গ্রামের ক্লিনিকে যাচাই করা ভিডিও পরামর্শ চালু হয়েছে।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "A major breakthrough was announced last week when village clinics started offering verified video consultations."
+  },
+  {
+   "bn": "তবে সবার জন্য ইন্টারনেট সত্যিই সহজলভ্য না করা হলে শহর-গ্রামের ডিজিটাল ব্যবধান কমবে না।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "But the digital divide will not be reduced unless internet access is made truly accessible for everyone."
+  }
+ ],
+ "tip_bn": "ফোনে সেটিংস ইংরেজিতে রেখে ছোট নোটিশগুলো পড়ার অভ্যাস করো, যেমন repaired, updated, verified। দোকানে গিয়ে I want to have my... দিয়ে একটা বাক্য বলো, কাজটা সহজ হয়ে যাবে।",
+ "title": "Technology and Society",
+ "words": [
+  {
+   "bn": "উদ্ভাবন, নতুন উপায় বা পদ্ধতি",
+   "example": "This local innovation has made it much easier for farmers to sell fresh vegetables online.",
+   "example_bn": "এই স্থানীয় উদ্ভাবনের ফলে কৃষকদের জন্য অনলাইনে তাজা সবজি বিক্রি অনেক সহজ হয়েছে।",
+   "pron_bn": "ইনোভেইশন",
+   "text": "innovation"
+  },
+  {
+   "bn": "ব্যাপক, অনেক জায়গায় ছড়িয়ে থাকা",
+   "example": "Widespread use of delivery apps has changed how busy families in Sylhet buy daily food.",
+   "example_bn": "ডেলিভারি অ্যাপের ব্যাপক ব্যবহারে সিলেটের ব্যস্ত পরিবারগুলোর দৈনন্দিন বাজার বদলে গেছে।",
+   "pron_bn": "ওয়াইডস্প্রেড",
+   "text": "widespread"
+  },
+  {
+   "bn": "বড় অগ্রগতি বা সাফল্য",
+   "example": "The new low-cost internet package was a real breakthrough for students living outside Dhaka.",
+   "example_bn": "নতুন সস্তা ইন্টারনেট প্যাকেজটি ঢাকার বাইরের শিক্ষার্থীদের জন্য সত্যিকারের বড় অগ্রগতি ছিল।",
+   "pron_bn": "ব্রেকথ্রু",
+   "text": "breakthrough"
+  },
+  {
+   "bn": "স্বয়ংক্রিয়করণ, যন্ত্র দিয়ে কাজ করা",
+   "example": "Greater automation in banks means most customers no longer need to wait in long lines.",
+   "example_bn": "ব্যাংকে বেশি স্বয়ংক্রিয় ব্যবস্থা থাকায় বেশিরভাগ গ্রাহককে আর লম্বা লাইনে দাঁড়াতে হয় না।",
+   "pron_bn": "অটোমেইশন",
+   "text": "automation"
+  },
+  {
+   "bn": "সহজলভ্য, সহজে ব্যবহার করা যায় এমন",
+   "example": "Online classes have made good English lessons much more accessible for learners in Chandpur.",
+   "example_bn": "অনলাইন ক্লাসের ফলে চাঁদপুরের শিক্ষার্থীদের জন্য ভালো ইংরেজি পাঠ অনেক সহজলভ্য হয়েছে।",
+   "pron_bn": "অ্যাকসেসিবল",
+   "text": "accessible"
+  },
+  {
+   "bn": "তথ্যের গোপনীয়তা",
+   "example": "Many people worry about data privacy when they share personal photos on social media platforms.",
+   "example_bn": "সামাজিক মাধ্যমে ব্যক্তিগত ছবি শেয়ার করার সময় অনেকেই তথ্যের গোপনীয়তা নিয়ে চিন্তা করে।",
+   "pron_bn": "ডেটা প্রাইভেসি",
+   "text": "data privacy"
+  },
+  {
+   "bn": "সাবস্ক্রিপশন, নির্দিষ্ট ফি দিয়ে নিয়মিত সেবা",
+   "example": "My brother cancelled his expensive movie subscription and now watches free educational videos instead.",
+   "example_bn": "আমার ভাই তার দামি মুভি সাবস্ক্রিপশন বাতিল করেছে, এখন সে বিনামূল্যে শিক্ষামূলক ভিডিও দেখে।",
+   "pron_bn": "সাবস্ক্রিপশন",
+   "text": "subscription"
+  },
+  {
+   "bn": "সেবাদাতা প্রতিষ্ঠান বা ব্যক্তি",
+   "example": "Our internet service provider fixed the slow connection within one day after our complaint.",
+   "example_bn": "অভিযোগের এক দিনের মধ্যেই আমাদের ইন্টারনেট সেবাদাতা প্রতিষ্ঠান ধীর সংযোগ ঠিক করে দিয়েছে।",
+   "pron_bn": "সার্ভিস প্রোভাইডার",
+   "text": "service provider"
+  },
+  {
+   "bn": "যাচাই করা, সঠিক বলে নিশ্চিত",
+   "example": "Always buy fish and chicken from a verified shop that keeps food fresh and clean.",
+   "example_bn": "খাবার তাজা ও পরিষ্কার রাখে এমন যাচাই করা দোকান থেকেই সবসময় মাছ ও মুরগি কেনো।",
+   "pron_bn": "ভেরিফাইড",
+   "text": "verified"
+  },
+  {
+   "bn": "ডিজিটাল ব্যবধান, প্রযুক্তি পাওয়ার ক্ষেত্রে পার্থক্য",
+   "example": "The digital divide between cities and villages is slowly closing thanks to cheaper smartphones.",
+   "example_bn": "সস্তা স্মার্টফোনের কল্যাণে শহর ও গ্রামের মধ্যে ডিজিটাল ব্যবধান ধীরে ধীরে কমছে।",
+   "pron_bn": "ডিজিটাল ডিভাইড",
+   "text": "digital divide"
+  }
+ ]
+}

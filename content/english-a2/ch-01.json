@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি প্রতিদিন সকালে তাড়াতাড়ি ঘুম থেকে উঠি।",
+    "pron_bn": "আই অলওয়েজ ওয়েক আপ আর্লি ইন দা মর্নিং।",
+    "text": "I always wake up early in the morning."
+   },
+   {
+    "bn": "সে সাধারণত বাসে করে কাজে যায়।",
+    "pron_bn": "শি ইউজুয়ালি গোজ টু ওয়ার্ক বাই বাস।",
+    "text": "She usually goes to work by bus."
+   },
+   {
+    "bn": "আমরা মাঝে মাঝে দুপুরে মাছ আর ভাত খাই।",
+    "pron_bn": "উই সামটাইমস ইট ফিশ অ্যান্ড রাইস ফর লাঞ্চ।",
+    "text": "We sometimes eat fish and rice for lunch."
+   },
+   {
+    "bn": "তারা রাতে কখনো দেরি করে ঘুমায় না।",
+    "pron_bn": "দেই নেভার স্লিপ লেট অ্যাট নাইট।",
+    "text": "They never sleep late at night."
+   }
+  ],
+  "points_bn": [
+   "Present Simple দিয়ে আমরা প্রতিদিনের অভ্যাস বলি। যেমন: <b>I eat rice</b>, <b>She goes to work</b>।",
+   "<b>always, usually, sometimes, never</b> বসে মূল verb-এর আগে। যেমন: <b>I always wake up</b>।",
+   "<b>he, she, Rafi</b>-এর সাথে verb-এর শেষে <b>s</b> যোগ হয়। যেমন: <b>goes, eats, cooks</b>।",
+   "প্রশ্ন করতে <b>Do / Does</b> সামনে বসে। যেমন: <b>Do you eat breakfast?</b>"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "I wake always up early.",
+     "I always wake up early.",
+     "I wake up always early.",
+     "Always I wake up early."
+    ],
+    "q": "Choose the correct sentence.",
+    "why_bn": "সঠিক উত্তর I always wake up early। কারণ always, usually বসে মূল verb-এর আগে, subject-এর পরে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "goes",
+     "go",
+     "going",
+     "gone"
+    ],
+    "q": "She ___ to work every day.",
+    "why_bn": "সঠিক উত্তর goes। কারণ subject she হলে Present Simple-এ verb-এর সাথে s যোগ হয়।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "Does",
+     "Is",
+     "Do",
+     "Are"
+    ],
+    "q": "___ you usually have lunch at home?",
+    "why_bn": "সঠিক উত্তর Do। কারণ subject you-এর সাথে প্রশ্নে Do বসে, Does বসে he, she-এর সাথে।"
+   }
+  ],
+  "title_bn": "Present Simple আর Frequency Adverb"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি তোমার ঘুম, কাজ, খাওয়া আর সন্ধ্যার রুটিন নিয়ে সহজ ইংরেজিতে কথা বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমি সাধারণত ছয়টায় ঘুম থেকে উঠি।",
+   "pron_bn": "আই ইউজুয়ালি ওয়েক আপ অ্যাট সিক্স ও'ক্লক।",
+   "text": "I usually wake up at six o'clock."
+  },
+  {
+   "bn": "আমি সবসময় সকালে দাঁত মাজি।",
+   "pron_bn": "আই অলওয়েজ ব্রাশ মাই টিথ ইন দা মর্নিং।",
+   "text": "I always brush my teeth in the morning."
+  },
+  {
+   "bn": "আমি পরিবারের সাথে নাশতা করি।",
+   "pron_bn": "আই হ্যাভ ব্রেকফাস্ট উইথ মাই ফ্যামিলি।",
+   "text": "I have breakfast with my family."
+  },
+  {
+   "bn": "আমি সাধারণত বাসে কাজে যাই।",
+   "pron_bn": "আই ইউজুয়ালি গো টু ওয়ার্ক বাই বাস।",
+   "text": "I usually go to work by bus."
+  },
+  {
+   "bn": "আমি সবসময় একটায় দুপুরের খাবার খাই।",
+   "pron_bn": "আই অলওয়েজ হ্যাভ লাঞ্চ অ্যাট ওয়ান ও'ক্লক।",
+   "text": "I always have lunch at one o'clock."
+  },
+  {
+   "bn": "আমি সাধারণত বিকেলে জুস খাই।",
+   "pron_bn": "আই ইউজুয়ালি ড্রিংক জুস ইন দি আফটারনুন।",
+   "text": "I usually drink juice in the afternoon."
+  },
+  {
+   "bn": "আমি মাঝে মাঝে রান্নাঘরে মাকে সাহায্য করি।",
+   "pron_bn": "আই সামটাইমস হেল্প মাই মাদার ইন দা কিচেন।",
+   "text": "I sometimes help my mother in the kitchen."
+  },
+  {
+   "bn": "আমি সাধারণত পরিবারের সাথে চা খাই।",
+   "pron_bn": "আই ইউজুয়ালি ড্রিংক টি উইথ মাই ফ্যামিলি।",
+   "text": "I usually drink tea with my family."
+  },
+  {
+   "bn": "আমি রাতে দেরি করে কখনো খাই না।",
+   "pron_bn": "আই নেভার ইট লেট অ্যাট নাইট।",
+   "text": "I never eat late at night."
+  },
+  {
+   "bn": "আমি রাতে সবসময় দরজায় তালা দিই।",
+   "pron_bn": "আই অলওয়েজ লক দ্য ডোর অ্যাট নাইট।",
+   "text": "I always lock the door at night."
+  },
+  {
+   "bn": "আমি মাঝে মাঝে সন্ধ্যায় বন্ধুর সাথে হাঁটি।",
+   "pron_bn": "আই সামটাইমস ওয়াক উইথ মাই ফ্রেন্ড ইন দি ইভনিং।",
+   "text": "I sometimes walk with my friend in the evening."
+  },
+  {
+   "bn": "আমি সাধারণত এগারোটার আগে ঘুমাই।",
+   "pron_bn": "আই ইউজুয়ালি স্লিপ বিফোর ইলেভেন ও'ক্লক।",
+   "text": "I usually sleep before eleven o'clock."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হাই মিতু! সকালে তুমি সাধারণত কী করো?",
+   "pron_bn": "হাই মিতু! হোয়াট ডু ইউ ইউজুয়ালি ডু ইন দা মর্নিং?",
+   "speaker": "Rafi",
+   "text": "Hi Mitu! What do you usually do in the morning?"
+  },
+  {
+   "bn": "আমি সবসময় ছয়টায় ঘুম থেকে উঠি।",
+   "pron_bn": "আই অলওয়েজ ওয়েক আপ অ্যাট সিক্স ও'ক্লক।",
+   "speaker": "Mitu",
+   "text": "I always wake up at six o'clock."
+  },
+  {
+   "bn": "তুমি কি সবসময় পরিবারের সাথে নাশতা করো?",
+   "pron_bn": "ডু ইউ অলওয়েজ হ্যাভ ব্রেকফাস্ট উইথ ইয়োর ফ্যামিলি?",
+   "speaker": "Rafi",
+   "text": "Do you always have breakfast with your family?"
+  },
+  {
+   "bn": "হ্যাঁ, আমরা সাধারণত একসাথে ভাত আর সবজি খাই।",
+   "pron_bn": "ইয়েস, উই ইউজুয়ালি ইট রাইস অ্যান্ড ভেজিটেবলস টুগেদার।",
+   "speaker": "Mitu",
+   "text": "Yes, we usually eat rice and vegetables together."
+  },
+  {
+   "bn": "তুমি সাধারণত অফিসে কীভাবে যাও?",
+   "pron_bn": "হাউ ডু ইউ ইউজুয়ালি গো টু ইয়োর অফিস?",
+   "speaker": "Rafi",
+   "text": "How do you usually go to your office?"
+  },
+  {
+   "bn": "আমি সাধারণত বাসে অফিসে যাই।",
+   "pron_bn": "আই ইউজুয়ালি গো টু দি অফিস বাই বাস।",
+   "speaker": "Mitu",
+   "text": "I usually go to the office by bus."
+  },
+  {
+   "bn": "সন্ধ্যায় তুমি মাঝে মাঝে কী করো?",
+   "pron_bn": "হোয়াট ডু ইউ সামটাইমস ডু ইন দি ইভনিং?",
+   "speaker": "Rafi",
+   "text": "What do you sometimes do in the evening?"
+  },
+  {
+   "bn": "আমি মাঝে মাঝে চা খাই আর পরিবারের সাথে গল্প করি।",
+   "pron_bn": "আই সামটাইমস ড্রিংক টি অ্যান্ড টক উইথ মাই ফ্যামিলি।",
+   "speaker": "Mitu",
+   "text": "I sometimes drink tea and talk with my family."
+  }
+ ],
+ "tip_bn": "আয়নার সামনে দাঁড়িয়ে প্রতিদিন তোমার রুটিন জোরে জোরে ইংরেজিতে বলো। প্রথমে always দিয়ে বলো, তারপর usually, sometimes, never দিয়ে বদলে বলো।",
+ "title": "My Daily Routine",
+ "words": [
+  {
+   "bn": "ঘুম থেকে ওঠা",
+   "example": "I always wake up at six o'clock.",
+   "example_bn": "আমি সবসময় ছয়টায় ঘুম থেকে উঠি।",
+   "pron_bn": "ওয়েক আপ",
+   "text": "wake up"
+  },
+  {
+   "bn": "তৈরি হওয়া",
+   "example": "I usually get ready for work quickly.",
+   "example_bn": "আমি সাধারণত তাড়াতাড়ি কাজের জন্য তৈরি হই।",
+   "pron_bn": "গেট রেডি",
+   "text": "get ready"
+  },
+  {
+   "bn": "সকালের নাশতা",
+   "example": "We always have breakfast at seven o'clock.",
+   "example_bn": "আমরা সবসময় সাতটায় নাশতা করি।",
+   "pron_bn": "ব্রেকফাস্ট",
+   "text": "breakfast"
+  },
+  {
+   "bn": "অফিস, কর্মস্থল",
+   "example": "Tanvir usually goes to the office by bus.",
+   "example_bn": "তানভির সাধারণত বাসে অফিসে যায়।",
+   "pron_bn": "অফিস",
+   "text": "office"
+  },
+  {
+   "bn": "দুপুরের খাবার",
+   "example": "I usually have lunch with my friends.",
+   "example_bn": "আমি সাধারণত বন্ধুদের সাথে দুপুরের খাবার খাই।",
+   "pron_bn": "লাঞ্চ",
+   "text": "lunch"
+  },
+  {
+   "bn": "রান্না করা",
+   "example": "My mother sometimes cooks fish and rice.",
+   "example_bn": "আমার মা মাঝে মাঝে মাছ আর ভাত রান্না করেন।",
+   "pron_bn": "কুক",
+   "text": "cook"
+  },
+  {
+   "bn": "সন্ধ্যা",
+   "example": "We sometimes drink tea together in the evening.",
+   "example_bn": "আমরা মাঝে মাঝে সন্ধ্যায় একসাথে চা খাই।",
+   "pron_bn": "ইভনিং",
+   "text": "evening"
+  },
+  {
+   "bn": "রাতের খাবার",
+   "example": "We always have dinner with our family.",
+   "example_bn": "আমরা সবসময় পরিবারের সাথে রাতের খাবার খাই।",
+   "pron_bn": "ডিনার",
+   "text": "dinner"
+  },
+  {
+   "bn": "ঘুমানো",
+   "example": "I never sleep late at night.",
+   "example_bn": "আমি রাতে কখনো দেরি করে ঘুমাই না।",
+   "pron_bn": "স্লিপ",
+   "text": "sleep"
+  },
+  {
+   "bn": "ব্যস্ত",
+   "example": "I am usually busy in the morning.",
+   "example_bn": "আমি সকালে সাধারণত ব্যস্ত থাকি।",
+   "pron_bn": "বিজি",
+   "text": "busy"
+  }
+ ]
+}

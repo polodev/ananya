@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "রুমে একটা বিছানা আছে।",
+    "pron_bn": "এস গিপ্ট আইন বেট।",
+    "text": "Es gibt ein Bett."
+   },
+   {
+    "bn": "রুমটা বড়।",
+    "pron_bn": "ডাস ৎসিমা ইস্ট গ্রোস।",
+    "text": "Das Zimmer ist groß."
+   },
+   {
+    "bn": "কোনো বাতি নেই।",
+    "pron_bn": "এস গিপ্ট কাইনে লামপে।",
+    "text": "Es gibt keine Lampe."
+   },
+   {
+    "bn": "কোনো আলমারি নেই।",
+    "pron_bn": "এস গিপ্ট কাইনেন শ্রাংক।",
+    "text": "Es gibt keinen Schrank."
+   }
+  ],
+  "points_bn": [
+   "<b>es gibt</b> মানে ‘আছে’। বাসায় কী কী জিনিস আছে, সেটা বলতে এটা ব্যবহার করো।",
+   "<b>ist</b> এর পরে বিশেষণ একই রকম থাকে। যেমন: ist groß, ist hell, ist neu।",
+   "<b>kein / keine</b> মানে ‘নেই’। কোনো জিনিস নেই বোঝাতে এটা বলো।",
+   "es gibt-এর পরে শব্দ বদলায়: der → <b>einen / keinen</b> (keinen Stuhl), das → <b>ein / kein</b> (kein Bett), die → <b>eine / keine</b> (keine Lampe)।"
+  ],
+  "quiz": [
+   {
+    "answer": 0,
+    "options": [
+     "Es gibt",
+     "Es ist",
+     "Kein gibt",
+     "Sind gibt"
+    ],
+    "q": "___ ein Bett im Zimmer.",
+    "why_bn": "কোনো জিনিস ‘আছে’ বোঝাতে es gibt বলতে হয়, তাই সঠিক উত্তর Es gibt।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "gibt",
+     "keine",
+     "ist",
+     "gibt es"
+    ],
+    "q": "Das Zimmer ___ hell.",
+    "why_bn": "sein-এর পরে বিশেষণ বসে। Zimmer-এর সাথে ist বসে, তাই Das Zimmer ist hell সঠিক।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "kein",
+     "keinen",
+     "keine",
+     "nicht"
+    ],
+    "q": "Es gibt ___ Lampe.",
+    "why_bn": "Lampe হলো die শব্দ, মেয়েদের শব্দের সাথে keine বসে, তাই Es gibt keine Lampe সঠিক।"
+   }
+  ],
+  "title_bn": "বাসা নিয়ে বলা: es gibt, বিশেষণ আর kein / keine"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি তোমার বাসা, রুম আর আসবাব নিয়ে সহজ জার্মান ভাষায় বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমি একটা ফ্ল্যাটে থাকি।",
+   "pron_bn": "ইশ ভোনে ইন আইনা ভোনুং।",
+   "text": "Ich wohne in einer Wohnung."
+  },
+  {
+   "bn": "আমার বাসাটা ছোট।",
+   "pron_bn": "মাইনে ভোনুং ইস্ট ক্লাইন।",
+   "text": "Meine Wohnung ist klein."
+  },
+  {
+   "bn": "রুমটা আলো ঝলমলে আর সুন্দর।",
+   "pron_bn": "ডাস ৎসিমা ইস্ট হেল উন্ট শ্যোন।",
+   "text": "Das Zimmer ist hell und schön."
+  },
+  {
+   "bn": "দুটো রুম আছে।",
+   "pron_bn": "এস গিপ্ট ৎসভাই ৎসিমা।",
+   "text": "Es gibt zwei Zimmer."
+  },
+  {
+   "bn": "একটা রান্নাঘর আর একটা গোসলখানা আছে।",
+   "pron_bn": "এস গিপ্ট আইনে ক্যুশে উন্ট আইন বাট।",
+   "text": "Es gibt eine Küche und ein Bad."
+  },
+  {
+   "bn": "বিছানাটা নতুন।",
+   "pron_bn": "ডাস বেট ইস্ট নয়।",
+   "text": "Das Bett ist neu."
+  },
+  {
+   "bn": "টেবিলটা বড়।",
+   "pron_bn": "ডেয়া টিশ ইস্ট গ্রোস।",
+   "text": "Der Tisch ist groß."
+  },
+  {
+   "bn": "একটা আলমারি আছে কি?",
+   "pron_bn": "গিপ্ট এস আইনেন শ্রাংক?",
+   "text": "Gibt es einen Schrank?"
+  },
+  {
+   "bn": "কোনো চেয়ার নেই।",
+   "pron_bn": "এস গিপ্ট কাইনেন শ্টুল।",
+   "text": "Es gibt keinen Stuhl."
+  },
+  {
+   "bn": "কোনো বাতি নেই।",
+   "pron_bn": "এস গিপ্ট কাইনে লামপে।",
+   "text": "Es gibt keine Lampe."
+  },
+  {
+   "bn": "রান্নাঘরটা পরিষ্কার।",
+   "pron_bn": "ডি ক্যুশে ইস্ট জাউবা।",
+   "text": "Die Küche ist sauber."
+  },
+  {
+   "bn": "আমি বাসায় আছি।",
+   "pron_bn": "ইশ বিন ৎসু হাউজে।",
+   "text": "Ich bin zu Hause."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হ্যালো আনা! আমার বাসাটা আলো ঝলমলে।",
+   "pron_bn": "হালো আনা! মাইনে ভোনুং ইস্ট হেল।",
+   "speaker": "Rafi",
+   "text": "Hallo Anna! Meine Wohnung ist hell."
+  },
+  {
+   "bn": "হ্যালো রাফি! বাসাটা কি বড়?",
+   "pron_bn": "হালো রাফি! ইস্ট ডি ভোনুং গ্রোস?",
+   "speaker": "Anna",
+   "text": "Hallo Rafi! Ist die Wohnung groß?"
+  },
+  {
+   "bn": "হ্যাঁ, এটা বড় আর সুন্দর।",
+   "pron_bn": "ইয়া, জি ইস্ট গ্রোস উন্ট শ্যোন।",
+   "speaker": "Rafi",
+   "text": "Ja, sie ist groß und schön."
+  },
+  {
+   "bn": "রান্নাঘরে কী কী আছে?",
+   "pron_bn": "ভাস গিপ্ট এস ইন ডেয়া ক্যুশে?",
+   "speaker": "Anna",
+   "text": "Was gibt es in der Küche?"
+  },
+  {
+   "bn": "একটা টেবিল আর চেয়ার আছে।",
+   "pron_bn": "এস গিপ্ট আইনেন টিশ উন্ট শ্ট্যুলে।",
+   "speaker": "Rafi",
+   "text": "Es gibt einen Tisch und Stühle."
+  },
+  {
+   "bn": "রুমে কি একটা বিছানা আছে?",
+   "pron_bn": "গিপ্ট এস আইন বেট ইম ৎসিমা?",
+   "speaker": "Anna",
+   "text": "Gibt es ein Bett im Zimmer?"
+  },
+  {
+   "bn": "হ্যাঁ, কিন্তু কোনো বাতি নেই।",
+   "pron_bn": "ইয়া, আবা এস গিপ্ট কাইনে লামপে।",
+   "speaker": "Rafi",
+   "text": "Ja, aber es gibt keine Lampe."
+  },
+  {
+   "bn": "কোনো সমস্যা নেই! রুমটা নতুন।",
+   "pron_bn": "কাইন প্রোব্লেম! ডাস ৎসিমা ইস্ট নয়।",
+   "speaker": "Anna",
+   "text": "Kein Problem! Das Zimmer ist neu."
+  }
+ ],
+ "tip_bn": "জার্মানিতে অনেক মানুষ ভাড়া ফ্ল্যাটে থাকে, তাই বাসা দেখতে গেলে hell আর ruhig কথা দুটো খুব শোনা যায়। আয়নার সামনে দাঁড়িয়ে Meine Wohnung ist... দিয়ে তিনটা ছোট বাক্য বলো, এতে মুখস্থ হবে।",
+ "title": "Meine Wohnung",
+ "words": [
+  {
+   "bn": "বাসা, ফ্ল্যাট",
+   "example": "Meine Wohnung ist schön.",
+   "example_bn": "আমার বাসাটা সুন্দর।",
+   "pron_bn": "ডি ভোনুং",
+   "text": "die Wohnung"
+  },
+  {
+   "bn": "রুম",
+   "example": "Mein Zimmer ist klein.",
+   "example_bn": "আমার রুমটা ছোট।",
+   "pron_bn": "ডাস ৎসিমা",
+   "text": "das Zimmer"
+  },
+  {
+   "bn": "রান্নাঘর",
+   "example": "Die Küche ist neu.",
+   "example_bn": "রান্নাঘরটা নতুন।",
+   "pron_bn": "ডি ক্যুশে",
+   "text": "die Küche"
+  },
+  {
+   "bn": "গোসলখানা",
+   "example": "Das Bad ist klein.",
+   "example_bn": "গোসলখানাটা ছোট।",
+   "pron_bn": "ডাস বাট",
+   "text": "das Bad"
+  },
+  {
+   "bn": "বিছানা",
+   "example": "Das Bett ist groß.",
+   "example_bn": "বিছানাটা বড়।",
+   "pron_bn": "ডাস বেট",
+   "text": "das Bett"
+  },
+  {
+   "bn": "টেবিল",
+   "example": "Der Tisch ist neu.",
+   "example_bn": "টেবিলটা নতুন।",
+   "pron_bn": "ডেয়া টিশ",
+   "text": "der Tisch"
+  },
+  {
+   "bn": "চেয়ার",
+   "example": "Der Stuhl ist gut.",
+   "example_bn": "চেয়ারটা ভালো।",
+   "pron_bn": "ডেয়া শ্টুল",
+   "text": "der Stuhl"
+  },
+  {
+   "bn": "আলমারি",
+   "example": "Der Schrank ist groß.",
+   "example_bn": "আলমারিটা বড়।",
+   "pron_bn": "ডেয়া শ্রাংক",
+   "text": "der Schrank"
+  },
+  {
+   "bn": "বাতি",
+   "example": "Die Lampe ist hell.",
+   "example_bn": "বাতিটা উজ্জ্বল।",
+   "pron_bn": "ডি লামপে",
+   "text": "die Lampe"
+  },
+  {
+   "bn": "আলো ঝলমলে",
+   "example": "Die Wohnung ist hell.",
+   "example_bn": "বাসাটা আলো ঝলমলে।",
+   "pron_bn": "হেল",
+   "text": "hell"
+  }
+ ]
+}

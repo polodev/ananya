@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমাকে পানি পান করতে হবে।",
+    "pron_bn": "ইশ মুস ভাসা ট্রিংকেন।",
+    "text": "Ich muss Wasser trinken."
+   },
+   {
+    "bn": "আমাকে কি বাসায় থাকতে হবে?",
+    "pron_bn": "মুস ইশ ৎসু হাউজে ব্লাইবেন?",
+    "text": "Muss ich zu Hause bleiben?"
+   },
+   {
+    "bn": "এই ট্যাবলেটটি নিন দয়া করে।",
+    "pron_bn": "নেয়মেন জি বিটে ডিজে টাবলেটে।",
+    "text": "Nehmen Sie bitte diese Tablette."
+   },
+   {
+    "bn": "আমার গলা ব্যথা করছে।",
+    "pron_bn": "মাইন হাল্স টুট ভে।",
+    "text": "Mein Hals tut weh."
+   }
+  ],
+  "points_bn": [
+   "<b>Muss ich ...?</b> মানে আমার কি ... করতে হবে? শেষে মূল verb বসে, যেমন Muss ich Wasser trinken?",
+   "<b>ich muss, Sie müssen</b> মনে রাখো: ich-এর সাথে muss, আর ভদ্র Sie-এর সাথে müssen বসে।",
+   "<b>Nehmen Sie bitte ...</b> অচেনা মানুষকে ভদ্রভাবে কিছু বলতে verb দিয়ে শুরু করো, তারপর Sie বলো।",
+   "<b>Mein Kopf tut weh</b> মানে আমার মাথা ব্যথা করছে। শরীরের অংশ বদলে দাও: Mein Bauch tut weh, Mein Hals tut weh।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Musst",
+     "Muss",
+     "Müssen",
+     "Musstest"
+    ],
+    "q": "খালি জায়গায় কী বসবে: ___ ich Tabletten nehmen?",
+    "why_bn": "ich-এর সাথে muss বসে, তাই সঠিক উত্তর Muss।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Setzen Sie sich bitte.",
+     "Setz dich schnell!",
+     "Du setzen bitte.",
+     "Sie sitzen bitte!"
+    ],
+    "q": "ডাক্তারের কাছে ভদ্রভাবে কীভাবে বলবে?",
+    "why_bn": "অচেনা মানুষকে Sie দিয়ে বলতে হয়, verb আগে বসে: Setzen Sie sich bitte।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "Mein Kopf weh tut.",
+     "Ich tut weh Kopf.",
+     "Mein Kopf tut weh.",
+     "Mein Kopf wehen tut."
+    ],
+    "q": "আমার মাথা ব্যথা করছে — সঠিক জার্মান বাক্য কোনটি?",
+    "why_bn": "ব্যথা বলার নিয়ম হলো Mein + শরীরের অংশ + tut weh।"
+   }
+  ],
+  "title_bn": "ডাক্তারের কাছে: müssen আর নির্দেশ দেওয়া"
+ },
+ "intro_bn": "এই অধ্যায় শেষ করে তুমি ডাক্তারের কাছে ব্যথার কথা বলতে পারবে আর ওষুধ নিয়ে কথা বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমার জ্বর আছে।",
+   "pron_bn": "ইশ হাবে ফিবা।",
+   "text": "Ich habe Fieber."
+  },
+  {
+   "bn": "আমার মাথা ব্যথা করছে।",
+   "pron_bn": "মাইন কপফ টুট ভে।",
+   "text": "Mein Kopf tut weh."
+  },
+  {
+   "bn": "আমার পেট ব্যথা করছে।",
+   "pron_bn": "মাইন বাউখ টুট ভে।",
+   "text": "Mein Bauch tut weh."
+  },
+  {
+   "bn": "আমার গলা ব্যথা করছে।",
+   "pron_bn": "মাইন হাল্স টুট ভে।",
+   "text": "Mein Hals tut weh."
+  },
+  {
+   "bn": "আমার কাশি আছে।",
+   "pron_bn": "ইশ হাবে হুস্টেন।",
+   "text": "Ich habe Husten."
+  },
+  {
+   "bn": "আমার একজন ডাক্তার দরকার।",
+   "pron_bn": "ইশ ব্রাউখে আইনেন আৎসট।",
+   "text": "Ich brauche einen Arzt."
+  },
+  {
+   "bn": "ফার্মেসি কোথায়?",
+   "pron_bn": "ভো ইস্ট ডি আপোটেকে?",
+   "text": "Wo ist die Apotheke?"
+  },
+  {
+   "bn": "আমার একটা অ্যাপয়েন্টমেন্ট দরকার।",
+   "pron_bn": "ইশ ব্রাউখে আইনেন টেরমিন।",
+   "text": "Ich brauche einen Termin."
+  },
+  {
+   "bn": "আমাকে কি ট্যাবলেট নিতে হবে?",
+   "pron_bn": "মুস ইশ টাবলেটেন নেয়মেন?",
+   "text": "Muss ich Tabletten nehmen?"
+  },
+  {
+   "bn": "এই ট্যাবলেটটি নিন দয়া করে।",
+   "pron_bn": "নেয়মেন জি বিটে ডিজে টাবলেটে।",
+   "text": "Nehmen Sie bitte diese Tablette."
+  },
+  {
+   "bn": "অনেক পানি পান করুন।",
+   "pron_bn": "ট্রিংকেন জি ফিল ভাসা।",
+   "text": "Trinken Sie viel Wasser."
+  },
+  {
+   "bn": "দুই দিন বাসায় থাকুন।",
+   "pron_bn": "ব্লাইবেন জি ৎসভাই টাগে ৎসু হাউজে।",
+   "text": "Bleiben Sie zwei Tage zu Hause."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "শুভ দিন, আমার সাহায্য দরকার।",
+   "pron_bn": "গুটেন টাক, ইশ ব্রাউখে হিলফে।",
+   "speaker": "Rafi",
+   "text": "Guten Tag, ich brauche Hilfe."
+  },
+  {
+   "bn": "শুভ দিন, কোথায় ব্যথা করছে?",
+   "pron_bn": "গুটেন টাক, ভাস টুট ভে?",
+   "speaker": "Anna",
+   "text": "Guten Tag, was tut weh?"
+  },
+  {
+   "bn": "আমার মাথা ব্যথা করছে।",
+   "pron_bn": "মাইন কপফ টুট ভে।",
+   "speaker": "Rafi",
+   "text": "Mein Kopf tut weh."
+  },
+  {
+   "bn": "এই ট্যাবলেটটি নিন দয়া করে।",
+   "pron_bn": "নেয়মেন জি বিটে ডিজে টাবলেটে।",
+   "speaker": "Anna",
+   "text": "Nehmen Sie bitte diese Tablette."
+  },
+  {
+   "bn": "আমাকে কি পানি পান করতে হবে?",
+   "pron_bn": "মুস ইশ ভাসা ট্রিংকেন?",
+   "speaker": "Rafi",
+   "text": "Muss ich Wasser trinken?"
+  },
+  {
+   "bn": "হ্যাঁ, অনেক পানি পান করুন।",
+   "pron_bn": "ইয়া, ট্রিংকেন জি ফিল ভাসা।",
+   "speaker": "Anna",
+   "text": "Ja, trinken Sie viel Wasser."
+  },
+  {
+   "bn": "আমাকে কি বাসায় থাকতে হবে?",
+   "pron_bn": "মুস ইশ ৎসু হাউজে ব্লাইবেন?",
+   "speaker": "Rafi",
+   "text": "Muss ich zu Hause bleiben?"
+  },
+  {
+   "bn": "হ্যাঁ, দুই দিন বাসায় থাকুন।",
+   "pron_bn": "ইয়া, ব্লাইবেন জি ৎসভাই টাগে ৎসু হাউজে।",
+   "speaker": "Anna",
+   "text": "Ja, bleiben Sie zwei Tage zu Hause."
+  }
+ ],
+ "tip_bn": "জার্মানিতে ডাক্তার দেখাতে আগে Termin নিতে হয় আর ফার্মেসি থেকে Medizin কিনতে হয়। ব্যথা কোথায় তা আঙুল দিয়ে দেখিয়ে Mein ... tut weh বলো, ডাক্তার সহজে বুঝবেন।",
+ "title": "Beim Arzt",
+ "words": [
+  {
+   "bn": "মাথা",
+   "example": "Mein Kopf tut weh.",
+   "example_bn": "আমার মাথা ব্যথা করছে।",
+   "pron_bn": "ডেয়া কপফ",
+   "text": "der Kopf"
+  },
+  {
+   "bn": "পেট",
+   "example": "Mein Bauch tut weh.",
+   "example_bn": "আমার পেট ব্যথা করছে।",
+   "pron_bn": "ডেয়া বাউখ",
+   "text": "der Bauch"
+  },
+  {
+   "bn": "গলা",
+   "example": "Mein Hals tut weh.",
+   "example_bn": "আমার গলা ব্যথা করছে।",
+   "pron_bn": "ডেয়া হাল্স",
+   "text": "der Hals"
+  },
+  {
+   "bn": "জ্বর",
+   "example": "Ich habe Fieber.",
+   "example_bn": "আমার জ্বর আছে।",
+   "pron_bn": "ডাস ফিবা",
+   "text": "das Fieber"
+  },
+  {
+   "bn": "কাশি",
+   "example": "Ich habe Husten.",
+   "example_bn": "আমার কাশি আছে।",
+   "pron_bn": "ডেয়া হুস্টেন",
+   "text": "der Husten"
+  },
+  {
+   "bn": "ট্যাবলেট",
+   "example": "Ich nehme eine Tablette.",
+   "example_bn": "আমি একটা ট্যাবলেট নিচ্ছি।",
+   "pron_bn": "ডি টাবলেটে",
+   "text": "die Tablette"
+  },
+  {
+   "bn": "ওষুধ",
+   "example": "Nehmen Sie bitte die Medizin.",
+   "example_bn": "ওষুধটি নিন দয়া করে।",
+   "pron_bn": "ডি মেডিৎসিন",
+   "text": "die Medizin"
+  },
+  {
+   "bn": "ডাক্তার",
+   "example": "Ich brauche einen Arzt.",
+   "example_bn": "আমার একজন ডাক্তার দরকার।",
+   "pron_bn": "ডেয়া আৎসট",
+   "text": "der Arzt"
+  },
+  {
+   "bn": "ফার্মেসি",
+   "example": "Wo ist die Apotheke?",
+   "example_bn": "ফার্মেসি কোথায়?",
+   "pron_bn": "ডি আপোটেকে",
+   "text": "die Apotheke"
+  },
+  {
+   "bn": "অ্যাপয়েন্টমেন্ট",
+   "example": "Ich brauche einen Termin.",
+   "example_bn": "আমার একটা অ্যাপয়েন্টমেন্ট দরকার।",
+   "pron_bn": "ডেয়া টেরমিন",
+   "text": "der Termin"
+  }
+ ]
+}

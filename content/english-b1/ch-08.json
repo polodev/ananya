@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমার কাছে বেশি টাকা থাকলে, আমি প্রতি মাসে তা জমিয়ে রাখতাম।",
+    "pron_bn": "",
+    "text": "If I had more money, I would save it every month."
+   },
+   {
+    "bn": "সে অনলাইনে কিনলে, আগে রিটার্ন পলিসিটা দেখে নিত।",
+    "pron_bn": "",
+    "text": "If she shopped online, she would check the return policy first."
+   },
+   {
+    "bn": "দাম কম হলে, আমরা মাছ আর সবজি কিনতাম।",
+    "pron_bn": "",
+    "text": "We would buy fish and vegetables if the price was lower."
+   },
+   {
+    "bn": "তারা মোবাইল ব্যাংকিংয়ে পেমেন্ট করলে, আজ ক্যাশব্যাক পেত।",
+    "pron_bn": "",
+    "text": "If they paid by mobile banking, they would get cashback today."
+   }
+  ],
+  "points_bn": [
+   "কল্পনা বা ইচ্ছার কথা বলতে <b>If + past</b> দিয়ে বাক্য শুরু করো।",
+   "ফলাফল বোঝাতে <b>would + verb</b> ব্যবহার করো, যেমন would buy, would save।",
+   "I, he, she সবার সাথে was-এর বদলে <b>were</b> বলা যায়, বিশেষ করে <b>If I were you</b> (আমি তোমার জায়গায় হলে)।",
+   "এই ধরনের বাক্যে <b>will</b> বসে না, কারণ ঘটনাটা এখন সত্যি নয় — কল্পনা।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "If I have money, I would buy it.",
+     "If I had money, I would buy it.",
+     "If I had money, I will buy it.",
+     "If I have money, I would bought it."
+    ],
+    "q": "Which sentence is correct?",
+    "why_bn": "কল্পনার বাক্যে If-এর পরে past tense (had) আর পরে would বসে, তাই দ্বিতীয় বাক্যটি সঠিক।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "lives",
+     "will live",
+     "live",
+     "lived"
+    ],
+    "q": "If Tanvir ___ in Dhaka, he would shop online more often.",
+    "why_bn": "সেকেন্ড কন্ডিশনালে If-এর পরে past form বসে, তাই lives হবে না, lived হবে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "I am giving friendly advice about waiting.",
+     "I am ordering you to wait now.",
+     "I waited and got a discount yesterday.",
+     "I will wait after you give money."
+    ],
+    "q": "What does \"If I were you, I would wait for a discount.\" mean?",
+    "why_bn": "If I were you মানে বন্ধুর মতো পরামর্শ দেওয়া, অর্ডার করা নয়। এখানে ছাড়ের জন্য অপেক্ষা করতে বলা হচ্ছে।"
+   }
+  ],
+  "title_bn": "সেকেন্ড কন্ডিশনাল — If + past, would"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি অনলাইনে কেনাকাটা, মোবাইল ব্যাংকিং আর টাকা জমানো নিয়ে ইংরেজিতে কথা বলতে পারবে। কল্পনা করে ‘থাকলে করতাম’ ধরনের বাক্যও বলতে শিখবে।",
+ "phrases": [
+  {
+   "bn": "আমি হলে কেনার আগে দাম তুলনা করতাম।",
+   "pron_bn": "",
+   "text": "If I were you, I would compare prices before buying."
+  },
+  {
+   "bn": "প্রতিদিন বাইরে খাবার না কিনলে আমি আরও টাকা জমাতাম।",
+   "pron_bn": "",
+   "text": "I would save more if I stopped ordering food every day."
+  },
+  {
+   "bn": "ডেলিভারি ফ্রি হলে আপনি কি অনলাইনে কিনতেন?",
+   "pron_bn": "",
+   "text": "Would you shop online if delivery was free?"
+  },
+  {
+   "bn": "মোবাইল ব্যাংকিং দিয়ে টাকা পাঠাব কীভাবে?",
+   "pron_bn": "",
+   "text": "How can I send money by mobile banking?"
+  },
+  {
+   "bn": "চট্টগ্রাম শহরের জন্য ডেলিভারি চার্জ কত?",
+   "pron_bn": "",
+   "text": "What is the delivery charge for Chittagong city?"
+  },
+  {
+   "bn": "নষ্ট জিনিসের জন্য এই দোকান কি রিফান্ড দেয়?",
+   "pron_bn": "",
+   "text": "Does this shop offer a refund for damaged items?"
+  },
+  {
+   "bn": "পেমেন্ট করার আগে রিটার্ন পলিসিটা দেখে নিন।",
+   "pron_bn": "",
+   "text": "Please check the return policy before you pay now."
+  },
+  {
+   "bn": "অনলাইনে জুতা কেনার আগে আমি সবসময় রিভিউ পড়ি।",
+   "pron_bn": "",
+   "text": "I always read customer reviews before buying shoes online."
+  },
+  {
+   "bn": "আমার কাছে ডিসকাউন্ট কুপন থাকলে আমি নতুন ব্যাগ কিনতাম।",
+   "pron_bn": "",
+   "text": "If I had a discount coupon, I would buy a new bag."
+  },
+  {
+   "bn": "আমি প্রতি মাসে সেভিংস অ্যাকাউন্টে টাকা জমাতে চাই।",
+   "pron_bn": "",
+   "text": "I want to save money in my savings account monthly."
+  },
+  {
+   "bn": "এই মোবাইল অ্যাপে কি অনলাইন পেমেন্ট নিরাপদ?",
+   "pron_bn": "",
+   "text": "Is online payment safe with this mobile app?"
+  },
+  {
+   "bn": "প্রতি মাসে অনলাইন কেনাকাটার জন্য আমি অল্প বাজেট রাখি।",
+   "pron_bn": "",
+   "text": "I keep a small budget for online shopping each month."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আমার কাছে বাড়তি টাকা থাকলে, আমি এই মাসে একটা সেভিংস অ্যাকাউন্ট খুলতাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If I had extra money, I would open a savings account this month."
+  },
+  {
+   "bn": "তুমি খুললে, প্রতি সপ্তাহে অল্প অল্প করে জমাতে পারতে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "If you opened it, you would save a small amount every week."
+  },
+  {
+   "bn": "আমি অনলাইনে জুতা কিনলে, আগে কাস্টমার রিভিউ অংশটা পড়তাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If I bought shoes online, I would read the customer review section first."
+  },
+  {
+   "bn": "দোকানটা ছাড় দিলে, আমরা আজ একসাথে বাজার অর্ডার করতাম।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "If the shop gave a discount, we would order groceries together today."
+  },
+  {
+   "bn": "ডেলিভারি চার্জ বেশি হলে আমি অর্ডারটা বাতিল করে দিতাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If the delivery charge were too high, I would cancel the order."
+  },
+  {
+   "bn": "আমি মোবাইল ব্যাংকিংয়ে দিলে, আজ রাতে কিছু ক্যাশব্যাক পেতাম।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "If I paid by mobile banking, I would get some cashback tonight."
+  },
+  {
+   "bn": "শার্টটা ফিট না হলে, আমি দ্রুত রিটার্ন পলিসি অনুযায়ী ফেরত দিতাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If the shirt did not fit, I would follow the return policy quickly."
+  },
+  {
+   "bn": "আমরা মাসের বাজেট করলে, অনলাইন কেনাকাটা আরও ভালোভাবে সামলাতে পারতাম।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "If we made a monthly budget, we would control our online shopping better."
+  },
+  {
+   "bn": "ওয়েবসাইটটা রিফান্ড দিলে, আমি নিশ্চিন্তে অনলাইন পেমেন্টে কিনতাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "If the website offered a refund, I would try online payment without worry."
+  }
+ ],
+ "tip_bn": "অনলাইনে কেনার আগে দাম, ডেলিভারি চার্জ আর রিটার্ন পলিসি ভালো করে দেখে নাও। মোবাইল ব্যাংকিংয়ে পেমেন্টের সময় পিন বা OTP কাউকে বলবে না, আর প্রতি মাসে অল্প করে জমানোর অভ্যাস করো।",
+ "title": "Money and Online Shopping",
+ "words": [
+  {
+   "bn": "টাকা ফেরত",
+   "example": "I got a full refund when the fish curry box arrived late.",
+   "example_bn": "ফিশ কারির বক্স দেরিতে আসায় আমি পুরো টাকা ফেরত পেয়েছিলাম।",
+   "pron_bn": "রিফান্ড",
+   "text": "refund"
+  },
+  {
+   "bn": "ছাড়",
+   "example": "This shop gives a big discount on rice and cooking oil.",
+   "example_bn": "এই দোকানটা চাল আর রান্নার তেলে বড় ছাড় দেয়।",
+   "pron_bn": "ডিসকাউন্ট",
+   "text": "discount"
+  },
+  {
+   "bn": "ডেলিভারি খরচ",
+   "example": "The delivery charge for Chandpur is only sixty taka today.",
+   "example_bn": "আজ চাঁদপুরের জন্য ডেলিভারি খরচ মাত্র ষাট টাকা।",
+   "pron_bn": "ডেলিভারি চার্জ",
+   "text": "delivery charge"
+  },
+  {
+   "bn": "কেনাকাটায় ফেরত পাওয়া টাকা",
+   "example": "I received two hundred taka cashback after paying the bill.",
+   "example_bn": "বিল দেওয়ার পর আমি দুইশ টাকা ক্যাশব্যাক পেয়েছিলাম।",
+   "pron_bn": "ক্যাশব্যাক",
+   "text": "cashback"
+  },
+  {
+   "bn": "বাজেট, খরচের হিসাব",
+   "example": "We made a monthly budget to control our online shopping costs.",
+   "example_bn": "অনলাইন কেনাকাটার খরচ সামলাতে আমরা মাসের বাজেট করেছি।",
+   "pron_bn": "বাজেট",
+   "text": "budget"
+  },
+  {
+   "bn": "সঞ্চয়ী হিসাব",
+   "example": "Rafi opened a savings account to save money every month.",
+   "example_bn": "প্রতি মাসে টাকা জমাতে রাফি একটা সেভিংস অ্যাকাউন্ট খুলেছে।",
+   "pron_bn": "সেভিংস অ্যাকাউন্ট",
+   "text": "savings account"
+  },
+  {
+   "bn": "মোবাইল ব্যাংকিং",
+   "example": "I pay my electricity bill easily by mobile banking now.",
+   "example_bn": "এখন আমি মোবাইল ব্যাংকিং দিয়ে সহজে বিদ্যুৎ বিল দিই।",
+   "pron_bn": "মোবাইল ব্যাংকিং",
+   "text": "mobile banking"
+  },
+  {
+   "bn": "অনলাইন পেমেন্ট",
+   "example": "Online payment is very easy if you have a strong password.",
+   "example_bn": "শক্তিশালী পাসওয়ার্ড থাকলে অনলাইন পেমেন্ট খুব সহজ।",
+   "pron_bn": "অনলাইন পেমেন্ট",
+   "text": "online payment"
+  },
+  {
+   "bn": "ক্রেতার মতামত",
+   "example": "I always read the customer review before I buy a phone.",
+   "example_bn": "ফোন কেনার আগে আমি সবসময় ক্রেতাদের মতামত পড়ি।",
+   "pron_bn": "কাস্টমার রিভিউ",
+   "text": "customer review"
+  },
+  {
+   "bn": "ফেরত দেওয়ার নিয়ম",
+   "example": "This shop has a clear return policy for damaged shirts.",
+   "example_bn": "নষ্ট শার্ট ফেরত দেওয়ার স্পষ্ট নিয়ম এই দোকানে আছে।",
+   "pron_bn": "রিটার্ন পলিসি",
+   "text": "return policy"
+  }
+ ]
+}

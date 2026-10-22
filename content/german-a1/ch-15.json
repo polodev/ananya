@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি চা পান করেছি।",
+    "pron_bn": "ইশ হাবে টে গেট্রুংকেন।",
+    "text": "Ich habe Tee getrunken."
+   },
+   {
+    "bn": "আমি মাছ খেয়েছি।",
+    "pron_bn": "ইশ হাবে ফিশ গেগেসেন।",
+    "text": "Ich habe Fisch gegessen."
+   },
+   {
+    "bn": "আমি হাঁটতে গিয়েছিলাম।",
+    "pron_bn": "ইশ বিন শ্পাৎসিরেন গেগাঙেন।",
+    "text": "Ich bin spazieren gegangen."
+   },
+   {
+    "bn": "আমরা বাসায় থেকেছি।",
+    "pron_bn": "ভিয়া জিন্ট ৎসু হাউজে গেব্লিবেন।",
+    "text": "Wir sind zu Hause geblieben."
+   }
+  ],
+  "points_bn": [
+   "সপ্তাহান্তের কথা বলতে <b>Perfekt</b> ব্যবহার করো: <b>haben / sein + Partizip II</b>। যেমন: habe gemacht, bin gegangen।",
+   "বেশিরভাগ কাজের জন্য <b>haben</b> বসে: habe gegessen, habe getrunken, habe geschlafen।",
+   "যাওয়া-আসা বা থাকার বদলের জন্য <b>sein</b> বসে: bin gegangen, bin geblieben।",
+   "বাক্যে Partizip II সবসময় <b>শেষে</b> বসে: Ich habe Tee getrunken।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "bin",
+     "habe",
+     "ist",
+     "sind"
+    ],
+    "q": "Ich ___ viel geschlafen.",
+    "why_bn": "ঘুমানো কোনো যাওয়া-আসা নয়, তাই haben বসে। ich-এর সঙ্গে হবে habe।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "habe",
+     "hat",
+     "bin",
+     "hast"
+    ],
+    "q": "Ich ___ spazieren gegangen.",
+    "why_bn": "gehen মানে হেঁটে যাওয়া, নড়াচড়া বোঝায়। তাই sein বসে। ich-এর সঙ্গে হবে bin।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Hast",
+     "Habe",
+     "Bist",
+     "Habt"
+    ],
+    "q": "___ du Tee getrunken?",
+    "why_bn": "trinken-এর সঙ্গে haben বসে। du-এর সঙ্গে প্রশ্নে হবে Hast du ... getrunken?"
+   }
+  ],
+  "title_bn": "haben আর sein দিয়ে Perfekt"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি সপ্তাহান্তে কী করেছ তা জার্মান ভাষায় বলতে পারবে। haben আর sein দিয়ে সহজ অতীতকাল শিখবে।",
+ "phrases": [
+  {
+   "bn": "তুমি কী করেছ?",
+   "pron_bn": "ভাস হাস্ট ডু গেমাখ্ট?",
+   "text": "Was hast du gemacht?"
+  },
+  {
+   "bn": "আমি কাজ করেছি।",
+   "pron_bn": "ইশ হাবে গেআর্বাইটেট।",
+   "text": "Ich habe gearbeitet."
+  },
+  {
+   "bn": "আমি মাছ খেয়েছি।",
+   "pron_bn": "ইশ হাবে ফিশ গেগেসেন।",
+   "text": "Ich habe Fisch gegessen."
+  },
+  {
+   "bn": "আমি চা পান করেছি।",
+   "pron_bn": "ইশ হাবে টে গেট্রুংকেন।",
+   "text": "Ich habe Tee getrunken."
+  },
+  {
+   "bn": "আমি অনেক ঘুমিয়েছি।",
+   "pron_bn": "ইশ হাবে ফিল গেশ্লাফেন।",
+   "text": "Ich habe viel geschlafen."
+  },
+  {
+   "bn": "আমি বাসায় থেকেছি।",
+   "pron_bn": "ইশ বিন ৎসু হাউজে গেব্লিবেন।",
+   "text": "Ich bin zu Hause geblieben."
+  },
+  {
+   "bn": "তুমি কি হাঁটতে গিয়েছিলে?",
+   "pron_bn": "বিস্ট ডু শ্পাৎসিরেন গেগাঙেন?",
+   "text": "Bist du spazieren gegangen?"
+  },
+  {
+   "bn": "খুব মজা হয়েছে!",
+   "pron_bn": "এস হাট শ্পাস গেমাখ্ট!",
+   "text": "Es hat Spaß gemacht!"
+  },
+  {
+   "bn": "তুমি কি আনাকে দেখেছ?",
+   "pron_bn": "হাস্ট ডু আনা গেজেয়েন?",
+   "text": "Hast du Anna gesehen?"
+  },
+  {
+   "bn": "আমি রুটি কিনেছি।",
+   "pron_bn": "ইশ হাবে ব্রোট গেকাউফ্ট।",
+   "text": "Ich habe Brot gekauft."
+  },
+  {
+   "bn": "আমরা একসঙ্গে খেয়েছি।",
+   "pron_bn": "ভিয়া হাবেন ৎসুজামেন গেগেসেন।",
+   "text": "Wir haben zusammen gegessen."
+  },
+  {
+   "bn": "আপনি কী করেছেন?",
+   "pron_bn": "ভাস হাবেন জি গেমাখ্ট?",
+   "text": "Was haben Sie gemacht?"
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হ্যালো আনা! সপ্তাহান্তে তুমি কী করেছ?",
+   "pron_bn": "হালো আনা! ভাস হাস্ট ডু আম ভখেনএন্ডে গেমাখ্ট?",
+   "speaker": "Rafi",
+   "text": "Hallo Anna! Was hast du am Wochenende gemacht?"
+  },
+  {
+   "bn": "আমি অনেক ঘুমিয়েছি।",
+   "pron_bn": "ইশ হাবে ফিল গেশ্লাফেন।",
+   "speaker": "Anna",
+   "text": "Ich habe viel geschlafen."
+  },
+  {
+   "bn": "তুমি কি মাছ খেয়েছ?",
+   "pron_bn": "হাস্ট ডু ফিশ গেগেসেন?",
+   "speaker": "Rafi",
+   "text": "Hast du Fisch gegessen?"
+  },
+  {
+   "bn": "হ্যাঁ, আমি মাছ খেয়েছি।",
+   "pron_bn": "ইয়া, ইশ হাবে ফিশ গেগেসেন।",
+   "speaker": "Anna",
+   "text": "Ja, ich habe Fisch gegessen."
+  },
+  {
+   "bn": "তুমি কি হাঁটতে গিয়েছিলে?",
+   "pron_bn": "বিস্ট ডু শ্পাৎসিরেন গেগাঙেন?",
+   "speaker": "Rafi",
+   "text": "Bist du spazieren gegangen?"
+  },
+  {
+   "bn": "হ্যাঁ, আমি হাঁটতে গিয়েছিলাম।",
+   "pron_bn": "ইয়া, ইশ বিন শ্পাৎসিরেন গেগাঙেন।",
+   "speaker": "Anna",
+   "text": "Ja, ich bin spazieren gegangen."
+  },
+  {
+   "bn": "আমি চা পান করেছি।",
+   "pron_bn": "ইশ হাবে টে গেট্রুংকেন।",
+   "speaker": "Rafi",
+   "text": "Ich habe Tee getrunken."
+  },
+  {
+   "bn": "এটা খুব মজার ছিল!",
+   "pron_bn": "ডাস হাট শ্পাস গেমাখ্ট!",
+   "speaker": "Anna",
+   "text": "Das hat Spaß gemacht!"
+  }
+ ],
+ "tip_bn": "জার্মানিতে সোমবারে সবাই জিজ্ঞেস করে: Und, was hast du am Wochenende gemacht? তুমি দুটো ছোট বাক্যে উত্তর দাও, যেমন: Ich habe geschlafen. Ich habe Fisch gegessen. এতেই যথেষ্ট।",
+ "title": "Mein Wochenende",
+ "words": [
+  {
+   "bn": "সপ্তাহান্ত, শনি-রবিবার ছুটি",
+   "example": "Was hast du am Wochenende gemacht?",
+   "example_bn": "সপ্তাহান্তে তুমি কী করেছ?",
+   "pron_bn": "ডাস ভখেনএন্ডে",
+   "text": "das Wochenende"
+  },
+  {
+   "bn": "করেছি",
+   "example": "Ich habe viel gemacht.",
+   "example_bn": "আমি অনেক কিছু করেছি।",
+   "pron_bn": "গেমাখ্ট",
+   "text": "gemacht"
+  },
+  {
+   "bn": "খেয়েছি",
+   "example": "Ich habe Reis gegessen.",
+   "example_bn": "আমি ভাত খেয়েছি।",
+   "pron_bn": "গেগেসেন",
+   "text": "gegessen"
+  },
+  {
+   "bn": "পান করেছি",
+   "example": "Ich habe Saft getrunken.",
+   "example_bn": "আমি জুস পান করেছি।",
+   "pron_bn": "গেট্রুংকেন",
+   "text": "getrunken"
+  },
+  {
+   "bn": "ঘুমিয়েছি",
+   "example": "Ich habe lange geschlafen.",
+   "example_bn": "আমি অনেকক্ষণ ঘুমিয়েছি।",
+   "pron_bn": "গেশ্লাফেন",
+   "text": "geschlafen"
+  },
+  {
+   "bn": "গিয়েছি",
+   "example": "Ich bin spazieren gegangen.",
+   "example_bn": "আমি হাঁটতে গিয়েছিলাম।",
+   "pron_bn": "গেগাঙেন",
+   "text": "gegangen"
+  },
+  {
+   "bn": "দেখেছি",
+   "example": "Hast du Lukas gesehen?",
+   "example_bn": "তুমি কি লুকাসকে দেখেছ?",
+   "pron_bn": "গেজেয়েন",
+   "text": "gesehen"
+  },
+  {
+   "bn": "কিনেছি",
+   "example": "Ich habe Brot gekauft.",
+   "example_bn": "আমি রুটি কিনেছি।",
+   "pron_bn": "গেকাউফ্ট",
+   "text": "gekauft"
+  },
+  {
+   "bn": "রান্না করেছি",
+   "example": "Ich habe Reis gekocht.",
+   "example_bn": "আমি ভাত রান্না করেছি।",
+   "pron_bn": "গেকখ্ট",
+   "text": "gekocht"
+  },
+  {
+   "bn": "দেখা করতে গিয়েছি",
+   "example": "Ich habe Nadia besucht.",
+   "example_bn": "আমি নাদিয়ার সঙ্গে দেখা করেছি।",
+   "pron_bn": "বেজুখ্ট",
+   "text": "besucht"
+  }
+ ]
+}

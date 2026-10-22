@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আগামী বছরের মধ্যে আমরা সিলেটে আরও দুটি শাখা খুলে ফেলব।",
+    "pron_bn": "",
+    "text": "By next year, we will have opened two more branches in Sylhet."
+   },
+   {
+    "bn": "আগামীকাল সকাল দশটায় আমি একজন নতুন সরবরাহকারীর সঙ্গে কথা বলায় ব্যস্ত থাকব।",
+    "pron_bn": "",
+    "text": "At 10 a.m. tomorrow, I will be talking to a new supplier."
+   },
+   {
+    "bn": "দোকান খোলার আগেই তারা যথেষ্ট টাকা জমিয়ে ফেলবে।",
+    "pron_bn": "",
+    "text": "They will have saved enough money before the shop opens."
+   },
+   {
+    "bn": "রমজান মাসে প্রতিদিন সন্ধ্যাজুড়ে আমরা মুদি পণ্যের অর্ডার পৌঁছে দেওয়ায় ব্যস্ত থাকব।",
+    "pron_bn": "",
+    "text": "We will be delivering grocery orders all evening during the Ramadan month."
+   }
+  ],
+  "points_bn": [
+   "<b>will have + V3</b> দিয়ে বোঝায় ভবিষ্যতের একটি নির্দিষ্ট সময়ের মধ্যে কাজ শেষ হয়ে যাবে।",
+   "<b>will be + verb-ing</b> দিয়ে বোঝায় ভবিষ্যতের কোনো এক মুহূর্তে কাজ চলতে থাকবে।",
+   "ফিউচার পারফেক্টের সঙ্গে প্রায়ই <b>by, by the time, before</b> থাকে।",
+   "ফিউচার কন্টিনিউয়াসের সঙ্গে প্রায়ই <b>at this time tomorrow, tomorrow morning</b> এর মতো নির্দিষ্ট সময় থাকে।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "will be open",
+     "will have opened",
+     "have opened",
+     "are opening"
+    ],
+    "q": "By next Eid, we ___ our pharmacy.",
+    "why_bn": "আগামী ঈদের মধ্যে কাজ শেষ হয়ে যাবে, তাই ফিউচার পারফেক্ট will have opened হবে।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "will have meet",
+     "have been meeting",
+     "will be meeting",
+     "meet"
+    ],
+    "q": "At this time tomorrow, I ___ with suppliers.",
+    "why_bn": "আগামীকাল এই সময়ে কাজ চলতে থাকবে, তাই ফিউচার কন্টিনিউয়াস will be meeting হবে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "will have completed",
+     "will be complete",
+     "is completing",
+     "has complete"
+    ],
+    "q": "By March, she ___ the pharmacist training course.",
+    "why_bn": "মার্চের মধ্যে কোর্স শেষ হয়ে যাবে, তাই will have + V3 অর্থাৎ will have completed হবে।"
+   }
+  ],
+  "title_bn": "ফিউচার পারফেক্ট ও ফিউচার কন্টিনিউয়াস"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি ছোট ফার্মেসি বা অনলাইন দোকান নিয়ে ভবিষ্যৎ পরিকল্পনা বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "তোমার নতুন ফার্মেসির জন্য ট্রেড লাইসেন্স কবে তৈরি হয়ে যাবে?",
+   "pron_bn": "",
+   "text": "When will you have the trade license ready for your new pharmacy?"
+  },
+  {
+   "bn": "আগামীকাল এই সময়ে আমি অনলাইন দোকানে নতুন পণ্যের ছবি আপলোড করায় ব্যস্ত থাকব।",
+   "pron_bn": "",
+   "text": "At this time tomorrow, I will be uploading new product photos to our online shop."
+  },
+  {
+   "bn": "আগামী মাসের মধ্যে আমাদের প্রথম বড় অর্ডারের জন্য যথেষ্ট টাকা জমা হয়ে যাবে।",
+   "pron_bn": "",
+   "text": "By next month, we will have saved enough money for our first big order."
+  },
+  {
+   "bn": "ঢাকা শহরে তুমি আর কতদিন বিনামূল্যে হোম ডেলিভারি দেবে?",
+   "pron_bn": "",
+   "text": "How long will you be offering free home delivery in Dhaka city?"
+  },
+  {
+   "bn": "তোমাদের মতামত জানাও, যাতে আমরা দ্রুত সেবা ভালো করতে পারি।",
+   "pron_bn": "",
+   "text": "Please share your customer feedback so we can improve our service quickly."
+  },
+  {
+   "bn": "আগামীকাল দোকান খোলার আগেই আমরা সব মজুত পণ্য মিলিয়ে ফেলব।",
+   "pron_bn": "",
+   "text": "We will have checked all the inventory before the shop opens tomorrow."
+  },
+  {
+   "bn": "সকালে আমাদের সরবরাহকারী তাজা মাছ, মুরগি আর সবজি নিয়ে আসবে।",
+   "pron_bn": "",
+   "text": "Our supplier will be bringing fresh fish, chicken and vegetables in the morning."
+  },
+  {
+   "bn": "বছর শেষের মধ্যে আমাদের ছোট ব্যবসার খরচ পুরোপুরি উঠে আসবে।",
+   "pron_bn": "",
+   "text": "By the end of the year, our small business will have broken even completely."
+  },
+  {
+   "bn": "চাল, চা আর অন্যান্য দৈনন্দিন বাজারে তোমাদের লাভের হার কত?",
+   "pron_bn": "",
+   "text": "What is your profit margin on rice, tea and other daily grocery items?"
+  },
+  {
+   "bn": "আজ রাত আটটার পর আমরা সব ক্রেতার মেসেজের উত্তর দেওয়ায় ব্যস্ত থাকব।",
+   "pron_bn": "",
+   "text": "We will be answering all customer messages after eight o'clock tonight."
+  },
+  {
+   "bn": "তোমার অনলাইন চায়ের দোকান চালু করতে কত মূলধন লেগেছিল?",
+   "pron_bn": "",
+   "text": "How much startup capital did you need to launch your online tea shop?"
+  },
+  {
+   "bn": "আগামী শুক্রবারের মধ্যে আমি দুজন বিনিয়োগকারীর সঙ্গে মার্কেটিং পরিকল্পনা নিয়ে কথা বলে ফেলব।",
+   "pron_bn": "",
+   "text": "By next Friday, I will have spoken to two investors about our marketing plan."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আগামী ডিসেম্বরের মধ্যে আমরা চাঁদপুর বাসস্ট্যান্ডের কাছে আমাদের ছোট ফার্মেসি খুলে ফেলব।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "By next December, we will have opened our small pharmacy near the Chandpur bus stand."
+  },
+  {
+   "bn": "আগামীকাল এই সময়ে আমি ওষুধের সরবরাহকারীদের সঙ্গে বসে দামের তালিকা মেলানোয় ব্যস্ত থাকব।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "At this time tomorrow, I will be meeting medicine suppliers and comparing their price lists."
+  },
+  {
+   "bn": "এই বছরের শেষে আমাদের অনলাইন দোকান দুই হাজারের বেশি খাবার ও মুদি অর্ডার পৌঁছে দিয়ে ফেলবে।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "By the end of this year, our online shop will have delivered over two thousand food and grocery orders."
+  },
+  {
+   "bn": "এই সপ্তাহান্তে আমরা ট্রেড লাইসেন্সের কাগজ তৈরি আর মজুত তালিকা মেলানোয় ব্যস্ত থাকব।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "This weekend, we will be preparing our trade license papers and checking the inventory list carefully."
+  },
+  {
+   "bn": "মার্চের মধ্যে মিতু ফার্মাসিস্ট প্রশিক্ষণ শেষ করে দোকানে পুরো সময় যোগ দেবে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "By March, Mitu will have completed the pharmacist training course and joined the shop full time."
+  },
+  {
+   "bn": "আগামীকাল সন্ধ্যায় ক্রেতারা ঢাকায় আমাদের নতুন হোম ডেলিভারি সেবা নিয়ে মতামত দেবে।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Tomorrow evening, customers will be giving feedback on our new home delivery service in Dhaka."
+  },
+  {
+   "bn": "আগামী ঈদের মধ্যে আমাদের প্রথম বড় বিনিয়োগের খরচ তুলতে যথেষ্ট লাভ জমে যাবে।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "By next Eid, we will have saved enough profit to break even on our first big investment."
+  },
+  {
+   "bn": "আগামীকাল সকাল নয়টায় তানভীর দুজন তরুণ ডিজাইনারের সঙ্গে মার্কেটিং কৌশল নিয়ে আলোচনায় থাকবে।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "At nine tomorrow morning, Tanvir will be discussing the marketing strategy with two young designers."
+  },
+  {
+   "bn": "২০৩০ সালের মধ্যে আমাদের ছোট উদ্যোগ আমাদের শহরের তরুণদের জন্য দশটি চাকরি তৈরি করে ফেলবে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "By 2030, our small startup will have created ten jobs for young people in our town."
+  }
+ ],
+ "tip_bn": "নিজের ব্যবসার স্বপ্ন নিয়ে প্রতিদিন দুটি বাক্য বলো, একবার will have দিয়ে, একবার will be দিয়ে। দোকানে বা বাজারে গেলে সাইনবোর্ড আর দাম দেখে নতুন ইংরেজি শব্দ খাতায় লিখে রাখো।",
+ "title": "Starting a Small Business",
+ "words": [
+  {
+   "bn": "ব্যবসা শুরুর মূলধন",
+   "example": "We will need two lakh taka as startup capital for our pharmacy.",
+   "example_bn": "আমাদের ফার্মেসির জন্য স্টার্টআপ মূলধন হিসেবে দুই লাখ টাকা লাগবে।",
+   "pron_bn": "স্টার্টআপ ক্যাপিটাল",
+   "text": "startup capital"
+  },
+  {
+   "bn": "লাভের হার",
+   "example": "Our profit margin on baby food and juice is quite reasonable this month.",
+   "example_bn": "এই মাসে শিশুখাদ্য ও জুসে আমাদের লাভের হার বেশ ভালো।",
+   "pron_bn": "প্রফিট মার্জিন",
+   "text": "profit margin"
+  },
+  {
+   "bn": "মজুত পণ্যের তালিকা",
+   "example": "By Friday, we will have checked the full inventory of medicines twice.",
+   "example_bn": "শুক্রবারের মধ্যে আমরা ওষুধের পুরো মজুত তালিকা দুবার মিলিয়ে ফেলব।",
+   "pron_bn": "ইনভেন্টরি",
+   "text": "inventory"
+  },
+  {
+   "bn": "সরবরাহকারী",
+   "example": "Our fish and vegetable supplier will be delivering fresh goods tomorrow morning.",
+   "example_bn": "আমাদের মাছ ও সবজির সরবরাহকারী আগামীকাল সকালে তাজা পণ্য পৌঁছে দেবে।",
+   "pron_bn": "সাপ্লাইয়ার",
+   "text": "supplier"
+  },
+  {
+   "bn": "ব্যবসার লাইসেন্স",
+   "example": "Without a valid trade license, we cannot open our shop in Chittagong.",
+   "example_bn": "বৈধ ট্রেড লাইসেন্স ছাড়া আমরা চট্টগ্রামে দোকান খুলতে পারব না।",
+   "pron_bn": "ট্রেড লাইসেন্স",
+   "text": "trade license"
+  },
+  {
+   "bn": "লাভ-ক্ষতি সমান হওয়া",
+   "example": "After six months, our online shop will finally break even.",
+   "example_bn": "ছয় মাস পর আমাদের অনলাইন দোকানের খরচ অবশেষে উঠে আসবে।",
+   "pron_bn": "ব্রেক ইভেন",
+   "text": "break even"
+  },
+  {
+   "bn": "ক্রেতাদের মতামত",
+   "example": "We always read customer feedback before ordering new fruit and tea.",
+   "example_bn": "নতুন ফল ও চা অর্ডার করার আগে আমরা সবসময় ক্রেতাদের মতামত পড়ি।",
+   "pron_bn": "কাস্টমার ফিডব্যাক",
+   "text": "customer feedback"
+  },
+  {
+   "bn": "বাড়িতে পণ্য পৌঁছে দেওয়া",
+   "example": "Many busy families in Sylhet now prefer fast home delivery for groceries.",
+   "example_bn": "সিলেটের অনেক ব্যস্ত পরিবার এখন মুদি বাজারের জন্য দ্রুত হোম ডেলিভারি পছন্দ করে।",
+   "pron_bn": "হোম ডেলিভারি",
+   "text": "home delivery"
+  },
+  {
+   "bn": "বিনিয়োগ",
+   "example": "My uncle's small investment helped us rent the shop.",
+   "example_bn": "চাচার ছোট বিনিয়োগে আমরা দোকানটা ভাড়া নিতে পেরেছি।",
+   "pron_bn": "ইনভেস্টমেন্ট",
+   "text": "investment"
+  },
+  {
+   "bn": "পণ্য প্রচারের কৌশল",
+   "example": "Our simple marketing strategy uses Facebook videos and happy customer stories.",
+   "example_bn": "আমাদের সহজ মার্কেটিং কৌশলে ফেসবুক ভিডিও আর খুশি ক্রেতাদের গল্প ব্যবহার করা হয়।",
+   "pron_bn": "মার্কেটিং স্ট্র্যাটেজি",
+   "text": "marketing strategy"
+  }
+ ]
+}

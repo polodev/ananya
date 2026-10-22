@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "দুপুরের খাবারের জন্য আমার কিছু চাল লাগবে।",
+    "pron_bn": "আই নিড সাম রাইস ফর লাঞ্চ।",
+    "text": "I need some rice for lunch."
+   },
+   {
+    "bn": "আজ তার কাছে কোনো টাকা নেই।",
+    "pron_bn": "শি ডাজ নট হ্যাভ এনি মানি টুডে।",
+    "text": "She does not have any money today."
+   },
+   {
+    "bn": "তুমি প্রতিদিন কতটুকু পানি খাও?",
+    "pron_bn": "হাউ মাচ ওয়াটার ডু ইউ ড্রিংক ডেইলি?",
+    "text": "How much water do you drink daily?"
+   },
+   {
+    "bn": "তোমার কয়টা ডিম লাগবে?",
+    "pron_bn": "হাউ মেনি এগস ডু ইউ নিড?",
+    "text": "How many eggs do you need?"
+   }
+  ],
+  "points_bn": [
+   "<b>Countable noun</b> মানে যা গোনা যায়, যেমন egg, tomato। এগুলোর বহুবচন হয় আর সঙ্গে many বসে।",
+   "<b>Uncountable noun</b> মানে যা গোনা যায় না, যেমন rice, water। এগুলোর বহুবচন হয় না আর সঙ্গে much বসে।",
+   "হ্যাঁ-বাচক বাক্যে <b>some</b> বসে, আর না-বাচক ও প্রশ্নে <b>any</b> বসে। যেমন: I need some onions.",
+   "<b>How much</b> বসে অগণনাযোগ্য জিনিসের জন্য, আর <b>How many</b> বসে গোনা যায় এমন জিনিসের জন্য।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "How many",
+     "How much",
+     "How any",
+     "How some"
+    ],
+    "q": "___ rice do you want?",
+    "why_bn": "rice গোনা যায় না, তাই অগণনাযোগ্য noun-এর সঙ্গে How much বসে।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "any",
+     "many",
+     "some",
+     "much"
+    ],
+    "q": "I need ___ fresh eggs.",
+    "why_bn": "এটা হ্যাঁ-বাচক বাক্য, তাই countable plural eggs-এর আগে some বসবে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "any",
+     "some",
+     "much",
+     "a"
+    ],
+    "q": "There are not ___ mangoes in the bag.",
+    "why_bn": "এটা না-বাচক বাক্য, তাই বহুবচন mangoes-এর আগে any বসবে।"
+   }
+  ],
+  "title_bn": "গণনাযোগ্য ও অগণনাযোগ্য Noun, some / any, How much / How many"
+ },
+ "intro_bn": "এই অধ্যায় শেষ করলে তুমি বাজারে মাছ-সবজির দাম জিজ্ঞেস করতে পারবে আর দরদাম করে কেনাকাটা করতে পারবে।",
+ "phrases": [
+  {
+   "bn": "এক কেজি মাছের দাম কত?",
+   "pron_bn": "হাউ মাচ ইজ ওয়ান কিলো অভ ফিশ?",
+   "text": "How much is one kilo of fish?"
+  },
+  {
+   "bn": "আপনি কয় কেজি চান?",
+   "pron_bn": "হাউ মেনি কিলোজ ডু ইউ ওয়ান্ট?",
+   "text": "How many kilos do you want?"
+  },
+  {
+   "bn": "আমাকে কিছু তাজা সবজি দিন।",
+   "pron_bn": "প্লিজ গিভ মি সাম ফ্রেশ ভেজটেবলস।",
+   "text": "Please give me some fresh vegetables."
+  },
+  {
+   "bn": "আজ কি কোনো ছোট মাছ আছে?",
+   "pron_bn": "ডু ইউ হ্যাভ এনি স্মল ফিশ টুডে?",
+   "text": "Do you have any small fish today?"
+  },
+  {
+   "bn": "আমি কোনো পচা টমেটো চাই না।",
+   "pron_bn": "আই ডু নট ওয়ান্ট এনি রটেন টমেটোজ।",
+   "text": "I do not want any rotten tomatoes."
+  },
+  {
+   "bn": "এই দামটা একটু বেশি হয়ে গেছে।",
+   "pron_bn": "দিস প্রাইস ইজ আ লিটল টু হাই।",
+   "text": "This price is a little too high."
+  },
+  {
+   "bn": "আমাকে একটু কম দামে দিতে পারবেন?",
+   "pron_bn": "ক্যান ইউ গিভ মি আ বেটার প্রাইস?",
+   "text": "Can you give me a better price?"
+  },
+  {
+   "bn": "আমার কিছু পেঁয়াজ আর কিছু আলু লাগবে।",
+   "pron_bn": "আই নিড সাম অনিয়নস এন্ড সাম পটেটোজ।",
+   "text": "I need some onions and some potatoes."
+  },
+  {
+   "bn": "দুঃখিত, আমার কাছে এখন কোনো ভাংতি নেই।",
+   "pron_bn": "সরি, আই ডু নট হ্যাভ এনি চেঞ্জ নাউ।",
+   "text": "Sorry, I do not have any change now."
+  },
+  {
+   "bn": "ওই দোকানে খুব তাজা নদীর মাছ বিক্রি হয়।",
+   "pron_bn": "দ্যাট শপ সেলস ভেরি ফ্রেশ রিভার ফিশ।",
+   "text": "That shop sells very fresh river fish."
+  },
+  {
+   "bn": "এই কাঁচা আমগুলোর দাম কত?",
+   "pron_bn": "হাউ মাচ ডু দিজ গ্রিন ম্যাংগোজ কস্ট?",
+   "text": "How much do these green mangoes cost?"
+  },
+  {
+   "bn": "ধন্যবাদ, আগামী শুক্রবারে আবার আসবেন।",
+   "pron_bn": "থ্যাংক ইউ, কাম অ্যাগেন নেক্সট ফ্রাইডে।",
+   "text": "Thank you, come again next Friday."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আজ এই তাজা টমেটোগুলোর দাম কত?",
+   "pron_bn": "হাউ মাচ আর দিজ ফ্রেশ টমেটোজ টুডে?",
+   "speaker": "Rafi",
+   "text": "How much are these fresh tomatoes today?"
+  },
+  {
+   "bn": "চল্লিশ টাকা কেজি।",
+   "pron_bn": "দে আর ফোর্টি টাকা আ কিলো।",
+   "speaker": "Tanvir",
+   "text": "They are forty taka a kilo."
+  },
+  {
+   "bn": "আমার কিছু টমেটো আর কিছু আলুও লাগবে।",
+   "pron_bn": "আই নিড সাম টমেটোজ এন্ড সাম পটেটোজ টু।",
+   "speaker": "Rafi",
+   "text": "I need some tomatoes and some potatoes too."
+  },
+  {
+   "bn": "আপনি কয় কেজি আলু চান?",
+   "pron_bn": "হাউ মেনি কিলোজ অভ পটেটোজ ডু ইউ ওয়ান্ট?",
+   "speaker": "Tanvir",
+   "text": "How many kilos of potatoes do you want?"
+  },
+  {
+   "bn": "আমাকে দুই কেজি দিন, আর কিছু তাজা মাছও দিন।",
+   "pron_bn": "গিভ মি টু কিলোজ, এন্ড সাম ফ্রেশ ফিশ প্লিজ।",
+   "speaker": "Rafi",
+   "text": "Give me two kilos, and some fresh fish please."
+  },
+  {
+   "bn": "দুঃখিত, আজ আমার কাছে কোনো বড় মাছ নেই।",
+   "pron_bn": "সরি, আই ডু নট হ্যাভ এনি বিগ ফিশ টুডে।",
+   "speaker": "Tanvir",
+   "text": "Sorry, I do not have any big fish today."
+  },
+  {
+   "bn": "তাহলে ছোট নদীর মাছ আছে?",
+   "pron_bn": "ডু ইউ হ্যাভ এনি স্মল রিভার ফিশ দেন?",
+   "speaker": "Rafi",
+   "text": "Do you have any small river fish then?"
+  },
+  {
+   "bn": "হ্যাঁ, এখানে আমার কাছে কিছু তাজা নদীর মাছ আছে।",
+   "pron_bn": "ইয়েস, আই হ্যাভ সাম ফ্রেশ রিভার ফিশ হিয়ার।",
+   "speaker": "Tanvir",
+   "text": "Yes, I have some fresh river fish here."
+  }
+ ],
+ "tip_bn": "বাজারে গিয়ে আগে দাম শুনে নাও, তারপর ভদ্রভাবে How much- দিয়ে দাম জিজ্ঞেস করে বলো। প্রতিদিন বাজার থেকে দুইটা জিনিসের নাম আর দাম খাতায় ইংরেজিতে লিখে রাখো।",
+ "title": "Shopping at the Market",
+ "words": [
+  {
+   "bn": "দাম",
+   "example": "What is the price of rice today?",
+   "example_bn": "আজ চালের দাম কত?",
+   "pron_bn": "প্রাইস",
+   "text": "price"
+  },
+  {
+   "bn": "কেজি, কিলোগ্রাম",
+   "example": "Please give me one kilo of onions.",
+   "example_bn": "আমাকে এক কেজি পেঁয়াজ দিন।",
+   "pron_bn": "কিলো",
+   "text": "kilo"
+  },
+  {
+   "bn": "তাজা",
+   "example": "These vegetables look very fresh and green.",
+   "example_bn": "এই সবজিগুলো খুব তাজা আর সবুজ দেখাচ্ছে।",
+   "pron_bn": "ফ্রেশ",
+   "text": "fresh"
+  },
+  {
+   "bn": "সস্তা",
+   "example": "These mangoes are cheap in this season.",
+   "example_bn": "এই মৌসুমে এই আমগুলো সস্তা।",
+   "pron_bn": "চিপ",
+   "text": "cheap"
+  },
+  {
+   "bn": "দামি",
+   "example": "That big fish is too expensive today.",
+   "example_bn": "আজ ওই বড় মাছটা খুব দামি।",
+   "pron_bn": "এক্সপেনসিভ",
+   "text": "expensive"
+  },
+  {
+   "bn": "ফেরত টাকা, ভাংতি",
+   "example": "Please count your change.",
+   "example_bn": "তোমার ফেরত টাকাটা গুনে নাও।",
+   "pron_bn": "চেঞ্জ",
+   "text": "change"
+  },
+  {
+   "bn": "পেঁয়াজ",
+   "example": "I need half a kilo of onions.",
+   "example_bn": "আমার আধা কেজি পেঁয়াজ লাগবে।",
+   "pron_bn": "অনিয়ন",
+   "text": "onion"
+  },
+  {
+   "bn": "আলু",
+   "example": "How many potatoes do you need today?",
+   "example_bn": "আজ তোমার কয়টা আলু লাগবে?",
+   "pron_bn": "পটেটো",
+   "text": "potato"
+  },
+  {
+   "bn": "টমেটো",
+   "example": "These red tomatoes are fresh and juicy.",
+   "example_bn": "এই লাল টমেটোগুলো তাজা আর রসালো।",
+   "pron_bn": "টমেটো",
+   "text": "tomato"
+  },
+  {
+   "bn": "দরদাম করা",
+   "example": "You can bargain a little in the market.",
+   "example_bn": "বাজারে তুমি একটু দরদাম করতে পারো।",
+   "pron_bn": "বারগেন",
+   "text": "bargain"
+  }
+ ]
+}

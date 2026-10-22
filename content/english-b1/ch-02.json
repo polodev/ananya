@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি স্টেশনের দিকে হেঁটে যাচ্ছিলাম, তখন নাদিয়ার সঙ্গে দেখা হলো।",
+    "pron_bn": "",
+    "text": "While I was walking to the station, I met Nadia."
+   },
+   {
+    "bn": "আমরা দুপুরে খাচ্ছিলাম, তখন বাসটা হঠাৎ চলে এলো।",
+    "pron_bn": "",
+    "text": "We were having lunch when the bus suddenly arrived."
+   },
+   {
+    "bn": "আমরা বাইরে অপেক্ষা করছিলাম, তখন তানভীর হোটেলে ফোন করছিল।",
+    "pron_bn": "",
+    "text": "Tanvir was calling a hotel while we were waiting outside."
+   },
+   {
+    "bn": "বৃষ্টি থামলে আমরা আবার নৌকায় ঘোরা শুরু করলাম।",
+    "pron_bn": "",
+    "text": "When the rain stopped, we started our boat ride again."
+   }
+  ],
+  "points_bn": [
+   "লম্বা সময় ধরে চলা কাজের জন্য <b>was/were + verb-ing</b> বসে, যেমন was eating।",
+   "<b>while</b>-এর পরে বেশিরভাগ সময় Past Continuous বসে, যেমন while we were eating।",
+   "<b>when</b>-এর পরে হঠাৎ ঘটে যাওয়া ছোট কাজের জন্য Past Simple বসে, যেমন when it started।",
+   "গল্প বলার সময় বড় ঘটনার ভেতরে ছোট ঘটনা ঢুকলে while/when ব্যবহার করো।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "ate",
+     "were eating",
+     "eat",
+     "are eating"
+    ],
+    "q": "While we ___ dinner, the lights went off.",
+    "why_bn": "ডিনার খাওয়া লম্বা চলমান কাজ, তাই were eating হবে। আর lights went off হলো হঠাৎ ছোট ঘটনা।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "was taking",
+     "took",
+     "take",
+     "am taking"
+    ],
+    "q": "I ___ photos when the bus suddenly stopped.",
+    "why_bn": "ছবি তোলা চলছিল, এর ভেতরে বাস থেমে গেল। তাই চলমান কাজের জন্য was taking হবে।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "drank",
+     "drinks",
+     "was drinking",
+     "drink"
+    ],
+    "q": "When Rafi arrived, Mitu ___ tea at the shop.",
+    "why_bn": "রাফি আসার মুহূর্তে মিতু চা খাচ্ছিল। লম্বা চলমান কাজ বোঝাতে was drinking হবে।"
+   }
+  ],
+  "title_bn": "Past Continuous বনাম Past Simple – while / when"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি সিলেট ভ্রমণের গল্প বলতে পারবে। কোনো সমস্যা হলে while আর when দিয়ে সহজে বুঝিয়ে বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমরা সিলেট যাচ্ছিলাম, তখন আমাদের বাস হঠাৎ নষ্ট হয়ে গেল।",
+   "pron_bn": "",
+   "text": "While we were going to Sylhet, our bus broke down suddenly."
+  },
+  {
+   "bn": "আমি ছবি তুলছিলাম, তখন খুব জোরে বৃষ্টি শুরু হলো।",
+   "pron_bn": "",
+   "text": "I was taking photos when it started raining very heavily."
+  },
+  {
+   "bn": "বাস স্টেশন ছেড়ে যাওয়ার সময় তুমি কী করছিলে?",
+   "pron_bn": "",
+   "text": "What were you doing when the bus left the station?"
+  },
+  {
+   "bn": "তানভীর টিকিট কাটছিল, আর আমি আমাদের ব্যাগ পাহারা দিচ্ছিলাম।",
+   "pron_bn": "",
+   "text": "While Tanvir was buying tickets, I was looking after our bags."
+  },
+  {
+   "bn": "আমরা যখন জাফলং পৌঁছালাম, সূর্য তখন আস্তে আস্তে ডুবছিল।",
+   "pron_bn": "",
+   "text": "When we reached Jaflong, the sun was setting slowly."
+  },
+  {
+   "bn": "বজ্রঝড় জোরে শুরু হওয়ার সময় আমরা গরম চা খাচ্ছিলাম।",
+   "pron_bn": "",
+   "text": "We were drinking hot tea when the thunderstorm started loudly."
+  },
+  {
+   "bn": "দুঃখিত, ফোন বন্ধ ছিল বলে তোমাকে কল করতে পারিনি।",
+   "pron_bn": "",
+   "text": "Sorry, I could not call you because my phone was dead."
+  },
+  {
+   "bn": "স্থানীয় মানুষজন খুব ভালো ছিল এবং আমাদের অনেক সাহায্য করেছিল।",
+   "pron_bn": "",
+   "text": "The local people were very kind and helped us a lot."
+  },
+  {
+   "bn": "মিতু ড্রাইভারের সঙ্গে কথা বলছিল, তখন আবার বৃষ্টি শুরু হলো।",
+   "pron_bn": "",
+   "text": "While Mitu was talking to the driver, it started raining again."
+  },
+  {
+   "bn": "অবশেষে আমরা অনেক ক্লান্ত হয়ে রাতে দেরি করে হোটেলে পৌঁছালাম।",
+   "pron_bn": "",
+   "text": "We finally reached our hotel late at night feeling very tired."
+  },
+  {
+   "bn": "ছোট ব্রিজ পার হচ্ছিলাম, তখন আমার ছাতাটা পড়ে গেল।",
+   "pron_bn": "",
+   "text": "I was crossing the small bridge when I dropped my umbrella."
+  },
+  {
+   "bn": "পরের বার আমরা তাড়াতাড়ি রওনা দেব আর বাড়তি শুকনো খাবার নেব।",
+   "pron_bn": "",
+   "text": "Next time we will start early and carry extra dry food."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "মিতু, আমরা সিলেট যাচ্ছিলাম, তখন হঠাৎ বৃষ্টি শুরু হলো!",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Mitu, while we were travelling to Sylhet, the rain suddenly started!"
+  },
+  {
+   "bn": "ওহো! মুষলধারে বৃষ্টি শুরু হওয়ার সময় তুমি কী করছিলে?",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Oh no! What were you doing when the rain started pouring heavily?"
+  },
+  {
+   "bn": "হবিগঞ্জের কাছে একটা ছোট রাস্তার পাশের দোকানে গরম খিচুড়ি খাচ্ছিলাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "We were eating hot khichuri at a small roadside shop near Habiganj."
+  },
+  {
+   "bn": "শুনতে তো ভালোই লাগছে! তোমরা খাচ্ছিলে, তখন কি কোনো সমস্যা হয়েছিল?",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "That sounds nice! Did anything go wrong while you were eating there?"
+  },
+  {
+   "bn": "হ্যাঁ, খাওয়া শেষ করতেই দেখি আমাদের বাস আমাদের ছাড়াই হঠাৎ চলে গেছে।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Yes, when we finished lunch, our bus suddenly left without us."
+  },
+  {
+   "bn": "আহারে, খুব খারাপ! সাহায্যের জন্য অপেক্ষা করার সময় তোমরা কী করলে?",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Oh, that is sad! What did you do while you were waiting for help?"
+  },
+  {
+   "bn": "তানভীর অন্য বাসে ফোন করছিল, আর আমি আমাদের সব ব্যাগ পাহারা দিচ্ছিলাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "While Tanvir was calling another bus, I was guarding all our bags."
+  },
+  {
+   "bn": "সূর্য ডুবছিল, তখন কি তোমরা রাতারগুল জলাবনে পৌঁছেছিলে?",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "Did you reach Ratargul swamp forest when the sun was setting?"
+  },
+  {
+   "bn": "হ্যাঁ, আকাশ সোনালি আর শান্ত হওয়ার সময় আমরা নৌকায় ছবি তুলছিলাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Yes, we were taking boat photos when the sky turned golden and calm."
+  }
+ ],
+ "tip_bn": "গল্প বলার সময় আগে লম্বা কাজটা while দিয়ে শুরু করো, তারপর ছোট ঘটনাটা বলো। আয়নার সামনে দাঁড়িয়ে নিজের শেষ ভ্রমণ নিয়ে দুই মিনিট বলার চেষ্টা করো।",
+ "title": "A Trip to Sylhet",
+ "words": [
+  {
+   "bn": "ভ্রমণ, সফর",
+   "example": "Our overnight journey to Sylhet by train was very comfortable.",
+   "example_bn": "ট্রেনে সিলেটে আমাদের রাতের ভ্রমণ খুব আরামদায়ক ছিল।",
+   "pron_bn": "জার্নি",
+   "text": "journey"
+  },
+  {
+   "bn": "দেরি",
+   "example": "Our bus had a two-hour delay because of heavy rain.",
+   "example_bn": "ভারী বৃষ্টির কারণে আমাদের বাস দুই ঘণ্টা দেরি করেছিল।",
+   "pron_bn": "ডিলে",
+   "text": "delay"
+  },
+  {
+   "bn": "ভিড়ে ভরা",
+   "example": "The railway station was very crowded during the Eid holiday.",
+   "example_bn": "ঈদের ছুটিতে রেলস্টেশন খুব ভিড়ে ভরা ছিল।",
+   "pron_bn": "ক্রাউডেড",
+   "text": "crowded"
+  },
+  {
+   "bn": "ঝরনা",
+   "example": "We were taking pictures when we reached the beautiful waterfall.",
+   "example_bn": "সুন্দর ঝরনার কাছে পৌঁছানোর সময় আমরা ছবি তুলছিলাম।",
+   "pron_bn": "ওয়াটারফল",
+   "text": "waterfall"
+  },
+  {
+   "bn": "প্রাকৃতিক দৃশ্য",
+   "example": "The green tea garden scenery around Sylhet is really amazing.",
+   "example_bn": "সিলেটের আশেপাশে সবুজ চা-বাগানের দৃশ্য সত্যিই অসাধারণ।",
+   "pron_bn": "সিনারি",
+   "text": "scenery"
+  },
+  {
+   "bn": "পিঠের ব্যাগ",
+   "example": "While I was walking, my heavy backpack suddenly fell down.",
+   "example_bn": "আমি হাঁটছিলাম, তখন হঠাৎ আমার ভারী ব্যাকপ্যাক পড়ে গেল।",
+   "pron_bn": "ব্যাকপ্যাক",
+   "text": "backpack"
+  },
+  {
+   "bn": "বজ্রঝড়",
+   "example": "We were waiting at the station when the thunderstorm started.",
+   "example_bn": "আমরা স্টেশনে অপেক্ষা করছিলাম, তখন বজ্রঝড় শুরু হলো।",
+   "pron_bn": "থান্ডারস্টর্ম",
+   "text": "thunderstorm"
+  },
+  {
+   "bn": "পথ হারিয়ে ফেলা",
+   "example": "We got lost in the market while we were looking for tea.",
+   "example_bn": "চা খুঁজতে গিয়ে আমরা বাজারে পথ হারিয়ে ফেললাম।",
+   "pron_bn": "গেট লস্ট",
+   "text": "get lost"
+  },
+  {
+   "bn": "নৌকা ভ্রমণ",
+   "example": "Our quiet boat ride through Ratargul forest was very peaceful.",
+   "example_bn": "রাতারগুল বনের ভেতরে আমাদের শান্ত নৌকা ভ্রমণ খুব সুন্দর ছিল।",
+   "pron_bn": "বোট রাইড",
+   "text": "boat ride"
+  },
+  {
+   "bn": "উপকারী",
+   "example": "A helpful shopkeeper called a bus while we were waiting outside.",
+   "example_bn": "আমরা বাইরে অপেক্ষা করছিলাম, তখন একজন উপকারী দোকানদার বাস ডেকে দিলেন।",
+   "pron_bn": "হেল্পফুল",
+   "text": "helpful"
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি বাংলাদেশ থেকে এসেছি।",
+    "pron_bn": "ইশ কমে আউস বাংলাডেশ।",
+    "text": "Ich komme aus Bangladesch."
+   },
+   {
+    "bn": "তুমি জার্মানি থেকে এসেছ।",
+    "pron_bn": "ডু কমস্ট আউস ডয়চলান্ট।",
+    "text": "Du kommst aus Deutschland."
+   },
+   {
+    "bn": "আমি বাংলা বলি।",
+    "pron_bn": "ইশ শ্প্রেশে বাংলা।",
+    "text": "Ich spreche Bangla."
+   },
+   {
+    "bn": "আপনি কি ইংরেজি বলেন?",
+    "pron_bn": "শ্প্রেশেন জি এংগ্লিশ?",
+    "text": "Sprechen Sie Englisch?"
+   }
+  ],
+  "points_bn": [
+   "জার্মান ক্রিয়া কর্তা অনুযায়ী বদলায়। <b>ich</b> এর সাথে শেষে <b>-e</b> বসে, যেমন <b>ich komme</b>।",
+   "<b>du</b> এর সাথে ক্রিয়ার শেষে <b>-st</b> বসে, যেমন <b>du wohnst, du sprichst</b>।",
+   "অচেনা বা বড়দের সম্মান দিয়ে <b>Sprechen Sie?</b> বলো, বন্ধুকে <b>sprichst du?</b> বলো।",
+   "কোথা থেকে এসেছ বলতে <b>aus</b> (aus Bangladesch), আর কোথায় থাকো বলতে <b>in</b> (in Dhaka) বসে।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "du wohnt",
+     "du wohnst",
+     "du wohne",
+     "du wohnen"
+    ],
+    "q": "du-এর সাথে wohnen-এর সঠিক রূপ কোনটি?",
+    "why_bn": "du-এর সাথে নিয়মিত ক্রিয়ার শেষে -st যোগ হয়। তাই সঠিক রূপ হলো du wohnst।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "kommt",
+     "kommst",
+     "komme",
+     "kommen"
+    ],
+    "q": "শূন্যস্থান পূরণ করো: Ich ___ aus Chandpur.",
+    "why_bn": "ich-এর সাথে ক্রিয়ার শেষে -e বসে। তাই Ich komme হবে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Ja, ich spreche ein bisschen Deutsch.",
+     "Ja, ich sprichst ein bisschen Deutsch.",
+     "Ja, du spreche ein bisschen Deutsch.",
+     "Ja, ich sprechen ein bisschen Deutsch."
+    ],
+    "q": "Sprichst du Deutsch? — এর সঠিক উত্তর কোনটি?",
+    "why_bn": "ich-এর সাথে sprechen হয় spreche। তাই Ja, ich spreche ein bisschen Deutsch সঠিক।"
+   }
+  ],
+  "title_bn": "বর্তমান কালে নিয়মিত ক্রিয়া"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি বলতে পারবে তুমি কোন দেশ থেকে এসেছ, কোথায় থাকো আর কোন ভাষায় কথা বলো।",
+ "phrases": [
+  {
+   "bn": "তুমি কোথা থেকে এসেছ?",
+   "pron_bn": "ভোহেয়া কমস্ট ডু?",
+   "text": "Woher kommst du?"
+  },
+  {
+   "bn": "আমি বাংলাদেশ থেকে এসেছি।",
+   "pron_bn": "ইশ কমে আউস বাংলাডেশ।",
+   "text": "Ich komme aus Bangladesch."
+  },
+  {
+   "bn": "তুমি কোথায় থাকো?",
+   "pron_bn": "ভো ভোনস্ট ডু?",
+   "text": "Wo wohnst du?"
+  },
+  {
+   "bn": "আমি ঢাকায় থাকি।",
+   "pron_bn": "ইশ ভোনে ইন ঢাকা।",
+   "text": "Ich wohne in Dhaka."
+  },
+  {
+   "bn": "তুমি কোন ভাষায় কথা বলো?",
+   "pron_bn": "ভেলশে শ্প্রাখে শ্প্রিশস্ট ডু?",
+   "text": "Welche Sprache sprichst du?"
+  },
+  {
+   "bn": "আমি বাংলা ও ইংরেজি বলি।",
+   "pron_bn": "ইশ শ্প্রেশে বাংলা উন্ট এংগ্লিশ।",
+   "text": "Ich spreche Bangla und Englisch."
+  },
+  {
+   "bn": "তুমি কি জার্মান বলো?",
+   "pron_bn": "শ্প্রিশস্ট ডু ডয়চ?",
+   "text": "Sprichst du Deutsch?"
+  },
+  {
+   "bn": "হ্যাঁ, একটু একটু জার্মান বলি।",
+   "pron_bn": "ইয়া, আইন বিসশেন ডয়চ।",
+   "text": "Ja, ein bisschen Deutsch."
+  },
+  {
+   "bn": "না, আমি জার্মান বলি না।",
+   "pron_bn": "নাইন, ইশ শ্প্রেশে কাইন ডয়চ।",
+   "text": "Nein, ich spreche kein Deutsch."
+  },
+  {
+   "bn": "তুমি কি চট্টগ্রামে থাকো?",
+   "pron_bn": "ভোনস্ট ডু ইন চট্টগ্রাম?",
+   "text": "Wohnst du in Chittagong?"
+  },
+  {
+   "bn": "আমি সিলেটে থাকি।",
+   "pron_bn": "ইশ ভোনে ইন সিলেট।",
+   "text": "Ich wohne in Sylhet."
+  },
+  {
+   "bn": "আপনি কোথা থেকে এসেছেন?",
+   "pron_bn": "ভোহেয়া কমেন জি?",
+   "text": "Woher kommen Sie?"
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হ্যালো আনা! তুমি কোথা থেকে এসেছ?",
+   "pron_bn": "হালো আনা! ভোহেয়া কমস্ট ডু?",
+   "speaker": "Rafi",
+   "text": "Hallo Anna! Woher kommst du?"
+  },
+  {
+   "bn": "হ্যালো রাফি! আমি জার্মানি থেকে এসেছি।",
+   "pron_bn": "হালো রাফি! ইশ কমে আউস ডয়চলান্ট।",
+   "speaker": "Anna",
+   "text": "Hallo Rafi! Ich komme aus Deutschland."
+  },
+  {
+   "bn": "জার্মানিতে তুমি কোথায় থাকো?",
+   "pron_bn": "ভো ভোনস্ট ডু ইন ডয়চলান্ট?",
+   "speaker": "Rafi",
+   "text": "Wo wohnst du in Deutschland?"
+  },
+  {
+   "bn": "আমি বার্লিনে থাকি। আর তুমি?",
+   "pron_bn": "ইশ ভোনে ইন বের্লিন। উন্ট ডু?",
+   "speaker": "Anna",
+   "text": "Ich wohne in Berlin. Und du?"
+  },
+  {
+   "bn": "আমি বাংলাদেশ থেকে এসেছি।",
+   "pron_bn": "ইশ কমে আউস বাংলাডেশ।",
+   "speaker": "Rafi",
+   "text": "Ich komme aus Bangladesch."
+  },
+  {
+   "bn": "এখন তুমি কোথায় থাকো?",
+   "pron_bn": "ভো ভোনস্ট ডু ইয়েৎস্ট?",
+   "speaker": "Anna",
+   "text": "Wo wohnst du jetzt?"
+  },
+  {
+   "bn": "আমি ঢাকায় থাকি। আমি বাংলা বলি।",
+   "pron_bn": "ইশ ভোনে ইন ঢাকা। ইশ শ্প্রেশে বাংলা।",
+   "speaker": "Rafi",
+   "text": "Ich wohne in Dhaka. Ich spreche Bangla."
+  },
+  {
+   "bn": "আমি জার্মান আর ইংরেজি বলি।",
+   "pron_bn": "ইশ শ্প্রেশে ডয়চ উন্ট এংগ্লিশ।",
+   "speaker": "Anna",
+   "text": "Ich spreche Deutsch und Englisch."
+  }
+ ],
+ "tip_bn": "নতুন বন্ধুর সাথে du বলো, কিন্তু দোকানে বা অফিসে ভদ্রভাবে Sie বলো। প্রতিদিন আয়নায় দাঁড়িয়ে Ich komme, Ich wohne, Ich spreche জোরে বলো।",
+ "title": "Woher kommst du?",
+ "words": [
+  {
+   "bn": "জার্মানি",
+   "example": "Ich komme aus Deutschland.",
+   "example_bn": "আমি জার্মানি থেকে এসেছি।",
+   "pron_bn": "ডয়চলান্ট",
+   "text": "Deutschland"
+  },
+  {
+   "bn": "বাংলাদেশ",
+   "example": "Ich wohne in Bangladesch.",
+   "example_bn": "আমি বাংলাদেশে থাকি।",
+   "pron_bn": "বাংলাডেশ",
+   "text": "Bangladesch"
+  },
+  {
+   "bn": "আসা",
+   "example": "Woher kommst du?",
+   "example_bn": "তুমি কোথা থেকে এসেছ?",
+   "pron_bn": "কমেন",
+   "text": "kommen"
+  },
+  {
+   "bn": "থাকা, বাস করা",
+   "example": "Ich wohne in Dhaka.",
+   "example_bn": "আমি ঢাকায় থাকি।",
+   "pron_bn": "ভোনেন",
+   "text": "wohnen"
+  },
+  {
+   "bn": "কথা বলা",
+   "example": "Ich spreche Bangla.",
+   "example_bn": "আমি বাংলায় কথা বলি।",
+   "pron_bn": "শ্প্রেশেন",
+   "text": "sprechen"
+  },
+  {
+   "bn": "জার্মান ভাষা",
+   "example": "Sprichst du Deutsch?",
+   "example_bn": "তুমি কি জার্মান বলো?",
+   "pron_bn": "ডয়চ",
+   "text": "Deutsch"
+  },
+  {
+   "bn": "ইংরেজি ভাষা",
+   "example": "Ich spreche Englisch.",
+   "example_bn": "আমি ইংরেজি বলি।",
+   "pron_bn": "এংগ্লিশ",
+   "text": "Englisch"
+  },
+  {
+   "bn": "ভাষা",
+   "example": "Welche Sprache sprichst du?",
+   "example_bn": "তুমি কোন ভাষায় কথা বলো?",
+   "pron_bn": "ডি শ্প্রাখে",
+   "text": "die Sprache"
+  },
+  {
+   "bn": "শহর",
+   "example": "Dhaka ist eine große Stadt.",
+   "example_bn": "ঢাকা একটি বড় শহর।",
+   "pron_bn": "ডি শ্টাট",
+   "text": "die Stadt"
+  },
+  {
+   "bn": "থেকে",
+   "example": "Ich komme aus Sylhet.",
+   "example_bn": "আমি সিলেট থেকে এসেছি।",
+   "pron_bn": "আউস",
+   "text": "aus"
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি একটু চা চাই, দয়া করে।",
+    "pron_bn": "আই উড লাইক সাম টি, প্লিজ।",
+    "text": "I would like some tea, please."
+   },
+   {
+    "bn": "আমি কি একটু সবজির স্যুপ পেতে পারি, দয়া করে?",
+    "pron_bn": "ক্যান আই হ্যাভ সাম ভেজটেবল সুপ, প্লিজ?",
+    "text": "Can I have some vegetable soup, please?"
+   },
+   {
+    "bn": "আমি কি বিলটা পেতে পারি, দয়া করে?",
+    "pron_bn": "কুড আই হ্যাভ দা বিল, প্লিজ?",
+    "text": "Could I have the bill, please?"
+   },
+   {
+    "bn": "সকালের নাশতার সাথে একটু জুস নেবেন?",
+    "pron_bn": "উড ইউ লাইক সাম জুস উইথ ব্রেকফাস্ট?",
+    "text": "Would you like some juice with breakfast?"
+   }
+  ],
+  "points_bn": [
+   "<b>would like</b> মানে ভদ্রভাবে কিছু চাওয়া। রেস্টুরেন্টে I want না বলে <b>I would like</b> বলো।",
+   "<b>Can I have ...?</b> মানে “আমি কি ... পেতে পারি?” খাবার, পানি বা বিল চাইতে এটা বলো।",
+   "<b>Could I ...?</b> আরও নম্র অনুরোধ। মেনু দেখতে বা সাহায্য চাইতে এটা ব্যবহার করো।",
+   "অনুরোধের শেষে <b>please</b> বললে কথা আরও ভদ্র শোনায়।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Give me fish fast now.",
+     "I would like fish with rice, please.",
+     "I want fish you bring.",
+     "Bring fish me very quick."
+    ],
+    "q": "Which sentence is polite for ordering food?",
+    "why_bn": "খাবার অর্ডারের সময় I would like আর please দিয়ে ভদ্রভাবে বলতে হয়। তাই দ্বিতীয় বাক্যটি সঠিক।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Can I have some water, please?",
+     "I water want now give.",
+     "Give water me fast now.",
+     "Me thirsty water bring you."
+    ],
+    "q": "Which sentence is correct to ask for water?",
+    "why_bn": "পানি চাইতে Can I have...? দিয়ে প্রশ্ন করতে হয়। তাই প্রথম বাক্যটি সঠিক।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "Give me bill now fast.",
+     "I want bill you go.",
+     "Could I have the bill, please?",
+     "Bill bring me no late."
+    ],
+    "q": "Which sentence is correct to ask for the bill?",
+    "why_bn": "বিল চাইতে Could I have...? দিয়ে নম্রভাবে প্রশ্ন করতে হয়। তাই তৃতীয় বাক্যটি সঠিক।"
+   }
+  ],
+  "title_bn": "ভদ্রভাবে খাবার চাওয়া"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি রেস্টুরেন্টে ভদ্রভাবে খাবার অর্ডার করতে আর বিল চাইতে পারবে।",
+ "phrases": [
+  {
+   "bn": "মেনুটা দেখতে পারি, দয়া করে?",
+   "pron_bn": "কুড আই সি দা মেনিউ, প্লিজ?",
+   "text": "Could I see the menu, please?"
+  },
+  {
+   "bn": "আমি মুরগি আর ভাত চাই, দয়া করে।",
+   "pron_bn": "আই উড লাইক চিকেন অ্যান্ড রাইস, প্লিজ।",
+   "text": "I would like chicken and rice, please."
+  },
+  {
+   "bn": "আমি কি একটু পানি পেতে পারি?",
+   "pron_bn": "ক্যান আই হ্যাভ সাম ওয়াটার, প্লিজ?",
+   "text": "Can I have some water, please?"
+  },
+  {
+   "bn": "আপনি কি একটু চা বা কফি নেবেন?",
+   "pron_bn": "উড ইউ লাইক সাম টি অর কফি?",
+   "text": "Would you like some tea or coffee?"
+  },
+  {
+   "bn": "এই খাবারটা কি ঝাল, নাকি কম ঝাল?",
+   "pron_bn": "ইজ দিস ডিশ স্পাইসি অর মাইল্ড?",
+   "text": "Is this dish spicy or mild?"
+  },
+  {
+   "bn": "এই খাবারটা খুব মজার আর টাটকা।",
+   "pron_bn": "দিস ফুড ইজ ভেরি টেস্টি অ্যান্ড ফ্রেশ।",
+   "text": "This food is very tasty and fresh."
+  },
+  {
+   "bn": "আমি কি আরেকটু ভাত পেতে পারি?",
+   "pron_bn": "কুড আই হ্যাভ সাম মোর রাইস, প্লিজ?",
+   "text": "Could I have some more rice, please?"
+  },
+  {
+   "bn": "আজ আপনাদের কী মিষ্টান্ন আছে?",
+   "pron_bn": "হোয়াট ডেজার্টস ডু ইউ হ্যাভ টুডে?",
+   "text": "What desserts do you have today?"
+  },
+  {
+   "bn": "সব খুব মজার ছিল, অনেক ধন্যবাদ।",
+   "pron_bn": "এভরিথিং ওয়াজ ডেলিশাস, থ্যাংক ইউ ভেরি মাচ।",
+   "text": "Everything was delicious, thank you very much."
+  },
+  {
+   "bn": "আমি কি বিলটা পেতে পারি, দয়া করে?",
+   "pron_bn": "ক্যান আই হ্যাভ দা বিল, প্লিজ?",
+   "text": "Can I have the bill, please?"
+  },
+  {
+   "bn": "মোট বিল কত হয়েছে, দয়া করে?",
+   "pron_bn": "হাউ মাচ ইজ দা টোটাল বিল, প্লিজ?",
+   "text": "How much is the total bill, please?"
+  },
+  {
+   "bn": "আমি কি এখানে নগদ টাকায় দিতে পারি?",
+   "pron_bn": "ক্যান আই পে বাই ক্যাশ হিয়ার?",
+   "text": "Can I pay by cash here?"
+  }
+ ],
+ "reading": [
+  {
+   "bn": "শুভ সন্ধ্যা! আমি কি মেনুটা দেখতে পারি?",
+   "pron_bn": "গুড ইভনিং! কুড আই সি দা মেনিউ, প্লিজ?",
+   "speaker": "Rafi",
+   "text": "Good evening! Could I see the menu, please?"
+  },
+  {
+   "bn": "অবশ্যই! আজ আপনি কি মাছ না মুরগি নেবেন?",
+   "pron_bn": "অব কোর্স! উড ইউ লাইক ফিশ অর চিকেন টুডে?",
+   "speaker": "Nadia",
+   "text": "Of course! Would you like fish or chicken today?"
+  },
+  {
+   "bn": "আমি ভাতের সাথে ভাজা মাছ চাই, দয়া করে।",
+   "pron_bn": "আই উড লাইক ফ্রাইড ফিশ উইথ রাইস, প্লিজ।",
+   "speaker": "Rafi",
+   "text": "I would like fried fish with rice, please."
+  },
+  {
+   "bn": "মাছের সাথে কি একটু সবজি নেবেন?",
+   "pron_bn": "উড ইউ লাইক সাম ভেজটেবলস উইথ ইয়োর ফিশ?",
+   "speaker": "Nadia",
+   "text": "Would you like some vegetables with your fish?"
+  },
+  {
+   "bn": "জি, দয়া করে। আমি কি একটু টাটকা জুসও পেতে পারি?",
+   "pron_bn": "ইয়েস, প্লিজ। ক্যান আই হ্যাভ সাম ফ্রেশ জুস টু?",
+   "speaker": "Rafi",
+   "text": "Yes, please. Can I have some fresh juice too?"
+  },
+  {
+   "bn": "নিশ্চয়ই! আমি কি আগে আপনাকে একটু পানি দেব?",
+   "pron_bn": "শিওর! কুড আই ব্রিং ইউ সাম ওয়াটার ফার্স্ট?",
+   "speaker": "Nadia",
+   "text": "Sure! Could I bring you some water first?"
+  },
+  {
+   "bn": "হ্যাঁ, দিন। ধন্যবাদ!",
+   "pron_bn": "ইয়েস, প্লিজ। থ্যাংক ইউ!",
+   "speaker": "Rafi",
+   "text": "Yes, please. Thank you!"
+  },
+  {
+   "bn": "দশ মিনিটের মধ্যে আপনার খাবার তৈরি হয়ে যাবে।",
+   "pron_bn": "ইয়োর ফুড উইল বি রেডি ইন টেন মিনিটস।",
+   "speaker": "Nadia",
+   "text": "Your food will be ready in ten minutes."
+  }
+ ],
+ "tip_bn": "রেস্টুরেন্টে হাসিমুখে please বলো — ওয়েটার খুশি মনে সাহায্য করবে। বিল দেওয়ার সময় হিসাবটা মিলিয়ে নাও আর Thank you বলতে ভুলো না।",
+ "title": "Eating at a Restaurant",
+ "words": [
+  {
+   "bn": "খাবারের তালিকা",
+   "example": "Could I see the menu, please?",
+   "example_bn": "আমি কি মেনুটা দেখতে পারি?",
+   "pron_bn": "মেনিউ",
+   "text": "menu"
+  },
+  {
+   "bn": "ওয়েটার, খাবার পরিবেশনকারী",
+   "example": "The waiter is very friendly and helpful.",
+   "example_bn": "ওয়েটার খুব বন্ধুসুলভ এবং সহায়ক।",
+   "pron_bn": "ওয়েটার",
+   "text": "waiter"
+  },
+  {
+   "bn": "অর্ডার দেওয়া",
+   "example": "I would like to order chicken and rice.",
+   "example_bn": "আমি মুরগি আর ভাত অর্ডার করতে চাই।",
+   "pron_bn": "অর্ডার",
+   "text": "order"
+  },
+  {
+   "bn": "বিল, দামের হিসাব",
+   "example": "Can I have the bill, please?",
+   "example_bn": "আমি কি বিলটা পেতে পারি?",
+   "pron_bn": "বিল",
+   "text": "bill"
+  },
+  {
+   "bn": "ঝাল",
+   "example": "This chicken curry is very spicy and tasty.",
+   "example_bn": "এই মুরগির তরকারিটা খুব ঝাল আর মজার।",
+   "pron_bn": "স্পাইসি",
+   "text": "spicy"
+  },
+  {
+   "bn": "ভাজা",
+   "example": "I would like fried fish with vegetables.",
+   "example_bn": "আমি সবজি দিয়ে ভাজা মাছ চাই।",
+   "pron_bn": "ফ্রাইড",
+   "text": "fried"
+  },
+  {
+   "bn": "টাটকা",
+   "example": "We have fresh juice and fresh fruit today.",
+   "example_bn": "আজ আমাদের কাছে টাটকা জুস আর ফল আছে।",
+   "pron_bn": "ফ্রেশ",
+   "text": "fresh"
+  },
+  {
+   "bn": "ডেজার্ট, খাওয়ার পরের মিষ্টি",
+   "example": "Would you like some dessert after lunch?",
+   "example_bn": "দুপুরের খাবারের পর কি মিষ্টান্ন নেবেন?",
+   "pron_bn": "ডেজার্ট",
+   "text": "dessert"
+  },
+  {
+   "bn": "তৃষ্ণার্ত",
+   "example": "I am thirsty. Can I have some water?",
+   "example_bn": "আমার পিপাসা পেয়েছে। আমি কি পানি পেতে পারি?",
+   "pron_bn": "থার্স্টি",
+   "text": "thirsty"
+  },
+  {
+   "bn": "ক্ষুধার্ত",
+   "example": "We are hungry. Could we order now, please?",
+   "example_bn": "আমরা ক্ষুধার্ত। আমরা কি এখন অর্ডার করতে পারি?",
+   "pron_bn": "হাংগ্রি",
+   "text": "hungry"
+  }
+ ]
+}

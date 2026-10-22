@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি এই মাসের বিক্রির রিপোর্ট আজ শেষ করেছি।",
+    "pron_bn": "",
+    "text": "I have finished my sales report for this month today."
+   },
+   {
+    "bn": "আমি গতকাল সন্ধ্যায় অফিসে আমার বিক্রির রিপোর্ট শেষ করেছিলাম।",
+    "pron_bn": "",
+    "text": "I finished my sales report yesterday evening at the office."
+   },
+   {
+    "bn": "তুমি কি তোমার আগের চাকরিতে কখনো কোনো টিম পরিচালনা করেছ?",
+    "pron_bn": "",
+    "text": "Have you ever managed a team in your previous job?"
+   },
+   {
+    "bn": "আমি চট্টগ্রামে পুরো এক বছর একটি টিম পরিচালনা করেছিলাম।",
+    "pron_bn": "",
+    "text": "I managed a team in Chittagong for one full year."
+   }
+  ],
+  "points_bn": [
+   "<b>have / has + verb-3</b> ব্যবহার করি যখন কাজের ফল এখনও গুরুত্বপূর্ণ, যেমন I have worked।",
+   "সময় জানা থাকলে <b>past simple</b> ব্যবহার করি, যেমন yesterday, in 2022, last year।",
+   "<b>ever / never</b> থাকলে সাধারণত present perfect হয়, যেমন Have you ever worked?",
+   "ইন্টারভিউতে অভিজ্ঞতা বলতে present perfect, আর পুরোনো ঘটনা বলতে past simple বলো।"
+  ],
+  "quiz": [
+   {
+    "answer": 2,
+    "options": [
+     "have worked",
+     "have work",
+     "worked",
+     "workes"
+    ],
+    "q": "I ___ at a tea shop in 2021.",
+    "why_bn": "২০২১ সাল শেষ হয়ে গেছে, তাই নির্দিষ্ট অতীত সময়ের জন্য past simple worked হবে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "has improved",
+     "improved yesterday",
+     "has improve",
+     "have improve"
+    ],
+    "q": "Rafi ___ his computer skills a lot.",
+    "why_bn": "সময় বলা নেই, এখনকার দক্ষতার কথা বলা হচ্ছে — তাই present perfect। Rafi (he) হলে has বসে: has improved।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "Did you ever manage",
+     "Do you ever managed",
+     "You have ever manage",
+     "Have you ever managed"
+    ],
+    "q": "___ a team in your office?",
+    "why_bn": "অভিজ্ঞতা জানতে চাইলে Have you ever + verb-3 দিয়ে প্রশ্ন করতে হয়।"
+   }
+  ],
+  "title_bn": "প্রেজেন্ট পারফেক্ট বনাম পাস্ট সিম্পল"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি চাকরির ইন্টারভিউতে তোমার অভিজ্ঞতা ও সাফল্যের কথা ইংরেজিতে বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "কাস্টমার সার্ভিসের কাজে আমার তিন বছরের অভিজ্ঞতা আছে।",
+   "pron_bn": "",
+   "text": "I have three years of experience in customer service work."
+  },
+  {
+   "bn": "গত বছর আমি চট্টগ্রামে সেলস অ্যাসিস্ট্যান্ট হিসেবে কাজ করেছিলাম।",
+   "pron_bn": "",
+   "text": "I worked as a sales assistant in Chittagong last year."
+  },
+  {
+   "bn": "আমি আমার ইংরেজি ও কম্পিউটার দক্ষতা অনেক বাড়িয়েছি।",
+   "pron_bn": "",
+   "text": "I have improved my English and computer skills a lot."
+  },
+  {
+   "bn": "সিলেটে আমার আগের অফিসে আমি ছোট একটি টিম পরিচালনা করতাম।",
+   "pron_bn": "",
+   "text": "I managed a small team at my previous office in Sylhet."
+  },
+  {
+   "bn": "প্রতিদিন কাস্টমারদের সাহায্য করা ও হিসাব রাখার দায়িত্বে ছিলাম।",
+   "pron_bn": "",
+   "text": "I was responsible for helping customers and keeping records daily."
+  },
+  {
+   "bn": "আমার সবচেয়ে বড় সাফল্য হলো গত রমজানে দোকানের বিক্রি বাড়ানো।",
+   "pron_bn": "",
+   "text": "My biggest achievement is increasing shop sales last Ramadan."
+  },
+  {
+   "bn": "আমি জীবনে কখনো কাজে দেরি করে যাইনি।",
+   "pron_bn": "",
+   "text": "I have never been late for work in my life."
+  },
+  {
+   "bn": "ভালো সুযোগ খুঁজতে আমি ডিসেম্বরে আগের চাকরিটা ছেড়ে দিয়েছিলাম।",
+   "pron_bn": "",
+   "text": "I left my last job in December to find better opportunities."
+  },
+  {
+   "bn": "আমার বিশ্বাস, আমি এই কাজটা খুব ভালোভাবে করতে পারব।",
+   "pron_bn": "",
+   "text": "I am confident I can do this job very well."
+  },
+  {
+   "bn": "আজকের আগে তুমি কি কখনো চাপের মধ্যে কাজ করেছ?",
+   "pron_bn": "",
+   "text": "Have you ever worked under pressure before today?"
+  },
+  {
+   "bn": "ঢাকা সেন্টারে তুমি তোমার ট্রেনিং কবে শেষ করেছিলে?",
+   "pron_bn": "",
+   "text": "When did you finish your training at the Dhaka center?"
+  },
+  {
+   "bn": "আজ আমাকে এই সুন্দর সুযোগটা দেওয়ার জন্য ধন্যবাদ।",
+   "pron_bn": "",
+   "text": "Thank you for giving me this wonderful opportunity today."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "সুপ্রভাত, আমি আজকের এই চাকরির ইন্টারভিউর জন্য ভালোভাবে প্রস্তুতি নিয়েছি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Good morning, I have prepared well for this job interview today."
+  },
+  {
+   "bn": "স্বাগতম রাফি, ঢাকায় আমাদের সেলস অ্যাসিস্ট্যান্ট পদের জন্য তুমি আবেদন করেছ।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "Welcome Rafi, you have applied for our sales assistant position in Dhaka."
+  },
+  {
+   "bn": "আমি চাঁদপুরের একটি মোবাইল দোকানে দুই বছর কাজ করেছি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I have worked at a mobile shop in Chandpur for two years."
+  },
+  {
+   "bn": "খুব ভালো, কলেজের পর তুমি সেই কাজটা কবে শুরু করেছিলে?",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "That sounds good, when did you start that job after college?"
+  },
+  {
+   "bn": "আমি ২০২২ সালে শুরু করেছিলাম, আর সেখানে ছোট একটি টিম সামলাতাম।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I started in 2022, and I managed a small team there."
+  },
+  {
+   "bn": "বাহ, তুমি কি কখনো বিক্রি বাড়িয়েছ বা কঠিন সমস্যা সমাধান করেছ?",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "Nice, have you ever improved sales or solved a difficult problem?"
+  },
+  {
+   "bn": "জি, ভদ্রভাবে কাস্টমারদের সাহায্য করে আমি বিক্রি বাড়িয়েছি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Yes, I have increased sales by helping customers politely."
+  },
+  {
+   "bn": "চমৎকার, কঠোর পরিশ্রম নিয়ে তোমার ম্যানেজারের কাছ থেকে কী শিখেছিলে?",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "Great, what did you learn from your manager about hard work?"
+  },
+  {
+   "bn": "আমি চাপের মধ্যেও শান্ত থাকতে শিখেছি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I have learned to stay calm under pressure."
+  }
+ ],
+ "tip_bn": "ইন্টারভিউর আগে আয়নার সামনে নিজের অভিজ্ঞতা জোরে জোরে বলো। প্রথমে I have দিয়ে শুরু করো, তারপর কবে ঘটেছিল তা I দিয়ে past simple-এ বলো।",
+ "title": "Job Interview",
+ "words": [
+  {
+   "bn": "চাকরির ইন্টারভিউ",
+   "example": "I have an interview for a shop assistant job tomorrow.",
+   "example_bn": "আগামীকাল আমার দোকান সহকারীর চাকরির জন্য একটি ইন্টারভিউ আছে।",
+   "pron_bn": "ইন্টারভিউ",
+   "text": "interview"
+  },
+  {
+   "bn": "অভিজ্ঞতা",
+   "example": "I have two years of experience in selling fish and rice.",
+   "example_bn": "মাছ ও চাল বিক্রিতে আমার দুই বছরের অভিজ্ঞতা আছে।",
+   "pron_bn": "এক্সপিরিয়েন্স",
+   "text": "experience"
+  },
+  {
+   "bn": "দক্ষতা",
+   "example": "I have improved my computer skills for office work.",
+   "example_bn": "অফিসের কাজের জন্য আমি আমার কম্পিউটার দক্ষতা বাড়িয়েছি।",
+   "pron_bn": "স্কিল",
+   "text": "skill"
+  },
+  {
+   "bn": "অর্জন, সাফল্য",
+   "example": "My biggest achievement is winning the best worker award last year.",
+   "example_bn": "আমার সবচেয়ে বড় অর্জন গত বছর সেরা কর্মীর পুরস্কার পাওয়া।",
+   "pron_bn": "অ্যাচিভমেন্ট",
+   "text": "achievement"
+  },
+  {
+   "bn": "দল",
+   "example": "I managed a small team of five people in Dhaka.",
+   "example_bn": "ঢাকায় আমি পাঁচজনের একটি ছোট দল পরিচালনা করেছিলাম।",
+   "pron_bn": "টিম",
+   "text": "team"
+  },
+  {
+   "bn": "দায়িত্বে থাকা",
+   "example": "I was responsible for talking to customers every morning.",
+   "example_bn": "প্রতিদিন সকালে কাস্টমারদের সঙ্গে কথা বলার দায়িত্বে ছিলাম।",
+   "pron_bn": "রেসপন্সিবল",
+   "text": "responsible"
+  },
+  {
+   "bn": "উন্নত করা",
+   "example": "I have improved our shop service by keeping it clean daily.",
+   "example_bn": "প্রতিদিন পরিষ্কার রেখে আমি আমাদের দোকানের সেবা ভালো করেছি।",
+   "pron_bn": "ইমপ্রুভ",
+   "text": "improve"
+  },
+  {
+   "bn": "পরিচালনা করা",
+   "example": "I managed the vegetable section last year.",
+   "example_bn": "গত বছর আমি সবজির অংশটা সামলেছিলাম।",
+   "pron_bn": "ম্যানেজ",
+   "text": "manage"
+  },
+  {
+   "bn": "সুযোগ",
+   "example": "This job is a good opportunity for young people in Sylhet.",
+   "example_bn": "এই চাকরিটা সিলেটের তরুণদের জন্য একটা ভালো সুযোগ।",
+   "pron_bn": "অপরচুনিটি",
+   "text": "opportunity"
+  },
+  {
+   "bn": "আত্মবিশ্বাসী",
+   "example": "I feel confident because I have practiced for the interview.",
+   "example_bn": "আমি আত্মবিশ্বাসী বোধ করছি কারণ ইন্টারভিউর জন্য অনুশীলন করেছি।",
+   "pron_bn": "কনফিডেন্ট",
+   "text": "confident"
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "তোমার খাদ্যাভ্যাস ছেড়ে দিও না; প্রতিদিনের ছোট চেষ্টাই স্থায়ী পরিবর্তন আনে।",
+    "pron_bn": "",
+    "text": "Don't give up on your healthy diet; small daily effort brings lasting change."
+   },
+   {
+    "bn": "সুস্থ থাকতে আর নতুন বন্ধু পেতে রাফি চট্টগ্রামে সাঁতার শেখা শুরু করেছে।",
+    "pron_bn": "",
+    "text": "Rafi took up swimming in Chittagong to stay fit and meet new friends."
+   },
+   {
+    "bn": "পরীক্ষা নিয়ে খুব চাপ লাগলেও ইংরেজি চর্চা চালিয়ে যাও।",
+    "pron_bn": "",
+    "text": "Please carry on practising English even when the exam feels very stressful."
+   },
+   {
+    "bn": "নিয়মিত পড়াশোনার ফলে মিতু এ বছর স্পোকেন ইংরেজিতে সত্যিকারের উন্নতি করেছে।",
+    "pron_bn": "",
+    "text": "With regular study, Mitu has made real progress in spoken English this year."
+   }
+  ],
+  "points_bn": [
+   "<b>give up, take up, carry on</b> হলো ফ্রেজাল ভার্ব; মূল verb-এর সাথে up বা on বসে অর্থ একদম বদলে যায়।",
+   "অর্থ না বুঝে ভেঙে ভেঙে ভাববে না, পুরো ফ্রেজটাকে একসাথে শিখবে। যেমন <b>take up</b> মানে নতুন কিছু শুরু করা।",
+   "<b>make progress</b> হলো কোলোকেশন; progress-এর সাথে সবসময় make বসে, do বসে না।",
+   "নিজের লক্ষ্য আর অভ্যাস নিয়ে বলতে এই ফ্রেজগুলো ব্যবহার করলে ইংরেজি অনেক স্বাভাবিক শোনায়।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "give up",
+     "take up",
+     "carry on",
+     "make progress"
+    ],
+    "q": "She decided to ___ jogging to stay healthy and active.",
+    "why_bn": "নতুন কিছু শুরু করা বোঝাতে take up বসে। jogging শুরু করেছে, তাই take up সঠিক।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "carry on",
+     "take up",
+     "give up",
+     "make progress"
+    ],
+    "q": "Don't ___! Keep trying and you will definitely succeed one day.",
+    "why_bn": "হাল ছেড়ে না দেওয়ার জন্য Don't give up বলা হয়। চেষ্টা চালিয়ে যেতে বলা হচ্ছে, তাই give up সঠিক।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "made",
+     "did",
+     "took",
+     "gave"
+    ],
+    "q": "He has ___ great progress in English through daily practice this year.",
+    "why_bn": "progress-এর সাথে সবসময় make বসে। present perfect-এ has made progress হবে, তাই made সঠিক।"
+   }
+  ],
+  "title_bn": "ফ্রেজাল ভার্ব ও কোলোকেশন"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি নিজের লক্ষ্য, ভালো অভ্যাস আর জীবনের পরিবর্তন নিয়ে আত্মবিশ্বাসের সঙ্গে ইংরেজিতে কথা বলতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমি এমন একটা নতুন অভ্যাস শুরু করতে চাই যা স্বাস্থ্য আর কাজের জন্য ভালো।",
+   "pron_bn": "",
+   "text": "I want to take up a new habit that improves my health and work."
+  },
+  {
+   "bn": "এত তাড়াতাড়ি হাল ছেড়ো না; আসল পরিবর্তন আসতে সবসময় সময় লাগে।",
+   "pron_bn": "",
+   "text": "Please don't give up so quickly; real change always takes more time."
+  },
+  {
+   "bn": "ক্লান্ত লাগলেও সন্ধ্যায় পড়ার রুটিনটা আমি চালিয়ে যাওয়ার চেষ্টা করি।",
+   "pron_bn": "",
+   "text": "Even when I feel tired, I try to carry on with my evening study routine."
+  },
+  {
+   "bn": "প্রতিদিন চর্চা করে এখন আমি স্পোকেন ইংরেজিতে বেশ ভালো উন্নতি করছি।",
+   "pron_bn": "",
+   "text": "I am making steady progress in spoken English through daily practice now."
+  },
+  {
+   "bn": "আমার স্বপ্ন হলো ভালো চাকরি পেয়ে চাঁদপুরে পরিবারকে সাহায্য করা।",
+   "pron_bn": "",
+   "text": "My ambition is to get a better job and support my family in Chandpur."
+  },
+  {
+   "bn": "কাজ যখন খুব ব্যস্ত আর চাপের হয়, তখন তুমি কীভাবে নিয়মিত থাকো?",
+   "pron_bn": "",
+   "text": "How do you stay consistent when work becomes extremely busy and stressful?"
+  },
+  {
+   "bn": "বন্ধুসুলভ একটা চর্চার দলে যোগ দিয়ে আমি কথা বলার ভয় কাটিয়ে উঠেছি।",
+   "pron_bn": "",
+   "text": "I overcame my fear of speaking by joining a friendly practice group."
+  },
+  {
+   "bn": "একটা ছোট ব্যর্থতা আমাকে জীবনের বড় লক্ষ্য থেকে আটকাতে পারবে না।",
+   "pron_bn": "",
+   "text": "A small setback cannot stop me from reaching my long-term goal in life."
+  },
+  {
+   "bn": "ছোট ছোট সাফল্য উদযাপন করলে প্রতি সপ্তাহে আমার উৎসাহ ধরে থাকে।",
+   "pron_bn": "",
+   "text": "Celebrating small milestones keeps my motivation strong every single week."
+  },
+  {
+   "bn": "সত্যিকারের সাফল্যের জন্য ক্ষণিকের উত্তেজনার চেয়ে আত্মশৃঙ্খলা বেশি জরুরি।",
+   "pron_bn": "",
+   "text": "Self-discipline matters more than short bursts of excitement for real success."
+  },
+  {
+   "bn": "চলো একসাথে চালিয়ে যাই আর মার্চের শেষে আমাদের উন্নতি দেখি।",
+   "pron_bn": "",
+   "text": "Let's carry on together and review our progress at the end of March."
+  },
+  {
+   "bn": "টাকা বাঁচাতে আর ঢাকায় সুস্থ থাকতে গত মাসে আমি সাইকেল চালানো শুরু করেছি।",
+   "pron_bn": "",
+   "text": "I took up cycling last month to save money and stay active in Dhaka."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "কাজে মনোযোগ আর স্বাস্থ্য ভালো রাখতে আমি ভোরে দৌড়ানো (জগিং) শুরু করার সিদ্ধান্ত নিয়েছি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I decided to take up early morning jogging to improve my health and concentration for work."
+  },
+  {
+   "bn": "খুব ভালো, কিন্তু পা ব্যথা আর আলসেমি লাগলে এক সপ্তাহ পর হাল ছেড়ে দিও না।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "That's great, but don't give up after one week when your legs feel tired and lazy."
+  },
+  {
+   "bn": "ব্যস্ত দিনেও আমি চালিয়ে যাব, তাই সকালের জন্য বিশ মিনিটের ছোট রুটিন বানিয়েছি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "I will carry on even on busy days, so I prepared a short twenty-minute routine for mornings."
+  },
+  {
+   "bn": "প্রতিদিন সন্ধ্যায় তিরিশ মিনিট শুনে শুনে চর্চা করে ইংরেজিতে আমি ভালো উন্নতি করেছি।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "I have made good progress in English because I practise listening for thirty minutes every evening."
+  },
+  {
+   "bn": "আগামী বছর চট্টগ্রামে চাকরির পাশাপাশি ছোট একটা অনলাইন দোকান দেওয়া আমার স্বপ্ন।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "My ambition is to open a small online shop while continuing my job in Chittagong next year."
+  },
+  {
+   "bn": "গত বছর আমি বড় একটা ধাক্কা খেয়েছিলাম, কিন্তু কঠোর নিয়ম আর পরিবারের সাহায্যে তা কাটিয়ে উঠেছি।",
+   "pron_bn": "",
+   "speaker": "Mitu",
+   "text": "I faced a big setback last year, but I overcame it with strong self-discipline and family support."
+  },
+  {
+   "bn": "নিয়মিত থাকা কঠিন, তবু প্রতিদিনের ছোট সাফল্য আমাদের উৎসাহ বাঁচিয়ে রাখে।",
+   "pron_bn": "",
+   "speaker": "Nadia",
+   "text": "Staying consistent is difficult, yet small daily milestones keep our motivation alive and strong."
+  },
+  {
+   "bn": "অভ্যাসগুলো সৎভাবে হিসাব রাখলে আমরা আরও অনেক দিন চালিয়ে যেতে পারব আর দ্রুত উন্নতি করব।",
+   "pron_bn": "",
+   "speaker": "Tanvir",
+   "text": "If we track our habits honestly, we can carry on longer and make faster progress together."
+  },
+  {
+   "bn": "হ্যাঁ, চলো লক্ষ্য ছেড়ে না দিই আর ঢাকায় একসাথে প্রতিটা ছোট সাফল্য উদযাপন করি।",
+   "pron_bn": "",
+   "speaker": "Rafi",
+   "text": "Yes, let's not give up on our goals and celebrate every small milestone in Dhaka together."
+  }
+ ],
+ "tip_bn": "প্রতিরাতে ঘুমের আগে খাতায় দুই লাইন ইংরেজিতে লেখো: আজ কী চালিয়ে গেলে, কী উন্নতি হলো। ভুল হলেও সমস্যা নেই, নিয়মিত লিখলেই ফ্রেজগুলো মনে থাকবে।",
+ "title": "Goals and Change",
+ "words": [
+  {
+   "bn": "উচ্চাকাঙ্ক্ষা, বড় স্বপ্ন",
+   "example": "My ambition is to become a skilled teacher and help students in Sylhet succeed.",
+   "example_bn": "আমার স্বপ্ন হলো দক্ষ শিক্ষক হয়ে সিলেটের ছাত্রদের সফল হতে সাহায্য করা।",
+   "pron_bn": "অ্যামবিশন",
+   "text": "ambition"
+  },
+  {
+   "bn": "নিয়মিত, একরকমভাবে চালিয়ে যাওয়া",
+   "example": "If you are consistent with exercise, you will feel stronger within three months.",
+   "example_bn": "ব্যায়ামে নিয়মিত থাকলে তিন মাসের মধ্যে তুমি আরও শক্তি পাবে।",
+   "pron_bn": "কনসিসটেন্ট",
+   "text": "consistent"
+  },
+  {
+   "bn": "কাটিয়ে ওঠা, জয় করা",
+   "example": "She overcame her shyness by speaking slowly in our weekly English discussion group.",
+   "example_bn": "আমাদের সাপ্তাহিক ইংরেজি আলোচনার দলে আস্তে আস্তে বলে সে লজ্জা কাটিয়ে উঠেছে।",
+   "pron_bn": "ওভারকাম",
+   "text": "overcome"
+  },
+  {
+   "bn": "আত্মশৃঙ্খলা, নিজেকে নিয়মে রাখা",
+   "example": "Self-discipline helped Rafi save money regularly for his new computer course.",
+   "example_bn": "নিজেকে নিয়মে রাখার কারণে রাফি নতুন কম্পিউটার কোর্সের জন্য নিয়মিত টাকা জমাতে পেরেছে।",
+   "pron_bn": "সেলফ-ডিসিপ্লিন",
+   "text": "self-discipline"
+  },
+  {
+   "bn": "ব্যর্থতা বা ধাক্কা",
+   "example": "After a small setback in business, Tanvir changed his plan and tried a new idea.",
+   "example_bn": "ব্যবসায় একটা ছোট ধাক্কা খাওয়ার পর তানভির পরিকল্পনা বদলে নতুন বুদ্ধি চেষ্টা করল।",
+   "pron_bn": "সেটব্যাক",
+   "text": "setback"
+  },
+  {
+   "bn": "উৎসাহ, অনুপ্রেরণা",
+   "example": "My sister's success gives me strong motivation to study English every single night.",
+   "example_bn": "আমার বোনের সাফল্য আমাকে প্রতিরাতে ইংরেজি পড়ার জোরালো উৎসাহ দেয়।",
+   "pron_bn": "মোটিভেশন",
+   "text": "motivation"
+  },
+  {
+   "bn": "গুরুত্বপূর্ণ ধাপ বা মাইলফলক",
+   "example": "Passing the computer course was an important milestone in Nadia's changing career journey.",
+   "example_bn": "কম্পিউটার কোর্সে পাস করা নাদিয়ার বদলে যাওয়া ক্যারিয়ারে একটা বড় ধাপ ছিল।",
+   "pron_bn": "মাইলস্টোন",
+   "text": "milestone"
+  },
+  {
+   "bn": "হাল ছেড়ে দেওয়া",
+   "example": "Please never give up on learning English, even when grammar feels very difficult.",
+   "example_bn": "ব্যাকরণ খুব কঠিন লাগলেও ইংরেজি শেখার চেষ্টা কখনো ছেড়ে দিও না।",
+   "pron_bn": "গিভ আপ",
+   "text": "give up"
+  },
+  {
+   "bn": "নতুন কিছু শুরু করা",
+   "example": "Mitu decided to take up gardening to eat fresh vegetables and reduce daily stress.",
+   "example_bn": "টাটকা সবজি খেতে আর রোজের চাপ কমাতে মিতু বাগান করা শুরু করেছে।",
+   "pron_bn": "টেক আপ",
+   "text": "take up"
+  },
+  {
+   "bn": "চালিয়ে যাওয়া",
+   "example": "Although he felt tired after work, he carried on revising his lessons quietly at home.",
+   "example_bn": "কাজের পর ক্লান্ত লাগলেও সে বাসায় চুপচাপ পড়া চালিয়ে গেল।",
+   "pron_bn": "ক্যারি অন",
+   "text": "carry on"
+  }
+ ]
+}

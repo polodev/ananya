@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমার এক ভাই আছে।",
+    "pron_bn": "ইশ হাবে আইনেন ব্রুডা।",
+    "text": "Ich habe einen Bruder."
+   },
+   {
+    "bn": "তোমার এক বোন আছে।",
+    "pron_bn": "ডু হাস্ট আইনে শ্ভেস্টা।",
+    "text": "Du hast eine Schwester."
+   },
+   {
+    "bn": "ইনি আমার বাবা।",
+    "pron_bn": "ডাস ইস্ট মাইন ফাটা।",
+    "text": "Das ist mein Vater."
+   },
+   {
+    "bn": "ইনি তার মা। মেয়ের মায়ের কথা বলছি।",
+    "pron_bn": "ডাস ইস্ট ইয়ারে মুটা।",
+    "text": "Das ist ihre Mutter."
+   }
+  ],
+  "points_bn": [
+   "<b>haben</b> মানে আছে। পরিবারের কথা বলতে এটা খুব লাগে।",
+   "<b>ich habe, du hast, er / sie hat</b> — কে বলছে, সেই অনুযায়ী haben বদলে যায়।",
+   "<b>mein</b> = আমার, <b>dein</b> = তোমার, <b>sein</b> = তার (ছেলের), <b>ihr</b> = তার (মেয়ের)।",
+   "der শব্দের আগে <b>mein / dein / sein / ihr</b> বসে, কিন্তু die শব্দের আগে <b>meine / deine / seine / ihre</b> বসে।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Meine",
+     "Mein",
+     "Meinen",
+     "Meiner"
+    ],
+    "q": "___ Bruder ist zwanzig.",
+    "why_bn": "Bruder ছেলে-শব্দ, der Bruder। তাই আমার ভাই বলতে Mein Bruder হবে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "hast",
+     "habe",
+     "hat",
+     "haben"
+    ],
+    "q": "Du ___ einen Bruder.",
+    "why_bn": "du-এর সাথে haben হয়ে যায় hast। তাই Du hast সঠিক।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "mein",
+     "meinen",
+     "meiner",
+     "meine"
+    ],
+    "q": "Das ist ___ Schwester.",
+    "why_bn": "Schwester মেয়ে-শব্দ, die Schwester। তাই আমার বোন বলতে meine Schwester হবে।"
+   }
+  ],
+  "title_bn": "haben আর mein / dein / sein / ihr"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি তোমার পরিবারের কথা বলতে পারবে — বাবা-মা, ভাই-বোন কে কে আছে, বয়স কত, আর কে বিবাহিত বা অবিবাহিত।",
+ "phrases": [
+  {
+   "bn": "তোমার ভাইবোন আছে?",
+   "pron_bn": "হাস্ট ডু গেশ্ভিস্টা?",
+   "text": "Hast du Geschwister?"
+  },
+  {
+   "bn": "আমার দুই ভাই আছে।",
+   "pron_bn": "ইশ হাবে ৎস্ভাই ব্র্যুডা।",
+   "text": "Ich habe zwei Brüder."
+  },
+  {
+   "bn": "আমার কোনো বোন নেই।",
+   "pron_bn": "ইশ হাবে কাইনে শ্ভেস্টা।",
+   "text": "Ich habe keine Schwester."
+  },
+  {
+   "bn": "ইনি আমার বাবা।",
+   "pron_bn": "ডাস ইস্ট মাইন ফাটা।",
+   "text": "Das ist mein Vater."
+  },
+  {
+   "bn": "ইনি আমার মা।",
+   "pron_bn": "ডাস ইস্ট মাইনে মুটা।",
+   "text": "Das ist meine Mutter."
+  },
+  {
+   "bn": "তোমার বয়স কত?",
+   "pron_bn": "ভি আল্ট বিস্ট ডু?",
+   "text": "Wie alt bist du?"
+  },
+  {
+   "bn": "আমার বয়স তেইশ বছর।",
+   "pron_bn": "ইশ বিন ড্রাই-উন্ট-ৎসভানৎসিশ ইয়ারে আল্ট।",
+   "text": "Ich bin dreiundzwanzig Jahre alt."
+  },
+  {
+   "bn": "তুমি কি বিবাহিত?",
+   "pron_bn": "বিস্ট ডু ফেয়হাইরাটেট?",
+   "text": "Bist du verheiratet?"
+  },
+  {
+   "bn": "আমি অবিবাহিত।",
+   "pron_bn": "ইশ বিন লেডিশ।",
+   "text": "Ich bin ledig."
+  },
+  {
+   "bn": "আমার পরিবার বড়।",
+   "pron_bn": "মাইনে ফামিলিয়ে ইস্ট গ্রোস।",
+   "text": "Meine Familie ist groß."
+  },
+  {
+   "bn": "তোমার ভাই ভালো।",
+   "pron_bn": "ডাইন ব্রুডা ইস্ট নেট।",
+   "text": "Dein Bruder ist nett."
+  },
+  {
+   "bn": "তার স্বামী চট্টগ্রামে থাকেন।",
+   "pron_bn": "ইয়া মান ভোন্ট ইন চট্টগ্রাম।",
+   "text": "Ihr Mann wohnt in Chittagong."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হ্যালো আনা! তোমার ভাইবোন আছে?",
+   "pron_bn": "হালো আনা! হাস্ট ডু গেশ্ভিস্টা?",
+   "speaker": "Rafi",
+   "text": "Hallo Anna! Hast du Geschwister?"
+  },
+  {
+   "bn": "হ্যাঁ, আমার এক ভাই আছে।",
+   "pron_bn": "ইয়া, ইশ হাবে আইনেন ব্রুডা।",
+   "speaker": "Anna",
+   "text": "Ja, ich habe einen Bruder."
+  },
+  {
+   "bn": "তোমার ভাইয়ের বয়স কত?",
+   "pron_bn": "ভি আল্ট ইস্ট ডাইন ব্রুডা?",
+   "speaker": "Rafi",
+   "text": "Wie alt ist dein Bruder?"
+  },
+  {
+   "bn": "আমার ভাইয়ের বয়স বিশ বছর।",
+   "pron_bn": "মাইন ব্রুডা ইস্ট ৎসভানৎসিশ ইয়ারে আল্ট।",
+   "speaker": "Anna",
+   "text": "Mein Bruder ist zwanzig Jahre alt."
+  },
+  {
+   "bn": "তোমার একটা বোনও আছে?",
+   "pron_bn": "হাস্ট ডু আউখ আইনে শ্ভেস্টা?",
+   "speaker": "Rafi",
+   "text": "Hast du auch eine Schwester?"
+  },
+  {
+   "bn": "না, আমার কোনো বোন নেই।",
+   "pron_bn": "নাইন, ইশ হাবে কাইনে শ্ভেস্টা।",
+   "speaker": "Anna",
+   "text": "Nein, ich habe keine Schwester."
+  },
+  {
+   "bn": "আমার মা ঢাকায় শিক্ষক।",
+   "pron_bn": "মাইনে মুটা ইস্ট লেরারিন ইন ঢাকা।",
+   "speaker": "Rafi",
+   "text": "Meine Mutter ist Lehrerin in Dhaka."
+  },
+  {
+   "bn": "আমার বাবা বিবাহিত আর চল্লিশ বছর বয়সি।",
+   "pron_bn": "মাইন ফাটা ইস্ট ফেয়হাইরাটেট উন্ট ফিয়াৎসিশ।",
+   "speaker": "Anna",
+   "text": "Mein Vater ist verheiratet und vierzig."
+  }
+ ],
+ "tip_bn": "বাসায় আয়নার সামনে দাঁড়িয়ে meine Familie দিয়ে অনুশীলন করো: Das ist mein Vater, das ist meine Mutter। জার্মানিতে অপরিচিত বয়স্কদের সাথে Sie দিয়ে কথা বলো, এটা ভদ্রতা।",
+ "title": "Meine Familie",
+ "words": [
+  {
+   "bn": "পরিবার",
+   "example": "Meine Familie wohnt in Dhaka.",
+   "example_bn": "আমার পরিবার ঢাকায় থাকে।",
+   "pron_bn": "ডি ফামিলিয়ে",
+   "text": "die Familie"
+  },
+  {
+   "bn": "বাবা",
+   "example": "Mein Vater ist Lehrer.",
+   "example_bn": "আমার বাবা শিক্ষক।",
+   "pron_bn": "ডেয়া ফাটা",
+   "text": "der Vater"
+  },
+  {
+   "bn": "মা",
+   "example": "Meine Mutter trinkt Tee.",
+   "example_bn": "আমার মা চা খান।",
+   "pron_bn": "ডি মুটা",
+   "text": "die Mutter"
+  },
+  {
+   "bn": "ভাই",
+   "example": "Mein Bruder ist neunzehn.",
+   "example_bn": "আমার ভাইয়ের বয়স উনিশ।",
+   "pron_bn": "ডেয়া ব্রুডা",
+   "text": "der Bruder"
+  },
+  {
+   "bn": "বোন",
+   "example": "Meine Schwester spricht Deutsch.",
+   "example_bn": "আমার বোন জার্মান বলে।",
+   "pron_bn": "ডি শ্ভেস্টা",
+   "text": "die Schwester"
+  },
+  {
+   "bn": "ছেলে",
+   "example": "Sein Sohn wohnt in Sylhet.",
+   "example_bn": "তার ছেলে সিলেটে থাকে।",
+   "pron_bn": "ডেয়া জোন",
+   "text": "der Sohn"
+  },
+  {
+   "bn": "মেয়ে",
+   "example": "Seine Tochter ist acht.",
+   "example_bn": "তার মেয়ের বয়স আট।",
+   "pron_bn": "ডি টখটা",
+   "text": "die Tochter"
+  },
+  {
+   "bn": "বিবাহিত",
+   "example": "Ich bin verheiratet.",
+   "example_bn": "আমি বিবাহিত।",
+   "pron_bn": "ফেয়হাইরাটেট",
+   "text": "verheiratet"
+  },
+  {
+   "bn": "অবিবাহিত",
+   "example": "Ich bin ledig.",
+   "example_bn": "আমি অবিবাহিত।",
+   "pron_bn": "লেডিশ",
+   "text": "ledig"
+  },
+  {
+   "bn": "ছেলেমেয়েরা, সন্তানরা",
+   "example": "Meine Kinder sind klein.",
+   "example_bn": "আমার বাচ্চারা ছোট।",
+   "pron_bn": "ডি কিন্ডা",
+   "text": "die Kinder"
+  }
+ ]
+}

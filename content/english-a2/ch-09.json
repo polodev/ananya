@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "আমি এখন মিতুর সাথে কথা বলছি।",
+    "pron_bn": "আই অ্যাম টকিং টু মিতু নাউ।",
+    "text": "I am talking to Mitu now."
+   },
+   {
+    "bn": "সে এই মুহূর্তে একটা দোকানে ফোন করছে।",
+    "pron_bn": "শি ইজ কলিং আ শপ অ্যাট দা মোমেন্ট।",
+    "text": "She is calling a shop at the moment."
+   },
+   {
+    "bn": "আমরা আগামীকাল বিকেল পাঁচটায় তানভীরের সাথে দেখা করছি।",
+    "pron_bn": "উই আর মিটিং তানভীর টুমরো অ্যাট ফাইভ।",
+    "text": "We are meeting Tanvir tomorrow at five."
+   },
+   {
+    "bn": "তারা আজ কাজ করছে না।",
+    "pron_bn": "দে আর নট ওয়ার্কিং টুডে।",
+    "text": "They are not working today."
+   }
+  ],
+  "points_bn": [
+   "এই মুহূর্তে যা চলছে তা বলতে <b>am / is / are + verb-ing</b> বসাও। যেমন: I am talking now.",
+   "আগে থেকে ঠিক করা প্রোগ্রাম বোঝাতেও একই গঠন ব্যবহার করো। যেমন: I am meeting him tomorrow.",
+   "I-এর সাথে <b>am</b>, he / she / Rafi-এর সাথে <b>is</b>, you / we / they-এর সাথে <b>are</b> বসে।",
+   "সময় বোঝাতে সাথে now, at the moment, today, tomorrow কথাগুলো যোগ করো।"
+  ],
+  "quiz": [
+   {
+    "answer": 0,
+    "options": [
+     "am",
+     "is",
+     "are",
+     "be"
+    ],
+    "q": "I ___ talking on the phone now.",
+    "why_bn": "I-এর সাথে সবসময় am বসে, তাই I am talking হবে।"
+   },
+   {
+    "answer": 2,
+    "options": [
+     "meet",
+     "meets",
+     "meeting",
+     "met"
+    ],
+    "q": "We are ___ Nadia tomorrow at four.",
+    "why_bn": "are-এর পরে মূল verb-এর সাথে -ing বসে, তাই meeting হবে।"
+   },
+   {
+    "answer": 1,
+    "options": [
+     "Is you free now?",
+     "Are you free now?",
+     "You are free now?",
+     "Am you free now?"
+    ],
+    "q": "Which question is correct?",
+    "why_bn": "you-এর সাথে প্রশ্নে Are বসে, তাই Are you free now? ঠিক।"
+   }
+  ],
+  "title_bn": "এখন যা হচ্ছে আর আগে থেকে ঠিক করা প্ল্যান বলা"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি ফোনে বন্ধু আর দোকানের সাথে সহজে কথা বলতে পারবে। মেসেজ রেখে আসা আর আগামীর প্ল্যান জানানোও শিখবে।",
+ "phrases": [
+  {
+   "bn": "হ্যালো, আমি রাফি বলছি।",
+   "pron_bn": "হ্যালো, দিস ইজ রাফি স্পিকিং।",
+   "text": "Hello, this is Rafi speaking."
+  },
+  {
+   "bn": "আমি কি মিতুর সাথে কথা বলতে পারি?",
+   "pron_bn": "ক্যান আই স্পিক টু মিতু, প্লিজ?",
+   "text": "Can I speak to Mitu, please?"
+  },
+  {
+   "bn": "দুঃখিত, লাইনটা এখন ব্যস্ত আছে।",
+   "pron_bn": "সরি, দা লাইন ইজ বিজি নাউ।",
+   "text": "Sorry, the line is busy now."
+  },
+  {
+   "bn": "দয়া করে এক মিনিট ধরুন।",
+   "pron_bn": "প্লিজ হোল্ড অন আ মিনিট।",
+   "text": "Please hold on a minute."
+  },
+  {
+   "bn": "আমি আমার অর্ডার নিয়ে ফোন করছি।",
+   "pron_bn": "আই অ্যাম কলিং অ্যাবাউট মাই অর্ডার।",
+   "text": "I am calling about my order."
+  },
+  {
+   "bn": "আমি কি একটা মেসেজ রেখে যেতে পারি?",
+   "pron_bn": "ক্যান আই লিভ আ মেসেজ, প্লিজ?",
+   "text": "Can I leave a message, please?"
+  },
+  {
+   "bn": "আমি তোমাকে একটু পরে ফোন করব।",
+   "pron_bn": "আই উইল কল ইউ ব্যাক সুন।",
+   "text": "I will call you back soon."
+  },
+  {
+   "bn": "তুমি কি আগামীকাল সন্ধ্যায় ফ্রি আছো?",
+   "pron_bn": "আর ইউ ফ্রি টুমরো ইভনিং?",
+   "text": "Are you free tomorrow evening?"
+  },
+  {
+   "bn": "আমি পাঁচটায় তানভীরের সাথে দেখা করছি।",
+   "pron_bn": "আই অ্যাম মিটিং তানভীর অ্যাট ফাইভ।",
+   "text": "I am meeting Tanvir at five."
+  },
+  {
+   "bn": "দুঃখিত, আমি তোমাকে ভালো শুনতে পাচ্ছি না।",
+   "pron_bn": "সরি, আই ক্যানট হিয়ার ইউ ওয়েল।",
+   "text": "Sorry, I cannot hear you well."
+  },
+  {
+   "bn": "এখানে নেটওয়ার্ক খুব দুর্বল।",
+   "pron_bn": "দা নেটওয়ার্ক ইজ ভেরি উইক হিয়ার।",
+   "text": "The network is very weak here."
+  },
+  {
+   "bn": "ফোন করার জন্য ধন্যবাদ।",
+   "pron_bn": "থ্যাংক ইউ ফর কলিং।",
+   "text": "Thank you for calling."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "হ্যালো নাদিয়া, আমি আমার অর্ডার নিয়ে ফোন করছি।",
+   "pron_bn": "হ্যালো নাদিয়া, আই অ্যাম কলিং অ্যাবাউট মাই অর্ডার।",
+   "speaker": "Rafi",
+   "text": "Hello Nadia, I am calling about my order."
+  },
+  {
+   "bn": "হ্যালো রাফি! আমি এখন তোমার অর্ডারটা দেখছি।",
+   "pron_bn": "হ্যালো রাফি! আই অ্যাম চেকিং ইয়োর অর্ডার নাউ।",
+   "speaker": "Nadia",
+   "text": "Hello Rafi! I am checking your order now."
+  },
+  {
+   "bn": "ধন্যবাদ। আমি আজ বাসায় অপেক্ষা করছি।",
+   "pron_bn": "থ্যাংক ইউ। আই অ্যাম ওয়েটিং অ্যাট হোম টুডে।",
+   "speaker": "Rafi",
+   "text": "Thank you. I am waiting at home today."
+  },
+  {
+   "bn": "দুঃখিত, আমাদের ডেলিভারির লোক আজ দেরিতে আসছে।",
+   "pron_bn": "সরি, আওয়ার ডেলিভারি ম্যান ইজ কামিং লেট টুডে।",
+   "speaker": "Nadia",
+   "text": "Sorry, our delivery man is coming late today."
+  },
+  {
+   "bn": "সমস্যা নেই। কিন্তু পাঁচটায় আমি বাইরে যাচ্ছি।",
+   "pron_bn": "নো প্রবলেম। বাট আই অ্যাম গোয়িং আউট অ্যাট ফাইভ।",
+   "speaker": "Rafi",
+   "text": "No problem. But I am going out at five."
+  },
+  {
+   "bn": "চিন্তা কোরো না। সে চারটায় আসছে।",
+   "pron_bn": "ডোন্ট ওয়ারি। হি ইজ কামিং অ্যাট ফোর ও'ক্লক।",
+   "speaker": "Nadia",
+   "text": "Don't worry. He is coming at four o'clock."
+  },
+  {
+   "bn": "খুব ভালো। তাকে বোলো আগে আমাকে একটা ফোন দিতে।",
+   "pron_bn": "গ্রেইট। প্লিজ আস্ক হিম টু কল মি ফার্স্ট।",
+   "speaker": "Rafi",
+   "text": "Great. Please ask him to call me first."
+  },
+  {
+   "bn": "অবশ্যই, আমি এখনই তাকে তোমার নম্বর পাঠাচ্ছি।",
+   "pron_bn": "শিওর, আই অ্যাম সেন্ডিং হিম ইয়োর নাম্বার নাউ।",
+   "speaker": "Nadia",
+   "text": "Sure, I am sending him your number now."
+  }
+ ],
+ "tip_bn": "ফোনে কথা পরিষ্কার না শোনা গেলে ভদ্রভাবে Sorry, I cannot hear you well বলো। ফোন ধরে প্রথমে Hello বলে নিজের নাম বলো, আর শেষে Thank you বলে রাখো — এটা ভালো অভ্যাস।",
+ "title": "Talking on the Phone",
+ "words": [
+  {
+   "bn": "ফোন করা",
+   "example": "I am calling the shop now.",
+   "example_bn": "আমি এখন দোকানে ফোন করছি।",
+   "pron_bn": "কল",
+   "text": "call"
+  },
+  {
+   "bn": "ব্যস্ত",
+   "example": "Sorry, I am busy now.",
+   "example_bn": "দুঃখিত, আমি এখন ব্যস্ত আছি।",
+   "pron_bn": "বিজি",
+   "text": "busy"
+  },
+  {
+   "bn": "একটু ধরুন",
+   "example": "Please hold on, I am checking.",
+   "example_bn": "দয়া করে একটু ধরুন, আমি দেখছি।",
+   "pron_bn": "হোল্ড অন",
+   "text": "hold on"
+  },
+  {
+   "bn": "বার্তা, খবর",
+   "example": "I am leaving a message for Mitu.",
+   "example_bn": "আমি মিতুর জন্য একটা মেসেজ রাখছি।",
+   "pron_bn": "মেসেজ",
+   "text": "message"
+  },
+  {
+   "bn": "বাজা (ফোনের আওয়াজ)",
+   "example": "The phone is ringing loudly now.",
+   "example_bn": "ফোনটা এখন জোরে বাজছে।",
+   "pron_bn": "রিং",
+   "text": "ring"
+  },
+  {
+   "bn": "নেটওয়ার্ক",
+   "example": "The network is very weak today.",
+   "example_bn": "আজ নেটওয়ার্ক খুব দুর্বল।",
+   "pron_bn": "নেটওয়ার্ক",
+   "text": "network"
+  },
+  {
+   "bn": "জোরে, উচ্চ স্বরে",
+   "example": "The music is too loud. I can't hear you.",
+   "example_bn": "গানটা খুব জোরে বাজছে। তোমার কথা শুনতে পাচ্ছি না।",
+   "pron_bn": "লাউড",
+   "text": "loud"
+  },
+  {
+   "bn": "শান্ত, নীরব",
+   "example": "I am sitting in a quiet room.",
+   "example_bn": "আমি একটা শান্ত ঘরে বসে আছি।",
+   "pron_bn": "কোয়ায়েট",
+   "text": "quiet"
+  },
+  {
+   "bn": "দেখা করা",
+   "example": "I am meeting Nadia at four.",
+   "example_bn": "আমি চারটায় নাদিয়ার সাথে দেখা করছি।",
+   "pron_bn": "মিট",
+   "text": "meet"
+  },
+  {
+   "bn": "ফ্রি, খালি",
+   "example": "Are you free tomorrow evening?",
+   "example_bn": "তুমি কি আগামীকাল সন্ধ্যায় ফ্রি আছো?",
+   "pron_bn": "ফ্রি",
+   "text": "free"
+  }
+ ]
+}

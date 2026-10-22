@@ -1,0 +1,255 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "মাছটা টাটকা।",
+    "pron_bn": "ডেয়া ফিশ ইস্ট ফ্রিশ।",
+    "text": "Der Fisch ist frisch."
+   },
+   {
+    "bn": "পাউরুটিটা মজার।",
+    "pron_bn": "ডাস ব্রোট ইস্ট লেকা।",
+    "text": "Das Brot ist lecker."
+   },
+   {
+    "bn": "আমি একটা পানি চাই, দয়া করে।",
+    "pron_bn": "ইশ ম্যোশ্টে আইন ভাসা, বিটে।",
+    "text": "Ich möchte ein Wasser, bitte."
+   },
+   {
+    "bn": "আমি এক কাপ চা চাই, দয়া করে।",
+    "pron_bn": "ইশ ম্যোশ্টে আইনে টাসে টে, বিটে।",
+    "text": "Ich möchte eine Tasse Tee, bitte."
+   }
+  ],
+  "points_bn": [
+   "জার্মান ভাষায় প্রতিটি জিনিসের নামের আগে একটা আর্টিকেল বসে। এটা মুখস্থ করতে হয়।",
+   "<b>der</b> বসে ছেলে-শব্দের আগে, <b>die</b> বসে মেয়ে-শব্দের আগে, আর <b>das</b> বসে নপুংসক-শব্দের আগে। যেমন <b>der</b> Fisch, <b>das</b> Brot।",
+   "<b>ein</b> মানে একটা, এটা <b>der</b> আর <b>das</b> শব্দের জন্য। <b>eine</b> মানে একটা, এটা <b>die</b> শব্দের জন্য। যেমন <b>ein</b> Wasser, <b>eine</b> Tasse।",
+   "<b>ich möchte</b> মানে আমি চাই। দোকানে ভদ্রভাবে কিছু চাইতে এটা বলো। যেমন <b>ich möchte</b> einen Tee, bitte।"
+  ],
+  "quiz": [
+   {
+    "answer": 1,
+    "options": [
+     "Die",
+     "Der",
+     "Das",
+     "Den"
+    ],
+    "q": "___ Fisch ist frisch.",
+    "why_bn": "Fisch হলো der-শব্দ, তাই এখানে Der বসবে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "möchte",
+     "möchtest",
+     "möchten",
+     "möchtet"
+    ],
+    "q": "Ich ___ ein Brot, bitte.",
+    "why_bn": "ich-এর সাথে সবসময় möchte বসে, তাই সঠিক উত্তর möchte।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "ein",
+     "der",
+     "das",
+     "eine"
+    ],
+    "q": "Ich möchte ___ Tasse Tee.",
+    "why_bn": "Tasse হলো die-শব্দ, তাই একটা বোঝাতে eine বসবে।"
+   }
+  ],
+  "title_bn": "der / die / das, ein / eine আর ich möchte"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি দোকানে বা ক্যাফেতে ভদ্রভাবে চা, কফি, পানি, ভাত, মাছের মতো খাবার চাইতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আমি একটা চা চাই, দয়া করে।",
+   "pron_bn": "ইশ ম্যোশ্টে আইনেন টে, বিটে।",
+   "text": "Ich möchte einen Tee, bitte."
+  },
+  {
+   "bn": "আমি একটা কফি চাই, দয়া করে।",
+   "pron_bn": "ইশ ম্যোশ্টে আইনেন কাফে, বিটে।",
+   "text": "Ich möchte einen Kaffee, bitte."
+  },
+  {
+   "bn": "একটা পানি দিন, দয়া করে।",
+   "pron_bn": "আইন ভাসা, বিটে।",
+   "text": "Ein Wasser, bitte."
+  },
+  {
+   "bn": "একটা জুস দিন, দয়া করে।",
+   "pron_bn": "আইনেন জাফ্ট, বিটে।",
+   "text": "Einen Saft, bitte."
+  },
+  {
+   "bn": "ভাতটা খুব মজার।",
+   "pron_bn": "ডেয়া রাইস ইস্ট জেয়া লেকা।",
+   "text": "Der Reis ist sehr lecker."
+  },
+  {
+   "bn": "মাছটা টাটকা।",
+   "pron_bn": "ডেয়া ফিশ ইস্ট ফ্রিশ।",
+   "text": "Der Fisch ist frisch."
+  },
+  {
+   "bn": "পাউরুটিটা গরম।",
+   "pron_bn": "ডাস ব্রোট ইস্ট ভার্ম।",
+   "text": "Das Brot ist warm."
+  },
+  {
+   "bn": "চিকেনটা ভালো।",
+   "pron_bn": "ডাস হেনশেন ইস্ট গুট।",
+   "text": "Das Hähnchen ist gut."
+  },
+  {
+   "bn": "আপনি কী পান করতে চান?",
+   "pron_bn": "ভাস ম্যোশ্টেন জি ট্রিংকেন?",
+   "text": "Was möchten Sie trinken?"
+  },
+  {
+   "bn": "তুমি কী খেতে চাও?",
+   "pron_bn": "ভাস ম্যোশ্টেস্ট ডু এসেন?",
+   "text": "Was möchtest du essen?"
+  },
+  {
+   "bn": "আরেকটা পাউরুটি দিন, দয়া করে।",
+   "pron_bn": "নখ আইন ব্রোট, বিটে।",
+   "text": "Noch ein Brot, bitte."
+  },
+  {
+   "bn": "বিলটা দিন, দয়া করে।",
+   "pron_bn": "ডি রেশনুং, বিটে।",
+   "text": "Die Rechnung, bitte."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "আমি একটা চা চাই, দয়া করে।",
+   "pron_bn": "ইশ ম্যোশ্টে আইনেন টে, বিটে।",
+   "speaker": "Rafi",
+   "text": "Ich möchte einen Tee, bitte."
+  },
+  {
+   "bn": "খুব ভালো! তুমি কি জুসও চাও?",
+   "pron_bn": "জেয়া গের্ন! ম্যোশ্টেস্ট ডু আউখ জাফ্ট?",
+   "speaker": "Anna",
+   "text": "Sehr gern! Möchtest du auch Saft?"
+  },
+  {
+   "bn": "না, ধন্যবাদ। আমি একটা পানি চাই।",
+   "pron_bn": "নাইন, ডাংকে। ইশ ম্যোশ্টে আইন ভাসা।",
+   "speaker": "Rafi",
+   "text": "Nein, danke. Ich möchte ein Wasser."
+  },
+  {
+   "bn": "পানিটা ঠান্ডা আর টাটকা।",
+   "pron_bn": "ডাস ভাসা ইস্ট কাল্ট উন্ট ফ্রিশ।",
+   "speaker": "Anna",
+   "text": "Das Wasser ist kalt und frisch."
+  },
+  {
+   "bn": "আমি ভাত আর মাছ খেতে ভালোবাসি।",
+   "pron_bn": "ইশ এসে গের্ন রাইস উন্ট ফিশ।",
+   "speaker": "Rafi",
+   "text": "Ich esse gern Reis und Fisch."
+  },
+  {
+   "bn": "এখানে মাছটা খুব মজার।",
+   "pron_bn": "ডেয়া ফিশ ইস্ট জেয়া লেকা হিয়া।",
+   "speaker": "Anna",
+   "text": "Der Fisch ist sehr lecker hier."
+  },
+  {
+   "bn": "আমি একটা পাউরুটিও চাই, দয়া করে।",
+   "pron_bn": "ইশ ম্যোশ্টে আউখ আইন ব্রোট, বিটে।",
+   "speaker": "Rafi",
+   "text": "Ich möchte auch ein Brot, bitte."
+  },
+  {
+   "bn": "হ্যাঁ! পাউরুটিটা গরম আর টাটকা।",
+   "pron_bn": "ইয়া! ডাস ব্রোট ইস্ট ভার্ম উন্ট ফ্রিশ।",
+   "speaker": "Anna",
+   "text": "Ja! Das Brot ist warm und frisch."
+  }
+ ],
+ "tip_bn": "দোকানে বা ক্যাফেতে সবসময় শেষে bitte বলো, এটা ভদ্র শোনায়। বন্ধুর সাথে du বলো, কিন্তু দোকানদারের সাথে Sie বলো।",
+ "title": "Essen und Trinken",
+ "words": [
+  {
+   "bn": "চা",
+   "example": "Der Tee ist warm.",
+   "example_bn": "চাটা গরম।",
+   "pron_bn": "ডেয়া টে",
+   "text": "der Tee"
+  },
+  {
+   "bn": "কফি",
+   "example": "Der Kaffee ist gut.",
+   "example_bn": "কফিটা ভালো।",
+   "pron_bn": "ডেয়া কাফে",
+   "text": "der Kaffee"
+  },
+  {
+   "bn": "পানি",
+   "example": "Das Wasser ist kalt.",
+   "example_bn": "পানিটা ঠান্ডা।",
+   "pron_bn": "ডাস ভাসা",
+   "text": "das Wasser"
+  },
+  {
+   "bn": "জুস",
+   "example": "Der Saft ist frisch.",
+   "example_bn": "জুসটা টাটকা।",
+   "pron_bn": "ডেয়া জাফ্ট",
+   "text": "der Saft"
+  },
+  {
+   "bn": "পাউরুটি",
+   "example": "Das Brot ist warm.",
+   "example_bn": "পাউরুটিটা গরম।",
+   "pron_bn": "ডাস ব্রোট",
+   "text": "das Brot"
+  },
+  {
+   "bn": "ভাত",
+   "example": "Der Reis ist lecker.",
+   "example_bn": "ভাতটা মজার।",
+   "pron_bn": "ডেয়া রাইস",
+   "text": "der Reis"
+  },
+  {
+   "bn": "মুরগির মাংস",
+   "example": "Das Hähnchen ist gut.",
+   "example_bn": "মুরগিটা ভালো।",
+   "pron_bn": "ডাস হেনশেন",
+   "text": "das Hähnchen"
+  },
+  {
+   "bn": "মাছ",
+   "example": "Der Fisch ist frisch.",
+   "example_bn": "মাছটা টাটকা।",
+   "pron_bn": "ডেয়া ফিশ",
+   "text": "der Fisch"
+  },
+  {
+   "bn": "মজার, সুস্বাদু",
+   "example": "Der Saft ist lecker.",
+   "example_bn": "জুসটা মজার।",
+   "pron_bn": "লেকা",
+   "text": "lecker"
+  },
+  {
+   "bn": "ভালোবেসে, আনন্দে",
+   "example": "Ich esse gern Reis.",
+   "example_bn": "আমি ভাত খেতে ভালোবাসি।",
+   "pron_bn": "গের্ন",
+   "text": "gern"
+  }
+ ]
+}

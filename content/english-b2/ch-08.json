@@ -1,0 +1,261 @@
+{
+ "grammar": {
+  "examples": [
+   {
+    "bn": "দুদিন ভারী বৃষ্টি হলেও আমাদের গ্রামের কৃষকেরা মাঠে কাজ চালিয়ে গেছেন।",
+    "pron_bn": "",
+    "text": "Although it rained heavily for two days, the farmers in our village continued working in the field."
+   },
+   {
+    "bn": "চাঁদপুরে মারাত্মক নদীভাঙন সত্ত্বেও অনেক পরিবার সহজে পৈতৃক বাড়ি ছেড়ে যেতে চায় না।",
+    "pron_bn": "",
+    "text": "In spite of serious river erosion in Chandpur, many families do not want to leave their ancestral homes."
+   },
+   {
+    "bn": "চট্টগ্রাম সমুদ্রের উচ্চতা বাড়ার ঝুঁকিতে আছে, অথচ সিলেটে আকস্মিক ভারী বৃষ্টি আর বন্যার সমস্যা বেশি।",
+    "pron_bn": "",
+    "text": "Chittagong faces danger from the rising sea, whereas Sylhet suffers more from sudden heavy rainfall and floods."
+   },
+   {
+    "bn": "সৌরবাতি প্রথমে দামি মনে হয়; তবে দীর্ঘ মেয়াদে এগুলো অনেক টাকা ও বিদ্যুৎ বাঁচায়।",
+    "pron_bn": "",
+    "text": "Solar lights seem expensive at first; however, they save a lot of money and electricity in the long run."
+   }
+  ],
+  "points_bn": [
+   "<b>although</b> এর পরে পুরো বাক্য (subject + verb) বসে, অর্থ ‘যদিও’।",
+   "<b>despite / in spite of</b> এর পরে noun বা verb+ing বসে, পুরো বাক্য বসে না।",
+   "<b>whereas</b> দুটি জায়গা বা বিষয়ের তুলনা করে, অর্থ ‘অথচ / যেখানে’।",
+   "<b>however</b> আগের কথার বিপরীত তথ্য যোগ করে, আগে-পরে কমা বা সেমিকোলন বসে।"
+  ],
+  "quiz": [
+   {
+    "answer": 2,
+    "options": [
+     "Although the flood warning, Mitu went to the market to buy rice and vegetables.",
+     "Despite of the flood warning, Mitu went to the market to buy rice and vegetables.",
+     "Despite the flood warning, Mitu went to the market to buy rice and vegetables.",
+     "However the flood warning, Mitu went to the market to buy rice and vegetables."
+    ],
+    "q": "Choose the correct sentence.",
+    "why_bn": "সতর্কবার্তা নামপদ, তাই despite বসবে। despite-এর পরে of হয় না এবং although-এর পরে পুরো বাক্য লাগে।"
+   },
+   {
+    "answer": 0,
+    "options": [
+     "Whereas",
+     "Despite",
+     "In spite of",
+     "However"
+    ],
+    "q": "___ Dhaka is crowded and polluted, Sylhet still has comparatively clean air and open fields.",
+    "why_bn": "এখানে ঢাকা আর সিলেটের তুলনা করা হচ্ছে, তাই whereas সঠিক। despite বা in spite of-এর পরে noun লাগত, পুরো বাক্য নয়।"
+   },
+   {
+    "answer": 3,
+    "options": [
+     "Despite",
+     "Although",
+     "In spite of",
+     "However,"
+    ],
+    "q": "The heat was almost unbearable. ___, Tanvir continued working in the field without enough drinking water.",
+    "why_bn": "আগের বাক্যের বিপরীত নতুন বাক্য শুরু হচ্ছে, তাই however সঠিক। despite বা in spite of-এর পরে noun বা verb+ing লাগত।"
+   }
+  ],
+  "title_bn": "বৈপরীত্য বোঝাতে although, despite, in spite of, whereas, however"
+ },
+ "intro_bn": "এই অধ্যায় শেষে তুমি বাংলাদেশে জলবায়ু পরিবর্তনের প্রভাব নিয়ে ইংরেজিতে কথা বলতে পারবে এবং although, despite, whereas, however দিয়ে বৈপরীত্য বোঝাতে পারবে।",
+ "phrases": [
+  {
+   "bn": "আবহাওয়া বদলালেও আমরা একসাথে কাজ করলে গ্রামকে রক্ষা করতে পারি।",
+   "pron_bn": "",
+   "text": "Although the weather is changing, we can still protect our village if we work together."
+  },
+  {
+   "bn": "ভারী বৃষ্টি সত্ত্বেও রাফি বাড়ি মেরামতে পরিবারকে সাহায্য করতে চাঁদপুরে গেল।",
+   "pron_bn": "",
+   "text": "Despite the heavy rain, Rafi went to Chandpur to help his family repair the house."
+  },
+  {
+   "bn": "বন্যার সতর্কবার্তা সত্ত্বেও অনেক দোকানি স্টেশনের কাছে চায়ের দোকান খোলা রেখেছিল।",
+   "pron_bn": "",
+   "text": "In spite of the flood warning, many shopkeepers kept their tea stalls open near the station."
+  },
+  {
+   "bn": "শহর দূষিত বাতাসে কষ্ট পায়, অথচ গ্রামে এখনো তুলনামূলকভাবে নির্মল বাতাস আছে।",
+   "pron_bn": "",
+   "text": "The city suffers from polluted air, whereas the village still enjoys comparatively fresh air."
+  },
+  {
+   "bn": "সৌরবাতি প্রথমে দামি; তবে দীর্ঘ মেয়াদে অনেক টাকা বাঁচায়।",
+   "pron_bn": "",
+   "text": "Solar lights are expensive at first; however, they save a lot of money in the long run."
+  },
+  {
+   "bn": "ঢাকায় আমাদের দৈনন্দিন জীবনে কার্বন নিঃসরণ কমাতে আমরা কী করতে পারি?",
+   "pron_bn": "",
+   "text": "What can we do to reduce carbon emission in our daily life in Dhaka?"
+  },
+  {
+   "bn": "চট্টগ্রামে উপকূলের পরিবারগুলো লবণাক্ত পানি আর ঘন ঘন ঝড়ের সাথে কীভাবে মানিয়ে নেয়?",
+   "pron_bn": "",
+   "text": "How do coastal families adapt to salty water and frequent storms in Chittagong?"
+  },
+  {
+   "bn": "নদীভাঙনে তাদের বাড়ি ভেসে যাওয়ায় তানভীরের পরিবার সিলেটের কাছে নিরাপদ জায়গায় চলে গেছে।",
+   "pron_bn": "",
+   "text": "River erosion took their home, so Tanvir's family moved to a safer place near Sylhet."
+  },
+  {
+   "bn": "বাতাস ঠান্ডা আর পরিষ্কার রাখতে স্কুলের চারপাশে আরও গাছ লাগানো উচিত।",
+   "pron_bn": "",
+   "text": "We should plant more trees around our school to keep the air cool and clean."
+  },
+  {
+   "bn": "দরকার না থাকলে ফ্যান আর বাতি বন্ধ করলে বিদ্যুৎ বাঁচে আর দূষণ কমে।",
+   "pron_bn": "",
+   "text": "Turning off fans and lights when not needed saves electricity and reduces pollution."
+  },
+  {
+   "bn": "আবার বন্যা এলে চাল, মাছ আর জরুরি কাগজপত্র কোথায় রাখব?",
+   "pron_bn": "",
+   "text": "If the flood comes again, where will we keep our rice, fish and important documents?"
+  },
+  {
+   "bn": "চলো প্রতিবেশীদের সাথে পানি বাঁচানো আর প্রতি সপ্তাহে ড্রেন পরিষ্কার রাখা নিয়ে কথা বলি।",
+   "pron_bn": "",
+   "text": "Let's talk to our neighbours about saving water and keeping the drains clean every week."
+  }
+ ],
+ "reading": [
+  {
+   "bn": "বাংলাদেশ খুব কম দূষণ করলেও জলবায়ু পরিবর্তনের ক্ষতিকর প্রভাবে অনেক বেশি ভুগছে।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Although Bangladesh produces very little pollution, it suffers greatly from the effects of climate change."
+  },
+  {
+   "bn": "বিশেষজ্ঞদের বারবার সতর্ক করা সত্ত্বেও ঢাকার চারপাশে অনেক ইটভাটা এখনো প্রতিদিন কালো ধোঁয়া ছড়াচ্ছে।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Despite repeated warnings from experts, many brick kilns around Dhaka still release thick black smoke daily."
+  },
+  {
+   "bn": "চাঁদপুরে মারাত্মক নদীভাঙন সত্ত্বেও অনেক পরিবার সহজে পৈতৃক বাড়ি ছেড়ে যেতে চায় না।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "In spite of serious river erosion in Chandpur, many families refuse to leave their ancestral homes easily."
+  },
+  {
+   "bn": "উপকূলের চট্টগ্রাম সমুদ্রপৃষ্ঠের উচ্চতা বৃদ্ধি আর লবণাক্ত পানির সমস্যায় আছে, অথচ সিলেটে আকস্মিক বন্যার সমস্যা বেশি।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Coastal Chittagong faces rising sea level and salty water, whereas Sylhet struggles more with sudden flash floods."
+  },
+  {
+   "bn": "অনেক গ্রামে এখন সৌরবিদ্যুতে বাতি আর ফ্যান চলে; তবে গরিব পরিবার এখনো পুরো ব্যবস্থা কিনতে পারে না।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Many villages now use solar power for lights and fans; however, poor families still cannot afford the full system."
+  },
+  {
+   "bn": "গরম প্রায় অসহ্য হয়ে উঠলেও খোলা জায়গায় কাজ করা শ্রমিকেরা যথেষ্ট খাবার পানি ছাড়াই কাজ চালিয়ে যাচ্ছেন।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Although the summer heat has become almost unbearable, outdoor workers continue to work without enough drinking water."
+  },
+  {
+   "bn": "নবায়নযোগ্য শক্তির প্রতি আগ্রহ বাড়লেও বেশিরভাগ বাস আর কারখানা এখনো দূষণকারী জ্বালানির ওপর অনেক নির্ভরশীল।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Despite growing interest in renewable energy, most buses and factories still depend heavily on polluting fuels."
+  },
+  {
+   "bn": "বয়স্ক কৃষকেরা নিয়মিত ঋতুর কথা মনে রাখেন, অথচ রাফি আর মিতুর মতো তরুণেরা আজ খুব অনিশ্চিত আবহাওয়ার মুখে পড়ছে।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "Older farmers remember regular seasons, whereas young people like Rafi and Mitu face extremely unpredictable weather today."
+  },
+  {
+   "bn": "এত সব চ্যালেঞ্জ সত্ত্বেও মানুষ আশাবাদী আছে এবং একসাথে নতুন পরিবেশের সাথে মানিয়ে নিতে শিখছে।",
+   "pron_bn": "",
+   "speaker": "",
+   "text": "In spite of all these challenges, people remain hopeful and are learning to adapt to the new environment together."
+  }
+ ],
+ "tip_bn": "বন্যা বা গরম নিয়ে খবর পড়ার সময় although আর however বাক্যগুলোতে দাগ দাও। প্রতিদিন নিজের জীবন থেকে একটি বৈপরীত্যের বাক্য জোরে বলো, তাহলে contrast linkers সহজ হয়ে যাবে।",
+ "title": "Climate Change in Bangladesh",
+ "words": [
+  {
+   "bn": "জলবায়ু পরিবর্তন",
+   "example": "Climate change is affecting farmers in Bangladesh more seriously than ever before.",
+   "example_bn": "জলবায়ু পরিবর্তন আগের যেকোনো সময়ের চেয়ে বাংলাদেশের কৃষকদের বেশি ক্ষতিগ্রস্ত করছে।",
+   "pron_bn": "ক্লাইমেট চেইঞ্জ",
+   "text": "climate change"
+  },
+  {
+   "bn": "বৈশ্বিক উষ্ণায়ন",
+   "example": "Global warming has made summer heat in Dhaka almost unbearable for outdoor workers.",
+   "example_bn": "বৈশ্বিক উষ্ণায়নের কারণে ঢাকায় গ্রীষ্মের গরম বাইরে কাজ করা শ্রমিকদের জন্য প্রায় অসহ্য হয়ে গেছে।",
+   "pron_bn": "গ্লোবাল ওয়ার্মিং",
+   "text": "global warming"
+  },
+  {
+   "bn": "বন্যা",
+   "example": "The sudden flood damaged rice fields and blocked roads in Sylhet for many days.",
+   "example_bn": "আকস্মিক বন্যায় সিলেটে ধানের খেত নষ্ট হয়েছে আর অনেক দিন রাস্তা বন্ধ ছিল।",
+   "pron_bn": "ফ্লাড",
+   "text": "flood"
+  },
+  {
+   "bn": "নদীভাঙন",
+   "example": "River erosion forces thousands of families in Chandpur to leave their homes every year.",
+   "example_bn": "নদীভাঙনের কারণে চাঁদপুরে হাজার হাজার পরিবার প্রতি বছর বাড়ি ছাড়তে বাধ্য হয়।",
+   "pron_bn": "রিভার ইরোশন",
+   "text": "river erosion"
+  },
+  {
+   "bn": "খরা, অনাবৃষ্টি",
+   "example": "Drought in the northern districts reduces vegetable production and increases food prices sharply.",
+   "example_bn": "উত্তরের জেলাগুলোতে খরায় সবজির উৎপাদন কমে যায় আর খাবারের দাম দ্রুত বেড়ে যায়।",
+   "pron_bn": "ড্রাউট",
+   "text": "drought"
+  },
+  {
+   "bn": "সমুদ্রপৃষ্ঠের উচ্চতা",
+   "example": "Rising sea level threatens the homes and farmland of coastal people in Chittagong.",
+   "example_bn": "সমুদ্রপৃষ্ঠের উচ্চতা বাড়ায় চট্টগ্রামে উপকূলের মানুষের বাড়িঘর আর ফসলি জমি হুমকির মুখে পড়ছে।",
+   "pron_bn": "সি লেভেল",
+   "text": "sea level"
+  },
+  {
+   "bn": "কার্বন নিঃসরণ",
+   "example": "Reducing carbon emission from buses and factories can improve air quality in big cities.",
+   "example_bn": "বাস আর কারখানার কার্বন নিঃসরণ কমালে বড় শহরগুলোতে বাতাসের মান ভালো হতে পারে।",
+   "pron_bn": "কার্বন ইমিশন",
+   "text": "carbon emission"
+  },
+  {
+   "bn": "নবায়নযোগ্য শক্তি",
+   "example": "Many villages now use renewable energy like solar power for lights and mobile charging.",
+   "example_bn": "অনেক গ্রামে এখন বাতি জ্বালাতে আর মোবাইল চার্জ দিতে সৌরবিদ্যুতের মতো নবায়নযোগ্য শক্তি ব্যবহার হয়।",
+   "pron_bn": "রিনিউঅ্যাবল এনার্জি",
+   "text": "renewable energy"
+  },
+  {
+   "bn": "ঝুঁকিপূর্ণ, সহজে ক্ষতিগ্রস্ত হয় এমন",
+   "example": "Low-lying villages near the coast are highly vulnerable to storms and tidal floods.",
+   "example_bn": "উপকূলের কাছের নিচু গ্রামগুলো ঝড় আর জোয়ারের বন্যার কাছে খুবই ঝুঁকিপূর্ণ।",
+   "pron_bn": "ভালনারেবল",
+   "text": "vulnerable"
+  },
+  {
+   "bn": "খাপ খাওয়ানো, মানিয়ে নেওয়া",
+   "example": "Farmers are learning to adapt to salty soil by growing new varieties of rice.",
+   "example_bn": "কৃষকেরা ধানের নতুন জাত চাষ করে লবণাক্ত মাটির সাথে মানিয়ে নিতে শিখছেন।",
+   "pron_bn": "অ্যাডাপ্ট টু",
+   "text": "adapt to"
+  }
+ ]
+}

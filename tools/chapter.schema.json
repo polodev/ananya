@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "intro_bn", "reading", "words", "phrases", "grammar", "tip_bn"],
+  "properties": {
+    "title": {"type": "string"},
+    "intro_bn": {"type": "string"},
+    "reading": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["speaker", "text", "pron_bn", "bn"],
+        "properties": {"speaker": {"type": "string"}, "text": {"type": "string"}, "pron_bn": {"type": "string"}, "bn": {"type": "string"}}
+      }
+    },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["text", "pron_bn", "bn", "example", "example_bn"],
+        "properties": {"text": {"type": "string"}, "pron_bn": {"type": "string"}, "bn": {"type": "string"},
+                       "example": {"type": "string"}, "example_bn": {"type": "string"}}
+      }
+    },
+    "phrases": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["text", "pron_bn", "bn"],
+        "properties": {"text": {"type": "string"}, "pron_bn": {"type": "string"}, "bn": {"type": "string"}}
+      }
+    },
+    "grammar": {
+      "type": "object", "additionalProperties": false,
+      "required": ["title_bn", "points_bn", "examples", "quiz"],
+      "properties": {
+        "title_bn": {"type": "string"},
+        "points_bn": {"type": "array", "items": {"type": "string"}},
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["text", "pron_bn", "bn"],
+            "properties": {"text": {"type": "string"}, "pron_bn": {"type": "string"}, "bn": {"type": "string"}}
+          }
+        },
+        "quiz": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["q", "options", "answer", "why_bn"],
+            "properties": {"q": {"type": "string"}, "options": {"type": "array", "items": {"type": "string"}},
+                           "answer": {"type": "integer"}, "why_bn": {"type": "string"}}
+          }
+        }
+      }
+    },
+    "tip_bn": {"type": "string"}
+  }
+}

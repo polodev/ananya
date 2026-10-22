@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["text", "pron_bn"],
+        "properties": {"text": {"type": "string"}, "pron_bn": {"type": "string"}}
+      }
+    }
+  }
+}
