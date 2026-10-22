@@ -1,7 +1,7 @@
 # Language Corner (ভাষার ঘর) — agent guide
 
 Language-learning site taught in **Bangla**, mobile first. English (A2, B1, B2), Japanese (A1), German (A1).
-Repo `polodev/language` → GitHub Pages `https://polodev.github.io/language/`. Sister project of `~/sites/sanjoy` (same engine idea).
+Repo `polodev/language` → GitHub Pages `https://polodev.github.io/ananya/`. Sister project of `~/sites/sanjoy` (same engine idea).
 
 ## Structure
 Home → language → course (level) → chapters **অধ্যায় 1 … N**; each chapter is one swipeable slide deck.

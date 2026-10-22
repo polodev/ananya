@@ -1,7 +1,7 @@
 """Builds the whole site (static HTML).   python3 build.py
 
 Course outlines: curriculum.py. Topic chapters: content/<course>/ch-NN.json. Letter chapters: letters_ja.py, letters_de.py.
-Relative links everywhere, so it works at https://polodev.github.io/language/ and at any domain root."""
+Relative links everywhere, so it works at https://polodev.github.io/ananya/ and at any domain root."""
 import shutil
 
 from curriculum import COURSES, LANGS

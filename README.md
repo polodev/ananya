@@ -15,7 +15,7 @@ Every topic chapter: a dialogue or short text, 10 words, 40 useful sentences, on
 Slides are read only by swiping left and right: nothing scrolls, on a phone or a desktop.
 Bangla pronunciation is shown for every line (can be hidden), and the phone's own text-to-speech reads everything aloud.
 
-Live: https://polodev.github.io/language/
+Live: https://polodev.github.io/ananya/
 
 ## How it works
 

@@ -5,7 +5,7 @@ import random
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SITE_URL = "https://polodev.github.io/language"   # absolute URL is only used for og:url; every link in the site is relative
+SITE_URL = "https://polodev.github.io/ananya"   # absolute URL is only used for og:url; every link in the site is relative
 SITE_NAME = "ভাষার ঘর"
 SITE_NAME_EN = "Language Corner"
 DIG = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
