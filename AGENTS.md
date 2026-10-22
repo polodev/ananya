@@ -21,6 +21,13 @@ sound rules, numbers), then A1 topic chapters.
 - `validate.py` — checks counts, scripts (kana-only Japanese, no stray Chinese/Korean), formal Bangla, culture rules.
 - `assets/app.css`, `assets/app.js` — the only CSS/JS. localStorage keys start with `lang:`.
 
+## Layout rule: read only by swiping left/right
+- No slide may need vertical scrolling (phone 390×844 and desktop 1280×720).
+- Each section starts with a full title slide (`engine.section`); the slides after it carry no heading, only cards.
+- Put lists in `engine.cards(items)`: after fonts load, `fitSlides()` in `app.js` moves cards that don't fit onto
+  extra slides, and does it again on resize. Wide screens show cards in two columns.
+- Anything not in `cards()` (cover, tip, row grid, quiz) must fit on its own; the checker reports `needs vertical scroll`.
+
 ## Content rules
 - Bangla explanations address the learner as **তুমি** (validator flags আপনি/করুন… in teacher text).
 - Culture: no alcohol, pork or beef; no religious rituals (prayer, salam, mosque, temple); festivals (Eid, Puja, Boishakh) are fine.

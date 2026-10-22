@@ -64,21 +64,6 @@
     b.classList.add('on');
     speak(b.getAttribute('data-say'), b.getAttribute('data-lang') || 'en-US', function () { b.classList.remove('on'); });
   });
-  document.addEventListener('click', function (e) {
-    var b = e.target.closest('[data-play]');
-    if (!b) return;
-    var lines = [].slice.call(b.closest('.slide').querySelectorAll('.line'));
-    var i = 0;
-    (function next() {
-      lines.forEach(function (l) { l.classList.remove('now'); });
-      if (i >= lines.length) return;
-      var l = lines[i++];
-      l.classList.add('now');
-      var s = l.querySelector('[data-say]');
-      speak(s.getAttribute('data-say'), s.getAttribute('data-lang'), function () { setTimeout(next, 250); });
-    })();
-  });
-
   // ---- hide translation (tap a blurred line to peek) ----
   document.addEventListener('click', function (e) {
     var t = e.target.closest('.bn, .pr'), b = document.body.classList;
@@ -134,16 +119,65 @@
     show();
   }
 
+  // ---- fit: spread [data-split] lists over extra slides so no slide needs vertical scrolling ----
+  function overflows(s) { return s.scrollHeight > s.clientHeight + 1; }
+  function fitSlides(deck) {
+    [].slice.call(deck.children).forEach(function (s) {
+      var box = s.querySelector('[data-split]');
+      if (!box || !overflows(s)) return;
+      var step = +(box.getAttribute('data-step') || 1);
+      var items = [].slice.call(box.children);
+      items.forEach(function (it) { box.removeChild(it); });
+      var after = [];
+      while (box.nextSibling) after.push(box.parentNode.removeChild(box.nextSibling));
+      var template = s.cloneNode(true);          // whatever comes before the list, plus the empty list
+      var cur = s, curBox = box, count = 0;
+      function newPart() {
+        var next = template.cloneNode(true);
+        cur.parentNode.insertBefore(next, cur.nextSibling);
+        cur = next; curBox = next.querySelector('[data-split]'); count = 0;
+      }
+      for (var k = 0; k < items.length; k += step) {
+        var chunk = items.slice(k, k + step);
+        chunk.forEach(function (it) { curBox.appendChild(it); });
+        if (count > 0 && overflows(cur)) {
+          chunk.forEach(function (it) { curBox.removeChild(it); });
+          newPart();
+          chunk.forEach(function (it) { curBox.appendChild(it); });
+        }
+        count += chunk.length;
+      }
+      if (after.length) {
+        after.forEach(function (a) { curBox.parentNode.appendChild(a); });
+        if (overflows(cur) && count > 0) {
+          after.forEach(function (a) { a.parentNode.removeChild(a); });
+          newPart();
+          curBox.parentNode.removeChild(curBox);
+          after.forEach(function (a) { cur.querySelector('.inner').appendChild(a); });
+        }
+      }
+    });
+  }
+
   // ---- deck ----
   var deck = document.getElementById('deck');
   if (deck) {
-    var slides = [].slice.call(deck.children);
-    var n = slides.length, i = 0;
+    var ORIGINAL = deck.innerHTML;
+    var slides = [], n = 0, i = 0, started = false;
     var key = document.body.getAttribute('data-deck');
     var bar = document.getElementById('bar'), count = document.getElementById('count');
-    var hasBn = document.body.classList.contains('has-bn');
 
+    function layout() {
+      deck.innerHTML = ORIGINAL;
+      fitSlides(deck);
+      slides = [].slice.call(deck.children);
+      n = slides.length;
+      [].forEach.call(document.querySelectorAll('.quiz'), function (q) {
+        initQuiz(q, key, function () { go(i + 1); });
+      });
+    }
     function go(k) {
+      if (!started) return;
       i = Math.max(0, Math.min(n - 1, k));
       deck.style.transform = 'translateX(-' + (i * 100) + '%)';
       bar.style.width = ((i + 1) / n * 100) + '%';
@@ -154,11 +188,37 @@
       if (i === n - 1) LS.set('lang:done:' + key, '1');
       try { history.replaceState(null, '', '#' + (i + 1)); } catch (e) {}
       if ('speechSynthesis' in window) speechSynthesis.cancel();
-      [].forEach.call(document.querySelectorAll('.line.now'), function (l) { l.classList.remove('now'); });
     }
-    [].forEach.call(document.querySelectorAll('.quiz'), function (q) {
-      initQuiz(q, key, function () { go(i + 1); });
+    function start() {
+      if (started) return;
+      layout();
+      started = true;
+      document.body.setAttribute('data-ready', '1');
+      var h = parseInt((location.hash || '').slice(1), 10);
+      if (!isNaN(h)) { go(h - 1); return; }
+      var last = parseInt(LS.get('lang:p:' + key) || '0', 10);
+      go(0);
+      if (last > 0 && last < n - 1) {
+        var t = toast('আগেরবার ' + B(last + 1) + ' নম্বর স্লাইড পর্যন্ত পড়েছিলে। <button id="rgo">চালিয়ে যাও</button><button class="alt" id="rno">শুরু থেকে</button>');
+        t.querySelector('#rgo').onclick = function () { go(last); t.remove(); };
+        t.querySelector('#rno').onclick = function () { t.remove(); };
+      }
+    }
+    function relayout() {   // fonts arrived late or the window changed size: measure again, stay near the same place
+      if (!started) return;
+      var frac = n > 1 ? i / (n - 1) : 0;
+      layout();
+      go(Math.round(frac * (n - 1)));
+    }
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { if (started) relayout(); else start(); });
+    setTimeout(start, 1500);
+    var lastW = innerWidth, lastH = innerHeight, rt = null;
+    window.addEventListener('resize', function () {
+      if (Math.abs(innerWidth - lastW) < 30 && Math.abs(innerHeight - lastH) < 120) return;   // ignore the phone URL bar
+      lastW = innerWidth; lastH = innerHeight;
+      clearTimeout(rt); rt = setTimeout(relayout, 250);
     });
+
     document.getElementById('prev').onclick = function () { go(i - 1); };
     document.getElementById('next').onclick = function () { go(i + 1); };
     document.getElementById('theme').onclick = toggleTheme;
@@ -180,15 +240,12 @@
       prBtn.onclick = function () { hidePr = !hidePr; LS.set('lang:hidepr', hidePr ? '1' : '0'); paintPr(); toast(hidePr ? '🔤 উচ্চারণ লুকানো — ট্যাপ করলে দেখা যাবে' : '🔤 উচ্চারণ দেখানো হচ্ছে', 1500); };
       paintPr();
     }
-    [].forEach.call(document.querySelectorAll('[data-goto]'), function (b) {
-      b.addEventListener('click', function () { go(+b.getAttribute('data-goto')); });
-    });
     document.addEventListener('keydown', function (e) {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.key === 'ArrowRight' || e.key === 'PageDown') { e.preventDefault(); go(i + 1); }
       else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(i - 1); }
     });
-    // swipe left/right = change slide; vertical drag scrolls the slide
+    // swipe left/right = change slide
     var x0 = null, y0 = null;
     document.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
     document.addEventListener('touchend', function (e) {
@@ -201,17 +258,6 @@
       var t = parseInt((location.hash || '').slice(1), 10) - 1;
       if (!isNaN(t) && t !== i) go(t);
     });
-    var h = parseInt((location.hash || '').slice(1), 10);
-    if (!isNaN(h)) go(h - 1);
-    else {
-      var last = parseInt(LS.get('lang:p:' + key) || '0', 10);
-      go(0);
-      if (last > 0 && last < n - 1) {
-        var t = toast('আগেরবার ' + B(last + 1) + ' নম্বর স্লাইড পর্যন্ত পড়েছিলে। <button id="rgo">চালিয়ে যাও</button><button class="alt" id="rno">শুরু থেকে</button>');
-        t.querySelector('#rgo').onclick = function () { go(last); t.remove(); };
-        t.querySelector('#rno').onclick = function () { t.remove(); };
-      }
-    }
   }
 
   // ---- photo lightbox ----

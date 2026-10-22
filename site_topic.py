@@ -2,7 +2,7 @@
 import json
 
 from curriculum import COURSES, LANGS
-from engine import ROOT, bn, cover, deck_page, esc, finish_slide, mcq, quiz_slide, say_btn, seeded, slide, split_even
+from engine import ROOT, bn, cards, cover, deck_page, esc, finish_slide, mcq, quiz_slide, say_btn, section, seeded, slide
 import letters_ja as JA
 
 
@@ -78,36 +78,25 @@ def build(course_key, n):
     meta = c["chapters"][n - 1]
     g = d["grammar"]
     dialogue = any(x["speaker"].strip() for x in d["reading"])
-    reading_label = "💬 কথোপকথন" if dialogue else "📖 পড়া"
+    r_icon, r_name = ("💬", "কথোপকথন") if dialogue else ("📖", "পড়া")
     tts = L.tts
-    title_say = f'<p class="sub-title">{say_btn(L.say(d["title"]), tts)}<span class="{"jp" if L.ja else ""}">{esc(d["title"])}</span></p>'
+    jp = ' class="jp"' if L.ja else ""
+    title_say = f'<p class="sub-title">{say_btn(L.say(d["title"]), tts)}<span{jp}>{esc(d["title"])}</span></p>'
     S = [cover(f"{c['title']} · অধ্যায় {bn(n)}", esc(meta["title_bn"]), esc(d["intro_bn"]),
-               [f"{reading_label} ({bn(len(d['reading']))} লাইন)", "🔤 ১০টি নতুন শব্দ", "🗣️ ১২টি দরকারি বাক্য",
+               [f"{r_icon} {r_name} ({bn(len(d['reading']))} লাইন)", "🔤 ১০টি নতুন শব্দ", "🗣️ ১২টি দরকারি বাক্য",
                 f"✏️ ব্যাকরণ: {esc(g['title_bn'])}", f"📝 {bn(len(g['quiz']) + 9)} প্রশ্নের কুইজ"], extra=title_say)]
 
-    parts = split_even(d["reading"], 5)
-    for i, grp in enumerate(parts, 1):
-        S.append(slide(f'<span class="chip">{reading_label} {bn(i)}/{bn(len(parts))}</span><h2 class="{"jp" if L.ja else ""}">{esc(d["title"])}</h2>'
-                       + ('<p class="hint">🔊 চাপলে শুনতে পাবে। 🔤 দিয়ে উচ্চারণ, 👁 দিয়ে বাংলা লুকিয়ে নিজেকে পরীক্ষা করো।</p>' if i == 1 else "")
-                       + '<div class="row-actions"><button class="btn" data-play>▶ পুরো অংশ শোনো</button></div>'
-                       + "".join(L.line(x, x["speaker"]) for x in grp), "", "পড়া"))
-
-    for i, grp in enumerate(split_even(d["words"], 5), 1):
-        S.append(slide(f'<span class="chip">🔤 শব্দ {bn(i)}/২</span><h2>নতুন শব্দ</h2>' + "".join(L.word(w) for w in grp), "", "শব্দ"))
-
-    parts = split_even(d["phrases"], 4)
-    for i, grp in enumerate(parts, 1):
-        S.append(slide(f'<span class="chip">🗣️ বাক্য {bn(i)}/{bn(len(parts))}</span><h2>দরকারি বাক্য</h2>'
-                       + ('<p class="hint">আগে নিজে জোরে বলো, তারপর 🔊 চেপে মিলিয়ে নাও, তারপর আবার বলো।</p>' if i == 1 else "")
-                       + "".join(L.line(x) for x in grp), "", "বাক্য"))
-
-    pts = "".join(f"<li>{p}</li>" for p in g["points_bn"])   # <b> only, checked by validate.py
-    q0 = g["quiz"][0]
-    S.append(slide(f'<span class="chip">✏️ ব্যাকরণ</span><h2>{esc(g["title_bn"])}</h2><ul class="pts">{pts}</ul>'
-                   + "".join(L.line(x) for x in g["examples"])
-                   + f'<details class="q"><summary>🧠 নিজে চেষ্টা করো: {esc(q0["q"])}</summary><div>{" / ".join(f"<b>{esc(o)}</b>" for o in q0["options"])}</div>'
-                     f'<p>উত্তর: {esc(q0["options"][q0["answer"]])} — {esc(q0["why_bn"])}</p></details>', "", "ব্যাকরণ"))
-    S.append(slide(f'<span class="chip">💡 টিপস</span><h2>মনে রাখার কৌশল</h2><div class="callout">{esc(d["tip_bn"])}</div>'
+    # each section = one full title slide, then card slides with no heading (app.js spreads cards so nothing scrolls)
+    S.append(section(r_icon, r_name, f'<span{jp}>{esc(d["title"])}</span>', "🔊 চাপলে শুনবে · 🔤 উচ্চারণ আর 👁 বাংলা লুকিয়ে নিজেকে পরীক্ষা করো"))
+    S.append(slide(cards([L.line(x, x["speaker"]) for x in d["reading"]]), "", r_name))
+    S.append(section("🔤", "নতুন শব্দ", f"{bn(len(d['words']))}টি শব্দ, প্রতিটির সাথে একটি উদাহরণ"))
+    S.append(slide(cards([L.word(w) for w in d["words"]]), "", "শব্দ"))
+    S.append(section("🗣️", "দরকারি বাক্য", f"{bn(len(d['phrases']))}টি বাক্য", "আগে নিজে জোরে বলো, তারপর 🔊 চেপে মিলিয়ে নাও"))
+    S.append(slide(cards([L.line(x) for x in d["phrases"]]), "", "বাক্য"))
+    S.append(section("✏️", "ব্যাকরণ", esc(g["title_bn"])))
+    S.append(slide(cards([f'<div class="pt">{p}</div>' for p in g["points_bn"]]), "", "ব্যাকরণ"))   # <b> only, checked by validate.py
+    S.append(slide(cards([L.line(x) for x in g["examples"]]), "", "উদাহরণ"))
+    S.append(slide(f'<span class="chip">💡 টিপস</span><div class="callout">{esc(d["tip_bn"])}</div>'
                    '<div class="callout warn">🎯 আজকের কাজ: ১২টি বাক্যের মধ্যে ৩টি বেছে নিয়ে নিজের জীবনের কথা দিয়ে বদলে বলো।</div>', "", "টিপস"))
     S.append(quiz_slide(quiz_for(course_key, n, d, L)))
 

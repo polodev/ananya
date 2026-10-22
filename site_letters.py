@@ -2,7 +2,7 @@
 import unicodedata
 
 from curriculum import COURSES
-from engine import bn, chunks, cover, deck_page, esc, finish_slide, mcq, quiz_slide, say_btn, seeded, slide
+from engine import bn, cards, cover, deck_page, esc, finish_slide, mcq, quiz_slide, say_btn, section, seeded, slide
 import letters_ja as JA
 import letters_de as DE
 
@@ -121,9 +121,7 @@ def ja_row_slides(n):
     out = []
     for row in ja_rows(n):
         notes = "".join(f'<div class="callout">💡 <b class="jp">{c}</b>: {esc(NOTES[c])}</div>' for c in row if c in NOTES)
-        out.append(slide(f'<span class="chip">{row_name(row)}</span><h2 class="jp">{" ".join(c for c in row if c != "・")}</h2>'
-                         '<p class="hint">ট্যাপ করলে শুনবে। ওপরে অক্ষর, মাঝে romaji, নিচে বাংলা উচ্চারণ।</p>'
-                         f'{krow(row)}{notes}', "", row_name(row)))
+        out.append(slide(f'<h2 class="jp row-h">{" ".join(c for c in row if c != "・")}</h2>{krow(row)}{notes}', "", row_name(row)))
     return out
 
 
@@ -132,44 +130,39 @@ def look_slide(n, pairs):
     ps = [(a, b, why) for a, b, why in pairs if a in known and b in known and (a in today or b in today)]
     if not ps:
         return []
-    rows = "".join(f'<div class="line"><div class="chips"><span class="kchip">{a}</span><span class="kchip">{b}</span></div><div><p>{esc(why)}</p></div></div>'
-                   for a, b, why in ps)
-    return [slide(f'<span class="chip">🔍 সাবধান</span><h2>একই রকম দেখতে অক্ষর</h2><p class="lead">এই জোড়াগুলো সবাই গুলিয়ে ফেলে:</p>{rows}', "", "একই রকম")]
+    rows = [f'<div class="line"><div class="chips"><span class="kchip">{a}</span><span class="kchip">{b}</span></div><div><p>{esc(why)}</p></div></div>'
+            for a, b, why in ps]
+    return [section("🔍", "একই রকম দেখতে অক্ষর", "এই জোড়াগুলো সবাই গুলিয়ে ফেলে — পার্থক্যটা মনে রাখো"), slide(cards(rows), "", "একই রকম")]
 
 
-def reading_slides(words, tts=JA_TTS, per=4):
-    parts = chunks(words, per)
-    return [slide(f'<span class="chip">📖 পড়ার অনুশীলন {bn(i)}/{bn(len(parts))}</span><h2>শব্দ পড়ো</h2>'
-                  '<p class="hint">আগে নিজে পড়ার চেষ্টা করো, তারপর কার্ডে ট্যাপ করে উত্তর মিলিয়ে নাও।</p>'
-                  + "".join(rcard(*w, tts=tts) if tts == JA_TTS else rcard(w[0], w[2], tts, w[1]) for w in grp), "", "পড়া")
-            for i, grp in enumerate(parts, 1)]
+def reading_slides(words, tts=JA_TTS):
+    items = [rcard(*w, tts=tts) if tts == JA_TTS else rcard(w[0], w[2], tts, w[1]) for w in words]
+    return [section("📖", "শব্দ পড়ো", "আগে নিজে পড়ার চেষ্টা করো", "তারপর কার্ডে ট্যাপ করে উত্তর মিলিয়ে নাও"),
+            slide(cards(items), "", "পড়া")]
 
 
 def chart_slide(rows, title, lead):
-    cells = "".join(jcell(c) for row in rows for c in row.ljust(5, "・"))
-    return slide(f'<span class="chip">🏆 মাইলফলক</span><h2>{title}</h2><p class="lead">{lead}</p><div class="chart">{cells}</div>', "", "পুরো ছক")
+    cells = [jcell(c) for row in rows for c in row.ljust(5, "・")]
+    return [section("🏆", title, lead), slide(cards(cells, "chart", step=5), "", "পুরো ছক")]
 
 
 def ja_extras_ch4():
     pairs = [("か", "が"), ("さ", "ざ"), ("た", "だ"), ("は", "ば"), ("は", "ぱ")]
-    rows = "".join(f'<div class="exword"><div class="chips"><span class="kchip">{a}</span><span class="kchip">{b}</span></div>'
-                   f'<div><small>{JA.romaji(a)} → {JA.romaji(b)} · {JA.bangla(a)} → {JA.bangla(b)}</small></div></div>' for a, b in pairs)
-    first = slide('<span class="chip">゛ ゜</span><h2>দুটো ছোট চিহ্ন, ২৫টি নতুন ধ্বনি</h2>'
-                  '<p class="lead">অক্ষরের কোনায় <b>゛ (দুই দাগ)</b> বা <b>゜ (ছোট বৃত্ত)</b> বসালে ধ্বনি বদলে যায়। নতুন করে মুখস্থ করার কিছু নেই!</p>' + rows, "", "゛ ゜")
-    small = [slide('<span class="chip">っ ছোট ৎসু</span><h2>ছোট っ = এক মুহূর্ত থামা</h2>'
-                   '<p class="lead">ছোট っ নিজে কোনো ধ্বনি না — পরের ব্যঞ্জনটা দ্বিগুণ হয়, যেন ছোট্ট একটা বিরতি।</p>'
-                   + "".join(exword(*w) for w in JA.SMALL_TSU)
-                   + '<div class="callout">きて (kite) = এসো, কিন্তু きって (kitte) = ডাকটিকিট — ছোট っ-তে অর্থই বদলে যায়!</div>', "", "ছোট っ")]
+    rows = [f'<div class="exword"><div class="chips"><span class="kchip">{a}</span><span class="kchip">{b}</span></div>'
+            f'<div><small>{JA.romaji(a)} → {JA.romaji(b)} · {JA.bangla(a)} → {JA.bangla(b)}</small></div></div>' for a, b in pairs]
+    first = [section("゛ ゜", "দুটো ছোট চিহ্ন, ২৫টি নতুন ধ্বনি",
+                     "অক্ষরের কোনায় <b>゛ (দুই দাগ)</b> বা <b>゜ (ছোট বৃত্ত)</b> বসালে ধ্বনি বদলে যায়। নতুন করে মুখস্থ করার কিছু নেই!"),
+             slide(cards(rows), "", "゛ ゜")]
+    small = [section("っ", "ছোট っ = এক মুহূর্ত থামা", "ছোট っ নিজে কোনো ধ্বনি না — পরের ব্যঞ্জনটা দ্বিগুণ হয়, যেন ছোট্ট একটা বিরতি।"),
+             slide(cards([exword(*w) for w in JA.SMALL_TSU]
+                         + ['<div class="callout">きて (kite) = এসো, কিন্তু きって (kitte) = ডাকটিকিট — ছোট っ-তে অর্থই বদলে যায়!</div>']), "", "ছোট っ")]
     combos = ["きゃ", "きゅ", "きょ", "しゃ", "しゅ", "しょ", "ちゃ", "ちゅ", "ちょ", "じゃ", "じゅ", "じょ"]
-    cells = "".join(jcell(c) for c in combos)
-    small.append(slide('<span class="chip">ゃ ゅ ょ</span><h2>ছোট や ゆ よ = এক ধ্বনি</h2>'
-                       '<p class="lead">ই-কারের অক্ষরের পাশে ছোট ゃ ゅ ょ বসলে দুটো মিলে <b>একটাই ধ্বনি</b>: き + ゃ = きゃ (ক্যা)।</p>'
-                       f'<div class="chart" style="grid-template-columns:repeat(3,1fr)">{cells}</div>'
-                       + "".join(exword(*w) for w in JA.YOON_WORDS), "", "ゃ ゅ ょ"))
-    small.append(slide('<span class="chip">টান</span><h2>লম্বা স্বর</h2>'
-                       '<p class="lead">একই স্বর পরপর এলে (বা お-এর পরে う, え-এর পরে い) টেনে লম্বা করে পড়ো। টান না দিলে অর্থ বদলে যেতে পারে।</p>'
-                       + "".join(exword(*w) for w in JA.LONG_WORDS), "", "লম্বা স্বর"))
-    return [first], small
+    small += [section("ゃ ゅ ょ", "ছোট や ゆ よ = এক ধ্বনি", "ই-কারের অক্ষরের পাশে ছোট ゃ ゅ ょ বসলে দুটো মিলে <b>একটাই ধ্বনি</b>: き + ゃ = きゃ (ক্যা)।"),
+              slide(cards([jcell(c) for c in combos], "chart c3", step=3), "", "ゃ ゅ ょ"),
+              slide(cards([exword(*w) for w in JA.YOON_WORDS]), "", "ゃ ゅ ょ"),
+              section("ー", "লম্বা স্বর", "একই স্বর পরপর এলে (বা お-এর পরে う, え-এর পরে い) টেনে লম্বা করে পড়ো। টান না দিলে অর্থ বদলে যেতে পারে।"),
+              slide(cards([exword(*w) for w in JA.LONG_WORDS]), "", "লম্বা স্বর")]
+    return first, small
 
 
 def ja_kata_intro():
@@ -182,12 +175,10 @@ def ja_kata_intro():
 
 
 def ja_kata_extras_ch6():
-    return [slide('<span class="chip">ー টান</span><h2>লম্বা টানের দাগ ー</h2>'
-                  '<p class="lead">কাতাকানায় লম্বা স্বর বোঝাতে <b>ー</b> দাগ দেওয়া হয়: コ + ー = コー (কো — লম্বা)।</p>'
-                  + "".join(exword(*w) for w in JA.KATA_LONG), "", "ー"),
-            slide('<span class="chip">✨ নাম</span><h2>নাম লেখা কাতাকানায়</h2>'
-                  '<p class="lead">বিদেশি ধ্বনির জন্য ছোট ァ ィ ゥ ェ ォ জুড়ে দেওয়া হয়: フ + ィ = フィ (ফি), ト + ゥ = トゥ (তু)।</p>'
-                  + "".join(exword(*w) for w in JA.KATA_NAMES), "", "নাম")]
+    return [section("ー", "লম্বা টানের দাগ ー", "কাতাকানায় লম্বা স্বর বোঝাতে <b>ー</b> দাগ দেওয়া হয়: コ + ー = コー (কো — লম্বা)।"),
+            slide(cards([exword(*w) for w in JA.KATA_LONG]), "", "ー"),
+            section("✨", "নাম লেখা কাতাকানায়", "বিদেশি ধ্বনির জন্য ছোট ァ ィ ゥ ェ ォ জুড়ে দেওয়া হয়: フ + ィ = フィ (ফি), ト + ゥ = トゥ (তু)।"),
+            slide(cards([exword(*w) for w in JA.KATA_NAMES]), "", "নাম")]
 
 
 def ja_quiz(n):
@@ -227,22 +218,22 @@ def ja_quiz(n):
 
 def ja_numbers():
     cells = "".join(kcell(d, k, JA.bangla(k), k, JA_TTS, "num") for d, k, _ in JA.NUMBERS)
-    S = [slide('<span class="chip">🔢 ০–১০</span><h2>১ থেকে ১০</h2><p class="hint">ট্যাপ করে শোনো। কয়েকটির দুটো উচ্চারণ আছে।</p>'
-               f'<div class="chart" style="grid-template-columns:repeat(4,1fr)">{cells}</div>'
+    def jline(d, k, m):
+        return (f'<div class="line">{say_btn(JA.speakable(k), JA_TTS)}<div><p class="tx"><b>{d}</b> · <span class="jp">{esc(k)}</span></p>'
+                f'<p class="pr">{esc(JA.bangla(k))}</p><p class="bn">{esc(m)}</p></div></div>')
+    S = [section("🔢", "১ থেকে ১০", "ট্যাপ করে শোনো। কয়েকটির দুটো উচ্চারণ আছে।"),
+         slide(cards([kcell(d, k, JA.bangla(k), k, JA_TTS, "num") for d, k, _ in JA.NUMBERS], "chart c4", step=4)
                + "".join(f'<p class="hint"><b>{d}</b> <span class="jp">{k}</span>: {esc(m)}</p>' for d, k, m in JA.NUMBERS if "ও বলে" in m), "", "১–১০"),
-         slide('<span class="chip">🧱 বড় সংখ্যা</span><h2>জোড়া লাগিয়ে বানাও</h2>'
-               '<p class="lead">জাপানি সংখ্যা খুব যুক্তিসঙ্গত: ২০ = “দুই দশ” (に じゅう), ৩৫ = “তিন দশ পাঁচ”।</p>'
-               + "".join(f'<div class="line">{say_btn(JA.speakable(k), JA_TTS)}<div><p class="tx"><b>{d}</b> · <span class="jp">{esc(k)}</span></p>'
-                         f'<p class="pr">{esc(JA.bangla(k))}</p><p class="bn">{esc(m)}</p></div></div>' for d, k, m in JA.NUMBERS_BIG[:6]), "", "বড় সংখ্যা"),
-         slide('<span class="chip">🧱 শত, হাজার, দশ হাজার</span><h2>ひゃく・せん・まん</h2>'
-               + "".join(f'<div class="line">{say_btn(JA.speakable(k), JA_TTS)}<div><p class="tx"><b>{d}</b> · <span class="jp">{esc(k)}</span></p>'
-                         f'<p class="pr">{esc(JA.bangla(k))}</p><p class="bn">{esc(m)}</p></div></div>' for d, k, m in JA.NUMBERS_BIG[6:])
-               + '<div class="callout">💡 জাপানিতে ১০,০০০ (まん) একটা আলাদা একক — ঠিক যেমন বাংলায় “লাখ”। ১,০০,০০০ = じゅう まん (দশ まん)।</div>', "", "শত-হাজার"),
-         slide('<span class="chip">🍎 জিনিস গোনা</span><h2>ひとつ、ふたつ…</h2><p class="lead">দোকানে জিনিস চাওয়ার সময় এই গোনা লাগে:</p>'
-               + "".join(exword(*w) for w in JA.COUNTERS), "", "গোনা"),
-         slide('<span class="chip">🗣️ কাজে লাগাও</span><h2>সংখ্যা দিয়ে বাক্য</h2>'
-               + "".join(f'<div class="line">{say_btn(JA.speakable(s), JA_TTS)}<div><p class="tx jp">{esc(s)}</p><p class="ro">{esc(JA.romaji(s))}</p>'
-                         f'<p class="pr">{esc(JA.bangla(s))}</p><p class="bn">{esc(m)}</p></div></div>' for s, m in JA.NUM_USE), "", "বাক্য")]
+         section("🧱", "জোড়া লাগিয়ে বানাও", "জাপানি সংখ্যা খুব যুক্তিসঙ্গত: ২০ = “দুই দশ” (に じゅう), ৩৫ = “তিন দশ পাঁচ”।"),
+         slide(cards([jline(*x) for x in JA.NUMBERS_BIG[:6]]), "", "বড় সংখ্যা"),
+         section("🧱", "ひゃく・せん・まん", "শত, হাজার, দশ হাজার"),
+         slide(cards([jline(*x) for x in JA.NUMBERS_BIG[6:]]
+                     + ['<div class="callout">💡 জাপানিতে ১০,০০০ (まん) একটা আলাদা একক — ঠিক যেমন বাংলায় “লাখ”। ১,০০,০০০ = じゅう まん (দশ まん)।</div>']), "", "শত-হাজার"),
+         section("🍎", "জিনিস গোনা", "দোকানে জিনিস চাওয়ার সময় এই গোনা লাগে: ひとつ、ふたつ…"),
+         slide(cards([exword(*w) for w in JA.COUNTERS]), "", "গোনা"),
+         section("🗣️", "সংখ্যা দিয়ে বাক্য", "দাম, সময়, ফোন নম্বর"),
+         slide(cards([f'<div class="line">{say_btn(JA.speakable(t), JA_TTS)}<div><p class="tx jp">{esc(t)}</p><p class="ro">{esc(JA.romaji(t))}</p>'
+                      f'<p class="pr">{esc(JA.bangla(t))}</p><p class="bn">{esc(m)}</p></div></div>' for t, m in JA.NUM_USE]), "", "বাক্য")]
     rng = seeded("ja-num")
     nums = JA.NUMBERS[1:] + JA.NUMBERS_BIG
     qs = []
@@ -282,9 +273,9 @@ def build_ja(n):
             S += ja_kata_extras_ch6()
         S += look_slide(n, JA.LOOK_KATA if n in JA.KATA_ROWS else JA.LOOK_HIRA)
         if n == 3:
-            S.append(chart_slide([r for m in (1, 2, 3) for r in JA.HIRA_ROWS[m]], "পুরো হিরাগানা ছক", "৪৬টি মূল অক্ষর — সব শেখা হয়ে গেছে! ট্যাপ করে শোনো।"))
+            S += chart_slide([r for m in (1, 2, 3) for r in JA.HIRA_ROWS[m]], "পুরো হিরাগানা ছক", "৪৬টি মূল অক্ষর — সব শেখা হয়ে গেছে! ট্যাপ করে শোনো।")
         if n == 6:
-            S.append(chart_slide([r for m in (5, 6) for r in JA.KATA_ROWS[m]], "পুরো কাতাকানা ছক", "কাতাকানার ৪৬টি অক্ষরও শেষ! ট্যাপ করে শোনো।"))
+            S += chart_slide([r for m in (5, 6) for r in JA.KATA_ROWS[m]], "পুরো কাতাকানা ছক", "কাতাকানার ৪৬টি অক্ষরও শেষ! ট্যাপ করে শোনো।")
         words = [w for row in ja_rows(n) for w in JA.ROW_WORDS.get(row[0], [])]
         S += reading_slides(words)
         S.append(slide(WRITE_TIP, "", "লেখা"))
@@ -322,20 +313,18 @@ def de_alphabet():
                '<li>সুখবর: জার্মান প্রায় <b>যেমন লেখা তেমন পড়া</b> — নিয়মগুলো শিখলে অচেনা শব্দও পড়তে পারবে।</li>'
                '<li>জার্মানে সব <b>বিশেষ্য (noun) বড় হাতের অক্ষরে</b> শুরু হয়: das Haus, der Tisch।</li></ul>'
                '<div class="callout">🔊 প্রতিটি অক্ষর ট্যাপ করলে শুনবে। জার্মান voice না পেলে ফোনের Settings → Text-to-speech থেকে German যোগ করো।</div>', "", "শুরু"),
-         slide('<span class="chip">🔤 পুরো বর্ণমালা</span><h2>Das Alphabet</h2><p class="hint">ট্যাপ করে প্রতিটি অক্ষরের নাম শোনো, সাথে জোরে বলো।</p>'
-               f'<div class="chart">{cells}</div>', "", "বর্ণমালা")]
-    for i, grp in enumerate(chunks(DE.ALPHABET, 5), 1):
-        rows = "".join(f'<div class="line"><span class="kchip lat">{L}</span><div><p class="tx">নাম: <b>{esc(nm)}</b> · ধ্বনি: {esc(snd)}</p>'
-                       f'<p>{say_btn(w, DE_TTS)} <b class="de-w">{esc(w)}</b> <span class="pr">{esc(wp)}</span></p><p class="bn">{esc(m)}</p></div></div>'
-                       for L, _, nm, snd, w, wp, m in grp)
-        S.append(slide(f'<span class="chip">🔤 অক্ষর {bn(i)}/{bn(-(-len(DE.ALPHABET) // 5))}</span><h2>{grp[0][0]} – {grp[-1][0]}</h2>{rows}', "", "অক্ষর"))
+         section("🔤", "Das Alphabet", "পুরো বর্ণমালা", "ট্যাপ করে প্রতিটি অক্ষরের নাম শোনো, সাথে জোরে বলো"),
+         slide(cards([kcell(L, nm, "", say, DE_TTS, "lat") for L, say, nm, *_ in DE.ALPHABET + [x[:7] for x in DE.EXTRA_LETTERS]], "chart", step=5), "", "বর্ণমালা"),
+         section("🔤", "প্রতিটি অক্ষর", "নাম, ধ্বনি আর একটি উদাহরণ")]
+    S.append(slide(cards([f'<div class="line"><span class="kchip lat">{L}</span><div><p class="tx">নাম: <b>{esc(nm)}</b> · ধ্বনি: {esc(snd)}</p>'
+                          f'<p>{say_btn(w, DE_TTS)} <b class="de-w">{esc(w)}</b> <span class="pr">{esc(wp)}</span></p><p class="bn">{esc(m)}</p></div></div>'
+                          for L, _, nm, snd, w, wp, m in DE.ALPHABET]), "", "অক্ষর"))
     for L, say, nm, snd, w, wp, m, note in DE.EXTRA_LETTERS:
         S.append(slide(f'<span class="chip">✨ বিশেষ অক্ষর</span><div class="kana-box"><div class="kana-big lat">{L}</div><div class="k-ro">{esc(nm)}</div>'
                        f'<div class="k-bn">{esc(snd)}</div>{say_btn(say, DE_TTS, big=True)}</div><div class="callout">💡 {esc(note)}</div>'
                        + exword(w, m, DE_TTS, wp), "", L))
-    S.append(slide('<span class="chip">🗣️ নাম বানান করা</span><h2>Wie schreibt man das?</h2>'
-                   '<p class="lead">ফোনে বা অফিসে নাম বানান করে বলতে হয় — অক্ষরের জার্মান নাম এখানেই কাজে লাগে।</p>'
-                   + "".join(de_line(*x) for x in DE.SPELL), "", "বানান"))
+    S += [section("🗣️", "Wie schreibt man das?", "ফোনে বা অফিসে নাম বানান করে বলতে হয় — অক্ষরের জার্মান নাম এখানেই কাজে লাগে।"),
+          slide(cards([de_line(*x) for x in DE.SPELL]), "", "বানান")]
     rng = seeded("de-alpha")
     pool = DE.ALPHABET
     qs = []
@@ -355,14 +344,10 @@ def de_alphabet():
 
 
 def de_rules():
-    S = []
-    for i, grp in enumerate(chunks(DE.RULES, 3), 1):
-        body = ""
-        for pat, snd, why, ex in grp:
-            body += (f'<div class="rule"><div class="rule-h"><b class="de-w">{esc(pat)}</b><span>= {esc(snd)}</span></div><p>{esc(why)}</p>'
-                     + "".join(f'<p class="rule-ex">{say_btn(w, DE_TTS)}<b class="de-w">{esc(w)}</b> <span class="pr">{esc(p)}</span> <span class="bn">· {esc(m)}</span></p>' for w, p, m in ex)
-                     + "</div>")
-        S.append(slide(f'<span class="chip">🗣️ নিয়ম {bn(i)}/{bn(-(-len(DE.RULES) // 3))}</span><h2>যেমন লেখা, তেমন পড়া</h2>{body}', "", "নিয়ম"))
+    rules = [(f'<div class="rule"><div class="rule-h"><b class="de-w">{esc(pat)}</b><span>= {esc(snd)}</span></div><p>{esc(why)}</p>'
+              + "".join(f'<p class="rule-ex">{say_btn(w, DE_TTS)}<b class="de-w">{esc(w)}</b> <span class="pr">{esc(p)}</span> <span class="bn">· {esc(m)}</span></p>' for w, p, m in ex)
+              + "</div>") for pat, snd, why, ex in DE.RULES]
+    S = [section("🗣️", "যেমন লেখা, তেমন পড়া", f"{bn(len(DE.RULES))}টি উচ্চারণের নিয়ম"), slide(cards(rules), "", "নিয়ম")]
     words = list(dict.fromkeys((w, p, m) for _, _, _, ex in DE.RULES for w, p, m in ex))
     rng = seeded("de-rules")
     practice = rng.sample(words, 12)
@@ -384,18 +369,18 @@ def de_rules():
 
 def de_numbers():
     cells = "".join(kcell(d, w, p, w, DE_TTS, "num") for d, w, p in DE.NUMBERS)
-    S = [slide('<span class="chip">🔢 ০–১২</span><h2>০ থেকে ১২</h2><p class="hint">এগুলো আলাদা করে মুখস্থ করতে হবে। ট্যাপ করে শোনো।</p>'
-               f'<div class="chart" style="grid-template-columns:repeat(3,1fr)">{cells}</div>', "", "০–১২"),
-         slide('<span class="chip">🔢 ১৩–১৯</span><h2>সংখ্যা + zehn</h2><p class="lead">১৩ থেকে ১৯: আগে একক, তারপর <b>zehn</b> (দশ)। drei + zehn = dreizehn।</p>'
-               + "".join(de_line(w, p, d) for d, w, p in DE.TEENS)
-               + '<div class="callout warn">⚠️ ১৬ = sech<b>zehn</b> (s বাদ), ১৭ = sieb<b>zehn</b> (en বাদ)।</div>', "", "১৩–১৯"),
-         slide('<span class="chip">🔢 দশক</span><h2>২০, ৩০ … ১০০০</h2><p class="lead">দশকের শেষে <b>-zig</b> (ৎসিশ), শুধু ৩০ = drei<b>ßig</b>।</p>'
-               + "".join(de_line(w, p, d) for d, w, p in DE.TENS), "", "দশক"),
-         slide('<span class="chip">🧩 জোড়া সংখ্যা</span><h2>আগে একক, পরে দশক</h2>'
-               '<p class="lead">২১ = <b>ein-und-zwanzig</b> = “এক আর বিশ”। ইংরেজির উল্টো — একক আগে বলা হয়, “und” (আর) দিয়ে জোড়া।</p>'
-               + "".join(de_line(w, p, f"{d} = {m}") for d, w, p, m in DE.COMPOUND)
-               + '<div class="callout">💡 পুরো সংখ্যাটা এক শব্দে লেখা হয় — যত লম্বাই হোক!</div>', "", "জোড়া"),
-         slide('<span class="chip">🗣️ কাজে লাগাও</span><h2>দাম, সময়, বয়স</h2>' + "".join(de_line(*x) for x in DE.NUM_USE), "", "বাক্য")]
+    S = [section("🔢", "০ থেকে ১২", "এগুলো আলাদা করে মুখস্থ করতে হবে। ট্যাপ করে শোনো।"),
+         slide(cards([kcell(d, w, p, w, DE_TTS, "num") for d, w, p in DE.NUMBERS], "chart c3", step=3), "", "০–১২"),
+         section("🔢", "১৩–১৯: সংখ্যা + zehn", "আগে একক, তারপর <b>zehn</b> (দশ)। drei + zehn = dreizehn।"),
+         slide(cards([de_line(w, p, d) for d, w, p in DE.TEENS]
+                     + ['<div class="callout warn">⚠️ ১৬ = sech<b>zehn</b> (s বাদ), ১৭ = sieb<b>zehn</b> (en বাদ)।</div>']), "", "১৩–১৯"),
+         section("🔢", "২০, ৩০ … ১০০০", "দশকের শেষে <b>-zig</b> (ৎসিশ), শুধু ৩০ = drei<b>ßig</b>।"),
+         slide(cards([de_line(w, p, d) for d, w, p in DE.TENS]), "", "দশক"),
+         section("🧩", "আগে একক, পরে দশক", "২১ = <b>ein-und-zwanzig</b> = “এক আর বিশ”। ইংরেজির উল্টো — একক আগে, “und” (আর) দিয়ে জোড়া।"),
+         slide(cards([de_line(w, p, f"{d} = {m}") for d, w, p, m in DE.COMPOUND]
+                     + ['<div class="callout">💡 পুরো সংখ্যাটা এক শব্দে লেখা হয় — যত লম্বাই হোক!</div>']), "", "জোড়া"),
+         section("🗣️", "দাম, সময়, বয়স", "সংখ্যা কাজে লাগাও"),
+         slide(cards([de_line(*x) for x in DE.NUM_USE]), "", "বাক্য")]
     rng = seeded("de-num")
     nums = DE.NUMBERS[1:] + DE.TEENS + DE.TENS + [x[:3] for x in DE.COMPOUND]
     qs = []

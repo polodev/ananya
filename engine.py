@@ -73,15 +73,16 @@ def chunks(seq, size):
     return [seq[i:i + size] for i in range(0, len(seq), size)]
 
 
-def split_even(seq, max_size):
-    """split into the fewest parts of at most max_size, sizes as equal as possible (9 by 5 -> 5+4)."""
-    k = -(-len(seq) // max_size)
-    out, i = [], 0
-    for j in range(k):
-        size = len(seq) // k + (1 if j < len(seq) % k else 0)
-        out.append(seq[i:i + size])
-        i += size
-    return out
+def section(icon, title, sub="", note=""):
+    """a full slide that only names the next section; the card slides after it carry no heading."""
+    return slide(f'<div class="section"><div class="s-icon">{icon}</div><h2>{title}</h2>'
+                 + (f'<p class="s-sub">{sub}</p>' if sub else "") + (f'<p class="hint">{note}</p>' if note else "") + "</div>",
+                 "section-slide", title)
+
+
+def cards(items, cls="cards", step=1):
+    """a list app.js may spread over several slides so nothing has to scroll (step: keep groups of N together)."""
+    return f'<div class="{cls}" data-split data-step="{step}">{"".join(items)}</div>'
 
 
 def slide(inner, cls="", title=""):
@@ -92,7 +93,7 @@ def cover(chip, h1, lead, learn, extra="", hint=True):
     items = "".join(f"<li>{x}</li>" for x in learn)
     return slide(f'<span class="chip">{esc(chip)}</span><h1>{h1}</h1>{extra}<p class="lead">{lead}</p>'
                  f'<p class="five">⏱ আজকের লক্ষ্য: ১০ মিনিট। পুরোটা না পারলে যতটুকু পারো — কাল বাকিটা।</p><ul class="learn">{items}</ul>'
-                 + ('<p class="hint">👉 ডান থেকে বামে swipe করে পরের স্লাইডে যাও · উপর-নিচে স্ক্রল করে বাকিটা দেখো</p>' if hint else ""), "cover", "শুরু")
+                 + ('<p class="hint">👉 ডান থেকে বামে swipe করে পরের স্লাইডে যাও — শুধু বাঁ-ডানে, উপর-নিচে কিছু নেই</p>' if hint else ""), "cover", "শুরু")
 
 
 def quiz_slide(questions, title="কুইজ"):
