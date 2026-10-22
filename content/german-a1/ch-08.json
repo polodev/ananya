@@ -126,6 +126,146 @@
    "bn": "ধন্যবাদ, এটাই সব।",
    "pron_bn": "ডাংকে, ডাস ইস্ট আলেস।",
    "text": "Danke, das ist alles."
+  },
+  {
+   "text": "Wie viel kostet ein Apfel?",
+   "pron_bn": "ভি ফিল কসটেট আইন আপ্ফেল?",
+   "bn": "একটা আপেলের দাম কত?"
+  },
+  {
+   "text": "Wie viel kostet eine Tomate?",
+   "pron_bn": "ভি ফিল কসটেট আইনে টোমাটে?",
+   "bn": "একটা টমেটোর দাম কত?"
+  },
+  {
+   "text": "Wie viel kostet ein Liter Milch?",
+   "pron_bn": "ভি ফিল কসটেট আইন লিটা মিলশ?",
+   "bn": "এক লিটার দুধের দাম কত?"
+  },
+  {
+   "text": "Ein Kilo Kartoffeln kostet drei Euro.",
+   "pron_bn": "আইন কিলো কারটফেলন কসটেট ড্রাই অয়রো।",
+   "bn": "এক কেজি আলুর দাম তিন ইউরো।"
+  },
+  {
+   "text": "Ich suche einen Korb.",
+   "pron_bn": "ইশ জুখে আইনেন কর্প।",
+   "bn": "আমি একটা ঝুড়ি খুঁজছি।"
+  },
+  {
+   "text": "Ich suche eine frische Gurke.",
+   "pron_bn": "ইশ জুখে আইনে ফ্রিশে গুরকে।",
+   "bn": "আমি একটা তাজা শসা খুঁজছি।"
+  },
+  {
+   "text": "Ich nehme einen Saft.",
+   "pron_bn": "ইশ নেমে আইনেন জাফ্ট।",
+   "bn": "আমি একটা জুস নিচ্ছি।"
+  },
+  {
+   "text": "Ich nehme eine kleine Tüte.",
+   "pron_bn": "ইশ নেমে আইনে ক্লাইনে ট্যুটে।",
+   "bn": "আমি একটা ছোট ব্যাগ নিচ্ছি।"
+  },
+  {
+   "text": "Haben Sie einen Kassenbon?",
+   "pron_bn": "হাবেন জি আইনেন কাসেনবন?",
+   "bn": "আপনার কাছে ক্যাশ মেমো আছে?"
+  },
+  {
+   "text": "Hast du eine Tüte?",
+   "pron_bn": "হাস্ট ডু আইনে ট্যুটে?",
+   "bn": "তোমার কাছে ব্যাগ আছে?"
+  },
+  {
+   "text": "Ich möchte einen Tee.",
+   "pron_bn": "ইশ ম্যোশটে আইনেন টে।",
+   "bn": "আমি একটা চা চাই।"
+  },
+  {
+   "text": "Ich möchte ein frisches Brot.",
+   "pron_bn": "ইশ ম্যোশটে আইন ফ্রিশেস ব্রোট।",
+   "bn": "আমি একটা তাজা পাউরুটি চাই।"
+  },
+  {
+   "text": "Geben Sie mir ein Wasser, bitte.",
+   "pron_bn": "গেবেন জি মিয়া আইন ভাসা, বিটে।",
+   "bn": "আমাকে এক বোতল পানি দিন, প্লিজ।"
+  },
+  {
+   "text": "Geben Sie mir eine Quittung, bitte.",
+   "pron_bn": "গেবেন জি মিয়া আইনে ক্ভিটুং, বিটে।",
+   "bn": "আমাকে একটা রসিদ দিন, প্লিজ।"
+  },
+  {
+   "text": "Ich brauche einen Käse.",
+   "pron_bn": "ইশ ব্রাউখে আইনেন কেজে।",
+   "bn": "আমার একটা চিজ দরকার।"
+  },
+  {
+   "text": "Ich brauche ein Kilo Zucker.",
+   "pron_bn": "ইশ ব্রাউখে আইন কিলো ৎসুকা।",
+   "bn": "আমার এক কেজি চিনি দরকার।"
+  },
+  {
+   "text": "Wo ist der Zucker?",
+   "pron_bn": "ভো ইস্ট ডা ৎসুকা?",
+   "bn": "চিনি কোথায়?"
+  },
+  {
+   "text": "Wo sind die Tomaten?",
+   "pron_bn": "ভো জিন্ট ডি টোমাটেন?",
+   "bn": "টমেটোগুলো কোথায়?"
+  },
+  {
+   "text": "Das kostet nur zwei Euro.",
+   "pron_bn": "ডাস কসটেট নুয়া ৎসভাই অয়রো।",
+   "bn": "এটার দাম মাত্র দুই ইউরো।"
+  },
+  {
+   "text": "Die Bananen kosten einen Euro.",
+   "pron_bn": "ডি বানানেন কসটেন আইনেন অয়রো।",
+   "bn": "কলাগুলোর দাম এক ইউরো।"
+  },
+  {
+   "text": "Ist der Fisch frisch?",
+   "pron_bn": "ইস্ট ডা ফিশ ফ্রিশ?",
+   "bn": "মাছটা কি তাজা?"
+  },
+  {
+   "text": "Ja, der Fisch ist sehr frisch.",
+   "pron_bn": "ইয়া, ডা ফিশ ইস্ট জেয়া ফ্রিশ।",
+   "bn": "হ্যাঁ, মাছটা খুব তাজা।"
+  },
+  {
+   "text": "Nein, ich habe eine Tüte.",
+   "pron_bn": "নাইন, ইশ হাবে আইনে ট্যুটে।",
+   "bn": "না, আমার কাছে ব্যাগ আছে।"
+  },
+  {
+   "text": "Kann ich hier zahlen?",
+   "pron_bn": "কান ইশ হিয়া ৎসালেন?",
+   "bn": "আমি কি এখানে টাকা দিতে পারি?"
+  },
+  {
+   "text": "Die Kasse ist da hinten.",
+   "pron_bn": "ডি কাসে ইস্ট ডা হিনটেন।",
+   "bn": "ক্যাশ কাউন্টারটা ওই পেছনে।"
+  },
+  {
+   "text": "Rafi nimmt einen Apfel und eine Banane.",
+   "pron_bn": "রাফি নিম্ট আইনেন আপ্ফেল উন্ট আইনে বানানে।",
+   "bn": "রাফি একটা আপেল আর একটা কলা নিচ্ছে।"
+  },
+  {
+   "text": "Mitu kauft ein Brot und einen Käse.",
+   "pron_bn": "মিটু কাউফ্ট আইন ব্রোট উন্ট আইনেন কেজে।",
+   "bn": "মিতু একটা পাউরুটি আর একটা চিজ কিনছে।"
+  },
+  {
+   "text": "Frau Weber zahlt drei Euro fünfzig.",
+   "pron_bn": "ফ্রাউ ভেবা ৎসাল্ট ড্রাই অয়রো ফ্যুনফৎসিশ।",
+   "bn": "ফ্রাউ ভেবার তিন ইউরো পঞ্চাশ সেন্ট দিচ্ছেন।"
   }
  ],
  "reading": [

@@ -126,6 +126,146 @@
    "bn": "আপনি কোথা থেকে এসেছেন?",
    "pron_bn": "ভোহেয়া কমেন জি?",
    "text": "Woher kommen Sie?"
+  },
+  {
+   "text": "Wo wohnt Anna?",
+   "pron_bn": "ভো ভোন্ট আনা?",
+   "bn": "আন্না কোথায় থাকে?"
+  },
+  {
+   "text": "Sie wohnt in Berlin.",
+   "pron_bn": "জি ভোন্ট ইন বেরলিন।",
+   "bn": "সে বার্লিনে থাকে।"
+  },
+  {
+   "text": "Woher kommt Lukas?",
+   "pron_bn": "ভোহেয়া কম্ট লুকাস?",
+   "bn": "লুকাস কোথা থেকে এসেছে?"
+  },
+  {
+   "text": "Er kommt aus Deutschland.",
+   "pron_bn": "এয়া কম্ট আউস ডয়চলান্ট।",
+   "bn": "সে জার্মানি থেকে এসেছে।"
+  },
+  {
+   "text": "Sprechen Sie Englisch?",
+   "pron_bn": "শ্প্রেশেন জি এংলিশ?",
+   "bn": "আপনি কি ইংরেজি বলেন?"
+  },
+  {
+   "text": "Ja, ich spreche Englisch und Deutsch.",
+   "pron_bn": "ইয়া, ইশ শ্প্রেশে এংলিশ উন্ট ডয়চ।",
+   "bn": "হ্যাঁ, আমি ইংরেজি আর জার্মান বলি।"
+  },
+  {
+   "text": "Wo wohnen Sie, Frau Weber?",
+   "pron_bn": "ভো ভোনেন জি, ফ্রাউ ভেবা?",
+   "bn": "মিসেস ভেবার, আপনি কোথায় থাকেন?"
+  },
+  {
+   "text": "Ich wohne in München.",
+   "pron_bn": "ইশ ভোনে ইন ম্যুনশেন।",
+   "bn": "আমি মিউনিখে থাকি।"
+  },
+  {
+   "text": "Sprichst du Bangla?",
+   "pron_bn": "শ্প্রিশস্ট ডু বাংলা?",
+   "bn": "তুমি কি বাংলা বলো?"
+  },
+  {
+   "text": "Ja, ich spreche Bangla.",
+   "pron_bn": "ইয়া, ইশ শ্প্রেশে বাংলা।",
+   "bn": "হ্যাঁ, আমি বাংলা বলি।"
+  },
+  {
+   "text": "Ich wohne nicht in Dhaka.",
+   "pron_bn": "ইশ ভোনে নিশ্ট ইন ডাকা।",
+   "bn": "আমি ঢাকায় থাকি না।"
+  },
+  {
+   "text": "Kommt Mitu aus Sylhet?",
+   "pron_bn": "কম্ট মিটু আউস জ্যুলহেট?",
+   "bn": "মিতু কি সিলেট থেকে এসেছে?"
+  },
+  {
+   "text": "Ja, sie kommt aus Sylhet.",
+   "pron_bn": "ইয়া, জি কম্ট আউস জ্যুলহেট।",
+   "bn": "হ্যাঁ, সে সিলেট থেকে এসেছে।"
+  },
+  {
+   "text": "Sprechen Tanvir und Nadia Deutsch?",
+   "pron_bn": "শ্প্রেশেন টানফিয়া উন্ট নাডিয়া ডয়চ?",
+   "bn": "তানভীর আর নাদিয়া কি জার্মান বলে?"
+  },
+  {
+   "text": "Sie sprechen ein bisschen Deutsch.",
+   "pron_bn": "জি শ্প্রেশেন আইন বিসশেন ডয়চ।",
+   "bn": "তারা একটু জার্মান বলে।"
+  },
+  {
+   "text": "Sprechen wir bitte Deutsch.",
+   "pron_bn": "শ্প্রেশেন ভিয়া বিটে ডয়চ।",
+   "bn": "চলো আমরা জার্মানে কথা বলি।"
+  },
+  {
+   "text": "Wo wohnst du jetzt?",
+   "pron_bn": "ভো ভোনস্ট ডু ইয়েৎস্ট?",
+   "bn": "তুমি এখন কোথায় থাকো?"
+  },
+  {
+   "text": "Sprich bitte Deutsch mit mir.",
+   "pron_bn": "শ্প্রিশ বিটে ডয়চ মিট মিয়া।",
+   "bn": "আমার সঙ্গে একটু জার্মানে বলো।"
+  },
+  {
+   "text": "Spricht Anna Englisch?",
+   "pron_bn": "শ্প্রিশ্ট আনা এংলিশ?",
+   "bn": "আন্না কি ইংরেজি বলে?"
+  },
+  {
+   "text": "Ja, sie spricht gut Englisch.",
+   "pron_bn": "ইয়া, জি শ্প্রিশ্ট গুট এংলিশ।",
+   "bn": "হ্যাঁ, সে ভালো ইংরেজি বলে।"
+  },
+  {
+   "text": "Woher kommst du, Tanvir?",
+   "pron_bn": "ভোহেয়া কমস্ট ডু, টানফিয়া?",
+   "bn": "তানভীর, তুমি কোথা থেকে এসেছ?"
+  },
+  {
+   "text": "Ich komme aus Dhaka.",
+   "pron_bn": "ইশ কমে আউস ডাকা।",
+   "bn": "আমি ঢাকা থেকে এসেছি।"
+  },
+  {
+   "text": "Wohnen Sie in Berlin?",
+   "pron_bn": "ভোনেন জি ইন বেরলিন?",
+   "bn": "আপনি কি বার্লিনে থাকেন?"
+  },
+  {
+   "text": "Nein, ich wohne in Hamburg.",
+   "pron_bn": "নাইন, ইশ ভোনে ইন হামবুর্ক।",
+   "bn": "না, আমি হামবুর্গে থাকি।"
+  },
+  {
+   "text": "Sprechen Sie bitte langsam.",
+   "pron_bn": "শ্প্রেশেন জি বিটে লাংজাম।",
+   "bn": "দয়া করে একটু আস্তে বলুন।"
+  },
+  {
+   "text": "Ich spreche nur ein bisschen Deutsch.",
+   "pron_bn": "ইশ শ্প্রেশে নুয়া আইন বিসশেন ডয়চ।",
+   "bn": "আমি শুধু একটু জার্মান বলি।"
+  },
+  {
+   "text": "Kommen Sie aus Deutschland?",
+   "pron_bn": "কমেন জি আউস ডয়চলান্ট?",
+   "bn": "আপনি কি জার্মানি থেকে এসেছেন?"
+  },
+  {
+   "text": "Nein, ich komme aus Bangladesch.",
+   "pron_bn": "নাইন, ইশ কমে আউস বাংলাডেশ।",
+   "bn": "না, আমি বাংলাদেশ থেকে এসেছি।"
   }
  ],
  "reading": [

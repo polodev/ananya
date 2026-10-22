@@ -126,6 +126,146 @@
    "bn": "রবিবারে আমি হাঁটতে যাই।",
    "pron_bn": "আম জোনটাক গেয়ে ইশ শ্পাৎসিরেন।",
    "text": "Am Sonntag gehe ich spazieren."
+  },
+  {
+   "text": "Kannst du Gitarre spielen?",
+   "pron_bn": "কানস্ট ডু গিটারে শ্পিলেন?",
+   "bn": "তুমি কি গিটার বাজাতে পারো?"
+  },
+  {
+   "text": "Ja, ich spiele gern Gitarre.",
+   "pron_bn": "ইয়া, ইশ শ্পিলে গের্ন গিটারে।",
+   "bn": "হ্যাঁ, আমি গিটার বাজাতে পছন্দ করি।"
+  },
+  {
+   "text": "Tanzt du gern?",
+   "pron_bn": "টানৎস্ট ডু গের্ন?",
+   "bn": "তুমি কি নাচতে পছন্দ করো?"
+  },
+  {
+   "text": "Nein, ich tanze nicht gern.",
+   "pron_bn": "নাইন, ইশ টানৎসে নিশ্ট গের্ন।",
+   "bn": "না, আমি নাচতে পছন্দ করি না।"
+  },
+  {
+   "text": "Was machst du am Samstag?",
+   "pron_bn": "ভাস মাখস্ট ডু আম জামস্টাক?",
+   "bn": "শনিবারে তুমি কী করো?"
+  },
+  {
+   "text": "Ich treffe gern meine Freunde.",
+   "pron_bn": "ইশ ট্রেফে গের্ন মাইনে ফ্রয়ন্ডে।",
+   "bn": "আমি বন্ধুদের সাথে দেখা করতে পছন্দ করি।"
+  },
+  {
+   "text": "Kann ich hier Tennis spielen?",
+   "pron_bn": "কান ইশ হিয়া টেনিস শ্পিলেন?",
+   "bn": "আমি কি এখানে টেনিস খেলতে পারি?"
+  },
+  {
+   "text": "Ich sehe gern Filme.",
+   "pron_bn": "ইশ জেয়ে গের্ন ফিলমে।",
+   "bn": "আমি সিনেমা দেখতে পছন্দ করি।"
+  },
+  {
+   "text": "Liest du gern Zeitungen?",
+   "pron_bn": "লিস্ট ডু গের্ন ৎসাইটুঙেন?",
+   "bn": "তুমি কি পত্রিকা পড়তে পছন্দ করো?"
+  },
+  {
+   "text": "Ich lese nicht gern Zeitungen.",
+   "pron_bn": "ইশ লেজে নিশ্ট গের্ন ৎসাইটুঙেন।",
+   "bn": "আমি পত্রিকা পড়তে পছন্দ করি না।"
+  },
+  {
+   "text": "Kannst du gut kochen?",
+   "pron_bn": "কানস্ট ডু গুট কখেন?",
+   "bn": "তুমি কি ভালো রান্না করতে পারো?"
+  },
+  {
+   "text": "Ja, ich koche sehr gern.",
+   "pron_bn": "ইয়া, ইশ কখে জেয়া গের্ন।",
+   "bn": "হ্যাঁ, আমি রান্না করতে খুব ভালোবাসি।"
+  },
+  {
+   "text": "Spielst du gern Karten?",
+   "pron_bn": "শ্পিলস্ট ডু গের্ন কারটেন?",
+   "bn": "তুমি কি তাস খেলতে পছন্দ করো?"
+  },
+  {
+   "text": "Ich spiele gern mit Anna.",
+   "pron_bn": "ইশ শ্পিলে গের্ন মিট আনা।",
+   "bn": "আমি আন্নার সঙ্গে খেলতে ভালোবাসি।"
+  },
+  {
+   "text": "Was spielt Mitu gern?",
+   "pron_bn": "ভাস শ্পিল্ট মিটু গের্ন?",
+   "bn": "মিতু কী খেলতে পছন্দ করে?"
+  },
+  {
+   "text": "Mitu spielt gern Tennis.",
+   "pron_bn": "মিটু শ্পিল্ট গের্ন টেনিস।",
+   "bn": "মিতু টেনিস খেলতে পছন্দ করে।"
+  },
+  {
+   "text": "Können wir morgen spazieren gehen?",
+   "pron_bn": "ক্যোনেন ভিয়া মরগেন শ্পাৎসিরেন গেয়েন?",
+   "bn": "আমরা কি কাল হাঁটতে যেতে পারি?"
+  },
+  {
+   "text": "Ja, ich kann morgen gehen.",
+   "pron_bn": "ইয়া, ইশ কান মরগেন গেয়েন।",
+   "bn": "হ্যাঁ, আমি কাল যেতে পারবো।"
+  },
+  {
+   "text": "Malt Nadia gern Bilder?",
+   "pron_bn": "মাল্ট নাডিয়া গের্ন বিলডা?",
+   "bn": "নাদিয়া কি ছবি আঁকতে পছন্দ করে?"
+  },
+  {
+   "text": "Ja, sie malt sehr gern.",
+   "pron_bn": "ইয়া, জি মাল্ট জেয়া গের্ন।",
+   "bn": "হ্যাঁ, সে ছবি আঁকতে খুব ভালোবাসে।"
+  },
+  {
+   "text": "Ich singe nicht gern laut.",
+   "pron_bn": "ইশ জিঙে নিশ্ট গের্ন লাউট।",
+   "bn": "আমি জোরে গান গাইতে পছন্দ করি না।"
+  },
+  {
+   "text": "Kann Lukas gut singen?",
+   "pron_bn": "কান লুকাস গুট জিঙেন?",
+   "bn": "লুকাস কি ভালো গান গাইতে পারে?"
+  },
+  {
+   "text": "Nein, er kann nicht singen.",
+   "pron_bn": "নাইন, এয়া কান নিশ্ট জিঙেন।",
+   "bn": "না, সে গান গাইতে পারে না।"
+  },
+  {
+   "text": "Wanderst du gern?",
+   "pron_bn": "ভানডাস্ট ডু গের্ন?",
+   "bn": "তুমি কি হেঁটে বেড়াতে পছন্দ করো?"
+  },
+  {
+   "text": "Ja, ich wandere sehr gern.",
+   "pron_bn": "ইয়া, ইশ ভানডেরে জেয়া গের্ন।",
+   "bn": "হ্যাঁ, আমি হেঁটে বেড়াতে খুব ভালোবাসি।"
+  },
+  {
+   "text": "Was macht Frau Weber gern?",
+   "pron_bn": "ভাস মাখ্ট ফ্রাউ ভেবা গের্ন?",
+   "bn": "ফ্রাউ ভেবার কী করতে ভালো লাগে?"
+  },
+  {
+   "text": "Frau Weber hört gern Radio.",
+   "pron_bn": "ফ্রাউ ভেবা হ্যোর্ট গের্ন রাডিও।",
+   "bn": "ফ্রাউ ভেবার রেডিও শুনতে ভালো লাগে।"
+  },
+  {
+   "text": "Können Sie mir helfen, bitte?",
+   "pron_bn": "ক্যোনেন জি মিয়া হেলফেন, বিটে?",
+   "bn": "আপনি কি আমাকে একটু সাহায্য করবেন?"
   }
  ],
  "reading": [

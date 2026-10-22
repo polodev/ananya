@@ -126,6 +126,146 @@
    "bn": "দুই দিন বাসায় থাকুন।",
    "pron_bn": "ব্লাইবেন জি ৎসভাই টাগে ৎসু হাউজে।",
    "text": "Bleiben Sie zwei Tage zu Hause."
+  },
+  {
+   "text": "Mein Rücken tut weh.",
+   "pron_bn": "মাইন র্যুকেন টুট ভে।",
+   "bn": "আমার পিঠে ব্যথা করছে।"
+  },
+  {
+   "text": "Mein Fuß tut weh.",
+   "pron_bn": "মাইন ফুস টুট ভে।",
+   "bn": "আমার পায়ে ব্যথা করছে।"
+  },
+  {
+   "text": "Mein Ohr tut weh.",
+   "pron_bn": "মাইন ওয়া টুট ভে।",
+   "bn": "আমার কানে ব্যথা করছে।"
+  },
+  {
+   "text": "Meine Augen tun weh.",
+   "pron_bn": "মাইনে আউগেন টুন ভে।",
+   "bn": "আমার চোখে ব্যথা করছে।"
+  },
+  {
+   "text": "Mein Zahn tut weh.",
+   "pron_bn": "মাইন ৎসান টুট ভে।",
+   "bn": "আমার দাঁতে ব্যথা করছে।"
+  },
+  {
+   "text": "Ich habe Schnupfen.",
+   "pron_bn": "ইশ হাবে শ্নুপ্ফেন।",
+   "bn": "আমার সর্দি লেগেছে।"
+  },
+  {
+   "text": "Ich habe Halsschmerzen.",
+   "pron_bn": "ইশ হাবে হাল্সশ্মেরৎসেন।",
+   "bn": "আমার গলা ব্যথা করছে।"
+  },
+  {
+   "text": "Ich habe Kopfschmerzen.",
+   "pron_bn": "ইশ হাবে কপ্ফশ্মেরৎসেন।",
+   "bn": "আমার মাথা ব্যথা করছে।"
+  },
+  {
+   "text": "Ich habe Bauchschmerzen.",
+   "pron_bn": "ইশ হাবে বাউখশ্মেরৎসেন।",
+   "bn": "আমার পেটে ব্যথা করছে।"
+  },
+  {
+   "text": "Ich bin krank.",
+   "pron_bn": "ইশ বিন ক্রাংক।",
+   "bn": "আমি অসুস্থ।"
+  },
+  {
+   "text": "Ich bin müde.",
+   "pron_bn": "ইশ বিন ম্যুডে।",
+   "bn": "আমি ক্লান্ত।"
+  },
+  {
+   "text": "Mir ist kalt.",
+   "pron_bn": "মিয়া ইস্ট কাল্ট।",
+   "bn": "আমার শীত লাগছে।"
+  },
+  {
+   "text": "Haben Sie Schmerzen?",
+   "pron_bn": "হাবেন জি শ্মেরৎসেন?",
+   "bn": "আপনার কি ব্যথা করছে?"
+  },
+  {
+   "text": "Wo tut es weh?",
+   "pron_bn": "ভো টুট এস ভে?",
+   "bn": "কোথায় ব্যথা করছে?"
+  },
+  {
+   "text": "Seit wann haben Sie Fieber?",
+   "pron_bn": "জাইট ভান হাবেন জি ফিবা?",
+   "bn": "কবে থেকে আপনার জ্বর এসেছে?"
+  },
+  {
+   "text": "Ich muss zum Arzt gehen.",
+   "pron_bn": "ইশ মুস ৎসুম আর্টস্ট গেয়েন।",
+   "bn": "আমাকে ডাক্তারের কাছে যেতে হবে।"
+  },
+  {
+   "text": "Du musst viel trinken.",
+   "pron_bn": "ডু মুস্ট ফিল ট্রিংকেন।",
+   "bn": "তোমাকে অনেক পানি খেতে হবে।"
+  },
+  {
+   "text": "Sie müssen im Bett bleiben.",
+   "pron_bn": "জি ম্যুসেন ইম বেট ব্লাইবেন।",
+   "bn": "আপনাকে বিছানায় শুয়ে থাকতে হবে।"
+  },
+  {
+   "text": "Muss ich zum Arzt gehen?",
+   "pron_bn": "মুস ইশ ৎসুম আর্টস্ট গেয়েন?",
+   "bn": "আমাকে কি ডাক্তারের কাছে যেতে হবে?"
+  },
+  {
+   "text": "Nehmen Sie zwei Tabletten täglich.",
+   "pron_bn": "নেমেন জি ৎসভাই টাব্লেটেন টেগলিশ।",
+   "bn": "প্রতিদিন দুটো ট্যাবলেট খাবেন।"
+  },
+  {
+   "text": "Trinken Sie heißen Tee.",
+   "pron_bn": "ট্রিংকেন জি হাইসেন টে।",
+   "bn": "গরম চা খান।"
+  },
+  {
+   "text": "Bleiben Sie bitte im Bett.",
+   "pron_bn": "ব্লাইবেন জি বিটে ইম বেট।",
+   "bn": "দয়া করে বিছানায় শুয়ে থাকুন।"
+  },
+  {
+   "text": "Öffnen Sie bitte den Mund.",
+   "pron_bn": "ওয়েফনেন জি বিটে ডেন মুন্ট।",
+   "bn": "দয়া করে হাঁ করুন।"
+  },
+  {
+   "text": "Zeigen Sie mir die Apotheke, bitte?",
+   "pron_bn": "ৎসাইগেন জি মিয়া ডি আপোটেকে, বিটে?",
+   "bn": "দয়া করে ওষুধের দোকানটা দেখিয়ে দেবেন?"
+  },
+  {
+   "text": "Haben Sie etwas gegen Husten?",
+   "pron_bn": "হাবেন জি এটভাস গেগেন হুসটেন?",
+   "bn": "কাশির জন্য কোনো ওষুধ আছে কি?"
+  },
+  {
+   "text": "Ich brauche Medizin gegen Schmerzen.",
+   "pron_bn": "ইশ ব্রাউখে মেডিৎসিন গেগেন শ্মেরৎসেন।",
+   "bn": "আমার ব্যথার ওষুধ লাগবে।"
+  },
+  {
+   "text": "Wann muss ich kommen?",
+   "pron_bn": "ভান মুস ইশ কমেন?",
+   "bn": "আমাকে কখন আসতে হবে?"
+  },
+  {
+   "text": "Gute Besserung, Frau Weber!",
+   "pron_bn": "গুটে বেসেরুং, ফ্রাউ ভেবা!",
+   "bn": "তাড়াতাড়ি সুস্থ হয়ে উঠুন, মিসেস ভেবার!"
   }
  ],
  "reading": [

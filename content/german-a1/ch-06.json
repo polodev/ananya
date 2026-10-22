@@ -126,6 +126,146 @@
    "bn": "তার স্বামী চট্টগ্রামে থাকেন।",
    "pron_bn": "ইয়া মান ভোন্ট ইন চট্টগ্রাম।",
    "text": "Ihr Mann wohnt in Chittagong."
+  },
+  {
+   "text": "Wie alt ist dein Bruder?",
+   "pron_bn": "ভি আল্ট ইস্ট ডাইন ব্রুডা?",
+   "bn": "তোমার ভাইয়ের বয়স কত?"
+  },
+  {
+   "text": "Mein Bruder ist zwanzig Jahre alt.",
+   "pron_bn": "মাইন ব্রুডা ইস্ট ৎসভানৎসিশ ইয়ারে আল্ট।",
+   "bn": "আমার ভাইয়ের বয়স বিশ বছর।"
+  },
+  {
+   "text": "Hast du Kinder?",
+   "pron_bn": "হাস্ট ডু কিন্ডা?",
+   "bn": "তোমার কি বাচ্চা আছে?"
+  },
+  {
+   "text": "Ich habe ein Kind.",
+   "pron_bn": "ইশ হাবে আইন কিন্ট।",
+   "bn": "আমার একটা বাচ্চা আছে।"
+  },
+  {
+   "text": "Wie heißt deine Schwester?",
+   "pron_bn": "ভি হাইস্ট ডাইনে শ্ভেস্টা?",
+   "bn": "তোমার বোনের নাম কী?"
+  },
+  {
+   "text": "Meine Schwester heißt Mitu.",
+   "pron_bn": "মাইনে শ্ভেস্টা হাইস্ট মিটু।",
+   "bn": "আমার বোনের নাম মিতু।"
+  },
+  {
+   "text": "Ist das deine Frau?",
+   "pron_bn": "ইস্ট ডাস ডাইনে ফ্রাউ?",
+   "bn": "উনি কি তোমার স্ত্রী?"
+  },
+  {
+   "text": "Ja, das ist meine Frau.",
+   "pron_bn": "ইয়া, ডাস ইস্ট মাইনে ফ্রাউ।",
+   "bn": "হ্যাঁ, উনি আমার স্ত্রী।"
+  },
+  {
+   "text": "Haben Sie Kinder, Frau Weber?",
+   "pron_bn": "হাবেন জি কিন্ডা, ফ্রাউ ভেবা?",
+   "bn": "মিসেস ভেবার, আপনার কি বাচ্চা আছে?"
+  },
+  {
+   "text": "Nein, ich habe keine Kinder.",
+   "pron_bn": "নাইন, ইশ হাবে কাইনে কিন্ডা।",
+   "bn": "না, আমার কোনো বাচ্চা নেই।"
+  },
+  {
+   "text": "Wo wohnt dein Vater?",
+   "pron_bn": "ভো ভোন্ট ডাইন ফাটা?",
+   "bn": "তোমার বাবা কোথায় থাকেন?"
+  },
+  {
+   "text": "Mein Vater wohnt in Dhaka.",
+   "pron_bn": "মাইন ফাটা ভোন্ট ইন ডাকা।",
+   "bn": "আমার বাবা ঢাকায় থাকেন।"
+  },
+  {
+   "text": "Wie alt ist deine Mutter?",
+   "pron_bn": "ভি আল্ট ইস্ট ডাইনে মুটা?",
+   "bn": "তোমার মায়ের বয়স কত?"
+  },
+  {
+   "text": "Meine Mutter ist fünfzig Jahre alt.",
+   "pron_bn": "মাইনে মুটা ইস্ট ফ্যুনফৎসিশ ইয়ারে আল্ট।",
+   "bn": "আমার মায়ের বয়স পঞ্চাশ বছর।"
+  },
+  {
+   "text": "Hast du einen Sohn?",
+   "pron_bn": "হাস্ট ডু আইনেন জোন?",
+   "bn": "তোমার কি ছেলে আছে?"
+  },
+  {
+   "text": "Ja, ich habe einen Sohn.",
+   "pron_bn": "ইয়া, ইশ হাবে আইনেন জোন।",
+   "bn": "হ্যাঁ, আমার একটা ছেলে আছে।"
+  },
+  {
+   "text": "Sein Sohn heißt Tanvir.",
+   "pron_bn": "জাইন জোন হাইস্ট টানফিয়া।",
+   "bn": "তার ছেলের নাম তানভীর।"
+  },
+  {
+   "text": "Ihre Tochter ist sehr jung.",
+   "pron_bn": "ইরে টোখ্টা ইস্ট জেয়া ইয়ুং।",
+   "bn": "আপনার মেয়ে খুব ছোট।"
+  },
+  {
+   "text": "Ist deine Schwester verheiratet?",
+   "pron_bn": "ইস্ট ডাইনে শ্ভেস্টা ফেরহাইরাটেট?",
+   "bn": "তোমার বোন কি বিবাহিত?"
+  },
+  {
+   "text": "Nein, sie ist nicht verheiratet.",
+   "pron_bn": "নাইন, জি ইস্ট নিশ্ট ফেরহাইরাটেট।",
+   "bn": "না, ও বিবাহিত নয়।"
+  },
+  {
+   "text": "Haben Anna und Lukas Kinder?",
+   "pron_bn": "হাবেন আনা উন্ট লুকাস কিন্ডা?",
+   "bn": "আনা আর লুকাসের কি বাচ্চা আছে?"
+  },
+  {
+   "text": "Sie haben zwei Töchter.",
+   "pron_bn": "জি হাবেন ৎসভাই ট্যোখ্টা।",
+   "bn": "তাদের দুটো মেয়ে আছে।"
+  },
+  {
+   "text": "Bitte erzähl mir von deiner Familie.",
+   "pron_bn": "বিটে এর্ৎসেল মিয়া ফন ডাইনা ফামিলিয়ে।",
+   "bn": "তোমার পরিবার সম্পর্কে আমাকে একটু বলো।"
+  },
+  {
+   "text": "Erzählen Sie mir von Ihrer Familie, bitte.",
+   "pron_bn": "এর্ৎসেলেন জি মিয়া ফন ইরা ফামিলিয়ে, বিটে।",
+   "bn": "আপনার পরিবার সম্পর্কে আমাকে একটু বলুন।"
+  },
+  {
+   "text": "Ist das dein Opa?",
+   "pron_bn": "ইস্ট ডাস ডাইন ওপা?",
+   "bn": "উনি কি তোমার দাদু?"
+  },
+  {
+   "text": "Ja, er ist mein Opa.",
+   "pron_bn": "ইয়া, এয়া ইস্ট মাইন ওপা।",
+   "bn": "হ্যাঁ, উনি আমার দাদু।"
+  },
+  {
+   "text": "Wie viele Geschwister hast du?",
+   "pron_bn": "ভি ফিলে গেশ্ভিস্টা হাস্ট ডু?",
+   "bn": "তোমার কয়জন ভাইবোন আছে?"
+  },
+  {
+   "text": "Ich habe einen Bruder und eine Schwester.",
+   "pron_bn": "ইশ হাবে আইনেন ব্রুডা উন্ট আইনে শ্ভেস্টা।",
+   "bn": "আমার এক ভাই আর এক বোন আছে।"
   }
  ],
  "reading": [

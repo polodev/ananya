@@ -289,3 +289,11 @@ mark.add{background:#C9F2D3;color:#14532D;border-radius:5px;padding:1px 5px;font
 .qq{font-size:19px}
 .why{font-size:15px;line-height:1.45}
 .day.locked{opacity:.55;pointer-events:none}
+.bld.dense .bstep{padding:9px 12px;min-height:44px}
+.bld.dense .b-tx{font-size:16.5px;line-height:1.5}
+.bld.tight .bstep{padding:7px 10px;min-height:38px}
+.bld.tight .b-tx{font-size:15px;line-height:1.42}
+.bld.tight mark.add,.bld.dense mark.add{padding:0 3px}
+.quiz.sm .qq{font-size:17px}
+.quiz.sm .opt{font-size:15px;padding:7px 10px;min-height:40px;line-height:1.35}
+.quiz.sm .why{font-size:14px}

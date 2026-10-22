@@ -1,0 +1,307 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি really আর লম্বা ফ্রেজ যোগ করে জোর বাড়িয়েছো।",
+   "steps": [
+    {
+     "bn": "আমার যা দরকার তা হলো সময়।",
+     "pron_bn": "",
+     "text": "What I need is time."
+    },
+    {
+     "bn": "আমার সত্যিই যা দরকার তা হলো সময়।",
+     "pron_bn": "",
+     "text": "What I really need is time."
+    },
+    {
+     "bn": "আমার সত্যিই যা দরকার তা হলো আরও সময়।",
+     "pron_bn": "",
+     "text": "What I really need is more time."
+    },
+    {
+     "bn": "আমার রিপোর্টগুলো শেষ করার জন্য সত্যিই আরও সময় দরকার।",
+     "pron_bn": "",
+     "text": "What I really need is more time to finish my reports."
+    },
+    {
+     "bn": "বারবার বাধা ছাড়া রিপোর্টগুলো শেষ করতে আমার সত্যিই আরও সময় দরকার।",
+     "pron_bn": "",
+     "text": "What I really need is more time to finish my reports without constant interruptions."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি It দিয়ে শুরু করে খাবার আর সময়ের তথ্য যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "মিতুই রান্না করেছিল।",
+     "pron_bn": "",
+     "text": "It was Mitu who cooked."
+    },
+    {
+     "bn": "মিতুই রাতের খাবার রান্না করেছিল।",
+     "pron_bn": "",
+     "text": "It was Mitu who cooked dinner."
+    },
+    {
+     "bn": "মিতুই আমাদের জন্য রাতের খাবার রান্না করেছিল।",
+     "pron_bn": "",
+     "text": "It was Mitu who cooked dinner for us."
+    },
+    {
+     "bn": "গত রাতে মিতুই আমাদের জন্য রাতের খাবার রান্না করেছিল।",
+     "pron_bn": "",
+     "text": "It was Mitu who cooked dinner for us last night."
+    },
+    {
+     "bn": "অনেক ব্যস্ত থাকার পরও গত রাতে মিতুই আমাদের জন্য রাতের খাবার রান্না করেছিল।",
+     "pron_bn": "",
+     "text": "It was Mitu who cooked dinner for us last night despite her busy schedule."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি It দিয়ে শুরু করে জায়গা আর বিস্তারিত তথ্য যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "রাফিই ঘুরতে যাওয়ার পরিকল্পনা করেছিল।",
+     "pron_bn": "",
+     "text": "It was Rafi who planned the trip."
+    },
+    {
+     "bn": "রাফিই সিলেট ঘুরতে যাওয়ার পরিকল্পনা করেছিল।",
+     "pron_bn": "",
+     "text": "It was Rafi who planned the trip to Sylhet."
+    },
+    {
+     "bn": "রাফিই আমাদের জন্য সিলেট ঘুরতে যাওয়ার পরিকল্পনা করেছিল।",
+     "pron_bn": "",
+     "text": "It was Rafi who planned the trip to Sylhet for us."
+    },
+    {
+     "bn": "রাফিই আমাদের জন্য সিলেট যাওয়ার পরিকল্পনা বিস্তারিতভাবে করেছিল।",
+     "pron_bn": "",
+     "text": "It was Rafi who planned the trip to Sylhet for us in detail."
+    },
+    {
+     "bn": "আবহাওয়া খুব অনিশ্চিত থাকার পরও রাফিই আমাদের জন্য সিলেট যাওয়ার পরিকল্পনা বিস্তারিতভাবে করেছিল।",
+     "pron_bn": "",
+     "text": "It was Rafi who planned the trip to Sylhet for us in detail despite the highly unpredictable weather."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি What দিয়ে শুরু করে পরীক্ষা আর পড়ার তথ্য যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "তানভীর যা চায় তা হলো সাফল্য।",
+     "pron_bn": "",
+     "text": "What Tanvir wants is success."
+    },
+    {
+     "bn": "তানভীর সত্যিই যা চায় তা হলো সাফল্য।",
+     "pron_bn": "",
+     "text": "What Tanvir really wants is success."
+    },
+    {
+     "bn": "পরীক্ষায় সাফল্যই তানভীর সত্যিই চায়।",
+     "pron_bn": "",
+     "text": "What Tanvir really wants is success in his exams."
+    },
+    {
+     "bn": "ফাইনাল পরীক্ষায় সাফল্যই তানভীর সত্যিই চায়।",
+     "pron_bn": "",
+     "text": "What Tanvir really wants is success in his final exams."
+    },
+    {
+     "bn": "নিয়ম মেনে মনোযোগ দিয়ে পড়েই তানভীর ফাইনাল পরীক্ষায় সত্যিই সফল হতে চায়।",
+     "pron_bn": "",
+     "text": "What Tanvir really wants is success in his final exams through highly disciplined regular study."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি What দিয়ে শুরু করে সময় আর জায়গা যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "হাঁটাহাঁটিই আমাকে উপকার করে।",
+     "pron_bn": "",
+     "text": "What helps me is walking."
+    },
+    {
+     "bn": "হাঁটাহাঁটিই আমার সবচেয়ে বেশি উপকার করে।",
+     "pron_bn": "",
+     "text": "What helps me most is walking."
+    },
+    {
+     "bn": "সকালে হাঁটাহাঁটিই আমার সবচেয়ে বেশি উপকার করে।",
+     "pron_bn": "",
+     "text": "What helps me most is walking in the morning."
+    },
+    {
+     "bn": "লেকের পাশে সকালে হাঁটাহাঁটিই আমার সবচেয়ে বেশি উপকার করে।",
+     "pron_bn": "",
+     "text": "What helps me most is walking in the morning near the lake."
+    },
+    {
+     "bn": "শরীর আর মন দুটোই ভালো রাখতে লেকের পাশে সকালে হাঁটাহাঁটিই আমার সবচেয়ে বেশি কাজে লাগে।",
+     "pron_bn": "",
+     "text": "What helps me most is walking in the morning near the lake to maintain both physical and mental health."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি It দিয়ে শুরু করে বাজার আর দামের তথ্য যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "আমি তাজা মাছই কিনি।",
+     "pron_bn": "",
+     "text": "It is fresh fish that I buy."
+    },
+    {
+     "bn": "আমি তাজা নদীর মাছই কিনি।",
+     "pron_bn": "",
+     "text": "It is fresh river fish that I buy."
+    },
+    {
+     "bn": "বাজার থেকে আমি তাজা নদীর মাছই কিনি।",
+     "pron_bn": "",
+     "text": "It is fresh river fish that I buy from the market."
+    },
+    {
+     "bn": "বাজার থেকে ন্যায্য দামে আমি তাজা নদীর মাছই কিনি।",
+     "pron_bn": "",
+     "text": "It is fresh river fish that I buy from the market at a fair price."
+    },
+    {
+     "bn": "দাম দ্রুত বাড়ার পরও বাজার থেকে ন্যায্য দামে আমি তাজা নদীর মাছই কিনি।",
+     "pron_bn": "",
+     "text": "It is fresh river fish that I buy from the market at a fair price despite rapidly rising prices."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Never সামনে রেখে মাস আর জায়গা যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "এমন কুয়াশা আমি কখনো দেখিনি।",
+     "pron_bn": "",
+     "text": "Never have I seen such fog."
+    },
+    {
+     "bn": "এমন ঘন কুয়াশা আমি কখনো দেখিনি।",
+     "pron_bn": "",
+     "text": "Never have I seen such thick fog."
+    },
+    {
+     "bn": "জানুয়ারি মাসে এমন ঘন কুয়াশা আমি কখনো দেখিনি।",
+     "pron_bn": "",
+     "text": "Never have I seen such thick fog in January."
+    },
+    {
+     "bn": "ঢাকায় জানুয়ারি মাসে এমন ঘন কুয়াশা আমি কখনো দেখিনি।",
+     "pron_bn": "",
+     "text": "Never have I seen such thick fog in January in Dhaka."
+    },
+    {
+     "bn": "ঢাকায় জানুয়ারি মাসে যান চলাচল একদম বন্ধ করে দেওয়া এমন ঘন কুয়াশা আমি কখনো দেখিনি।",
+     "pron_bn": "",
+     "text": "Never have I seen such thick fog in January in Dhaka that brings traffic to a complete standstill."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Only সামনে রেখে ইন্টারনেট আর বাসার তথ্য যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "তখনই আমি ভালোভাবে কাজ করতে পারি।",
+     "pron_bn": "",
+     "text": "Only then can I work well."
+    },
+    {
+     "bn": "ভালো ইন্টারনেট থাকলে তখনই আমি ভালোভাবে কাজ করতে পারি।",
+     "pron_bn": "",
+     "text": "Only then with strong internet can I work well."
+    },
+    {
+     "bn": "ভালো মোবাইল ইন্টারনেট থাকলে তখনই আমি ভালোভাবে কাজ করতে পারি।",
+     "pron_bn": "",
+     "text": "Only then with strong mobile internet can I work well."
+    },
+    {
+     "bn": "ভালো মোবাইল ইন্টারনেট থাকলে তখনই আমি বাসা থেকে ভালোভাবে কাজ করতে পারি।",
+     "pron_bn": "",
+     "text": "Only then with strong mobile internet can I work well from home."
+    },
+    {
+     "bn": "বিরক্তিকর বাধা ছাড়া ভালো মোবাইল ইন্টারনেট থাকলে তখনই আমি বাসা থেকে ভালোভাবে কাজ করতে পারি।",
+     "pron_bn": "",
+     "text": "Only then with strong mobile internet can I work well from home without frustrating interruptions."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি সময় আর ব্যস্ততার মাত্রা যোগ করে বাক্য বড় করেছো।",
+   "steps": [
+    {
+     "bn": "ঢাকায় জীবন ব্যস্ত।",
+     "pron_bn": "",
+     "text": "In Dhaka, life is busy."
+    },
+    {
+     "bn": "অফিস সময়ে ঢাকায় জীবন ব্যস্ত।",
+     "pron_bn": "",
+     "text": "In Dhaka during office hours, life is busy."
+    },
+    {
+     "bn": "অফিস সময়ে ঢাকায় জীবন ভীষণ ব্যস্ত।",
+     "pron_bn": "",
+     "text": "In Dhaka during office hours, life is extremely busy."
+    },
+    {
+     "bn": "অফিস সময়ে ঢাকায় যাতায়াত করা মানুষের জীবন ভীষণ ব্যস্ত।",
+     "pron_bn": "",
+     "text": "In Dhaka during office hours, life is extremely busy for commuters."
+    },
+    {
+     "bn": "শেষ না হওয়া যানজটে আটকে থাকা মানুষের জন্য অফিস সময়ে ঢাকায় জীবন ভীষণ ব্যস্ত।",
+     "pron_bn": "",
+     "text": "In Dhaka during office hours, life is extremely busy for commuters struggling with endless traffic congestion."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি What দিয়ে শুরু করে শীত আর গ্রামের ছবি যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "নাদিয়া যা ভালোবাসে তা হলো গ্রামের জীবন।",
+     "pron_bn": "",
+     "text": "What Nadia loves is village life."
+    },
+    {
+     "bn": "নাদিয়া সত্যিই যা ভালোবাসে তা হলো গ্রামের জীবন।",
+     "pron_bn": "",
+     "text": "What Nadia truly loves is village life."
+    },
+    {
+     "bn": "নাদিয়া সত্যিই যা ভালোবাসে তা হলো শান্ত গ্রামের জীবন।",
+     "pron_bn": "",
+     "text": "What Nadia truly loves is peaceful village life."
+    },
+    {
+     "bn": "শীতে শান্ত গ্রামের জীবনই নাদিয়া সত্যিই ভালোবাসে।",
+     "pron_bn": "",
+     "text": "What Nadia truly loves is peaceful village life in winter."
+    },
+    {
+     "bn": "টাটকা পিঠা আর শান্ত সরষে ক্ষেত নিয়ে শীতে শান্ত গ্রামের জীবনই নাদিয়া সত্যিই ভালোবাসে।",
+     "pron_bn": "",
+     "text": "What Nadia truly loves is peaceful village life in winter with freshly made pitha and quiet mustard fields."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "তুমি এই অধ্যায়ে জোর দিয়ে কথা বলা শিখবে। What আর It দিয়ে বাক্য বানানো তুমি সহজে পারবে।",
+ "tip_bn": "তুমি জোর দিতে চাইলে বাক্যের শুরুতে What বা It বসাও। তুমি প্রথমে ছোট বাক্য বলো, তারপর একটা করে নতুন অংশ যোগ করো।",
+ "title": "Emphasis with Clefts and Fronting"
+}

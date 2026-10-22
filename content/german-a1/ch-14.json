@@ -126,6 +126,146 @@
    "bn": "আমি গরম আবহাওয়া পছন্দ করি।",
    "pron_bn": "ইশ মাক ভার্মেস ভেটা।",
    "text": "Ich mag warmes Wetter."
+  },
+  {
+   "text": "Es ist heute sehr kalt.",
+   "pron_bn": "এস ইস্ট হয়টে জেয়া কাল্ট।",
+   "bn": "আজ খুব ঠান্ডা।"
+  },
+  {
+   "text": "Es ist morgen warm.",
+   "pron_bn": "এস ইস্ট মরগেন ভার্ম।",
+   "bn": "কাল গরম থাকবে।"
+  },
+  {
+   "text": "Es regnet heute nicht.",
+   "pron_bn": "এস রেগনেট হয়টে নিশ্ট।",
+   "bn": "আজ বৃষ্টি হচ্ছে না।"
+  },
+  {
+   "text": "Es regnet jetzt stark.",
+   "pron_bn": "এস রেগনেট ইয়েৎস্ট শ্টার্ক।",
+   "bn": "এখন জোরে বৃষ্টি হচ্ছে।"
+  },
+  {
+   "text": "Die Sonne scheint heute.",
+   "pron_bn": "ডি জনে শাইন্ট হয়টে।",
+   "bn": "আজ রোদ উঠেছে।"
+  },
+  {
+   "text": "Wie ist das Wetter heute?",
+   "pron_bn": "ভি ইস্ট ডাস ভেটা হয়টে?",
+   "bn": "আজ আবহাওয়া কেমন?"
+  },
+  {
+   "text": "Ist es draußen kalt?",
+   "pron_bn": "ইস্ট এস ড্রাউসেন কাল্ট?",
+   "bn": "বাইরে কি ঠান্ডা?"
+  },
+  {
+   "text": "Nein, es ist sehr warm.",
+   "pron_bn": "নাইন, এস ইস্ট জেয়া ভার্ম।",
+   "bn": "না, অনেক গরম।"
+  },
+  {
+   "text": "Ja, es ist zu kalt.",
+   "pron_bn": "ইয়া, এস ইস্ট ৎসু কাল্ট।",
+   "bn": "হ্যাঁ, বেশি ঠান্ডা।"
+  },
+  {
+   "text": "Ich trage heute einen Mantel.",
+   "pron_bn": "ইশ ট্রাগে হয়টে আইনেন মানটেল।",
+   "bn": "আজ আমি লম্বা কোট পরেছি।"
+  },
+  {
+   "text": "Hast du heute eine Jacke an?",
+   "pron_bn": "হাস্ট ডু হয়টে আইনে ইয়াকে আন?",
+   "bn": "আজ তুমি জ্যাকেট পরেছ?"
+  },
+  {
+   "text": "Ja, meine Jacke ist warm.",
+   "pron_bn": "ইয়া, মাইনে ইয়াকে ইস্ট ভার্ম।",
+   "bn": "হ্যাঁ, আমার জ্যাকেটটা বেশ গরম।"
+  },
+  {
+   "text": "Die Mütze ist sehr schön.",
+   "pron_bn": "ডি ম্যুৎসে ইস্ট জেয়া শ্যোন।",
+   "bn": "শীতের টুপিটা খুব সুন্দর।"
+  },
+  {
+   "text": "Ist der Schal zu lang?",
+   "pron_bn": "ইস্ট ডেয়া শাল ৎসু লাং?",
+   "bn": "মাফলারটা কি বেশি লম্বা?"
+  },
+  {
+   "text": "Meine Hose ist zu kurz.",
+   "pron_bn": "মাইনে হোজে ইস্ট ৎসু কুর্ৎস।",
+   "bn": "আমার প্যান্টটা বেশি খাটো।"
+  },
+  {
+   "text": "Deine Schuhe sind sehr nass.",
+   "pron_bn": "ডাইনে শুয়ে জিন্ট জেয়া নাস।",
+   "bn": "তোমার জুতাগুলো অনেক ভেজা।"
+  },
+  {
+   "text": "Haben Sie einen warmen Pullover?",
+   "pron_bn": "হাবেন জি আইনেন ভার্মেন পুলওফা?",
+   "bn": "আপনার কাছে গরম সোয়েটার আছে?"
+  },
+  {
+   "text": "Wie viel kostet dieser Mantel?",
+   "pron_bn": "ভি ফিল কস্টেট ডিজা মানটেল?",
+   "bn": "এই কোটটার দাম কত?"
+  },
+  {
+   "text": "Der Mantel ist nicht teuer.",
+   "pron_bn": "ডেয়া মানটেল ইস্ট নিশ্ট টয়া।",
+   "bn": "কোটটা বেশি দামি না।"
+  },
+  {
+   "text": "Ich suche eine blaue Jacke.",
+   "pron_bn": "ইশ জুখে আইনে ব্লাউএ ইয়াকে।",
+   "bn": "আমি একটা নীল জ্যাকেট খুঁজছি।"
+  },
+  {
+   "text": "Die rote Jacke ist schön.",
+   "pron_bn": "ডি রোটে ইয়াকে ইস্ট শ্যোন।",
+   "bn": "লাল জ্যাকেটটা সুন্দর।"
+  },
+  {
+   "text": "Zieh bitte die Schuhe an.",
+   "pron_bn": "ৎসি বিটে ডি শুয়ে আন।",
+   "bn": "প্লিজ জুতাগুলো পরে নাও।"
+  },
+  {
+   "text": "Nimm bitte den Schirm mit.",
+   "pron_bn": "নিম বিটে ডেন শির্ম মিট।",
+   "bn": "প্লিজ ছাতাটা সাথে নাও।"
+  },
+  {
+   "text": "Rafi hat heute ein T-Shirt an.",
+   "pron_bn": "রাফি হাট হয়টে আইন টি-শার্ট আন।",
+   "bn": "রাফি আজ টি-শার্ট পরেছে।"
+  },
+  {
+   "text": "Mitu mag kaltes Wetter nicht.",
+   "pron_bn": "মিটু মাক কাল্টেস ভেটা নিশ্ট।",
+   "bn": "মিতু শীতের আবহাওয়া পছন্দ করে না।"
+  },
+  {
+   "text": "Frau Weber kauft einen Regenschirm.",
+   "pron_bn": "ফ্রাউ ভেবা কাউফ্ট আইনেন রেগেনশির্ম।",
+   "bn": "ফ্রাউ ভেবার একটা ছাতা কিনছেন।"
+  },
+  {
+   "text": "Lukas, ist dir kalt?",
+   "pron_bn": "লুকাস, ইস্ট ডিয়া কাল্ট?",
+   "bn": "লুকাস, তোমার কি ঠান্ডা লাগছে?"
+  },
+  {
+   "text": "Nadia, zieh den Mantel an.",
+   "pron_bn": "নাডিয়া, ৎসি ডেন মানটেল আন।",
+   "bn": "নাদিয়া, কোটটা পরে নাও।"
   }
  ],
  "reading": [

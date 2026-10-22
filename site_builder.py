@@ -43,7 +43,9 @@ def builder_slide(i, b):
                     f'<span class="bn-no">{k}</span><div class="b-body"><p class="b-tx">{marked(prev, st["text"])}</p>'
                     f'<div class="b-more">{pron}<p class="bn">{esc(st["bn"])}</p></div></div><span class="chev">›</span></div>')
         prev = st["text"]
-    return slide(f'<p class="b-count">বাক্য {bn(i)} / ১০</p><div class="bld">{"".join(rows)}</div>'
+    size = sum(len(st["text"]) for st in b["steps"])
+    dens = "tight" if size > 430 else "dense" if size > 280 else ""
+    return slide(f'<p class="b-count">বাক্য {bn(i)} / ১০</p><div class="bld {dens}">{"".join(rows)}</div>'
                  f'<p class="hint b-note">💡 {esc(b["note_bn"])}</p>', "", f"বাক্য {i}")
 
 

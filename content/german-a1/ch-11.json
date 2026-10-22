@@ -126,6 +126,146 @@
    "bn": "সাহায্যের জন্য অনেক ধন্যবাদ।",
    "pron_bn": "ফিলেন ডাংক ফ্যুয়া ইরে হিলফে।",
    "text": "Vielen Dank für Ihre Hilfe."
+  },
+  {
+   "text": "Wo ist die Bank, bitte?",
+   "pron_bn": "ভো ইস্ট ডি বাংক, বিটে?",
+   "bn": "ব্যাংকটা কোথায়, একটু বলবেন?"
+  },
+  {
+   "text": "Wo ist die Post, bitte?",
+   "pron_bn": "ভো ইস্ট ডি পস্ট, বিটে?",
+   "bn": "পোস্ট অফিসটা কোথায়, একটু বলবেন?"
+  },
+  {
+   "text": "Wo ist das Kino, bitte?",
+   "pron_bn": "ভো ইস্ট ডাস কিনো, বিটে?",
+   "bn": "সিনেমা হলটা কোথায়, একটু বলবেন?"
+  },
+  {
+   "text": "Wo ist das Hotel, bitte?",
+   "pron_bn": "ভো ইস্ট ডাস হোটেল, বিটে?",
+   "bn": "হোটেলটা কোথায়, একটু বলবেন?"
+  },
+  {
+   "text": "Wo ist die Schule, bitte?",
+   "pron_bn": "ভো ইস্ট ডি শুলে, বিটে?",
+   "bn": "স্কুলটা কোথায়, একটু বলবেন?"
+  },
+  {
+   "text": "Ist die Bank in der Nähe?",
+   "pron_bn": "ইস্ট ডি বাংক ইন ডেয়া নেয়ে?",
+   "bn": "ব্যাংকটা কি কাছেই আছে?"
+  },
+  {
+   "text": "Ist das Kino weit von hier?",
+   "pron_bn": "ইস্ট ডাস কিনো ভাইট ফন হিয়া?",
+   "bn": "সিনেমা হলটা কি এখান থেকে দূরে?"
+  },
+  {
+   "text": "Wie komme ich zum Markt?",
+   "pron_bn": "ভি কমে ইশ ৎসুম মার্ক্ট?",
+   "bn": "আমি বাজারে কীভাবে যাব?"
+  },
+  {
+   "text": "Nehmen Sie die U-Bahn, bitte.",
+   "pron_bn": "নেমেন জি ডি উবান, বিটে।",
+   "bn": "দয়া করে পাতাল ট্রেনে যান।"
+  },
+  {
+   "text": "Nehmen Sie ein Taxi, bitte.",
+   "pron_bn": "নেমেন জি আইন টাক্সি, বিটে।",
+   "bn": "দয়া করে একটা ট্যাক্সি নিন।"
+  },
+  {
+   "text": "Fahren Sie mit dem Bus, bitte.",
+   "pron_bn": "ফারেন জি মিট ডেম বুস, বিটে।",
+   "bn": "দয়া করে বাসে করে যান।"
+  },
+  {
+   "text": "Gehen Sie bis zur Bank.",
+   "pron_bn": "গেয়েন জি বিস ৎসুয়া বাংক।",
+   "bn": "ব্যাংক পর্যন্ত হেঁটে যান।"
+  },
+  {
+   "text": "Steigen Sie hier bitte aus.",
+   "pron_bn": "শ্টাইগেন জি হিয়া বিটে আউস।",
+   "bn": "দয়া করে এখানে নেমে যান।"
+  },
+  {
+   "text": "Warten Sie einen Moment, bitte.",
+   "pron_bn": "ভার্টেন জি আইনেন মোমেন্ট, বিটে।",
+   "bn": "দয়া করে একটু অপেক্ষা করুন।"
+  },
+  {
+   "text": "Die Bank ist im Zentrum.",
+   "pron_bn": "ডি বাংক ইস্ট ইম ৎসেন্ট্রুম।",
+   "bn": "ব্যাংকটা শহরের মাঝখানে।"
+  },
+  {
+   "text": "Das Taxi ist am Bahnhof.",
+   "pron_bn": "ডাস টাক্সি ইস্ট আম বানহোফ।",
+   "bn": "ট্যাক্সিটা রেলস্টেশনে আছে।"
+  },
+  {
+   "text": "Ich warte neben dem Kino.",
+   "pron_bn": "ইশ ভার্টে নেবেন ডেম কিনো।",
+   "bn": "আমি সিনেমা হলের পাশে অপেক্ষা করছি।"
+  },
+  {
+   "text": "Ich bin am Markt.",
+   "pron_bn": "ইশ বিন আম মার্ক্ট।",
+   "bn": "আমি বাজারে আছি।"
+  },
+  {
+   "text": "Es ist neben der Bank.",
+   "pron_bn": "এস ইস্ট নেবেন ডেয়া বাংক।",
+   "bn": "এটা ব্যাংকের পাশেই।"
+  },
+  {
+   "text": "Es ist zehn Minuten von hier.",
+   "pron_bn": "এস ইস্ট ৎসেন মিনুটেন ফন হিয়া।",
+   "bn": "এখান থেকে দশ মিনিট লাগে।"
+  },
+  {
+   "text": "Der Bus kommt in zehn Minuten.",
+   "pron_bn": "ডেয়া বুস কম্ট ইন ৎসেন মিনুটেন।",
+   "bn": "দশ মিনিট পরে বাস আসবে।"
+  },
+  {
+   "text": "Ich fahre mit dem Zug.",
+   "pron_bn": "ইশ ফারে মিট ডেম ৎসুক।",
+   "bn": "আমি ট্রেনে যাচ্ছি।"
+  },
+  {
+   "text": "Die Haltestelle ist dort links.",
+   "pron_bn": "ডি হালটেশ্টেলে ইস্ট ডর্ট লিংক্স।",
+   "bn": "বাসস্টপটা ওখানে বাঁ দিকে।"
+  },
+  {
+   "text": "Ich suche die Post, bitte.",
+   "pron_bn": "ইশ জুখে ডি পস্ট, বিটে।",
+   "bn": "আমি পোস্ট অফিসটা খুঁজছি।"
+  },
+  {
+   "text": "Helfen Sie mir bitte?",
+   "pron_bn": "হেলফেন জি মিয়া বিটে?",
+   "bn": "আমাকে একটু সাহায্য করবেন?"
+  },
+  {
+   "text": "Sprechen Sie Deutsch, bitte?",
+   "pron_bn": "শ্প্রেশেন জি ডয়চ, বিটে?",
+   "bn": "আপনি কি জার্মান বলতে পারেন?"
+  },
+  {
+   "text": "Wo ist der Ausgang, bitte?",
+   "pron_bn": "ভো ইস্ট ডেয়া আউসগাং, বিটে?",
+   "bn": "বের হওয়ার পথটা কোথায়, একটু বলবেন?"
+  },
+  {
+   "text": "Vielen Dank, das hilft mir sehr.",
+   "pron_bn": "ফিলেন ডাংক, ডাস হিলফ্ট মিয়া জেয়া।",
+   "bn": "অনেক ধন্যবাদ, আমার খুব উপকার হলো।"
   }
  ],
  "reading": [

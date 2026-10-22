@@ -99,6 +99,7 @@
       q.o.forEach(function (o, k) { h += '<button class="opt" data-k="' + k + '">' + esc(o) + '</button>'; });
       h += '</div><div class="why"></div>';
       el.innerHTML = h;
+      el.classList.toggle('sm', Math.max.apply(null, q.o.map(function (x) { return String(x).length; }).concat([String(q.q).length - 30])) > 58);
       if (q.say && q.auto) { var sb = el.querySelector('[data-say]'); setTimeout(function () { sb.click(); }, 150); }
       [].forEach.call(el.querySelectorAll('.opt'), function (b) {
         b.addEventListener('click', function () {

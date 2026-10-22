@@ -126,6 +126,146 @@
    "bn": "আমি বাসায় আছি।",
    "pron_bn": "ইশ বিন ৎসু হাউজে।",
    "text": "Ich bin zu Hause."
+  },
+  {
+   "text": "Wie groß ist deine Wohnung?",
+   "pron_bn": "ভি গ্রোস ইস্ট ডাইনে ভোনুং?",
+   "bn": "তোমার বাসাটা কত বড়?"
+  },
+  {
+   "text": "Meine Wohnung ist sehr groß.",
+   "pron_bn": "মাইনে ভোনুং ইস্ট জেয়া গ্রোস।",
+   "bn": "আমার বাসাটা অনেক বড়।"
+  },
+  {
+   "text": "Das Wohnzimmer ist hell und groß.",
+   "pron_bn": "ডাস ভোনৎসিমা ইস্ট হেল উন্ট গ্রোস।",
+   "bn": "বসার ঘরটা উজ্জ্বল আর বড়।"
+  },
+  {
+   "text": "Das Bad ist klein, aber sauber.",
+   "pron_bn": "ডাস বাট ইস্ট ক্লাইন, আবা জাউবা।",
+   "bn": "বাথরুমটা ছোট, কিন্তু পরিষ্কার।"
+  },
+  {
+   "text": "Es gibt drei Zimmer und ein Bad.",
+   "pron_bn": "এস গিপ্ট ড্রাই ৎসিমা উন্ট আইন বাট।",
+   "bn": "তিনটা ঘর আর একটা বাথরুম আছে।"
+  },
+  {
+   "text": "Es gibt einen Balkon und einen Garten.",
+   "pron_bn": "এস গিপ্ট আইনেন বালকোন উন্ট আইনেন গারটেন।",
+   "bn": "একটা বারান্দা আর একটা বাগান আছে।"
+  },
+  {
+   "text": "Gibt es eine Küche?",
+   "pron_bn": "গিপ্ট এস আইনে ক্যুশে?",
+   "bn": "রান্নাঘর আছে কি?"
+  },
+  {
+   "text": "Ja, die Küche ist neu.",
+   "pron_bn": "ইয়া, ডি ক্যুশে ইস্ট নয়।",
+   "bn": "হ্যাঁ, রান্নাঘরটা নতুন।"
+  },
+  {
+   "text": "Gibt es hier ein Bett?",
+   "pron_bn": "গিপ্ট এস হিয়া আইন বেট?",
+   "bn": "এখানে কি একটা খাট আছে?"
+  },
+  {
+   "text": "Nein, es gibt kein Bett.",
+   "pron_bn": "নাইন, এস গিপ্ট কাইন বেট।",
+   "bn": "না, এখানে কোনো খাট নেই।"
+  },
+  {
+   "text": "Es gibt keinen Tisch und keinen Stuhl.",
+   "pron_bn": "এস গিপ্ট কাইনেন টিশ উন্ট কাইনেন শ্টুল।",
+   "bn": "কোনো টেবিল আর চেয়ার নেই।"
+  },
+  {
+   "text": "Der Schrank ist groß und neu.",
+   "pron_bn": "ডা শ্রাংক ইস্ট গ্রোস উন্ট নয়।",
+   "bn": "আলমারিটা বড় আর নতুন।"
+  },
+  {
+   "text": "Der Stuhl ist alt, aber gut.",
+   "pron_bn": "ডা শ্টুল ইস্ট আল্ট, আবা গুট।",
+   "bn": "চেয়ারটা পুরোনো, কিন্তু ভালো।"
+  },
+  {
+   "text": "Die Lampe ist klein und schön.",
+   "pron_bn": "ডি লামপে ইস্ট ক্লাইন উন্ট শ্যোন।",
+   "bn": "বাতিটা ছোট আর সুন্দর।"
+  },
+  {
+   "text": "Wo ist das Bad, bitte?",
+   "pron_bn": "ভো ইস্ট ডাস বাট, বিটে?",
+   "bn": "বাথরুমটা কোথায়, বলবেন?"
+  },
+  {
+   "text": "Wo ist die Küche?",
+   "pron_bn": "ভো ইস্ট ডি ক্যুশে?",
+   "bn": "রান্নাঘরটা কোথায়?"
+  },
+  {
+   "text": "Kommen Sie bitte ins Wohnzimmer.",
+   "pron_bn": "কমেন জি বিটে ইনস ভোনৎসিমা।",
+   "bn": "দয়া করে বসার ঘরে আসুন।"
+  },
+  {
+   "text": "Setz dich bitte auf den Stuhl.",
+   "pron_bn": "জেৎস ডিশ বিটে আউফ ডেন শ্টুল।",
+   "bn": "চেয়ারটায় বসো তো।"
+  },
+  {
+   "text": "Das Sofa ist neu und schön.",
+   "pron_bn": "ডাস জোফা ইস্ট নয় উন্ট শ্যোন।",
+   "bn": "সোফাটা নতুন আর সুন্দর।"
+  },
+  {
+   "text": "Mein Bett ist warm und weich.",
+   "pron_bn": "মাইন বেট ইস্ট ভার্ম উন্ট ভাইশ।",
+   "bn": "আমার বিছানাটা উষ্ণ আর নরম।"
+  },
+  {
+   "text": "Ist das Zimmer ruhig und hell?",
+   "pron_bn": "ইস্ট ডাস ৎসিমা রুইশ উন্ট হেল?",
+   "bn": "ঘরটা কি শান্ত আর আলোকিত?"
+  },
+  {
+   "text": "Ja, das Zimmer ist sehr ruhig.",
+   "pron_bn": "ইয়া, ডাস ৎসিমা ইস্ট জেয়া রুইশ।",
+   "bn": "হ্যাঁ, ঘরটা খুব শান্ত।"
+  },
+  {
+   "text": "Es gibt keine Dusche im Bad.",
+   "pron_bn": "এস গিপ্ট কাইনে ডুশে ইম বাট।",
+   "bn": "বাথরুমে শাওয়ার নেই।"
+  },
+  {
+   "text": "Ist die Wohnung teuer?",
+   "pron_bn": "ইস্ট ডি ভোনুং টয়া?",
+   "bn": "বাসাটা কি দামি?"
+  },
+  {
+   "text": "Nein, sie ist nicht teuer.",
+   "pron_bn": "নাইন, জি ইস্ট নিশ্ট টয়া।",
+   "bn": "না, এটা দামি না।"
+  },
+  {
+   "text": "Ist Ihr Bad groß, Frau Weber?",
+   "pron_bn": "ইস্ট ইয়া বাট গ্রোস, ফ্রাউ ভেবা?",
+   "bn": "মিসেস ভেবার, আপনার বাথরুমটা কি বড়?"
+  },
+  {
+   "text": "Rafi, ist dein Zimmer schön?",
+   "pron_bn": "রাফি, ইস্ট ডাইন ৎসিমা শ্যোন?",
+   "bn": "রাফি, তোমার ঘরটা কি সুন্দর?"
+  },
+  {
+   "text": "Ja, mein Zimmer ist sehr schön.",
+   "pron_bn": "ইয়া, মাইন ৎসিমা ইস্ট জেয়া শ্যোন।",
+   "bn": "হ্যাঁ, আমার ঘরটা খুব সুন্দর।"
   }
  ],
  "reading": [

@@ -1,0 +1,307 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি রিলেটিভ ক্লজ, সময়-বোঝানো ক্লজ আর ছাড়-বোঝানো ক্লজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু প্রতিবেদনটি জমা দিয়েছে।",
+     "pron_bn": "",
+     "text": "Mitu submitted the report."
+    },
+    {
+     "bn": "মিতু প্রতিবেদনটি মন্ত্রণালয়ে জমা দিয়েছে।",
+     "pron_bn": "",
+     "text": "Mitu submitted the report to the ministry."
+    },
+    {
+     "bn": "মিতু গত দশ বছরের রপ্তানি প্রবণতা বিশ্লেষণ করা প্রতিবেদনটি মন্ত্রণালয়ে জমা দিয়েছে।",
+     "pron_bn": "",
+     "text": "Mitu submitted the report, which analyses export trends over the past decade, to the ministry."
+    },
+    {
+     "bn": "জ্যেষ্ঠ অর্থনীতিবিদদের পর্যালোচনার পর মিতু গত দশ বছরের রপ্তানি প্রবণতা বিশ্লেষণ করা প্রতিবেদনটি মন্ত্রণালয়ে জমা দিয়েছে।",
+     "pron_bn": "",
+     "text": "Mitu submitted the report, which analyses export trends over the past decade, to the ministry after it had been reviewed by senior economists."
+    },
+    {
+     "bn": "জ্যেষ্ঠ অর্থনীতিবিদদের পর্যালোচনার পর মিতু রপ্তানি প্রবণতার প্রতিবেদনটি মন্ত্রণালয়ে জমা দিলেও তাতে আরও সংশোধন লাগতে পারে।",
+     "pron_bn": "",
+     "text": "Mitu submitted the report, which analyses export trends over the past decade, to the ministry after it had been reviewed by senior economists, although further revisions may still be required."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি রিলেটিভ ক্লজ, সময়-বোঝানো পার্টিসিপল ফ্রেজ আর ফলাফল-বোঝানো ক্লজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি তার থিসিস শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Rafi completed his thesis."
+    },
+    {
+     "bn": "রাফি নবায়নযোগ্য জ্বালানি নীতি নিয়ে তার থিসিস শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Rafi completed his thesis on renewable energy policy."
+    },
+    {
+     "bn": "রাফি নবায়নযোগ্য জ্বালানি নীতি নিয়ে থিসিস শেষ করেছে, যেখানে বাংলাদেশ ও ভারতে সৌরশক্তির ব্যবহার তুলনা করা হয়েছে।",
+     "pron_bn": "",
+     "text": "Rafi completed his thesis on renewable energy policy, which compares solar adoption in Bangladesh and India."
+    },
+    {
+     "bn": "বিশ্ববিদ্যালয়ের ল্যাবে পুরো সময় কাজ করার পাশাপাশি রাফি নবায়নযোগ্য জ্বালানি নীতি নিয়ে থিসিস শেষ করেছে, যেখানে বাংলাদেশ ও ভারতে সৌরশক্তির ব্যবহার তুলনা করা হয়েছে।",
+     "pron_bn": "",
+     "text": "While working full time at the university lab, Rafi completed his thesis on renewable energy policy, which compares solar adoption in Bangladesh and India."
+    },
+    {
+     "bn": "বিশ্ববিদ্যালয়ের ল্যাবে পুরো সময় কাজ করার পাশাপাশি বাংলাদেশ ও ভারতের সৌরশক্তি ব্যবহারের তুলনামূলক থিসিস শেষ করে রাফি অসাধারণ শিক্ষাগত নিষ্ঠার প্রমাণ দিয়েছে।",
+     "pron_bn": "",
+     "text": "While working full time at the university lab, Rafi completed his thesis on renewable energy policy, which compares solar adoption in Bangladesh and India, thereby demonstrating exceptional academic commitment."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি স্থান, দাতা-সহায়তার রিলেটিভ ক্লজ আর শর্ত-বোঝানো রিলেটিভ ক্লজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "ক্লিনিকটি পরিবারগুলোকে সহায়তা করে।",
+     "pron_bn": "",
+     "text": "The clinic supports families."
+    },
+    {
+     "bn": "বরিশালের ক্লিনিকটি পরিবারগুলোকে সহায়তা করে।",
+     "pron_bn": "",
+     "text": "The clinic in Barishal supports families."
+    },
+    {
+     "bn": "বরিশালের ক্লিনিকটি কম আয়ের পরিবারগুলোকে সহায়তা করে।",
+     "pron_bn": "",
+     "text": "The clinic in Barishal supports low-income families."
+    },
+    {
+     "bn": "আন্তর্জাতিক দাতাদের সহায়তায় চলা বরিশালের ক্লিনিকটি কম আয়ের পরিবারগুলোকে সহায়তা করে।",
+     "pron_bn": "",
+     "text": "The clinic in Barishal, which operates with support from international donors, supports low-income families."
+    },
+    {
+     "bn": "আন্তর্জাতিক দাতাদের সহায়তায় চলা বরিশালের ক্লিনিকটি এমন কম আয়ের পরিবারদের সহায়তা করে যারা না হলে বিশেষজ্ঞ চিকিৎসা পেত না।",
+     "pron_bn": "",
+     "text": "The clinic in Barishal, which operates with support from international donors, supports low-income families who would otherwise have no access to specialist treatment."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি পার্টিসিপল ফ্রেজ, মাধ্যম-বোঝানো ফ্রেজ আর বিপরীত ফলাফলের ক্লজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সফটওয়্যারটি উৎপাদনশীলতা বাড়ায়।",
+     "pron_bn": "",
+     "text": "The software improves productivity."
+    },
+    {
+     "bn": "ঢাকায় তৈরি সফটওয়্যারটি উৎপাদনশীলতা বাড়ায়।",
+     "pron_bn": "",
+     "text": "The software developed in Dhaka improves productivity."
+    },
+    {
+     "bn": "ঢাকায় তৈরি সফটওয়্যারটি পোশাক কারখানায় উৎপাদনশীলতা বাড়ায়।",
+     "pron_bn": "",
+     "text": "The software developed in Dhaka improves productivity in garment factories."
+    },
+    {
+     "bn": "রিয়েল-টাইম মজুত পর্যবেক্ষণ যুক্ত করায় ঢাকায় তৈরি সফটওয়্যারটি পোশাক কারখানায় উৎপাদনশীলতা বাড়ায়।",
+     "pron_bn": "",
+     "text": "The software developed in Dhaka, by integrating real-time inventory tracking, improves productivity in garment factories."
+    },
+    {
+     "bn": "রিয়েল-টাইম মজুত পর্যবেক্ষণ যুক্ত করায় ঢাকায় তৈরি সফটওয়্যারটি পোশাক কারখানার উৎপাদনশীলতা বাড়ায় এবং পরিচালন খরচও অনেক কমায়।",
+     "pron_bn": "",
+     "text": "The software developed in Dhaka, by integrating real-time inventory tracking, improves productivity in garment factories while significantly reducing operational costs."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ছাড়-বোঝানো ফ্রেজ, কারণ-বোঝানো ক্লজ আর অতিরিক্ত কারণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "যানজটে শহর অচল হয়ে যায়।",
+     "pron_bn": "",
+     "text": "Traffic paralyses the city."
+    },
+    {
+     "bn": "প্রতিদিন সন্ধ্যায় যানজটে শহর অচল হয়ে যায়।",
+     "pron_bn": "",
+     "text": "Traffic paralyses the city every evening."
+    },
+    {
+     "bn": "ফ্লাইওভারে সাম্প্রতিক বিনিয়োগ সত্ত্বেও প্রতিদিন সন্ধ্যায় যানজটে শহর অচল হয়ে যায়।",
+     "pron_bn": "",
+     "text": "Despite recent investments in flyovers, traffic paralyses the city every evening."
+    },
+    {
+     "bn": "গণপরিবহন অপর্যাপ্ত থাকায় ফ্লাইওভারে বিনিয়োগ সত্ত্বেও প্রতিদিন সন্ধ্যায় যানজটে শহর অচল হয়ে যায়।",
+     "pron_bn": "",
+     "text": "Despite recent investments in flyovers, traffic paralyses the city every evening because public transport remains inadequate."
+    },
+    {
+     "bn": "গণপরিবহন অপর্যাপ্ত থাকায় এবং অপরিকল্পিত নির্মাণকাজে প্রধান সড়ক বন্ধ থাকায় ফ্লাইওভারে বিনিয়োগ সত্ত্বেও প্রতিদিন সন্ধ্যায় যানজটে শহর অচল হয়ে যায়।",
+     "pron_bn": "",
+     "text": "Despite recent investments in flyovers, traffic paralyses the city every evening because public transport remains inadequate and uncoordinated construction work blocks major routes."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ছাড়-বোঝানো ফ্রেজ, রিলেটিভ ক্লজ আর ফলাফল-বোঝানো ফ্রেজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "কৃষকেরা ধান চাষ করেন।",
+     "pron_bn": "",
+     "text": "Farmers cultivate rice."
+    },
+    {
+     "bn": "রংপুরের কৃষকেরা ধান চাষ করেন।",
+     "pron_bn": "",
+     "text": "Farmers in Rangpur cultivate rice."
+    },
+    {
+     "bn": "অনিশ্চিত বৃষ্টিপাত সত্ত্বেও রংপুরের কৃষকেরা ধান চাষ করেন।",
+     "pron_bn": "",
+     "text": "Farmers in Rangpur cultivate rice despite unpredictable rainfall."
+    },
+    {
+     "bn": "খরা-সহনশীল জাত ব্যবহার শুরু করা রংপুরের কৃষকেরা অনিশ্চিত বৃষ্টিপাত সত্ত্বেও ধান চাষ করেন।",
+     "pron_bn": "",
+     "text": "Farmers in Rangpur, who have adopted drought-resistant varieties, cultivate rice despite unpredictable rainfall."
+    },
+    {
+     "bn": "খরা-সহনশীল জাত ব্যবহার করে রংপুরের কৃষকেরা অনিশ্চিত বৃষ্টিপাত সত্ত্বেও ধান চাষ করে নিজেদের এলাকায় খাদ্য নিরাপত্তা নিশ্চিত করছেন।",
+     "pron_bn": "",
+     "text": "Farmers in Rangpur, who have adopted drought-resistant varieties, cultivate rice despite unpredictable rainfall, thereby ensuring food security for their communities."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি উদ্দেশ্য, বিষয়, স্থান-ক্লজ আর পূর্ববর্তী কাজের পার্টিসিপল ফ্রেজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া কক্সবাজারে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "Nadia travelled to Cox's Bazar."
+    },
+    {
+     "bn": "নাদিয়া একটি সম্মেলনে যোগ দিতে কক্সবাজারে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "Nadia travelled to Cox's Bazar to attend a conference."
+    },
+    {
+     "bn": "নাদিয়া উপকূল ব্যবস্থাপনা বিষয়ে একটি সম্মেলনে যোগ দিতে কক্সবাজারে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "Nadia travelled to Cox's Bazar to attend a conference on coastal management."
+    },
+    {
+     "bn": "নাদিয়া উপকূল ব্যবস্থাপনা বিষয়ে সম্মেলনে যোগ দিতে কক্সবাজারে গিয়েছিল, যেখানে সে ভাঙন নিয়ে তার গবেষণার ফলাফল উপস্থাপন করেছে।",
+     "pron_bn": "",
+     "text": "Nadia travelled to Cox's Bazar to attend a conference on coastal management, where she presented her findings on erosion."
+    },
+    {
+     "bn": "টেকনাফে মাঠপর্যায়ের কাজ শেষ করে নাদিয়া উপকূল ব্যবস্থাপনা সম্মেলনে যোগ দিতে কক্সবাজারে গিয়েছিল, যেখানে সে ভাঙন নিয়ে তার গবেষণার ফলাফল উপস্থাপন করেছে।",
+     "pron_bn": "",
+     "text": "Nadia, having completed her fieldwork in Teknaf, travelled to Cox's Bazar to attend a conference on coastal management, where she presented her findings on erosion."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কারণসহ রিলেটিভ ক্লজ আর শর্ত-বোঝানো যৌগিক ক্লজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "বন্যায় জীবিকা নষ্ট হয়।",
+     "pron_bn": "",
+     "text": "Floods disrupt livelihoods."
+    },
+    {
+     "bn": "চর এলাকায় বন্যায় জীবিকা নষ্ট হয়।",
+     "pron_bn": "",
+     "text": "Floods disrupt livelihoods in the char areas."
+    },
+    {
+     "bn": "জলবায়ু পরিবর্তনের কারণে ঘন ঘন হওয়া বন্যায় চর এলাকায় জীবিকা নষ্ট হয়।",
+     "pron_bn": "",
+     "text": "Floods, which have become more frequent due to climate change, disrupt livelihoods in the char areas."
+    },
+    {
+     "bn": "কার্যকর বাঁধ তৈরি না হওয়া পর্যন্ত জলবায়ু পরিবর্তনে বেড়ে যাওয়া বন্যায় চর এলাকার জীবিকা নষ্ট হয়।",
+     "pron_bn": "",
+     "text": "Floods, which have become more frequent due to climate change, disrupt livelihoods in the char areas until effective embankments are built."
+    },
+    {
+     "bn": "কার্যকর বাঁধ তৈরি ও আগাম সতর্কতা ব্যবস্থা শক্তিশালী না হওয়া পর্যন্ত জলবায়ু পরিবর্তনে বেড়ে যাওয়া বন্যায় চর এলাকার জীবিকা নষ্ট হয়।",
+     "pron_bn": "",
+     "text": "Floods, which have become more frequent due to climate change, disrupt livelihoods in the char areas until effective embankments are built and early warning systems are strengthened."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কারণ-বোঝানো পার্টিসিপল, কারণ-ক্লজ আর বিরোধ-বোঝানো ক্লজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "অনলাইনে কেনাকাটা দ্রুত বাড়ছে।",
+     "pron_bn": "",
+     "text": "Online shopping is expanding rapidly."
+    },
+    {
+     "bn": "বাংলাদেশে অনলাইনে কেনাকাটা দ্রুত বাড়ছে।",
+     "pron_bn": "",
+     "text": "Online shopping is expanding rapidly in Bangladesh."
+    },
+    {
+     "bn": "মোবাইল ব্যাংকিংয়ের সুবিধায় বাংলাদেশে অনলাইনে কেনাকাটা দ্রুত বাড়ছে।",
+     "pron_bn": "",
+     "text": "Online shopping, driven by mobile banking, is expanding rapidly in Bangladesh."
+    },
+    {
+     "bn": "ব্যস্ত শহুরে ক্রেতাদের জন্য সুবিধাজনক হওয়ায় মোবাইল ব্যাংকিংয়ের সুবিধায় বাংলাদেশে অনলাইনে কেনাকাটা দ্রুত বাড়ছে।",
+     "pron_bn": "",
+     "text": "Online shopping, driven by mobile banking, is expanding rapidly in Bangladesh because it offers convenience to busy urban customers."
+    },
+    {
+     "bn": "পণ্যের মান নিয়ে উদ্বেগ থাকলেও ব্যস্ত শহুরে ক্রেতাদের সুবিধার কারণে মোবাইল ব্যাংকিংয়ের সহায়তায় বাংলাদেশে অনলাইনে কেনাকাটা দ্রুত বাড়ছে।",
+     "pron_bn": "",
+     "text": "Online shopping, driven by mobile banking, is expanding rapidly in Bangladesh because it offers convenience to busy urban customers, even though concerns about product quality persist."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি দায়িত্ব-বোঝানো ফ্রেজ, ফলাফলের পার্টিসিপল আর প্রশংসাসূচক রিলেটিভ ক্লজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর একটি দল পরিচালনা করে।",
+     "pron_bn": "",
+     "text": "Tanvir manages a team."
+    },
+    {
+     "bn": "তানভীর একদল প্রকৌশলী পরিচালনা করে।",
+     "pron_bn": "",
+     "text": "Tanvir manages a team of engineers."
+    },
+    {
+     "bn": "তানভীর সেতু রক্ষণাবেক্ষণের দায়িত্বে থাকা একদল প্রকৌশলী পরিচালনা করে।",
+     "pron_bn": "",
+     "text": "Tanvir manages a team of engineers responsible for bridge maintenance."
+    },
+    {
+     "bn": "তানভীর সেতু রক্ষণাবেক্ষণের দায়িত্বে থাকা একদল প্রকৌশলী পরিচালনা করে, ফলে নিরাপত্তা পরিদর্শন সময়মতো শেষ হয়।",
+     "pron_bn": "",
+     "text": "Tanvir manages a team of engineers responsible for bridge maintenance, ensuring that safety inspections are completed on schedule."
+    },
+    {
+     "bn": "চমৎকার নেতৃত্বের জন্য গত বছর পদোন্নতি পাওয়া তানভীর সেতু রক্ষণাবেক্ষণের দায়িত্বে থাকা একদল প্রকৌশলী পরিচালনা করে, ফলে নিরাপত্তা পরিদর্শন সময়মতো শেষ হয়।",
+     "pron_bn": "",
+     "text": "Tanvir, who was promoted last year for his outstanding leadership, manages a team of engineers responsible for bridge maintenance, ensuring that safety inspections are completed on schedule."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই শেষ অধ্যায়ে তুমি আলাদা ক্লজ জুড়ে একটাই নিখুঁত প্রফেশনাল বাক্য বানানো শিখবে। প্রতিটি বিল্ডারে তুমি ধাপে ধাপে তথ্য যোগ করে একাডেমিক নির্ভুলতা বাড়াবে।",
+ "tip_bn": "তুমি প্রথমে মূল বক্তব্যটি ঠিক রাখো, তারপর which, although বা thereby দিয়ে বাড়তি তথ্য যোগ করো। প্রতিটি ধাপে বাক্যটি জোরে পড়ে দেখো তা স্বাভাবিক ও স্পষ্ট শোনাচ্ছে কি না।",
+ "title": "One Precise Professional Sentence"
+}

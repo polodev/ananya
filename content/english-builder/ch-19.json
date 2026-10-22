@@ -1,0 +1,302 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি Had দিয়ে অতীত শর্ত আর সময় ও জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি কারখানাটা পরিচালনা করত।",
+     "pron_bn": "",
+     "text": "Rafi would be managing the factory."
+    },
+    {
+     "bn": "রাফি পদোন্নতিটা নিলে সে কারখানাটা পরিচালনা করত।",
+     "pron_bn": "",
+     "text": "Had Rafi accepted the promotion, he would be managing the factory."
+    },
+    {
+     "bn": "রাফি গত বছর পদোন্নতিটা নিলে সে কারখানাটা পরিচালনা করত।",
+     "pron_bn": "",
+     "text": "Had Rafi accepted the promotion last year, he would be managing the factory."
+    },
+    {
+     "bn": "রাফি গত বছর পদোন্নতিটা নিলে সে এখন কারখানাটা পরিচালনা করত।",
+     "pron_bn": "",
+     "text": "Had Rafi accepted the promotion last year, he would now be managing the factory."
+    },
+    {
+     "bn": "রাফি গত বছর পদোন্নতিটা নিলে সে এখন গাজীপুরে কারখানাটা পরিচালনা করত।",
+     "pron_bn": "",
+     "text": "Had Rafi accepted the promotion last year, he would now be managing the factory in Gazipur."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Were it not for দিয়ে কারণ আর সময়ের তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া তার পড়াশোনা ছেড়ে দিত।",
+     "pron_bn": "",
+     "text": "Nadia would have left her studies."
+    },
+    {
+     "bn": "নাদিয়ার বৃত্তিটা না থাকলে সে পড়াশোনা ছেড়ে দিত।",
+     "pron_bn": "",
+     "text": "Were it not for Nadia's scholarship, she would have left her studies."
+    },
+    {
+     "bn": "নাদিয়ার পুরো বৃত্তিটা না থাকলে সে পড়াশোনা ছেড়ে দিত।",
+     "pron_bn": "",
+     "text": "Were it not for Nadia's full scholarship, she would have left her studies."
+    },
+    {
+     "bn": "নাদিয়ার বিশ্ববিদ্যালয় থেকে পাওয়া পুরো বৃত্তিটা না থাকলে সে পড়াশোনা ছেড়ে দিত।",
+     "pron_bn": "",
+     "text": "Were it not for Nadia's full scholarship from the university, she would have left her studies."
+    },
+    {
+     "bn": "নাদিয়ার বিশ্ববিদ্যালয় থেকে পাওয়া পুরো বৃত্তিটা না থাকলে সে দ্বিতীয় বর্ষেই পড়াশোনা ছেড়ে দিত।",
+     "pron_bn": "",
+     "text": "Were it not for Nadia's full scholarship from the university, she would have left her studies in the second year."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Had known দিয়ে অতীত শর্ত আর still ও জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু তার বাবা-মায়ের কাছাকাছি থাকত।",
+     "pron_bn": "",
+     "text": "Mitu would be living near her parents."
+    },
+    {
+     "bn": "মিতু বদলির বিষয়টা জানলে সে বাবা-মায়ের কাছাকাছি থাকত।",
+     "pron_bn": "",
+     "text": "Had Mitu known about the transfer, she would be living near her parents."
+    },
+    {
+     "bn": "মিতু বদলির বিষয়টা আগে জানলে সে বাবা-মায়ের কাছাকাছি থাকত।",
+     "pron_bn": "",
+     "text": "Had Mitu known about the transfer earlier, she would be living near her parents."
+    },
+    {
+     "bn": "মিতু বদলির বিষয়টা আগে জানলে সে এখনো বাবা-মায়ের কাছাকাছি থাকত।",
+     "pron_bn": "",
+     "text": "Had Mitu known about the transfer earlier, she would still be living near her parents."
+    },
+    {
+     "bn": "মিতু বদলির বিষয়টা আগে জানলে সে এখনো চাঁদপুরে বাবা-মায়ের কাছাকাছি থাকত।",
+     "pron_bn": "",
+     "text": "Had Mitu known about the transfer earlier, she would still be living near her parents in Chandpur."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Should দিয়ে ভদ্র শর্ত আর সময় ও নিশ্চয়তা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীরের একজন স্থানীয় গাইড লাগবে।",
+     "pron_bn": "",
+     "text": "Tanvir will need a local guide."
+    },
+    {
+     "bn": "তানভীর সুন্দরবন গেলে তার একজন স্থানীয় গাইড লাগবে।",
+     "pron_bn": "",
+     "text": "Should Tanvir visit the Sundarbans, he will need a local guide."
+    },
+    {
+     "bn": "তানভীর আগামী শীতে সুন্দরবন গেলে তার একজন স্থানীয় গাইড লাগবে।",
+     "pron_bn": "",
+     "text": "Should Tanvir visit the Sundarbans next winter, he will need a local guide."
+    },
+    {
+     "bn": "তানভীর আগামী শীতে সুন্দরবন গেলে তার একজন বিশ্বস্ত স্থানীয় গাইড লাগবে।",
+     "pron_bn": "",
+     "text": "Should Tanvir visit the Sundarbans next winter, he will need a trusted local guide."
+    },
+    {
+     "bn": "তানভীর আগামী শীতে সুন্দরবন গেলে তার অবশ্যই একজন বিশ্বস্ত স্থানীয় গাইড লাগবে।",
+     "pron_bn": "",
+     "text": "Should Tanvir visit the Sundarbans next winter, he will certainly need a trusted local guide."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Were দিয়ে বর্তমান শর্ত আর সুস্থতার সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি পুরোপুরি সুস্থ হয়ে যেত।",
+     "pron_bn": "",
+     "text": "Rafi would have recovered fully."
+    },
+    {
+     "bn": "রাফি এত উদাসীন না হলে সে পুরোপুরি সুস্থ হয়ে যেত।",
+     "pron_bn": "",
+     "text": "Were Rafi not so careless, he would have recovered fully."
+    },
+    {
+     "bn": "স্বাস্থ্যের ব্যাপারে রাফি এত উদাসীন না হলে সে পুরোপুরি সুস্থ হয়ে যেত।",
+     "pron_bn": "",
+     "text": "Were Rafi not so careless about his health, he would have recovered fully."
+    },
+    {
+     "bn": "স্বাস্থ্যের ব্যাপারে রাফি এত উদাসীন না হলে সে অপারেশনের পর পুরোপুরি সুস্থ হয়ে যেত।",
+     "pron_bn": "",
+     "text": "Were Rafi not so careless about his health, he would have recovered fully after the operation."
+    },
+    {
+     "bn": "স্বাস্থ্যের ব্যাপারে রাফি এত উদাসীন না হলে সে অপারেশনের পর এক মাসের মধ্যেই পুরোপুরি সুস্থ হয়ে যেত।",
+     "pron_bn": "",
+     "text": "Were Rafi not so careless about his health, he would have recovered fully within a month after the operation."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Had দিয়ে অতীত শর্ত আর now সহ বর্ণনা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু ঢাকায় একটা সফটওয়্যার কোম্পানি চালাতো।",
+     "pron_bn": "",
+     "text": "Mitu would be running a software company in Dhaka."
+    },
+    {
+     "bn": "মিতু তার অ্যাপটা চালু করলে সে ঢাকায় একটা সফটওয়্যার কোম্পানি চালাতো।",
+     "pron_bn": "",
+     "text": "Had Mitu launched her app, she would be running a software company in Dhaka."
+    },
+    {
+     "bn": "মিতু সময়মতো তার অ্যাপটা চালু করলে সে ঢাকায় একটা সফটওয়্যার কোম্পানি চালাতো।",
+     "pron_bn": "",
+     "text": "Had Mitu launched her app on time, she would be running a software company in Dhaka."
+    },
+    {
+     "bn": "মিতু সময়মতো অ্যাপটা চালু করলে সে ঢাকায় একটা সফল সফটওয়্যার কোম্পানি চালাতো।",
+     "pron_bn": "",
+     "text": "Had Mitu launched her app on time, she would be running a successful software company in Dhaka."
+    },
+    {
+     "bn": "মিতু সময়মতো অ্যাপটা চালু করলে সে এখন ঢাকায় একটা সফল সফটওয়্যার কোম্পানি চালাতো।",
+     "pron_bn": "",
+     "text": "Had Mitu launched her app on time, she would now be running a successful software company in Dhaka."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Were it not for দিয়ে কারণ আর জায়গা ও সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাস্তাগুলো ভীষণভাবে ডুবে যেত।",
+     "pron_bn": "",
+     "text": "The streets would have flooded badly."
+    },
+    {
+     "bn": "নতুন পানি নিষ্কাশন ব্যবস্থা না থাকলে রাস্তাগুলো ভীষণভাবে ডুবে যেত।",
+     "pron_bn": "",
+     "text": "Were it not for the new drainage system, the streets would have flooded badly."
+    },
+    {
+     "bn": "মিরপুরে নতুন পানি নিষ্কাশন ব্যবস্থা না থাকলে রাস্তাগুলো ভীষণভাবে ডুবে যেত।",
+     "pron_bn": "",
+     "text": "Were it not for the new drainage system in Mirpur, the streets would have flooded badly."
+    },
+    {
+     "bn": "মিরপুরে নতুন পানি নিষ্কাশন ব্যবস্থা না থাকলে গতকালের বৃষ্টির পর রাস্তাগুলো ভীষণভাবে ডুবে যেত।",
+     "pron_bn": "",
+     "text": "Were it not for the new drainage system in Mirpur, the streets would have flooded badly after yesterday's rain."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Had দিয়ে অতীত শর্ত আর now ও জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীরের একটা বড় দোকান থাকত।",
+     "pron_bn": "",
+     "text": "Tanvir would own a large shop."
+    },
+    {
+     "bn": "তানভীর তার জমানো টাকা খাটালে তার একটা বড় দোকান থাকত।",
+     "pron_bn": "",
+     "text": "Had Tanvir invested his savings, he would own a large shop."
+    },
+    {
+     "bn": "তানভীর তার জমানো টাকা বুদ্ধি করে খাটালে তার একটা বড় দোকান থাকত।",
+     "pron_bn": "",
+     "text": "Had Tanvir invested his savings wisely, he would own a large shop."
+    },
+    {
+     "bn": "তানভীর তার জমানো টাকা বুদ্ধি করে খাটালে তার এখন একটা বড় দোকান থাকত।",
+     "pron_bn": "",
+     "text": "Had Tanvir invested his savings wisely, he would now own a large shop."
+    },
+    {
+     "bn": "তানভীর তার জমানো টাকা বুদ্ধি করে খাটালে নিউ মার্কেটে তার এখন একটা বড় দোকান থাকত।",
+     "pron_bn": "",
+     "text": "Had Tanvir invested his savings wisely, he would now own a large shop in New Market."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Had not দিয়ে নেতিবাচক শর্ত আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা গ্রামে ধান কাটতাম।",
+     "pron_bn": "",
+     "text": "We would be harvesting rice in the village."
+    },
+    {
+     "bn": "বৃষ্টিতে জমিটা নষ্ট না হলে আমরা গ্রামে ধান কাটতাম।",
+     "pron_bn": "",
+     "text": "Had the rain not damaged the field, we would be harvesting rice in the village."
+    },
+    {
+     "bn": "ভারী বৃষ্টিতে জমিটা নষ্ট না হলে আমরা গ্রামে ধান কাটতাম।",
+     "pron_bn": "",
+     "text": "Had the heavy rain not damaged the field, we would be harvesting rice in the village."
+    },
+    {
+     "bn": "গত মাসে ভারী বৃষ্টিতে জমিটা নষ্ট না হলে আমরা গ্রামে ধান কাটতাম।",
+     "pron_bn": "",
+     "text": "Had the heavy rain not damaged the field last month, we would be harvesting rice in the village."
+    },
+    {
+     "bn": "গত মাসে ভারী বৃষ্টিতে জমিটা নষ্ট না হলে আমরা এখন গ্রামে ধান কাটতাম।",
+     "pron_bn": "",
+     "text": "Had the heavy rain not damaged the field last month, we would now be harvesting rice in the village."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Should দিয়ে ভদ্র শর্ত আর সাহায্যের উৎস যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া বাড়তি সাহায্য পাবে।",
+     "pron_bn": "",
+     "text": "Nadia will get extra support."
+    },
+    {
+     "bn": "নাদিয়ার থিসিসে সাহায্য দরকার হলে সে বাড়তি সাহায্য পাবে।",
+     "pron_bn": "",
+     "text": "Should Nadia need help with her thesis, she will get extra support."
+    },
+    {
+     "bn": "এই সেমিস্টারে নাদিয়ার থিসিসে সাহায্য দরকার হলে সে বাড়তি সাহায্য পাবে।",
+     "pron_bn": "",
+     "text": "Should Nadia need help with her thesis this semester, she will get extra support."
+    },
+    {
+     "bn": "এই সেমিস্টারে নাদিয়ার থিসিসে সাহায্য দরকার হলে সে সুপারভাইজারের কাছ থেকে বাড়তি সাহায্য পাবে।",
+     "pron_bn": "",
+     "text": "Should Nadia need help with her thesis this semester, she will get extra support from her supervisor."
+    },
+    {
+     "bn": "এই সেমিস্টারে নাদিয়ার থিসিসে সাহায্য দরকার হলে সে সুপারভাইজারের কাছ থেকে সাথে সাথেই বাড়তি সাহায্য পাবে।",
+     "pron_bn": "",
+     "text": "Should Nadia need help with her thesis this semester, she will immediately get extra support from her supervisor."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "তুমি এই অধ্যায়ে Had, Were আর Should দিয়ে উল্টানো শর্ত বানানো শিখবে। এগুলো দিয়ে তুমি অতীত আর বর্তমানকে একসাথে জুড়ে ভদ্রভাবে কথা বলতে পারবে।",
+ "tip_bn": "তুমি if বাদ দিয়ে Had, Were বা Should বাক্যের শুরুতে বসাও। খেয়াল রাখো, Had এর পরে past perfect আর ফলাফলে would দিয়ে সঠিক সময় বোঝাতে হবে।",
+ "title": "Mixed Conditionals with Formal Inversion"
+}

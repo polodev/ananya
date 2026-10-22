@@ -126,6 +126,146 @@
    "bn": "আপনি কী করেছেন?",
    "pron_bn": "ভাস হাবেন জি গেমাখ্ট?",
    "text": "Was haben Sie gemacht?"
+  },
+  {
+   "text": "Wie war dein Wochenende?",
+   "pron_bn": "ভি ভা ডাইন ভখেনএন্ডে?",
+   "bn": "তোমার উইকএন্ড কেমন ছিল?"
+  },
+  {
+   "text": "Mein Wochenende war sehr schön.",
+   "pron_bn": "মাইন ভখেনএন্ডে ভা জেয়া শ্যোন।",
+   "bn": "আমার উইকএন্ড খুব ভালো ছিল।"
+  },
+  {
+   "text": "Was hast du am Samstag gemacht?",
+   "pron_bn": "ভাস হাস্ট ডু আম জামস্টাক গেমাখ্ট?",
+   "bn": "শনিবারে তুমি কী করেছিলে?"
+  },
+  {
+   "text": "Ich habe Mitu besucht.",
+   "pron_bn": "ইশ হাবে মিটু বেজুখ্ট।",
+   "bn": "আমি মিতুর সঙ্গে দেখা করেছি।"
+  },
+  {
+   "text": "Wir haben zusammen Tee getrunken.",
+   "pron_bn": "ভিয়া হাবেন ৎসুজামেন টে গেট্রুংকেন।",
+   "bn": "আমরা একসঙ্গে চা খেয়েছি।"
+  },
+  {
+   "text": "Bist du zu Hause geblieben?",
+   "pron_bn": "বিস্ট ডু ৎসু হাউজে গেব্লিবেন?",
+   "bn": "তুমি কি বাসায় ছিলে?"
+  },
+  {
+   "text": "Nein, ich bin spazieren gegangen.",
+   "pron_bn": "নাইন, ইশ বিন শ্পাৎসিরেন গেগাঙেন।",
+   "bn": "না, আমি হাঁটতে বেরিয়েছিলাম।"
+  },
+  {
+   "text": "Ich bin mit Rafi spazieren gegangen.",
+   "pron_bn": "ইশ বিন মিট রাফি শ্পাৎসিরেন গেগাঙেন।",
+   "bn": "আমি রাফির সঙ্গে হাঁটতে বেরিয়েছিলাম।"
+  },
+  {
+   "text": "Hast du gut geschlafen?",
+   "pron_bn": "হাস্ট ডু গুট গেশলাফেন?",
+   "bn": "তুমি কি ভালো ঘুমিয়েছ?"
+  },
+  {
+   "text": "Ja, ich habe sehr gut geschlafen.",
+   "pron_bn": "ইয়া, ইশ হাবে জেয়া গুট গেশলাফেন।",
+   "bn": "হ্যাঁ, আমি খুব ভালো ঘুমিয়েছি।"
+  },
+  {
+   "text": "Hast du Tanvir gesehen?",
+   "pron_bn": "হাস্ট ডু টানফিয়া গেজেয়েন?",
+   "bn": "তুমি কি তানভীরকে দেখেছ?"
+  },
+  {
+   "text": "Ja, wir haben zusammen gespielt.",
+   "pron_bn": "ইয়া, ভিয়া হাবেন ৎসুজামেন গেশ্পিল্ট।",
+   "bn": "হ্যাঁ, আমরা একসঙ্গে খেলেছি।"
+  },
+  {
+   "text": "Was hast du gegessen?",
+   "pron_bn": "ভাস হাস্ট ডু গেগেসেন?",
+   "bn": "তুমি কী খেয়েছ?"
+  },
+  {
+   "text": "Ich habe Reis und Gemüse gegessen.",
+   "pron_bn": "ইশ হাবে রাইস উন্ট গেম্যুজে গেগেসেন।",
+   "bn": "আমি ভাত আর সবজি খেয়েছি।"
+  },
+  {
+   "text": "Hast du Kaffee getrunken?",
+   "pron_bn": "হাস্ট ডু কাফে গেট্রুংকেন?",
+   "bn": "তুমি কি কফি খেয়েছ?"
+  },
+  {
+   "text": "Nein, ich habe Milch getrunken.",
+   "pron_bn": "নাইন, ইশ হাবে মিলশ গেট্রুংকেন।",
+   "bn": "না, আমি দুধ খেয়েছি।"
+  },
+  {
+   "text": "Ich habe ein Buch gelesen.",
+   "pron_bn": "ইশ হাবে আইন বুখ গেলেজেন।",
+   "bn": "আমি একটা বই পড়েছি।"
+  },
+  {
+   "text": "Bitte erzähl von deinem Wochenende.",
+   "pron_bn": "বিটে এরৎসেল ফন ডাইনেম ভখেনএন্ডে।",
+   "bn": "তোমার উইকএন্ডের কথা একটু বলো তো।"
+  },
+  {
+   "text": "Ich habe meine Mutter angerufen.",
+   "pron_bn": "ইশ হাবে মাইনে মুটা আনগেরুফেন।",
+   "bn": "আমি মাকে ফোন করেছিলাম।"
+  },
+  {
+   "text": "Bist du mit dem Bus gefahren?",
+   "pron_bn": "বিস্ট ডু মিট ডেম বুস গেফারেন?",
+   "bn": "তুমি কি বাসে গিয়েছিলে?"
+  },
+  {
+   "text": "Ja, ich bin in die Stadt gefahren.",
+   "pron_bn": "ইয়া, ইশ বিন ইন ডি শ্টাট গেফারেন।",
+   "bn": "হ্যাঁ, আমি শহরে গিয়েছিলাম।"
+  },
+  {
+   "text": "Ich habe Brot und Käse gekauft.",
+   "pron_bn": "ইশ হাবে ব্রোট উন্ট কেজে গেকাউফ্ট।",
+   "bn": "আমি পাউরুটি আর চিজ কিনেছি।"
+  },
+  {
+   "text": "Wie war das Wetter am Sonntag?",
+   "pron_bn": "ভি ভা ডাস ভেটা আম জন্টাক?",
+   "bn": "রোববার আবহাওয়া কেমন ছিল?"
+  },
+  {
+   "text": "Erzählen Sie bitte von Samstag.",
+   "pron_bn": "এরৎসেলেন জি বিটে ফন জামস্টাক।",
+   "bn": "আপনার শনিবারের কথা একটু বলুন।"
+  },
+  {
+   "text": "Bist du am Sonntag zu Hause geblieben?",
+   "pron_bn": "বিস্ট ডু আম জন্টাক ৎসু হাউজে গেব্লিবেন?",
+   "bn": "রোববার তুমি কি বাসায় ছিলে?"
+  },
+  {
+   "text": "Wir sind am Abend spazieren gegangen.",
+   "pron_bn": "ভিয়া জিন্ট আম আবেন্ট শ্পাৎসিরেন গেগাঙেন।",
+   "bn": "আমরা সন্ধ্যায় হাঁটতে বেরিয়েছিলাম।"
+  },
+  {
+   "text": "Haben Sie ein schönes Wochenende gehabt?",
+   "pron_bn": "হাবেন জি আইন শ্যোনেস ভখেনএন্ডে গেহাপ্ট?",
+   "bn": "আপনার উইকএন্ড কি ভালো কেটেছে?"
+  },
+  {
+   "text": "Bring bitte deine Fotos mit.",
+   "pron_bn": "ব্রিং বিটে ডাইনে ফোটোস মিট।",
+   "bn": "তোমার ছবিগুলো নিয়ে এসো তো।"
   }
  ],
  "reading": [

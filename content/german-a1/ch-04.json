@@ -126,6 +126,146 @@
    "bn": "শুভ সন্ধ্যা, আমি তানভীর।",
    "pron_bn": "গুটেন আবেন্ট, ইশ বিন তানভীর।",
    "text": "Guten Abend, ich bin Tanvir."
+  },
+  {
+   "text": "Guten Tag, ich heiße Anna.",
+   "pron_bn": "গুটেন টাক, ইশ হাইসে আনা।",
+   "bn": "শুভ দিন, আমি আনা।"
+  },
+  {
+   "text": "Hallo, ich bin Tanvir.",
+   "pron_bn": "হালো, ইশ বিন টানফিয়া।",
+   "bn": "হ্যালো, আমি তানভীর।"
+  },
+  {
+   "text": "Wie geht es dir heute?",
+   "pron_bn": "ভি গেইট এস ডিয়া হয়টে?",
+   "bn": "তুমি আজ কেমন আছো?"
+  },
+  {
+   "text": "Mir geht es super, danke.",
+   "pron_bn": "মিয়া গেইট এস জুপা, ডাংকে।",
+   "bn": "আমি খুব ভালো আছি, ধন্যবাদ।"
+  },
+  {
+   "text": "Ich bin Mitu, wer bist du?",
+   "pron_bn": "ইশ বিন মিটু, ভেয়া বিস্ট ডু?",
+   "bn": "আমি মিতু, তুমি কে?"
+  },
+  {
+   "text": "Ich heiße Nadia, freut mich.",
+   "pron_bn": "ইশ হাইসে নাডিয়া, ফ্রয়ট মিশ।",
+   "bn": "আমার নাম নাদিয়া, পরিচিত হয়ে ভালো লাগলো।"
+  },
+  {
+   "text": "Wie heißt du, bitte?",
+   "pron_bn": "ভি হাইস্ট ডু, বিটে?",
+   "bn": "তোমার নাম কী, বলো তো?"
+  },
+  {
+   "text": "Wer ist das, bitte?",
+   "pron_bn": "ভেয়া ইস্ট ডাস, বিটে?",
+   "bn": "উনি কে, একটু বলো তো?"
+  },
+  {
+   "text": "Guten Morgen, ich bin Lukas.",
+   "pron_bn": "গুটেন মরগেন, ইশ বিন লুকাস।",
+   "bn": "শুভ সকাল, আমি লুকাস।"
+  },
+  {
+   "text": "Guten Abend, wie geht es dir?",
+   "pron_bn": "গুটেন আবেন্ট, ভি গেইট এস ডিয়া?",
+   "bn": "শুভ সন্ধ্যা, তুমি কেমন আছো?"
+  },
+  {
+   "text": "Ich bin okay, und du?",
+   "pron_bn": "ইশ বিন ওকে, উন্ট ডু?",
+   "bn": "আমি ঠিক আছি, আর তুমি?"
+  },
+  {
+   "text": "Sind Sie Frau Weber?",
+   "pron_bn": "জিন্ট জি ফ্রাউ ভেবা?",
+   "bn": "আপনি কি মিসেস ওয়েবার?"
+  },
+  {
+   "text": "Ja, ich bin Frau Weber.",
+   "pron_bn": "ইয়া, ইশ বিন ফ্রাউ ভেবা।",
+   "bn": "জি, আমি মিসেস ওয়েবার।"
+  },
+  {
+   "text": "Wie geht es Ihnen heute?",
+   "pron_bn": "ভি গেইট এস ইনেন হয়টে?",
+   "bn": "আপনি আজ কেমন আছেন?"
+  },
+  {
+   "text": "Mir geht es auch gut.",
+   "pron_bn": "মিয়া গেইট এস আউখ গুট।",
+   "bn": "আমিও ভালো আছি।"
+  },
+  {
+   "text": "Hallo Anna, wie geht es dir?",
+   "pron_bn": "হালো আনা, ভি গেইট এস ডিয়া?",
+   "bn": "হ্যালো আনা, তুমি কেমন আছো?"
+  },
+  {
+   "text": "Wer seid ihr denn?",
+   "pron_bn": "ভেয়া জাইট ইয়া ডেন?",
+   "bn": "তোমরা কারা?"
+  },
+  {
+   "text": "Wir sind Nadia und Rafi.",
+   "pron_bn": "ভিয়া জিন্ট নাডিয়া উন্ট রাফি।",
+   "bn": "আমরা নাদিয়া আর রাফি।"
+  },
+  {
+   "text": "Bist du Mitu oder Nadia?",
+   "pron_bn": "বিস্ট ডু মিটু ওডা নাডিয়া?",
+   "bn": "তুমি কি মিতু না নাদিয়া?"
+  },
+  {
+   "text": "Ich bin nicht Mitu, ich bin Nadia.",
+   "pron_bn": "ইশ বিন নিশ্ট মিটু, ইশ বিন নাডিয়া।",
+   "bn": "আমি মিতু না, আমি নাদিয়া।"
+  },
+  {
+   "text": "Wie geht es euch heute?",
+   "pron_bn": "ভি গেইট এস অয়শ হয়টে?",
+   "bn": "তোমরা আজ কেমন আছো?"
+  },
+  {
+   "text": "Uns geht es sehr gut.",
+   "pron_bn": "উন্স গেইট এস জেয়া গুট।",
+   "bn": "আমরা খুব ভালো আছি।"
+  },
+  {
+   "text": "Entschuldigung, wie heißen Sie bitte?",
+   "pron_bn": "এন্টশুলডিগুং, ভি হাইসেন জি বিটে?",
+   "bn": "মাফ করবেন, আপনার নামটা কী?"
+  },
+  {
+   "text": "Freut mich, ich heiße Lukas.",
+   "pron_bn": "ফ্রয়ট মিশ, ইশ হাইসে লুকাস।",
+   "bn": "পরিচিত হয়ে ভালো লাগলো, আমার নাম লুকাস।"
+  },
+  {
+   "text": "Hallo, bist du Rafi?",
+   "pron_bn": "হালো, বিস্ট ডু রাফি?",
+   "bn": "হ্যালো, তুমি কি রাফি?"
+  },
+  {
+   "text": "Ja, ich heiße Rafi.",
+   "pron_bn": "ইয়া, ইশ হাইসে রাফি।",
+   "bn": "হ্যাঁ, আমার নাম রাফি।"
+  },
+  {
+   "text": "Gute Nacht, bis morgen früh.",
+   "pron_bn": "গুটে নাখ্ট, বিস মরগেন ফ্র্যু।",
+   "bn": "শুভ রাত্রি, কাল সকালে দেখা হবে।"
+  },
+  {
+   "text": "Tschüss, mach es gut!",
+   "pron_bn": "চ্যুস, মাখ এস গুট!",
+   "bn": "বিদায়, ভালো থেকো!"
   }
  ],
  "reading": [

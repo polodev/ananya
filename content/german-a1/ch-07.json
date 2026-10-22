@@ -126,6 +126,146 @@
    "bn": "বিলটা দিন, দয়া করে।",
    "pron_bn": "ডি রেশনুং, বিটে।",
    "text": "Die Rechnung, bitte."
+  },
+  {
+   "text": "Möchten Sie einen Tee?",
+   "pron_bn": "ম্যোশটেন জি আইনেন টে?",
+   "bn": "আপনি কি চা খাবেন?"
+  },
+  {
+   "text": "Ja, ich möchte einen Tee.",
+   "pron_bn": "ইয়া, ইশ ম্যোশটে আইনেন টে।",
+   "bn": "হ্যাঁ, আমি চা খাব।"
+  },
+  {
+   "text": "Möchtest du einen Kaffee?",
+   "pron_bn": "ম্যোশটেস্ট ডু আইনেন কাফে?",
+   "bn": "তুমি কি কফি খাবে?"
+  },
+  {
+   "text": "Nein, ich möchte einen Saft.",
+   "pron_bn": "নাইন, ইশ ম্যোশটে আইনেন জাফ্ট।",
+   "bn": "না, আমি জুস খাব।"
+  },
+  {
+   "text": "Ist der Fisch frisch?",
+   "pron_bn": "ইস্ট ডা ফিশ ফ্রিশ?",
+   "bn": "মাছটা কি টাটকা?"
+  },
+  {
+   "text": "Ja, der Fisch ist sehr frisch.",
+   "pron_bn": "ইয়া, ডা ফিশ ইস্ট জেয়া ফ্রিশ।",
+   "bn": "হ্যাঁ, মাছটা খুব টাটকা।"
+  },
+  {
+   "text": "Ist das Brot frisch?",
+   "pron_bn": "ইস্ট ডাস ব্রোট ফ্রিশ?",
+   "bn": "পাউরুটিটা কি টাটকা?"
+  },
+  {
+   "text": "Ja, das Brot ist sehr frisch.",
+   "pron_bn": "ইয়া, ডাস ব্রোট ইস্ট জেয়া ফ্রিশ।",
+   "bn": "হ্যাঁ, পাউরুটিটা খুব টাটকা।"
+  },
+  {
+   "text": "Ich möchte ein Wasser, bitte.",
+   "pron_bn": "ইশ ম্যোশটে আইন ভাসা, বিটে।",
+   "bn": "আমাকে একটা পানি দিন, প্লিজ।"
+  },
+  {
+   "text": "Ich möchte das Hähnchen, bitte.",
+   "pron_bn": "ইশ ম্যোশটে ডাস হেনশেন, বিটে।",
+   "bn": "আমাকে মুরগিটা দিন, প্লিজ।"
+  },
+  {
+   "text": "Ich möchte den Fisch, bitte.",
+   "pron_bn": "ইশ ম্যোশটে ডেন ফিশ, বিটে।",
+   "bn": "আমাকে মাছটা দিন, প্লিজ।"
+  },
+  {
+   "text": "Ich möchte das Brot, bitte.",
+   "pron_bn": "ইশ ম্যোশটে ডাস ব্রোট, বিটে।",
+   "bn": "আমাকে পাউরুটিটা দিন, প্লিজ।"
+  },
+  {
+   "text": "Was möchte Anna trinken?",
+   "pron_bn": "ভাস ম্যোশটে আনা ট্রিংকেন?",
+   "bn": "আন্না কী খাবে?"
+  },
+  {
+   "text": "Anna möchte einen Tee.",
+   "pron_bn": "আনা ম্যোশটে আইনেন টে।",
+   "bn": "আন্না চা খাবে।"
+  },
+  {
+   "text": "Was möchte Rafi essen?",
+   "pron_bn": "ভাস ম্যোশটে রাফি এসেন?",
+   "bn": "রাফি কী খাবে?"
+  },
+  {
+   "text": "Er möchte den Reis.",
+   "pron_bn": "এয়া ম্যোশটে ডেন রাইস।",
+   "bn": "সে ভাতটা খাবে।"
+  },
+  {
+   "text": "Der Kaffee ist sehr heiß.",
+   "pron_bn": "ডা কাফে ইস্ট জেয়া হাইস।",
+   "bn": "কফিটা খুব গরম।"
+  },
+  {
+   "text": "Der Tee ist sehr heiß.",
+   "pron_bn": "ডা টে ইস্ট জেয়া হাইস।",
+   "bn": "চাটা খুব গরম।"
+  },
+  {
+   "text": "Das Wasser ist kalt.",
+   "pron_bn": "ডাস ভাসা ইস্ট কাল্ট।",
+   "bn": "পানিটা ঠান্ডা।"
+  },
+  {
+   "text": "Der Saft ist kalt.",
+   "pron_bn": "ডা জাফ্ট ইস্ট কাল্ট।",
+   "bn": "জুসটা ঠান্ডা।"
+  },
+  {
+   "text": "Möchten Sie noch einen Kaffee?",
+   "pron_bn": "ম্যোশটেন জি নখ আইনেন কাফে?",
+   "bn": "আপনি কি আরেকটা কফি খাবেন?"
+  },
+  {
+   "text": "Ja, noch einen Kaffee, bitte.",
+   "pron_bn": "ইয়া, নখ আইনেন কাফে, বিটে।",
+   "bn": "হ্যাঁ, আরেকটা কফি দিন, প্লিজ।"
+  },
+  {
+   "text": "Möchtest du noch ein Brot?",
+   "pron_bn": "ম্যোশটেস্ট ডু নখ আইন ব্রোট?",
+   "bn": "তুমি কি আরেকটা পাউরুটি খাবে?"
+  },
+  {
+   "text": "Ja, gern noch ein Brot.",
+   "pron_bn": "ইয়া, গের্ন নখ আইন ব্রোট।",
+   "bn": "হ্যাঁ, আমি আরেকটা পাউরুটি নেব।"
+  },
+  {
+   "text": "Ist der Reis gut?",
+   "pron_bn": "ইস্ট ডা রাইস গুট?",
+   "bn": "ভাতটা কি ভালো?"
+  },
+  {
+   "text": "Ja, der Reis ist gut.",
+   "pron_bn": "ইয়া, ডা রাইস ইস্ট গুট।",
+   "bn": "হ্যাঁ, ভাতটা ভালো।"
+  },
+  {
+   "text": "Ist das Hähnchen gut?",
+   "pron_bn": "ইস্ট ডাস হেনশেন গুট?",
+   "bn": "মুরগিটা কি ভালো?"
+  },
+  {
+   "text": "Ja, das Hähnchen ist sehr gut.",
+   "pron_bn": "ইয়া, ডাস হেনশেন ইস্ট জেয়া গুট।",
+   "bn": "হ্যাঁ, মুরগিটা খুব ভালো।"
   }
  ],
  "reading": [
