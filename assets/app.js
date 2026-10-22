@@ -69,6 +69,14 @@
     var t = e.target.closest('.bn, .pr'), b = document.body.classList;
     if (t && b.contains(t.classList.contains('pr') ? 'hide-pr' : 'hide-bn')) t.classList.toggle('peek');
   });
+  // ---- sentence builder: tap a step to open it (one open at a time; the data-say handler speaks it) ----
+  document.addEventListener('click', function (e) {
+    var st = e.target.closest('.bstep');
+    if (!st) return;
+    var was = st.classList.contains('open');
+    [].forEach.call(st.parentNode.querySelectorAll('.bstep.open'), function (x) { x.classList.remove('open'); });
+    if (!was) st.classList.add('open');
+  });
   // ---- reveal cards ----
   document.addEventListener('click', function (e) {
     var c = e.target.closest('.rcard');
@@ -99,6 +107,7 @@
           var right = k === q.a;
           b.classList.add(right ? 'ok' : 'bad');
           if (!right) el.querySelectorAll('.opt')[q.a].classList.add('ok');
+          [].forEach.call(el.querySelectorAll('.opt'), function (x) { if (!x.classList.contains('ok') && !x.classList.contains('bad')) x.classList.add('gone'); });
           if (right) score++; else wrong.push(q);
           var why = el.querySelector('.why');
           why.innerHTML = (right ? '🎉 ঠিক!' : '❌ ভুল।') + (q.why ? ' ' + esc(q.why) : '') + '<div style="margin-top:10px"><button class="btn">' + (i + 1 < qs.length ? 'পরের প্রশ্ন →' : 'ফলাফল দেখো') + '</button></div>';

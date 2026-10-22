@@ -126,6 +126,146 @@
    "bn": "তোমার সুন্দর সাহায্যের জন্য ধন্যবাদ!",
    "pron_bn": "থ্যাংক ইউ ফর ইয়োর কাইন্ড হেল্প!",
    "text": "Thank you for your kind help!"
+  },
+  {
+   "text": "Excuse me, where is the nearest bus stop?",
+   "pron_bn": "এক্সকিউজ মি, হোয়্যার ইজ দ্য নিয়ারেস্ট বাস স্টপ?",
+   "bn": "মাফ করবেন, কাছের বাস স্টপটা কোথায়?"
+  },
+  {
+   "text": "Could you please show me the way?",
+   "pron_bn": "কুড ইউ প্লিজ শো মি দ্য ওয়ে?",
+   "bn": "আপনি কি দয়া করে আমাকে রাস্তাটা দেখিয়ে দেবেন?"
+  },
+  {
+   "text": "Walk straight and stop at the corner.",
+   "pron_bn": "ওয়াক স্ট্রেইট অ্যান্ড স্টপ অ্যাট দ্য কর্নার।",
+   "bn": "সোজা হেঁটে মোড়ে গিয়ে থামুন।"
+  },
+  {
+   "text": "Turn left after the big traffic light.",
+   "pron_bn": "টার্ন লেফট আফটার দ্য বিগ ট্রাফিক লাইট।",
+   "bn": "বড় ট্রাফিক লাইটের পর বাঁয়ে ঘুরুন।"
+  },
+  {
+   "text": "The ticket counter is opposite the gate.",
+   "pron_bn": "দ্য টিকিট কাউন্টার ইজ অপোজিট দ্য গেইট।",
+   "bn": "টিকিট কাউন্টারটা গেটের উল্টো দিকে।"
+  },
+  {
+   "text": "My house is next to the bus stop.",
+   "pron_bn": "মাই হাউস ইজ নেক্সট টু দ্য বাস স্টপ।",
+   "bn": "আমার বাসাটা বাস স্টপের পাশেই।"
+  },
+  {
+   "text": "The shop is between two tall buildings.",
+   "pron_bn": "দ্য শপ ইজ বিটুইন টু টল বিল্ডিংস।",
+   "bn": "দোকানটা দুটো উঁচু ভবনের মাঝখানে।"
+  },
+  {
+   "text": "Please call a rickshaw for me.",
+   "pron_bn": "প্লিজ কল আ রিকশা ফর মি।",
+   "bn": "দয়া করে আমার জন্য একটা রিকশা ডাকুন।"
+  },
+  {
+   "text": "How long does it take by bus?",
+   "pron_bn": "হাউ লং ডাজ ইট টেইক বাই বাস?",
+   "bn": "বাসে যেতে কতক্ষণ লাগে?"
+  },
+  {
+   "text": "Get off at the next bus stop.",
+   "pron_bn": "গেট অফ অ্যাট দ্য নেক্সট বাস স্টপ।",
+   "bn": "পরের বাস স্টপে নেমে যান।"
+  },
+  {
+   "text": "Cross the road and turn right now.",
+   "pron_bn": "ক্রস দ্য রোড অ্যান্ড টার্ন রাইট নাউ।",
+   "bn": "রাস্তা পার হয়ে এখনই ডানে ঘুরুন।"
+  },
+  {
+   "text": "Is the station far from the market?",
+   "pron_bn": "ইজ দ্য স্টেইশন ফার ফ্রম দ্য মার্কেট?",
+   "bn": "স্টেশনটা কি বাজার থেকে দূরে?"
+  },
+  {
+   "text": "No, it is only five minutes away.",
+   "pron_bn": "নো, ইট ইজ ওনলি ফাইভ মিনিটস অ্যাওয়ে।",
+   "bn": "না, এখান থেকে মাত্র পাঁচ মিনিটের পথ।"
+  },
+  {
+   "text": "Please wait here for five minutes.",
+   "pron_bn": "প্লিজ ওয়েইট হিয়ার ফর ফাইভ মিনিটস।",
+   "bn": "দয়া করে এখানে পাঁচ মিনিট অপেক্ষা করুন।"
+  },
+  {
+   "text": "Rafi, walk with me to the station.",
+   "pron_bn": "রাফি, ওয়াক উইথ মি টু দ্য স্টেইশন।",
+   "bn": "রাফি, আমার সাথে স্টেশন পর্যন্ত হেঁটে চলো।"
+  },
+  {
+   "text": "Mitu, sit next to me on the bus.",
+   "pron_bn": "মিতু, সিট নেক্সট টু মি অন দ্য বাস।",
+   "bn": "মিতু, বাসে আমার পাশে বসো।"
+  },
+  {
+   "text": "Which bus goes to the new market?",
+   "pron_bn": "হুইচ বাস গোজ টু দ্য নিউ মার্কেট?",
+   "bn": "কোন বাসটা নতুন বাজারে যায়?"
+  },
+  {
+   "text": "Take bus number ten from this stop.",
+   "pron_bn": "টেইক বাস নাম্বার টেন ফ্রম দিস স্টপ।",
+   "bn": "এই স্টপ থেকে দশ নম্বর বাসে উঠুন।"
+  },
+  {
+   "text": "The waiting room is between two shops.",
+   "pron_bn": "দ্য ওয়েইটিং রুম ইজ বিটুইন টু শপস।",
+   "bn": "অপেক্ষার ঘরটা দুই দোকানের মাঝখানে।"
+  },
+  {
+   "text": "Stand opposite the school and wait there.",
+   "pron_bn": "স্ট্যান্ড অপোজিট দ্য স্কুল অ্যান্ড ওয়েইট দেয়ার।",
+   "bn": "স্কুলের উল্টো দিকে দাঁড়িয়ে অপেক্ষা করুন।"
+  },
+  {
+   "text": "Can I walk there in ten minutes?",
+   "pron_bn": "ক্যান আই ওয়াক দেয়ার ইন টেন মিনিটস?",
+   "bn": "আমি কি দশ মিনিটে হেঁটে সেখানে যেতে পারব?"
+  },
+  {
+   "text": "Sorry, I do not know this area well.",
+   "pron_bn": "সরি, আই ডু নট নো দিস এরিয়া ওয়েল।",
+   "bn": "দুঃখিত, আমি এই এলাকাটা ভালো চিনি না।"
+  },
+  {
+   "text": "Please tell the driver to stop here.",
+   "pron_bn": "প্লিজ টেল দ্য ড্রাইভার টু স্টপ হিয়ার।",
+   "bn": "দয়া করে চালককে এখানে থামতে বলুন।"
+  },
+  {
+   "text": "Tanvir, get on the bus with Nadia.",
+   "pron_bn": "তানভীর, গেট অন দ্য বাস উইথ নাদিয়া।",
+   "bn": "তানভীর, নাদিয়ার সাথে বাসে ওঠো।"
+  },
+  {
+   "text": "Where do I change buses in town?",
+   "pron_bn": "হোয়্যার ডু আই চেইঞ্জ বাসেস ইন টাউন?",
+   "bn": "শহরের কোথায় আমাকে বাস বদলাতে হবে?"
+  },
+  {
+   "text": "Change buses next to the big library.",
+   "pron_bn": "চেইঞ্জ বাসেস নেক্সট টু দ্য বিগ লাইব্রেরি।",
+   "bn": "বড় লাইব্রেরির পাশে গিয়ে বাস বদলান।"
+  },
+  {
+   "text": "Follow me, the train platform is near.",
+   "pron_bn": "ফলো মি, দ্য ট্রেইন প্ল্যাটফর্ম ইজ নিয়ার।",
+   "bn": "আমার সাথে আসুন, ট্রেনের প্ল্যাটফর্মটা কাছেই।"
+  },
+  {
+   "text": "Thank you, now I can find it.",
+   "pron_bn": "থ্যাংক ইউ, নাউ আই ক্যান ফাইন্ড ইট।",
+   "bn": "ধন্যবাদ, এখন আমি জায়গাটা খুঁজে পাব।"
   }
  ],
  "reading": [

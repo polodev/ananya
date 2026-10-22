@@ -126,6 +126,146 @@
    "bn": "আমি সাধারণত এগারোটার আগে ঘুমাই।",
    "pron_bn": "আই ইউজুয়ালি স্লিপ বিফোর ইলেভেন ও'ক্লক।",
    "text": "I usually sleep before eleven o'clock."
+  },
+  {
+   "text": "What time do you usually wake up?",
+   "pron_bn": "হোয়াট টাইম ডু ইউ ইউজুয়ালি ওয়েক আপ?",
+   "bn": "তুমি সাধারণত কয়টায় ঘুম থেকে ওঠো?"
+  },
+  {
+   "text": "I usually get up at half past six.",
+   "pron_bn": "আই ইউজুয়ালি গেট আপ অ্যাট হাফ পাস্ট সিক্স",
+   "bn": "আমি সাধারণত সাড়ে ছয়টায় ঘুম থেকে উঠি।"
+  },
+  {
+   "text": "Do you always have breakfast at home?",
+   "pron_bn": "ডু ইউ অলওয়েজ হ্যাভ ব্রেকফাস্ট অ্যাট হোম?",
+   "bn": "তুমি কি সবসময় বাসায় নাশতা করো?"
+  },
+  {
+   "text": "I sometimes eat bread and eggs for breakfast.",
+   "pron_bn": "আই সামটাইমস ইট ব্রেড অ্যান্ড এগস ফর ব্রেকফাস্ট",
+   "bn": "আমি মাঝে মাঝে নাশতায় পাউরুটি আর ডিম খাই।"
+  },
+  {
+   "text": "What do you usually eat for lunch?",
+   "pron_bn": "হোয়াট ডু ইউ ইউজুয়ালি ইট ফর লাঞ্চ?",
+   "bn": "দুপুরে তুমি সাধারণত কী খাও?"
+  },
+  {
+   "text": "I always take a short break at noon.",
+   "pron_bn": "আই অলওয়েজ টেক আ শর্ট ব্রেক অ্যাট নুন",
+   "bn": "আমি দুপুরে সবসময় একটু বিরতি নিই।"
+  },
+  {
+   "text": "How do you usually go to work?",
+   "pron_bn": "হাউ ডু ইউ ইউজুয়ালি গো টু ওয়ার্ক?",
+   "bn": "তুমি সাধারণত কাজে কীভাবে যাও?"
+  },
+  {
+   "text": "I never go to work by rickshaw.",
+   "pron_bn": "আই নেভার গো টু ওয়ার্ক বাই রিকশা",
+   "bn": "আমি কখনো রিকশায় করে কাজে যাই না।"
+  },
+  {
+   "text": "Rafi usually starts work at nine o'clock.",
+   "pron_bn": "রাফি ইউজুয়ালি স্টার্টস ওয়ার্ক অ্যাট নাইন ও'ক্লক",
+   "bn": "রাফি সাধারণত নয়টায় কাজ শুরু করে।"
+  },
+  {
+   "text": "Mitu always checks her email in the morning.",
+   "pron_bn": "মিতু অলওয়েজ চেকস হার ইমেইল ইন দা মর্নিং",
+   "bn": "মিতু সকালে সবসময় তার ইমেইল দেখে।"
+  },
+  {
+   "text": "Do you sometimes work late in the evening?",
+   "pron_bn": "ডু ইউ সামটাইমস ওয়ার্ক লেট ইন দি ইভনিং?",
+   "bn": "তুমি কি মাঝে মাঝে সন্ধ্যায় দেরি করে কাজ করো?"
+  },
+  {
+   "text": "I never watch TV during work time.",
+   "pron_bn": "আই নেভার ওয়াচ টিভি ডিউরিং ওয়ার্ক টাইম",
+   "bn": "কাজের সময় আমি কখনো টিভি দেখি না।"
+  },
+  {
+   "text": "Could you please make me a cup of tea?",
+   "pron_bn": "কুড ইউ প্লিজ মেক মি আ কাপ অফ টি?",
+   "bn": "দয়া করে আমাকে এক কাপ চা বানিয়ে দেবে?"
+  },
+  {
+   "text": "I usually have rice and vegetables for dinner.",
+   "pron_bn": "আই ইউজুয়ালি হ্যাভ রাইস অ্যান্ড ভেজিটেবলস ফর ডিনার",
+   "bn": "রাতে আমি সাধারণত ভাত আর সবজি খাই।"
+  },
+  {
+   "text": "What time do you usually have dinner?",
+   "pron_bn": "হোয়াট টাইম ডু ইউ ইউজুয়ালি হ্যাভ ডিনার?",
+   "bn": "তুমি সাধারণত কয়টায় রাতের খাবার খাও?"
+  },
+  {
+   "text": "We always eat dinner together at home.",
+   "pron_bn": "উই অলওয়েজ ইট ডিনার টুগেদার অ্যাট হোম",
+   "bn": "আমরা সবসময় বাসায় একসাথে রাতের খাবার খাই।"
+  },
+  {
+   "text": "Do you usually drink milk at night?",
+   "pron_bn": "ডু ইউ ইউজুয়ালি ড্রিংক মিল্ক অ্যাট নাইট?",
+   "bn": "তুমি কি সাধারণত রাতে দুধ খাও?"
+  },
+  {
+   "text": "I sometimes read a book before sleep.",
+   "pron_bn": "আই সামটাইমস রিড আ বুক বিফোর স্লিপ",
+   "bn": "আমি মাঝে মাঝে ঘুমানোর আগে বই পড়ি।"
+  },
+  {
+   "text": "Tanvir never sleeps after twelve o'clock.",
+   "pron_bn": "তানভীর নেভার স্লিপস আফটার টুয়েলভ ও'ক্লক",
+   "bn": "তানভীর কখনো বারোটার পরে ঘুমায় না।"
+  },
+  {
+   "text": "Nadia usually walks in the park after work.",
+   "pron_bn": "নাদিয়া ইউজুয়ালি ওয়াকস ইন দা পার্ক আফটার ওয়ার্ক",
+   "bn": "নাদিয়া কাজের পরে সাধারণত পার্কে হাঁটে।"
+  },
+  {
+   "text": "Please wake me up at six tomorrow.",
+   "pron_bn": "প্লিজ ওয়েক মি আপ অ্যাট সিক্স টুমরো",
+   "bn": "কাল সকালে ছয়টায় আমাকে জাগিয়ে দিও প্লিজ।"
+  },
+  {
+   "text": "I always wash my hands before lunch.",
+   "pron_bn": "আই অলওয়েজ ওয়াশ মাই হ্যান্ডস বিফোর লাঞ্চ",
+   "bn": "দুপুরের খাবারের আগে আমি সবসময় হাত ধুই।"
+  },
+  {
+   "text": "Do you usually rest after lunch?",
+   "pron_bn": "ডু ইউ ইউজুয়ালি রেস্ট আফটার লাঞ্চ?",
+   "bn": "তুমি কি সাধারণত দুপুরের খাবারের পর বিশ্রাম নাও?"
+  },
+  {
+   "text": "I sometimes take a short nap in the afternoon.",
+   "pron_bn": "আই সামটাইমস টেক আ শর্ট ন্যাপ ইন দি আফটারনুন",
+   "bn": "আমি মাঝে মাঝে দুপুরে একটু ঘুমিয়ে নিই।"
+  },
+  {
+   "text": "How often do you visit your parents?",
+   "pron_bn": "হাউ অফেন ডু ইউ ভিজিট ইয়োর প্যারেন্টস?",
+   "bn": "তুমি কতদিন পর পর বাবা-মার কাছে যাও?"
+  },
+  {
+   "text": "I usually talk to my family in the evening.",
+   "pron_bn": "আই ইউজুয়ালি টক টু মাই ফ্যামিলি ইন দি ইভনিং",
+   "bn": "আমি সাধারণত সন্ধ্যায় পরিবারের সাথে কথা বলি।"
+  },
+  {
+   "text": "We never have dinner outside on weekdays.",
+   "pron_bn": "উই নেভার হ্যাভ ডিনার আউটসাইড অন উইকডেজ",
+   "bn": "সপ্তাহের কাজের দিনগুলোতে আমরা কখনো বাইরে খাই না।"
+  },
+  {
+   "text": "What do you usually do after dinner?",
+   "pron_bn": "হোয়াট ডু ইউ ইউজুয়ালি ডু আফটার ডিনার?",
+   "bn": "রাতের খাবারের পর তুমি সাধারণত কী করো?"
   }
  ],
  "reading": [

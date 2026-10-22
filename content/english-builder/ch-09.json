@@ -1,0 +1,207 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি if দিয়ে বৃষ্টির শর্ত আর আগামীকাল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি বাড়িতে থাকব।",
+     "pron_bn": "আই উইল স্টে অ্যাট হোম।",
+     "text": "I will stay at home."
+    },
+    {
+     "bn": "বৃষ্টি হলে আমি বাড়িতে থাকব।",
+     "pron_bn": "আই উইল স্টে অ্যাট হোম ইফ ইট রেইনস।",
+     "text": "I will stay at home if it rains."
+    },
+    {
+     "bn": "আগামীকাল বৃষ্টি হলে আমি বাড়িতে থাকব।",
+     "pron_bn": "আই উইল স্টে অ্যাট হোম ইফ ইট রেইনস টুমরো।",
+     "text": "I will stay at home if it rains tomorrow."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি if দিয়ে কাজের শর্ত আর তাড়াতাড়ি যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি তোমাকে ফোন করবে।",
+     "pron_bn": "রাফি উইল কল ইউ।",
+     "text": "Rafi will call you."
+    },
+    {
+     "bn": "কাজ শেষ হলে রাফি তোমাকে ফোন করবে।",
+     "pron_bn": "রাফি উইল কল ইউ ইফ হি ফিনিশেস ওয়ার্ক।",
+     "text": "Rafi will call you if he finishes work."
+    },
+    {
+     "bn": "তাড়াতাড়ি কাজ শেষ হলে রাফি তোমাকে ফোন করবে।",
+     "pron_bn": "রাফি উইল কল ইউ ইফ হি ফিনিশেস ওয়ার্ক আর্লি।",
+     "text": "Rafi will call you if he finishes work early."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি if দিয়ে পড়ার শর্ত আর প্রতিরাত যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু পাস করবে।",
+     "pron_bn": "মিতু উইল পাস।",
+     "text": "Mitu will pass."
+    },
+    {
+     "bn": "পড়াশোনা করলে মিতু পাস করবে।",
+     "pron_bn": "মিতু উইল পাস ইফ শি স্টাডিজ।",
+     "text": "Mitu will pass if she studies."
+    },
+    {
+     "bn": "প্রতিদিন রাতে পড়লে মিতু পাস করবে।",
+     "pron_bn": "মিতু উইল পাস ইফ শি স্টাডিজ এভরি নাইট।",
+     "text": "Mitu will pass if she studies every night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি if দিয়ে ভালো আবহাওয়ার শর্ত আর আগামীকাল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা বাইরে খেলব।",
+     "pron_bn": "উই উইল প্লে আউটসাইড।",
+     "text": "We will play outside."
+    },
+    {
+     "bn": "আবহাওয়া ভালো থাকলে আমরা বাইরে খেলব।",
+     "pron_bn": "উই উইল প্লে আউটসাইড ইফ দা ওয়েদার ইজ গুড।",
+     "text": "We will play outside if the weather is good."
+    },
+    {
+     "bn": "আগামীকাল আবহাওয়া ভালো থাকলে আমরা বাইরে খেলব।",
+     "pron_bn": "উই উইল প্লে আউটসাইড ইফ দা ওয়েদার ইজ গুড টুমরো।",
+     "text": "We will play outside if the weather is good tomorrow."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি if দিয়ে টাকার শর্ত আর আগামীকাল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া একটি শার্ট কিনবে।",
+     "pron_bn": "নাদিয়া উইল বাই আ শার্ট।",
+     "text": "Nadia will buy a shirt."
+    },
+    {
+     "bn": "টাকা পেলে নাদিয়া একটি শার্ট কিনবে।",
+     "pron_bn": "নাদিয়া উইল বাই আ শার্ট ইফ শি গেটস মানি।",
+     "text": "Nadia will buy a shirt if she gets money."
+    },
+    {
+     "bn": "আগামীকাল টাকা পেলে নাদিয়া একটি শার্ট কিনবে।",
+     "pron_bn": "নাদিয়া উইল বাই আ শার্ট ইফ শি গেটস মানি টুমরো।",
+     "text": "Nadia will buy a shirt if she gets money tomorrow."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি would দিয়ে ইচ্ছা বলেছ, তারপর if দিয়ে সময়ের শর্ত যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি আমার গ্রামে যেতাম।",
+     "pron_bn": "আই উড ভিজিট মাই ভিলেজ।",
+     "text": "I would visit my village."
+    },
+    {
+     "bn": "সময় পেলে আমি আমার গ্রামে যেতাম।",
+     "pron_bn": "আই উড ভিজিট মাই ভিলেজ ইফ আই হ্যাড টাইম।",
+     "text": "I would visit my village if I had time."
+    },
+    {
+     "bn": "শুক্রবারে সময় পেলে আমি আমার গ্রামে যেতাম।",
+     "pron_bn": "আই উড ভিজিট মাই ভিলেজ ইফ আই হ্যাড টাইম অন ফ্রাইডে।",
+     "text": "I would visit my village if I had time on Friday."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি would দিয়ে ইচ্ছা বলেছ, তারপর if দিয়ে টাকার শর্ত যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি একটি ল্যাপটপ কিনত।",
+     "pron_bn": "রাফি উড বাই আ ল্যাপটপ।",
+     "text": "Rafi would buy a laptop."
+    },
+    {
+     "bn": "টাকা থাকলে রাফি একটি ল্যাপটপ কিনত।",
+     "pron_bn": "রাফি উড বাই আ ল্যাপটপ ইফ হি হ্যাড মানি।",
+     "text": "Rafi would buy a laptop if he had money."
+    },
+    {
+     "bn": "যথেষ্ট টাকা থাকলে রাফি একটি ল্যাপটপ কিনত।",
+     "pron_bn": "রাফি উড বাই আ ল্যাপটপ ইফ হি হ্যাড এনাফ মানি।",
+     "text": "Rafi would buy a laptop if he had enough money."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি would দিয়ে রান্নার কথা বলেছ, তারপর if দিয়ে অতিথির শর্ত যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু ভাত রাঁধত।",
+     "pron_bn": "মিতু উড কুক রাইস।",
+     "text": "Mitu would cook rice."
+    },
+    {
+     "bn": "অতিথি এলে মিতু ভাত রাঁধত।",
+     "pron_bn": "মিতু উড কুক রাইস ইফ গেস্টস কেইম।",
+     "text": "Mitu would cook rice if guests came."
+    },
+    {
+     "bn": "অতিথি এলে মিতু ভাত আর মাছ রাঁধত।",
+     "pron_bn": "মিতু উড কুক রাইস অ্যান্ড ফিশ ইফ গেস্টস কেইম।",
+     "text": "Mitu would cook rice and fish if guests came."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি would দিয়ে বাসের কথা বলেছ, তারপর if দিয়ে থামার শর্ত যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা বাসে যেতাম।",
+     "pron_bn": "উই উড টেক দা বাস।",
+     "text": "We would take the bus."
+    },
+    {
+     "bn": "এখানে থামলে আমরা বাসে যেতাম।",
+     "pron_bn": "উই উড টেক দা বাস ইফ ইট স্টপড হিয়ার।",
+     "text": "We would take the bus if it stopped here."
+    },
+    {
+     "bn": "এখানে থামলে আমরা বাসে ঢাকায় যেতাম।",
+     "pron_bn": "উই উড টেক দা বাস টু ঢাকা ইফ ইট স্টপড হিয়ার।",
+     "text": "We would take the bus to Dhaka if it stopped here."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি would দিয়ে শেখার কথা বলেছ, তারপর if দিয়ে শিক্ষকের শর্ত যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর ইংরেজি শিখত।",
+     "pron_bn": "তানভীর উড লার্ন ইংলিশ।",
+     "text": "Tanvir would learn English."
+    },
+    {
+     "bn": "শিক্ষক থাকলে তানভীর ইংরেজি শিখত।",
+     "pron_bn": "তানভীর উড লার্ন ইংলিশ ইফ হি হ্যাড আ টিচার।",
+     "text": "Tanvir would learn English if he had a teacher."
+    },
+    {
+     "bn": "ভালো শিক্ষক থাকলে তানভীর ইংরেজি শিখত।",
+     "pron_bn": "তানভীর উড লার্ন ইংলিশ ইফ হি হ্যাড আ গুড টিচার।",
+     "text": "Tanvir would learn English if he had a good teacher."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি if দিয়ে সহজ শর্ত বানানো শিখবে। চলো ছোট বাক্য থেকে বড় বাক্য বানাই।",
+ "tip_bn": "আসল সম্ভাবনার জন্য তুমি if-এর সাথে will ব্যবহার করবে। কল্পনার জন্য তুমি if-এর সাথে would আর past verb ব্যবহার করবে।",
+ "title": "First and Second Conditionals"
+}

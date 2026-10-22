@@ -1,0 +1,287 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি ধাপে ধাপে but also, Not only দিয়ে inversion আর ডেডলাইনের কথা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি প্রজেক্টটা সামলায়।",
+     "pron_bn": "",
+     "text": "Rafi manages the project."
+    },
+    {
+     "bn": "রাফি প্রজেক্টটা সামলায়, আবার জুনিয়র সহকর্মীদেরও পরামর্শ দেয়।",
+     "pron_bn": "",
+     "text": "Rafi manages the project but he also mentors junior colleagues."
+    },
+    {
+     "bn": "রাফি শুধু প্রজেক্টটাই সামলায় না, জুনিয়র সহকর্মীদেরও পরামর্শ দেয়।",
+     "pron_bn": "",
+     "text": "Not only does Rafi manage the project but he also mentors junior colleagues."
+    },
+    {
+     "bn": "রাফি শুধু প্রজেক্টটাই সামলায় না, অনেক নিষ্ঠার সঙ্গে জুনিয়র সহকর্মীদেরও পরামর্শ দেয়।",
+     "pron_bn": "",
+     "text": "Not only does Rafi manage the project but he also mentors junior colleagues with impressive dedication."
+    },
+    {
+     "bn": "খুব কড়া ডেডলাইনের চাপের মধ্যেও রাফি শুধু প্রজেক্টটাই সামলায় না, অনেক নিষ্ঠার সঙ্গে জুনিয়রদেরও পরামর্শ দেয়।",
+     "pron_bn": "",
+     "text": "Not only does Rafi manage the project but he also mentors junior colleagues with impressive dedication under extremely tight deadlines."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Rarely দিয়ে inversion বানিয়ে সময় আর আবহাওয়ার বর্ণনা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "কক্সবাজারে আমরা এমন পরিষ্কার আকাশ দেখি।",
+     "pron_bn": "",
+     "text": "We see such clear skies in Cox's Bazar."
+    },
+    {
+     "bn": "কক্সবাজারে আমরা এমন পরিষ্কার আকাশ খুব কমই দেখি।",
+     "pron_bn": "",
+     "text": "Rarely do we see such clear skies in Cox's Bazar."
+    },
+    {
+     "bn": "বর্ষাকালে কক্সবাজারে আমরা এমন পরিষ্কার আকাশ খুব কমই দেখি।",
+     "pron_bn": "",
+     "text": "Rarely do we see such clear skies in Cox's Bazar during the monsoon season."
+    },
+    {
+     "bn": "বর্ষাকালে কক্সবাজারে বিকেল হতে না হতেই ঘন মেঘ জমে, এমন পরিষ্কার আকাশ খুব কমই দেখা যায়।",
+     "pron_bn": "",
+     "text": "Rarely do we see such clear skies in Cox's Bazar during the monsoon season without thick clouds gathering by afternoon."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Hardly দিয়ে inversion বানিয়ে সুপারভাইজারের মতামতের বিস্তারিত যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সুপারভাইজার যখন এলেন, ততক্ষণে নাদিয়া থিসিসের খসড়া শেষ করে ফেলেছিল।",
+     "pron_bn": "",
+     "text": "Nadia had finished her thesis draft when her supervisor arrived."
+    },
+    {
+     "bn": "নাদিয়া থিসিসের খসড়া শেষ করতে না করতেই সুপারভাইজার চলে এলেন।",
+     "pron_bn": "",
+     "text": "Hardly had Nadia finished her thesis draft when her supervisor arrived."
+    },
+    {
+     "bn": "নাদিয়া থিসিসের খসড়া শেষ করতে না করতেই সুপারভাইজার বিস্তারিত মতামত নিয়ে চলে এলেন।",
+     "pron_bn": "",
+     "text": "Hardly had Nadia finished her thesis draft when her supervisor arrived with detailed feedback."
+    },
+    {
+     "bn": "নাদিয়া খসড়া শেষ করতে না করতেই সুপারভাইজার প্রতিটা অধ্যায়ের ওপর বিস্তারিত মতামত নিয়ে চলে এলেন।",
+     "pron_bn": "",
+     "text": "Hardly had Nadia finished her thesis draft when her supervisor arrived with detailed feedback on every chapter."
+    },
+    {
+     "bn": "নাদিয়া খসড়া শেষ করতে না করতেই সুপারভাইজার ফাইনাল জমার জন্য প্রতিটা অধ্যায়ের ওপর বিস্তারিত মতামত নিয়ে চলে এলেন।",
+     "pron_bn": "",
+     "text": "Hardly had Nadia finished her thesis draft when her supervisor arrived with detailed feedback on every chapter for final submission."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি but also আর Not only দিয়ে inversion বানিয়ে বুটিকের বর্ণনা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু তার বাবা-মায়ের দেখাশোনা করে।",
+     "pron_bn": "",
+     "text": "Mitu looks after her parents."
+    },
+    {
+     "bn": "মিতু বাবা-মায়ের দেখাশোনা করে, আবার নিজের বুটিকও চালায়।",
+     "pron_bn": "",
+     "text": "Mitu looks after her parents but she also runs her own boutique."
+    },
+    {
+     "bn": "মিতু শুধু বাবা-মায়ের দেখাশোনাই করে না, নিজের বুটিকও চালায়।",
+     "pron_bn": "",
+     "text": "Not only does Mitu look after her parents but she also runs her own boutique."
+    },
+    {
+     "bn": "মিতু শুধু বাবা-মায়ের দেখাশোনাই করে না, ধানমন্ডিতে নিজের বুটিকও চালায়।",
+     "pron_bn": "",
+     "text": "Not only does Mitu look after her parents but she also runs her own boutique in Dhanmondi."
+    },
+    {
+     "bn": "মিতু শুধু বাবা-মায়ের দেখাশোনাই করে না, ধানমন্ডিতে নিজের বুটিকও খুব দক্ষতার সঙ্গে চালায়।",
+     "pron_bn": "",
+     "text": "Not only does Mitu look after her parents but she also runs her own boutique in Dhanmondi with remarkable efficiency."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Rarely দিয়ে inversion বানিয়ে হাসপাতাল, ঘুম আর খাবারের কথা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাইট ডিউটির পর তানভির এতটা চনমনে বোধ করে।",
+     "pron_bn": "",
+     "text": "Tanvir feels this energetic after night duty."
+    },
+    {
+     "bn": "নাইট ডিউটির পর তানভির খুব কমই এতটা চনমনে বোধ করে।",
+     "pron_bn": "",
+     "text": "Rarely does Tanvir feel this energetic after night duty."
+    },
+    {
+     "bn": "হাসপাতালে নাইট ডিউটির পর তানভির খুব কমই এতটা চনমনে বোধ করে।",
+     "pron_bn": "",
+     "text": "Rarely does Tanvir feel this energetic after night duty at the hospital."
+    },
+    {
+     "bn": "ঠিকমতো ঘুম ছাড়া হাসপাতালে নাইট ডিউটির পর তানভির খুব কমই এতটা চনমনে বোধ করে।",
+     "pron_bn": "",
+     "text": "Rarely does Tanvir feel this energetic after night duty at the hospital without proper sleep."
+    },
+    {
+     "bn": "ঠিকমতো ঘুম আর সকালে পুষ্টিকর খাবার ছাড়া হাসপাতালে নাইট ডিউটির পর তানভির খুব কমই এতটা চনমনে থাকে।",
+     "pron_bn": "",
+     "text": "Rarely does Tanvir feel this energetic after night duty at the hospital without proper sleep and a balanced morning meal."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Hardly দিয়ে inversion বানিয়ে বৃষ্টি আর ভিড়ের বর্ণনা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু নিউ মার্কেটে পৌঁছে গিয়েছিল, তখন ভারী বৃষ্টি শুরু হলো।",
+     "pron_bn": "",
+     "text": "Mitu had reached New Market when the heavy rain started."
+    },
+    {
+     "bn": "মিতু নিউ মার্কেটে পৌঁছাতে না পৌঁছাতেই ভারী বৃষ্টি শুরু হলো।",
+     "pron_bn": "",
+     "text": "Hardly had Mitu reached New Market when the heavy rain started."
+    },
+    {
+     "bn": "মিতু নিউ মার্কেটে পৌঁছাতে না পৌঁছাতেই ভারী বৃষ্টিতে সরু গলিগুলোতে পানি জমতে শুরু করল।",
+     "pron_bn": "",
+     "text": "Hardly had Mitu reached New Market when the heavy rain started flooding the narrow lanes."
+    },
+    {
+     "bn": "মিতু নিউ মার্কেটে পৌঁছাতে না পৌঁছাতেই ভারী বৃষ্টিতে ভিড়ে ভরা দোকানগুলোর আশপাশের সরু গলিতে পানি জমতে শুরু করল।",
+     "pron_bn": "",
+     "text": "Hardly had Mitu reached New Market when the heavy rain started flooding the narrow lanes around the crowded stalls."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Rarely দিয়ে inversion বানিয়ে জায়গা আর আবহাওয়ার কারণ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "অক্টোবর মাসে গ্রামের মানুষ এমন ভয়াবহ বন্যা দেখে।",
+     "pron_bn": "",
+     "text": "Villagers experience such severe flooding in October."
+    },
+    {
+     "bn": "অক্টোবর মাসে গ্রামের মানুষ খুব কমই এমন ভয়াবহ বন্যা দেখে।",
+     "pron_bn": "",
+     "text": "Rarely do villagers experience such severe flooding in October."
+    },
+    {
+     "bn": "আমাদের উত্তরাঞ্চলের জেলায় অক্টোবর মাসে গ্রামের মানুষ খুব কমই এমন ভয়াবহ বন্যা দেখে।",
+     "pron_bn": "",
+     "text": "Rarely do villagers experience such severe flooding in October in our northern district."
+    },
+    {
+     "bn": "বৃষ্টিপাত দিন দিন অনিশ্চিত হলেও আমাদের উত্তরাঞ্চলের জেলায় অক্টোবরে এমন ভয়াবহ বন্যা খুব কমই দেখা যায়।",
+     "pron_bn": "",
+     "text": "Rarely do villagers experience such severe flooding in October in our northern district despite increasingly unpredictable rainfall."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি but also আর Not only দিয়ে inversion বানিয়ে গ্রামে শেখানোর কথা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভির ব্যবসার কাজে মোবাইল ব্যাংকিং ব্যবহার করে।",
+     "pron_bn": "",
+     "text": "Tanvir uses mobile banking for business."
+    },
+    {
+     "bn": "তানভির ব্যবসার কাজে মোবাইল ব্যাংকিং ব্যবহার করে, আবার অন্যদেরও নিরাপদে ব্যবহার করা শেখায়।",
+     "pron_bn": "",
+     "text": "Tanvir uses mobile banking for business but he also teaches others to use it safely."
+    },
+    {
+     "bn": "তানভির শুধু ব্যবসার কাজে মোবাইল ব্যাংকিং ব্যবহারই করে না, অন্যদেরও নিরাপদে ব্যবহার করা শেখায়।",
+     "pron_bn": "",
+     "text": "Not only does Tanvir use mobile banking for business but he also teaches others to use it safely."
+    },
+    {
+     "bn": "তানভির শুধু ব্যবসার কাজে মোবাইল ব্যাংকিং ব্যবহারই করে না, তার গ্রামের অন্যদেরও নিরাপদে ব্যবহার করা শেখায়।",
+     "pron_bn": "",
+     "text": "Not only does Tanvir use mobile banking for business but he also teaches others to use it safely in his village."
+    },
+    {
+     "bn": "তানভির শুধু ব্যবসার কাজে মোবাইল ব্যাংকিং ব্যবহারই করে না, ছুটির দিনে বিনামূল্যে কর্মশালা করে গ্রামের অন্যদেরও নিরাপদ ব্যবহার শেখায়।",
+     "pron_bn": "",
+     "text": "Not only does Tanvir use mobile banking for business but he also teaches others to use it safely in his village through free weekend workshops."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Hardly দিয়ে inversion বানিয়ে কুয়াশা আর নদী পারাপারের কথা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি গ্রাম থেকে রওনা দিয়েছিল, তখন ফেরি চলাচল বন্ধ হয়ে গেল।",
+     "pron_bn": "",
+     "text": "Rafi had left the village when the ferry stopped running."
+    },
+    {
+     "bn": "রাফি গ্রাম থেকে রওনা দিতে না দিতেই ফেরি চলাচল বন্ধ হয়ে গেল।",
+     "pron_bn": "",
+     "text": "Hardly had Rafi left the village when the ferry stopped running."
+    },
+    {
+     "bn": "রাফি গ্রাম থেকে রওনা দিতে না দিতেই ঘন কুয়াশার কারণে ফেরি চলাচল বন্ধ হয়ে গেল।",
+     "pron_bn": "",
+     "text": "Hardly had Rafi left the village when the ferry stopped running due to dense fog."
+    },
+    {
+     "bn": "রাফি গ্রাম থেকে রওনা দিতে না দিতেই চওড়া নদীর ঘাটে ঘন কুয়াশার কারণে ফেরি চলাচল বন্ধ হয়ে গেল।",
+     "pron_bn": "",
+     "text": "Hardly had Rafi left the village when the ferry stopped running due to dense fog over the wide river crossing."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি Rarely দিয়ে inversion বানিয়ে অফিস টাইম আর ফ্লাইওভারের কথা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিরপুর রোডে গাড়ি স্বাভাবিকভাবে চলে।",
+     "pron_bn": "",
+     "text": "Traffic moves smoothly on Mirpur Road."
+    },
+    {
+     "bn": "মিরপুর রোডে গাড়ি খুব কমই স্বাভাবিকভাবে চলে।",
+     "pron_bn": "",
+     "text": "Rarely does traffic move smoothly on Mirpur Road."
+    },
+    {
+     "bn": "অফিস টাইমে মিরপুর রোডে গাড়ি খুব কমই স্বাভাবিকভাবে চলে।",
+     "pron_bn": "",
+     "text": "Rarely does traffic move smoothly on Mirpur Road during office hours."
+    },
+    {
+     "bn": "নতুন ফ্লাইওভার থাকার পরও অফিস টাইমে মিরপুর রোডে গাড়ি খুব কমই স্বাভাবিকভাবে চলে।",
+     "pron_bn": "",
+     "text": "Rarely does traffic move smoothly on Mirpur Road during office hours despite the new flyover."
+    },
+    {
+     "bn": "নতুন ফ্লাইওভার অন্য জায়গায় জ্যাম কমালেও অফিস টাইমে মিরপুর রোডে গাড়ি খুব কমই স্বাভাবিকভাবে চলে।",
+     "pron_bn": "",
+     "text": "Rarely does traffic move smoothly on Mirpur Road during office hours despite the new flyover easing congestion elsewhere."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি জোর বোঝাতে inversion ব্যবহার করা শিখবে। ছোট বাক্য থেকে ধাপে ধাপে বড় ও জোরালো বাক্য বানাবে।",
+ "tip_bn": "Not only, Rarely বা Hardly বাক্যের শুরুতে বসলে তুমি সাহায্যকারী verb আগে আনবে। প্রতিটি ধাপে আগের বাক্যটা পুরো রেখে শুধু নতুন অংশটা যোগ করবে।",
+ "title": "Inversion for Emphasis"
+}

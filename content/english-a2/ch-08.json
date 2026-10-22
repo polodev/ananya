@@ -126,6 +126,146 @@
    "bn": "চলো সবচেয়ে সস্তা দোকানে যাই।",
    "pron_bn": "লেটস গো টু দা চিপেস্ট শপ।",
    "text": "Let's go to the cheapest shop."
+  },
+  {
+   "text": "Which shop is cheaper for mobile covers?",
+   "pron_bn": "উইচ শপ ইজ চিপার ফর মোবাইল কাভারস?",
+   "bn": "মোবাইল কভারের জন্য কোন দোকানটা সস্তা?"
+  },
+  {
+   "text": "This phone is newer than my old one.",
+   "pron_bn": "দিস ফোন ইজ নিউয়ার দ্যান মাই ওল্ড ওয়ান।",
+   "bn": "আমার পুরোনোটার চেয়ে এই ফোনটা বেশি নতুন।"
+  },
+  {
+   "text": "Sylhet is cleaner than Dhaka city.",
+   "pron_bn": "সিলেট ইজ ক্লিনার দ্যান ঢাকা সিটি।",
+   "bn": "ঢাকা শহরের চেয়ে সিলেট বেশি পরিষ্কার।"
+  },
+  {
+   "text": "Please show me the cheapest charger here.",
+   "pron_bn": "প্লিজ শো মি দা চিপেস্ট চার্জার হিয়ার।",
+   "bn": "এখানে সবচেয়ে সস্তা চার্জারটা আমাকে দেখান।"
+  },
+  {
+   "text": "That shop is bigger and more crowded.",
+   "pron_bn": "দ্যাট শপ ইজ বিগার অ্যান্ড মোর ক্রাউডেড।",
+   "bn": "ওই দোকানটা বড় আর বেশি ভিড় হয়।"
+  },
+  {
+   "text": "My phone battery is better than yours.",
+   "pron_bn": "মাই ফোন ব্যাটারি ইজ বেটার দ্যান ইয়োরস।",
+   "bn": "তোমারটার চেয়ে আমার ফোনের ব্যাটারি ভালো।"
+  },
+  {
+   "text": "Which city is safer at night?",
+   "pron_bn": "উইচ সিটি ইজ সেফার অ্যাট নাইট?",
+   "bn": "রাতের বেলা কোন শহরটা বেশি নিরাপদ?"
+  },
+  {
+   "text": "This market is the busiest in town.",
+   "pron_bn": "দিস মার্কেট ইজ দা বিজিয়েস্ট ইন টাউন।",
+   "bn": "শহরের মধ্যে এই বাজারটায় সবচেয়ে বেশি ভিড়।"
+  },
+  {
+   "text": "Rafi has a faster phone than me.",
+   "pron_bn": "রাফি হ্যাজ আ ফাস্টার ফোন দ্যান মি।",
+   "bn": "আমার চেয়ে রাফির ফোনটা বেশি দ্রুত।"
+  },
+  {
+   "text": "Could you show a smaller phone please?",
+   "pron_bn": "কুড ইউ শো আ স্মলার ফোন প্লিজ?",
+   "bn": "একটা ছোট ফোন দেখাবেন, প্লিজ?"
+  },
+  {
+   "text": "Chittagong is quieter than Dhaka city.",
+   "pron_bn": "চিটাগং ইজ কোয়ায়েটার দ্যান ঢাকা সিটি।",
+   "bn": "ঢাকার চেয়ে চট্টগ্রাম বেশি শান্ত।"
+  },
+  {
+   "text": "This screen is brighter than that one.",
+   "pron_bn": "দিস স্ক্রিন ইজ ব্রাইটার দ্যান দ্যাট ওয়ান।",
+   "bn": "ওটার চেয়ে এই স্ক্রিনটা বেশি উজ্জ্বল।"
+  },
+  {
+   "text": "Who sells the best phone covers here?",
+   "pron_bn": "হু সেলস দা বেস্ট ফোন কাভারস হিয়ার?",
+   "bn": "এখানে সবচেয়ে ভালো ফোনের কভার কে বিক্রি করে?"
+  },
+  {
+   "text": "Mitu likes the most colorful shop nearby.",
+   "pron_bn": "মিতু লাইকস দা মোস্ট কালারফুল শপ নিয়ারবাই।",
+   "bn": "কাছাকাছির মধ্যে সবচেয়ে রঙিন দোকানটা মিতুর পছন্দ।"
+  },
+  {
+   "text": "This road is wider than our street.",
+   "pron_bn": "দিস রোড ইজ ওয়াইডার দ্যান আওয়ার স্ট্রিট।",
+   "bn": "আমাদের গলির চেয়ে এই রাস্তাটা বেশি চওড়া।"
+  },
+  {
+   "text": "That phone shop is the nearest one.",
+   "pron_bn": "দ্যাট ফোন শপ ইজ দা নিয়ারেস্ট ওয়ান।",
+   "bn": "ওই ফোনের দোকানটাই সবচেয়ে কাছে।"
+  },
+  {
+   "text": "Tanvir bought a cheaper phone yesterday.",
+   "pron_bn": "তানভির বট আ চিপার ফোন ইয়েস্টারডে।",
+   "bn": "তানভির গতকাল আরও সস্তা একটা ফোন কিনেছে।"
+  },
+  {
+   "text": "Is this mall more expensive than that one?",
+   "pron_bn": "ইজ দিস মল মোর এক্সপেনসিভ দ্যান দ্যাট ওয়ান?",
+   "bn": "ওটার চেয়ে এই মলটা কি বেশি দামি?"
+  },
+  {
+   "text": "Nadia thinks this city is more beautiful.",
+   "pron_bn": "নাদিয়া থিংকস দিস সিটি ইজ মোর বিউটিফুল।",
+   "bn": "নাদিয়া মনে করে এই শহরটা আরও সুন্দর।"
+  },
+  {
+   "text": "My new phone is lighter than yours.",
+   "pron_bn": "মাই নিউ ফোন ইজ লাইটার দ্যান ইয়োরস।",
+   "bn": "তোমারটার চেয়ে আমার নতুন ফোনটা বেশি হালকা।"
+  },
+  {
+   "text": "Please tell me the shortest way there.",
+   "pron_bn": "প্লিজ টেল মি দা শর্টেস্ট ওয়ে দেয়ার।",
+   "bn": "ওখানে যাওয়ার সবচেয়ে ছোট রাস্তাটা আমাকে বলুন।"
+  },
+  {
+   "text": "This shopkeeper is friendlier than that one.",
+   "pron_bn": "দিস শপকিপার ইজ ফ্রেন্ডলিয়ার দ্যান দ্যাট ওয়ান।",
+   "bn": "ওই দোকানদারের চেয়ে এই দোকানদার বেশি বন্ধুসুলভ।"
+  },
+  {
+   "text": "Which market is the most famous here?",
+   "pron_bn": "উইচ মার্কেট ইজ দা মোস্ট ফেমাস হিয়ার?",
+   "bn": "এখানে সবচেয়ে বিখ্যাত বাজার কোনটা?"
+  },
+  {
+   "text": "That city is hotter than my hometown.",
+   "pron_bn": "দ্যাট সিটি ইজ হটার দ্যান মাই হোমটাউন।",
+   "bn": "আমার নিজের শহরের চেয়ে ওই শহরে বেশি গরম।"
+  },
+  {
+   "text": "Can I see the newest phone please?",
+   "pron_bn": "ক্যান আই সি দা নিউয়েস্ট ফোন প্লিজ?",
+   "bn": "সবচেয়ে নতুন ফোনটা কি দেখতে পারি, প্লিজ?"
+  },
+  {
+   "text": "This shop is more comfortable than that one.",
+   "pron_bn": "দিস শপ ইজ মোর কামফর্টেবল দ্যান দ্যাট ওয়ান।",
+   "bn": "ওটার চেয়ে এই দোকানটা বেশি আরামদায়ক।"
+  },
+  {
+   "text": "The park is greener in our city.",
+   "pron_bn": "দা পার্ক ইজ গ্রিনার ইন আওয়ার সিটি।",
+   "bn": "আমাদের শহরে পার্কটা বেশি সবুজ।"
+  },
+  {
+   "text": "Let's find the tallest building in town.",
+   "pron_bn": "লেটস ফাইন্ড দা টলেস্ট বিল্ডিং ইন টাউন।",
+   "bn": "চলো শহরের সবচেয়ে উঁচু ভবনটা খুঁজি।"
   }
  ],
  "reading": [

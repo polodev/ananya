@@ -1,0 +1,207 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি reading দিয়ে gerund আর to learn দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু গল্প পছন্দ করে।",
+     "pron_bn": "মিতু এনজয়েজ স্টোরিজ।",
+     "text": "Mitu enjoys stories."
+    },
+    {
+     "bn": "মিতু গল্প পড়তে ভালোবাসে।",
+     "pron_bn": "মিতু এনজয়েজ রিডিং স্টোরিজ।",
+     "text": "Mitu enjoys reading stories."
+    },
+    {
+     "bn": "মিতু ইংরেজি শেখার জন্য গল্প পড়তে ভালোবাসে।",
+     "pron_bn": "মিতু এনজয়েজ রিডিং স্টোরিজ টু লার্ন ইংলিশ।",
+     "text": "Mitu enjoys reading stories to learn English."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to get দিয়ে infinitive আর in order to দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি একটা চাকরি চায়।",
+     "pron_bn": "রাফি ওয়ান্টস আ জব।",
+     "text": "Rafi wants a job."
+    },
+    {
+     "bn": "রাফি একটা চাকরি পেতে চায়।",
+     "pron_bn": "রাফি ওয়ান্টস টু গেট আ জব।",
+     "text": "Rafi wants to get a job."
+    },
+    {
+     "bn": "রাফি তার পরিবারকে সাহায্য করার জন্য একটা চাকরি পেতে চায়।",
+     "pron_bn": "রাফি ওয়ান্টস টু গেট আ জব ইন অর্ডার টু হেল্প হিজ ফ্যামিলি।",
+     "text": "Rafi wants to get a job in order to help his family."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কক্সবাজার আর in order to দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা আমাদের ভ্রমণের পরিকল্পনা করি।",
+     "pron_bn": "উই প্ল্যান আওয়ার ট্রিপ।",
+     "text": "We plan our trip."
+    },
+    {
+     "bn": "আমরা আমাদের কক্সবাজার ভ্রমণের পরিকল্পনা করি।",
+     "pron_bn": "উই প্ল্যান আওয়ার ট্রিপ টু কক্সেস বাজার।",
+     "text": "We plan our trip to Cox's Bazar."
+    },
+    {
+     "bn": "আমরা সাগর উপভোগ করার জন্য আমাদের কক্সবাজার ভ্রমণের পরিকল্পনা করি।",
+     "pron_bn": "উই প্ল্যান আওয়ার ট্রিপ টু কক্সেস বাজার ইন অর্ডার টু এনজয় দা সি।",
+     "text": "We plan our trip to Cox's Bazar in order to enjoy the sea."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি learning দিয়ে gerund আর to get দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর ইংরেজি পছন্দ করে।",
+     "pron_bn": "তানভীর এনজয়েজ ইংলিশ।",
+     "text": "Tanvir enjoys English."
+    },
+    {
+     "bn": "তানভীর ইংরেজি শিখতে ভালোবাসে।",
+     "pron_bn": "তানভীর এনজয়েজ লার্নিং ইংলিশ।",
+     "text": "Tanvir enjoys learning English."
+    },
+    {
+     "bn": "তানভীর ভালো চাকরি পাওয়ার জন্য ইংরেজি শিখতে ভালোবাসে।",
+     "pron_bn": "তানভীর এনজয়েজ লার্নিং ইংলিশ টু গেট আ গুড জব।",
+     "text": "Tanvir enjoys learning English to get a good job."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি doing দিয়ে gerund আর to stay দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি ব্যায়াম পছন্দ করি।",
+     "pron_bn": "আই লাইক এক্সারসাইজ।",
+     "text": "I like exercise."
+    },
+    {
+     "bn": "আমি ব্যায়াম করতে পছন্দ করি।",
+     "pron_bn": "আই লাইক ডুইং এক্সারসাইজ।",
+     "text": "I like doing exercise."
+    },
+    {
+     "bn": "আমি সুস্থ থাকার জন্য ব্যায়াম করতে পছন্দ করি।",
+     "pron_bn": "আই লাইক ডুইং এক্সারসাইজ টু স্টে হেলদি।",
+     "text": "I like doing exercise to stay healthy."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি নিউ মার্কেট আর to buy দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া কেনাকাটা পছন্দ করে।",
+     "pron_bn": "নাদিয়া এনজয়েজ শপিং।",
+     "text": "Nadia enjoys shopping."
+    },
+    {
+     "bn": "নাদিয়া নিউ মার্কেটে কেনাকাটা পছন্দ করে।",
+     "pron_bn": "নাদিয়া এনজয়েজ শপিং ইন নিউ মার্কেট।",
+     "text": "Nadia enjoys shopping in New Market."
+    },
+    {
+     "bn": "নাদিয়া টাটকা সবজি কেনার জন্য নিউ মার্কেটে কেনাকাটা পছন্দ করে।",
+     "pron_bn": "নাদিয়া এনজয়েজ শপিং ইন নিউ মার্কেট টু বাই ফ্রেশ ভেজটেবলস।",
+     "text": "Nadia enjoys shopping in New Market to buy fresh vegetables."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি watching দিয়ে gerund আর to relax দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা বৃষ্টি পছন্দ করি।",
+     "pron_bn": "উই এনজয় রেইন।",
+     "text": "We enjoy rain."
+    },
+    {
+     "bn": "আমরা বৃষ্টি দেখতে ভালোবাসি।",
+     "pron_bn": "উই এনজয় ওয়াচিং রেইন।",
+     "text": "We enjoy watching rain."
+    },
+    {
+     "bn": "আমরা মন শান্ত করার জন্য বৃষ্টি দেখতে ভালোবাসি।",
+     "pron_bn": "উই এনজয় ওয়াচিং রেইন টু রিল্যাক্স।",
+     "text": "We enjoy watching rain to relax."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি মোবাইল ব্যাংকিং আর to send দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি শেখার সিদ্ধান্ত নিলাম।",
+     "pron_bn": "আই ডিসাইডেড টু লার্ন।",
+     "text": "I decided to learn."
+    },
+    {
+     "bn": "আমি মোবাইল ব্যাংকিং শেখার সিদ্ধান্ত নিলাম।",
+     "pron_bn": "আই ডিসাইডেড টু লার্ন মোবাইল ব্যাংকিং।",
+     "text": "I decided to learn mobile banking."
+    },
+    {
+     "bn": "আমি সহজে টাকা পাঠানোর জন্য মোবাইল ব্যাংকিং শেখার সিদ্ধান্ত নিলাম।",
+     "pron_bn": "আই ডিসাইডেড টু লার্ন মোবাইল ব্যাংকিং টু সেন্ড মানি ইজিলি।",
+     "text": "I decided to learn mobile banking to send money easily."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি গ্রামে থাকা আর in order to দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তারা থাকার সিদ্ধান্ত নিয়েছে।",
+     "pron_bn": "দে ডিসাইডেড টু লিভ।",
+     "text": "They decided to live."
+    },
+    {
+     "bn": "তারা গ্রামে থাকার সিদ্ধান্ত নিয়েছে।",
+     "pron_bn": "দে ডিসাইডেড টু লিভ ইন দা ভিলেজ।",
+     "text": "They decided to live in the village."
+    },
+    {
+     "bn": "তারা শান্ত জীবন কাটানোর জন্য গ্রামে থাকার সিদ্ধান্ত নিয়েছে।",
+     "pron_bn": "দে ডিসাইডেড টু লিভ ইন দা ভিলেজ ইন অর্ডার টু এনজয় আ কুয়ায়েট লাইফ।",
+     "text": "They decided to live in the village in order to enjoy a quiet life."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি together আর to save দিয়ে উদ্দেশ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা রান্না করতে ভালোবাসি।",
+     "pron_bn": "উই এনজয় কুকিং।",
+     "text": "We enjoy cooking."
+    },
+    {
+     "bn": "আমরা একসাথে রান্না করতে ভালোবাসি।",
+     "pron_bn": "উই এনজয় কুকিং টুগেদার।",
+     "text": "We enjoy cooking together."
+    },
+    {
+     "bn": "আমরা টাকা বাঁচানোর জন্য একসাথে রান্না করতে ভালোবাসি।",
+     "pron_bn": "উই এনজয় কুকিং টুগেদার টু সেভ মানি।",
+     "text": "We enjoy cooking together to save money."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি gerund আর infinitive দিয়ে বাক্য বড় করা শিখবে। তুমি ছোট বাক্য থেকে ধাপে ধাপে বড় বাক্য বানাবে।",
+ "tip_bn": "তুমি মনে রেখো enjoy-এর পরে verb-এর সঙ্গে -ing বসে। তুমি উদ্দেশ্য বোঝাতে to বা in order to ব্যবহার করবে।",
+ "title": "Enjoy Doing and Decide to Do"
+}

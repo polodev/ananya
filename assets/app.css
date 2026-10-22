@@ -254,3 +254,38 @@ mark.hl{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inheri
 .slide.cover .kchip{min-width:44px;height:44px;font-size:24px;padding:0 6px;border-radius:12px}
 .slide.cover .five{margin:4px 0}
 .slide.cover .learn{gap:4px}
+/* short screens (laptops ~720px tall): smaller big letters so quiz and letter slides still fit */
+@media (max-height:800px){
+  .qbig{font-size:64px}
+  .quiz{gap:8px}
+  .quiz .say.big{width:50px;height:50px;font-size:22px}
+  .opts.kopts .opt{font-size:30px;min-height:46px;padding:6px}
+  .kana-big{font-size:110px}
+  .kana-box{padding:12px}
+}
+
+/* ---------- sentence builder ---------- */
+.b-count{color:var(--muted);font-size:14px;font-weight:600;text-align:center}
+.bld{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.bstep{display:flex;gap:12px;align-items:flex-start;padding:14px 14px;border-bottom:1px solid var(--line);cursor:pointer;min-height:56px}
+.bstep:last-child{border-bottom:0}
+.bstep.on,.bstep:active{background:color-mix(in srgb,var(--accent) 7%,var(--card))}
+.bn-no{flex:none;width:18px;color:var(--muted);font-size:13px;padding-top:4px;text-align:right}
+.b-body{flex:1;min-width:0}
+.b-tx{font-size:19px;font-weight:500;line-height:1.6}
+mark.add{background:#C9F2D3;color:#14532D;border-radius:5px;padding:1px 5px;font-weight:600}
+:root[data-theme=dark] mark.add{background:#14532D;color:#C9F2D3}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) mark.add{background:#14532D;color:#C9F2D3}}
+.b-more{display:none;margin-top:4px}
+.bstep.open .b-more{display:block}
+.b-more .pr{color:var(--accent);font-size:15px}
+.b-more .bn{color:var(--muted);font-size:16px}
+.chev{flex:none;color:var(--muted);font-size:22px;line-height:1;padding-top:4px;transition:transform .2s}
+.bstep.open .chev{transform:rotate(90deg)}
+.b-note{text-align:center}
+@media (min-width:900px){.slide:has(.bld) .inner{max-width:820px}}
+.opt.gone{display:none}
+.opt{font-size:17px;padding:10px 12px;min-height:48px;line-height:1.4}
+.qq{font-size:19px}
+.why{font-size:15px;line-height:1.45}
+.day.locked{opacity:.55;pointer-events:none}

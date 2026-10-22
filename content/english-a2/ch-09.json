@@ -126,6 +126,146 @@
    "bn": "ফোন করার জন্য ধন্যবাদ।",
    "pron_bn": "থ্যাংক ইউ ফর কলিং।",
    "text": "Thank you for calling."
+  },
+  {
+   "text": "I am calling from the bus stop now.",
+   "pron_bn": "আই অ্যাম কলিং ফ্রম দা বাস স্টপ নাউ",
+   "bn": "আমি এখন বাসস্টপ থেকে ফোন করছি।"
+  },
+  {
+   "text": "Are you talking to Nadia right now?",
+   "pron_bn": "আর ইউ টকিং টু নাদিয়া রাইট নাউ?",
+   "bn": "তুমি কি এখন নাদিয়ার সাথে কথা বলছো?"
+  },
+  {
+   "text": "We are meeting at the shop tomorrow.",
+   "pron_bn": "উই আর মিটিং অ্যাট দা শপ টুমরো",
+   "bn": "আমরা আগামীকাল দোকানে দেখা করছি।"
+  },
+  {
+   "text": "Can you hear me clearly now?",
+   "pron_bn": "ক্যান ইউ হিয়ার মি ক্লিয়ারলি নাউ?",
+   "bn": "তুমি কি এখন আমাকে স্পষ্ট শুনতে পাচ্ছো?"
+  },
+  {
+   "text": "Sorry, I am busy at the moment.",
+   "pron_bn": "সরি, আই অ্যাম বিজি অ্যাট দা মোমেন্ট",
+   "bn": "দুঃখিত, আমি এই মুহূর্তে ব্যস্ত আছি।"
+  },
+  {
+   "text": "I am waiting for your call today.",
+   "pron_bn": "আই অ্যাম ওয়েটিং ফর ইওর কল টুডে",
+   "bn": "আমি আজ তোমার ফোনের অপেক্ষায় আছি।"
+  },
+  {
+   "text": "Are you coming to my home tonight?",
+   "pron_bn": "আর ইউ কামিং টু মাই হোম টুনাইট?",
+   "bn": "তুমি কি আজ রাতে আমার বাসায় আসছো?"
+  },
+  {
+   "text": "Please call me back after lunch time.",
+   "pron_bn": "প্লিজ কল মি ব্যাক আফটার লাঞ্চ টাইম",
+   "bn": "দয়া করে দুপুরের খাবারের পর আমাকে আবার ফোন করো।"
+  },
+  {
+   "text": "I am leaving a message for Tanvir.",
+   "pron_bn": "আই অ্যাম লিভিং আ মেসেজ ফর তানভির",
+   "bn": "আমি তানভিরের জন্য একটা বার্তা রেখে যাচ্ছি।"
+  },
+  {
+   "text": "Is the shop open on Friday morning?",
+   "pron_bn": "ইজ দা শপ ওপেন অন ফ্রাইডে মর্নিং?",
+   "bn": "শুক্রবার সকালে কি দোকান খোলা থাকে?"
+  },
+  {
+   "text": "We are visiting Mitu this Friday evening.",
+   "pron_bn": "উই আর ভিজিটিং মিতু দিস ফ্রাইডে ইভনিং",
+   "bn": "আমরা এই শুক্রবার সন্ধ্যায় মিতুর কাছে যাচ্ছি।"
+  },
+  {
+   "text": "Can I call you again this evening?",
+   "pron_bn": "ক্যান আই কল ইউ এগেইন দিস ইভনিং?",
+   "bn": "আমি কি আজ সন্ধ্যায় তোমাকে আবার ফোন করতে পারি?"
+  },
+  {
+   "text": "I am sorry, you have the wrong number.",
+   "pron_bn": "আই অ্যাম সরি, ইউ হ্যাভ দা রং নাম্বার",
+   "bn": "দুঃখিত, আপনি ভুল নম্বরে ফোন করেছেন।"
+  },
+  {
+   "text": "What time are you calling me tomorrow?",
+   "pron_bn": "হোয়াট টাইম আর ইউ কলিং মি টুমরো?",
+   "bn": "তুমি আগামীকাল কয়টায় আমাকে ফোন করছো?"
+  },
+  {
+   "text": "I am staying at home all day today.",
+   "pron_bn": "আই অ্যাম স্টেয়িং অ্যাট হোম অল ডে টুডে",
+   "bn": "আমি আজ সারাদিন বাসায় থাকছি।"
+  },
+  {
+   "text": "Please tell Nadia to call me back.",
+   "pron_bn": "প্লিজ টেল নাদিয়া টু কল মি ব্যাক",
+   "bn": "দয়া করে নাদিয়াকে আমাকে আবার ফোন করতে বলো।"
+  },
+  {
+   "text": "Are you using your new phone now?",
+   "pron_bn": "আর ইউ ইউজিং ইওর নিউ ফোন নাউ?",
+   "bn": "তুমি কি এখন তোমার নতুন ফোনটা ব্যবহার করছো?"
+  },
+  {
+   "text": "I am trying to call the shop now.",
+   "pron_bn": "আই অ্যাম ট্রাইং টু কল দা শপ নাউ",
+   "bn": "আমি এখন দোকানে ফোন করার চেষ্টা করছি।"
+  },
+  {
+   "text": "We are playing football tomorrow afternoon.",
+   "pron_bn": "উই আর প্লেয়িং ফুটবল টুমরো আফটারনুন",
+   "bn": "আমরা আগামীকাল বিকেলে ফুটবল খেলছি।"
+  },
+  {
+   "text": "Can you send me the shop address please?",
+   "pron_bn": "ক্যান ইউ সেন্ড মি দা শপ অ্যাড্রেস প্লিজ?",
+   "bn": "তুমি কি দয়া করে আমাকে দোকানের ঠিকানা পাঠাবে?"
+  },
+  {
+   "text": "I am charging my phone right now.",
+   "pron_bn": "আই অ্যাম চার্জিং মাই ফোন রাইট নাউ",
+   "bn": "আমি এখন আমার ফোনে চার্জ দিচ্ছি।"
+  },
+  {
+   "text": "Sorry, Tanvir is not answering his phone.",
+   "pron_bn": "সরি, তানভির ইজ নট অ্যানসারিং হিজ ফোন",
+   "bn": "দুঃখিত, তানভির তার ফোন ধরছে না।"
+  },
+  {
+   "text": "Are you working late tonight, Rafi?",
+   "pron_bn": "আর ইউ ওয়ার্কিং লেট টুনাইট, রাফি?",
+   "bn": "রাফি, তুমি কি আজ রাতে দেরি করে কাজ করছো?"
+  },
+  {
+   "text": "I am meeting Nadia at the market.",
+   "pron_bn": "আই অ্যাম মিটিং নাদিয়া অ্যাট দা মার্কেট",
+   "bn": "আমি বাজারে নাদিয়ার সাথে দেখা করছি।"
+  },
+  {
+   "text": "Please speak a little slowly now.",
+   "pron_bn": "প্লিজ স্পিক আ লিটল স্লোলি নাউ",
+   "bn": "দয়া করে এখন একটু আস্তে কথা বলো।"
+  },
+  {
+   "text": "What are you doing after dinner today?",
+   "pron_bn": "হোয়াট আর ইউ ডুইং আফটার ডিনার টুডে?",
+   "bn": "আজ রাতের খাবারের পরে তুমি কী করছো?"
+  },
+  {
+   "text": "I am buying a new SIM card tomorrow.",
+   "pron_bn": "আই অ্যাম বাইং আ নিউ সিম কার্ড টুমরো",
+   "bn": "আমি আগামীকাল একটা নতুন সিম কার্ড কিনছি।"
+  },
+  {
+   "text": "Can Mitu call me back in the evening?",
+   "pron_bn": "ক্যান মিতু কল মি ব্যাক ইন দি ইভনিং?",
+   "bn": "মিতু কি সন্ধ্যায় আমাকে আবার ফোন করতে পারবে?"
   }
  ],
  "reading": [

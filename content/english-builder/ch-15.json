@@ -1,0 +1,307 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি বিশেষণ আর বাক্যাংশ দিয়ে প্রকল্পের বর্ণনাটা বড় করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি বিভিন্ন প্রকল্প পরিচালনা করে।",
+     "pron_bn": "",
+     "text": "Rafi manages projects."
+    },
+    {
+     "bn": "রাফি উন্নয়ন প্রকল্পগুলো পরিচালনা করে।",
+     "pron_bn": "",
+     "text": "Rafi manages development projects."
+    },
+    {
+     "bn": "রাফি জটিল উন্নয়ন প্রকল্পগুলো পরিচালনা করে।",
+     "pron_bn": "",
+     "text": "Rafi manages complex development projects."
+    },
+    {
+     "bn": "রাফি ঢাকায় জটিল উন্নয়ন প্রকল্পগুলো পরিচালনা করে।",
+     "pron_bn": "",
+     "text": "Rafi manages complex development projects in Dhaka."
+    },
+    {
+     "bn": "রাফি ঢাকায় জটিল উন্নয়ন প্রকল্পগুলো অসাধারণ দক্ষতার সঙ্গে পরিচালনা করে।",
+     "pron_bn": "",
+     "text": "Rafi manages complex development projects in Dhaka with remarkable efficiency."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি প্রেজেন্টেশন নিয়ে লম্বা বিশেষ্য বাক্যাংশ বানিয়েছ।",
+   "steps": [
+    {
+     "bn": "মিতু তার প্রেজেন্টেশন শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Mitu completed her presentation."
+    },
+    {
+     "bn": "মিতু তার ফাইনাল প্রেজেন্টেশন শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Mitu completed her final presentation."
+    },
+    {
+     "bn": "মিতু পানি দূষণ নিয়ে তার ফাইনাল প্রেজেন্টেশন শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Mitu completed her final presentation on water pollution."
+    },
+    {
+     "bn": "মিতু পানি দূষণ নিয়ে ভালোভাবে গবেষণা করা ফাইনাল প্রেজেন্টেশন শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Mitu completed her thoroughly researched final presentation on water pollution."
+    },
+    {
+     "bn": "মিতু গ্রামের বাংলাদেশে পানি দূষণ নিয়ে ভালোভাবে গবেষণা করা ফাইনাল প্রেজেন্টেশন শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Mitu completed her thoroughly researched final presentation on water pollution in rural Bangladesh."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি পরিবার কথাটার আগে আর পরে বর্ণনা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর তার পরিবারকে সহায়তা করে।",
+     "pron_bn": "",
+     "text": "Tanvir supports his family."
+    },
+    {
+     "bn": "তানভীর তার বড় পরিবারকে সহায়তা করে।",
+     "pron_bn": "",
+     "text": "Tanvir supports his large family."
+    },
+    {
+     "bn": "তানভীর তার বড় যৌথ পরিবারকে সহায়তা করে।",
+     "pron_bn": "",
+     "text": "Tanvir supports his large extended family."
+    },
+    {
+     "bn": "তানভীর চট্টগ্রামে থাকা তার বড় যৌথ পরিবারকে সহায়তা করে।",
+     "pron_bn": "",
+     "text": "Tanvir supports his large extended family in Chattogram."
+    },
+    {
+     "bn": "তানভীর চট্টগ্রামে থাকা তার বড় যৌথ পরিবারকে অনেক নিষ্ঠার সঙ্গে সহায়তা করে।",
+     "pron_bn": "",
+     "text": "Tanvir supports his large extended family in Chattogram with great dedication."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ভ্রমণে জায়গা আর উদ্দেশ্য যোগ করে বাক্যটা বড় করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া একটা ভ্রমণের পরিকল্পনা করেছে।",
+     "pron_bn": "",
+     "text": "Nadia planned a trip."
+    },
+    {
+     "bn": "নাদিয়া পারিবারিক ভ্রমণের পরিকল্পনা করেছে।",
+     "pron_bn": "",
+     "text": "Nadia planned a family trip."
+    },
+    {
+     "bn": "নাদিয়া শীতকালে পারিবারিক ভ্রমণের পরিকল্পনা করেছে।",
+     "pron_bn": "",
+     "text": "Nadia planned a winter family trip."
+    },
+    {
+     "bn": "নাদিয়া শীতকালে সিলেটে পারিবারিক ভ্রমণের পরিকল্পনা করেছে।",
+     "pron_bn": "",
+     "text": "Nadia planned a winter family trip to Sylhet."
+    },
+    {
+     "bn": "নাদিয়া চা বাগান ঘুরে দেখার জন্য শীতকালে সিলেটে পারিবারিক ভ্রমণের পরিকল্পনা করেছে।",
+     "pron_bn": "",
+     "text": "Nadia planned a winter family trip to Sylhet for the exploration of tea gardens."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি খাদ্যতালিকার সঙ্গে কারণ আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু একটা খাদ্যতালিকা মেনে চলে।",
+     "pron_bn": "",
+     "text": "Mitu follows a diet."
+    },
+    {
+     "bn": "মিতু একটা সুষম খাদ্যতালিকা মেনে চলে।",
+     "pron_bn": "",
+     "text": "Mitu follows a balanced diet."
+    },
+    {
+     "bn": "মিতু যত্ন করে বানানো সুষম খাদ্যতালিকা মেনে চলে।",
+     "pron_bn": "",
+     "text": "Mitu follows a carefully balanced diet."
+    },
+    {
+     "bn": "মিতু ওজন কমানোর জন্য যত্ন করে বানানো সুষম খাদ্যতালিকা মেনে চলে।",
+     "pron_bn": "",
+     "text": "Mitu follows a carefully balanced diet for weight reduction."
+    },
+    {
+     "bn": "মিতু অসুস্থতার পর ওজন কমানোর জন্য যত্ন করে বানানো সুষম খাদ্যতালিকা মেনে চলে।",
+     "pron_bn": "",
+     "text": "Mitu follows a carefully balanced diet for weight reduction after her illness."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি সবজির আগে গুণ আর পরে উৎস যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি সবজি কিনেছে।",
+     "pron_bn": "",
+     "text": "Rafi bought vegetables."
+    },
+    {
+     "bn": "রাফি টাটকা সবজি কিনেছে।",
+     "pron_bn": "",
+     "text": "Rafi bought fresh vegetables."
+    },
+    {
+     "bn": "রাফি টাটকা অর্গানিক সবজি কিনেছে।",
+     "pron_bn": "",
+     "text": "Rafi bought fresh organic vegetables."
+    },
+    {
+     "bn": "রাফি গ্রামের বাজার থেকে টাটকা অর্গানিক সবজি কিনেছে।",
+     "pron_bn": "",
+     "text": "Rafi bought fresh organic vegetables from the village market."
+    },
+    {
+     "bn": "রাফি স্বাস্থ্যকর রান্নার জন্য গ্রামের বাজার থেকে টাটকা অর্গানিক সবজি কিনেছে।",
+     "pron_bn": "",
+     "text": "Rafi bought fresh organic vegetables from the village market for healthy cooking."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ঝড়ের বর্ণনায় শক্তিশালী বিশেষণ আর বাক্যাংশ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর ঝড়টার বর্ণনা দিয়েছে।",
+     "pron_bn": "",
+     "text": "Tanvir described the storm."
+    },
+    {
+     "bn": "তানভীর ক্রান্তীয় ঝড়টার বর্ণনা দিয়েছে।",
+     "pron_bn": "",
+     "text": "Tanvir described the tropical storm."
+    },
+    {
+     "bn": "তানভীর শক্তিশালী ক্রান্তীয় ঝড়টার বর্ণনা দিয়েছে।",
+     "pron_bn": "",
+     "text": "Tanvir described the powerful tropical storm."
+    },
+    {
+     "bn": "তানভীর উপকূলীয় এলাকার ওপর দিয়ে বয়ে যাওয়া শক্তিশালী ক্রান্তীয় ঝড়টার বর্ণনা দিয়েছে।",
+     "pron_bn": "",
+     "text": "Tanvir described the powerful tropical storm over the coastal areas."
+    },
+    {
+     "bn": "তানভীর উপকূলীয় এলাকার শক্তিশালী ক্রান্তীয় ঝড়টার বর্ণনা দিয়েছে ভয় পাওয়ার মতো নিখুঁতভাবে।",
+     "pron_bn": "",
+     "text": "Tanvir described the powerful tropical storm over the coastal areas with frightening accuracy."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি সফটওয়্যারের কাজ বোঝাতে নামশব্দ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর সফটওয়্যার ব্যবহার করে।",
+     "pron_bn": "",
+     "text": "Tanvir uses software."
+    },
+    {
+     "bn": "তানভীর হিসাব রাখার সফটওয়্যার ব্যবহার করে।",
+     "pron_bn": "",
+     "text": "Tanvir uses accounting software."
+    },
+    {
+     "bn": "তানভীর আধুনিক হিসাব রাখার সফটওয়্যার ব্যবহার করে।",
+     "pron_bn": "",
+     "text": "Tanvir uses modern accounting software."
+    },
+    {
+     "bn": "তানভীর অত্যন্ত আধুনিক হিসাব রাখার সফটওয়্যার ব্যবহার করে।",
+     "pron_bn": "",
+     "text": "Tanvir uses extremely modern accounting software."
+    },
+    {
+     "bn": "তানভীর ছোট ব্যবসা পরিচালনার জন্য অত্যন্ত আধুনিক হিসাব রাখার সফটওয়্যার ব্যবহার করে।",
+     "pron_bn": "",
+     "text": "Tanvir uses extremely modern accounting software for the management of small businesses."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি শহরের জীবনে বিরোধী ভাব যোগ করে বাক্য বড় করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া শহরের জীবন উপভোগ করে।",
+     "pron_bn": "",
+     "text": "Nadia enjoys city life."
+    },
+    {
+     "bn": "নাদিয়া ব্যস্ত শহুরে জীবন উপভোগ করে।",
+     "pron_bn": "",
+     "text": "Nadia enjoys busy city life."
+    },
+    {
+     "bn": "নাদিয়া অত্যন্ত ব্যস্ত শহুরে জীবন উপভোগ করে।",
+     "pron_bn": "",
+     "text": "Nadia enjoys extremely busy city life."
+    },
+    {
+     "bn": "নাদিয়া ঢাকার অত্যন্ত ব্যস্ত শহুরে জীবন উপভোগ করে।",
+     "pron_bn": "",
+     "text": "Nadia enjoys extremely busy city life in Dhaka."
+    },
+    {
+     "bn": "নাদিয়া যানজট সত্ত্বেও ঢাকার অত্যন্ত ব্যস্ত শহুরে জীবন উপভোগ করে।",
+     "pron_bn": "",
+     "text": "Nadia enjoys extremely busy city life in Dhaka despite the traffic congestion."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি বাড়ির স্মৃতিতে জায়গা আর সময় যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফির বাড়ির কথা খুব মনে পড়ে।",
+     "pron_bn": "",
+     "text": "Rafi misses home."
+    },
+    {
+     "bn": "রাফির গ্রামের বাড়ির কথা খুব মনে পড়ে।",
+     "pron_bn": "",
+     "text": "Rafi misses his village home."
+    },
+    {
+     "bn": "রাফির শান্ত গ্রামের বাড়ির কথা খুব মনে পড়ে।",
+     "pron_bn": "",
+     "text": "Rafi misses his peaceful village home."
+    },
+    {
+     "bn": "রাফির বরিশালের শান্ত গ্রামের বাড়ির কথা খুব মনে পড়ে।",
+     "pron_bn": "",
+     "text": "Rafi misses his peaceful village home in Barishal."
+    },
+    {
+     "bn": "রাফির বর্ষাকালে বরিশালের শান্ত গ্রামের বাড়ির কথা খুব মনে পড়ে।",
+     "pron_bn": "",
+     "text": "Rafi misses his peaceful village home in Barishal during the rainy season."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "তুমি এই অধ্যায়ে ছোট বাক্যকে বড় আর গোছানো করা শিখবে। তুমি বিশেষণ, বাক্যাংশ আর নামশব্দ দিয়ে বর্ণনা যোগ করবে।",
+ "tip_bn": "তুমি প্রথমে বিশেষ্যের আগে ছোট বর্ণনা যোগ করো, তারপর পরে বাক্যাংশ যোগ করো। তুমি কাজ বোঝাতে ক্রিয়ার বদলে বিশেষ্য ব্যবহার করে বাক্যটা আরও পরিণত করো।",
+ "title": "Long Noun Phrases and Nominalisation"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "intro_bn", "tip_bn", "builders"],
+  "properties": {
+    "title": {"type": "string"},
+    "intro_bn": {"type": "string"},
+    "tip_bn": {"type": "string"},
+    "builders": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["note_bn", "steps"],
+        "properties": {
+          "note_bn": {"type": "string"},
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["text", "pron_bn", "bn"],
+              "properties": {"text": {"type": "string"}, "pron_bn": {"type": "string"}, "bn": {"type": "string"}}
+            }
+          }
+        }
+      }
+    }
+  }
+}

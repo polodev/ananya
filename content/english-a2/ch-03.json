@@ -127,6 +127,146 @@
    "bn": "আমি সন্ধ্যায় দেরি করে বাড়ি এসেছি।",
    "pron_bn": "আই কেইম হোম লেইট ইন দি ইভনিং।",
    "text": "I came home late in the evening."
+  },
+  {
+   "text": "Did you visit your uncle last Friday?",
+   "pron_bn": "ডিড ইউ ভিজিট ইওর আঙ্কেল লাস্ট ফ্রাইডে?",
+   "bn": "তুমি কি গত শুক্রবার তোমার চাচার বাসায় গিয়েছিলে?"
+  },
+  {
+   "text": "Yes, I visited him in the morning.",
+   "pron_bn": "ইয়েস, আই ভিজিটেড হিম ইন দ্য মর্নিং",
+   "bn": "হ্যাঁ, সকালে আমি তার সাথে দেখা করেছিলাম।"
+  },
+  {
+   "text": "How did you go to the village?",
+   "pron_bn": "হাউ ডিড ইউ গো টু দ্য ভিলেজ?",
+   "bn": "তোমরা গ্রামে কীভাবে গিয়েছিলে?"
+  },
+  {
+   "text": "We went there by bus together.",
+   "pron_bn": "উই ওয়েন্ট দেয়ার বাই বাস টুগেদার",
+   "bn": "আমরা সবাই একসাথে বাসে করে সেখানে গিয়েছিলাম।"
+  },
+  {
+   "text": "Did Mitu come with your family?",
+   "pron_bn": "ডিড মিতু কাম উইথ ইওর ফ্যামিলি?",
+   "bn": "মিতু কি তোমার পরিবারের সাথে এসেছিল?"
+  },
+  {
+   "text": "No, she stayed at home then.",
+   "pron_bn": "নো, শি স্টেইড অ্যাট হোম দেন",
+   "bn": "না, সে তখন বাসায় ছিল।"
+  },
+  {
+   "text": "What did you eat for lunch?",
+   "pron_bn": "হোয়াট ডিড ইউ ইট ফর লাঞ্চ?",
+   "bn": "দুপুরে তোমরা কী খেয়েছিলে?"
+  },
+  {
+   "text": "We had chicken and hot rice.",
+   "pron_bn": "উই হ্যাড চিকেন অ্যান্ড হট রাইস",
+   "bn": "আমরা গরম ভাতের সাথে মুরগি খেয়েছিলাম।"
+  },
+  {
+   "text": "Did you swim in the river?",
+   "pron_bn": "ডিড ইউ সুইম ইন দ্য রিভার?",
+   "bn": "তোমরা কি নদীতে সাঁতার কেটেছিলে?"
+  },
+  {
+   "text": "No, we walked near the water.",
+   "pron_bn": "নো, উই ওয়াকড নিয়ার দ্য ওয়াটার",
+   "bn": "না, আমরা পানির কাছ দিয়ে হেঁটেছিলাম।"
+  },
+  {
+   "text": "The children played football near there.",
+   "pron_bn": "দ্য চিলড্রেন প্লেইড ফুটবল নিয়ার দেয়ার",
+   "bn": "বাচ্চারা কাছেই ফুটবল খেলেছিল।"
+  },
+  {
+   "text": "I talked with my cousins for hours.",
+   "pron_bn": "আই টকড উইথ মাই কাজিনস ফর আওয়ার্স",
+   "bn": "আমি আমার চাচাতো ভাইবোনদের সাথে ঘণ্টার পর ঘণ্টা গল্প করেছিলাম।"
+  },
+  {
+   "text": "Did Nadia take photos of you?",
+   "pron_bn": "ডিড নাদিয়া টেইক ফোটোস অফ ইউ?",
+   "bn": "নাদিয়া কি তোমার ছবি তুলেছিল?"
+  },
+  {
+   "text": "Yes, she took some very nice photos.",
+   "pron_bn": "ইয়েস, শি টুক সাম ভেরি নাইস ফোটোস",
+   "bn": "হ্যাঁ, সে অনেক সুন্দর ছবি তুলেছিল।"
+  },
+  {
+   "text": "We watched the sunset by the river.",
+   "pron_bn": "উই ওয়াচড দ্য সানসেট বাই দ্য রিভার",
+   "bn": "আমরা নদীর পাশে বসে সূর্যাস্ত দেখেছিলাম।"
+  },
+  {
+   "text": "It was very calm and beautiful.",
+   "pron_bn": "ইট ওয়াজ ভেরি কাম অ্যান্ড বিউটিফুল",
+   "bn": "জায়গাটা খুব শান্ত আর সুন্দর ছিল।"
+  },
+  {
+   "text": "Did you buy fruit from the market?",
+   "pron_bn": "ডিড ইউ বাই ফ্রুট ফ্রম দ্য মার্কেট?",
+   "bn": "তোমরা কি বাজার থেকে ফল কিনেছিলে?"
+  },
+  {
+   "text": "Yes, we bought mangoes and bananas.",
+   "pron_bn": "ইয়েস, উই বট ম্যাংগোস অ্যান্ড ব্যানানাস",
+   "bn": "হ্যাঁ, আমরা আম আর কলা কিনেছিলাম।"
+  },
+  {
+   "text": "How long did you stay there?",
+   "pron_bn": "হাউ লং ডিড ইউ স্টেই দেয়ার?",
+   "bn": "তোমরা সেখানে কতক্ষণ ছিলে?"
+  },
+  {
+   "text": "We stayed there for two hours.",
+   "pron_bn": "উই স্টেইড দেয়ার ফর টু আওয়ার্স",
+   "bn": "আমরা সেখানে দুই ঘণ্টা ছিলাম।"
+  },
+  {
+   "text": "Could you show me your photos please?",
+   "pron_bn": "কুড ইউ শো মি ইওর ফোটোস প্লিজ?",
+   "bn": "তোমার ছবিগুলো আমাকে একটু দেখাবে?"
+  },
+  {
+   "text": "Sure, I will show you tonight.",
+   "pron_bn": "শিওর, আই উইল শো ইউ টুনাইট",
+   "bn": "অবশ্যই, আজ রাতে তোমাকে দেখাবো।"
+  },
+  {
+   "text": "Did Rafi enjoy the boat ride?",
+   "pron_bn": "ডিড রাফি এনজয় দ্য বোট রাইড?",
+   "bn": "রাফি কি নৌকায় ঘুরে মজা পেয়েছিল?"
+  },
+  {
+   "text": "Yes, he liked it very much.",
+   "pron_bn": "ইয়েস, হি লাইকড ইট ভেরি মাচ",
+   "bn": "হ্যাঁ, তার খুব ভালো লেগেছিল।"
+  },
+  {
+   "text": "We met many old friends there.",
+   "pron_bn": "উই মেট মেনি ওল্ড ফ্রেন্ডস দেয়ার",
+   "bn": "সেখানে অনেক পুরোনো বন্ধুদের সাথে দেখা হয়েছিল।"
+  },
+  {
+   "text": "Please tell me about your village trip.",
+   "pron_bn": "প্লিজ টেল মি অ্যাবাউট ইওর ভিলেজ ট্রিপ",
+   "bn": "তোমাদের গ্রামে বেড়ানোর গল্পটা আমাকে বলো তো।"
+  },
+  {
+   "text": "Did Tanvir call you last night?",
+   "pron_bn": "ডিড তানভীর কল ইউ লাস্ট নাইট?",
+   "bn": "তানভীর কি গত রাতে তোমাকে ফোন করেছিল?"
+  },
+  {
+   "text": "Yes, he asked about our trip.",
+   "pron_bn": "ইয়েস, হি আস্কড অ্যাবাউট আওয়ার ট্রিপ",
+   "bn": "হ্যাঁ, সে আমাদের বেড়ানো সম্পর্কে জানতে চেয়েছিল।"
   }
  ],
  "reading": [

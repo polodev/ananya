@@ -83,7 +83,7 @@ def build(course_key, n):
     jp = ' class="jp"' if L.ja else ""
     title_say = f'<p class="sub-title">{say_btn(L.say(d["title"]), tts)}<span{jp}>{esc(d["title"])}</span></p>'
     S = [cover(f"{c['title']} · অধ্যায় {bn(n)}", esc(meta["title_bn"]), esc(d["intro_bn"]),
-               [f"{r_icon} {r_name} ({bn(len(d['reading']))} লাইন)", "🔤 ১০টি নতুন শব্দ", "🗣️ ১২টি দরকারি বাক্য",
+               [f"{r_icon} {r_name} ({bn(len(d['reading']))} লাইন)", "🔤 ১০টি নতুন শব্দ", f"🗣️ {bn(len(d['phrases']))}টি দরকারি বাক্য",
                 f"✏️ ব্যাকরণ: {esc(g['title_bn'])}", f"📝 {bn(len(g['quiz']) + 9)} প্রশ্নের কুইজ"], extra=title_say)]
 
     # each section = one full title slide, then card slides with no heading (app.js spreads cards so nothing scrolls)
@@ -97,7 +97,7 @@ def build(course_key, n):
     S.append(slide(cards([f'<div class="pt">{p}</div>' for p in g["points_bn"]]), "", "ব্যাকরণ"))   # <b> only, checked by validate.py
     S.append(slide(cards([L.line(x) for x in g["examples"]]), "", "উদাহরণ"))
     S.append(slide(f'<span class="chip">💡 টিপস</span><div class="callout">{esc(d["tip_bn"])}</div>'
-                   '<div class="callout warn">🎯 আজকের কাজ: ১২টি বাক্যের মধ্যে ৩টি বেছে নিয়ে নিজের জীবনের কথা দিয়ে বদলে বলো।</div>', "", "টিপস"))
+                   '<div class="callout warn">🎯 আজকের কাজ: বাক্যগুলোর মধ্যে ৩টি বেছে নিয়ে নিজের জীবনের কথা দিয়ে বদলে বলো।</div>', "", "টিপস"))
     S.append(quiz_slide(quiz_for(course_key, n, d, L)))
 
     chs = c["chapters"]

@@ -6,6 +6,7 @@ import shutil
 
 from curriculum import COURSES, LANGS
 from engine import ROOT, SITE_NAME, SITE_NAME_EN, bn, esc, footer, page, write
+import site_builder
 import site_letters
 import site_topic
 
@@ -15,12 +16,14 @@ def courses_of(lang):
 
 
 def counts(c):
+    if c["chapters"][0]["kind"] == "builder":
+        return f"{bn(len(c['chapters']))} অধ্যায় · {bn(len(c['chapters']) * 10)}টি বাক্য, ধাপে ধাপে"
     letters = sum(ch["kind"] == "letters" for ch in c["chapters"])
     topics = len(c["chapters"]) - letters
     parts = [f"{bn(len(c['chapters']))} অধ্যায়"]
     if letters:
         parts.append(f"{bn(letters)}টি অক্ষর-সংখ্যার")
-    parts.append(f"{bn(topics * 10)} শব্দ · {bn(topics * 12)} বাক্য")
+    parts.append(f"{bn(topics * 10)} শব্দ · {bn(topics * 40)} বাক্য")
     return " · ".join(parts)
 
 
@@ -52,7 +55,13 @@ def course_page(ck, c):
     v = LANGS[c["lang"]]
     rows = []
     for n, ch in enumerate(c["chapters"], 1):
-        if ch["kind"] == "topic":
+        if ch["kind"] == "builder":
+            if not site_builder.ready(n):
+                rows.append(f'<div class="day locked"><span class="n">অধ্যায়<b>{bn(n)}</b></span><span class="t"><b>{esc(ch["title_bn"])}</b>'
+                            f'<span>{ch["level"]} · 🔒 শীঘ্রই আসছে</span></span></div>')
+                continue
+            sub = f'{ch["level"]} · {site_builder.load(n)["title"]}'
+        elif ch["kind"] == "topic":
             d = site_topic.load(ck, n)
             sub = f'{d["title"]} · {d["grammar"]["title_bn"]}'
         else:
@@ -93,6 +102,8 @@ if __name__ == "__main__":
     for ck, c in COURSES.items():
         course_page(ck, c)
         for n, ch in enumerate(c["chapters"], 1):
-            (site_topic.build if ch["kind"] == "topic" else site_letters.build)(ck, n)
+            if ch["kind"] == "builder" and not site_builder.ready(n):
+                continue
+            {"topic": site_topic.build, "letters": site_letters.build, "builder": site_builder.build}[ch["kind"]](ck, n)
     not_found()
     print(f"built {sum(1 for _ in ROOT.rglob('index.html'))} pages")

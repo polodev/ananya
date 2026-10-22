@@ -126,6 +126,146 @@
    "bn": "তোমার ভ্রমণের গল্পটা বলো তো।",
    "pron_bn": "টেল মি অ্যাবাউট ইয়োর ট্রিপ, প্লিজ।",
    "text": "Tell me about your trip, please."
+  },
+  {
+   "text": "Have you ever travelled by train alone?",
+   "pron_bn": "হ্যাভ ইউ এভার ট্র্যাভেলড বাই ট্রেন অ্যালোন?",
+   "bn": "তুমি কি কখনো একা ট্রেনে ভ্রমণ করেছো?"
+  },
+  {
+   "text": "I have never seen the sea before.",
+   "pron_bn": "আই হ্যাভ নেভার সিন দা সি বিফোর",
+   "bn": "আমি আগে কখনো সমুদ্র দেখিনি।"
+  },
+  {
+   "text": "Have you ever tried Thai food at home?",
+   "pron_bn": "হ্যাভ ইউ এভার ট্রাইড থাই ফুড অ্যাট হোম?",
+   "bn": "তুমি কি বাসায় কখনো থাই খাবার খেয়ে দেখেছো?"
+  },
+  {
+   "text": "We have just come back from Cox's Bazar.",
+   "pron_bn": "উই হ্যাভ জাস্ট কাম ব্যাক ফ্রম কক্সেস বাজার",
+   "bn": "আমরা এইমাত্র কক্সবাজার থেকে ফিরে এসেছি।"
+  },
+  {
+   "text": "Has Mitu ever flown in a plane?",
+   "pron_bn": "হ্যাজ মিতু এভার ফ্লোন ইন আ প্লেন?",
+   "bn": "মিতু কি কখনো প্লেনে চড়েছে?"
+  },
+  {
+   "text": "I have never eaten pizza with friends.",
+   "pron_bn": "আই হ্যাভ নেভার ইটেন পিজা উইথ ফ্রেন্ডস",
+   "bn": "আমি বন্ধুদের সাথে কখনো পিৎজা খাইনি।"
+  },
+  {
+   "text": "Have you ever stayed in a hotel?",
+   "pron_bn": "হ্যাভ ইউ এভার স্টেইড ইন আ হোটেল?",
+   "bn": "তুমি কি কখনো হোটেলে থেকেছো?"
+  },
+  {
+   "text": "Rafi has tried new cakes many times.",
+   "pron_bn": "রাফি হ্যাজ ট্রাইড নিউ কেকস মেনি টাইমস",
+   "bn": "রাফি অনেকবার নতুন কেক খেয়ে দেখেছে।"
+  },
+  {
+   "text": "Could you share your travel story, please?",
+   "pron_bn": "কুড ইউ শেয়ার ইয়োর ট্র্যাভেল স্টোরি, প্লিজ?",
+   "bn": "তোমার ভ্রমণের গল্পটা একটু বলবে, প্লিজ?"
+  },
+  {
+   "text": "Have you ever visited a new city alone?",
+   "pron_bn": "হ্যাভ ইউ এভার ভিজিটেড আ নিউ সিটি অ্যালোন?",
+   "bn": "তুমি কি কখনো একা কোনো নতুন শহরে গিয়েছো?"
+  },
+  {
+   "text": "I have just tasted fresh orange juice today.",
+   "pron_bn": "আই হ্যাভ জাস্ট টেস্টেড ফ্রেশ অরেঞ্জ জুস টুডে",
+   "bn": "আমি আজই টাটকা কমলার জুস খেয়ে দেখেছি।"
+  },
+  {
+   "text": "Has Tanvir ever cooked noodles for guests?",
+   "pron_bn": "হ্যাজ তানভির এভার কুকড নুডলস ফর গেস্টস?",
+   "bn": "তানভির কি মেহমানদের জন্য কখনো নুডলস রান্না করেছে?"
+  },
+  {
+   "text": "I have never ridden a bicycle in Dhaka.",
+   "pron_bn": "আই হ্যাভ নেভার রিডেন আ বাইসাইকেল ইন ঢাকা",
+   "bn": "আমি ঢাকায় কখনো সাইকেল চালাইনি।"
+  },
+  {
+   "text": "Have you ever eaten street food at night?",
+   "pron_bn": "হ্যাভ ইউ এভার ইটেন স্ট্রিট ফুড অ্যাট নাইট?",
+   "bn": "তুমি কি রাতে কখনো রাস্তার খাবার খেয়েছো?"
+  },
+  {
+   "text": "Nadia has never travelled by boat before.",
+   "pron_bn": "নাদিয়া হ্যাজ নেভার ট্র্যাভেলড বাই বোট বিফোর",
+   "bn": "নাদিয়া আগে কখনো নৌকায় ঘুরতে যায়নি।"
+  },
+  {
+   "text": "We have never tried Japanese food together.",
+   "pron_bn": "উই হ্যাভ নেভার ট্রাইড জাপানিজ ফুড টুগেদার",
+   "bn": "আমরা একসাথে কখনো জাপানি খাবার খেয়ে দেখিনি।"
+  },
+  {
+   "text": "Have you ever made tea for guests?",
+   "pron_bn": "হ্যাভ ইউ এভার মেইড টি ফর গেস্টস?",
+   "bn": "তুমি কি মেহমানদের জন্য কখনো চা বানিয়েছো?"
+  },
+  {
+   "text": "Please tell me about your best trip.",
+   "pron_bn": "প্লিজ টেল মি অ্যাবাউট ইয়োর বেস্ট ট্রিপ",
+   "bn": "তোমার সবচেয়ে ভালো ভ্রমণটা সম্পর্কে আমাকে বলো, প্লিজ।"
+  },
+  {
+   "text": "I have visited my village three times.",
+   "pron_bn": "আই হ্যাভ ভিজিটেড মাই ভিলেজ থ্রি টাইমস",
+   "bn": "আমি আমার গ্রামে তিনবার গিয়েছি।"
+  },
+  {
+   "text": "Has Rafi ever seen a cricket match live?",
+   "pron_bn": "হ্যাজ রাফি এভার সিন আ ক্রিকেট ম্যাচ লাইভ?",
+   "bn": "রাফি কি কখনো সরাসরি ক্রিকেট খেলা দেখেছে?"
+  },
+  {
+   "text": "We have just tried a new restaurant nearby.",
+   "pron_bn": "উই হ্যাভ জাস্ট ট্রাইড আ নিউ রেস্টুরেন্ট নিয়ারবাই",
+   "bn": "আমরা এইমাত্র কাছের একটা নতুন রেস্টুরেন্টে খেয়ে দেখেছি।"
+  },
+  {
+   "text": "Have you ever learned to swim in summer?",
+   "pron_bn": "হ্যাভ ইউ এভার লার্নড টু সুইম ইন সামার?",
+   "bn": "তুমি কি গরমকালে কখনো সাঁতার শিখেছো?"
+  },
+  {
+   "text": "Mitu has never left the country before.",
+   "pron_bn": "মিতু হ্যাজ নেভার লেফট দা কান্ট্রি বিফোর",
+   "bn": "মিতু আগে কখনো দেশের বাইরে যায়নি।"
+  },
+  {
+   "text": "Could you please show me your holiday photos?",
+   "pron_bn": "কুড ইউ প্লিজ শো মি ইয়োর হলিডে ফোটোস?",
+   "bn": "তুমি কি আমাকে তোমার ছুটির ছবিগুলো দেখাবে?"
+  },
+  {
+   "text": "I have never tried cooking Italian pasta.",
+   "pron_bn": "আই হ্যাভ নেভার ট্রাইড কুকিং ইতালিয়ান পাস্তা",
+   "bn": "আমি কখনো ইতালিয়ান পাস্তা রান্না করে দেখিনি।"
+  },
+  {
+   "text": "Have you ever walked by the river alone?",
+   "pron_bn": "হ্যাভ ইউ এভার ওয়াকড বাই দা রিভার অ্যালোন?",
+   "bn": "তুমি কি কখনো একা নদীর পাশে হেঁটেছো?"
+  },
+  {
+   "text": "Tanvir has just come back from Sylhet.",
+   "pron_bn": "তানভির হ্যাজ জাস্ট কাম ব্যাক ফ্রম সিলেট",
+   "bn": "তানভির এইমাত্র সিলেট থেকে ফিরেছে।"
+  },
+  {
+   "text": "We have always enjoyed family trips together.",
+   "pron_bn": "উই হ্যাভ অলওয়েজ এনজয়েড ফ্যামিলি ট্রিপস টুগেদার",
+   "bn": "আমরা সবসময় একসাথে পারিবারিক ভ্রমণে আনন্দ পেয়েছি।"
   }
  ],
  "reading": [

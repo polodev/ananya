@@ -126,6 +126,146 @@
    "bn": "পাঁচটার মধ্যে কাজ শেষ হলে চায়ের দোকানে দেখা করি।",
    "pron_bn": "",
    "text": "Let's meet at the tea stall if you finish work by five."
+  },
+  {
+   "text": "If you update the app now, it will work much faster today.",
+   "pron_bn": "",
+   "bn": "এখন অ্যাপটা আপডেট করে নিলে আজই অনেক দ্রুত চলবে।"
+  },
+  {
+   "text": "Will you show me how to lock my apps with fingerprints?",
+   "pron_bn": "",
+   "bn": "ফিঙ্গারপ্রিন্ট দিয়ে অ্যাপ লক করার নিয়মটা আমাকে দেখিয়ে দেবে?"
+  },
+  {
+   "text": "If I turn on two-step verification, my account will stay safer.",
+   "pron_bn": "",
+   "bn": "টু-স্টেপ ভেরিফিকেশন চালু করলে আমার অ্যাকাউন্ট আরও নিরাপদ থাকবে।"
+  },
+  {
+   "text": "Please do not share your location with strangers on Facebook.",
+   "pron_bn": "",
+   "bn": "ফেসবুকে অচেনা কারও সঙ্গে নিজের লোকেশন শেয়ার কোরো না।"
+  },
+  {
+   "text": "If Rafi sends you a payment link, will you check it first?",
+   "pron_bn": "",
+   "bn": "রাফি কোনো পেমেন্ট লিংক পাঠালে তুমি কি আগে যাচাই করে নেবে?"
+  },
+  {
+   "text": "My storage is almost full, so I will delete old videos soon.",
+   "pron_bn": "",
+   "bn": "ফোনের জায়গা প্রায় শেষ, তাই পুরোনো ভিডিওগুলো মুছে ফেলব।"
+  },
+  {
+   "text": "If you use free Wi-Fi, will your banking app stay safe there?",
+   "pron_bn": "",
+   "bn": "ফ্রি ওয়াই-ফাই ব্যবহার করলে তোমার ব্যাংকিং অ্যাপ কি নিরাপদ থাকবে?"
+  },
+  {
+   "text": "Could you please help me set a strong password for Gmail?",
+   "pron_bn": "",
+   "bn": "জিমেইলের জন্য শক্তিশালী পাসওয়ার্ড দিতে আমাকে একটু সাহায্য করবে?"
+  },
+  {
+   "text": "If Mitu calls on video, I will join the meeting from home.",
+   "pron_bn": "",
+   "bn": "মিতু ভিডিও কল করলে আমি বাসা থেকেই মিটিংয়ে যোগ দেব।"
+  },
+  {
+   "text": "Yes, I always check reviews before I download shopping apps.",
+   "pron_bn": "",
+   "bn": "হ্যাঁ, কেনাকাটার অ্যাপ নামানোর আগে আমি সবসময় রিভিউ দেখে নিই।"
+  },
+  {
+   "text": "If my internet is slow, will the class video still work well?",
+   "pron_bn": "",
+   "bn": "আমার ইন্টারনেট স্লো থাকলে ক্লাসের ভিডিও কি ঠিকমতো চলবে?"
+  },
+  {
+   "text": "Please turn on auto-lock so nobody can open your private photos.",
+   "pron_bn": "",
+   "bn": "অটো-লক চালু রাখো, যাতে কেউ তোমার ব্যক্তিগত ছবি খুলতে না পারে।"
+  },
+  {
+   "text": "If Tanvir forgets his PIN, he will visit the bank tomorrow morning.",
+   "pron_bn": "",
+   "bn": "তানভীর পিন ভুলে গেলে সে আগামীকাল সকালে ব্যাংকে যাবে।"
+  },
+  {
+   "text": "How can I block spam calls that disturb me every single night?",
+   "pron_bn": "",
+   "bn": "প্রতিরাতে বিরক্ত করা স্প্যাম কলগুলো আমি কীভাবে ব্লক করব?"
+  },
+  {
+   "text": "If you charge your phone overnight, will the battery stay healthy?",
+   "pron_bn": "",
+   "bn": "সারারাত ফোনে চার্জ দিলে ব্যাটারি কি ভালো থাকবে?"
+  },
+  {
+   "text": "Nadia will send the office files if you share your email address.",
+   "pron_bn": "",
+   "bn": "তুমি ইমেইল ঠিকানা দিলে নাদিয়া অফিসের ফাইলগুলো পাঠিয়ে দেবে।"
+  },
+  {
+   "text": "Please be careful, because fake shops often steal money through bKash.",
+   "pron_bn": "",
+   "bn": "সাবধানে থাকো, কারণ ভুয়া দোকানগুলো প্রায়ই বিকাশে টাকা হাতিয়ে নেয়।"
+  },
+  {
+   "text": "If I lose my phone, I will lock it from my computer quickly.",
+   "pron_bn": "",
+   "bn": "ফোন হারিয়ে গেলে আমি কম্পিউটার থেকে দ্রুত লক করে দেব।"
+  },
+  {
+   "text": "Can you show me where to report a fake Facebook page easily?",
+   "pron_bn": "",
+   "bn": "ভুয়া ফেসবুক পেজ কোথায় রিপোর্ট করতে হয়, সহজে দেখিয়ে দেবে?"
+  },
+  {
+   "text": "If we use the same password everywhere, hackers will steal it easily.",
+   "pron_bn": "",
+   "bn": "সব জায়গায় একই পাসওয়ার্ড ব্যবহার করলে হ্যাকাররা সহজে চুরি করে নেবে।"
+  },
+  {
+   "text": "I will back up my photos tonight so I do not lose them.",
+   "pron_bn": "",
+   "bn": "ছবিগুলো যাতে না হারায়, তাই আজ রাতেই ব্যাকআপ নিয়ে রাখব।"
+  },
+  {
+   "text": "If you get an OTP you did not ask for, will you ignore it?",
+   "pron_bn": "",
+   "bn": "না চাইতেই কোনো ওটিপি এলে তুমি কি সেটা উপেক্ষা করবে?"
+  },
+  {
+   "text": "Could you please turn down the brightness to save my battery charge?",
+   "pron_bn": "",
+   "bn": "চার্জ বাঁচাতে স্ক্রিনের আলোটা একটু কমিয়ে দেবে?"
+  },
+  {
+   "text": "If Nadia shares the Wi-Fi password, I will join the online class.",
+   "pron_bn": "",
+   "bn": "নাদিয়া ওয়াই-ফাই পাসওয়ার্ড দিলে আমি অনলাইন ক্লাসে ঢুকব।"
+  },
+  {
+   "text": "Yes, my uncle opened a strange message and got phone problems.",
+   "pron_bn": "",
+   "bn": "হ্যাঁ, আমার চাচা একটা অদ্ভুত মেসেজ খুলে ফোনে সমস্যা বাঁধিয়েছেন।"
+  },
+  {
+   "text": "If it rains today, will you still order food through the app?",
+   "pron_bn": "",
+   "bn": "আজ বৃষ্টি হলে তুমি কি তবু অ্যাপে খাবার অর্ডার করবে?"
+  },
+  {
+   "text": "Please check the sender's number before you reply to any message.",
+   "pron_bn": "",
+   "bn": "কোনো মেসেজের উত্তর দেওয়ার আগে পাঠানোর নম্বরটা দেখে নাও।"
+  },
+  {
+   "text": "If Tanvir buys more data, we will watch the cricket match live.",
+   "pron_bn": "",
+   "bn": "তানভীর আরও ডেটা কিনলে আমরা সরাসরি ক্রিকেট খেলা দেখব।"
   }
  ],
  "reading": [

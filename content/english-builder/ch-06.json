@@ -1,0 +1,237 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি প্রথমে to দিয়ে উদ্দেশ্য, তারপর because দিয়ে কারণ যোগ করলে।",
+   "steps": [
+    {
+     "bn": "রাফি কঠোর পরিশ্রম করে।",
+     "pron_bn": "রাফি ওয়ার্কস হার্ড।",
+     "text": "Rafi works hard."
+    },
+    {
+     "bn": "রাফি টাকা জমাতে কঠোর পরিশ্রম করে।",
+     "pron_bn": "রাফি ওয়ার্কস হার্ড টু সেভ মানি।",
+     "text": "Rafi works hard to save money."
+    },
+    {
+     "bn": "রাফির পরিবার আছে বলে সে টাকা জমাতে কঠোর পরিশ্রম করে।",
+     "pron_bn": "রাফি ওয়ার্কস হার্ড টু সেভ মানি বিকজ হি হ্যাজ আ ফ্যামিলি।",
+     "text": "Rafi works hard to save money because he has a family."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি because দিয়ে কারণ আর so দিয়ে ফলাফল যোগ করলে।",
+   "steps": [
+    {
+     "bn": "মিতু ভাত রান্না করে।",
+     "pron_bn": "মিতু কুকস রাইস।",
+     "text": "Mitu cooks rice."
+    },
+    {
+     "bn": "তার মা ক্লান্ত বলে মিতু ভাত রান্না করে।",
+     "pron_bn": "মিতু কুকস রাইস বিকজ হার মাদার ইজ টায়ার্ড।",
+     "text": "Mitu cooks rice because her mother is tired."
+    },
+    {
+     "bn": "তার মা ক্লান্ত বলে মিতু ভাত রান্না করে, তাই তার মা বিশ্রাম নিতে পারে।",
+     "pron_bn": "মিতু কুকস রাইস বিকজ হার মাদার ইজ টায়ার্ড, সো হার মাদার ক্যান রেস্ট।",
+     "text": "Mitu cooks rice because her mother is tired, so her mother can rest."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to, because আর so দিয়ে ভ্রমণের কথা বড় করলে।",
+   "steps": [
+    {
+     "bn": "তানভীর গ্রামে গেল।",
+     "pron_bn": "তানভীর ওয়েন্ট টু দা ভিলেজ।",
+     "text": "Tanvir went to the village."
+    },
+    {
+     "bn": "তানভীর তার বাবা-মায়ের সাথে দেখা করতে গ্রামে গেল।",
+     "pron_bn": "তানভীর ওয়েন্ট টু দা ভিলেজ টু মিট হিজ প্যারেন্টস।",
+     "text": "Tanvir went to the village to meet his parents."
+    },
+    {
+     "bn": "ছুটি ছিল বলে তানভীর তার বাবা-মায়ের সাথে দেখা করতে গ্রামে গেল।",
+     "pron_bn": "তানভীর ওয়েন্ট টু দা ভিলেজ টু মিট হিজ প্যারেন্টস বিকজ ইট ওয়াজ আ হলিডে।",
+     "text": "Tanvir went to the village to meet his parents because it was a holiday."
+    },
+    {
+     "bn": "ছুটি ছিল বলে তানভীর তার বাবা-মায়ের সাথে দেখা করতে গ্রামে গেল, তাই সে খুব খুশি ছিল।",
+     "pron_bn": "তানভীর ওয়েন্ট টু দা ভিলেজ টু মিট হিজ প্যারেন্টস বিকজ ইট ওয়াজ আ হলিডে, সো হি ওয়াজ ভেরি হ্যাপি।",
+     "text": "Tanvir went to the village to meet his parents because it was a holiday, so he was very happy."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to, because আর so দিয়ে পড়ার কারণ ও ফল বললে।",
+   "steps": [
+    {
+     "bn": "নাদিয়া প্রতি রাতে পড়াশোনা করে।",
+     "pron_bn": "নাদিয়া স্টাডিজ এভরি নাইট।",
+     "text": "Nadia studies every night."
+    },
+    {
+     "bn": "নাদিয়া ইংরেজি শিখতে প্রতি রাতে পড়াশোনা করে।",
+     "pron_bn": "নাদিয়া স্টাডিজ এভরি নাইট টু লার্ন ইংলিশ।",
+     "text": "Nadia studies every night to learn English."
+    },
+    {
+     "bn": "ভালো চাকরি চায় বলে নাদিয়া ইংরেজি শিখতে প্রতি রাতে পড়াশোনা করে।",
+     "pron_bn": "নাদিয়া স্টাডিজ এভরি নাইট টু লার্ন ইংলিশ বিকজ শি ওয়ান্টস আ গুড জব।",
+     "text": "Nadia studies every night to learn English because she wants a good job."
+    },
+    {
+     "bn": "ভালো চাকরি চায় বলে নাদিয়া ইংরেজি শিখতে প্রতি রাতে পড়াশোনা করে, তাই সে খুব পরিশ্রম করে।",
+     "pron_bn": "নাদিয়া স্টাডিজ এভরি নাইট টু লার্ন ইংলিশ বিকজ শি ওয়ান্টস আ গুড জব, সো শি ওয়ার্কস ভেরি হার্ড।",
+     "text": "Nadia studies every night to learn English because she wants a good job, so she works very hard."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to, because আর so দিয়ে স্বাস্থ্যের কথা বাড়ালে।",
+   "steps": [
+    {
+     "bn": "আমি সকালে হাঁটি।",
+     "pron_bn": "আই ওয়াক ইন দা মর্নিং।",
+     "text": "I walk in the morning."
+    },
+    {
+     "bn": "সুস্থ থাকতে আমি সকালে হাঁটি।",
+     "pron_bn": "আই ওয়াক ইন দা মর্নিং টু স্টে হেলদি।",
+     "text": "I walk in the morning to stay healthy."
+    },
+    {
+     "bn": "সারাদিন বসে থাকি বলে সুস্থ থাকতে আমি সকালে হাঁটি।",
+     "pron_bn": "আই ওয়াক ইন দা মর্নিং টু স্টে হেলদি বিকজ আই সিট অল ডে।",
+     "text": "I walk in the morning to stay healthy because I sit all day."
+    },
+    {
+     "bn": "সারাদিন বসে থাকি বলে সুস্থ থাকতে আমি সকালে হাঁটি, তাই আমি ভালো বোধ করি।",
+     "pron_bn": "আই ওয়াক ইন দা মর্নিং টু স্টে হেলদি বিকজ আই সিট অল ডে, সো আই ফিল বেটার।",
+     "text": "I walk in the morning to stay healthy because I sit all day, so I feel better."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to, because আর so দিয়ে বাজারের কথা বললে।",
+   "steps": [
+    {
+     "bn": "আমরা বাজারে গেলাম।",
+     "pron_bn": "উই ওয়েন্ট টু দা মার্কেট।",
+     "text": "We went to the market."
+    },
+    {
+     "bn": "মাছ কিনতে আমরা বাজারে গেলাম।",
+     "pron_bn": "উই ওয়েন্ট টু দা মার্কেট টু বাই ফিশ।",
+     "text": "We went to the market to buy fish."
+    },
+    {
+     "bn": "মেহমান আসছে বলে মাছ কিনতে আমরা বাজারে গেলাম।",
+     "pron_bn": "উই ওয়েন্ট টু দা মার্কেট টু বাই ফিশ বিকজ গেস্টস আর কামিং।",
+     "text": "We went to the market to buy fish because guests are coming."
+    },
+    {
+     "bn": "মেহমান আসছে বলে মাছ কিনতে আমরা বাজারে গেলাম, তাই আমরা রিকশা নিলাম।",
+     "pron_bn": "উই ওয়েন্ট টু দা মার্কেট টু বাই ফিশ বিকজ গেস্টস আর কামিং, সো উই টুক আ রিকশা।",
+     "text": "We went to the market to buy fish because guests are coming, so we took a rickshaw."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি because দিয়ে কারণ আর so দিয়ে ফল বোঝালে।",
+   "steps": [
+    {
+     "bn": "গতকাল বৃষ্টি হয়েছিল।",
+     "pron_bn": "ইট রেইন্ড ইয়েস্টারডে।",
+     "text": "It rained yesterday."
+    },
+    {
+     "bn": "এখন বর্ষাকাল বলে গতকাল বৃষ্টি হয়েছিল।",
+     "pron_bn": "ইট রেইন্ড ইয়েস্টারডে বিকজ ইট ইজ দা রেইনি সিজন।",
+     "text": "It rained yesterday because it is the rainy season."
+    },
+    {
+     "bn": "এখন বর্ষাকাল বলে গতকাল বৃষ্টি হয়েছিল, তাই রাস্তা ভেজা ছিল।",
+     "pron_bn": "ইট রেইন্ড ইয়েস্টারডে বিকজ ইট ইজ দা রেইনি সিজন, সো দা রোডস ওয়্যার ওয়েট।",
+     "text": "It rained yesterday because it is the rainy season, so the roads were wet."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to, because আর so দিয়ে ফোনের ব্যবহার বোঝালে।",
+   "steps": [
+    {
+     "bn": "আমি আমার ফোন ব্যবহার করি।",
+     "pron_bn": "আই ইউজ মাই ফোন।",
+     "text": "I use my phone."
+    },
+    {
+     "bn": "ভাইয়ের সাথে কথা বলতে আমি আমার ফোন ব্যবহার করি।",
+     "pron_bn": "আই ইউজ মাই ফোন টু টক টু মাই ব্রাদার।",
+     "text": "I use my phone to talk to my brother."
+    },
+    {
+     "bn": "আমার ভাই দূরে থাকে বলে তার সাথে কথা বলতে আমি ফোন ব্যবহার করি।",
+     "pron_bn": "আই ইউজ মাই ফোন টু টক টু মাই ব্রাদার বিকজ হি লিভস ফার অ্যাওয়ে।",
+     "text": "I use my phone to talk to my brother because he lives far away."
+    },
+    {
+     "bn": "আমার ভাই দূরে থাকে বলে তার সাথে কথা বলতে আমি ফোন ব্যবহার করি, তাই আমরা প্রতি রাতে কথা বলি।",
+     "pron_bn": "আই ইউজ মাই ফোন টু টক টু মাই ব্রাদার বিকজ হি লিভস ফার অ্যাওয়ে, সো উই টক এভরি নাইট।",
+     "text": "I use my phone to talk to my brother because he lives far away, so we talk every night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to, because আর so দিয়ে অফিস যাওয়ার কথা বললে।",
+   "steps": [
+    {
+     "bn": "রাফি বাসে যায়।",
+     "pron_bn": "রাফি টেকস দা বাস।",
+     "text": "Rafi takes the bus."
+    },
+    {
+     "bn": "কাজে যেতে রাফি বাসে যায়।",
+     "pron_bn": "রাফি টেকস দা বাস টু গো টু ওয়ার্ক।",
+     "text": "Rafi takes the bus to go to work."
+    },
+    {
+     "bn": "অফিস দূরে বলে কাজে যেতে রাফি বাসে যায়।",
+     "pron_bn": "রাফি টেকস দা বাস টু গো টু ওয়ার্ক বিকজ হিজ অফিস ইজ ফার।",
+     "text": "Rafi takes the bus to go to work because his office is far."
+    },
+    {
+     "bn": "অফিস দূরে বলে কাজে যেতে রাফি বাসে যায়, তাই সে তাড়াতাড়ি বাসা থেকে বের হয়।",
+     "pron_bn": "রাফি টেকস দা বাস টু গো টু ওয়ার্ক বিকজ হিজ অফিস ইজ ফার, সো হি লিভস হোম আর্লি।",
+     "text": "Rafi takes the bus to go to work because his office is far, so he leaves home early."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি to দিয়ে উদ্দেশ্য আর because দিয়ে কারণ বোঝালে।",
+   "steps": [
+    {
+     "bn": "তারা ধান চাষ করে।",
+     "pron_bn": "দে গ্রো রাইস।",
+     "text": "They grow rice."
+    },
+    {
+     "bn": "পরিবারকে খাওয়াতে তারা ধান চাষ করে।",
+     "pron_bn": "দে গ্রো রাইস টু ফিড দা ফ্যামিলি।",
+     "text": "They grow rice to feed the family."
+    },
+    {
+     "bn": "জমি ভালো বলে পরিবারকে খাওয়াতে তারা ধান চাষ করে।",
+     "pron_bn": "দে গ্রো রাইস টু ফিড দা ফ্যামিলি বিকজ দা ল্যান্ড ইজ গুড।",
+     "text": "They grow rice to feed the family because the land is good."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি because, so আর to দিয়ে বাক্য বড় করা শিখবে। তুমি ছোট বাক্যে কারণ ও উদ্দেশ্য যোগ করবে।",
+ "tip_bn": "কারণ বলতে তুমি because আর ফলাফল বলতে so ব্যবহার করবে। উদ্দেশ্য বলতে তুমি verb-এর আগে to বসাবে।",
+ "title": "Because, So and To"
+}

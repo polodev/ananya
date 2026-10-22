@@ -17,6 +17,11 @@ def ch(title_bn, topic, grammar, kind="topic"):
     return dict(title_bn=title_bn, topic=topic, grammar=grammar, kind=kind)
 
 
+def bch(level, title_bn, focus):
+    """a Sentence Builder chapter: 10 builders, each grows one sentence in 3-5 steps."""
+    return dict(title_bn=title_bn, topic=focus, grammar=focus, kind="builder", level=level)
+
+
 COURSES = {
     # ------------------------------------------------------------------ English
     "english/a2": dict(lang="english", level="A2", title="English A2", tag="রোজকার ইংরেজি",
@@ -70,6 +75,31 @@ COURSES = {
                            ch("আলোচনা ও দর-কষাকষি", "Negotiating salary, prices and agreements", "Modal perfects: should have, could have, must have, might have"),
                            ch("লক্ষ্য ও পরিবর্তন", "Ambition, habits and personal change", "Phrasal verbs and collocations (give up, take up, carry on, make progress)"),
                        ]),
+    "english/builder": dict(lang="english", level="A1–C2", title="Sentence Builder", tag="ছোট বাক্য থেকে বড় বাক্য",
+                            sub="একটা ছোট বাক্যে ধাপে ধাপে শব্দ যোগ করে বড় বাক্য বানানো",
+                            lead="I like tea → I like tea with milk → I like drinking tea with milk every morning. প্রতিটি অধ্যায়ে ১০টি বাক্য-নির্মাণ, প্রতিটিতে ৩–৫ ধাপ; প্রতি ধাপে নতুন অংশটা সবুজ। A1 থেকে C2 পর্যন্ত।",
+                            chapters=[
+                                bch("A1", "কে কী করে", "subject + verb + object; add an object or an adjective"),
+                                bch("A1", "কোথায় আর কখন", "add place (at home, in Dhaka) and time (every day, at night)"),
+                                bch("A1", "and আর but দিয়ে জোড়া", "join two short ideas with and / but; add adjectives"),
+                                bch("A2", "কত ঘন ঘন", "adverbs of frequency and time phrases (always, twice a week, on Fridays)"),
+                                bch("A2", "গতকালের গল্প", "past simple; add when, where, with whom"),
+                                bch("A2", "কারণ আর ফল", "because / so / to (purpose)"),
+                                bch("B1", "অভিজ্ঞতা", "present perfect with for / since / ever / already / yet"),
+                                bch("B1", "who, which, that দিয়ে বর্ণনা", "relative clauses that add detail to a noun"),
+                                bch("B1", "যদি…", "first and second conditionals (if + result)"),
+                                bch("B1", "কাজের উদ্দেশ্য আর পছন্দ", "gerunds and infinitives (enjoy doing, decide to do, in order to)"),
+                                bch("B2", "কাজটা করা হয়", "passive voice with agent, time and place"),
+                                bch("B2", "বৈপরীত্য", "although / despite / whereas / however"),
+                                bch("B2", "কে কী বলল", "reported speech and reporting verbs (claimed, suggested, warned)"),
+                                bch("B2", "এক বাক্যে দুই কাজ", "participle clauses (Having finished…, Walking home…)"),
+                                bch("C1", "বিশেষ্যকে সমৃদ্ধ করা", "long noun phrases and nominalisation (pre- and post-modifiers)"),
+                                bch("C1", "জোর দেওয়া", "inversion for emphasis (Not only…, Rarely…, Hardly…when)"),
+                                bch("C1", "যা দরকার তা হলো…", "cleft sentences and fronting (What I need is…, It was… that…)"),
+                                bch("C2", "সতর্ক ও সূক্ষ্ম কথা", "hedging and stance (arguably, tends to, it would appear that)"),
+                                bch("C2", "জটিল শর্ত", "mixed conditionals and formal inversion (Had I known…, Were it not for…, Should you…)"),
+                                bch("C2", "পেশাদার লম্বা বাক্য", "combining clauses into one precise professional or academic sentence"),
+                            ]),
     # ------------------------------------------------------------------ Japanese
     "japanese/a1": dict(lang="japanese", level="A1", title="Japanese A1", tag="শূন্য থেকে জাপানি",
                         sub="হিরাগানা, কাতাকানা, সংখ্যা, তারপর রোজকার কথা",

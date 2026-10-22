@@ -126,6 +126,146 @@
    "bn": "আমাকে আবার কখন আসতে হবে?",
    "pron_bn": "হোয়েন শুড আই কাম ব্যাক এগেইন?",
    "text": "When should I come back again?"
+  },
+  {
+   "text": "You should drink warm water every morning.",
+   "pron_bn": "ইউ শুড ড্রিংক ওয়ার্ম ওয়াটার এভরি মর্নিং",
+   "bn": "প্রতিদিন সকালে হালকা গরম পানি খাবেন।"
+  },
+  {
+   "text": "You shouldn't skip your morning medicine today.",
+   "pron_bn": "ইউ শুডন্ট স্কিপ ইয়োর মর্নিং মেডিসিন টুডে",
+   "bn": "আজ সকালের ওষুধটা বাদ দেবেন না।"
+  },
+  {
+   "text": "Should I take this tablet before breakfast?",
+   "pron_bn": "শুড আই টেক দিস ট্যাবলেট বিফোর ব্রেকফাস্ট?",
+   "bn": "এই ট্যাবলেটটা কি সকালের নাশতার আগে খাব?"
+  },
+  {
+   "text": "I have a sore throat since yesterday.",
+   "pron_bn": "আই হ্যাভ আ সোর থ্রোট সিন্স ইয়েস্টারডে",
+   "bn": "গতকাল থেকে আমার গলা ব্যথা করছে।"
+  },
+  {
+   "text": "My stomach hurts after eating outside food.",
+   "pron_bn": "মাই স্টমাক হার্টস আফটার ইটিং আউটসাইড ফুড",
+   "bn": "বাইরের খাবার খেয়ে আমার পেট ব্যথা করছে।"
+  },
+  {
+   "text": "Can I get this medicine without prescription?",
+   "pron_bn": "ক্যান আই গেট দিস মেডিসিন উইদাউট প্রেসক্রিপশন?",
+   "bn": "প্রেসক্রিপশন ছাড়া কি এই ওষুধটা পাব?"
+  },
+  {
+   "text": "How many days should I take this?",
+   "pron_bn": "হাউ মেনি ডেজ শুড আই টেক দিস?",
+   "bn": "আমি এটা কয়দিন খাব?"
+  },
+  {
+   "text": "You should eat light food for two days.",
+   "pron_bn": "ইউ শুড ইট লাইট ফুড ফর টু ডেজ",
+   "bn": "দুই দিন হালকা খাবার খাবেন।"
+  },
+  {
+   "text": "You shouldn't eat too much oily food now.",
+   "pron_bn": "ইউ শুডন্ট ইট টু মাচ ওয়েলি ফুড নাউ",
+   "bn": "এখন বেশি তেলের খাবার খাবেন না।"
+  },
+  {
+   "text": "Do you have medicine for stomach pain?",
+   "pron_bn": "ডু ইউ হ্যাভ মেডিসিন ফর স্টমাক পেইন?",
+   "bn": "পেট ব্যথার কোনো ওষুধ আছে?"
+  },
+  {
+   "text": "My son has a high fever today.",
+   "pron_bn": "মাই সান হ্যাজ আ হাই ফিভার টুডে",
+   "bn": "আজ আমার ছেলের অনেক জ্বর।"
+  },
+  {
+   "text": "You should keep this syrup away from children.",
+   "pron_bn": "ইউ শুড কিপ দিস সিরাপ অ্যাওয়ে ফ্রম চিলড্রেন",
+   "bn": "এই সিরাপটা বাচ্চাদের থেকে দূরে রাখবেন।"
+  },
+  {
+   "text": "Please give me one strip of paracetamol.",
+   "pron_bn": "প্লিজ গিভ মি ওয়ান স্ট্রিপ অফ প্যারাসিটামল",
+   "bn": "দয়া করে আমাকে এক পাতা প্যারাসিটামল দিন।"
+  },
+  {
+   "text": "Should Mitu stay home from school today?",
+   "pron_bn": "শুড মিতু স্টে হোম ফ্রম স্কুল টুডে?",
+   "bn": "মিতু কি আজ স্কুলে না গিয়ে বাসায় থাকবে?"
+  },
+  {
+   "text": "Rafi should see the doctor this evening.",
+   "pron_bn": "রাফি শুড সি দা ডক্টর দিস ইভনিং",
+   "bn": "রাফির আজ সন্ধ্যায় ডাক্তার দেখানো উচিত।"
+  },
+  {
+   "text": "I feel dizzy when I stand up fast.",
+   "pron_bn": "আই ফিল ডিজি হোয়েন আই স্ট্যান্ড আপ ফাস্ট",
+   "bn": "তাড়াতাড়ি উঠে দাঁড়ালে আমার মাথা ঘোরে।"
+  },
+  {
+   "text": "You shouldn't worry, this is very common.",
+   "pron_bn": "ইউ শুডন্ট ওয়ারি, দিস ইজ ভেরি কমন",
+   "bn": "চিন্তা করবেন না, এটা খুব সাধারণ ব্যাপার।"
+  },
+  {
+   "text": "Take one spoon after lunch and dinner.",
+   "pron_bn": "টেক ওয়ান স্পুন আফটার লাঞ্চ অ্যান্ড ডিনার",
+   "bn": "দুপুর ও রাতের খাবারের পর এক চামচ করে খাবেন।"
+  },
+  {
+   "text": "Does this tablet have any side effects?",
+   "pron_bn": "ডাজ দিস ট্যাবলেট হ্যাভ এনি সাইড ইফেক্টস?",
+   "bn": "এই ট্যাবলেটের কি কোনো পার্শ্বপ্রতিক্রিয়া আছে?"
+  },
+  {
+   "text": "You should wear a mask outside the house.",
+   "pron_bn": "ইউ শুড ওয়্যার আ মাস্ক আউটসাইড দা হাউস",
+   "bn": "বাড়ির বাইরে গেলে মাস্ক পরবেন।"
+  },
+  {
+   "text": "How much does this cough syrup cost?",
+   "pron_bn": "হাউ মাচ ডাজ দিস কফ সিরাপ কস্ট?",
+   "bn": "এই কাশির সিরাপটার দাম কত?"
+  },
+  {
+   "text": "Nadia shouldn't walk in the cold rain.",
+   "pron_bn": "নাদিয়া শুডন্ট ওয়াক ইন দা কোল্ড রেইন",
+   "bn": "নাদিয়ার ঠান্ডা বৃষ্টিতে বাইরে হাঁটা ঠিক হবে না।"
+  },
+  {
+   "text": "I need something for my back pain.",
+   "pron_bn": "আই নিড সামথিং ফর মাই ব্যাক পেইন",
+   "bn": "আমার কোমর ব্যথার জন্য কিছু দরকার।"
+  },
+  {
+   "text": "You should finish all your medicine on time.",
+   "pron_bn": "ইউ শুড ফিনিশ অল ইয়োর মেডিসিন অন টাইম",
+   "bn": "সব ওষুধ সময়মতো শেষ করবেন।"
+  },
+  {
+   "text": "Can you write the dose on the box?",
+   "pron_bn": "ক্যান ইউ রাইট দা ডোজ অন দা বক্স?",
+   "bn": "বাক্সের ওপর খাওয়ার নিয়মটা লিখে দেবেন?"
+  },
+  {
+   "text": "Tanvir should drink more water during fever.",
+   "pron_bn": "তানভির শুড ড্রিংক মোর ওয়াটার ডিউরিং ফিভার",
+   "bn": "জ্বরের সময় তানভিরের বেশি করে পানি খাওয়া উচিত।"
+  },
+  {
+   "text": "You shouldn't give this to small children.",
+   "pron_bn": "ইউ শুডন্ট গিভ দিস টু স্মল চিলড্রেন",
+   "bn": "ছোট বাচ্চাদের এটা দেবেন না।"
+  },
+  {
+   "text": "When should I take my next dose?",
+   "pron_bn": "হোয়েন শুড আই টেক মাই নেক্সট ডোজ?",
+   "bn": "পরের ডোজটা কখন খাব?"
   }
  ],
  "reading": [

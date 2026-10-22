@@ -126,6 +126,146 @@
    "bn": "আপনারা আমাকে কবে ফোন করবেন?",
    "pron_bn": "হোয়েন উইল ইউ কল মি ব্যাক?",
    "text": "When will you call me back?"
+  },
+  {
+   "text": "Can you tell me about this job?",
+   "pron_bn": "ক্যান ইউ টেল মি অ্যাবাউট দিস জব?",
+   "bn": "আপনি কি আমাকে এই চাকরিটা সম্পর্কে বলতে পারবেন?"
+  },
+  {
+   "text": "I can speak with customers very politely.",
+   "pron_bn": "আই ক্যান স্পিক উইথ কাস্টমার্স ভেরি পোলাইটলি।",
+   "bn": "আমি কাস্টমারদের সাথে খুব ভদ্রভাবে কথা বলতে পারি।"
+  },
+  {
+   "text": "I can type fast in English and Bangla.",
+   "pron_bn": "আই ক্যান টাইপ ফাস্ট ইন ইংলিশ অ্যান্ড বাংলা।",
+   "bn": "আমি ইংরেজি আর বাংলায় দ্রুত টাইপ করতে পারি।"
+  },
+  {
+   "text": "Can you work on the weekend sometimes?",
+   "pron_bn": "ক্যান ইউ ওয়ার্ক অন দ্য উইকএন্ড সামটাইমস?",
+   "bn": "আপনি কি মাঝে মাঝে ছুটির দিনে কাজ করতে পারবেন?"
+  },
+  {
+   "text": "Sorry, I can't come on Saturday morning.",
+   "pron_bn": "সরি, আই কান্ট কাম অন স্যাটারডে মর্নিং।",
+   "bn": "দুঃখিত, আমি শনিবার সকালে আসতে পারব না।"
+  },
+  {
+   "text": "What skills do I need for this job?",
+   "pron_bn": "হোয়াট স্কিলস ডু আই নিড ফর দিস জব?",
+   "bn": "এই চাকরির জন্য আমার কী কী দক্ষতা দরকার?"
+  },
+  {
+   "text": "Do I have to speak English every day?",
+   "pron_bn": "ডু আই হ্যাভ টু স্পিক ইংলিশ এভরি ডে?",
+   "bn": "আমাকে কি প্রতিদিন ইংরেজিতে কথা বলতে হবে?"
+  },
+  {
+   "text": "You have to be on time every day.",
+   "pron_bn": "ইউ হ্যাভ টু বি অন টাইম এভরি ডে।",
+   "bn": "তোমাকে প্রতিদিন সময়মতো আসতে হবে।"
+  },
+  {
+   "text": "You don't have to bring your own laptop.",
+   "pron_bn": "ইউ ডোন্ট হ্যাভ টু ব্রিং ইয়োর ওন ল্যাপটপ।",
+   "bn": "তোমাকে নিজের ল্যাপটপ আনতে হবে না।"
+  },
+  {
+   "text": "Can Rafi use office email and Excel?",
+   "pron_bn": "ক্যান রাফি ইউজ অফিস ইমেইল অ্যান্ড এক্সেল?",
+   "bn": "রাফি কি অফিসের ইমেইল আর এক্সেল ব্যবহার করতে পারে?"
+  },
+  {
+   "text": "Yes, he can write emails very well.",
+   "pron_bn": "ইয়েস, হি ক্যান রাইট ইমেইলস ভেরি ওয়েল।",
+   "bn": "হ্যাঁ, সে খুব ভালোভাবে ইমেইল লিখতে পারে।"
+  },
+  {
+   "text": "Mitu can't drive, but she can travel by bus.",
+   "pron_bn": "মিতু কান্ট ড্রাইভ, বাট শি ক্যান ট্রাভেল বাই বাস।",
+   "bn": "মিতু গাড়ি চালাতে পারে না, কিন্তু বাসে যাতায়াত করতে পারে।"
+  },
+  {
+   "text": "Do I have to work six days a week?",
+   "pron_bn": "ডু আই হ্যাভ টু ওয়ার্ক সিক্স ডেজ আ উইক?",
+   "bn": "আমাকে কি সপ্তাহে ছয় দিন কাজ করতে হবে?"
+  },
+  {
+   "text": "You have to wear clean office clothes daily.",
+   "pron_bn": "ইউ হ্যাভ টু ওয়্যার ক্লিন অফিস ক্লোদস ডেইলি।",
+   "bn": "তোমাকে প্রতিদিন পরিষ্কার অফিসের পোশাক পরতে হবে।"
+  },
+  {
+   "text": "You don't have to work on public holidays.",
+   "pron_bn": "ইউ ডোন্ট হ্যাভ টু ওয়ার্ক অন পাবলিক হলিডেজ।",
+   "bn": "সরকারি ছুটির দিনে তোমাকে কাজ করতে হবে না।"
+  },
+  {
+   "text": "Can I ask a question about the salary?",
+   "pron_bn": "ক্যান আই আস্ক আ কোয়েশ্চেন অ্যাবাউট দ্য স্যালারি?",
+   "bn": "বেতন নিয়ে আমি কি একটা প্রশ্ন করতে পারি?"
+  },
+  {
+   "text": "Please tell me when I have to join.",
+   "pron_bn": "প্লিজ টেল মি হোয়েন আই হ্যাভ টু জয়েন।",
+   "bn": "আমাকে কবে জয়েন করতে হবে দয়া করে জানাবেন।"
+  },
+  {
+   "text": "I can learn new work very quickly.",
+   "pron_bn": "আই ক্যান লার্ন নিউ ওয়ার্ক ভেরি কুইকলি।",
+   "bn": "আমি নতুন কাজ খুব তাড়াতাড়ি শিখতে পারি।"
+  },
+  {
+   "text": "Tanvir can speak Bangla, English, and Hindi.",
+   "pron_bn": "তানভীর ক্যান স্পিক বাংলা, ইংলিশ, অ্যান্ড হিন্দি।",
+   "bn": "তানভীর বাংলা, ইংরেজি আর হিন্দি বলতে পারে।"
+  },
+  {
+   "text": "Nadia can't work late, but she is honest.",
+   "pron_bn": "নাদিয়া কান্ট ওয়ার্ক লেট, বাট শি ইজ অনেস্ট।",
+   "bn": "নাদিয়া দেরি করে কাজ করতে পারে না, কিন্তু সে সৎ।"
+  },
+  {
+   "text": "Do I have to bring my certificates tomorrow?",
+   "pron_bn": "ডু আই হ্যাভ টু ব্রিং মাই সার্টিফিকেটস টুমরো?",
+   "bn": "আমাকে কি আগামীকাল আমার সার্টিফিকেটগুলো আনতে হবে?"
+  },
+  {
+   "text": "You have to meet the manager at ten.",
+   "pron_bn": "ইউ হ্যাভ টু মিট দ্য ম্যানেজার অ্যাট টেন।",
+   "bn": "তোমাকে সকাল দশটায় ম্যানেজারের সাথে দেখা করতে হবে।"
+  },
+  {
+   "text": "You don't have to pay any joining fee.",
+   "pron_bn": "ইউ ডোন্ট হ্যাভ টু পে এনি জয়েনিং ফি।",
+   "bn": "তোমাকে জয়েন করার জন্য কোনো টাকা দিতে হবে না।"
+  },
+  {
+   "text": "Can you send your CV by email today?",
+   "pron_bn": "ক্যান ইউ সেন্ড ইয়োর সিভি বাই ইমেইল টুডে?",
+   "bn": "আপনি কি আজ ইমেইলে আপনার সিভি পাঠাতে পারবেন?"
+  },
+  {
+   "text": "I can come for training next Monday.",
+   "pron_bn": "আই ক্যান কাম ফর ট্রেনিং নেক্সট মানডে।",
+   "bn": "আমি আগামী সোমবার ট্রেনিংয়ের জন্য আসতে পারব।"
+  },
+  {
+   "text": "How many hours do I have to work?",
+   "pron_bn": "হাউ মেনি আওয়ার্স ডু আই হ্যাভ টু ওয়ার্ক?",
+   "bn": "আমাকে কত ঘণ্টা কাজ করতে হবে?"
+  },
+  {
+   "text": "I can't answer the phone in English yet.",
+   "pron_bn": "আই কান্ট আনসার দ্য ফোন ইন ইংলিশ ইয়েট।",
+   "bn": "আমি এখনও ইংরেজিতে ফোনে কথা বলতে পারি না।"
+  },
+  {
+   "text": "Thank you, I can start from next week.",
+   "pron_bn": "থ্যাংক ইউ, আই ক্যান স্টার্ট ফ্রম নেক্সট উইক।",
+   "bn": "ধন্যবাদ, আমি আগামী সপ্তাহ থেকে কাজ শুরু করতে পারব।"
   }
  ],
  "reading": [

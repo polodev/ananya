@@ -126,6 +126,146 @@
    "bn": "চলো আগামী সপ্তাহে দেখা করে আমাদের পরিকল্পনা নিয়ে কথা বলি।",
    "pron_bn": "লেট আস মিট নেক্সট উইক অ্যান্ড ডিসকাস আওয়ার প্ল্যানস।",
    "text": "Let us meet next week and discuss our plans."
+  },
+  {
+   "text": "Are you going to join the wedding with me?",
+   "pron_bn": "আর ইউ গোয়িং টু জয়েন দ্য ওয়েডিং উইথ মি?",
+   "bn": "তুমি কি আমার সাথে বিয়েতে যোগ দিতে যাচ্ছ?"
+  },
+  {
+   "text": "I am going to buy a new shirt soon.",
+   "pron_bn": "আই অ্যাম গোয়িং টু বাই আ নিউ শার্ট সুন",
+   "bn": "আমি শিগগির একটা নতুন শার্ট কিনতে যাচ্ছি।"
+  },
+  {
+   "text": "Will you come to the wedding with Rafi?",
+   "pron_bn": "উইল ইউ কাম টু দ্য ওয়েডিং উইথ রাফি?",
+   "bn": "তুমি কি রাফির সাথে বিয়েতে আসবে?"
+  },
+  {
+   "text": "Yes, I will meet you at the bus stop.",
+   "pron_bn": "ইয়েস, আই উইল মিট ইউ অ্যাট দ্য বাস স্টপ",
+   "bn": "হ্যাঁ, আমি বাস স্টপে তোমার সাথে দেখা করব।"
+  },
+  {
+   "text": "I am going to save two thousand taka monthly.",
+   "pron_bn": "আই অ্যাম গোয়িং টু সেইভ টু থাউজ্যান্ড টাকা মান্থলি",
+   "bn": "আমি প্রতি মাসে দুই হাজার টাকা জমাতে যাচ্ছি।"
+  },
+  {
+   "text": "Will Mitu join the new English course too?",
+   "pron_bn": "উইল মিতু জয়েন দ্য নিউ ইংলিশ কোর্স টু?",
+   "bn": "মিতুও কি নতুন ইংরেজি কোর্সে ভর্তি হবে?"
+  },
+  {
+   "text": "She is going to pay the course fee tomorrow.",
+   "pron_bn": "শি ইজ গোয়িং টু পে দ্য কোর্স ফি টুমরো",
+   "bn": "সে আগামীকাল কোর্সের ফি দিতে যাচ্ছে।"
+  },
+  {
+   "text": "Please tell me the course time, if possible.",
+   "pron_bn": "প্লিজ টেল মি দ্য কোর্স টাইম, ইফ পসিবল",
+   "bn": "সম্ভব হলে আমাকে কোর্সের সময়টা জানাও।"
+  },
+  {
+   "text": "I will not waste money on fast food now.",
+   "pron_bn": "আই উইল নট ওয়েস্ট মানি অন ফাস্ট ফুড নাউ",
+   "bn": "আমি এখন ফাস্ট ফুডে টাকা নষ্ট করব না।"
+  },
+  {
+   "text": "We are going to cook food at home daily.",
+   "pron_bn": "উই আর গোয়িং টু কুক ফুড অ্যাট হোম ডেইলি",
+   "bn": "আমরা প্রতিদিন বাসায় রান্না করতে যাচ্ছি।"
+  },
+  {
+   "text": "Will you help me choose a wedding gift?",
+   "pron_bn": "উইল ইউ হেল্প মি চুজ আ ওয়েডিং গিফট?",
+   "bn": "বিয়ের উপহার বাছাই করতে আমাকে সাহায্য করবে?"
+  },
+  {
+   "text": "Of course, I will go to the market with you.",
+   "pron_bn": "অফ কোর্স, আই উইল গো টু দ্য মার্কেট উইথ ইউ",
+   "bn": "অবশ্যই, আমি তোমার সাথে বাজারে যাব।"
+  },
+  {
+   "text": "Nadia is going to make a list for shopping.",
+   "pron_bn": "নাদিয়া ইজ গোয়িং টু মেক আ লিস্ট ফর শপিং",
+   "bn": "নাদিয়া কেনাকাটার জন্য একটা তালিকা বানাতে যাচ্ছে।"
+  },
+  {
+   "text": "I am going to keep my money in a bank.",
+   "pron_bn": "আই অ্যাম গোয়িং টু কিপ মাই মানি ইন আ ব্যাংক",
+   "bn": "আমি আমার টাকা ব্যাংকে রাখতে যাচ্ছি।"
+  },
+  {
+   "text": "Will the new course start next Monday morning?",
+   "pron_bn": "উইল দ্য নিউ কোর্স স্টার্ট নেক্সট মানডে মর্নিং?",
+   "bn": "নতুন কোর্স কি পরের সোমবার সকালে শুরু হবে?"
+  },
+  {
+   "text": "No, it is going to start on the first date.",
+   "pron_bn": "নো, ইট ইজ গোয়িং টু স্টার্ট অন দ্য ফার্স্ট ডেট",
+   "bn": "না, এটা মাসের পয়লা তারিখে শুরু হতে যাচ্ছে।"
+  },
+  {
+   "text": "Could you please lend me your course book?",
+   "pron_bn": "কুড ইউ প্লিজ লেন্ড মি ইউর কোর্স বুক?",
+   "bn": "তোমার কোর্সের বইটা কি আমাকে ধার দেবে?"
+  },
+  {
+   "text": "Sorry, I am going to use it every evening.",
+   "pron_bn": "সরি, আই অ্যাম গোয়িং টু ইউজ ইট এভরি ইভনিং",
+   "bn": "দুঃখিত, আমি এটা প্রতিদিন সন্ধ্যায় ব্যবহার করতে যাচ্ছি।"
+  },
+  {
+   "text": "Tanvir will drive us to the wedding party.",
+   "pron_bn": "তানভীর উইল ড্রাইভ আস টু দ্য ওয়েডিং পার্টি",
+   "bn": "তানভীর আমাদের গাড়ি চালিয়ে বিয়ের অনুষ্ঠানে নিয়ে যাবে।"
+  },
+  {
+   "text": "We are going to leave home early that day.",
+   "pron_bn": "উই আর গোয়িং টু লিভ হোম আর্লি দ্যাট ডে",
+   "bn": "আমরা সেদিন বাসা থেকে তাড়াতাড়ি বের হতে যাচ্ছি।"
+  },
+  {
+   "text": "Will you wear your blue panjabi at night?",
+   "pron_bn": "উইল ইউ ওয়্যার ইউর ব্লু পাঞ্জাবি অ্যাট নাইট?",
+   "bn": "তুমি কি রাতে তোমার নীল পাঞ্জাবিটা পরবে?"
+  },
+  {
+   "text": "Yes, and Mitu is going to wear a saree.",
+   "pron_bn": "ইয়েস, অ্যান্ড মিতু ইজ গোয়িং টু ওয়্যার আ শাড়ি",
+   "bn": "হ্যাঁ, আর মিতু একটা শাড়ি পরতে যাচ্ছে।"
+  },
+  {
+   "text": "I will try to save money every week.",
+   "pron_bn": "আই উইল ট্রাই টু সেইভ মানি এভরি উইক",
+   "bn": "আমি প্রতি সপ্তাহে টাকা জমানোর চেষ্টা করব।"
+  },
+  {
+   "text": "Are you going to take extra classes after work?",
+   "pron_bn": "আর ইউ গোয়িং টু টেক এক্সট্রা ক্লাসেস আফটার ওয়ার্ক?",
+   "bn": "তুমি কি কাজের পর অতিরিক্ত ক্লাস করতে যাচ্ছ?"
+  },
+  {
+   "text": "I am going to study one hour every night.",
+   "pron_bn": "আই অ্যাম গোয়িং টু স্টাডি ওয়ান আওয়ার এভরি নাইট",
+   "bn": "আমি প্রতিরাতে এক ঘণ্টা পড়তে যাচ্ছি।"
+  },
+  {
+   "text": "Please do not worry, I will pay the fee soon.",
+   "pron_bn": "প্লিজ ডু নট ওয়ারি, আই উইল পে দ্য ফি সুন",
+   "bn": "চিন্তা কোরো না, আমি শিগগির ফি দিয়ে দেব।"
+  },
+  {
+   "text": "We will take many photos at the wedding.",
+   "pron_bn": "উই উইল টেক মেনি ফোটোস অ্যাট দ্য ওয়েডিং",
+   "bn": "আমরা বিয়েতে অনেক ছবি তুলব।"
+  },
+  {
+   "text": "Good idea! I am going to bring my camera too.",
+   "pron_bn": "গুড আইডিয়া! আই অ্যাম গোয়িং টু ব্রিং মাই ক্যামেরা টু",
+   "bn": "ভালো বুদ্ধি! আমিও আমার ক্যামেরা আনতে যাচ্ছি।"
   }
  ],
  "reading": [

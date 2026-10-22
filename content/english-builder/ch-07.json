@@ -1,0 +1,207 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি জায়গা আর for দিয়ে কাজের সময় বাড়িয়েছো।",
+   "steps": [
+    {
+     "bn": "রাফি একটা কারখানায় কাজ করেছে।",
+     "pron_bn": "রাফি হ্যাজ ওয়ার্কড ইন আ ফ্যাক্টরি।",
+     "text": "Rafi has worked in a factory."
+    },
+    {
+     "bn": "রাফি গাজীপুরে একটা কারখানায় কাজ করেছে।",
+     "pron_bn": "রাফি হ্যাজ ওয়ার্কড ইন আ ফ্যাক্টরি ইন গাজীপুর।",
+     "text": "Rafi has worked in a factory in Gazipur."
+    },
+    {
+     "bn": "রাফি তিন বছর ধরে গাজীপুরের একটা কারখানায় কাজ করছে।",
+     "pron_bn": "রাফি হ্যাজ ওয়ার্কড ইন আ ফ্যাক্টরি ইন গাজীপুর ফর থ্রি ইয়ার্স।",
+     "text": "Rafi has worked in a factory in Gazipur for three years."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কারণ আর since দিয়ে শুরুর দিন যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "মিতু বাসায় থেকেছে।",
+     "pron_bn": "মিতু হ্যাজ স্টেইড অ্যাট হোম।",
+     "text": "Mitu has stayed at home."
+    },
+    {
+     "bn": "মিতু জ্বর নিয়ে বাসায় থেকেছে।",
+     "pron_bn": "মিতু হ্যাজ স্টেইড অ্যাট হোম উইথ আ ফিভার।",
+     "text": "Mitu has stayed at home with a fever."
+    },
+    {
+     "bn": "মিতু সোমবার থেকে জ্বর নিয়ে বাসায় আছে।",
+     "pron_bn": "মিতু হ্যাজ স্টেইড অ্যাট হোম উইথ আ ফিভার সিন্স মানডে।",
+     "text": "Mitu has stayed at home with a fever since Monday."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি সঙ্গী আর সময় যোগ করে ever দিয়ে প্রশ্ন বড় করেছো।",
+   "steps": [
+    {
+     "bn": "তুমি কি কখনো কক্সবাজার গিয়েছো?",
+     "pron_bn": "হ্যাভ ইউ এভার ভিজিটেড কক্সবাজার?",
+     "text": "Have you ever visited Cox's Bazar?"
+    },
+    {
+     "bn": "তুমি কি তোমার পরিবারের সঙ্গে কখনো কক্সবাজার গিয়েছো?",
+     "pron_bn": "হ্যাভ ইউ এভার ভিজিটেড কক্সবাজার উইথ ইয়োর ফ্যামিলি?",
+     "text": "Have you ever visited Cox's Bazar with your family?"
+    },
+    {
+     "bn": "তুমি কি শীতকালে পরিবারের সঙ্গে কখনো কক্সবাজার গিয়েছো?",
+     "pron_bn": "হ্যাভ ইউ এভার ভিজিটেড কক্সবাজার উইথ ইয়োর ফ্যামিলি ইন উইন্টার?",
+     "text": "Have you ever visited Cox's Bazar with your family in winter?"
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি already রাখা বাক্যে উদ্দেশ্য আর সময় যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "তানভীর ইতিমধ্যে দশটা নতুন শব্দ শিখেছে।",
+     "pron_bn": "তানভীর হ্যাজ অলরেডি লার্নড টেন নিউ ওয়ার্ডস।",
+     "text": "Tanvir has already learned ten new words."
+    },
+    {
+     "bn": "তানভীর পরীক্ষার জন্য ইতিমধ্যে দশটা নতুন শব্দ শিখেছে।",
+     "pron_bn": "তানভীর হ্যাজ অলরেডি লার্নড টেন নিউ ওয়ার্ডস ফর দা টেস্ট।",
+     "text": "Tanvir has already learned ten new words for the test."
+    },
+    {
+     "bn": "তানভীর এই সপ্তাহে পরীক্ষার জন্য ইতিমধ্যে দশটা নতুন শব্দ শিখেছে।",
+     "pron_bn": "তানভীর হ্যাজ অলরেডি লার্নড টেন নিউ ওয়ার্ডস ফর দা টেস্ট দিস উইক।",
+     "text": "Tanvir has already learned ten new words for the test this week."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা আর yet যোগ করে না-বোধক বাক্য বড় করেছো।",
+   "steps": [
+    {
+     "bn": "আমি মাছ কিনিনি।",
+     "pron_bn": "আই হ্যাভ নট বট ফিশ।",
+     "text": "I have not bought fish."
+    },
+    {
+     "bn": "আমি বাজার থেকে মাছ কিনিনি।",
+     "pron_bn": "আই হ্যাভ নট বট ফিশ ফ্রম দা মার্কেট।",
+     "text": "I have not bought fish from the market."
+    },
+    {
+     "bn": "আমি এখনো বাজার থেকে মাছ কিনিনি।",
+     "pron_bn": "আই হ্যাভ নট বট ফিশ ফ্রম দা মার্কেট ইয়েট।",
+     "text": "I have not bought fish from the market yet."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি for দিয়ে সময় আর বাড়তি বর্ণনা যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "ঢাকায় বৃষ্টি হয়েছে।",
+     "pron_bn": "ইট হ্যাজ রেইনড ইন ঢাকা।",
+     "text": "It has rained in Dhaka."
+    },
+    {
+     "bn": "ঢাকায় তিন দিন ধরে বৃষ্টি হচ্ছে।",
+     "pron_bn": "ইট হ্যাজ রেইনড ইন ঢাকা ফর থ্রি ডেইজ।",
+     "text": "It has rained in Dhaka for three days."
+    },
+    {
+     "bn": "ঢাকায় তিন দিন ধরে একটানা বৃষ্টি হচ্ছে।",
+     "pron_bn": "ইট হ্যাজ রেইনড ইন ঢাকা ফর থ্রি ডেইজ উইদাউট স্টপিং।",
+     "text": "It has rained in Dhaka for three days without stopping."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি উদ্দেশ্য আর since দিয়ে শুরুর সময় যোগ করেছো।",
+   "steps": [
+    {
+     "bn": "নাদিয়া একটা স্মার্টফোন ব্যবহার করেছে।",
+     "pron_bn": "নাদিয়া হ্যাজ ইউজড আ স্মার্টফোন।",
+     "text": "Nadia has used a smartphone."
+    },
+    {
+     "bn": "নাদিয়া অনলাইন ক্লাসের জন্য স্মার্টফোন ব্যবহার করেছে।",
+     "pron_bn": "নাদিয়া হ্যাজ ইউজড আ স্মার্টফোন ফর অনলাইন ক্লাসেস।",
+     "text": "Nadia has used a smartphone for online classes."
+    },
+    {
+     "bn": "নাদিয়া গত বছর থেকে অনলাইন ক্লাসের জন্য স্মার্টফোন ব্যবহার করছে।",
+     "pron_bn": "নাদিয়া হ্যাজ ইউজড আ স্মার্টফোন ফর অনলাইন ক্লাসেস সিন্স লাস্ট ইয়ার।",
+     "text": "Nadia has used a smartphone for online classes since last year."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা আর সময় যোগ করে ever দিয়ে প্রশ্ন বড় করেছো।",
+   "steps": [
+    {
+     "bn": "নাদিয়া কি কখনো পিঠা খেয়েছে?",
+     "pron_bn": "হ্যাজ নাদিয়া এভার ইটেন পিঠা?",
+     "text": "Has Nadia ever eaten pitha?"
+    },
+    {
+     "bn": "নাদিয়া কি গ্রামে কখনো পিঠা খেয়েছে?",
+     "pron_bn": "হ্যাজ নাদিয়া এভার ইটেন পিঠা ইন দা ভিলেজ?",
+     "text": "Has Nadia ever eaten pitha in the village?"
+    },
+    {
+     "bn": "নাদিয়া কি এই শীতে গ্রামে কখনো পিঠা খেয়েছে?",
+     "pron_bn": "হ্যাজ নাদিয়া এভার ইটেন পিঠা ইন দা ভিলেজ দিস উইন্টার?",
+     "text": "Has Nadia ever eaten pitha in the village this winter?"
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি already রাখা বাক্যে সময় যোগ করে বড় করেছো।",
+   "steps": [
+    {
+     "bn": "রাফি ইতিমধ্যে ওষুধ খেয়েছে।",
+     "pron_bn": "রাফি হ্যাজ অলরেডি টেইকেন হিজ মেডিসিন।",
+     "text": "Rafi has already taken his medicine."
+    },
+    {
+     "bn": "রাফি দুপুরের খাবারের পর ইতিমধ্যে ওষুধ খেয়েছে।",
+     "pron_bn": "রাফি হ্যাজ অলরেডি টেইকেন হিজ মেডিসিন আফটার লাঞ্চ।",
+     "text": "Rafi has already taken his medicine after lunch."
+    },
+    {
+     "bn": "রাফি আজ দুপুরের খাবারের পর ইতিমধ্যে ওষুধ খেয়েছে।",
+     "pron_bn": "রাফি হ্যাজ অলরেডি টেইকেন হিজ মেডিসিন আফটার লাঞ্চ টুডে।",
+     "text": "Rafi has already taken his medicine after lunch today."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা আর yet যোগ করে না-বোধক বাক্য বড় করেছো।",
+   "steps": [
+    {
+     "bn": "মিতু তার মাকে ফোন করেনি।",
+     "pron_bn": "মিতু হ্যাজ নট কলড হার মাদার।",
+     "text": "Mitu has not called her mother."
+    },
+    {
+     "bn": "মিতু হোস্টেল থেকে তার মাকে ফোন করেনি।",
+     "pron_bn": "মিতু হ্যাজ নট কলড হার মাদার ফ্রম দা হোস্টেল।",
+     "text": "Mitu has not called her mother from the hostel."
+    },
+    {
+     "bn": "মিতু হোস্টেল থেকে এখনো তার মাকে ফোন করেনি।",
+     "pron_bn": "মিতু হ্যাজ নট কলড হার মাদার ফ্রম দা হোস্টেল ইয়েট।",
+     "text": "Mitu has not called her mother from the hostel yet."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "তুমি এই অধ্যায়ে for, since, ever, already আর yet দিয়ে present perfect বাক্য বানানো শিখবে। ছোট বাক্য থেকে ধাপে ধাপে বড় বাক্য বানানোর অনুশীলন করবে।",
+ "tip_bn": "তুমি মনে রেখো, for মানে কতদিন ধরে আর since মানে কখন থেকে। তুমি ever ব্যবহার করো প্রশ্নে, already ব্যবহার করো হয়ে গেছে বোঝাতে আর yet ব্যবহার করো এখনো হয়নি বোঝাতে।",
+ "title": "Present Perfect with Time Words"
+}

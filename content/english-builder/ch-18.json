@@ -1,0 +1,287 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি tends to, arguably আর it would appear that দিয়ে দাবি নরম করলে।",
+   "steps": [
+    {
+     "bn": "রাফি ঠিক সময়ে কাজ শেষ করে।",
+     "pron_bn": "",
+     "text": "Rafi manages deadlines well."
+    },
+    {
+     "bn": "রাফি সাধারণত ঠিক সময়ে কাজ শেষ করে।",
+     "pron_bn": "",
+     "text": "Rafi tends to manage deadlines well."
+    },
+    {
+     "bn": "বলা চলে, রাফি সাধারণত ঠিক সময়ে কাজ শেষ করে।",
+     "pron_bn": "",
+     "text": "Rafi arguably tends to manage deadlines well."
+    },
+    {
+     "bn": "দেখে মনে হয়, রাফি সাধারণত ঠিক সময়ে কাজ শেষ করে বলে যুক্তি দেওয়া যায়।",
+     "pron_bn": "",
+     "text": "It would appear that Rafi arguably tends to manage deadlines well."
+    },
+    {
+     "bn": "দেখে মনে হয়, বেশিরভাগ পরিস্থিতিতে রাফি ঠিক সময়ে কাজ শেষ করে বলে যুক্তি দেওয়া যায়।",
+     "pron_bn": "",
+     "text": "It would appear that Rafi arguably tends to manage deadlines well under most circumstances."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি tends to, relatively আর broadly speaking দিয়ে ফলাফল সাবধানে বললে।",
+   "steps": [
+    {
+     "bn": "মিতু পরীক্ষায় ভালো করে।",
+     "pron_bn": "",
+     "text": "Mitu performs well in exams."
+    },
+    {
+     "bn": "মিতু পরীক্ষায় সাধারণত ভালো করে।",
+     "pron_bn": "",
+     "text": "Mitu tends to perform well in exams."
+    },
+    {
+     "bn": "মিতু পরীক্ষায় সাধারণত তুলনামূলকভাবে ভালো করে।",
+     "pron_bn": "",
+     "text": "Mitu tends to perform relatively well in exams."
+    },
+    {
+     "bn": "মোটের ওপর, মিতু পরীক্ষায় সাধারণত তুলনামূলকভাবে ভালো করে।",
+     "pron_bn": "",
+     "text": "Broadly speaking, Mitu tends to perform relatively well in exams."
+    },
+    {
+     "bn": "মোটের ওপর, মিতু পরীক্ষায় সাধারণত তুলনামূলকভাবে ভালো করবে বলে মনে হয়।",
+     "pron_bn": "",
+     "text": "Broadly speaking, Mitu would tend to perform relatively well in exams."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি tends to, to some extent আর arguably দিয়ে স্বাস্থ্য নিয়ে দাবি নরম করলে।",
+   "steps": [
+    {
+     "bn": "গ্রামে সকালে হাঁটাহাঁটি স্বাস্থ্যের জন্য ভালো।",
+     "pron_bn": "",
+     "text": "Morning walks in the village improve health."
+    },
+    {
+     "bn": "গ্রামে সকালে হাঁটলে সাধারণত স্বাস্থ্য ভালো থাকে।",
+     "pron_bn": "",
+     "text": "Morning walks in the village tend to improve health."
+    },
+    {
+     "bn": "গ্রামে সকালে হাঁটলে স্বাস্থ্য সাধারণত কিছুটা ভালো থাকে।",
+     "pron_bn": "",
+     "text": "Morning walks in the village tend to improve health to some extent."
+    },
+    {
+     "bn": "বলা চলে, গ্রামে সকালে হাঁটলে স্বাস্থ্য সাধারণত কিছুটা ভালো থাকে।",
+     "pron_bn": "",
+     "text": "Arguably, morning walks in the village tend to improve health to some extent."
+    },
+    {
+     "bn": "বলা চলে, বেশিরভাগ প্রাপ্তবয়স্কদের ক্ষেত্রে গ্রামে সকালে হাঁটলে স্বাস্থ্য সাধারণত কিছুটা ভালো থাকে।",
+     "pron_bn": "",
+     "text": "Arguably, morning walks in the village tend to improve health to some extent in most adults."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি tends to, it is often assumed that আর in most cases দিয়ে সাধারণ ধারণা বললে।",
+   "steps": [
+    {
+     "bn": "বাংলাদেশে ট্রেনে ভ্রমণ করলে সময় বাঁচে।",
+     "pron_bn": "",
+     "text": "Train travel in Bangladesh saves time."
+    },
+    {
+     "bn": "বাংলাদেশে ট্রেনে ভ্রমণ করলে সাধারণত সময় বাঁচে।",
+     "pron_bn": "",
+     "text": "Train travel in Bangladesh tends to save time."
+    },
+    {
+     "bn": "অনেক সময় ধরে নেওয়া হয়, বাংলাদেশে ট্রেনে ভ্রমণে সাধারণত সময় বাঁচে।",
+     "pron_bn": "",
+     "text": "It is often assumed that train travel in Bangladesh tends to save time."
+    },
+    {
+     "bn": "অনেক সময় ধরে নেওয়া হয়, বাংলাদেশে বেশিরভাগ ক্ষেত্রে ট্রেনে ভ্রমণে সময় বাঁচে।",
+     "pron_bn": "",
+     "text": "It is often assumed that train travel in Bangladesh tends to save time in most cases."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি tends to, relatively আর seemingly দিয়ে প্রযুক্তি নিয়ে মত নরম করলে।",
+   "steps": [
+    {
+     "bn": "নাদিয়া নতুন অ্যাপ তাড়াতাড়ি শিখে নেয়।",
+     "pron_bn": "",
+     "text": "Nadia adopts new apps quickly."
+    },
+    {
+     "bn": "নাদিয়া সাধারণত নতুন অ্যাপ তাড়াতাড়ি শিখে নেয়।",
+     "pron_bn": "",
+     "text": "Nadia tends to adopt new apps quickly."
+    },
+    {
+     "bn": "নাদিয়া সাধারণত নতুন অ্যাপ তুলনামূলকভাবে তাড়াতাড়ি শিখে নেয়।",
+     "pron_bn": "",
+     "text": "Nadia tends to adopt new apps relatively quickly."
+    },
+    {
+     "bn": "আপাতদৃষ্টিতে, নাদিয়া সাধারণত নতুন অ্যাপ তুলনামূলকভাবে তাড়াতাড়ি শিখে নেয়।",
+     "pron_bn": "",
+     "text": "Seemingly, Nadia tends to adopt new apps relatively quickly."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি tends to, would আর it would appear that দিয়ে পারিবারিক বিষয়ে সাবধানে বললে।",
+   "steps": [
+    {
+     "bn": "বাংলাদেশে যৌথ পরিবারে সবাই মিলে খরচ চালায়।",
+     "pron_bn": "",
+     "text": "Joint families in Bangladesh share expenses."
+    },
+    {
+     "bn": "বাংলাদেশে যৌথ পরিবারে সাধারণত সবাই মিলে খরচ চালায়।",
+     "pron_bn": "",
+     "text": "Joint families in Bangladesh tend to share expenses."
+    },
+    {
+     "bn": "বেশিরভাগ ক্ষেত্রে বাংলাদেশে যৌথ পরিবারে সবাই মিলে খরচ চালায়।",
+     "pron_bn": "",
+     "text": "In most cases, joint families in Bangladesh tend to share expenses."
+    },
+    {
+     "bn": "বেশিরভাগ ক্ষেত্রে বাংলাদেশের যৌথ পরিবারগুলো সাধারণত মিলেমিশে খরচ চালায় বলে মনে হয়।",
+     "pron_bn": "",
+     "text": "In most cases, joint families in Bangladesh would tend to share expenses."
+    },
+    {
+     "bn": "দেখে মনে হয়, বেশিরভাগ ক্ষেত্রে বাংলাদেশের যৌথ পরিবারগুলো সাধারণত মিলেমিশে খরচ চালায়।",
+     "pron_bn": "",
+     "text": "It would appear that, in most cases, joint families in Bangladesh would tend to share expenses."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি tends to, somewhat আর arguably দিয়ে কেনাকাটা নিয়ে মত নরম করলে।",
+   "steps": [
+    {
+     "bn": "ঢাকায় অনলাইনে কেনাকাটা করলে খরচ কম হয়।",
+     "pron_bn": "",
+     "text": "Online shopping in Dhaka costs less."
+    },
+    {
+     "bn": "ঢাকায় অনলাইনে কেনাকাটা করলে সাধারণত খরচ কম হয়।",
+     "pron_bn": "",
+     "text": "Online shopping in Dhaka tends to cost less."
+    },
+    {
+     "bn": "ঢাকায় অনলাইনে কেনাকাটা করলে সাধারণত কিছুটা কম খরচ হয়।",
+     "pron_bn": "",
+     "text": "Online shopping in Dhaka tends to cost somewhat less."
+    },
+    {
+     "bn": "বলা চলে, ঢাকায় অনলাইনে কেনাকাটা করলে সাধারণত কিছুটা কম খরচ হয়।",
+     "pron_bn": "",
+     "text": "Arguably, online shopping in Dhaka tends to cost somewhat less."
+    },
+    {
+     "bn": "সাধারণভাবে বলা চলে, ঢাকায় অনলাইনে কেনাকাটা করলে খরচ সাধারণত কিছুটা কম হয়।",
+     "pron_bn": "",
+     "text": "Arguably, online shopping in Dhaka tends to cost somewhat less in general."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি can, often আর it would appear that দিয়ে আবহাওয়া নিয়ে সাবধানে বললে।",
+   "steps": [
+    {
+     "bn": "ঢাকায় বর্ষার বৃষ্টিতে রাস্তায় পানি জমে।",
+     "pron_bn": "",
+     "text": "Monsoon rains in Dhaka flood the streets."
+    },
+    {
+     "bn": "ঢাকায় বর্ষার বৃষ্টিতে রাস্তায় পানি জমতে পারে।",
+     "pron_bn": "",
+     "text": "Monsoon rains in Dhaka can flood the streets."
+    },
+    {
+     "bn": "ঢাকায় বর্ষার বৃষ্টিতে প্রায়ই রাস্তায় পানি জমতে পারে।",
+     "pron_bn": "",
+     "text": "Monsoon rains in Dhaka can often flood the streets."
+    },
+    {
+     "bn": "দেখে মনে হয়, ঢাকায় বর্ষার বৃষ্টিতে প্রায়ই রাস্তায় পানি জমতে পারে।",
+     "pron_bn": "",
+     "text": "It would appear that monsoon rains in Dhaka can often flood the streets."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি tends to, to many observers আর arguably দিয়ে গ্রামের জীবন নিয়ে মত দিলে।",
+   "steps": [
+    {
+     "bn": "বাংলাদেশে গ্রামের জীবন শান্তিময় লাগে।",
+     "pron_bn": "",
+     "text": "Village life in Bangladesh feels peaceful."
+    },
+    {
+     "bn": "বাংলাদেশে গ্রামের জীবন সাধারণত শান্তিময় লাগে।",
+     "pron_bn": "",
+     "text": "Village life in Bangladesh tends to feel peaceful."
+    },
+    {
+     "bn": "অনেকের মতে, বাংলাদেশে গ্রামের জীবন সাধারণত শান্তিময় লাগে।",
+     "pron_bn": "",
+     "text": "To many observers, village life in Bangladesh tends to feel peaceful."
+    },
+    {
+     "bn": "অনেকের মতে, বাংলাদেশে গ্রামের জীবন সাধারণত শান্তিময় লাগবে বলে মনে হয়।",
+     "pron_bn": "",
+     "text": "To many observers, village life in Bangladesh would tend to feel peaceful."
+    },
+    {
+     "bn": "বলা চলে, অনেকের মতে বাংলাদেশে গ্রামের জীবন সাধারণত শান্তিময় মনে হয়।",
+     "pron_bn": "",
+     "text": "Arguably, to many observers, village life in Bangladesh would tend to feel peaceful."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি appears to, fairly আর in general দিয়ে কাজ নিয়ে নম্রভাবে বললে।",
+   "steps": [
+    {
+     "bn": "তানভির বিষয়গুলো পরিষ্কার করে বুঝিয়ে বলে।",
+     "pron_bn": "",
+     "text": "Tanvir explains ideas clearly."
+    },
+    {
+     "bn": "মনে হয়, তানভির বিষয়গুলো পরিষ্কার করে বুঝিয়ে বলে।",
+     "pron_bn": "",
+     "text": "Tanvir appears to explain ideas clearly."
+    },
+    {
+     "bn": "মনে হয়, তানভির বিষয়গুলো মোটামুটি পরিষ্কার করে বুঝিয়ে বলে।",
+     "pron_bn": "",
+     "text": "Tanvir appears to explain ideas fairly clearly."
+    },
+    {
+     "bn": "সাধারণভাবে, তানভির বিষয়গুলো মোটামুটি পরিষ্কার করে বুঝিয়ে বলে বলে মনে হয়।",
+     "pron_bn": "",
+     "text": "In general, Tanvir appears to explain ideas fairly clearly."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি জোরালো দাবি নরম করে বলতে শিখবে। Hedging দিয়ে তুমি আরও ভদ্র ও নির্ভুলভাবে মত দিতে পারবে।",
+ "tip_bn": "তুমি সরাসরি না বলে tends to বা arguably দিয়ে বাক্য নরম করো। আনুষ্ঠানিক লেখায় it would appear that ব্যবহার করলে তোমার মত আরও পরিণত শোনাবে।",
+ "title": "Hedging and Stance"
+}

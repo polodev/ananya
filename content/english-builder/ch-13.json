@@ -1,0 +1,277 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি সময়, সাহায্য আর although-এর অংশ যোগ করে দাবিটা বিস্তারিত করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি দাবি করল যে সে কাজটা শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Rafi claimed he had finished the work."
+    },
+    {
+     "bn": "রাফি দাবি করল যে সে দুপুরের খাবারের আগেই কাজটা শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Rafi claimed he had finished the work before lunch."
+    },
+    {
+     "bn": "রাফি দাবি করল যে সে কোনো সাহায্য ছাড়াই দুপুরের খাবারের আগে কাজটা শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Rafi claimed he had finished the work before lunch without any help."
+    },
+    {
+     "bn": "রাফি দাবি করল যে কাজটা খুব কঠিন হলেও সে কোনো সাহায্য ছাড়াই দুপুরের খাবারের আগে সেটা শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Rafi claimed he had finished the work before lunch without any help although the task was very difficult."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা, সময়, সঙ্গী আর শর্ত যোগ করে প্রস্তাবটা বড় করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু পরিবারসহ বেড়াতে যাওয়ার প্রস্তাব দিল।",
+     "pron_bn": "",
+     "text": "Mitu suggested a family trip."
+    },
+    {
+     "bn": "মিতু পরিবারসহ গ্রামে বেড়াতে যাওয়ার প্রস্তাব দিল।",
+     "pron_bn": "",
+     "text": "Mitu suggested a family trip to the countryside."
+    },
+    {
+     "bn": "মিতু ছুটির দিনে পরিবারসহ গ্রামে বেড়াতে যাওয়ার প্রস্তাব দিল।",
+     "pron_bn": "",
+     "text": "Mitu suggested a family trip to the countryside for the weekend."
+    },
+    {
+     "bn": "মিতু আমাদের কাজিনদের সঙ্গে নিয়ে ছুটির দিনে পরিবারসহ গ্রামে বেড়াতে যাওয়ার প্রস্তাব দিল।",
+     "pron_bn": "",
+     "text": "Mitu suggested a family trip to the countryside for the weekend with our cousins."
+    },
+    {
+     "bn": "মিতু প্রস্তাব দিল যে আবহাওয়া ঠান্ডা থাকলে ছুটির দিনে কাজিনদের সঙ্গে নিয়ে পরিবারসহ গ্রামে বেড়াতে যাওয়া হবে।",
+     "pron_bn": "",
+     "text": "Mitu suggested a family trip to the countryside for the weekend with our cousins if the weather stays cool."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি গন্তব্য, সময় আর কারণ যোগ করে সতর্কবার্তাটা বিস্তারিত করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর আমাদের ট্রেন ভ্রমণের ব্যাপারে সতর্ক করল।",
+     "pron_bn": "",
+     "text": "Tanvir warned us about the train journey."
+    },
+    {
+     "bn": "তানভীর আমাদের উত্তরের দিকে ট্রেন ভ্রমণের ব্যাপারে সতর্ক করল।",
+     "pron_bn": "",
+     "text": "Tanvir warned us about the train journey to the north."
+    },
+    {
+     "bn": "তানভীর বর্ষাকালে উত্তরের দিকে ট্রেন ভ্রমণের ব্যাপারে আমাদের সতর্ক করল।",
+     "pron_bn": "",
+     "text": "Tanvir warned us about the train journey to the north during the rainy season."
+    },
+    {
+     "bn": "তানভীর আমাদের সতর্ক করল যে বর্ষাকালে উত্তরের দিকের ট্রেনের টিকিট তাড়াতাড়ি শেষ হয়ে যায়।",
+     "pron_bn": "",
+     "text": "Tanvir warned us about the train journey to the north during the rainy season because tickets sell out quickly."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি বিষয়, সময়, ব্যক্তি আর although-এর অংশ যোগ করে বাক্যটা বড় করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া দাবি করল যে সে পড়াটা বুঝতে পেরেছে।",
+     "pron_bn": "",
+     "text": "Nadia claimed she understood the lesson."
+    },
+    {
+     "bn": "নাদিয়া দাবি করল যে সে ইতিহাসের পড়াটা বুঝতে পেরেছে।",
+     "pron_bn": "",
+     "text": "Nadia claimed she understood the lesson on history."
+    },
+    {
+     "bn": "নাদিয়া দাবি করল যে বাড়তি ক্লাসের পর সে ইতিহাসের পড়াটা বুঝতে পেরেছে।",
+     "pron_bn": "",
+     "text": "Nadia claimed she understood the lesson on history after the extra class."
+    },
+    {
+     "bn": "নাদিয়া দাবি করল যে শিক্ষকের সঙ্গে বাড়তি ক্লাসের পর সে ইতিহাসের পড়াটা বুঝতে পেরেছে।",
+     "pron_bn": "",
+     "text": "Nadia claimed she understood the lesson on history after the extra class with her teacher."
+    },
+    {
+     "bn": "নাদিয়া দাবি করল যে বিষয়টা বেশ বড় হলেও শিক্ষকের সঙ্গে বাড়তি ক্লাসের পর সে ইতিহাসের পড়াটা বুঝতে পেরেছে।",
+     "pron_bn": "",
+     "text": "Nadia claimed she understood the lesson on history after the extra class with her teacher although the topic was quite long."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি উদ্দেশ্য, জায়গা, সঙ্গী আর সময় যোগ করে পরামর্শটা বিস্তারিত করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি প্রতিদিন সকালে হাঁটার পরামর্শ দিল।",
+     "pron_bn": "",
+     "text": "Rafi suggested walking every morning."
+    },
+    {
+     "bn": "রাফি সুস্থ থাকার জন্য প্রতিদিন সকালে হাঁটার পরামর্শ দিল।",
+     "pron_bn": "",
+     "text": "Rafi suggested walking every morning for good health."
+    },
+    {
+     "bn": "রাফি সুস্থ থাকার জন্য লেকের পাশে প্রতিদিন সকালে হাঁটার পরামর্শ দিল।",
+     "pron_bn": "",
+     "text": "Rafi suggested walking every morning for good health near the lake."
+    },
+    {
+     "bn": "রাফি তার বাবার সঙ্গে লেকের পাশে সুস্থ থাকার জন্য প্রতিদিন সকালে হাঁটার পরামর্শ দিল।",
+     "pron_bn": "",
+     "text": "Rafi suggested walking every morning for good health near the lake with his father."
+    },
+    {
+     "bn": "রাফি পরামর্শ দিল যে অফিস শুরুর আগে বাবার সঙ্গে লেকের পাশে সুস্থ থাকার জন্য প্রতিদিন সকালে হাঁটা ভালো।",
+     "pron_bn": "",
+     "text": "Rafi suggested walking every morning for good health near the lake with his father before office starts."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি জায়গা, সময় আর কারণ যোগ করে সতর্কবার্তাটা বড় করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু আমাকে বাজারের দাম নিয়ে সতর্ক করল।",
+     "pron_bn": "",
+     "text": "Mitu warned me about the market prices."
+    },
+    {
+     "bn": "মিতু আমাকে শহরের বাজারের দাম নিয়ে সতর্ক করল।",
+     "pron_bn": "",
+     "text": "Mitu warned me about the market prices in the city."
+    },
+    {
+     "bn": "মিতু আমাকে ছুটির মৌসুমে শহরের বাজারের দাম নিয়ে সতর্ক করল।",
+     "pron_bn": "",
+     "text": "Mitu warned me about the market prices in the city during the holiday season."
+    },
+    {
+     "bn": "মিতু আমাকে সতর্ক করল যে ছুটির মৌসুমে শহরে সবজির দাম অনেক বেড়ে গেছে।",
+     "pron_bn": "",
+     "text": "Mitu warned me about the market prices in the city during the holiday season because vegetables had become costly."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি উৎস, দিক আর শর্ত যোগ করে সতর্কবার্তাটা বিস্তারিত করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর সতর্ক করল যে ঝড় আসছে।",
+     "pron_bn": "",
+     "text": "Tanvir warned that the storm was coming."
+    },
+    {
+     "bn": "তানভীর সতর্ক করল যে উপসাগর থেকে ঝড় আসছে।",
+     "pron_bn": "",
+     "text": "Tanvir warned that the storm was coming from the bay."
+    },
+    {
+     "bn": "তানভীর সতর্ক করল যে উপসাগর থেকে আমাদের জেলার দিকে ঝড় আসছে।",
+     "pron_bn": "",
+     "text": "Tanvir warned that the storm was coming from the bay towards our district."
+    },
+    {
+     "bn": "তানভীর সতর্ক করল যে বাতাসের দিক না বদলালে উপসাগর থেকে ঝড় আমাদের জেলার দিকে আসবে।",
+     "pron_bn": "",
+     "text": "Tanvir warned that the storm was coming from the bay towards our district unless the wind changed direction."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ব্যবহার, বৈশিষ্ট্য আর although-এর অংশ যোগ করে দাবিটা বড় করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া দাবি করল যে নতুন ফোনটা কাজের।",
+     "pron_bn": "",
+     "text": "Nadia claimed the new phone was useful."
+    },
+    {
+     "bn": "নাদিয়া দাবি করল যে নতুন ফোনটা অনলাইন ক্লাসের জন্য কাজের।",
+     "pron_bn": "",
+     "text": "Nadia claimed the new phone was useful for online classes."
+    },
+    {
+     "bn": "নাদিয়া দাবি করল যে নতুন ফোনটা অনলাইন ক্লাস আর ভিডিও কলের জন্য কাজের।",
+     "pron_bn": "",
+     "text": "Nadia claimed the new phone was useful for online classes and video calls."
+    },
+    {
+     "bn": "নাদিয়া দাবি করল যে নতুন ফোনটা পরিষ্কার শব্দে অনলাইন ক্লাস আর ভিডিও কলের জন্য ভালো।",
+     "pron_bn": "",
+     "text": "Nadia claimed the new phone was useful for online classes and video calls with clear sound."
+    },
+    {
+     "bn": "নাদিয়া দাবি করল যে ইন্টারনেট ধীর হলেও নতুন ফোনটা পরিষ্কার শব্দে অনলাইন ক্লাস আর ভিডিও কলের জন্য ভালো।",
+     "pron_bn": "",
+     "text": "Nadia claimed the new phone was useful for online classes and video calls with clear sound although the internet was slow."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি উদ্দেশ্য, জায়গা আর কারণ যোগ করে পরামর্শটা বিস্তারিত করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি তাড়াতাড়ি বাসা থেকে বের হওয়ার পরামর্শ দিল।",
+     "pron_bn": "",
+     "text": "Rafi suggested leaving home early."
+    },
+    {
+     "bn": "রাফি যানজট এড়াতে তাড়াতাড়ি বাসা থেকে বের হওয়ার পরামর্শ দিল।",
+     "pron_bn": "",
+     "text": "Rafi suggested leaving home early to avoid traffic."
+    },
+    {
+     "bn": "রাফি ঢাকার যানজট এড়াতে তাড়াতাড়ি বাসা থেকে বের হওয়ার পরামর্শ দিল।",
+     "pron_bn": "",
+     "text": "Rafi suggested leaving home early to avoid traffic in Dhaka."
+    },
+    {
+     "bn": "রাফি পরামর্শ দিল যে ঢাকার রাস্তায় খুব ভিড় হয় বলে যানজট এড়াতে তাড়াতাড়ি বাসা থেকে বের হওয়া ভালো।",
+     "pron_bn": "",
+     "text": "Rafi suggested leaving home early to avoid traffic in Dhaka because the roads get very crowded."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি উপকরণ, শিক্ষক আর although-এর অংশ যোগ করে দাবিটা বড় করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর দাবি করল যে গ্রামের স্কুলের অবস্থা ভালো হচ্ছে।",
+     "pron_bn": "",
+     "text": "Tanvir claimed the village school was improving."
+    },
+    {
+     "bn": "তানভীর দাবি করল যে নতুন বই পেয়ে গ্রামের স্কুলের অবস্থা ভালো হচ্ছে।",
+     "pron_bn": "",
+     "text": "Tanvir claimed the village school was improving with new books."
+    },
+    {
+     "bn": "তানভীর দাবি করল যে নতুন বই আর প্রশিক্ষণ পাওয়া শিক্ষকদের নিয়ে গ্রামের স্কুলের অবস্থা ভালো হচ্ছে।",
+     "pron_bn": "",
+     "text": "Tanvir claimed the village school was improving with new books and trained teachers."
+    },
+    {
+     "bn": "তানভীর দাবি করল যে আরও ক্লাসরুম দরকার হলেও নতুন বই আর প্রশিক্ষণ পাওয়া শিক্ষকদের নিয়ে গ্রামের স্কুলের অবস্থা ভালো হচ্ছে।",
+     "pron_bn": "",
+     "text": "Tanvir claimed the village school was improving with new books and trained teachers although more classrooms were still needed."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি অন্যের কথা জানাতে claimed, suggested আর warned ব্যবহার করা শিখবে। ছোট বাক্য থেকে ধাপে ধাপে তুমি বড় বাক্য বানাবে।",
+ "tip_bn": "তুমি reporting-এর সময় tense এক ধাপ পেছনে নেবে। তুমি warned-এর পরে about বা that আর suggested-এর পরে -ing ব্যবহার করবে।",
+ "title": "Reporting with Claimed, Suggested, Warned"
+}

@@ -1,0 +1,257 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি এজেন্ট, সময় আর জায়গা যোগ করে বাক্যটা বড় করেছ।",
+   "steps": [
+    {
+     "bn": "রিপোর্টগুলো যাচাই করা হয়েছিল।",
+     "pron_bn": "",
+     "text": "The reports were checked."
+    },
+    {
+     "bn": "রিপোর্টগুলো তানভীর যাচাই করেছিল।",
+     "pron_bn": "",
+     "text": "The reports were checked by Tanvir."
+    },
+    {
+     "bn": "রিপোর্টগুলো তানভীর গতকাল সন্ধ্যায় যাচাই করেছিল।",
+     "pron_bn": "",
+     "text": "The reports were checked by Tanvir yesterday evening."
+    },
+    {
+     "bn": "রিপোর্টগুলো তানভীর গতকাল সন্ধ্যায় মতিঝিলের প্রধান অফিসে যাচাই করেছিল।",
+     "pron_bn": "",
+     "text": "The reports were checked by Tanvir yesterday evening at the head office in Motijheel."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কে রেঁধেছে, কখন আর কোথায় তা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাতের খাবার রান্না করা হয়েছিল।",
+     "pron_bn": "",
+     "text": "Dinner was cooked."
+    },
+    {
+     "bn": "রাতের খাবার মিতু রান্না করেছিল।",
+     "pron_bn": "",
+     "text": "Dinner was cooked by Mitu."
+    },
+    {
+     "bn": "রাতের খাবার মিতু সন্ধ্যার শুরুতেই রান্না করেছিল।",
+     "pron_bn": "",
+     "text": "Dinner was cooked by Mitu early in the evening."
+    },
+    {
+     "bn": "কুমিল্লায় আমাদের গ্রামের বাড়িতে মিতু সন্ধ্যার শুরুতেই রাতের খাবার রান্না করেছিল।",
+     "pron_bn": "",
+     "text": "Dinner was cooked by Mitu early in the evening in our village home in Cumilla."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি এজেন্ট হিসেবে ব্যক্তি, সময় আর স্টেশনের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "ট্রেনের টিকিট কাটা হয়েছিল।",
+     "pron_bn": "",
+     "text": "The train tickets were booked."
+    },
+    {
+     "bn": "ট্রেনের টিকিট রাফি কেটেছিল।",
+     "pron_bn": "",
+     "text": "The train tickets were booked by Rafi."
+    },
+    {
+     "bn": "গত শুক্রবার সকালে রাফি ট্রেনের টিকিট কেটেছিল।",
+     "pron_bn": "",
+     "text": "The train tickets were booked by Rafi last Friday morning."
+    },
+    {
+     "bn": "গত শুক্রবার সকালে রাফি কমলাপুর স্টেশনে ট্রেনের টিকিট কেটেছিল।",
+     "pron_bn": "",
+     "text": "The train tickets were booked by Rafi last Friday morning at Kamalapur station."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি শিক্ষক, এই সপ্তাহ আর কলেজের ঠিকানা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "ইংরেজি রচনাগুলো সংশোধন করা হয়েছে।",
+     "pron_bn": "",
+     "text": "The English essays have been corrected."
+    },
+    {
+     "bn": "আমাদের শিক্ষক ইংরেজি রচনাগুলো সংশোধন করে দিয়েছেন।",
+     "pron_bn": "",
+     "text": "The English essays have been corrected by our teacher."
+    },
+    {
+     "bn": "আমাদের শিক্ষক এই সপ্তাহে ইংরেজি রচনাগুলো সংশোধন করে দিয়েছেন।",
+     "pron_bn": "",
+     "text": "The English essays have been corrected by our teacher this week."
+    },
+    {
+     "bn": "রাজশাহীর কলেজে আমাদের শিক্ষক এই সপ্তাহে ইংরেজি রচনাগুলো সংশোধন করে দিয়েছেন।",
+     "pron_bn": "",
+     "text": "The English essays have been corrected by our teacher this week at the college in Rajshahi."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ডাক্তার, সকালের সময় আর ক্লিনিকের জায়গা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রোগীদের পরীক্ষা করা হয়েছিল।",
+     "pron_bn": "",
+     "text": "The patients were examined."
+    },
+    {
+     "bn": "মহিলা ডাক্তার রোগীদের পরীক্ষা করেছিলেন।",
+     "pron_bn": "",
+     "text": "The patients were examined by the female doctor."
+    },
+    {
+     "bn": "আজ সকালে মহিলা ডাক্তার রোগীদের পরীক্ষা করেছিলেন।",
+     "pron_bn": "",
+     "text": "The patients were examined by the female doctor this morning."
+    },
+    {
+     "bn": "আজ সকালে সিলেটের স্বাস্থ্যকেন্দ্রে মহিলা ডাক্তার রোগীদের পরীক্ষা করেছিলেন।",
+     "pron_bn": "",
+     "text": "The patients were examined by the female doctor this morning at the health clinic in Sylhet."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি ক্রেতা, সময় আর বাজারের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "একটা নতুন শাড়ি বাছাই করা হয়েছিল।",
+     "pron_bn": "",
+     "text": "A new saree was chosen."
+    },
+    {
+     "bn": "নাদিয়া একটা নতুন শাড়ি বেছে নিয়েছিল।",
+     "pron_bn": "",
+     "text": "A new saree was chosen by Nadia."
+    },
+    {
+     "bn": "গতকাল বিকেলে নাদিয়া একটা নতুন শাড়ি বেছে নিয়েছিল।",
+     "pron_bn": "",
+     "text": "A new saree was chosen by Nadia yesterday afternoon."
+    },
+    {
+     "bn": "গতকাল বিকেলে ঢাকার নিউ মার্কেট থেকে নাদিয়া একটা নতুন শাড়ি বেছে নিয়েছিল।",
+     "pron_bn": "",
+     "text": "A new saree was chosen by Nadia yesterday afternoon at New Market in Dhaka."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কারণ, সময় আর শহরের এলাকা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাস্তাগুলো পানিতে ডুবে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "The streets were flooded."
+    },
+    {
+     "bn": "ভারী বৃষ্টিতে রাস্তাগুলো পানিতে ডুবে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "The streets were flooded by heavy rain."
+    },
+    {
+     "bn": "গত রাতে ভারী বৃষ্টিতে রাস্তাগুলো পানিতে ডুবে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "The streets were flooded by heavy rain last night."
+    },
+    {
+     "bn": "গত রাতে ভারী বৃষ্টিতে চট্টগ্রামের অনেক এলাকার রাস্তা পানিতে ডুবে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "The streets were flooded by heavy rain last night in many areas of Chattogram."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি নির্মাতা, চলতি মাস আর অফিসের ঠিকানা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "একটা নতুন মোবাইল অ্যাপ তৈরি করা হচ্ছে।",
+     "pron_bn": "",
+     "text": "A new mobile app is being developed."
+    },
+    {
+     "bn": "রাফি আর তানভীর একটা নতুন মোবাইল অ্যাপ তৈরি করছে।",
+     "pron_bn": "",
+     "text": "A new mobile app is being developed by Rafi and Tanvir."
+    },
+    {
+     "bn": "এই মাসে রাফি আর তানভীর একটা নতুন মোবাইল অ্যাপ তৈরি করছে।",
+     "pron_bn": "",
+     "text": "A new mobile app is being developed by Rafi and Tanvir this month."
+    },
+    {
+     "bn": "এই মাসে ধানমন্ডির একটা ছোট অফিসে রাফি আর তানভীর একটা নতুন মোবাইল অ্যাপ তৈরি করছে।",
+     "pron_bn": "",
+     "text": "A new mobile app is being developed by Rafi and Tanvir this month at a small office in Dhanmondi."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কৃষক, গত সপ্তাহ আর মাঠের অবস্থান যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "ধান কাটা হয়েছিল।",
+     "pron_bn": "",
+     "text": "The paddy was harvested."
+    },
+    {
+     "bn": "গ্রামের কৃষকেরা ধান কেটেছিল।",
+     "pron_bn": "",
+     "text": "The paddy was harvested by the village farmers."
+    },
+    {
+     "bn": "গ্রামের কৃষকেরা গত সপ্তাহে ধান কেটেছিল।",
+     "pron_bn": "",
+     "text": "The paddy was harvested by the village farmers last week."
+    },
+    {
+     "bn": "গত সপ্তাহে গ্রামের কৃষকেরা নদীর পাশের মাঠে ধান কেটেছিল।",
+     "pron_bn": "",
+     "text": "The paddy was harvested by the village farmers last week in the fields near the river."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি কর্তৃপক্ষ, আগামী বছরের সময় আর শহরের নাম যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "পুরোনো লাইব্রেরিটা সংস্কার করা হবে।",
+     "pron_bn": "",
+     "text": "The old library will be renovated."
+    },
+    {
+     "bn": "সিটি করপোরেশন পুরোনো লাইব্রেরিটা সংস্কার করবে।",
+     "pron_bn": "",
+     "text": "The old library will be renovated by the city corporation."
+    },
+    {
+     "bn": "সিটি করপোরেশন আগামী বছর পুরোনো লাইব্রেরিটা সংস্কার করবে।",
+     "pron_bn": "",
+     "text": "The old library will be renovated by the city corporation next year."
+    },
+    {
+     "bn": "খুলনায় সিটি করপোরেশন আগামী বছর পুরোনো লাইব্রেরিটা সংস্কার করবে।",
+     "pron_bn": "",
+     "text": "The old library will be renovated by the city corporation next year in Khulna."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি passive voice-এ কে কাজ করেছে, কখন আর কোথায় তা যোগ করা শিখবে। প্রতিটা ধাপে তুমি আগের বাক্যটা রেখে একটা করে নতুন অংশ যোগ করবে।",
+ "tip_bn": "তুমি কাজের কর্তা বোঝাতে by ব্যবহার করো, যেমন by Tanvir। সময় আর জায়গা সবসময় বাক্যের শেষে যোগ করো, তাহলে শুনতে স্বাভাবিক লাগবে।",
+ "title": "Passive with Agent, Time and Place"
+}

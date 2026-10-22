@@ -1,0 +1,292 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি although দিয়ে বাধা আর whereas দিয়ে তুলনা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি অফিসে যায়।",
+     "pron_bn": "",
+     "text": "Rafi goes to the office."
+    },
+    {
+     "bn": "যানজট বেশি থাকলেও রাফি অফিসে যায়।",
+     "pron_bn": "",
+     "text": "Although the traffic is heavy, Rafi goes to the office."
+    },
+    {
+     "bn": "মিরপুরে যানজট বেশি থাকলেও রাফি অফিসে যায়।",
+     "pron_bn": "",
+     "text": "Although the traffic in Mirpur is heavy, Rafi goes to the office."
+    },
+    {
+     "bn": "মিরপুরে যানজট বেশি থাকলেও রাফি অফিসে যায়, অন্যদিকে মিতু বাসা থেকে কাজ করে।",
+     "pron_bn": "",
+     "text": "Although the traffic in Mirpur is heavy, Rafi goes to the office, whereas Mitu works from home."
+    },
+    {
+     "bn": "মিরপুরে যানজট বেশি থাকলেও রাফি অফিসে যায়, অন্যদিকে মিতু উত্তরায় বাসা থেকে কাজ করে।",
+     "pron_bn": "",
+     "text": "Although the traffic in Mirpur is heavy, Rafi goes to the office, whereas Mitu works from home in Uttara."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি despite দিয়ে বাধা আর whereas দিয়ে তুলনা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া প্রতিদিন সন্ধ্যায় পড়াশোনা করে।",
+     "pron_bn": "",
+     "text": "Nadia studies every evening."
+    },
+    {
+     "bn": "আওয়াজ থাকা সত্ত্বেও নাদিয়া প্রতিদিন সন্ধ্যায় পড়াশোনা করে।",
+     "pron_bn": "",
+     "text": "Nadia studies every evening despite the noise."
+    },
+    {
+     "bn": "রাস্তার আওয়াজ থাকা সত্ত্বেও নাদিয়া প্রতিদিন সন্ধ্যায় পড়াশোনা করে।",
+     "pron_bn": "",
+     "text": "Nadia studies every evening despite the noise from the street."
+    },
+    {
+     "bn": "রাস্তার আওয়াজ থাকা সত্ত্বেও নাদিয়া প্রতিদিন সন্ধ্যায় পড়াশোনা করে, অন্যদিকে তার ভাই টেলিভিশন দেখে।",
+     "pron_bn": "",
+     "text": "Nadia studies every evening despite the noise from the street, whereas her brother watches television."
+    },
+    {
+     "bn": "রাস্তার আওয়াজ থাকা সত্ত্বেও নাদিয়া প্রতিদিন সন্ধ্যায় পড়াশোনা করে, অন্যদিকে তার ভাই পাশের ঘরে টেলিভিশন দেখে।",
+     "pron_bn": "",
+     "text": "Nadia studies every evening despite the noise from the street, whereas her brother watches television in the next room."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি despite দিয়ে বাধা আর however দিয়ে বিপরীত ফলাফল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু তার বাবা-মায়ের সঙ্গে দেখা করতে যায়।",
+     "pron_bn": "",
+     "text": "Mitu visits her parents."
+    },
+    {
+     "bn": "ব্যস্ত সময়সূচি থাকা সত্ত্বেও মিতু তার বাবা-মায়ের সঙ্গে দেখা করতে যায়।",
+     "pron_bn": "",
+     "text": "Mitu visits her parents despite her busy schedule."
+    },
+    {
+     "bn": "খুব বেশি ব্যস্ত সময়সূচি থাকা সত্ত্বেও মিতু তার বাবা-মায়ের সঙ্গে দেখা করতে যায়।",
+     "pron_bn": "",
+     "text": "Mitu visits her parents despite her extremely busy schedule."
+    },
+    {
+     "bn": "খুব বেশি ব্যস্ত সময়সূচি থাকা সত্ত্বেও মিতু তার বাবা-মায়ের সঙ্গে দেখা করতে যায়, তবে তানভীর খুব কমই গ্রামে যায়।",
+     "pron_bn": "",
+     "text": "Mitu visits her parents despite her extremely busy schedule; however, Tanvir rarely travels to the village."
+    },
+    {
+     "bn": "খুব বেশি ব্যস্ত সময়সূচি থাকা সত্ত্বেও মিতু তার বাবা-মায়ের সঙ্গে দেখা করতে যায়, তবে তানভীর ঢাকা থেকে খুব কমই গ্রামে যায়।",
+     "pron_bn": "",
+     "text": "Mitu visits her parents despite her extremely busy schedule; however, Tanvir rarely travels to the village from Dhaka."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি although দিয়ে দূরত্বের বাধা আর despite দিয়ে বৃষ্টির বাধা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর কক্সবাজারে বেড়াতে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "Tanvir travelled to Cox's Bazar."
+    },
+    {
+     "bn": "বাস ভ্রমণ লম্বা হলেও তানভীর কক্সবাজারে বেড়াতে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "Although the bus journey was long, Tanvir travelled to Cox's Bazar."
+    },
+    {
+     "bn": "ঢাকা থেকে বাস ভ্রমণ লম্বা হলেও তানভীর কক্সবাজারে বেড়াতে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "Although the bus journey from Dhaka was long, Tanvir travelled to Cox's Bazar."
+    },
+    {
+     "bn": "ঢাকা থেকে বাস ভ্রমণ লম্বা হলেও ভারী বৃষ্টি থাকা সত্ত্বেও তানভীর কক্সবাজারে বেড়াতে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "Although the bus journey from Dhaka was long, Tanvir travelled to Cox's Bazar despite the heavy rain."
+    },
+    {
+     "bn": "ঢাকা থেকে বাস ভ্রমণ লম্বা হলেও ভারী বর্ষার বৃষ্টি থাকা সত্ত্বেও তানভীর কক্সবাজারে বেড়াতে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "Although the bus journey from Dhaka was long, Tanvir travelled to Cox's Bazar despite the heavy monsoon rain."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি although দিয়ে ক্লান্তির বাধা আর whereas দিয়ে অভ্যাসের তুলনা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া প্রতিদিন সকালে হাঁটে।",
+     "pron_bn": "",
+     "text": "Nadia walks every morning."
+    },
+    {
+     "bn": "প্রায়ই ক্লান্ত লাগলেও নাদিয়া প্রতিদিন সকালে হাঁটে।",
+     "pron_bn": "",
+     "text": "Nadia walks every morning although she often feels tired."
+    },
+    {
+     "bn": "কাজের পরে প্রায়ই ক্লান্ত লাগলেও নাদিয়া প্রতিদিন সকালে হাঁটে।",
+     "pron_bn": "",
+     "text": "Nadia walks every morning although she often feels tired after work."
+    },
+    {
+     "bn": "কাজের পরে প্রায়ই ক্লান্ত লাগলেও নাদিয়া প্রতিদিন সকালে হাঁটে, অন্যদিকে রাফি সন্ধ্যায় ব্যায়াম করতে পছন্দ করে।",
+     "pron_bn": "",
+     "text": "Nadia walks every morning although she often feels tired after work, whereas Rafi prefers evening exercise."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি whereas দিয়ে পছন্দের তুলনা আর despite দিয়ে দামের বাধা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু স্থানীয় বাজার বেশি পছন্দ করে।",
+     "pron_bn": "",
+     "text": "Mitu prefers the local bazaar."
+    },
+    {
+     "bn": "মিতু স্থানীয় বাজার বেশি পছন্দ করে, অন্যদিকে নাদিয়া শপিং মল পছন্দ করে।",
+     "pron_bn": "",
+     "text": "Mitu prefers the local bazaar whereas Nadia prefers the shopping mall."
+    },
+    {
+     "bn": "মিতু স্থানীয় বাজার বেশি পছন্দ করে, অন্যদিকে নাদিয়া বড় শপিং মল পছন্দ করে।",
+     "pron_bn": "",
+     "text": "Mitu prefers the local bazaar whereas Nadia prefers the large shopping mall."
+    },
+    {
+     "bn": "মিতু স্থানীয় বাজার বেশি পছন্দ করে, অন্যদিকে বেশি দাম থাকা সত্ত্বেও নাদিয়া বড় শপিং মল পছন্দ করে।",
+     "pron_bn": "",
+     "text": "Mitu prefers the local bazaar whereas Nadia prefers the large shopping mall despite the high prices."
+    },
+    {
+     "bn": "মিতু স্থানীয় বাজার বেশি পছন্দ করে, অন্যদিকে অনেক বেশি দাম থাকা সত্ত্বেও নাদিয়া বড় শপিং মল পছন্দ করে।",
+     "pron_bn": "",
+     "text": "Mitu prefers the local bazaar whereas Nadia prefers the large shopping mall despite the extremely high prices."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি despite দিয়ে বৃষ্টির বাধা আর although দিয়ে পরিষ্কারের পরেও ফলাফল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাস্তাগুলোতে পানি জমে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "The streets were flooded."
+    },
+    {
+     "bn": "অল্প বৃষ্টি হওয়া সত্ত্বেও রাস্তাগুলোতে পানি জমে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "The streets were flooded despite the short rain."
+    },
+    {
+     "bn": "সকালে অল্প বৃষ্টি হওয়া সত্ত্বেও রাস্তাগুলোতে পানি জমে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "The streets were flooded despite the short morning rain."
+    },
+    {
+     "bn": "ড্রেন পরিষ্কার করা হলেও সকালে অল্প বৃষ্টিতেই রাস্তাগুলোতে পানি জমে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "Although the drainage was cleaned, the streets were flooded despite the short morning rain."
+    },
+    {
+     "bn": "শহরের ড্রেন পরিষ্কার করা হলেও সকালে অল্প বৃষ্টিতেই রাস্তাগুলোতে পানি জমে গিয়েছিল।",
+     "pron_bn": "",
+     "text": "Although the city drainage was cleaned, the streets were flooded despite the short morning rain."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি whereas দিয়ে পড়ার তুলনা আর however দিয়ে মিল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি অনলাইনে পড়াশোনা করে।",
+     "pron_bn": "",
+     "text": "Rafi studies online."
+    },
+    {
+     "bn": "রাফি অনলাইনে পড়াশোনা করে, অন্যদিকে তানভীর কোচিং ক্লাসে যায়।",
+     "pron_bn": "",
+     "text": "Rafi studies online whereas Tanvir attends coaching classes."
+    },
+    {
+     "bn": "রাফি অনলাইনে পড়াশোনা করে, অন্যদিকে তানভীর ধানমন্ডিতে কোচিং ক্লাসে যায়।",
+     "pron_bn": "",
+     "text": "Rafi studies online whereas Tanvir attends coaching classes in Dhanmondi."
+    },
+    {
+     "bn": "রাফি অনলাইনে পড়াশোনা করে, অন্যদিকে তানভীর ধানমন্ডিতে কোচিং ক্লাসে যায়, তবে তারা দুজনেই নোট ভাগ করে নেয়।",
+     "pron_bn": "",
+     "text": "Rafi studies online whereas Tanvir attends coaching classes in Dhanmondi; however, they both share notes."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি whereas দিয়ে গ্রাম-শহরের তুলনা আর despite দিয়ে সুবিধার বাধা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "গ্রামের জীবন শান্ত।",
+     "pron_bn": "",
+     "text": "Village life is peaceful."
+    },
+    {
+     "bn": "গ্রামের জীবন শান্ত, অন্যদিকে শহরের জীবন কোলাহলপূর্ণ।",
+     "pron_bn": "",
+     "text": "Village life is peaceful whereas city life is noisy."
+    },
+    {
+     "bn": "গ্রামের জীবন শান্ত, অন্যদিকে ঢাকার জীবন কোলাহলপূর্ণ।",
+     "pron_bn": "",
+     "text": "Village life is peaceful whereas city life in Dhaka is noisy."
+    },
+    {
+     "bn": "গ্রামের জীবন শান্ত, অন্যদিকে আধুনিক সুবিধা থাকা সত্ত্বেও ঢাকার জীবন কোলাহলপূর্ণ।",
+     "pron_bn": "",
+     "text": "Village life is peaceful whereas city life in Dhaka is noisy despite modern facilities."
+    },
+    {
+     "bn": "গ্রামের জীবন শান্ত, অন্যদিকে চমৎকার আধুনিক সুবিধা থাকা সত্ত্বেও ঢাকার জীবন কোলাহলপূর্ণ।",
+     "pron_bn": "",
+     "text": "Village life is peaceful whereas city life in Dhaka is noisy despite excellent modern facilities."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি although দিয়ে ইন্টারনেটের বাধা আর however দিয়ে অপ্রত্যাশিত ফলাফল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর তার প্রজেক্ট শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Tanvir finished his project."
+    },
+    {
+     "bn": "ইন্টারনেট ধীর হলেও তানভীর তার প্রজেক্ট শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Although the internet was slow, Tanvir finished his project."
+    },
+    {
+     "bn": "অফিসের ইন্টারনেট ধীর হলেও তানভীর তার প্রজেক্ট শেষ করেছে।",
+     "pron_bn": "",
+     "text": "Although the internet in the office was slow, Tanvir finished his project."
+    },
+    {
+     "bn": "অফিসের ইন্টারনেট ধীর হলেও তানভীর তার প্রজেক্ট শেষ করেছে, তবে সে টিম মিটিং ধরতে পারেনি।",
+     "pron_bn": "",
+     "text": "Although the internet in the office was slow, Tanvir finished his project; however, he missed the team meeting."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি বৈপরীত্য বোঝাতে although, despite, whereas আর however ব্যবহার করা শিখবে। তুমি ছোট বাক্য থেকে ধাপে ধাপে বড় ও প্রাকৃতিক বাক্য বানাবে।",
+ "tip_bn": "তুমি মনে রেখো, although-এর পরে পুরো বাক্য বসে, কিন্তু despite-এর পরে শুধু noun বা verb+ing বসে। তুমি whereas দিয়ে দুটি বিষয়ের তুলনা করবে, আর however দিয়ে আগের কথার বিপরীত ফলাফল যোগ করবে।",
+ "title": "Although, Despite, Whereas, However"
+}

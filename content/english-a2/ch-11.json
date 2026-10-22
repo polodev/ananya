@@ -126,6 +126,146 @@
    "bn": "বসন্ত বাংলাদেশে আমার প্রিয় ঋতু।",
    "pron_bn": "স্প্রিং ইজ মাই ফেভারিট সিজন ইন বাংলাদেশ।",
    "text": "Spring is my favourite season in Bangladesh."
+  },
+  {
+   "text": "It is very humid in Chittagong today.",
+   "pron_bn": "ইট ইজ ভেরি হিউমিড ইন চিটাগং টুডে",
+   "bn": "আজ চট্টগ্রামে খুব ভ্যাপসা গরম।"
+  },
+  {
+   "text": "Is it raining heavily in your village?",
+   "pron_bn": "ইজ ইট রেইনিং হেভিলি ইন ইয়োর ভিলেজ?",
+   "bn": "তোমাদের গ্রামে কি মুষলধারে বৃষ্টি হচ্ছে?"
+  },
+  {
+   "text": "Yes, it is raining very heavily here.",
+   "pron_bn": "ইয়েস ইট ইজ রেইনিং ভেরি হেভিলি হিয়ার",
+   "bn": "হ্যাঁ, এখানে খুব জোরে বৃষ্টি হচ্ছে।"
+  },
+  {
+   "text": "Please close the window quickly, Rafi.",
+   "pron_bn": "প্লিজ ক্লোজ দা উইন্ডো কুইকলি রাফি",
+   "bn": "রাফি, দ্রুত জানালাটা বন্ধ করো।"
+  },
+  {
+   "text": "It is cool, so wear a light sweater.",
+   "pron_bn": "ইট ইজ কুল সো ওয়্যার আ লাইট সোয়েটার",
+   "bn": "ঠান্ডা পড়েছে, তাই হালকা সোয়েটার পরে নাও।"
+  },
+  {
+   "text": "How is the weather in Khulna now?",
+   "pron_bn": "হাউ ইজ দা ওয়েদার ইন খুলনা নাউ?",
+   "bn": "খুলনায় এখন আবহাওয়া কেমন?"
+  },
+  {
+   "text": "It is sunny and quite hot outside.",
+   "pron_bn": "ইট ইজ সানি অ্যান্ড কুয়াইট হট আউটসাইড",
+   "bn": "বাইরে রোদ উঠেছে আর বেশ গরম।"
+  },
+  {
+   "text": "The rain stopped quickly after lunch.",
+   "pron_bn": "দা রেইন স্টপড কুইকলি আফটার লাঞ্চ",
+   "bn": "দুপুরের খাবারের পর বৃষ্টি তাড়াতাড়ি থেমে গেছে।"
+  },
+  {
+   "text": "Could you please bring my umbrella, Mitu?",
+   "pron_bn": "কুড ইউ প্লিজ ব্রিং মাই আমব্রেলা মিতু?",
+   "bn": "মিতু, আমার ছাতাটা এনে দেবে কি?"
+  },
+  {
+   "text": "It is stormy, so stay inside today.",
+   "pron_bn": "ইট ইজ স্টরমি সো স্টে ইনসাইড টুডে",
+   "bn": "ঝড়ো আবহাওয়া, তাই আজ ঘরের ভেতরে থাকো।"
+  },
+  {
+   "text": "When does the monsoon start here?",
+   "pron_bn": "হোয়েন ডাজ দা মনসুন স্টার্ট হিয়ার?",
+   "bn": "এখানে বর্ষাকাল কখন শুরু হয়?"
+  },
+  {
+   "text": "Monsoon usually starts in early June.",
+   "pron_bn": "মনসুন ইউজুয়ালি স্টার্টস ইন আর্লি জুন",
+   "bn": "জুনের শুরুতেই সাধারণত বর্ষা শুরু হয়।"
+  },
+  {
+   "text": "It is foggy, so drive very carefully.",
+   "pron_bn": "ইট ইজ ফগি সো ড্রাইভ ভেরি কেয়ারফুলি",
+   "bn": "কুয়াশা পড়েছে, তাই খুব সাবধানে গাড়ি চালাও।"
+  },
+  {
+   "text": "The sky is getting dark very quickly.",
+   "pron_bn": "দা স্কাই ইজ গেটিং ডার্ক ভেরি কুইকলি",
+   "bn": "আকাশটা খুব তাড়াতাড়ি অন্ধকার হয়ে আসছে।"
+  },
+  {
+   "text": "Is winter very cold in Rangpur?",
+   "pron_bn": "ইজ উইন্টার ভেরি কোল্ড ইন রংপুর?",
+   "bn": "রংপুরে কি শীতে খুব ঠান্ডা পড়ে?"
+  },
+  {
+   "text": "Yes, it is very cold in January.",
+   "pron_bn": "ইয়েস ইট ইজ ভেরি কোল্ড ইন জানুয়ারি",
+   "bn": "হ্যাঁ, জানুয়ারিতে খুব ঠান্ডা পড়ে।"
+  },
+  {
+   "text": "Please speak slowly about the weather forecast.",
+   "pron_bn": "প্লিজ স্পিক স্লোলি অ্যাবাউট দা ওয়েদার ফোরকাস্ট",
+   "bn": "আবহাওয়ার পূর্বাভাস নিয়ে ধীরে ধীরে বলো।"
+  },
+  {
+   "text": "It is pleasant in autumn in Bangladesh.",
+   "pron_bn": "ইট ইজ প্লেজেন্ট ইন অটাম ইন বাংলাদেশ",
+   "bn": "বাংলাদেশে শরৎকালে আবহাওয়া বেশ মনোরম থাকে।"
+  },
+  {
+   "text": "Do you like the rainy season, Nadia?",
+   "pron_bn": "ডু ইউ লাইক দা রেইনি সিজন নাদিয়া?",
+   "bn": "নাদিয়া, তুমি কি বর্ষাকাল পছন্দ করো?"
+  },
+  {
+   "text": "Yes, I love the green fields outside.",
+   "pron_bn": "ইয়েস আই লাভ দা গ্রিন ফিল্ডস আউটসাইড",
+   "bn": "হ্যাঁ, বাইরে সবুজ মাঠ আমার খুব ভালো লাগে।"
+  },
+  {
+   "text": "It is windy, so hold your hat tightly.",
+   "pron_bn": "ইট ইজ উইন্ডি সো হোল্ড ইয়োর হ্যাট টাইটলি",
+   "bn": "বাতাস বইছে, তাই টুপিটা শক্ত করে ধরে রাখো।"
+  },
+  {
+   "text": "The river is rising quickly after rain.",
+   "pron_bn": "দা রিভার ইজ রাইজিং কুইকলি আফটার রেইন",
+   "bn": "বৃষ্টির পর নদীর পানি দ্রুত বাড়ছে।"
+  },
+  {
+   "text": "Please check the weather before we travel.",
+   "pron_bn": "প্লিজ চেক দা ওয়েদার বিফোর উই ট্রাভেল",
+   "bn": "রওনা হওয়ার আগে আবহাওয়াটা দেখে নাও।"
+  },
+  {
+   "text": "It is dry and dusty in late autumn.",
+   "pron_bn": "ইট ইজ ড্রাই অ্যান্ড ডাস্টি ইন লেট অটাম",
+   "bn": "হেমন্তকালে আবহাওয়া শুকনো আর ধুলোময় থাকে।"
+  },
+  {
+   "text": "Which season do you like most, Tanvir?",
+   "pron_bn": "হুইচ সিজন ডু ইউ লাইক মোস্ট তানভীর?",
+   "bn": "তানভীর, তুমি কোন ঋতু সবচেয়ে ভালোবাসো?"
+  },
+  {
+   "text": "I like spring because it is beautiful.",
+   "pron_bn": "আই লাইক স্প্রিং বিকজ ইট ইজ বিউটিফুল",
+   "bn": "বসন্ত আমার প্রিয়, কারণ তখন চারদিক সুন্দর থাকে।"
+  },
+  {
+   "text": "It is raining lightly in Sylhet now.",
+   "pron_bn": "ইট ইজ রেইনিং লাইটলি ইন সিলেট নাউ",
+   "bn": "সিলেটে এখন গুঁড়ি গুঁড়ি বৃষ্টি হচ্ছে।"
+  },
+  {
+   "text": "Let us go out after the rain.",
+   "pron_bn": "লেট আস গো আউট আফটার দা রেইন",
+   "bn": "চলো, বৃষ্টি থামার পরে বাইরে যাই।"
   }
  ],
  "reading": [

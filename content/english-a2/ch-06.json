@@ -126,6 +126,146 @@
    "bn": "আমি কি এখানে নগদ টাকায় দিতে পারি?",
    "pron_bn": "ক্যান আই পে বাই ক্যাশ হিয়ার?",
    "text": "Can I pay by cash here?"
+  },
+  {
+   "text": "Could I have a table for two, please?",
+   "pron_bn": "কুড আই হ্যাভ আ টেবল ফর টু, প্লিজ?",
+   "bn": "দুজনের জন্য একটা টেবিল পেতে পারি, প্লিজ?"
+  },
+  {
+   "text": "I would like some fried chicken today, please.",
+   "pron_bn": "আই উড লাইক সাম ফ্রাইড চিকেন টুডে, প্লিজ।",
+   "bn": "আজ আমি ফ্রাইড চিকেন খেতে চাই, প্লিজ।"
+  },
+  {
+   "text": "Can I have a glass of juice, please?",
+   "pron_bn": "ক্যান আই হ্যাভ আ গ্লাস অফ জুস, প্লিজ?",
+   "bn": "আমাকে এক গ্লাস জুস দেবেন, প্লিজ?"
+  },
+  {
+   "text": "Would you like still or sparkling water?",
+   "pron_bn": "উড ইউ লাইক স্টিল অর স্পার্কলিং ওয়াটার?",
+   "bn": "আপনি নরমাল পানি নেবেন নাকি স্পার্কলিং পানি?"
+  },
+  {
+   "text": "Could we sit near the window, please?",
+   "pron_bn": "কুড উই সিট নিয়ার দা উইন্ডো, প্লিজ?",
+   "bn": "আমরা কি জানালার পাশে বসতে পারি, প্লিজ?"
+  },
+  {
+   "text": "I would like vegetable soup to start, please.",
+   "pron_bn": "আই উড লাইক ভেজটেবল সুপ টু স্টার্ট, প্লিজ।",
+   "bn": "শুরুতে আমি সবজির স্যুপ নিতে চাই, প্লিজ।"
+  },
+  {
+   "text": "Can I have the lunch menu, please?",
+   "pron_bn": "ক্যান আই হ্যাভ দা লাঞ্চ মেনু, প্লিজ?",
+   "bn": "দুপুরের খাবারের মেনুটা দেবেন, প্লিজ?"
+  },
+  {
+   "text": "What would you like to drink now?",
+   "pron_bn": "হোয়াট উড ইউ লাইক টু ড্রিংক নাউ?",
+   "bn": "এখন আপনি কী পান করতে চান?"
+  },
+  {
+   "text": "Could I order some rice and fish, please?",
+   "pron_bn": "কুড আই অর্ডার সাম রাইস অ্যান্ড ফিশ, প্লিজ?",
+   "bn": "আমি কি ভাত আর মাছ অর্ডার করতে পারি, প্লিজ?"
+  },
+  {
+   "text": "I would like a chicken sandwich and salad.",
+   "pron_bn": "আই উড লাইক আ চিকেন স্যান্ডউইচ অ্যান্ড স্যালাড।",
+   "bn": "আমি একটা চিকেন স্যান্ডউইচ আর সালাদ নিতে চাই।"
+  },
+  {
+   "text": "Can I have some extra napkins, please?",
+   "pron_bn": "ক্যান আই হ্যাভ সাম এক্সট্রা ন্যাপকিনস, প্লিজ?",
+   "bn": "আমাকে আরও কয়েকটা টিস্যু দেবেন, প্লিজ?"
+  },
+  {
+   "text": "Would you like a starter before lunch?",
+   "pron_bn": "উড ইউ লাইক আ স্টার্টার বিফোর লাঞ্চ?",
+   "bn": "দুপুরের খাবারের আগে কিছু স্টার্টার নেবেন?"
+  },
+  {
+   "text": "Could I have the salt and pepper, please?",
+   "pron_bn": "কুড আই হ্যাভ দা সল্ট অ্যান্ড পেপার, প্লিজ?",
+   "bn": "লবণ আর গোলমরিচটা দেবেন, প্লিজ?"
+  },
+  {
+   "text": "This curry is mild and very tasty.",
+   "pron_bn": "দিস কারি ইজ মাইল্ড অ্যান্ড ভেরি টেস্টি।",
+   "bn": "এই তরকারিটা হালকা ঝাল আর খুব মজার।"
+  },
+  {
+   "text": "Can I have some ice in my juice?",
+   "pron_bn": "ক্যান আই হ্যাভ সাম আইস ইন মাই জুস?",
+   "bn": "আমার জুসে একটু বরফ দেবেন?"
+  },
+  {
+   "text": "I would like one more cup of tea.",
+   "pron_bn": "আই উড লাইক ওয়ান মোর কাপ অফ টি।",
+   "bn": "আমি আরও এক কাপ চা নিতে চাই।"
+  },
+  {
+   "text": "Could we pay the bill together, please?",
+   "pron_bn": "কুড উই পে দা বিল টুগেদার, প্লিজ?",
+   "bn": "আমরা কি বিলটা একসাথে দিতে পারি, প্লিজ?"
+  },
+  {
+   "text": "Would you like some rice with curry?",
+   "pron_bn": "উড ইউ লাইক সাম রাইস উইথ কারি?",
+   "bn": "তরকারির সাথে একটু ভাত নেবেন?"
+  },
+  {
+   "text": "Can I have a fork and spoon, please?",
+   "pron_bn": "ক্যান আই হ্যাভ আ ফর্ক অ্যান্ড স্পুন, প্লিজ?",
+   "bn": "আমাকে একটা ফর্ক আর চামচ দেবেন, প্লিজ?"
+  },
+  {
+   "text": "I would like fresh salad without onion, please.",
+   "pron_bn": "আই উড লাইক ফ্রেশ স্যালাড উইদাউট অনিয়ন, প্লিজ।",
+   "bn": "পেঁয়াজ ছাড়া ফ্রেশ সালাদ নিতে চাই, প্লিজ।"
+  },
+  {
+   "text": "Could I try the sweet yogurt today, please?",
+   "pron_bn": "কুড আই ট্রাই দা সুইট ইয়োগার্ট টুডে, প্লিজ?",
+   "bn": "আজ কি মিষ্টি দইটা খেয়ে দেখতে পারি, প্লিজ?"
+  },
+  {
+   "text": "The service here is fast and very friendly.",
+   "pron_bn": "দা সার্ভিস হিয়ার ইজ ফাস্ট অ্যান্ড ভেরি ফ্রেন্ডলি।",
+   "bn": "এখানকার সার্ভিস দ্রুত আর খুব আন্তরিক।"
+  },
+  {
+   "text": "Can I pay by card or mobile payment?",
+   "pron_bn": "ক্যান আই পে বাই কার্ড অর মোবাইল পেমেন্ট?",
+   "bn": "কার্ড বা মোবাইলে পেমেন্ট করতে পারি?"
+  },
+  {
+   "text": "I would like to share this dish, please.",
+   "pron_bn": "আই উড লাইক টু শেয়ার দিস ডিশ, প্লিজ।",
+   "bn": "এই খাবারটা আমি ভাগ করে খেতে চাই, প্লিজ।"
+  },
+  {
+   "text": "Could you bring the bill now, please?",
+   "pron_bn": "কুড ইউ ব্রিং দা বিল নাউ, প্লিজ?",
+   "bn": "বিলটা এখন নিয়ে আসবেন, প্লিজ?"
+  },
+  {
+   "text": "Would Rafi and Mitu like some dessert now?",
+   "pron_bn": "উড রাফি অ্যান্ড মিতু লাইক সাম ডেজার্ট নাউ?",
+   "bn": "রাফি আর মিতু কি এখন কিছু ডেজার্ট নেবে?"
+  },
+  {
+   "text": "Can I have change in small notes, please?",
+   "pron_bn": "ক্যান আই হ্যাভ চেঞ্জ ইন স্মল নোটস, প্লিজ?",
+   "bn": "ভাংতিটা ছোট নোটে দেবেন, প্লিজ?"
+  },
+  {
+   "text": "Thank you, the lunch was really very good.",
+   "pron_bn": "থ্যাংক ইউ, দা লাঞ্চ ওয়াজ রিয়েলি ভেরি গুড।",
+   "bn": "ধন্যবাদ, দুপুরের খাবারটা সত্যিই খুব ভালো ছিল।"
   }
  ],
  "reading": [

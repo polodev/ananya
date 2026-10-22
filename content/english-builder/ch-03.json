@@ -1,0 +1,207 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি little যোগ করেছ আর and দিয়ে দুটি কথা জুড়েছ।",
+   "steps": [
+    {
+     "bn": "রাফি আমার ভাই।",
+     "pron_bn": "রাফি ইজ মাই ব্রাদার।",
+     "text": "Rafi is my brother."
+    },
+    {
+     "bn": "রাফি আমার ছোট ভাই।",
+     "pron_bn": "রাফি ইজ মাই লিটল ব্রাদার।",
+     "text": "Rafi is my little brother."
+    },
+    {
+     "bn": "রাফি আমার ছোট ভাই আর মিতু আমার বোন।",
+     "pron_bn": "রাফি ইজ মাই লিটল ব্রাদার অ্যান্ড মিতু ইজ মাই সিস্টার।",
+     "text": "Rafi is my little brother and Mitu is my sister."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি small যোগ করেছ আর but দিয়ে দুটি কথা জুড়েছ।",
+   "steps": [
+    {
+     "bn": "আমি একটা দোকানে কাজ করি।",
+     "pron_bn": "আই ওয়ার্ক ইন আ শপ।",
+     "text": "I work in a shop."
+    },
+    {
+     "bn": "আমি একটা ছোট দোকানে কাজ করি।",
+     "pron_bn": "আই ওয়ার্ক ইন আ স্মল শপ।",
+     "text": "I work in a small shop."
+    },
+    {
+     "bn": "আমি একটা ছোট দোকানে কাজ করি কিন্তু আমি খুশি।",
+     "pron_bn": "আই ওয়ার্ক ইন আ স্মল শপ বাট আই অ্যাম হ্যাপি।",
+     "text": "I work in a small shop but I am happy."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি green যোগ করেছ আর and দিয়ে দুটি কথা জুড়েছ।",
+   "steps": [
+    {
+     "bn": "আমরা একটা গ্রামে বেড়াতে যাই।",
+     "pron_bn": "উই ভিজিট আ ভিলেজ।",
+     "text": "We visit a village."
+    },
+    {
+     "bn": "আমরা একটা সবুজ গ্রামে বেড়াতে যাই।",
+     "pron_bn": "উই ভিজিট আ গ্রিন ভিলেজ।",
+     "text": "We visit a green village."
+    },
+    {
+     "bn": "আমরা একটা সবুজ গ্রামে বেড়াতে যাই আর ভাত খাই।",
+     "pron_bn": "উই ভিজিট আ গ্রিন ভিলেজ অ্যান্ড উই ইট রাইস।",
+     "text": "We visit a green village and we eat rice."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি good যোগ করেছ আর but দিয়ে দুটি কথা জুড়েছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া বই পড়ে।",
+     "pron_bn": "নাদিয়া রিডস বুকস।",
+     "text": "Nadia reads books."
+    },
+    {
+     "bn": "নাদিয়া ভালো বই পড়ে।",
+     "pron_bn": "নাদিয়া রিডস গুড বুকস।",
+     "text": "Nadia reads good books."
+    },
+    {
+     "bn": "নাদিয়া ভালো বই পড়ে কিন্তু সে ক্লান্ত।",
+     "pron_bn": "নাদিয়া রিডস গুড বুকস বাট শি ইজ টায়ার্ড।",
+     "text": "Nadia reads good books but she is tired."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি warm যোগ করেছ আর and দিয়ে দুটি কথা জুড়েছ।",
+   "steps": [
+    {
+     "bn": "আমি দুধ খাই।",
+     "pron_bn": "আই ড্রিংক মিল্ক।",
+     "text": "I drink milk."
+    },
+    {
+     "bn": "আমি গরম দুধ খাই।",
+     "pron_bn": "আই ড্রিংক ওয়ার্ম মিল্ক।",
+     "text": "I drink warm milk."
+    },
+    {
+     "bn": "আমি গরম দুধ খাই আর ডিম খাই।",
+     "pron_bn": "আই ড্রিংক ওয়ার্ম মিল্ক অ্যান্ড আই ইট এগস।",
+     "text": "I drink warm milk and I eat eggs."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি sweet যোগ করেছ আর and দিয়ে দুটি জিনিস জুড়েছ।",
+   "steps": [
+    {
+     "bn": "মিতু আম কেনে।",
+     "pron_bn": "মিতু বাইজ ম্যাংগোজ।",
+     "text": "Mitu buys mangoes."
+    },
+    {
+     "bn": "মিতু মিষ্টি আম কেনে।",
+     "pron_bn": "মিতু বাইজ সুইট ম্যাংগোজ।",
+     "text": "Mitu buys sweet mangoes."
+    },
+    {
+     "bn": "মিতু মিষ্টি আম আর কলা কেনে।",
+     "pron_bn": "মিতু বাইজ সুইট ম্যাংগোজ অ্যান্ড ব্যানানাজ।",
+     "text": "Mitu buys sweet mangoes and bananas."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি sunny যোগ করেছ আর but দিয়ে দুটি কথা জুড়েছ।",
+   "steps": [
+    {
+     "bn": "আজ গরম পড়েছে।",
+     "pron_bn": "ইট ইজ হট টুডে।",
+     "text": "It is hot today."
+    },
+    {
+     "bn": "আজ গরম আর রোদ আছে।",
+     "pron_bn": "ইট ইজ হট অ্যান্ড সানি টুডে।",
+     "text": "It is hot and sunny today."
+    },
+    {
+     "bn": "আজ গরম আর রোদ কিন্তু আমি খুশি।",
+     "pron_bn": "ইট ইজ হট অ্যান্ড সানি টুডে বাট আই অ্যাম হ্যাপি।",
+     "text": "It is hot and sunny today but I am happy."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি new যোগ করেছ আর and দিয়ে দুটি কথা জুড়েছ।",
+   "steps": [
+    {
+     "bn": "আমার একটা ফোন আছে।",
+     "pron_bn": "আই হ্যাভ আ ফোন।",
+     "text": "I have a phone."
+    },
+    {
+     "bn": "আমার একটা নতুন ফোন আছে।",
+     "pron_bn": "আই হ্যাভ আ নিউ ফোন।",
+     "text": "I have a new phone."
+    },
+    {
+     "bn": "আমার একটা নতুন ফোন আছে আর তানভিরের একটা ল্যাপটপ আছে।",
+     "pron_bn": "আই হ্যাভ আ নিউ ফোন অ্যান্ড তানভির হ্যাজ আ ল্যাপটপ।",
+     "text": "I have a new phone and Tanvir has a laptop."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি busy যোগ করেছ আর but দিয়ে দুটি কথা জুড়েছ।",
+   "steps": [
+    {
+     "bn": "ঢাকা বড়।",
+     "pron_bn": "ঢাকা ইজ বিগ।",
+     "text": "Dhaka is big."
+    },
+    {
+     "bn": "ঢাকা বড় আর ব্যস্ত।",
+     "pron_bn": "ঢাকা ইজ বিগ অ্যান্ড বিজি।",
+     "text": "Dhaka is big and busy."
+    },
+    {
+     "bn": "ঢাকা বড় আর ব্যস্ত কিন্তু আমি ঢাকাকে ভালোবাসি।",
+     "pron_bn": "ঢাকা ইজ বিগ অ্যান্ড বিজি বাট আই লাভ ইট।",
+     "text": "Dhaka is big and busy but I love it."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি quiet যোগ করেছ আর but দিয়ে দুটি কথা জুড়েছ।",
+   "steps": [
+    {
+     "bn": "আমাদের গ্রাম ছোট।",
+     "pron_bn": "আওয়ার ভিলেজ ইজ স্মল।",
+     "text": "Our village is small."
+    },
+    {
+     "bn": "আমাদের গ্রাম ছোট আর শান্ত।",
+     "pron_bn": "আওয়ার ভিলেজ ইজ স্মল অ্যান্ড কোয়াইট।",
+     "text": "Our village is small and quiet."
+    },
+    {
+     "bn": "আমাদের গ্রাম ছোট আর শান্ত কিন্তু সুন্দর।",
+     "pron_bn": "আওয়ার ভিলেজ ইজ স্মল অ্যান্ড কোয়াইট বাট ইট ইজ নাইস।",
+     "text": "Our village is small and quiet but it is nice."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি and আর but দিয়ে দুটি ছোট কথা জুড়বে। তুমি বাক্যে ছোট সুন্দর বিশেষণও যোগ করবে।",
+ "tip_bn": "একই রকম কথা জুড়তে তুমি and বলবে। উল্টো কথা জুড়তে তুমি but বলবে।",
+ "title": "And, But and Adjectives"
+}

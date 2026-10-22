@@ -126,6 +126,146 @@
    "bn": "ধন্যবাদ, আগামী শুক্রবারে আবার আসবেন।",
    "pron_bn": "থ্যাংক ইউ, কাম অ্যাগেন নেক্সট ফ্রাইডে।",
    "text": "Thank you, come again next Friday."
+  },
+  {
+   "text": "How much is one kilo of potatoes?",
+   "pron_bn": "হাউ মাচ ইজ ওয়ান কিলো অভ পটেটোস?",
+   "bn": "এক কেজি আলুর দাম কত?"
+  },
+  {
+   "text": "How many tomatoes do you need today?",
+   "pron_bn": "হাউ মেনি টমেটোস ডু ইউ নিড টুডে?",
+   "bn": "আজ তোমার কয়টা টমেটো লাগবে?"
+  },
+  {
+   "text": "Please give me some fresh river fish.",
+   "pron_bn": "প্লিজ গিভ মি সাম ফ্রেশ রিভার ফিশ",
+   "bn": "আমাকে কিছু টাটকা নদীর মাছ দিন।"
+  },
+  {
+   "text": "Do you have any green chilies today?",
+   "pron_bn": "ডু ইউ হ্যাভ এনি গ্রিন চিলিজ টুডে?",
+   "bn": "আজ কি আপনাদের কাছে কাঁচা মরিচ আছে?"
+  },
+  {
+   "text": "I want some carrots and some cucumbers.",
+   "pron_bn": "আই ওয়ান্ট সাম ক্যারটস অ্যান্ড সাম কিউকামবার্স",
+   "bn": "আমি কিছু গাজর আর কিছু শসা চাই।"
+  },
+  {
+   "text": "We do not have any big fish now.",
+   "pron_bn": "উই ডু নট হ্যাভ এনি বিগ ফিশ নাউ",
+   "bn": "আমাদের কাছে এখন বড় মাছ নেই।"
+  },
+  {
+   "text": "How much are these fresh eggs today?",
+   "pron_bn": "হাউ মাচ আর দিজ ফ্রেশ এগস টুডে?",
+   "bn": "আজ এই টাটকা ডিমগুলোর দাম কত?"
+  },
+  {
+   "text": "Can I have some more shopping bags?",
+   "pron_bn": "ক্যান আই হ্যাভ সাম মোর শপিং ব্যাগস?",
+   "bn": "আমি কি আরও কিছু বাজারের ব্যাগ পেতে পারি?"
+  },
+  {
+   "text": "Please take some fresh coriander leaves too.",
+   "pron_bn": "প্লিজ টেক সাম ফ্রেশ করিয়ান্ডার লিভস টু",
+   "bn": "কিছু টাটকা ধনেপাতাও নিন।"
+  },
+  {
+   "text": "How many onions are in this bag?",
+   "pron_bn": "হাউ মেনি অনিয়নস আর ইন দিস ব্যাগ?",
+   "bn": "এই ব্যাগে কয়টা পেঁয়াজ আছে?"
+  },
+  {
+   "text": "That fish is too expensive for me.",
+   "pron_bn": "দ্যাট ফিশ ইজ টু এক্সপেনসিভ ফর মি",
+   "bn": "এই মাছটা আমার জন্য অনেক দামি।"
+  },
+  {
+   "text": "Do you have any change for five hundred?",
+   "pron_bn": "ডু ইউ হ্যাভ এনি চেঞ্জ ফর ফাইভ হানড্রেড?",
+   "bn": "পাঁচশো টাকার ভাঙতি কি আপনার কাছে আছে?"
+  },
+  {
+   "text": "I need a little more salt today.",
+   "pron_bn": "আই নিড আ লিটল মোর সল্ট টুডে",
+   "bn": "আজ আমার আর একটু লবণ লাগবে।"
+  },
+  {
+   "text": "Please give me one kilo of small fish.",
+   "pron_bn": "প্লিজ গিভ মি ওয়ান কিলো অভ স্মল ফিশ",
+   "bn": "আমাকে এক কেজি ছোট মাছ দিন।"
+  },
+  {
+   "text": "Are these mangoes sweet or a little sour?",
+   "pron_bn": "আর দিজ ম্যাংগোস সুইট অর আ লিটল সাউয়ার?",
+   "bn": "এই আমগুলো কি মিষ্টি, নাকি একটু টক?"
+  },
+  {
+   "text": "Rafi, please buy some fresh vegetables today.",
+   "pron_bn": "রাফি প্লিজ বাই সাম ফ্রেশ ভেজটেবলস টুডে",
+   "bn": "রাফি, আজ কিছু টাটকা সবজি কিনো।"
+  },
+  {
+   "text": "Mitu needs two kilos of red potatoes.",
+   "pron_bn": "মিতু নিডস টু কিলোস অভ রেড পটেটোস",
+   "bn": "মিতুর দুই কেজি লাল আলু লাগবে।"
+  },
+  {
+   "text": "How much money do you have now?",
+   "pron_bn": "হাউ মাচ মানি ডু ইউ হ্যাভ নাউ?",
+   "bn": "তোমার কাছে এখন কত টাকা আছে?"
+  },
+  {
+   "text": "Sorry, I do not have any small notes.",
+   "pron_bn": "সরি আই ডু নট হ্যাভ এনি স্মল নোটস",
+   "bn": "দুঃখিত, আমার কাছে কোনো ছোট নোট নেই।"
+  },
+  {
+   "text": "Can you cut this fish into small pieces?",
+   "pron_bn": "ক্যান ইউ কাট দিস ফিশ ইনটু স্মল পিসেস?",
+   "bn": "এই মাছটা কি ছোট টুকরো করে কেটে দিতে পারবেন?"
+  },
+  {
+   "text": "These tomatoes look very fresh and red.",
+   "pron_bn": "দিজ টমেটোস লুক ভেরি ফ্রেশ অ্যান্ড রেড",
+   "bn": "এই টমেটোগুলো খুব টাটকা আর লাল দেখাচ্ছে।"
+  },
+  {
+   "text": "I want to buy some cheap seasonal vegetables.",
+   "pron_bn": "আই ওয়ান্ট টু বাই সাম চিপ সিজনাল ভেজটেবলস",
+   "bn": "আমি কিছু সস্তা মৌসুমি সবজি কিনতে চাই।"
+  },
+  {
+   "text": "Do you sell any dry fish here?",
+   "pron_bn": "ডু ইউ সেল এনি ড্রাই ফিশ হিয়ার?",
+   "bn": "আপনারা কি এখানে শুঁটকি মাছ বিক্রি করেন?"
+  },
+  {
+   "text": "Nadia bought three big hilsa fish yesterday.",
+   "pron_bn": "নাদিয়া বট থ্রি বিগ হিলসা ফিশ ইয়েসটারডে",
+   "bn": "নাদিয়া গতকাল তিনটা বড় ইলিশ মাছ কিনেছে।"
+  },
+  {
+   "text": "How many shops sell fresh vegetables here?",
+   "pron_bn": "হাউ মেনি শপস সেল ফ্রেশ ভেজটেবলস হিয়ার?",
+   "bn": "এখানে কয়টা দোকানে টাটকা সবজি বিক্রি করে?"
+  },
+  {
+   "text": "Please do not give me any old onions.",
+   "pron_bn": "প্লিজ ডু নট গিভ মি এনি ওল্ড অনিয়নস",
+   "bn": "আমাকে কোনো পুরোনো পেঁয়াজ দেবেন না।"
+  },
+  {
+   "text": "Tanvir wants some lemons and some green chilies.",
+   "pron_bn": "তানভির ওয়ান্টস সাম লেমনস অ্যান্ড সাম গ্রিন চিলিজ",
+   "bn": "তানভির কিছু লেবু আর কিছু কাঁচা মরিচ চায়।"
+  },
+  {
+   "text": "This market has many fresh and cheap foods.",
+   "pron_bn": "দিস মার্কেট হ্যাজ মেনি ফ্রেশ অ্যান্ড চিপ ফুডস",
+   "bn": "এই বাজারে অনেক টাটকা আর সস্তা খাবার আছে।"
   }
  ],
  "reading": [

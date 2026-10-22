@@ -1,0 +1,232 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি usually, at eight o'clock আর on weekdays যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি কাজে যাই।",
+     "pron_bn": "আই গো টু ওয়ার্ক।",
+     "text": "I go to work."
+    },
+    {
+     "bn": "আমি সাধারণত কাজে যাই।",
+     "pron_bn": "আই ইউজুয়ালি গো টু ওয়ার্ক।",
+     "text": "I usually go to work."
+    },
+    {
+     "bn": "আমি সাধারণত সকাল আটটায় কাজে যাই।",
+     "pron_bn": "আই ইউজুয়ালি গো টু ওয়ার্ক অ্যাট এইট ও'ক্লক।",
+     "text": "I usually go to work at eight o'clock."
+    },
+    {
+     "bn": "আমি সাধারণত কাজের দিনগুলোতে সকাল আটটায় কাজে যাই।",
+     "pron_bn": "আই ইউজুয়ালি গো টু ওয়ার্ক অ্যাট এইট ও'ক্লক অন উইকডেইজ।",
+     "text": "I usually go to work at eight o'clock on weekdays."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি often, on Fridays আর in the afternoon যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি তার দাদির কাছে যায়।",
+     "pron_bn": "রাফি ভিজিটস হিজ গ্র্যান্ডমাদার।",
+     "text": "Rafi visits his grandmother."
+    },
+    {
+     "bn": "রাফি প্রায়ই তার দাদির কাছে যায়।",
+     "pron_bn": "রাফি অফেন ভিজিটস হিজ গ্র্যান্ডমাদার।",
+     "text": "Rafi often visits his grandmother."
+    },
+    {
+     "bn": "রাফি প্রায়ই শুক্রবারে তার দাদির কাছে যায়।",
+     "pron_bn": "রাফি অফেন ভিজিটস হিজ গ্র্যান্ডমাদার অন ফ্রাইডেইজ।",
+     "text": "Rafi often visits his grandmother on Fridays."
+    },
+    {
+     "bn": "রাফি প্রায়ই শুক্রবারে বিকেলে তার দাদির কাছে যায়।",
+     "pron_bn": "রাফি অফেন ভিজিটস হিজ গ্র্যান্ডমাদার অন ফ্রাইডেইজ ইন দি আফটারনুন।",
+     "text": "Rafi often visits his grandmother on Fridays in the afternoon."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি every day আর in the evening যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু ইংরেজি পড়ে।",
+     "pron_bn": "মিতু স্টাডিজ ইংলিশ।",
+     "text": "Mitu studies English."
+    },
+    {
+     "bn": "মিতু প্রতিদিন ইংরেজি পড়ে।",
+     "pron_bn": "মিতু স্টাডিজ ইংলিশ এভরি ডে।",
+     "text": "Mitu studies English every day."
+    },
+    {
+     "bn": "মিতু প্রতিদিন সন্ধ্যায় ইংরেজি পড়ে।",
+     "pron_bn": "মিতু স্টাডিজ ইংলিশ এভরি ডে ইন দি ইভনিং।",
+     "text": "Mitu studies English every day in the evening."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি often, in the morning আর before breakfast যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি পার্কে হাঁটি।",
+     "pron_bn": "আই ওয়াক ইন দা পার্ক।",
+     "text": "I walk in the park."
+    },
+    {
+     "bn": "আমি প্রায়ই পার্কে হাঁটি।",
+     "pron_bn": "আই অফেন ওয়াক ইন দা পার্ক।",
+     "text": "I often walk in the park."
+    },
+    {
+     "bn": "আমি প্রায়ই সকালে পার্কে হাঁটি।",
+     "pron_bn": "আই অফেন ওয়াক ইন দা পার্ক ইন দা মর্নিং।",
+     "text": "I often walk in the park in the morning."
+    },
+    {
+     "bn": "আমি প্রায়ই সকালে নাশতার আগে পার্কে হাঁটি।",
+     "pron_bn": "আই অফেন ওয়াক ইন দা পার্ক ইন দা মর্নিং বিফোর ব্রেকফাস্ট।",
+     "text": "I often walk in the park in the morning before breakfast."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি twice a week আর on Mondays and Thursdays যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা বাজারে যাই।",
+     "pron_bn": "উই গো টু দা বাজার।",
+     "text": "We go to the bazaar."
+    },
+    {
+     "bn": "আমরা সপ্তাহে দুইবার বাজারে যাই।",
+     "pron_bn": "উই গো টু দা বাজার টোয়াইস আ উইক।",
+     "text": "We go to the bazaar twice a week."
+    },
+    {
+     "bn": "আমরা সপ্তাহে দুইবার সোমবার আর বৃহস্পতিবারে বাজারে যাই।",
+     "pron_bn": "উই গো টু দা বাজার টোয়াইস আ উইক অন মানডেইজ অ্যান্ড থার্সডেইজ।",
+     "text": "We go to the bazaar twice a week on Mondays and Thursdays."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি often আর in July যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমার গ্রামে বৃষ্টি হয়।",
+     "pron_bn": "ইট রেইনস ইন মাই ভিলেজ।",
+     "text": "It rains in my village."
+    },
+    {
+     "bn": "আমার গ্রামে প্রায়ই বৃষ্টি হয়।",
+     "pron_bn": "ইট অফেন রেইনস ইন মাই ভিলেজ।",
+     "text": "It often rains in my village."
+    },
+    {
+     "bn": "জুলাই মাসে আমার গ্রামে প্রায়ই বৃষ্টি হয়।",
+     "pron_bn": "ইট অফেন রেইনস ইন মাই ভিলেজ ইন জুলাই।",
+     "text": "It often rains in my village in July."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি every evening আর after dinner যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর ইন্টারনেট ব্যবহার করে।",
+     "pron_bn": "তানভীর ইউজেজ দি ইন্টারনেট।",
+     "text": "Tanvir uses the internet."
+    },
+    {
+     "bn": "তানভীর প্রতি সন্ধ্যায় ইন্টারনেট ব্যবহার করে।",
+     "pron_bn": "তানভীর ইউজেজ দি ইন্টারনেট এভরি ইভনিং।",
+     "text": "Tanvir uses the internet every evening."
+    },
+    {
+     "bn": "তানভীর প্রতি সন্ধ্যায় রাতের খাবারের পরে ইন্টারনেট ব্যবহার করে।",
+     "pron_bn": "তানভীর ইউজেজ দি ইন্টারনেট এভরি ইভনিং আফটার ডিনার।",
+     "text": "Tanvir uses the internet every evening after dinner."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি every year আর in winter যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া ঢাকায় যায়।",
+     "pron_bn": "নাদিয়া গোজ টু ঢাকা।",
+     "text": "Nadia goes to Dhaka."
+    },
+    {
+     "bn": "নাদিয়া প্রতি বছর ঢাকায় যায়।",
+     "pron_bn": "নাদিয়া গোজ টু ঢাকা এভরি ইয়ার।",
+     "text": "Nadia goes to Dhaka every year."
+    },
+    {
+     "bn": "নাদিয়া প্রতি বছর শীতকালে ঢাকায় যায়।",
+     "pron_bn": "নাদিয়া গোজ টু ঢাকা এভরি ইয়ার ইন উইনটার।",
+     "text": "Nadia goes to Dhaka every year in winter."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি always, at seven o'clock আর in the morning যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি দুধ চা খায়।",
+     "pron_bn": "রাফি ড্রিংকস মিল্ক টি।",
+     "text": "Rafi drinks milk tea."
+    },
+    {
+     "bn": "রাফি সবসময় দুধ চা খায়।",
+     "pron_bn": "রাফি অলওয়েজ ড্রিংকস মিল্ক টি।",
+     "text": "Rafi always drinks milk tea."
+    },
+    {
+     "bn": "রাফি সবসময় সাতটায় দুধ চা খায়।",
+     "pron_bn": "রাফি অলওয়েজ ড্রিংকস মিল্ক টি অ্যাট সেভেন ও'ক্লক।",
+     "text": "Rafi always drinks milk tea at seven o'clock."
+    },
+    {
+     "bn": "রাফি সবসময় সকালে সাতটায় দুধ চা খায়।",
+     "pron_bn": "রাফি অলওয়েজ ড্রিংকস মিল্ক টি অ্যাট সেভেন ও'ক্লক ইন দা মর্নিং।",
+     "text": "Rafi always drinks milk tea at seven o'clock in the morning."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি usually, at eight o'clock আর at night যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা একসঙ্গে রাতের খাবার খাই।",
+     "pron_bn": "উই ইট ডিনার টুগেদার।",
+     "text": "We eat dinner together."
+    },
+    {
+     "bn": "আমরা সাধারণত একসঙ্গে রাতের খাবার খাই।",
+     "pron_bn": "উই ইউজুয়ালি ইট ডিনার টুগেদার।",
+     "text": "We usually eat dinner together."
+    },
+    {
+     "bn": "আমরা সাধারণত রাত আটটায় একসঙ্গে রাতের খাবার খাই।",
+     "pron_bn": "উই ইউজুয়ালি ইট ডিনার টুগেদার অ্যাট এইট ও'ক্লক।",
+     "text": "We usually eat dinner together at eight o'clock."
+    },
+    {
+     "bn": "আমরা সাধারণত রাতে আটটায় একসঙ্গে রাতের খাবার খাই।",
+     "pron_bn": "উই ইউজুয়ালি ইট ডিনার টুগেদার অ্যাট এইট ও'ক্লক অ্যাট নাইট।",
+     "text": "We usually eat dinner together at eight o'clock at night."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "তুমি এই অধ্যায়ে কতবার আর কখন বলতে শিখবে। ছোট বাক্যকে ধাপে ধাপে বড় করে বলবে।",
+ "tip_bn": "তুমি always, usually আর often বসাও মূল verb-এর আগে। তুমি সময়ের কথা যেমন in the morning বা on Fridays বসাও বাক্যের শেষে।",
+ "title": "How Often and When"
+}

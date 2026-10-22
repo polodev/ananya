@@ -126,6 +126,146 @@
    "bn": "পরের বার আমরা তাড়াতাড়ি রওনা দেব আর বাড়তি শুকনো খাবার নেব।",
    "pron_bn": "",
    "text": "Next time we will start early and carry extra dry food."
+  },
+  {
+   "text": "While we were waiting at the station, it started raining suddenly.",
+   "pron_bn": "",
+   "bn": "আমরা স্টেশনে অপেক্ষা করছিলাম, তখন হঠাৎ বৃষ্টি শুরু হলো।"
+  },
+  {
+   "text": "What were you doing when our bus stopped on the road?",
+   "pron_bn": "",
+   "bn": "রাস্তায় আমাদের বাস থামার সময় তুমি কী করছিলে?"
+  },
+  {
+   "text": "I was sleeping peacefully when Rafi called me about the delay.",
+   "pron_bn": "",
+   "bn": "আমি আরামে ঘুমাচ্ছিলাম, তখন দেরির খবর দিতে রাফি ফোন করল।"
+  },
+  {
+   "text": "While Nadia was talking to the manager, we waited in the lobby.",
+   "pron_bn": "",
+   "bn": "নাদিয়া ম্যানেজারের সঙ্গে কথা বলছিল, তখন আমরা লবিতে অপেক্ষা করলাম।"
+  },
+  {
+   "text": "Could you please tell me when the next bus will leave?",
+   "pron_bn": "",
+   "bn": "পরের বাস কখন ছাড়বে, দয়া করে বলবেন?"
+  },
+  {
+   "text": "We were having lunch when the hotel lights went off suddenly.",
+   "pron_bn": "",
+   "bn": "আমরা দুপুরের খাবার খাচ্ছিলাম, তখন হঠাৎ হোটেলের লাইট নিভে গেল।"
+  },
+  {
+   "text": "While Tanvir was checking the map, I asked a shopkeeper for help.",
+   "pron_bn": "",
+   "bn": "তানভীর ম্যাপ দেখছিল, তখন আমি এক দোকানদারের কাছে সাহায্য চাইলাম।"
+  },
+  {
+   "text": "Why were you standing outside while it was raining so heavily?",
+   "pron_bn": "",
+   "bn": "এত জোরে বৃষ্টি হচ্ছিল, তবু তুমি বাইরে দাঁড়িয়ে ছিলে কেন?"
+  },
+  {
+   "text": "I was walking to the market when I lost my phone cover.",
+   "pron_bn": "",
+   "bn": "আমি বাজারের দিকে হাঁটছিলাম, তখন আমার ফোনের কভারটা হারিয়ে গেল।"
+  },
+  {
+   "text": "While we were crossing the river, our boat engine stopped working.",
+   "pron_bn": "",
+   "bn": "আমরা নদী পার হচ্ছিলাম, তখন আমাদের নৌকার ইঞ্জিন বন্ধ হয়ে গেল।"
+  },
+  {
+   "text": "When the rain stopped, we were waiting for a rickshaw near the hotel.",
+   "pron_bn": "",
+   "bn": "বৃষ্টি যখন থামল, আমরা হোটেলের কাছে রিকশার জন্য অপেক্ষা করছিলাম।"
+  },
+  {
+   "text": "Could you please show me some photos from your Sylhet trip?",
+   "pron_bn": "",
+   "bn": "তোমার সিলেট ভ্রমণের কিছু ছবি দেখাবে, প্লিজ?"
+  },
+  {
+   "text": "Mitu was carrying our tickets while I was finding a good seat.",
+   "pron_bn": "",
+   "bn": "আমি ভালো সিট খুঁজছিলাম, আর মিতুর কাছে আমাদের টিকিটগুলো ছিল।"
+  },
+  {
+   "text": "We were talking and laughing when the bus suddenly hit a pothole.",
+   "pron_bn": "",
+   "bn": "আমরা গল্প করছিলাম আর হাসছিলাম, তখন বাসটা হঠাৎ গর্তে পড়ল।"
+  },
+  {
+   "text": "What did Tanvir say when you were telling him about the problem?",
+   "pron_bn": "",
+   "bn": "তুমি সমস্যাটার কথা বলছিলে, তখন তানভীর কী বলল?"
+  },
+  {
+   "text": "While Rafi was paying the fare, the driver was loading our bags.",
+   "pron_bn": "",
+   "bn": "রাফি ভাড়া দিচ্ছিল, আর ড্রাইভার আমাদের ব্যাগগুলো তুলছিল।"
+  },
+  {
+   "text": "I was charging my phone when the electricity went off again.",
+   "pron_bn": "",
+   "bn": "আমি ফোনে চার্জ দিচ্ছিলাম, তখন আবার কারেন্ট চলে গেল।"
+  },
+  {
+   "text": "Could you please wait a moment while I check our booking details?",
+   "pron_bn": "",
+   "bn": "আমি বুকিংয়ের তথ্যগুলো দেখছি, একটু অপেক্ষা করবেন প্লিজ?"
+  },
+  {
+   "text": "We were enjoying the green hills when the fog covered everything.",
+   "pron_bn": "",
+   "bn": "আমরা সবুজ পাহাড় দেখে মজা পাচ্ছিলাম, তখন কুয়াশায় সব ঢেকে গেল।"
+  },
+  {
+   "text": "Nadia was feeling sick while we were traveling on the hilly road.",
+   "pron_bn": "",
+   "bn": "আমরা পাহাড়ি রাস্তায় যাচ্ছিলাম, তখন নাদিয়ার শরীর খারাপ লাগছিল।"
+  },
+  {
+   "text": "When we finally arrived, the hotel staff were waiting with warm smiles.",
+   "pron_bn": "",
+   "bn": "শেষে আমরা যখন পৌঁছালাম, হোটেলের লোকজন হাসিমুখে অপেক্ষা করছিল।"
+  },
+  {
+   "text": "Were you sleeping when the thunder woke everyone up at midnight?",
+   "pron_bn": "",
+   "bn": "মাঝরাতে বজ্রপাতের শব্দে সবাই যখন জেগে গেল, তুমি কি ঘুমাচ্ছিলে?"
+  },
+  {
+   "text": "While we were taking shelter, Rafi bought hot tea for everyone.",
+   "pron_bn": "",
+   "bn": "আমরা বৃষ্টি থেকে বাঁচতে দাঁড়িয়েছিলাম, তখন রাফি সবার জন্য গরম চা কিনল।"
+  },
+  {
+   "text": "Sorry, I missed your call while I was talking to the ticket counter.",
+   "pron_bn": "",
+   "bn": "দুঃখিত, আমি টিকিট কাউন্টারে কথা বলছিলাম, তাই তোমার ফোন ধরতে পারিনি।"
+  },
+  {
+   "text": "Mitu was taking a video when a monkey suddenly jumped nearby.",
+   "pron_bn": "",
+   "bn": "মিতু ভিডিও করছিল, তখন হঠাৎ কাছেই একটা বানর লাফ দিল।"
+  },
+  {
+   "text": "Could you please help me while I carry these heavy bags upstairs?",
+   "pron_bn": "",
+   "bn": "এই ভারী ব্যাগগুলো উপরে নিতে আমাকে একটু সাহায্য করবেন প্লিজ?"
+  },
+  {
+   "text": "We were planning to visit the tea garden when it started raining.",
+   "pron_bn": "",
+   "bn": "আমরা চা বাগানে যাওয়ার পরিকল্পনা করছিলাম, তখন বৃষ্টি শুরু হলো।"
+  },
+  {
+   "text": "After the bus broke down, we shared the story and laughed together.",
+   "pron_bn": "",
+   "bn": "বাস নষ্ট হওয়ার পর আমরা গল্পটা মনে করে সবাই মিলে হাসলাম।"
   }
  ],
  "reading": [

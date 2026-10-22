@@ -1,0 +1,307 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি Having finished দিয়ে শুরু ও feeling দিয়ে শেষ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি অফিস থেকে বেরিয়ে গেল।",
+     "pron_bn": "",
+     "text": "Rafi left the office."
+    },
+    {
+     "bn": "কাজ শেষ করে রাফি অফিস থেকে বেরিয়ে গেল।",
+     "pron_bn": "",
+     "text": "Having finished his work, Rafi left the office."
+    },
+    {
+     "bn": "কাজ শেষ করে রাফি তাড়াতাড়ি অফিস থেকে বেরিয়ে গেল।",
+     "pron_bn": "",
+     "text": "Having finished his work, Rafi left the office early."
+    },
+    {
+     "bn": "কাজ শেষ করে রাফি তাড়াতাড়ি অফিস থেকে বেরিয়ে গেল, তখন সে ক্লান্ত হলেও সন্তুষ্ট ছিল।",
+     "pron_bn": "",
+     "text": "Having finished his work, Rafi left the office early, feeling tired but satisfied."
+    },
+    {
+     "bn": "কাজ শেষ করে রাফি তাড়াতাড়ি অফিস থেকে বেরিয়ে গেল, সারা দিনের পরিশ্রমে সে ক্লান্ত হলেও সন্তুষ্ট ছিল।",
+     "pron_bn": "",
+     "text": "Having finished his work, Rafi left the office early, feeling tired but satisfied after a long day."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি helping ও smiling যোগ করে বাক্যটি বড় করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু রাতের খাবার রাঁধল।",
+     "pron_bn": "",
+     "text": "Mitu cooked dinner."
+    },
+    {
+     "bn": "মিতু রান্নাঘরে মাকে সাহায্য করতে করতে রাতের খাবার রাঁধল।",
+     "pron_bn": "",
+     "text": "Mitu cooked dinner, helping her mother in the kitchen."
+    },
+    {
+     "bn": "মিতু পরিবারের জন্য রান্নাঘরে মাকে সাহায্য করতে করতে রাতের খাবার রাঁধল।",
+     "pron_bn": "",
+     "text": "Mitu cooked dinner, helping her mother in the kitchen for the family."
+    },
+    {
+     "bn": "খুশি মনে হাসতে হাসতে মিতু পরিবারের জন্য রান্নাঘরে মাকে সাহায্য করে রাতের খাবার রাঁধল।",
+     "pron_bn": "",
+     "text": "Smiling happily, Mitu cooked dinner, helping her mother in the kitchen for the family."
+    },
+    {
+     "bn": "গত রাতে মিতু খুশি মনে হাসতে হাসতে পরিবারের জন্য রান্নাঘরে মাকে সাহায্য করে রাতের খাবার রাঁধল।",
+     "pron_bn": "",
+     "text": "Smiling happily, Mitu cooked dinner, helping her mother in the kitchen for the family last night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি travelling দিয়ে শুরু ও taking দিয়ে শেষ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর সমুদ্রের পাড়ে বেড়াতে গেল।",
+     "pron_bn": "",
+     "text": "Tanvir visited the sea beach."
+    },
+    {
+     "bn": "বাসে করে গিয়ে তানভীর সমুদ্রের পাড়ে বেড়াতে গেল।",
+     "pron_bn": "",
+     "text": "Travelling by bus, Tanvir visited the sea beach."
+    },
+    {
+     "bn": "বাসে করে বন্ধুদের সঙ্গে তানভীর সমুদ্রের পাড়ে বেড়াতে গেল।",
+     "pron_bn": "",
+     "text": "Travelling by bus, Tanvir visited the sea beach with his friends."
+    },
+    {
+     "bn": "বাসে করে বন্ধুদের সঙ্গে তানভীর সমুদ্রের পাড়ে বেড়াতে গিয়ে অনেক ছবি তুলল।",
+     "pron_bn": "",
+     "text": "Travelling by bus, Tanvir visited the sea beach with his friends, taking many photos."
+    },
+    {
+     "bn": "বাসে করে বন্ধুদের সঙ্গে তানভীর সমুদ্রের পাড়ে বেড়াতে গিয়ে সমুদ্রের অনেক ছবি তুলল।",
+     "pron_bn": "",
+     "text": "Travelling by bus, Tanvir visited the sea beach with his friends, taking many photos of the sea."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি having studied দিয়ে কারণ ও making দিয়ে ফলাফল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া পরীক্ষায় পাস করল।",
+     "pron_bn": "",
+     "text": "Nadia passed the exam."
+    },
+    {
+     "bn": "কয়েক মাস ধরে কঠোর পড়াশোনা করে নাদিয়া পরীক্ষায় পাস করল।",
+     "pron_bn": "",
+     "text": "Having studied hard for months, Nadia passed the exam."
+    },
+    {
+     "bn": "কয়েক মাস ধরে কঠোর পড়াশোনা করে নাদিয়া ভালো নম্বর নিয়ে পরীক্ষায় পাস করল।",
+     "pron_bn": "",
+     "text": "Having studied hard for months, Nadia passed the exam with good marks."
+    },
+    {
+     "bn": "কয়েক মাস ধরে কঠোর পড়াশোনা করে নাদিয়া ভালো নম্বর নিয়ে পাস করে বাবা-মাকে গর্বিত করল।",
+     "pron_bn": "",
+     "text": "Having studied hard for months, Nadia passed the exam with good marks, making her parents proud."
+    },
+    {
+     "bn": "কয়েক মাস ধরে কঠোর পড়াশোনা করে নাদিয়া শেষ পর্যন্ত ভালো নম্বর নিয়ে পাস করে বাবা-মাকে গর্বিত করল।",
+     "pron_bn": "",
+     "text": "Having studied hard for months, Nadia passed the exam with good marks, making her parents proud at last."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি worried দিয়ে কারণ ও breathing দিয়ে সাথে চলা কাজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু হাঁটতে যায়।",
+     "pron_bn": "",
+     "text": "Mitu goes for a walk."
+    },
+    {
+     "bn": "স্বাস্থ্য নিয়ে চিন্তিত হয়ে মিতু হাঁটতে যায়।",
+     "pron_bn": "",
+     "text": "Worried about her health, Mitu goes for a walk."
+    },
+    {
+     "bn": "স্বাস্থ্য নিয়ে চিন্তিত হয়ে মিতু প্রতিদিন সকালে হাঁটতে যায়।",
+     "pron_bn": "",
+     "text": "Worried about her health, Mitu goes for a walk every morning."
+    },
+    {
+     "bn": "স্বাস্থ্য নিয়ে চিন্তিত হয়ে মিতু প্রতিদিন সকালে পার্কে হাঁটতে যায়।",
+     "pron_bn": "",
+     "text": "Worried about her health, Mitu goes for a walk every morning in the park."
+    },
+    {
+     "bn": "স্বাস্থ্য নিয়ে চিন্তিত হয়ে মিতু প্রতিদিন সকালে পার্কে খোলা বাতাসে নিশ্বাস নিতে নিতে হাঁটতে যায়।",
+     "pron_bn": "",
+     "text": "Worried about her health, Mitu goes for a walk every morning in the park, breathing fresh air."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি walking দিয়ে শুরু ও bargaining দিয়ে সাথে চলা কাজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর সবজি কিনল।",
+     "pron_bn": "",
+     "text": "Tanvir bought vegetables."
+    },
+    {
+     "bn": "বাজার দিয়ে হাঁটতে হাঁটতে তানভীর সবজি কিনল।",
+     "pron_bn": "",
+     "text": "Walking through the bazaar, Tanvir bought vegetables."
+    },
+    {
+     "bn": "সন্ধ্যায় বাজার দিয়ে হাঁটতে হাঁটতে তানভীর সবজি কিনল।",
+     "pron_bn": "",
+     "text": "Walking through the bazaar, Tanvir bought vegetables in the evening."
+    },
+    {
+     "bn": "সন্ধ্যায় বাজার দিয়ে হাঁটতে হাঁটতে তানভীর বিক্রেতাদের সঙ্গে ভদ্রভাবে দরদাম করে সবজি কিনল।",
+     "pron_bn": "",
+     "text": "Walking through the bazaar, Tanvir bought vegetables in the evening, bargaining politely with sellers."
+    },
+    {
+     "bn": "সন্ধ্যায় বাজার দিয়ে হাঁটতে হাঁটতে তানভীর ভালো দামের জন্য বিক্রেতাদের সঙ্গে ভদ্রভাবে দরদাম করে সবজি কিনল।",
+     "pron_bn": "",
+     "text": "Walking through the bazaar, Tanvir bought vegetables in the evening, bargaining politely with sellers for a good price."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি seeing দিয়ে কারণ ও reading দিয়ে সাথে চলা কাজ যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি বাসায় থাকল।",
+     "pron_bn": "",
+     "text": "Rafi stayed at home."
+    },
+    {
+     "bn": "বাইরে ভারী বৃষ্টি দেখে রাফি বাসায় থাকল।",
+     "pron_bn": "",
+     "text": "Seeing heavy rain outside, Rafi stayed at home."
+    },
+    {
+     "bn": "বাইরে ভারী বৃষ্টি দেখে রাফি সারা দিন বাসায় থাকল।",
+     "pron_bn": "",
+     "text": "Seeing heavy rain outside, Rafi stayed at home all day."
+    },
+    {
+     "bn": "বাইরে ভারী বৃষ্টি দেখে রাফি সারা দিন বাসায় থেকে গল্পের বই পড়ল।",
+     "pron_bn": "",
+     "text": "Seeing heavy rain outside, Rafi stayed at home all day, reading a storybook."
+    },
+    {
+     "bn": "বাইরে ভারী বৃষ্টি দেখে রাফি সারা দিন জানালার পাশে বসে গল্পের বই পড়ে বাসায় কাটাল।",
+     "pron_bn": "",
+     "text": "Seeing heavy rain outside, Rafi stayed at home all day, reading a storybook by the window."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি having joined দিয়ে শুরু ও practising দিয়ে চর্চার কথা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া কম্পিউটারের কাজ শিখল।",
+     "pron_bn": "",
+     "text": "Nadia learned computer skills."
+    },
+    {
+     "bn": "একটি অনলাইন কোর্সে ভর্তি হয়ে নাদিয়া কম্পিউটারের কাজ শিখল।",
+     "pron_bn": "",
+     "text": "Having joined an online course, Nadia learned computer skills."
+    },
+    {
+     "bn": "একটি অনলাইন কোর্সে ভর্তি হয়ে নাদিয়া তাড়াতাড়ি কম্পিউটারের কাজ শিখে ফেলল।",
+     "pron_bn": "",
+     "text": "Having joined an online course, Nadia learned computer skills quickly."
+    },
+    {
+     "bn": "একটি অনলাইন কোর্সে ভর্তি হয়ে নাদিয়া ল্যাপটপে প্রতিদিন চর্চা করে তাড়াতাড়ি কম্পিউটারের কাজ শিখে ফেলল।",
+     "pron_bn": "",
+     "text": "Having joined an online course, Nadia learned computer skills quickly, practising daily on her laptop."
+    },
+    {
+     "bn": "একটি অনলাইন কোর্সে ভর্তি হয়ে নাদিয়া অনেক আগ্রহ নিয়ে ল্যাপটপে প্রতিদিন চর্চা করে তাড়াতাড়ি কম্পিউটারের কাজ শিখে ফেলল।",
+     "pron_bn": "",
+     "text": "Having joined an online course, Nadia learned computer skills quickly, practising daily on her laptop with great interest."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি living দিয়ে অবস্থা ও learning দিয়ে ফলাফল যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীর তার বাবাকে সাহায্য করল।",
+     "pron_bn": "",
+     "text": "Tanvir helped his father."
+    },
+    {
+     "bn": "গ্রামে থেকে তানভীর তার বাবাকে সাহায্য করল।",
+     "pron_bn": "",
+     "text": "Living in the village, Tanvir helped his father."
+    },
+    {
+     "bn": "গ্রামে থেকে তানভীর ধানখেতে তার বাবাকে সাহায্য করল।",
+     "pron_bn": "",
+     "text": "Living in the village, Tanvir helped his father in the paddy field."
+    },
+    {
+     "bn": "গ্রামে থেকে তানভীর স্কুলের পর ধানখেতে তার বাবাকে সাহায্য করল।",
+     "pron_bn": "",
+     "text": "Living in the village, Tanvir helped his father in the paddy field after school."
+    },
+    {
+     "bn": "গ্রামে থেকে তানভীর স্কুলের পর ধানখেতে বাবাকে সাহায্য করতে করতে চাষের অনেক কাজ শিখে ফেলল।",
+     "pron_bn": "",
+     "text": "Living in the village, Tanvir helped his father in the paddy field after school, learning many farming skills."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি stuck দিয়ে কারণ ও feeling দিয়ে অনুভূতি যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু দেরি করে অফিসে পৌঁছাল।",
+     "pron_bn": "",
+     "text": "Mitu reached the office late."
+    },
+    {
+     "bn": "এক ঘণ্টা যানজটে আটকে থেকে মিতু দেরি করে অফিসে পৌঁছাল।",
+     "pron_bn": "",
+     "text": "Stuck in traffic for an hour, Mitu reached the office late."
+    },
+    {
+     "bn": "এক ঘণ্টা যানজটে আটকে থেকে মিতু আজ সকালে দেরি করে অফিসে পৌঁছাল।",
+     "pron_bn": "",
+     "text": "Stuck in traffic for an hour, Mitu reached the office late this morning."
+    },
+    {
+     "bn": "এক ঘণ্টা যানজটে আটকে থেকে মিতু আজ সকালে মানসিক চাপ ও ক্লান্তি নিয়ে দেরি করে অফিসে পৌঁছাল।",
+     "pron_bn": "",
+     "text": "Stuck in traffic for an hour, Mitu reached the office late this morning, feeling stressed and tired."
+    },
+    {
+     "bn": "এক ঘণ্টা যানজটে আটকে থেকে মিতু আজ সকালে জরুরি মিটিংয়ের আগে মানসিক চাপ ও ক্লান্তি নিয়ে দেরি করে অফিসে পৌঁছাল।",
+     "pron_bn": "",
+     "text": "Stuck in traffic for an hour, Mitu reached the office late this morning, feeling stressed and tired before an important meeting."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি ছোট বাক্যকে participle clause দিয়ে বড় করতে শিখবে। প্রতিটি ধাপে তুমি আগের বাক্যটি রেখে নতুন একটি অংশ যোগ করবে।",
+ "tip_bn": "তুমি বাক্যের শুরুতে Having finished বা Walking দিয়ে কারণ বা সময় বোঝাতে পারো। কমা ব্যবহার করতে ভুলো না এবং দুটি কাজের কর্তা একই কি না তুমি খেয়াল করো।",
+ "title": "Participle Clauses in Action"
+}

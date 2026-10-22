@@ -1,0 +1,207 @@
+{
+ "builders": [
+  {
+   "note_bn": "তুমি who দিয়ে বন্ধু সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "রাফি আমার বন্ধু।",
+     "pron_bn": "রাফি ইজ মাই ফ্রেন্ড।",
+     "text": "Rafi is my friend."
+    },
+    {
+     "bn": "রাফি আমার বন্ধু, যে চট্টগ্রামে থাকে।",
+     "pron_bn": "রাফি ইজ মাই ফ্রেন্ড হু লিভস ইন চট্টোগ্রাম।",
+     "text": "Rafi is my friend who lives in Chattogram."
+    },
+    {
+     "bn": "রাফি আমার বন্ধু, যে তার পরিবারের সঙ্গে চট্টগ্রামে থাকে।",
+     "pron_bn": "রাফি ইজ মাই ফ্রেন্ড হু লিভস ইন চট্টোগ্রাম উইথ হিজ ফ্যামিলি।",
+     "text": "Rafi is my friend who lives in Chattogram with his family."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি which দিয়ে অফিসের অবস্থান যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি একটা অফিসে কাজ করি।",
+     "pron_bn": "আই ওয়ার্ক ইন অ্যান অফিস।",
+     "text": "I work in an office."
+    },
+    {
+     "bn": "আমি এমন একটা অফিসে কাজ করি যেটা বাজারের কাছে।",
+     "pron_bn": "আই ওয়ার্ক ইন অ্যান অফিস হুইচ ইজ নিয়ার দ্য মার্কেট।",
+     "text": "I work in an office which is near the market."
+    },
+    {
+     "bn": "আমি মিরপুরে বাজারের কাছের একটা অফিসে কাজ করি।",
+     "pron_bn": "আই ওয়ার্ক ইন অ্যান অফিস হুইচ ইজ নিয়ার দ্য মার্কেট ইন মিরপুর।",
+     "text": "I work in an office which is near the market in Mirpur."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি who দিয়ে বোনের পড়াশোনা সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "মিতু আমার বোন।",
+     "pron_bn": "মিতু ইজ মাই সিস্টার।",
+     "text": "Mitu is my sister."
+    },
+    {
+     "bn": "মিতু আমার বোন, যে কলেজে পড়ে।",
+     "pron_bn": "মিতু ইজ মাই সিস্টার হু স্টাডিজ অ্যাট কলেজ।",
+     "text": "Mitu is my sister who studies at college."
+    },
+    {
+     "bn": "মিতু আমার বোন, যে রাজশাহীর একটা কলেজে পড়ে।",
+     "pron_bn": "মিতু ইজ মাই সিস্টার হু স্টাডিজ অ্যাট কলেজ ইন রাজশাহি।",
+     "text": "Mitu is my sister who studies at college in Rajshahi."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি which দিয়ে গ্রামটা কোথায় তা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমরা একটা গ্রামে বেড়াতে গিয়েছিলাম।",
+     "pron_bn": "উই ভিজিটেড আ ভিলেজ।",
+     "text": "We visited a village."
+    },
+    {
+     "bn": "আমরা নদীর পাশের একটা গ্রামে বেড়াতে গিয়েছিলাম।",
+     "pron_bn": "উই ভিজিটেড আ ভিলেজ হুইচ ইজ বিসাইড আ রিভার।",
+     "text": "We visited a village which is beside a river."
+    },
+    {
+     "bn": "আমরা বরিশালে নদীর পাশের একটা গ্রামে বেড়াতে গিয়েছিলাম।",
+     "pron_bn": "উই ভিজিটেড আ ভিলেজ হুইচ ইজ বিসাইড আ রিভার ইন বরিশাল।",
+     "text": "We visited a village which is beside a river in Barishal."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি that দিয়ে বইটা কেমন তা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি একটা বই পড়ি।",
+     "pron_bn": "আই রিড আ বুক।",
+     "text": "I read a book."
+    },
+    {
+     "bn": "আমি এমন একটা বই পড়ি যেটাতে অনেক গল্প আছে।",
+     "pron_bn": "আই রিড আ বুক দ্যাট হ্যাজ মেনি স্টোরিজ।",
+     "text": "I read a book that has many stories."
+    },
+    {
+     "bn": "আমি গ্রামের জীবন নিয়ে অনেক গল্প আছে এমন একটা বই পড়ি।",
+     "pron_bn": "আই রিড আ বুক দ্যাট হ্যাজ মেনি স্টোরিজ অ্যাবাউট ভিলেজ লাইফ।",
+     "text": "I read a book that has many stories about village life."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি who দিয়ে ডাক্তার কোথায় কাজ করেন তা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "সে একজন ডাক্তারের কাছে যায়।",
+     "pron_bn": "শি ভিজিটস আ ডক্টর।",
+     "text": "She visits a doctor."
+    },
+    {
+     "bn": "সে এমন একজন ডাক্তারের কাছে যায় যিনি ক্লিনিকে কাজ করেন।",
+     "pron_bn": "শি ভিজিটস আ ডক্টর হু ওয়ার্কস অ্যাট দ্য ক্লিনিক।",
+     "text": "She visits a doctor who works at the clinic."
+    },
+    {
+     "bn": "সে আমাদের বাড়ির কাছের ক্লিনিকে কাজ করেন এমন ডাক্তারের কাছে যায়।",
+     "pron_bn": "শি ভিজিটস আ ডক্টর হু ওয়ার্কস অ্যাট দ্য ক্লিনিক নিয়ার আওয়ার হাউস।",
+     "text": "She visits a doctor who works at the clinic near our house."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি which দিয়ে শাড়িটা সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি একটা শাড়ি কিনেছি।",
+     "pron_bn": "আই বট আ সারি।",
+     "text": "I bought a sari."
+    },
+    {
+     "bn": "আমি এমন একটা শাড়ি কিনেছি যেটা ছাড়ে বিক্রি হচ্ছিল।",
+     "pron_bn": "আই বট আ সারি হুইচ ওয়াজ অন সেল।",
+     "text": "I bought a sari which was on sale."
+    },
+    {
+     "bn": "আমি নিউ মার্কেটে ছাড়ে পাওয়া একটা শাড়ি কিনেছি।",
+     "pron_bn": "আই বট আ সারি হুইচ ওয়াজ অন সেল অ্যাট নিউ মার্কেট।",
+     "text": "I bought a sari which was on sale at New Market."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি when দিয়ে কখন মাঠ সবুজ দেখায় তা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "আমি বর্ষাকাল পছন্দ করি।",
+     "pron_bn": "আই লাইক দ্য রেইনি সিজন।",
+     "text": "I like the rainy season."
+    },
+    {
+     "bn": "আমি বর্ষাকাল পছন্দ করি, যখন মাঠগুলো সবুজ দেখায়।",
+     "pron_bn": "আই লাইক দ্য রেইনি সিজন হোয়েন দ্য ফিল্ডস লুক গ্রিন।",
+     "text": "I like the rainy season when the fields look green."
+    },
+    {
+     "bn": "আমি বর্ষাকাল পছন্দ করি, যখন আমাদের গ্রামে মাঠগুলো সবুজ দেখায়।",
+     "pron_bn": "আই লাইক দ্য রেইনি সিজন হোয়েন দ্য ফিল্ডস লুক গ্রিন ইন আওয়ার ভিলেজ।",
+     "text": "I like the rainy season when the fields look green in our village."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি that দিয়ে ফোনটা কী পারে তা যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "তানভীরের একটা মোবাইল ফোন আছে।",
+     "pron_bn": "তানভীর হ্যাজ আ মোবাইল ফোন।",
+     "text": "Tanvir has a mobile phone."
+    },
+    {
+     "bn": "তানভীরের এমন একটা মোবাইল ফোন আছে যেটা ভালো ছবি তোলে।",
+     "pron_bn": "তানভীর হ্যাজ আ মোবাইল ফোন দ্যাট টেকস গুড ফোটোজ।",
+     "text": "Tanvir has a mobile phone that takes good photos."
+    },
+    {
+     "bn": "তানভীরের এমন একটা মোবাইল ফোন আছে যেটা রাতেও ভালো ছবি তোলে।",
+     "pron_bn": "তানভীর হ্যাজ আ মোবাইল ফোন দ্যাট টেকস গুড ফোটোজ অ্যাট নাইট।",
+     "text": "Tanvir has a mobile phone that takes good photos at night."
+    }
+   ]
+  },
+  {
+   "note_bn": "তুমি which দিয়ে বাড়ির বাগান সম্পর্কে তথ্য যোগ করেছ।",
+   "steps": [
+    {
+     "bn": "নাদিয়া একটা বাড়িতে থাকে।",
+     "pron_bn": "নাদিয়া লিভস ইন আ হাউস।",
+     "text": "Nadia lives in a house."
+    },
+    {
+     "bn": "নাদিয়া ছোট বাগানসহ একটা বাড়িতে থাকে।",
+     "pron_bn": "নাদিয়া লিভস ইন আ হাউস হুইচ হ্যাজ আ স্মল গার্ডেন।",
+     "text": "Nadia lives in a house which has a small garden."
+    },
+    {
+     "bn": "নাদিয়া রান্নাঘরের পেছনে ছোট বাগান আছে এমন একটা বাড়িতে থাকে।",
+     "pron_bn": "নাদিয়া লিভস ইন আ হাউস হুইচ হ্যাজ আ স্মল গার্ডেন বিহাইন্ড দ্য কিচেন।",
+     "text": "Nadia lives in a house which has a small garden behind the kitchen."
+    }
+   ]
+  }
+ ],
+ "intro_bn": "এই অধ্যায়ে তুমি who, which, that দিয়ে বিশেষ্য সম্পর্কে বাড়তি তথ্য যোগ করা শিখবে। ছোট বাক্য থেকে শুরু করে ধাপে ধাপে তুমি বড় বাক্য বানাবে।",
+ "tip_bn": "মানুষের জন্য তুমি who আর জিনিসের জন্য which বা that ব্যবহার করবে। তুমি যাকে বর্ণনা করছ তার ঠিক পরেই relative clause বসাবে।",
+ "title": "Describing Nouns with Relative Clauses"
+}
