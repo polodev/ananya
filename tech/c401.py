@@ -1,0 +1,315 @@
+"""Technology 401: C and the machine underneath — high/low level, compilation, memory, pointers."""
+from .slidekit import *
+
+CHAPTERS = [
+
+chapter(
+    "উঁচু বনাম নিচু ভাষা",
+    "High-level vs low-level languages",
+    "JavaScript লিখলে তুমি মেশিন দেখো না। C-তে মেশিনের অনেক কাছাকাছি যাবে। আজ সেই দূরত্বটা বুঝবে।",
+    [
+        big("মূল ধারণা", "প্রতিটি ভাষা মেশিন থেকে একধাপ দূরে",
+            "CPU বোঝে শুধু মেশিন কোড। তার ওপরে assembly, তার ওপরে C, তার ওপরে Python/JavaScript। "
+            "ওপরের ভাষা সহজ, নিচের ভাষা বেশি নিয়ন্ত্রণ দেয়।", "🪜"),
+        flow("ভাষার সিঁড়ি", [
+            ("Machine code", "০/১ — CPU সরাসরি বোঝে।"),
+            ("Assembly", "MOV, ADD — মানুষের পড়ার মতো নাম।"),
+            ("C", "struct, pointer, function — মেশিনের কাছে।"),
+            ("Python / JS", "মেমোরি লুকানো, পড়তে সহজ।"),
+        ]),
+        compare("High-level বনাম Low-level",
+                ("High-level", ["মেমোরি নিজে সামলায়", "এক লাইনে অনেক কাজ", "Python, JS, PHP"]),
+                ("Low-level", ["মেমোরি নিজে সামলাও", "হার্ডওয়্যারের নিয়ন্ত্রণ", "C, Assembly"]),
+                "‘নিচু’ মানে খারাপ নয় — মানে মেশিনের কাছে।"),
+        terms("চারটা অনুবাদক", "compiler, assembler, linker, interpreter", [
+            ("Compiler", "C → assembly/machine code", "gcc, clang।"),
+            ("Assembler", "assembly → machine code", "as।"),
+            ("Linker", "অংশগুলো জোড়া দেয়", "libc, অন্য object file।"),
+            ("Interpreter", "লাইন ধরে চালায়", "Python, JavaScript।")]),
+        analogy("বাড়ি বানানো", "নকশা", "কোড",
+                "Python হলো নকশার সহজ ভাষা — ‘একটা জানালা বসাও’। C হলো ইট, সিমেন্ট, মাপ — "
+                "তুমি নিজে বলো জানালা কোথায়, কত বড়, কীভাবে বসবে।"),
+        big("C কেন এখনও টিকে আছে?", "১৯৭২ সালে বানানো ভাষা, তবু Linux kernel, SQLite, Python interpreter, "
+            "embedded device — সবখানে C। কারণ: ছোট, দ্রুত, হার্ডওয়্যারের নিয়ন্ত্রণ।", "🇨"),
+        terms("সিস্টেমের চারটা শব্দ", "ABI, libc, syscall, kernel", [
+            ("ABI", "বাইনারির চুক্তি", "কীভাবে ফাংশন ডাকবে, register কীভাবে ব্যবহার হবে।"),
+            ("libc", "C-এর স্ট্যান্ডার্ড লাইব্রেরি", "printf, malloc, strlen।"),
+            ("Syscall", "OS-কে অনুরোধ", "ফাইল পড়া, প্রসেস বানানো।"),
+            ("Kernel", "OS-এর মূল অংশ", "হার্ডওয়্যার সামলায়।")]),
+        timeline("C-এর ছোট ইতিহাস", [
+            ("১৯৬৯–৭২", "Bell Labs-এ Unix আর C।"),
+            ("১৯৭৮", "‘The C Programming Language’ বই।"),
+            ("১৯৮৯", "ANSI C স্ট্যান্ডার্ড।"),
+            ("১৯৯১", "Linus Torvalds Linux kernel শুরু করেন।"),
+            ("আজ", "OS, embedded, database, compiler — সবখানে C।"),
+        ]),
+        big("JavaScript কোথায় C-এর ওপর দাঁড়িয়ে?", "Chrome-এর V8 engine C++-এ লেখা, আর C++ C-এর ওপর। "
+            "তুমি JS লিখলে নিচে C/C++ মেশিনের কাজ করছে।", "⚙️"),
+        recap("মনে রাখো", ["মেশিন কোড → assembly → C → Python/JS।",
+                            "C মেশিনের কাছে, Python মানুষের কাছে।",
+                            "Compiler আগে, interpreter চলার সময়।",
+                            "C এখনও OS, embedded, database-এ রাজত্ব করে।"]),
+    ],
+    quiz=[
+        dict(q="কোন ভাষা মেশিনের সবচেয়ে কাছাকাছি?", o=["Python", "JavaScript", "C", "SQL"], a=2,
+             why="C হার্ডওয়্যারের কাছে; মেমোরি আর ঠিকানা নিজে সামলাতে হয়।"),
+        dict(q="Linker কী করে?", o=["কোড লেখে", "object file আর library জোড়া দেয়", "ডেটাবেস বানায়", "ছবি আঁকে"], a=1,
+             why="Linker কম্পাইল হওয়া অংশগুলো জোড়া দিয়ে executable বানায়।"),
+    ],
+),
+
+chapter(
+    "C-এর প্রথম প্রোগ্রাম: সোর্স থেকে বাইনারি",
+    "Your first C program: source to binary",
+    "একটা C ফাইল লেখা থেকে চালানো পর্যন্ত চারটা ধাপ। আজ হাতে-কলমে।",
+    [
+        big("মূল ধারণা", "C একটি compiled ভাষা",
+            "তুমি `.c` ফাইলে লেখো, compiler সেটাকে মেশিন কোডে বদলায়, linker executable বানায়। "
+            "তারপর সেটা সরাসরি CPU-তে চলে।", "📄"),
+        flow("hello.c-এর যাত্রা", [
+            ("Preprocess", "#include আর #define খোলে।"),
+            ("Compile", "C কোড assembly-তে যায়।"),
+            ("Assemble", "assembly machine code হয়।"),
+            ("Link", "libc-এর সাথে জোড়া লাগে।"),
+            ("Run", "executable চালু হয়।"),
+        ]),
+        code("hello.c", "প্রথম C প্রোগ্রাম",
+             '#include <stdio.h>\n\nint main(void) {\n    printf("Hello, Anonna!\\n");\n    return 0;\n}',
+             "c", "Hello, Anonna!", "`#include` হেডার আনে, `main` প্রোগ্রামের শুরু, `return 0` সফলতা।"),
+        code("কম্পাইল ও চালাও", "টার্মিনালে",
+             "gcc hello.c -o hello\n./hello",
+             "bash", "Hello, Anonna!", "`-o hello` মানে output ফাইলের নাম hello।"),
+        terms("চারটা শব্দ", "preprocessor, compiler, assembler, linker", [
+            ("Preprocessor", "# দিয়ে শুরু লাইন সামলায়", "#include, #define।"),
+            ("Compiler", "C → assembly", "gcc -S।"),
+            ("Assembler", "assembly → object", "hello.o।"),
+            ("Linker", "object + library → executable", "libc জোড়ে।")]),
+        big("Error বনাম Warning", "Error হলে প্রোগ্রাম তৈরি হয় না। Warning হলে হয়, কিন্তু বিপদ থাকতে পারে। "
+            "Warning উপেক্ষা করো না — `-Wall -Wextra` দিয়ে সব দেখো।", "⚠️"),
+        code("টাইপ আর printf", "ছোট পরীক্ষা",
+             '#include <stdio.h>\n\nint main(void) {\n    int age = 21;\n    double price = 99.50;\n    char grade = \'A\';\n    printf("%d %.2f %c\\n", age, price, grade);\n    return 0;\n}',
+             "c", "21 99.50 A", "`%d` int, `%.2f` double, `%c` char।"),
+        terms("প্রোগ্রামের চারটা অংশ", "header, main, statement, return", [
+            ("Header", "বাইরের ফাংশনের ঘোষণা", "stdio.h, stdlib.h।"),
+            ("main", "শুরুর ফাংশন", "OS এখান থেকেই চালায়।"),
+            ("Statement", "একটা নির্দেশনা", "প্রতিটির শেষে `;`।"),
+            ("Return", "main থেকে OS-কে ফল", "0 = সফল।")]),
+        big("Undefined behavior: C-এর গোপন ফাঁদ", "অ্যারের বাইরে পড়া, free করা pointer আবার ব্যবহার, signed overflow — "
+            "এগুলো C-তে ‘undefined’। যা খুশি হতে পারে। তাই নিয়ম কঠিন।", "🕳️"),
+        recap("মনে রাখো", ["`.c` → compiler → object → linker → executable।",
+                            "`main` থেকে প্রোগ্রাম শুরু।",
+                            "Warning উপেক্ষা করো না।",
+                            "Undefined behavior = বিপদ।"]),
+    ],
+    quiz=[
+        dict(q="C প্রোগ্রাম কোথা থেকে শুরু হয়?", o=["প্রথম লাইন", "`main` ফাংশন", "`#include`", "শেষ লাইন"], a=1,
+             why="OS `main` ফাংশন থেকেই প্রোগ্রাম চালানো শুরু করে।"),
+        dict(q="`gcc hello.c -o hello` কী করে?", o=["ফাইল মুছে", "executable `hello` বানায়", "ডেটাবেস বানায়", "ছবি আঁকে"], a=1,
+             why="gcc কম্পাইল করে `hello` নামের executable তৈরি করে।"),
+    ],
+),
+
+chapter(
+    "টাইপ, মেমোরি আর স্ট্যাক",
+    "Types, memory and the stack",
+    "C-তে তুমি নিজে ঠিক করো কত বাইট লাগবে, আর সেটা কোথায় থাকবে।",
+    [
+        big("মূল ধারণা", "C-তে প্রতিটি বাইটের একটা ঠিকানা",
+            "মেমোরি হলো বিশাল একটা সারি, প্রতিটি ঘরের একটা নম্বর। variable সেই ঘরে থাকে।", "🧱"),
+        terms("চারটা শব্দ", "bit, byte, address, stack", [
+            ("Bit", "০ বা ১", "সবচেয়ে ছোট একক।"),
+            ("Byte", "৮ বিট", "মেমোরির একক।"),
+            ("Address", "মেমোরির নম্বর", "pointer এটা ধরে।"),
+            ("Stack", "ফাংশনের কাজের জায়গা", "local variable এখানে।")]),
+        code("sizeof দিয়ে মাপো", "টাইপ কত বাইট",
+             '#include <stdio.h>\n\nint main(void) {\n    printf("int: %zu\\n", sizeof(int));\n    printf("double: %zu\\n", sizeof(double));\n    printf("char: %zu\\n", sizeof(char));\n    return 0;\n}',
+             "c", "int: 4\ndouble: 8\nchar: 1", "আকার প্ল্যাটফর্ম অনুযায়ী বদলাতে পারে।"),
+        compare("মূল টাইপগুলো",
+                ("সংখ্যা", ["int — পূর্ণসংখ্যা", "float — দশমিক", "double — বেশি নির্ভুল"]),
+                ("অন্য", ["char — অক্ষর", "void — কিছু নেই", "struct — নিজের টাইপ"]),
+                "টাইপ ঠিক করলে মেমোরি কত লাগবে, সেটাও ঠিক হয়।"),
+        big("Signed বনাম unsigned", "`int` ঋণাত্মক হতে পারে, `unsigned int` শুধু শূন্য বা ধনাত্মক। "
+            "সীমা ছাড়ালে wraparound হয় — ভুল হিসাবের বড় উৎস।", "➕"),
+        code("Overflow দেখো", "সীমার বাইরে",
+             '#include <stdio.h>\n#include <limits.h>\n\nint main(void) {\n    int max = INT_MAX;\n    printf("%d\\n", max);\n    printf("%d\\n", max + 1);\n    return 0;\n}',
+             "c", "2147483647\n-2147483648", "Signed overflow C-তে undefined behavior; এটা শুধু উদাহরণ।"),
+        flow("একটা প্রোগ্রামের মেমোরি", [
+            ("Text", "মেশিন কোড।"),
+            ("Data", "গ্লোবাল variable।"),
+            ("Heap", "malloc-এর জায়গা।"),
+            ("Stack", "ফাংশন call আর local variable।"),
+        ]),
+        code("Stack-এ ফাংশন", "call হলে কী হয়",
+             '#include <stdio.h>\n\nint add(int a, int b) {\n    int sum = a + b;\n    return sum;\n}\n\nint main(void) {\n    printf("%d\\n", add(3, 4));\n    return 0;\n}',
+             "c", "7", "প্রতিটি call-এ নতুন stack frame তৈরি হয়।"),
+        big("Stack = খাতার পাতা", "ফাংশন ডাকলে নতুন পাতা ওপরে বসে, শেষ হলে পাতা ছিঁড়ে যায়। তাই local variable "
+            "ফাংশন শেষ হলে আর থাকে না।", "📒"),
+        code("Binary আর hex", "মেমোরি দেখার ভাষা",
+             '#include <stdio.h>\n\nint main(void) {\n    int x = 42;\n    printf("dec: %d\\n", x);\n    printf("hex: 0x%X\\n", x);\n    printf("oct: %o\\n", x);\n    return 0;\n}',
+             "c", "dec: 42\nhex: 0x2A\noct: 52", "42 = 0x2A — একই মান, ভিন্ন ভাষায়।"),
+        recap("মনে রাখো", ["প্রতিটি বাইটের ঠিকানা আছে।",
+                            "`sizeof` মাপ বলে।",
+                            "Stack-এ local variable, heap-এ malloc।",
+                            "সীমা ছাড়ালে overflow।"]),
+    ],
+    quiz=[
+        dict(q="local variable কোথায় থাকে?", o=["heap", "stack", "disk", "CPU register সবসময়"], a=1,
+             why="সাধারণত local variable stack-এ থাকে; malloc করা মেমোরি heap-এ।"),
+        dict(q="`sizeof(int)` কী দেয়?", o=["মান", "বাইটে আকার", "ঠিকানা", "নাম"], a=1,
+             why="`sizeof` টাইপটি কত বাইট মেমোরি নেয়, সেটা বলে।"),
+    ],
+),
+
+chapter(
+    "পয়েন্টার, অ্যারে, স্ট্রিং",
+    "Pointers, arrays and strings",
+    "পয়েন্টার শুনে ভয় লাগে? এটা শুধু ‘কোন ঘরে আছে’ সেই ঠিকানা।",
+    [
+        big("মূল ধারণা", "Pointer = ঠিকানার কাগজ",
+            "একটা variable-এর মান নয়, তার মেমোরি ঠিকানা রাখে। `&` দিয়ে ঠিকানা, `*` দিয়ে সেই ঠিকানার মান।", "📍"),
+        code("প্রথম pointer", "ঠিকানা আর মান",
+             '#include <stdio.h>\n\nint main(void) {\n    int x = 42;\n    int *p = &x;\n\n    printf("x = %d\\n", x);\n    printf("address = %p\\n", (void *)p);\n    printf("*p = %d\\n", *p);\n    return 0;\n}',
+             "c", "x = 42\naddress = 0x...\n*p = 42", "`&x` ঠিকানা, `*p` সেই ঠিকানার মান।"),
+        analogy("ঠিকানা লেখা কাগজ", "বাড়ির ঠিকানা", "pointer",
+                "কাগজে বাড়ির ঠিকানা লেখা থাকে, বাড়িটা নয়। pointer-এ variable-এর ঠিকানা থাকে, মানটা নয়।"),
+        code("Pointer দিয়ে swap", "ফাংশনটা ঠিকানা নেয়",
+             'void swap(int *a, int *b) {\n    int temp = *a;\n    *a = *b;\n    *b = temp;\n}',
+             "c", "", "`int *a` মানে a হলো int-এর pointer; `*a` সেই ঘরের মান।"),
+        code("Pointer দিয়ে swap", "main থেকে ডাকো",
+             '#include <stdio.h>\nvoid swap(int *a, int *b);\n\nint main(void) {\n    int x = 3, y = 7;\n    swap(&x, &y);\n    printf("%d %d\\n", x, y);\n    return 0;\n}',
+             "c", "7 3", "আগের স্লাইডের ফাংশনটা এখানে ডাকা হচ্ছে।"),
+        terms("চারটা শব্দ", "dereference, null pointer, pointer arithmetic, const", [
+            ("Dereference", "`*p` দিয়ে মান পড়া", "ঠিকানা বৈধ হতে হবে।"),
+            ("Null pointer", "কিছুই pointing করছে না", "`NULL` চেক করো।"),
+            ("Pointer arithmetic", "`p + 1`", "পরের element-এ যায়।"),
+            ("const", "বদলানো যাবে না", "`const char *` পড়া-only।")]),
+        code("অ্যারে আর pointer", "একই পরিবার",
+             '#include <stdio.h>\n\nint main(void) {\n    int a[3] = {10, 20, 30};\n    int *p = a;\n\n    printf("%d\\n", a[1]);\n    printf("%d\\n", *(p + 1));\n    return 0;\n}',
+             "c", "20\n20", "অ্যারের নাম প্রথম element-এর ঠিকানা।"),
+        big("Array decay", "ফাংশনে অ্যারে পাঠালে আসলে প্রথম element-এর pointer যায়। তাই length আলাদা পাঠাতে হয়। "
+            "`sizeof(a)` ফাংশনের ভেতরে পুরো অ্যারের সাইজ দেয় না।", "⚠️"),
+        code("C-এর স্ট্রিং", "শেষে \\0",
+             '#include <stdio.h>\n#include <string.h>\n\nint main(void) {\n    char name[] = "Mitu";\n    printf("%s\\n", name);\n    printf("%zu\\n", strlen(name));\n    return 0;\n}',
+             "c", "Mitu\n4", "স্ট্রিং হলো char-এর অ্যারে, শেষে `\\0`।"),
+        code("নিজে length বের করা", "pointer হাঁটা",
+             '#include <stdio.h>\n\nint my_len(const char *s) {\n    int n = 0;\n    while (s[n] != \'\\0\') n++;\n    return n;\n}',
+             "c", "", "`\\0` না পাওয়া পর্যন্ত pointer এগোয়।"),
+        points("Pointer-এর চারটা ফাঁদ", "এগুলোই বেশি ভুল হয়", [
+            "`NULL` চেক না করা।",
+            "array-এর বাইরে লেখা।",
+            "free করার পরে ব্যবহার।",
+            "লোকাল variable-এর ঠিকানা ফেরত দেওয়া।"]),
+        recap("মনে রাখো", ["`&` ঠিকানা, `*` মান।",
+                            "অ্যারে আর pointer ঘনিষ্ঠ।",
+                            "স্ট্রিং শেষে `\\0`।",
+                            "NULL আর সীমা চেক করো।"]),
+    ],
+    quiz=[
+        dict(q="`&x` কী দেয়?", o=["x-এর মান", "x-এর ঠিকানা", "x-এর টাইপ", "x-এর নাম"], a=1,
+             why="`&` address-of operator, variable-এর মেমোরি ঠিকানা দেয়।"),
+        dict(q="C স্ট্রিং কীভাবে শেষ হয়?", o=["`.` দিয়ে", "`\\0` দিয়ে", "`;` দিয়ে", "কিছু নেই"], a=1,
+             why="C স্ট্রিং null character `\\0` দিয়ে শেষ হয়।"),
+    ],
+),
+
+chapter(
+    "struct, malloc আর free",
+    "Structs, malloc and free",
+    "C-তে নিজের টাইপ বানানো আর heap থেকে মেমোরি নেওয়া — এখানেই আসল শক্তি ও ঝুঁকি।",
+    [
+        big("মূল ধারণা", "struct = নিজের বানানো টাইপ",
+            "একজন ইউজারের নাম, বয়স, শহর — একসাথে রাখো। C-তে `struct` দিয়ে নতুন টাইপ বানায়।", "🧩"),
+        code("প্রথম struct", "নাম আর বয়স",
+             '#include <stdio.h>\n\nstruct User {\n    char name[20];\n    int age;\n};\n\nint main(void) {\n    struct User u = {"Mitu", 21};\n    printf("%s %d\\n", u.name, u.age);\n    return 0;\n}',
+             "c", "Mitu 21", "`struct User` এখন একটা টাইপের মতো ব্যবহার করা যায়।"),
+        terms("চারটা শব্দ", "struct, typedef, heap, malloc", [
+            ("struct", "কয়েকটা মানের প্যাকেট", "নিজের টাইপ।"),
+            ("typedef", "নামের ছোট রূপ", "`typedef struct User User;`"),
+            ("Heap", "চাহিদা অনুযায়ী মেমোরি", "প্রোগ্রাম চলার সময় বাড়ে।"),
+            ("malloc", "heap থেকে মেমোরি নেওয়া", "শেষে free করতে হয়।")]),
+        code("malloc আর free", "heap থেকে মেমোরি নাও",
+             '#include <stdlib.h>\n\nint main(void) {\n    int *nums = malloc(3 * sizeof(int));\n    if (!nums) return 1;\n\n    nums[0] = 10;\n    return 0;\n}',
+             "c", "", "malloc ব্যর্থ হলে NULL; সফল হলে free করতে হবে।"),
+        code("malloc আর free", "ব্যবহার ও ফেরত দাও",
+             'nums[1] = 20;\nprintf("%d\\n", nums[1]); // 20\n\nfree(nums);\nnums = NULL;',
+             "c", "", "একই প্রোগ্রামের পরের অংশ — `nums` আগের স্লাইডে malloc করা।"),
+        flow("Heap allocation", [
+            ("চাও", "`malloc(size)`।"),
+            ("পাও", "ঠিকানা ফেরত, বা NULL।"),
+            ("ব্যবহার", "লেখো/পড়ো।"),
+            ("ছাড়ো", "`free(ptr)`।"),
+        ]),
+        big("Memory leak = ভাড়া ঘর না ছাড়া", "বারবার malloc করে free না করলে প্রোগ্রাম চলতে চলতে মেমোরি খায়। "
+            "দীর্ঘদিন চলা সার্ভারে এটা বড় সমস্যা।", "💧"),
+        code("Dynamic array", "প্রয়োজন মতো বড়",
+             '#include <stdlib.h>\n\nint *make_numbers(int n) {\n    int *a = malloc(n * sizeof(int));\n    if (!a) return NULL;\n    for (int i = 0; i < n; i++) a[i] = i * i;\n    return a;\n}',
+             "c", "", "ফাংশন মেমোরি বানিয়ে ঠিকানা ফেরত দেয়; কল করা দল free করবে।"),
+        big("Double free আর use-after-free", "একই pointer দুবার free করলে বা free করার পরে ব্যবহার করলে বিপদ। "
+            "`free` করার পরে pointer-এ `NULL` রাখো।", "☠️"),
+        points("মেমোরির চারটা নিয়ম", "মালিকানা স্পষ্ট রাখো", [
+            "যে malloc করে, সে free করে।",
+            "free করার পরে NULL রাখো।",
+            "সীমার বাইরে লিখো না।",
+            "`sizeof` দিয়ে সাইজ হিসাব করো।"]),
+        code("Linked list node", "struct + pointer",
+             'struct Node {\n    int value;\n    struct Node *next;\n};\n\n// newNode = malloc(sizeof(struct Node));\n// newNode->value = 42;\n// newNode->next = NULL;',
+             "c", "", "নিজের struct-এর pointer রাখতে পারে — এটাই linked list।"),
+        recap("মনে রাখো", ["struct নিজের টাইপ।",
+                            "malloc heap থেকে মেমোরি দেয়।",
+                            "free না করলে leak।",
+                            "free-এর পরে ব্যবহার নয়।"]),
+    ],
+    quiz=[
+        dict(q="malloc করা মেমোরি শেষে কী করতে হবে?", o=["delete", "free", "close", "return"], a=1,
+             why="C-তে malloc করা মেমোরি free দিয়ে ছাড়তে হয়।"),
+        dict(q="struct কী?", o=["একটা ফাংশন", "কয়েকটা মানের নিজের টাইপ", "একটা ডেটাবেস", "একটা লুপ"], a=1,
+             why="struct একাধিক মানকে একসাথে একটি নতুন টাইপ হিসেবে রাখে।"),
+    ],
+),
+
+chapter(
+    "C কোথায় রাজত্ব করে",
+    "Where C still rules",
+    "আজ C শুধু পুরনো বইয়ের ভাষা নয় — তোমার ফোন, ইন্টারনেট, ডেটাবেস, সবখানে আছে।",
+    [
+        big("মূল ধারণা", "C = সিস্টেমের ভাষা",
+            "অপারেটিং সিস্টেম, ডেটাবেস, embedded device, compiler, interpreter — যেখানে হার্ডওয়্যারের কাছাকাছি "
+            "কাজ দরকার, সেখানে C।", "👑"),
+        terms("চারটা জায়গা", "kernel, embedded, database, runtime", [
+            ("Kernel", "OS-এর মূল অংশ", "Linux-এর বড় অংশ C।"),
+            ("Embedded", "ছোট ডিভাইস", "মাইক্রোকন্ট্রোলার, রিমোট, গাড়ি।"),
+            ("Database", "ডেটা রাখার ইঞ্জিন", "SQLite পুরোটাই C।"),
+            ("Runtime", "ভাষার ইঞ্জিন", "Python interpreter C-তে।")]),
+        profile("সবচেয়ে বেশি ব্যবহৃত ডেটাবেস", "SQLite", "C-তে লেখা embedded database", "S",
+                [("শুরু", "২০০০"), ("প্রতিষ্ঠাতা", "D. Richard Hipp"), ("ভাষা", "C"), ("কী বানায়", "embedded SQL engine")],
+                "ফোন, ব্রাউজার, অ্যাপের ভেতরে চলে",
+                "SQLite-এর কোড C-তে — তাই ছোট ডিভাইসেও চলে, আলাদা সার্ভার লাগে না।"),
+        big("Python-এর ভেতরেও C", "CPython interpreter C-তে লেখা। তুমি Python-এ `list` ব্যবহার করলে নিচে C-এর অ্যারে "
+            "আর মেমোরি ম্যানেজমেন্ট চলছে।", "🐍"),
+        big("C বিপজ্জনক, কিন্তু দরকারি", "C তোমাকে মেমোরির পুরো নিয়ন্ত্রণ দেয়, তাই ভুলের শাস্তিও বড়। "
+            "তাই নিয়ম, টেস্ট, আর tool (Valgrind, sanitizer) দরকার।", "⚠️"),
+        compare("C বনাম Rust",
+                ("C", ["১৯৭২", "সব জায়গায় চলে", "মেমোরি নিজে সামলাও"]),
+                ("Rust", ["২০১০", "memory safety", "compiler কঠিন, কিন্তু নিরাপদ"]),
+                "নতুন সিস্টেম কোডে Rust বাড়ছে, পুরনো C বছরের পর বছর থাকবে।"),
+        points("C শিখে কী বানাবে?", "ছোট প্রজেক্ট দিয়ে শুরু", [
+            "নিজের `wc` — শব্দ গোনার টুল।",
+            "ছোট HTTP server।",
+            "সহজ hash map।",
+            "ফাইল কপি টুল।"]),
+        big("C শেখা মানে কম্পিউটার বোঝা", "Pointer, stack, heap, compilation — এগুলো জানলে Python/JavaScript-এর error "
+            "কেন হয়, সেটাও বোঝা যায়। ভাষা নয়, ভিত্তি।", "🧠"),
+        recap("মনে রাখো", ["C OS, embedded, database-এ আছে।",
+                            "Python/JS engine নিচে C/C++।",
+                            "নিয়ন্ত্রণ বেশি, ঝুঁকিও বেশি।",
+                            "ছোট টুল বানিয়ে অনুশীলন করো।"]),
+    ],
+    quiz=[
+        dict(q="SQLite কী ভাষায় লেখা?", o=["Python", "C", "JavaScript", "Java"], a=1,
+             why="SQLite-এর মূল কোড C-তে লেখা, তাই হালকা আর অনেক প্ল্যাটফর্মে চলে।"),
+        dict(q="C-এর বড় ঝুঁকি কী?", o=["ধীর গতি", "মেমোরি ভুল", "ইন্টারনেট নেই", "ছবি আঁকা যায় না"], a=1,
+             why="C-তে মেমোরি নিজে সামলাতে হয়; ভুল করলে crash, leak বা security সমস্যা হয়।"),
+    ],
+),
+
+]

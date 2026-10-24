@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>অধ্যায় 2 · SQL প্রথম ধাপ — Technology 501</title>
+<meta name="description" content="বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।">
+<meta name="theme-color" content="#4F46E5">
+<link rel="icon" type="image/png" href="../../../assets/img/favicon.png"><link rel="apple-touch-icon" href="../../../assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:title" content="অধ্যায় 2 · SQL প্রথম ধাপ — Technology 501">
+<meta property="og:description" content="বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।"><meta property="og:url" content="https://polodev.github.io/ananya/technology/501/ch-02/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Klee+One:wght@400;600&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/app.css">
+</head>
+<body class="t-tech deck" data-deck="technology/501/ch-02">
+<div id="top"><a href="../index.html">← সব অধ্যায়</a><span class="crumb">অধ্যায় ২ · SQL প্রথম ধাপ</span><a href="../../../index.html" class="home" aria-label="হোম">🏠</a></div><div id="bar"></div><main id="deck"><section class="slide cover t-cover-slide" data-title="শুরু"><div class="inner"><div class="t-cover"><div class="t-cover-top"><span class="chip">Technology 501 · অধ্যায় ২</span><span class="t-min">⏱ ~১১ মিনিট</span></div><div class="t-cover-mark" aria-hidden="true">🗃️</div><h1>SQL প্রথম ধাপ</h1><p class="t-en">SQL, step by step</p><p class="t-body">SQL পড়া যায় ইংরেজির মতো: কোন টেবিল থেকে, কোন শর্তে, কী চাই।</p><div class="t-cover-chips"><span>SELECT</span><span>WHERE</span><span>ORDER BY</span><span>LIMIT</span></div><p class="hint">👉 ডান থেকে বামে swipe করো — প্রতিটি স্লাইডে একটা করে বড় ধারণা</p></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="SQL প্রথম ধাপ"><div class="inner"><div class="t-wrap"><span class="t-kicker">মূল ধারণা</span><div class="t-visual" aria-hidden="true">🔎</div><h1 class="t-h">SQL = ডেটার সাথে কথা বলার ভাষা</h1><p class="t-body">SELECT দিয়ে খোঁজো, INSERT দিয়ে যোগ করো, UPDATE দিয়ে বদলাও, DELETE দিয়ে মুছো।</p></div></div></section>
+<section class="slide t-slide" data-title="SQL প্রথম ধাপ"><div class="inner"><div class="t-wrap"><span class="t-kicker">সব দেখো</span><h1 class="t-h sm">SELECT</h1><div class="t-code" data-lang="sql"><pre><code>SELECT * FROM students;</code></pre></div><div class="t-output"><span>output</span><code>id | name  | city
+1  | Mitu  | Dhaka
+2  | Rafi  | Sylhet</code></div><p class="t-note"><code>*</code> মানে সব কলাম।</p></div></div></section>
+<section class="slide t-slide" data-title="SQL প্রথম ধাপ"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">চারটা শব্দ</h1><p class="t-sub">SELECT, WHERE, ORDER BY, LIMIT</p><div class="t-terms"><div class="t-card"><b class="t-term">SELECT</b><span class="t-mean">কোন কলাম চাই</span><small><code>SELECT name, city</code>।</small></div><div class="t-card"><b class="t-term">WHERE</b><span class="t-mean">কোন শর্তে</span><small><code>WHERE city = &#x27;Dhaka&#x27;</code>।</small></div><div class="t-card"><b class="t-term">ORDER BY</b><span class="t-mean">কীভাবে সাজাবে</span><small><code>ORDER BY name ASC</code>।</small></div><div class="t-card"><b class="t-term">LIMIT</b><span class="t-mean">কতটি</span><small><code>LIMIT 10</code>।</small></div></div></div></div></section>
+<section class="slide t-slide" data-title="SQL প্রথম ধাপ"><div class="inner"><div class="t-wrap"><span class="t-kicker">শর্ত ও সাজানো</span><h1 class="t-h sm">WHERE + ORDER BY</h1><div class="t-code" data-lang="sql"><pre><code>SELECT name, age
+FROM students
+WHERE city = &#x27;Dhaka&#x27;
+ORDER BY age DESC
+LIMIT 5;</code></pre></div><p class="t-note">ঢাকার ছাত্রদের বয়স অনুযায়ী বড় থেকে ছোট, প্রথম ৫।</p></div></div></section>
+<section class="slide t-slide" data-title="SQL প্রথম ধাপ"><div class="inner"><div class="t-wrap"><span class="t-kicker">যোগ, বদল, মুছা</span><h1 class="t-h sm">INSERT / UPDATE / DELETE</h1><div class="t-code" data-lang="sql"><pre><code>INSERT INTO students (name, city, age)
+VALUES (&#x27;Tanvir&#x27;, &#x27;Chandpur&#x27;, 22);
+
+UPDATE students
+SET city = &#x27;Sylhet&#x27;
+WHERE id = 2;
+
+DELETE FROM students
+WHERE id = 3;</code></pre></div><p class="t-note">প্রতিটি বদলের আগে WHERE ঠিক আছে কি না দেখো।</p></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="SQL প্রথম ধাপ"><div class="inner"><div class="t-wrap"><div class="t-visual" aria-hidden="true">⚠️</div><h1 class="t-h">DELETE-এর আগে WHERE</h1><p class="t-body"><code>DELETE FROM students;</code> লিখলে সব সারি মুছে যাবে। WHERE ছাড়া DELETE বা UPDATE প্রায় কখনো নয়। আগে SELECT দিয়ে একই WHERE চালিয়ে দেখো।</p></div></div></section>
+<section class="slide t-slide" data-title="SQL প্রথম ধাপ"><div class="inner"><div class="t-wrap"><span class="t-kicker">হিসাব</span><h1 class="t-h sm">COUNT, SUM, AVG</h1><div class="t-code" data-lang="sql"><pre><code>SELECT COUNT(*) AS total,
+       AVG(age) AS avg_age,
+       MAX(age) AS oldest
+FROM students;</code></pre></div><p class="t-note">Aggregate function অনেক সারিকে এক ফল বানায়।</p></div></div></section>
+<section class="slide t-slide" data-title="SQL প্রথম ধাপ"><div class="inner"><div class="t-wrap"><span class="t-kicker">দলবদ্ধ হিসাব</span><h1 class="t-h sm">GROUP BY</h1><div class="t-code" data-lang="sql"><pre><code>SELECT city, COUNT(*) AS students
+FROM students
+GROUP BY city
+ORDER BY students DESC;</code></pre></div><p class="t-note">প্রতিটি শহরে কতজন ছাত্র, তা গুনে সাজায়।</p></div></div></section>
+<section class="slide t-slide" data-title="SQL প্রথম ধাপ"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">SQL-এর চারটা অভ্যাস</h1><p class="t-sub">ছোট নিয়ম, বড় বাঁচা</p><div class="t-points"><div class="t-point"><span class="t-dot">→</span><div>আগে SELECT দিয়ে যাচাই করো।</div></div><div class="t-point"><span class="t-dot">→</span><div>WHERE ছাড়া UPDATE/DELETE নয়।</div></div><div class="t-point"><span class="t-dot">→</span><div>কলামের নাম স্পষ্ট লেখো, <code>*</code> এড়াও।</div></div><div class="t-point"><span class="t-dot">→</span><div>টাকার হিসাবে DECIMAL, float নয়।</div></div></div></div></div></section>
+<section class="slide t-slide" data-title="SQL প্রথম ধাপ"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">মনে রাখো</h1><div class="t-recap"><div class="t-check"><span>✓</span><div>SELECT দিয়ে পড়া, INSERT দিয়ে যোগ।</div></div><div class="t-check"><span>✓</span><div>WHERE শর্ত, ORDER BY সাজানো।</div></div><div class="t-check"><span>✓</span><div>WHERE ছাড়া DELETE/UPDATE বিপদ।</div></div><div class="t-check"><span>✓</span><div>GROUP BY দিয়ে দলবদ্ধ হিসাব।</div></div></div></div></div></section>
+<section class="slide " data-title="এই অধ্যায়ের কুইজ"><div class="inner"><span class="chip">📝 এই অধ্যায়ের কুইজ</span><div class="quiz" data-quiz="[{&quot;q&quot;: &quot;“WHERE” কী?&quot;, &quot;o&quot;: [&quot;কোন শর্তে&quot;, &quot;কোন কলাম চাই&quot;, &quot;কীভাবে সাজাবে&quot;, &quot;কতটি&quot;], &quot;a&quot;: 0, &quot;why&quot;: &quot;WHERE = কোন শর্তে. `WHERE city = &#x27;Dhaka&#x27;`।&quot;}, {&quot;q&quot;: &quot;“ORDER BY” কী?&quot;, &quot;o&quot;: [&quot;কোন শর্তে&quot;, &quot;কোন কলাম চাই&quot;, &quot;কীভাবে সাজাবে&quot;, &quot;কতটি&quot;], &quot;a&quot;: 2, &quot;why&quot;: &quot;ORDER BY = কীভাবে সাজাবে. `ORDER BY name ASC`।&quot;}, {&quot;q&quot;: &quot;“SELECT” কী?&quot;, &quot;o&quot;: [&quot;কতটি&quot;, &quot;কীভাবে সাজাবে&quot;, &quot;কোন কলাম চাই&quot;, &quot;কোন শর্তে&quot;], &quot;a&quot;: 2, &quot;why&quot;: &quot;SELECT = কোন কলাম চাই. `SELECT name, city`।&quot;}, {&quot;q&quot;: &quot;সব সারি মুছতে কোনটা যথেষ্ট?&quot;, &quot;o&quot;: [&quot;DELETE FROM students;&quot;, &quot;SELECT *;&quot;, &quot;UPDATE students;&quot;, &quot;DROP TABLE;&quot;], &quot;a&quot;: 0, &quot;why&quot;: &quot;WHERE ছাড়া DELETE সব সারি মুছে দেয়; DROP TABLE পুরো টেবিলই মুছে দেয়।&quot;}, {&quot;q&quot;: &quot;কোনটা দিয়ে শর্ত বসায়?&quot;, &quot;o&quot;: [&quot;ORDER BY&quot;, &quot;WHERE&quot;, &quot;LIMIT&quot;, &quot;GROUP BY&quot;], &quot;a&quot;: 1, &quot;why&quot;: &quot;WHERE শর্ত দিয়ে বেছে নেয় কোন সারি আসবে।&quot;}]"></div></div></section>
+<section class="slide " data-title="শেষ"><div class="inner"><div class="finish"><div class="party">🎉</div><h2>অধ্যায় ২ শেষ! 🎉</h2><p class="lead">আজকের ধারণাগুলো নিজের ভাষায় একবার বলো। তারপর পরের অধ্যায়ে যাও।</p><div class="wordlist"><span>SELECT</span><span>WHERE</span><span>ORDER BY</span><span>LIMIT</span></div><div class="callout"><b>পরের অধ্যায়</b><br>JOIN আর সম্পর্ক — JOINs and relationships</div><div class="btns"><a class="btn" href="../ch-03/index.html">অধ্যায় ৩: JOIN আর সম্পর্ক →</a><a class="btn ghost" href="../index.html">সব অধ্যায়</a></div></div></div></section></main><nav id="nav"><button id="prev" aria-label="আগের">‹</button><span id="count"></span><button id="next" aria-label="পরের">›</button><button id="theme" title="Dark mode" aria-label="Theme">◐</button></nav>
+<script src="../../../assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+"""Technology 501: databases, SQL, MySQL, MariaDB and forks."""
+from .slidekit import *
+
+CHAPTERS = [
+
+chapter(
+    "ডেটা সাজানো: টেবিল, রো, কলাম, key",
+    "Structuring data: tables, rows, columns, keys",
+    "হাজার অর্ডার এক্সেলে রাখলে গুলিয়ে যাবে। ডেটাবেস সেটাকে নিয়মে বাঁধে।",
+    [
+        big("মূল ধারণা", "ডেটাবেস = নিয়মে বাঁধা লেজার",
+            "একই ধরনের তথ্য এক টেবিলে, প্রতিটি সারি একটা রেকর্ড, প্রতিটি কলাম একটা বৈশিষ্ট্য।", "🗃️"),
+        terms("চারটা শব্দ", "table, row, column, primary key", [
+            ("Table", "একই ধরনের ডেটা", "students, orders।"),
+            ("Row", "একটা রেকর্ড", "একজন ছাত্র।"),
+            ("Column", "একটা বৈশিষ্ট্য", "name, city, price।"),
+            ("Primary key", "সারির অনন্য পরিচয়", "id — কখনো দুইবার নয়।")]),
+        analogy("এক্সেল শিট", "এক্সেল", "ডেটাবেস",
+                "দেখতে একই — সারি আর কলাম। কিন্তু ডেটাবেসে অনেক ইউজার একসাথে কাজ করে, নিয়ম মানায়, "
+                "কোটি সারিতে দ্রুত খোঁজে, আর ভুল হলে ফিরিয়ে আনে।"),
+        code("টেবিল বানানো", "CREATE TABLE",
+             "CREATE TABLE students (\n  id INTEGER PRIMARY KEY,\n  name TEXT NOT NULL,\n  city TEXT,\n  age INTEGER\n);",
+             "sql", "", "`PRIMARY KEY` অনন্য পরিচয়, `NOT NULL` খালি রাখা যাবে না।"),
+        terms("সম্পর্কের চারটা শব্দ", "foreign key, one-to-many, many-to-many, normalization", [
+            ("Foreign key", "অন্য টেবিলের id", "orders.user_id → users.id।"),
+            ("One-to-many", "একজনের অনেক", "এক ইউজারের অনেক অর্ডার।"),
+            ("Many-to-many", "অনেকের সাথে অনেক", "ছাত্র-কোর্স; মাঝে টেবিল।"),
+            ("Normalization", "ডেটা পুনরাবৃত্তি কমানো", "এক তথ্য এক জায়গায়।")]),
+        flow("একটা দোকানের ডেটা", [
+            ("users", "কে কিনছে।"),
+            ("orders", "কখন, কত টাকা।"),
+            ("order_items", "কোন পণ্য, কতটি।"),
+            ("products", "পণ্যের দাম, স্টক।"),
+        ]),
+        big("Primary key কখনো বদলাবে না", "নাম বদলাতে পারে, ফোন বদলাতে পারে — তাই key হিসেবে id ব্যবহার করো। "
+            "Auto-increment id সবচেয়ে সহজ।", "🔑"),
+        compare("SQL বনাম NoSQL",
+                ("SQL", ["টেবিল, সারি, কলাম", "স্কিমা আগে ঠিক", "ব্যাংক, অর্ডার, হিসাব"]),
+                ("NoSQL", ["ডকুমেন্ট, key-value", "স্কিমা নমনীয়", "লগ, ক্যাটালগ, দ্রুত বদলানো"]),
+                "ডেটার আকার আর সম্পর্ক দেখে বাছো।"),
+        big("Schema = ডেটার নিয়ম", "স্কিমা ঠিক করে কোন কলাম আছে, কী টাইপ, কী বাধ্যতামূলক। নিয়ম থাকলে ভুল ডেটা ঢুকতে পারে না। "
+            "নিয়ম বদলাতে migration দরকার।", "📏"),
+        recap("মনে রাখো", ["টেবিল, সারি, কলাম, primary key।",
+                            "Foreign key দুই টেবিল জোড়ে।",
+                            "Normalization পুনরাবৃত্তি কমায়।",
+                            "Schema ডেটার নিয়ম।"]),
+    ],
+    quiz=[
+        dict(q="Primary key কী?", o=["যেকোনো কলাম", "প্রতিটি সারির অনন্য পরিচয়", "একটা টেবিলের নাম", "একটা ফাইল"], a=1,
+             why="Primary key প্রতিটি সারিকে অনন্যভাবে চিহ্নিত করে; সাধারণত id।"),
+        dict(q="Foreign key কী করে?", o=["অন্য টেবিলের সারির সাথে জোড়ে", "ডেটা মুছে ফেলে", "সাইট দ্রুত করে", "ছবি আঁকে"], a=0,
+             why="Foreign key অন্য টেবিলের primary key-কে নির্দেশ করে, সম্পর্ক তৈরি করে।"),
+    ],
+),
+
+chapter(
+    "SQL প্রথম ধাপ",
+    "SQL, step by step",
+    "SQL পড়া যায় ইংরেজির মতো: কোন টেবিল থেকে, কোন শর্তে, কী চাই।",
+    [
+        big("মূল ধারণা", "SQL = ডেটার সাথে কথা বলার ভাষা",
+            "SELECT দিয়ে খোঁজো, INSERT দিয়ে যোগ করো, UPDATE দিয়ে বদলাও, DELETE দিয়ে মুছো।", "🔎"),
+        code("সব দেখো", "SELECT",
+             "SELECT * FROM students;",
+             "sql", "id | name  | city\n1  | Mitu  | Dhaka\n2  | Rafi  | Sylhet", "`*` মানে সব কলাম।"),
+        terms("চারটা শব্দ", "SELECT, WHERE, ORDER BY, LIMIT", [
+            ("SELECT", "কোন কলাম চাই", "`SELECT name, city`।"),
+            ("WHERE", "কোন শর্তে", "`WHERE city = 'Dhaka'`।"),
+            ("ORDER BY", "কীভাবে সাজাবে", "`ORDER BY name ASC`।"),
+            ("LIMIT", "কতটি", "`LIMIT 10`।")]),
+        code("শর্ত ও সাজানো", "WHERE + ORDER BY",
+             "SELECT name, age\nFROM students\nWHERE city = 'Dhaka'\nORDER BY age DESC\nLIMIT 5;",
+             "sql", "", "ঢাকার ছাত্রদের বয়স অনুযায়ী বড় থেকে ছোট, প্রথম ৫।"),
+        code("যোগ, বদল, মুছা", "INSERT / UPDATE / DELETE",
+             "INSERT INTO students (name, city, age)\nVALUES ('Tanvir', 'Chandpur', 22);\n\nUPDATE students\nSET city = 'Sylhet'\nWHERE id = 2;\n\nDELETE FROM students\nWHERE id = 3;",
+             "sql", "", "প্রতিটি বদলের আগে WHERE ঠিক আছে কি না দেখো।"),
+        big("DELETE-এর আগে WHERE", "`DELETE FROM students;` লিখলে সব সারি মুছে যাবে। WHERE ছাড়া DELETE বা UPDATE "
+            "প্রায় কখনো নয়। আগে SELECT দিয়ে একই WHERE চালিয়ে দেখো।", "⚠️"),
+        code("হিসাব", "COUNT, SUM, AVG",
+             "SELECT COUNT(*) AS total,\n       AVG(age) AS avg_age,\n       MAX(age) AS oldest\nFROM students;",
+             "sql", "", "Aggregate function অনেক সারিকে এক ফল বানায়।"),
+        code("দলবদ্ধ হিসাব", "GROUP BY",
+             "SELECT city, COUNT(*) AS students\nFROM students\nGROUP BY city\nORDER BY students DESC;",
+             "sql", "", "প্রতিটি শহরে কতজন ছাত্র, তা গুনে সাজায়।"),
+        points("SQL-এর চারটা অভ্যাস", "ছোট নিয়ম, বড় বাঁচা", [
+            "আগে SELECT দিয়ে যাচাই করো।",
+            "WHERE ছাড়া UPDATE/DELETE নয়।",
+            "কলামের নাম স্পষ্ট লেখো, `*` এড়াও।",
+            "টাকার হিসাবে DECIMAL, float নয়।"]),
+        recap("মনে রাখো", ["SELECT দিয়ে পড়া, INSERT দিয়ে যোগ।",
+                            "WHERE শর্ত, ORDER BY সাজানো।",
+                            "WHERE ছাড়া DELETE/UPDATE বিপদ।",
+                            "GROUP BY দিয়ে দলবদ্ধ হিসাব।"]),
+    ],
+    quiz=[
+        dict(q="সব সারি মুছতে কোনটা যথেষ্ট?", o=["DELETE FROM students;", "SELECT *;", "UPDATE students;", "DROP TABLE;"], a=0,
+             why="WHERE ছাড়া DELETE সব সারি মুছে দেয়; DROP TABLE পুরো টেবিলই মুছে দেয়।"),
+        dict(q="কোনটা দিয়ে শর্ত বসায়?", o=["ORDER BY", "WHERE", "LIMIT", "GROUP BY"], a=1,
+             why="WHERE শর্ত দিয়ে বেছে নেয় কোন সারি আসবে।"),
+    ],
+),
+
+chapter(
+    "JOIN আর সম্পর্ক",
+    "JOINs and relationships",
+    "অর্ডারের টেবিলে ইউজারের নাম নেই, শুধু user_id। নাম আনতে JOIN লাগে।",
+    [
+        big("মূল ধারণা", "ডেটা এক টেবিলে থাকে না",
+            "সম্পর্ক আলাদা টেবিলে, foreign key দিয়ে জোড়া। JOIN সেই টেবিলগুলোকে একসাথে আনে।", "🔗"),
+        flow("দুই টেবিলের গল্প", [
+            ("users", "id, name"),
+            ("orders", "id, user_id, total"),
+            ("ON", "orders.user_id = users.id"),
+            ("ফল", "নাম + অর্ডার একসাথে"),
+        ]),
+        terms("চারটা শব্দ", "JOIN, INNER JOIN, LEFT JOIN, ON", [
+            ("JOIN", "দুই টেবিল জোড়া", "সাধারণত INNER।"),
+            ("INNER JOIN", "দুই দিকেই মিললে", "মিল নেই এমন বাদ।"),
+            ("LEFT JOIN", "বাঁ দিকের সব রাখে", "ডান দিকে না মিললে NULL।"),
+            ("ON", "কী শর্তে জোড়া", "`ON orders.user_id = users.id`")]),
+        code("INNER JOIN", "যাদের অর্ডার আছে",
+             "SELECT users.name, orders.total\nFROM users\nINNER JOIN orders ON orders.user_id = users.id;",
+             "sql", "Mitu | 450\nRafi | 120", "শুধু যাদের অর্ডার আছে, তারাই আসে।"),
+        code("LEFT JOIN", "সব ইউজার, অর্ডার থাকুক বা না",
+             "SELECT users.name, orders.total\nFROM users\nLEFT JOIN orders ON orders.user_id = users.id;",
+             "sql", "Mitu | 450\nRafi | 120\nNadia | NULL", "অর্ডার না থাকলে total NULL।"),
+        compare("JOIN-এর ধরন",
+                ("INNER", ["দুই দিকেই মিল", "শুধু সম্পর্কিত"]),
+                ("LEFT / RIGHT", ["এক দিকের সব", "অন্য দিক NULL হতে পারে"]),
+                "‘সব ইউজার দেখাও’ → LEFT JOIN।"),
+        code("JOIN + GROUP BY", "প্রতি ইউজারের মোট খরচ",
+             "SELECT users.name, SUM(orders.total) AS spent\nFROM users\nLEFT JOIN orders ON orders.user_id = users.id\nGROUP BY users.id, users.name\nORDER BY spent DESC;",
+             "sql", "", "প্রতি ইউজারের অর্ডার যোগ করে সাজায়।"),
+        big("N+1 query সমস্যা", "প্রথমে ১০০ ইউজার আনলে, তারপর প্রতিটির জন্য আলাদা অর্ডার query — ১০১টা query। "
+            "এক JOIN বা এক batch query-তে কাজটা করা যায়।", "🐌"),
+        points("JOIN-এর চারটা ফাঁদ", "এগুলো দেখলে সাবধান", [
+            "ON ভুলে cartesian product।",
+            "একই নামের কলামে alias দাও।",
+            "LEFT JOIN-এ WHERE দিলে INNER হয়ে যেতে পারে।",
+            "অনেক JOIN-এ index দরকার।"]),
+        recap("মনে রাখো", ["Foreign key সম্পর্ক বানায়।",
+                            "INNER মিললে রাখে, LEFT বাঁ দিকের সব রাখে।",
+                            "ON-এ জোড়ার শর্ত।",
+                            "JOIN + GROUP BY দিয়ে রিপোর্ট।"]),
+    ],
+    quiz=[
+        dict(q="LEFT JOIN-এ ডান দিকে মিল না থাকলে কী আসে?", o=["0", "NULL", "error", "সারি বাদ"], a=1,
+             why="LEFT JOIN বাঁ দিকের সব সারি রাখে; ডান দিকে না মিললে NULL বসে।"),
+        dict(q="JOIN-এ শর্ত কোন শব্দে লেখা হয়?", o=["WHERE", "ON", "GROUP BY", "LIMIT"], a=1,
+             why="`ON` বলে দেয় দুই টেবিলের কোন কলাম মিলিয়ে জোড়া লাগবে।"),
+    ],
+),
+
+chapter(
+    "MySQL-এর গল্প",
+    "The MySQL story",
+    "WordPress বসালেই পেছনে MySQL। আজ এই ডেটাবেসের উত্থান আর মালিক বদলের গল্প।",
+    [
+        big("মূল ধারণা", "MySQL = ওয়েবের জনপ্রিয় ডেটাবেস",
+            "১৯৯৫ সালে সুইডেনে শুরু। দ্রুত, সহজ, বিনামূল্যে — তাই ওয়েবের সাথে সাথে বড় হয়েছে।", "🐬"),
+        timeline("MySQL-এর পথ", [
+            ("১৯৯৫", "MySQL AB শুরু, Michael Widenius ও David Axmark।"),
+            ("২০০০s", "LAMP stack-এর ‘M’ — WordPress, PHP-র সঙ্গী।"),
+            ("২০০৮", "Sun Microsystems MySQL কিনে নেয় (১ বিলিয়ন ডলার)।"),
+            ("২০১০", "Oracle Sun কিনে নেয়; MySQL Oracle-এর হাতে।"),
+            ("২০১৩", "MariaDB আলাদা পথে এগোয়।"),
+        ]),
+        profile("ওয়েবের পুরনো ঘোড়া", "MySQL", "Relational database", "M",
+                [("শুরু", "১৯৯৫"), ("প্রতিষ্ঠাতা", "Michael Widenius, David Axmark"), ("মালিক", "Oracle"), ("কী বানায়", "relational database")],
+                "LAMP stack আর WordPress-এর ডেটাবেস",
+                "তুমি WordPress, Joomla বা পুরনো PHP অ্যাপে প্রায়ই MySQL পাবে।"),
+        big("LAMP = ওয়েবের পুরনো চার স্তম্ভ", "**L**inux + **A**pache + **M**ySQL + **P**HP। এই চারটা দিয়ে ২০০০-এর দশকে "
+            "অসংখ্য ওয়েবসাইট চলেছে। আজও অনেক চলে।", "🧱"),
+        big("Oracle কেনায় উদ্বেগ", "MySQL ছিল open source, কিন্তু মালিক বদলাল। ডেভেলপারদের ভয়: ভবিষ্যতে বন্ধ হবে কি? "
+            "তাই কেউ কেউ বিকল্প খুঁজতে শুরু করে।", "🏢"),
+        terms("চারটা শব্দ", "GPL, dual license, storage engine, InnoDB", [
+            ("GPL", "কোড খোলা রাখার লাইসেন্স", "ব্যবহার, বদল, বিতরণ।"),
+            ("Dual license", "দুই রকম লাইসেন্স", "ওপেন source + বাণিজ্যিক।"),
+            ("Storage engine", "ডেটা কীভাবে রাখবে", "InnoDB, MyISAM।"),
+            ("InnoDB", "আজকের ডিফল্ট", "transaction আর foreign key।")]),
+        big("InnoDB = transaction আর foreign key", "পুরনো MyISAM-এ transaction ছিল না। InnoDB আসার পর MySQL "
+            "ব্যাংক-ধরনের কাজেও ব্যবহারযোগ্য হয়।", "🔁"),
+        code("MySQL-এ প্রথম ধাপ", "ডেটাবেস, টেবিল, সারি",
+             "CREATE DATABASE shop;\nUSE shop;\n\nCREATE TABLE products (\n  id INT AUTO_INCREMENT PRIMARY KEY,\n  name VARCHAR(100),\n  price DECIMAL(10,2)\n);\n\nINSERT INTO products (name, price) VALUES ('চা', 20.00);",
+             "sql", "", "MySQL-এ `AUTO_INCREMENT`, `VARCHAR`, `DECIMAL` সাধারণ।"),
+        big("MySQL আজ কোথায়?", "অসংখ্য shared hosting, পুরনো অ্যাপ, WordPress সাইটে MySQL চলছে। নতুন প্রজেক্টে "
+            "PostgreSQL বা MariaDB বেশি দেখা যায়, কিন্তু MySQL এখনও বিশাল।", "🌍"),
+        recap("মনে রাখো", ["MySQL ১৯৯৫, LAMP stack-এর অংশ।",
+                            "Sun ২০০৮, Oracle ২০১০।",
+                            "InnoDB transaction আর foreign key দেয়।",
+                            "WordPress-এ MySQL খুব সাধারণ।"]),
+    ],
+    quiz=[
+        dict(q="LAMP-এর ‘M’ কী?", o=["MongoDB", "MySQL", "Microsoft", "MariaDB"], a=1,
+             why="LAMP = Linux, Apache, MySQL, PHP; ‘M’ হলো MySQL।"),
+        dict(q="MySQL এখন কার মালিক?", o=["Sun", "Oracle", "Microsoft", "Google"], a=1,
+             why="Oracle ২০১০ সালে Sun-কে কিনে MySQL-এর মালিক হয়।"),
+    ],
+),
+
+chapter(
+    "Fork: MariaDB-র গল্প",
+    "Forks: the MariaDB story",
+    "একই কোড থেকে দুইটা আলাদা প্রজেক্ট কীভাবে হয়? এর নাম fork।",
+    [
+        big("মূল ধারণা", "Fork = কোড কপি করে স্বাধীনভাবে এগানো",
+            "একটা দল মূল প্রজেক্টের কোড কপি করে নিজের নামে, নিজের নিয়মে বিকাশ করে। মূল দলের সাথে "
+            "সম্পর্ক থাকতে পারে, নাও পারে।", "🍴"),
+        flow("Fork কীভাবে হয়", [
+            ("কপি", "মূল কোড নাও।"),
+            ("নতুন নাম", "নিজের প্রজেক্ট ঘোষণা করো।"),
+            ("সম্প্রদায়", "ডেভেলপার আর ব্যবহারকারী জোগাড় করো।"),
+            ("আলাদা পথ", "নতুন feature, নতুন সিদ্ধান্ত।"),
+        ]),
+        profile("MySQL-এর fork", "MariaDB", "Community database", "M",
+                [("শুরু", "২০০৯"), ("প্রতিষ্ঠাতা", "Michael Widenius"), ("মালিক", "MariaDB Foundation / plc"), ("কী বানায়", "MySQL-compatible database")],
+                "একই রকম, কিন্তু community-driven",
+                "MariaDB প্রায় MySQL-এর মতোই; অনেক hosting-এ ডিফল্ট।"),
+        compare("MySQL বনাম MariaDB",
+                ("MySQL", ["Oracle-এর মালিকানা", "বাণিজ্যিক সংস্করণ আছে", "InnoDB"]),
+                ("MariaDB", ["community-driven", "MySQL-compatible", "Aria, InnoDB"]),
+                "মূল ধারণা এক; কিছু feature আর লাইসেন্স আলাদা।"),
+        big("Branch বনাম Fork", "Branch একই প্রজেক্টের ভেতরে আলাদা লাইন — পরে merge হয়। Fork পুরো প্রজেক্টের আলাদা কপি — "
+            "স্থায়ীভাবে আলাদা হতে পারে।", "🌿"),
+        timeline("MariaDB-র পথ", [
+            ("২০০৯", "MySQL 5.1 থেকে MariaDB fork।"),
+            ("২০১০", "Oracle MySQL কিনলে MariaDB আরও গুরুত্ব পায়।"),
+            ("২০১৩", "MariaDB 10 আসে।"),
+            ("আজ", "Debian, Ubuntu, অনেক hosting-এ জনপ্রিয়।"),
+        ]),
+        terms("চারটা শব্দ", "fork, upstream, downstream, compatibility", [
+            ("Fork", "স্বাধীন কপি", "নিজের সিদ্ধান্ত।"),
+            ("Upstream", "মূল প্রজেক্ট", "যেখান থেকে কোড আসে।"),
+            ("Downstream", "fork বা ব্যবহারকারী", "মূল থেকে নেয়।"),
+            ("Compatibility", "একই রকম আচরণ", "কোড বদলাতে হয় না।")]),
+        big("অন্য বিখ্যাত fork", "LibreOffice (OpenOffice থেকে), Chromium (Chrome-এর ভিত্তি), Android (AOSP), "
+            "Node.js/io.js (পরে আবার জোড়া)। Fork সবসময় শত্রুতা নয় — কখনো নতুন জীবন দেয়।", "🌱"),
+        points("Fork কখন ভালো, কখন ঝামেলা", "দুই দিক দেখো", [
+            "**ভালো:** মূল দল থামলে প্রজেক্ট বাঁচে।",
+            "**ভালো:** নতুন পরীক্ষা-নিরীক্ষার জায়গা।",
+            "**ঝামেলা:** দুই দিকে feature আলাদা হয়ে যায়।",
+            "**ঝামেলা:** নিরাপত্তা patch দুই জায়গায় লাগাতে হয়।"]),
+        recap("মনে রাখো", ["Fork = কোডের স্বাধীন কপি।",
+                            "Branch একই প্রজেক্টে, fork আলাদা।",
+                            "MariaDB MySQL-এর fork, ২০০৯।",
+                            "Fork প্রজেক্ট বাঁচাতে পারে, ভাগও করতে পারে।"]),
+    ],
+    quiz=[
+        dict(q="Fork কী?", o=["একই প্রজেক্টের শাখা", "কোড কপি করে আলাদা প্রজেক্ট", "একটা ডেটাবেস", "একটা সার্ভার"], a=1,
+             why="Fork মূল কোডের কপি নিয়ে আলাদা নামে, আলাদা দলে বিকশিত হয়।"),
+        dict(q="MariaDB কীসের fork?", o=["PostgreSQL", "MySQL", "SQLite", "MongoDB"], a=1,
+             why="MariaDB ২০০৯ সালে MySQL কোড থেকে fork হয়।"),
+    ],
+),
+
+chapter(
+    "PostgreSQL, SQLite, MongoDB — তিনটা পথ",
+    "PostgreSQL, SQLite and MongoDB",
+    "এক ডেটাবেস সব কাজে সেরা নয়। আজ তিনটা ভিন্ন ধরনের ডেটাবেস চিনবে।",
+    [
+        big("মূল ধারণা", "ডেটার আকার অনুযায়ী ডেটাবেস",
+            "টেবিল-সম্পর্কে SQL, ছোট অ্যাপে embedded SQLite, নমনীয় ডকুমেন্টে MongoDB — প্রতিটার জায়গা আছে।", "🧭"),
+        profile("স্ট্যান্ডার্ডের পক্ষে", "PostgreSQL", "Object-relational database", "P",
+                [("শুরু", "১৯৮৬ (POSTGRES)"), ("প্রতিষ্ঠাতা", "Michael Stonebraker (Berkeley)"), ("মালিক", "community"), ("কী বানায়", "object-relational DB")],
+                "স্ট্যান্ডার্ড, extension, JSONB",
+                "নতুন স্টার্টআপে PostgreSQL খুব জনপ্রিয়; সম্পর্ক আর JSON দুটোই সামলায়।"),
+        profile("পকেটের ডেটাবেস", "SQLite", "Embedded database", "S",
+                [("শুরু", "২০০০"), ("প্রতিষ্ঠাতা", "D. Richard Hipp"), ("মালিক", "public domain"), ("কী বানায়", "embedded SQL engine")],
+                "ফোন, ব্রাউজার, ছোট অ্যাপের ভেতরে",
+                "আলাদা সার্ভার লাগে না; একটা ফাইলই ডেটাবেস।"),
+        profile("ডকুমেন্টের দুনিয়া", "MongoDB", "Document database", "M",
+                [("শুরু", "২০০৯"), ("প্রতিষ্ঠাতা", "Dwight Merriman, Eliot Horowitz, Kevin Ryan"), ("মালিক", "MongoDB Inc."), ("কী বানায়", "document DB")],
+                "JSON-এর মতো ডকুমেন্ট, নমনীয় স্কিমা",
+                "প্রোডাক্টের তথ্য দ্রুত বদলালে document DB সুবিধা দিতে পারে।"),
+        compare("তিন ধরনের ডেটাবেস",
+                ("Relational", ["টেবিল + JOIN", "PostgreSQL, MySQL", "হিসাব, অর্ডার"]),
+                ("Document / embedded", ["ডকুমেন্ট / ফাইল", "MongoDB, SQLite", "ক্যাটালগ, মোবাইল অ্যাপ"]),
+                "শুরুতে PostgreSQL বা SQLite; ডকুমেন্ট দরকার হলে MongoDB।"),
+        terms("চারটা শব্দ", "ACID, JSONB, extension, transaction", [
+            ("ACID", "নিরাপদ লেনদেনের গুণ", "Atomic, Consistent, Isolated, Durable।"),
+            ("JSONB", "PostgreSQL-এ JSON", "দ্রুত খোঁজা যায়।"),
+            ("Extension", "নতুন ক্ষমতা", "PostGIS, pg_trgm।"),
+            ("Transaction", "সব বা কিছু না", "টাকা, অর্ডার, স্টক।")]),
+        big("ACID = ব্যাংকের নিয়ম", "**A** সব বা কিছু না, **C** নিয়ম মানে, **I** একসাথে চললেও গুলায় না, "
+            "**D** বিদ্যুৎ গেলেও সেভ থাকে। টাকার কাজে এগুলো অপরিহার্য।", "🏦"),
+        flow("কোনটা বাছবে?", [
+            ("ডেটার আকার", "টেবিল না ডকুমেন্ট?"),
+            ("সম্পর্ক", "JOIN দরকার?"),
+            ("Consistency", "টাকা/স্টক?"),
+            ("স্কেল", "কত ইউজার, কত ডেটা?"),
+            ("দল", "কোনটা চেনে?"),
+        ]),
+        big("Managed database = ভাড়া করা DBA", "AWS RDS, Supabase, Neon — backup, update, scaling তারা সামলায়। "
+            "শুরুতে সময় বাঁচে, কিন্তু খরচ আর lock-in দেখো।", "☁️"),
+        recap("মনে রাখো", ["PostgreSQL শক্তিশালী ও স্ট্যান্ডার্ড।",
+                            "SQLite ফাইলে চলে, সার্ভার লাগে না।",
+                            "MongoDB ডকুমেন্ট রাখে।",
+                            "ACID টাকার কাজে জরুরি।"]),
+    ],
+    quiz=[
+        dict(q="কোন ডেটাবেসে আলাদা সার্ভার লাগে না?", o=["PostgreSQL", "MySQL", "SQLite", "Oracle"], a=2,
+             why="SQLite embedded — একটা ফাইলে চলে, আলাদা সার্ভার প্রসেস লাগে না।"),
+        dict(q="ACID-এর ‘A’ কী?", o=["Atomic — সব বা কিছু না", "Auto — নিজে চলে", "Array — তালিকা", "Access — অনুমতি"], a=0,
+             why="Atomicity নিশ্চিত করে transaction-এর সব কাজ একসাথে সফল বা বাতিল হয়।"),
+    ],
+),
+
+]

@@ -233,9 +233,11 @@
     document.getElementById('next').onclick = function () { go(i + 1); };
     document.getElementById('theme').onclick = toggleTheme;
     var slowBtn = document.getElementById('slow');
-    function paintSlow() { slowBtn.classList.toggle('active', slow); }
-    slowBtn.onclick = function () { slow = !slow; LS.set('lang:slow', slow ? '1' : '0'); paintSlow(); toast(slow ? '🐢 ধীরে বলবে' : '🐇 স্বাভাবিক গতি', 1200); };
-    paintSlow();
+    if (slowBtn) {
+      function paintSlow() { slowBtn.classList.toggle('active', slow); }
+      slowBtn.onclick = function () { slow = !slow; LS.set('lang:slow', slow ? '1' : '0'); paintSlow(); toast(slow ? '🐢 ধীরে বলবে' : '🐇 স্বাভাবিক গতি', 1200); };
+      paintSlow();
+    }
     var bnBtn = document.getElementById('bnBtn');
     if (bnBtn) {
       var hidden = LS.get('lang:hidebn') === '1';
@@ -327,7 +329,9 @@
     var cont = document.getElementById('continue');
     if (cont && firstOpen) {
       cont.setAttribute('href', firstOpen.getAttribute('href'));
-      cont.textContent = done ? '▶ চালিয়ে যাও — ' + firstOpen.querySelector('.n').textContent.replace(/\s+/g, ' ').trim() : '▶ শুরু করো — ' + firstOpen.querySelector('.n').textContent.replace(/\s+/g, ' ').trim();
+      var t = firstOpen.querySelector('.t b');
+      var label = t ? t.textContent.replace(/\s+/g, ' ').trim() : firstOpen.querySelector('.n').textContent.replace(/\s+/g, ' ').trim();
+      cont.textContent = done ? '▶ চালিয়ে যাও — ' + label : '▶ শুরু করো — ' + label;
     } else if (cont) { cont.textContent = '🎉 সব শেষ! আবার পড়ো'; }
   }
 })();

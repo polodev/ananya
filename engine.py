@@ -39,7 +39,7 @@ def head(base, title, description, url_path):
 <link rel="stylesheet" href="{base}assets/app.css">"""
 
 
-DESC = "বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1) আর জার্মান (A1) — মোবাইলে, স্লাইডে, শুনে শুনে।"
+DESC = "বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।"
 
 
 def page(path, title, body, theme="home", description=DESC):
@@ -109,15 +109,16 @@ def finish_slide(heading, lead, chips, next_href=None, next_label="", extra=""):
                  f'<div class="btns">{nxt}<a class="btn ghost" href="../index.html">সব অধ্যায়</a></div></div>', "", "শেষ")
 
 
-def deck_page(path, title, deck_key, theme, slides, crumb, has_bn=False, has_pr=True):
+def deck_page(path, title, deck_key, theme, slides, crumb, has_bn=False, has_pr=True, has_slow=True):
     depth = path.count("/")
     base = "../" * depth
     btns = (('<button id="prBtn" title="উচ্চারণ লুকাও" aria-label="উচ্চারণ লুকাও">🔤</button>' if has_pr else "")
             + ('<button id="bnBtn" title="বাংলা অর্থ লুকাও" aria-label="বাংলা অর্থ লুকাও">👁</button>' if has_bn else ""))
+    slow = '<button id="slow" title="ধীরে বলো" aria-label="ধীরে">🐢</button>' if has_slow else ""
     body = (f'<div id="top"><a href="../index.html">← সব অধ্যায়</a><span class="crumb">{esc(crumb)}</span><a href="{base}index.html" class="home" aria-label="হোম">🏠</a></div><div id="bar"></div>'
             f'<main id="deck">{chr(10).join(slides)}</main>'
             '<nav id="nav"><button id="prev" aria-label="আগের">‹</button><span id="count"></span><button id="next" aria-label="পরের">›</button>'
-            f'<button id="slow" title="ধীরে বলো" aria-label="ধীরে">🐢</button>{btns}'
+            f'{slow}{btns}'
             '<button id="theme" title="Dark mode" aria-label="Theme">◐</button></nav>')
     url_path = path[:-len("index.html")]
     write(path, f"""<!doctype html>

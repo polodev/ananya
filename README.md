@@ -1,6 +1,6 @@
 # ভাষার ঘর — Language Corner
 
-English, Japanese and German, taught in Bangla, built for reading on a phone.
+English, Japanese, German and Technology, taught in Bangla, built for reading on a phone.
 
 | Course | Level | Chapters | What's inside |
 |---|---|---|---|
@@ -11,7 +11,25 @@ English, Japanese and German, taught in Bangla, built for reading on a phone.
 | Japanese | A1 | 19 | 7 chapters of hiragana, katakana and numbers, then 12 everyday topics (です/ます, particles, past, て-form) |
 | German | A1 | 15 | 3 chapters of alphabet, sound rules and numbers, then 12 everyday topics (articles, accusative, modal verbs, Perfekt) |
 
-Every topic chapter: a dialogue or short text, 10 words, 40 useful sentences, one grammar point, a tip and a 12-question quiz.
+## Technology track
+
+Ten courses, 72 chapters and 796 teaching slides, written in mixed Bangla–English for a complete beginner.
+Each chapter is a swipe deck of big one-idea slides: no walls of text, no vertical scrolling.
+
+| Course | Chapters | What's inside |
+|---|---|---|
+| Technology 101 | 10 | the computer, software, internet, web, data, programming, language families, databases, cloud, companies and people |
+| Technology 201 | 8 | IP/DNS/TCP/HTTP, browsers, backend, databases and caches, containers, hosting, APIs, security |
+| Technology 301 | 10 | JavaScript from zero: variables, conditions, loops, functions, arrays, objects, DOM, async, first project |
+| Technology 401 | 6 | high/low-level languages, compilation, memory, pointers, malloc/free, why C still rules |
+| Technology 501 | 6 | tables, SQL, JOIN, MySQL, MariaDB and forks, PostgreSQL, SQLite, MongoDB |
+| Technology 601 | 8 | NVIDIA, OpenAI/Anthropic/DeepSeek, Amazon/AWS, Oracle, hosting companies, Big Tech, startups |
+| Technology 701 | 6 | Tencent, Alibaba, Baidu, ByteDance/TikTok, DeepSeek, Kimi/Moonshot, Huawei, Xiaomi, DJI, BYD |
+| Technology 801 | 6 | Ada, Turing, Hopper, Ritchie, Torvalds, Guido, Gates, Jobs, Bezos, Zuckerberg, Musk, Huang |
+| Technology 901 | 6 | ML, neural networks, LLMs, model families, prompting, limits, safety, learning with AI |
+| Technology 1001 | 6 | Linux, Git, domains/hosting/deploy, WordPress, freelancing/SaaS, security and a 90-day plan |
+
+Every language topic chapter: a dialogue or short text, 10 words, 40 useful sentences, one grammar point, a tip and a 12-question quiz.
 Slides are read only by swiping left and right: nothing scrolls, on a phone or a desktop.
 Bangla pronunciation is shown for every line (can be hidden), and the phone's own text-to-speech reads everything aloud.
 
@@ -25,7 +43,8 @@ Static HTML, no framework. `python3 build.py` regenerates every page from the co
 curriculum.py                    courses and chapter outlines
 content/<course>/ch-NN.json      topic and sentence-builder chapters (generated with muse, checked by validate.py)
 letters_ja.py / letters_de.py    letters, sounds, numbers (hand-written) + Japanese romaji/Bangla converters
-site_topic.py / site_letters.py / site_builder.py  turn chapters into slides
+tech/c101.py … tech/c1001.py     Technology chapters (hand-written big-idea slides)
+site_topic.py / site_letters.py / site_builder.py / site_tech.py  turn chapters into slides
 engine.py, assets/               HTML helpers, the only CSS and JS
 validate.py, tools/              content checks, generation and review tools
 ```

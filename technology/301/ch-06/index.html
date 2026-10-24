@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>অধ্যায় 6 · অ্যারে: অনেকগুলো মান — Technology 301</title>
+<meta name="description" content="বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।">
+<meta name="theme-color" content="#4F46E5">
+<link rel="icon" type="image/png" href="../../../assets/img/favicon.png"><link rel="apple-touch-icon" href="../../../assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:title" content="অধ্যায় 6 · অ্যারে: অনেকগুলো মান — Technology 301">
+<meta property="og:description" content="বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।"><meta property="og:url" content="https://polodev.github.io/ananya/technology/301/ch-06/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Klee+One:wght@400;600&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/app.css">
+</head>
+<body class="t-tech deck" data-deck="technology/301/ch-06">
+<div id="top"><a href="../index.html">← সব অধ্যায়</a><span class="crumb">অধ্যায় ৬ · অ্যারে: অনেকগুলো মান</span><a href="../../../index.html" class="home" aria-label="হোম">🏠</a></div><div id="bar"></div><main id="deck"><section class="slide cover t-cover-slide" data-title="শুরু"><div class="inner"><div class="t-cover"><div class="t-cover-top"><span class="chip">Technology 301 · অধ্যায় ৬</span><span class="t-min">⏱ ~১৩ মিনিট</span></div><div class="t-cover-mark" aria-hidden="true">🟨</div><h1>অ্যারে: অনেকগুলো মান</h1><p class="t-en">Arrays: many values in one place</p><p class="t-body">একটা নাম রাখতে variable, ১০০টা নাম রাখতে অ্যারে। আজ অ্যারের আসল শক্তি দেখবে।</p><div class="t-cover-chips"><span>Index</span><span>Length</span><span>push / pop</span><span>map</span></div><p class="hint">👉 ডান থেকে বামে swipe করো — প্রতিটি স্লাইডে একটা করে বড় ধারণা</p></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><span class="t-kicker">মূল ধারণা</span><div class="t-visual" aria-hidden="true">📚</div><h1 class="t-h">অ্যারে = এক লাইনে অনেক মান</h1><p class="t-body">প্রতিটি মানের একটা index থাকে, ০ থেকে শুরু। অ্যারে নিয়ে কাজ করার জন্য map, filter, reduce — তিনটা জাদু আছে।</p></div></div></section>
+<section class="slide t-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><span class="t-kicker">প্রথম অ্যারে</span><h1 class="t-h sm">index আর length</h1><div class="t-code" data-lang="js"><pre><code>const names = [&quot;Rafi&quot;, &quot;Mitu&quot;, &quot;Tanvir&quot;];
+
+console.log(names[0]);      // Rafi
+console.log(names.length);   // 3
+console.log(names[names.length - 1]); // Tanvir</code></pre></div><p class="t-note">index ০ থেকে শুরু; শেষ element-এর index <code>length - 1</code>।</p></div></div></section>
+<section class="slide t-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">চারটা শব্দ</h1><p class="t-sub">index, length, push/pop, map</p><div class="t-terms"><div class="t-card"><b class="t-term">Index</b><span class="t-mean">কোন নম্বরে আছে</span><small>০, ১, ২ …</small></div><div class="t-card"><b class="t-term">Length</b><span class="t-mean">কতগুলো আছে</span><small><code>names.length</code></small></div><div class="t-card"><b class="t-term">push / pop</b><span class="t-mean">শেষে যোগ / শেষ থেকে বাদ</span><small>অ্যারে বদলায়।</small></div><div class="t-card"><b class="t-term">map</b><span class="t-mean">প্রতিটি মান বদলে নতুন অ্যারে</span><small>মূল অ্যারে থাকে।</small></div></div></div></div></section>
+<section class="slide t-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><span class="t-kicker">map দিয়ে রূপান্তর</span><h1 class="t-h sm">প্রতিটি সংখ্যার দ্বিগুণ</h1><div class="t-code" data-lang="js"><pre><code>const nums = [1, 2, 3, 4];
+const doubled = nums.map(n =&gt; n * 2);
+
+console.log(doubled); // [2, 4, 6, 8]
+console.log(nums);    // [1, 2, 3, 4]</code></pre></div><p class="t-note"><code>map</code> নতুন অ্যারে ফেরত দেয়, মূলটা বদলায় না।</p></div></div></section>
+<section class="slide t-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><span class="t-kicker">filter দিয়ে বাছাই</span><h1 class="t-h sm">শুধু বড় সংখ্যা</h1><div class="t-code" data-lang="js"><pre><code>const nums = [5, 12, 8, 20, 3];
+const big = nums.filter(n =&gt; n &gt; 10);
+
+console.log(big); // [12, 20]</code></pre></div><p class="t-note"><code>filter</code> শর্ত সত্য হলে মানটা রাখে।</p></div></div></section>
+<section class="slide t-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><span class="t-kicker">reduce দিয়ে যোগফল</span><h1 class="t-h sm">অনেক মান থেকে এক মান</h1><div class="t-code" data-lang="js"><pre><code>const cart = [120, 250, 80];
+const total = cart.reduce((sum, price) =&gt; sum + price, 0);
+
+console.log(total); // 450</code></pre></div><p class="t-note"><code>0</code> হলো শুরুর মান; <code>sum</code> প্রতিবার জমা হয়।</p></div></div></section>
+<section class="slide t-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">map, filter, reduce, find</h1><div class="t-compare"><div class="t-col"><h3>রূপান্তর / বাছাই</h3><ul><li>map — প্রতিটি বদলাও</li><li>filter — শর্তে রাখো</li><li>find — প্রথমটা খোঁজো</li></ul></div><div class="t-col"><h3>এক মান</h3><ul><li>reduce — সব জমিয়ে এক</li><li>forEach — শুধু ঘোরো</li><li>some/every — পরীক্ষা</li></ul></div></div><p class="t-note">অ্যারের ৯০% কাজ এই ছয়টা দিয়ে হয়।</p></div></div></section>
+<section class="slide t-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><span class="t-kicker">দোকানের হিসাব</span><h1 class="t-h sm">দাম আর পরিমাণ</h1><div class="t-code" data-lang="js"><pre><code>const items = [
+  { name: &quot;চা&quot;, price: 20, qty: 2 },
+  { name: &quot;বিস্কুট&quot;, price: 50, qty: 1 },
+];
+
+const total = items.reduce((sum, item) =&gt; sum + item.price * item.qty, 0);
+console.log(total); // 90</code></pre></div><div class="t-output"><span>output</span><code>90</code></div><p class="t-note">প্রতিটি item-এর price × qty যোগ হচ্ছে।</p></div></div></section>
+<section class="slide t-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">অ্যারের চারটা ফাঁদ</h1><p class="t-sub">এগুলো মনে রাখো</p><div class="t-points"><div class="t-point"><span class="t-dot">→</span><div>index ০ থেকে, ১ থেকে নয়।</div></div><div class="t-point"><span class="t-dot">→</span><div><code>length</code> শেষ index নয় — এক কম।</div></div><div class="t-point"><span class="t-dot">→</span><div><code>sort()</code> মূল অ্যারে বদলায়।</div></div><div class="t-point"><span class="t-dot">→</span><div>অ্যারে assign করলে reference যায়, কপি নয়।</div></div></div></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><div class="t-visual" aria-hidden="true">✨</div><h1 class="t-h">Spread: অ্যারের কপি</h1><p class="t-body"><code>const copy = [...names]</code> দিয়ে নতুন অ্যারে বানাও। <code>const all = [...a, ...b]</code> দিয়ে জোড়ো। মূল অ্যারে না বদলে নতুনটা বদলানো নিরাপদ।</p></div></div></section>
+<section class="slide t-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><span class="t-kicker">কপি আর জোড়া</span><h1 class="t-h sm">spread</h1><div class="t-code" data-lang="js"><pre><code>const a = [1, 2];
+const b = [3, 4];
+const all = [...a, ...b];
+
+console.log(all); // [1, 2, 3, 4]</code></pre></div><p class="t-note">Spread তিনটা ডট দিয়ে লেখা হয়।</p></div></div></section>
+<section class="slide t-slide" data-title="অ্যারে: অনেকগুলো মান"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">মনে রাখো</h1><div class="t-recap"><div class="t-check"><span>✓</span><div>অ্যারে index ০ থেকে।</div></div><div class="t-check"><span>✓</span><div>map বদলায়, filter বাছাই করে, reduce জমায়।</div></div><div class="t-check"><span>✓</span><div><code>sort</code> মূল অ্যারে বদলায়।</div></div><div class="t-check"><span>✓</span><div>কপি করতে spread ব্যবহার করো।</div></div></div></div></div></section>
+<section class="slide " data-title="এই অধ্যায়ের কুইজ"><div class="inner"><span class="chip">📝 এই অধ্যায়ের কুইজ</span><div class="quiz" data-quiz="[{&quot;q&quot;: &quot;“Index” কী?&quot;, &quot;o&quot;: [&quot;শেষে যোগ / শেষ থেকে বাদ&quot;, &quot;প্রতিটি মান বদলে নতুন অ্যারে&quot;, &quot;কোন নম্বরে আছে&quot;, &quot;কতগুলো আছে&quot;], &quot;a&quot;: 2, &quot;why&quot;: &quot;Index = কোন নম্বরে আছে. ০, ১, ২ …&quot;}, {&quot;q&quot;: &quot;“map” কী?&quot;, &quot;o&quot;: [&quot;প্রতিটি মান বদলে নতুন অ্যারে&quot;, &quot;কোন নম্বরে আছে&quot;, &quot;কতগুলো আছে&quot;, &quot;শেষে যোগ / শেষ থেকে বাদ&quot;], &quot;a&quot;: 0, &quot;why&quot;: &quot;map = প্রতিটি মান বদলে নতুন অ্যারে. মূল অ্যারে থাকে।&quot;}, {&quot;q&quot;: &quot;“Length” কী?&quot;, &quot;o&quot;: [&quot;প্রতিটি মান বদলে নতুন অ্যারে&quot;, &quot;শেষে যোগ / শেষ থেকে বাদ&quot;, &quot;কতগুলো আছে&quot;, &quot;কোন নম্বরে আছে&quot;], &quot;a&quot;: 2, &quot;why&quot;: &quot;Length = কতগুলো আছে. `names.length`&quot;}, {&quot;q&quot;: &quot;`[10, 20, 30].length` কত?&quot;, &quot;o&quot;: [&quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;30&quot;], &quot;a&quot;: 1, &quot;why&quot;: &quot;তিনটা মান আছে, তাই length 3; শেষ index 2।&quot;}, {&quot;q&quot;: &quot;কোনটা নতুন অ্যারে ফেরত দেয়?&quot;, &quot;o&quot;: [&quot;forEach&quot;, &quot;map&quot;, &quot;push&quot;, &quot;sort&quot;], &quot;a&quot;: 1, &quot;why&quot;: &quot;`map` প্রতিটি মান বদলে নতুন অ্যারে দেয়; `forEach` কিছু ফেরত দেয় না।&quot;}]"></div></div></section>
+<section class="slide " data-title="শেষ"><div class="inner"><div class="finish"><div class="party">🎉</div><h2>অধ্যায় ৬ শেষ! 🎉</h2><p class="lead">আজকের ধারণাগুলো নিজের ভাষায় একবার বলো। তারপর পরের অধ্যায়ে যাও।</p><div class="wordlist"><span>Index</span><span>Length</span><span>push / pop</span><span>map</span></div><div class="callout"><b>পরের অধ্যায়</b><br>অবজেক্ট: নাম দেওয়া তথ্য — Objects: data with names</div><div class="btns"><a class="btn" href="../ch-07/index.html">অধ্যায় ৭: অবজেক্ট: নাম দেওয়া তথ্য →</a><a class="btn ghost" href="../index.html">সব অধ্যায়</a></div></div></div></section></main><nav id="nav"><button id="prev" aria-label="আগের">‹</button><span id="count"></span><button id="next" aria-label="পরের">›</button><button id="theme" title="Dark mode" aria-label="Theme">◐</button></nav>
+<script src="../../../assets/app.js"></script>
+</body>
+</html>

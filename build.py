@@ -8,6 +8,7 @@ from curriculum import COURSES, LANGS
 from engine import ROOT, SITE_NAME, SITE_NAME_EN, bn, esc, footer, page, write
 import site_builder
 import site_letters
+import site_tech
 import site_topic
 
 
@@ -16,6 +17,8 @@ def courses_of(lang):
 
 
 def counts(c):
+    if c["chapters"][0]["kind"] == "tech":
+        return f"{bn(len(c['chapters']))} অধ্যায় · {bn(c['slides_total'])} স্লাইড"
     if c["chapters"][0]["kind"] == "builder":
         return f"{bn(len(c['chapters']))} অধ্যায় · {bn(len(c['chapters']) * 10)}টি বাক্য, ধাপে ধাপে"
     letters = sum(ch["kind"] == "letters" for ch in c["chapters"])
@@ -28,13 +31,19 @@ def counts(c):
 
 
 def home():
+    tech = LANGS["technology"]
+    tech_card = (f'<a class="card tech-feature" href="technology/index.html"><span class="tf-tag">নতুন · ১০টি কোর্স</span>'
+                 f'<div class="tf-top"><div class="tf-badge">{tech["badge"]}</div><div><b>Technology — {tech["bn"]}</b>'
+                 f'<span>{tech["intro"]}</span></div></div>'
+                 f'<span class="tf-path">101 → 201 → 301 → … → 1001</span></a>')
     cards = "".join(
         f'<a class="card lang {v["theme"]}" href="{k}/index.html"><div class="badge">{v["badge"]}</div><div><b>{v["name"]} — {v["bn"]}</b>'
         f'<span>{v["intro"]}</span><br><span class="levels">{" · ".join(c["level"] for c in courses_of(k).values())}</span></div></a>'
-        for k, v in LANGS.items())
+        for k, v in LANGS.items() if k != "technology")
     body = (f'<header class="hero"><div class="in"><p class="eyebrow" data-greet>স্বাগতম! 👋</p><h1>{SITE_NAME}</h1>'
-            f'<p>ইংরেজি, জাপানি আর জার্মান — বাংলায়, মোবাইলে, শুনে শুনে।</p></div></header>'
-            f'<main class="wrap">{cards}<p class="note">🔊 প্রতিটি শব্দ আর বাক্য শুনতে পাবে · 👆 স্লাইডে বাঁ-ডানে swipe করো · ✅ তোমার অগ্রগতি এই ফোনেই জমা থাকে</p></main>'
+            f'<p>ভাষা শেখো, টেক শেখো — দুটোই বাংলায়, মোবাইলে, স্লাইডে।</p></div></header>'
+            f'<main class="wrap">{tech_card}{cards}'
+            f'<p class="note">🔊 ভাষার স্লাইডে উচ্চারণ শুনতে পাবে · 👆 বাঁ-ডানে swipe করো · ✅ অগ্রগতি এই ফোনেই জমা থাকে</p></main>'
             + footer())
     page("index.html", f"{SITE_NAME} — {SITE_NAME_EN}", body)
 
@@ -64,6 +73,8 @@ def course_page(ck, c):
         elif ch["kind"] == "topic":
             d = site_topic.load(ck, n)
             sub = f'{d["title"]} · {d["grammar"]["title_bn"]}'
+        elif ch["kind"] == "tech":
+            sub = f'{ch["topic"]} · {bn(ch["slides"])} স্লাইড'
         else:
             sub = "অক্ষর ও উচ্চারণ" if "সংখ্যা" not in ch["title_bn"] else "সংখ্যা"
         rows.append(f'<a class="day" data-deckkey="{ck}/ch-{n:02d}" href="ch-{n:02d}/index.html"><span class="n">অধ্যায়<b>{bn(n)}</b></span>'
@@ -104,6 +115,7 @@ if __name__ == "__main__":
         for n, ch in enumerate(c["chapters"], 1):
             if ch["kind"] == "builder" and not site_builder.ready(n):
                 continue
-            {"topic": site_topic.build, "letters": site_letters.build, "builder": site_builder.build}[ch["kind"]](ck, n)
+            {"topic": site_topic.build, "letters": site_letters.build, "builder": site_builder.build,
+             "tech": site_tech.build}[ch["kind"]](ck, n)
     not_found()
     print(f"built {sum(1 for _ in ROOT.rglob('index.html'))} pages")

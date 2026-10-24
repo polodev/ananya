@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>অধ্যায় 5 · ফাংশন: কাজের প্যাকেট — Technology 301</title>
+<meta name="description" content="বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।">
+<meta name="theme-color" content="#4F46E5">
+<link rel="icon" type="image/png" href="../../../assets/img/favicon.png"><link rel="apple-touch-icon" href="../../../assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:title" content="অধ্যায় 5 · ফাংশন: কাজের প্যাকেট — Technology 301">
+<meta property="og:description" content="বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।"><meta property="og:url" content="https://polodev.github.io/ananya/technology/301/ch-05/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Klee+One:wght@400;600&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/app.css">
+</head>
+<body class="t-tech deck" data-deck="technology/301/ch-05">
+<div id="top"><a href="../index.html">← সব অধ্যায়</a><span class="crumb">অধ্যায় ৫ · ফাংশন: কাজের প্যাকেট</span><a href="../../../index.html" class="home" aria-label="হোম">🏠</a></div><div id="bar"></div><main id="deck"><section class="slide cover t-cover-slide" data-title="শুরু"><div class="inner"><div class="t-cover"><div class="t-cover-top"><span class="chip">Technology 301 · অধ্যায় ৫</span><span class="t-min">⏱ ~১৩ মিনিট</span></div><div class="t-cover-mark" aria-hidden="true">🟨</div><h1>ফাংশন: কাজের প্যাকেট</h1><p class="t-en">Functions: a packet of work</p><p class="t-body">একই কাজ বারবার লিখতে হয় না — ফাংশনে একবার লিখে যতবার খুশি ডাকো।</p><div class="t-cover-chips"><span>Parameter</span><span>Argument</span><span>Return</span><span>Scope</span></div><p class="hint">👉 ডান থেকে বামে swipe করো — প্রতিটি স্লাইডে একটা করে বড় ধারণা</p></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><span class="t-kicker">মূল ধারণা</span><div class="t-visual" aria-hidden="true">🎁</div><h1 class="t-h">ফাংশন = নাম দেওয়া কাজ</h1><p class="t-body">ইনপুট নাও, কাজ করো, ফল ফেরত দাও। একবার লিখে অনেকবার ব্যবহার।</p></div></div></section>
+<section class="slide t-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">ফাংশনের তিন ধাপ</h1><div class="t-flow"><div class="t-step"><span class="t-num">1</span><div><b>Define</b><p>নাম আর কাজ লেখো।</p></div></div><div class="t-step"><span class="t-num">2</span><div><b>Call</b><p>নাম দিয়ে ডাকো।</p></div></div><div class="t-step"><span class="t-num">3</span><div><b>Return</b><p>ফলটা ফেরত পাও।</p></div></div></div></div></div></section>
+<section class="slide t-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><span class="t-kicker">প্রথম ফাংশন</span><h1 class="t-h sm">নাম নিয়ে অভিবাদন</h1><div class="t-code" data-lang="js"><pre><code>function greet(name) {
+  return &quot;হ্যালো, &quot; + name + &quot;!&quot;;
+}
+
+console.log(greet(&quot;Mitu&quot;));</code></pre></div><div class="t-output"><span>output</span><code>হ্যালো, Mitu!</code></div><p class="t-note"><code>name</code> হলো parameter, <code>&quot;Mitu&quot;</code> হলো argument।</p></div></div></section>
+<section class="slide t-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">চারটা শব্দ</h1><p class="t-sub">parameter, argument, return, scope</p><div class="t-terms"><div class="t-card"><b class="t-term">Parameter</b><span class="t-mean">ফাংশনের ইনপুটের নাম</span><small><code>function greet(name)</code></small></div><div class="t-card"><b class="t-term">Argument</b><span class="t-mean">ডাকার সময় দেওয়া মান</span><small><code>greet(&quot;Mitu&quot;)</code></small></div><div class="t-card"><b class="t-term">Return</b><span class="t-mean">ফল ফেরত দেওয়া</span><small><code>return total;</code></small></div><div class="t-card"><b class="t-term">Scope</b><span class="t-mean">variable কোথায় দেখা যায়</span><small>ফাংশনের ভেতরে local।</small></div></div></div></div></section>
+<section class="slide t-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><span class="t-kicker">return বনাম console.log</span><h1 class="t-h sm">একটা ফল দেয়, একটা দেখায়</h1><div class="t-code" data-lang="js"><pre><code>function add(a, b) {
+  return a + b;
+}
+
+const result = add(3, 4);
+console.log(result); // 7</code></pre></div><div class="t-output"><span>output</span><code>7</code></div><p class="t-note"><code>return</code> ছাড়া ফাংশনের ফল <code>undefined</code>।</p></div></div></section>
+<section class="slide t-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">তিন ধরনের ফাংশন</h1><div class="t-compare"><div class="t-col"><h3>Declaration</h3><ul><li><code>function add() {}</code></li><li>আগে ডাকা যায়</li><li>সহজ</li></ul></div><div class="t-col"><h3>Arrow</h3><ul><li><code>const add = () =&gt; {}</code></li><li>ছোট, আধুনিক</li><li>callback-এ জনপ্রিয়</li></ul></div></div><p class="t-note">শুরুতে declaration, পরে arrow।</p></div></div></section>
+<section class="slide t-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><span class="t-kicker">Arrow function</span><h1 class="t-h sm">সংক্ষিপ্ত রূপ</h1><div class="t-code" data-lang="js"><pre><code>const double = (n) =&gt; n * 2;
+
+console.log(double(5)); // 10</code></pre></div><div class="t-output"><span>output</span><code>10</code></div><p class="t-note">এক লাইনে <code>return</code> লিখতে হয় না।</p></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><div class="t-visual" aria-hidden="true">🏠</div><h1 class="t-h">Scope: variable কোথায় বাস করে</h1><p class="t-body">ফাংশনের ভেতরে বানানো variable বাইরে দেখা যায় না। বাইরের variable ভেতরে দেখা যায়। এটাই scope — দুর্ঘটনা কমায়।</p></div></div></section>
+<section class="slide t-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><span class="t-kicker">Closure</span><h1 class="t-h sm">ফাংশন তার জন্মের জায়গা মনে রাখে</h1><div class="t-code" data-lang="js"><pre><code>function counter() {
+  let count = 0;
+  return () =&gt; ++count;
+}
+
+const next = counter();
+console.log(next()); // 1
+console.log(next()); // 2</code></pre></div><p class="t-note">ভেতরের ফাংশন <code>count</code> মনে রাখে — এটাই closure।</p></div></div></section>
+<section class="slide t-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">ভালো ফাংশনের চারটা লক্ষণ</h1><p class="t-sub">পড়তে ও পরীক্ষা করতে সহজ</p><div class="t-points"><div class="t-point"><span class="t-dot">→</span><div>একটা কাজ, একটাই।</div></div><div class="t-point"><span class="t-dot">→</span><div>নাম বলছে কী করে।</div></div><div class="t-point"><span class="t-dot">→</span><div>ছোট — ২০ লাইনের কম।</div></div><div class="t-point"><span class="t-dot">→</span><div>ইনপুট দিলে একই ফল দেয়।</div></div></div></div></div></section>
+<section class="slide t-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><span class="t-kicker">হিসাবের ফাংশন</span><h1 class="t-h sm">দাম আর পরিমাণ</h1><div class="t-code" data-lang="js"><pre><code>function total(price, qty) {
+  return price * qty;
+}
+
+console.log(total(120, 3)); // 360</code></pre></div><div class="t-output"><span>output</span><code>360</code></div><p class="t-note">ফাংশনকে ছোট রাখলে বারবার ব্যবহার করা যায়।</p></div></div></section>
+<section class="slide t-slide" data-title="ফাংশন: কাজের প্যাকেট"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">মনে রাখো</h1><div class="t-recap"><div class="t-check"><span>✓</span><div>ফাংশন ইনপুট নেয়, কাজ করে, ফল দেয়।</div></div><div class="t-check"><span>✓</span><div><code>return</code> ছাড়া ফল undefined।</div></div><div class="t-check"><span>✓</span><div>Scope variable-কে নিরাপদ রাখে।</div></div><div class="t-check"><span>✓</span><div>ছোট, এক কাজের ফাংশন লেখো।</div></div></div></div></div></section>
+<section class="slide " data-title="এই অধ্যায়ের কুইজ"><div class="inner"><span class="chip">📝 এই অধ্যায়ের কুইজ</span><div class="quiz" data-quiz="[{&quot;q&quot;: &quot;“Parameter” কী?&quot;, &quot;o&quot;: [&quot;ফাংশনের ইনপুটের নাম&quot;, &quot;ফল ফেরত দেওয়া&quot;, &quot;variable কোথায় দেখা যায়&quot;, &quot;ডাকার সময় দেওয়া মান&quot;], &quot;a&quot;: 0, &quot;why&quot;: &quot;Parameter = ফাংশনের ইনপুটের নাম. `function greet(name)`&quot;}, {&quot;q&quot;: &quot;“Return” কী?&quot;, &quot;o&quot;: [&quot;ডাকার সময় দেওয়া মান&quot;, &quot;ফল ফেরত দেওয়া&quot;, &quot;variable কোথায় দেখা যায়&quot;, &quot;ফাংশনের ইনপুটের নাম&quot;], &quot;a&quot;: 1, &quot;why&quot;: &quot;Return = ফল ফেরত দেওয়া. `return total;`&quot;}, {&quot;q&quot;: &quot;“Scope” কী?&quot;, &quot;o&quot;: [&quot;ফাংশনের ইনপুটের নাম&quot;, &quot;ফল ফেরত দেওয়া&quot;, &quot;ডাকার সময় দেওয়া মান&quot;, &quot;variable কোথায় দেখা যায়&quot;], &quot;a&quot;: 3, &quot;why&quot;: &quot;Scope = variable কোথায় দেখা যায়. ফাংশনের ভেতরে local।&quot;}, {&quot;q&quot;: &quot;`return` না থাকলে ফাংশন কী ফেরত দেয়?&quot;, &quot;o&quot;: [&quot;0&quot;, &quot;null&quot;, &quot;undefined&quot;, &quot;error&quot;], &quot;a&quot;: 2, &quot;why&quot;: &quot;JavaScript-এ `return` না থাকলে ফাংশনের ফল `undefined`।&quot;}, {&quot;q&quot;: &quot;Arrow function-এর সংক্ষিপ্ত রূপ কোনটা?&quot;, &quot;o&quot;: [&quot;`function f() {}`&quot;, &quot;`const f = () =&gt; {}`&quot;, &quot;`if (f) {}`&quot;, &quot;`for (f) {}`&quot;], &quot;a&quot;: 1, &quot;why&quot;: &quot;`const f = () =&gt; {}` arrow function; ছোট callback-এ খুব ব্যবহৃত।&quot;}]"></div></div></section>
+<section class="slide " data-title="শেষ"><div class="inner"><div class="finish"><div class="party">🎉</div><h2>অধ্যায় ৫ শেষ! 🎉</h2><p class="lead">আজকের ধারণাগুলো নিজের ভাষায় একবার বলো। তারপর পরের অধ্যায়ে যাও।</p><div class="wordlist"><span>Parameter</span><span>Argument</span><span>Return</span><span>Scope</span></div><div class="callout"><b>পরের অধ্যায়</b><br>অ্যারে: অনেকগুলো মান — Arrays: many values in one place</div><div class="btns"><a class="btn" href="../ch-06/index.html">অধ্যায় ৬: অ্যারে: অনেকগুলো মান →</a><a class="btn ghost" href="../index.html">সব অধ্যায়</a></div></div></div></section></main><nav id="nav"><button id="prev" aria-label="আগের">‹</button><span id="count"></span><button id="next" aria-label="পরের">›</button><button id="theme" title="Dark mode" aria-label="Theme">◐</button></nav>
+<script src="../../../assets/app.js"></script>
+</body>
+</html>

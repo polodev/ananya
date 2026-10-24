@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>অধ্যায় 10 · প্রজেক্ট, ডিবাগিং আর Git — Technology 301</title>
+<meta name="description" content="বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।">
+<meta name="theme-color" content="#4F46E5">
+<link rel="icon" type="image/png" href="../../../assets/img/favicon.png"><link rel="apple-touch-icon" href="../../../assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:title" content="অধ্যায় 10 · প্রজেক্ট, ডিবাগিং আর Git — Technology 301">
+<meta property="og:description" content="বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।"><meta property="og:url" content="https://polodev.github.io/ananya/technology/301/ch-10/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Klee+One:wght@400;600&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/app.css">
+</head>
+<body class="t-tech deck" data-deck="technology/301/ch-10">
+<div id="top"><a href="../index.html">← সব অধ্যায়</a><span class="crumb">অধ্যায় ১০ · প্রজেক্ট, ডিবাগিং আর Git</span><a href="../../../index.html" class="home" aria-label="হোম">🏠</a></div><div id="bar"></div><main id="deck"><section class="slide cover t-cover-slide" data-title="শুরু"><div class="inner"><div class="t-cover"><div class="t-cover-top"><span class="chip">Technology 301 · অধ্যায় ১০</span><span class="t-min">⏱ ~১৪ মিনিট</span></div><div class="t-cover-mark" aria-hidden="true">🟨</div><h1>প্রজেক্ট, ডিবাগিং আর Git</h1><p class="t-en">A first project, debugging and Git</p><p class="t-body">এখন আলাদা আলাদা অংশ জোড়া লাগিয়ে একটা ছোট অ্যাপ বানাবে — আর ভুল হলে খুঁজে বের করবে।</p><div class="t-cover-chips"><span>State</span><span>Render</span><span>localStorage</span><span>Commit</span><span>GitHub</span></div><p class="hint">👉 ডান থেকে বামে swipe করো — প্রতিটি স্লাইডে একটা করে বড় ধারণা</p></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><span class="t-kicker">মূল ধারণা</span><div class="t-visual" aria-hidden="true">🧱</div><h1 class="t-h">একটা ছোট অ্যাপ = চারটা অংশ</h1><p class="t-body">ইনপুট, state (ডেটা), render (দেখানো), আর save (রাখা)। খরচের হিসাব অ্যাপ দিয়ে শুরু করো।</p></div></div></section>
+<section class="slide t-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">Expense tracker-এর পাঁচ ধাপ</h1><div class="t-flow"><div class="t-step"><span class="t-num">1</span><div><b>UI</b><p>ইনপুট আর বাটন বানাও।</p></div></div><div class="t-step"><span class="t-num">2</span><div><b>State</b><p>খরচের অ্যারে রাখো।</p></div></div><div class="t-step"><span class="t-num">3</span><div><b>Add</b><p>ফর্ম submit হলে অ্যারেতে যোগ করো।</p></div></div><div class="t-step"><span class="t-num">4</span><div><b>Render</b><p>অ্যারে থেকে তালিকা আঁকো।</p></div></div><div class="t-step"><span class="t-num">5</span><div><b>Save</b><p>localStorage-এ রাখো।</p></div></div></div></div></div></section>
+<section class="slide t-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">অ্যাপের চারটা শব্দ</h1><p class="t-sub">state, render, localStorage, commit</p><div class="t-terms"><div class="t-card"><b class="t-term">State</b><span class="t-mean">অ্যাপের ডেটা</span><small>খরচের অ্যারে।</small></div><div class="t-card"><b class="t-term">Render</b><span class="t-mean">ডেটা থেকে স্ক্রিন আঁকা</span><small>state বদলালে আবার চালাও।</small></div><div class="t-card"><b class="t-term">localStorage</b><span class="t-mean">ব্রাউজারের ছোট ভাণ্ডার</span><small>স্ট্রিং রাখে; JSON দরকার।</small></div><div class="t-card"><b class="t-term">Commit</b><span class="t-mean">Git-এর সেভ পয়েন্ট</span><small>কোডের অবস্থা মনে রাখে।</small></div></div></div></div></section>
+<section class="slide t-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><span class="t-kicker">State আর render</span><h1 class="t-h sm">ছোট অ্যাপের কাঠামো</h1><div class="t-code" data-lang="js"><pre><code>let expenses = [];
+
+function render() {
+  const list = document.querySelector(&quot;#list&quot;);
+  list.innerHTML = &quot;&quot;;
+  expenses.forEach(e =&gt; {
+    const li = document.createElement(&quot;li&quot;);
+    li.textContent = `${e.title}: ${e.amount} টাকা`;
+    list.appendChild(li);
+  });
+}</code></pre></div><p class="t-note">State বদলালে <code>render()</code> ডাকো — পেজ নিজে থেকে বদলায় না।</p></div></div></section>
+<section class="slide t-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><span class="t-kicker">নতুন খরচ যোগ</span><h1 class="t-h sm">ফর্ম submit</h1><div class="t-code" data-lang="js"><pre><code>form.addEventListener(&quot;submit&quot;, (event) =&gt; {
+  event.preventDefault();
+  const title = titleInput.value.trim();
+  const amount = Number(amountInput.value);
+
+  if (!title || !amount) return;
+
+  expenses.push({ title, amount });
+  save();
+  render();
+  form.reset();
+});</code></pre></div><p class="t-note">আগে যাচাই, তারপর state বদল, তারপর render।</p></div></div></section>
+<section class="slide t-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><span class="t-kicker">localStorage</span><h1 class="t-h sm">পেজ বন্ধ করলেও থাকবে</h1><div class="t-code" data-lang="js"><pre><code>function save() {
+  localStorage.setItem(&quot;expenses&quot;, JSON.stringify(expenses));
+}
+
+function load() {
+  const raw = localStorage.getItem(&quot;expenses&quot;);
+  expenses = raw ? JSON.parse(raw) : [];
+}</code></pre></div><p class="t-note">localStorage শুধু স্ট্রিং রাখে, তাই JSON দিয়ে রূপান্তর।</p></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><div class="t-visual" aria-hidden="true">🔍</div><h1 class="t-h">Debugging = গোয়েন্দাগিরি</h1><p class="t-body">আগে অনুমান নয়, প্রমাণ। Console-এ মান দেখো, breakpoint বসাও, এক এক ধাপ এগোও। সমস্যাটা ছোট করে ছোট করে খোঁজো।</p></div></div></section>
+<section class="slide t-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">Error পড়ার চারটা ধাপ</h1><p class="t-sub">ভয় পেয়ো না</p><div class="t-points"><div class="t-point"><span class="t-dot">→</span><div>Message পড়ো — কী ভুল।</div></div><div class="t-point"><span class="t-dot">→</span><div>Line number দেখো — কোথায়।</div></div><div class="t-point"><span class="t-dot">→</span><div>Stack trace-এ নিজের ফাইল খোঁজো।</div></div><div class="t-point"><span class="t-dot">→</span><div>প্রথম error টাই ঠিক করো, বাকিগুলো পরে।</div></div></div></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><div class="t-visual" aria-hidden="true">💾</div><h1 class="t-h">Git = সময়ের সেভ পয়েন্ট</h1><p class="t-body">প্রথমে <code>git init</code>, তারপর <code>git add</code>, <code>git commit</code>। প্রতিটি commit একটা ছবি — ভুল হলে পুরনো ছবিতে ফেরা যায়।</p></div></div></section>
+<section class="slide t-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><span class="t-kicker">প্রথম Git কমান্ড</span><h1 class="t-h sm">টার্মিনালে</h1><div class="t-code" data-lang="bash"><pre><code>git init
+git add .
+git commit -m &quot;first version&quot;
+git branch -M main
+git remote add origin &lt;repo-url&gt;
+git push -u origin main</code></pre></div><p class="t-note"><code>git add</code> স্টেজ করে, <code>commit</code> সেভ করে, <code>push</code> GitHub-এ পাঠায়।</p></div></div></section>
+<section class="slide t-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><span class="t-kicker">কোডের সামাজিক জায়গা</span><div class="t-profile"><div class="t-phead"><div class="t-mark">G</div><div><h2>GitHub</h2><p class="t-en">Code hosting &amp; collaboration</p></div></div><div class="t-facts"><div class="t-fact"><span>শুরু</span><b>২০০৮</b></div><div class="t-fact"><span>প্রতিষ্ঠাতা</span><b>Tom Preston-Werner, Chris Wanstrath, P. J. Hyett, Scott Chacon</b></div><div class="t-fact"><span>মালিক</span><b>Microsoft (২০১৮)</b></div><div class="t-fact"><span>কী বানায়</span><b>Git repo hosting, Actions, Pages</b></div></div><div class="t-famous"><span>কেন বিখ্যাত</span><p>বিশ্বের বড় কোড হোস্টিং</p></div><div class="t-hook"><span>তোমার জন্য</span><p>তোমার প্রজেক্ট GitHub-এ রাখলে পোর্টফোলিও হিসেবেও কাজ করে; GitHub Pages দিয়ে ফ্রি সাইট।</p></div></div></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><div class="t-visual" aria-hidden="true">🏁</div><h1 class="t-h">প্রথম প্রজেক্ট শেষ করার নিয়ম</h1><p class="t-body">পুরোটা নিখুঁত করার চেষ্টা করো না। ছোট করে বানাও, চালাও, একটা সমস্যা ঠিক করো, তারপর পরেরটা। শেষ করা প্রজেক্টই শেখায়।</p></div></div></section>
+<section class="slide t-slide" data-title="প্রজেক্ট, ডিবাগিং আর Git"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">মনে রাখো</h1><div class="t-recap"><div class="t-check"><span>✓</span><div>State বদলালে render ডাকো।</div></div><div class="t-check"><span>✓</span><div>localStorage-এ JSON রাখো।</div></div><div class="t-check"><span>✓</span><div>Error message পড়ো, অনুমান নয়।</div></div><div class="t-check"><span>✓</span><div>Git commit = সেভ পয়েন্ট।</div></div></div></div></div></section>
+<section class="slide " data-title="এই অধ্যায়ের কুইজ"><div class="inner"><span class="chip">📝 এই অধ্যায়ের কুইজ</span><div class="quiz" data-quiz="[{&quot;q&quot;: &quot;“Commit” কী?&quot;, &quot;o&quot;: [&quot;Git-এর সেভ পয়েন্ট&quot;, &quot;অ্যাপের ডেটা&quot;, &quot;ব্রাউজারের ছোট ভাণ্ডার&quot;, &quot;ডেটা থেকে স্ক্রিন আঁকা&quot;], &quot;a&quot;: 0, &quot;why&quot;: &quot;Commit = Git-এর সেভ পয়েন্ট. কোডের অবস্থা মনে রাখে।&quot;}, {&quot;q&quot;: &quot;“Render” কী?&quot;, &quot;o&quot;: [&quot;Git-এর সেভ পয়েন্ট&quot;, &quot;ডেটা থেকে স্ক্রিন আঁকা&quot;, &quot;ব্রাউজারের ছোট ভাণ্ডার&quot;, &quot;অ্যাপের ডেটা&quot;], &quot;a&quot;: 1, &quot;why&quot;: &quot;Render = ডেটা থেকে স্ক্রিন আঁকা. state বদলালে আবার চালাও।&quot;}, {&quot;q&quot;: &quot;“localStorage” কী?&quot;, &quot;o&quot;: [&quot;ডেটা থেকে স্ক্রিন আঁকা&quot;, &quot;Git-এর সেভ পয়েন্ট&quot;, &quot;অ্যাপের ডেটা&quot;, &quot;ব্রাউজারের ছোট ভাণ্ডার&quot;], &quot;a&quot;: 3, &quot;why&quot;: &quot;localStorage = ব্রাউজারের ছোট ভাণ্ডার. স্ট্রিং রাখে; JSON দরকার।&quot;}, {&quot;q&quot;: &quot;localStorage-এ কী রাখা যায়?&quot;, &quot;o&quot;: [&quot;শুধু সংখ্যা&quot;, &quot;শুধু অবজেক্ট&quot;, &quot;স্ট্রিং&quot;, &quot;শুধু ছবি&quot;], &quot;a&quot;: 2, &quot;why&quot;: &quot;localStorage স্ট্রিং রাখে; অবজেক্ট রাখতে JSON.stringify করতে হয়।&quot;}, {&quot;q&quot;: &quot;Git commit কী?&quot;, &quot;o&quot;: [&quot;একটা সেভ পয়েন্ট&quot;, &quot;একটা সার্ভার&quot;, &quot;একটা ভাষা&quot;, &quot;একটা ডেটাবেস&quot;], &quot;a&quot;: 0, &quot;why&quot;: &quot;Commit ফাইলের অবস্থার একটা সেভ পয়েন্ট, সাথে বার্তা থাকে।&quot;}]"></div></div></section>
+<section class="slide " data-title="শেষ"><div class="inner"><div class="finish"><div class="party">🎉</div><h2>Technology 301 সম্পূর্ণ! 🏆</h2><p class="lead">১০টি অধ্যায় শেষ। এখন পরের কোর্সে যাওয়ার সময়।</p><div class="wordlist"><span>State</span><span>Render</span><span>localStorage</span><span>Commit</span><span>GitHub</span></div><div class="callout"><b>এরপর কী?</b><br>Technology 401 — C ও কম্পিউটারের ভেতরটা</div><div class="btns"><a class="btn" href="../../401/index.html">Technology 401 শুরু করো →</a><a class="btn ghost" href="../index.html">সব অধ্যায়</a></div></div></div></section></main><nav id="nav"><button id="prev" aria-label="আগের">‹</button><span id="count"></span><button id="next" aria-label="পরের">›</button><button id="theme" title="Dark mode" aria-label="Theme">◐</button></nav>
+<script src="../../../assets/app.js"></script>
+</body>
+</html>

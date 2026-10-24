@@ -188,6 +188,69 @@ def check_builder(n, d):
         p.append(f"culturally unsuitable or religious word: {w}")
     return p
 
+TECH_FORMAL = re.compile(r"আপনি|আপনার|করুন|বলুন|রাখুন|দেখুন|পারবেন|ভুলবেন|শিখবেন|নিন\b|লিখুন|পড়ুন|শুনুন")
+FOREIGN_TECH = re.compile(r"[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af\u0400-\u04ff\u0600-\u06ff\u0900-\u0963\u0966-\u097f\u0e00-\u0e7f]")
+
+
+def _tech_strings(obj):
+    if isinstance(obj, dict):
+        for v in obj.values():
+            yield from _tech_strings(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from _tech_strings(v)
+    elif isinstance(obj, str):
+        yield obj
+
+
+def check_tech():
+    """Technology decks are Python data, not JSON; check shape, script and voice."""
+    from tech.courses import TECH_COURSES
+    p, titles = [], set()
+    for ck, c in TECH_COURSES.items():
+        for n, ch in enumerate(c["tech_chapters"], 1):
+            tag = f"{ck}/ch-{n:02d}"
+            if not BN.search(ch["title_bn"]):
+                p.append(f"{tag}: title_bn is not Bangla")
+            if not BN.search(ch["hook"]):
+                p.append(f"{tag}: hook is not Bangla")
+            if len(ch["slides"]) < 8:
+                p.append(f"{tag}: only {len(ch['slides'])} slides")
+            if len(ch["quiz"]) < 2:
+                p.append(f"{tag}: fewer than 2 hand-written quiz items")
+            if ch["title_bn"] in titles:
+                p.append(f"{tag}: duplicate chapter title {ch['title_bn']}")
+            titles.add(ch["title_bn"])
+            for si, s in enumerate(ch["slides"], 1):
+                where = f"{tag} slide {si}"
+                if s.get("kind") not in {"big", "points", "compare", "flow", "terms", "profile", "timeline",
+                                         "code", "analogy", "stat", "quote", "think", "recap"}:
+                    p.append(f"{where}: unknown kind {s.get('kind')}")
+                if s.get("kind") not in {"profile", "stat", "quote"} and not s.get("title") and not s.get("question"):
+                    p.append(f"{where}: no title")
+                if s.get("kind") == "terms" and not 3 <= len(s["items"]) <= 4:
+                    p.append(f"{where}: {len(s['items'])} term cards")
+                if s.get("kind") == "profile":
+                    if len(s["facts"]) != 4:
+                        p.append(f"{where}: {len(s['facts'])} profile facts")
+                    if not s.get("mark"):
+                        p.append(f"{where}: profile mark missing")
+                if s.get("kind") == "code":
+                    if not s.get("code", "").strip():
+                        p.append(f"{where}: empty code")
+                    if len(s["code"].splitlines()) > 16:
+                        p.append(f"{where}: code block is {len(s['code'].splitlines())} lines (split it)")
+                for text in _tech_strings(s):
+                    if FOREIGN_TECH.search(text):
+                        p.append(f"{where}: foreign script {FOREIGN_TECH.search(text).group(0)} in {text[:50]}")
+                    m = TECH_FORMAL.search(text)
+                    if m:
+                        p.append(f"{where}: formal Bangla ({m.group(0)}) in {text[:50]}")
+                    for w in sorted({x.group(0) for x in FORBIDDEN.finditer(text)}):
+                        p.append(f"{where}: culturally unsuitable word: {w}")
+    return p
+
+
 def main():
     bad = 0
     for k, c in COURSES.items():
@@ -210,6 +273,10 @@ def main():
             for x in probs:
                 print(f"{f.relative_to(ROOT)}: {x}")
             bad += bool(probs)
+    tech = check_tech()
+    for x in tech:
+        print(x)
+    bad += bool(tech)
     print("ok" if not bad else f"{bad} chapter(s) with problems")
     sys.exit(1 if bad else 0)
 

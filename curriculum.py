@@ -147,3 +147,12 @@ COURSES = {
                           ch("সপ্তাহান্তে কী করলে", "Talking about the weekend in the past", "Perfekt with haben and sein (intro)"),
                       ]),
 }
+
+# ------------------------------------------------------------------ Technology
+# A separate school inside the same site: 10 courses, each chapter a deck of big one-idea slides.
+from tech.courses import TECH_COURSES  # noqa: E402  (imported after the language courses are defined)
+
+LANGS["technology"] = dict(name="Technology", bn="টেকনোলজি", badge="⌘", theme="tech", tts="en-US",
+                           intro="কম্পিউটার, ইন্টারনেট, কোড, ডেটাবেস, ক্লাউড, কোম্পানি আর মানুষ — "
+                                 "একদম শুরু থেকে, বাংলায়, বড় স্লাইডে।")
+COURSES.update(TECH_COURSES)

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>অধ্যায় 5 · struct, malloc আর free — Technology 401</title>
+<meta name="description" content="বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।">
+<meta name="theme-color" content="#4F46E5">
+<link rel="icon" type="image/png" href="../../../assets/img/favicon.png"><link rel="apple-touch-icon" href="../../../assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:title" content="অধ্যায় 5 · struct, malloc আর free — Technology 401">
+<meta property="og:description" content="বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।"><meta property="og:url" content="https://polodev.github.io/ananya/technology/401/ch-05/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Klee+One:wght@400;600&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/app.css">
+</head>
+<body class="t-tech deck" data-deck="technology/401/ch-05">
+<div id="top"><a href="../index.html">← সব অধ্যায়</a><span class="crumb">অধ্যায় ৫ · struct, malloc আর free</span><a href="../../../index.html" class="home" aria-label="হোম">🏠</a></div><div id="bar"></div><main id="deck"><section class="slide cover t-cover-slide" data-title="শুরু"><div class="inner"><div class="t-cover"><div class="t-cover-top"><span class="chip">Technology 401 · অধ্যায় ৫</span><span class="t-min">⏱ ~১৩ মিনিট</span></div><div class="t-cover-mark" aria-hidden="true">🇨</div><h1>struct, malloc আর free</h1><p class="t-en">Structs, malloc and free</p><p class="t-body">C-তে নিজের টাইপ বানানো আর heap থেকে মেমোরি নেওয়া — এখানেই আসল শক্তি ও ঝুঁকি।</p><div class="t-cover-chips"><span>struct</span><span>typedef</span><span>Heap</span><span>malloc</span></div><p class="hint">👉 ডান থেকে বামে swipe করো — প্রতিটি স্লাইডে একটা করে বড় ধারণা</p></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><span class="t-kicker">মূল ধারণা</span><div class="t-visual" aria-hidden="true">🧩</div><h1 class="t-h">struct = নিজের বানানো টাইপ</h1><p class="t-body">একজন ইউজারের নাম, বয়স, শহর — একসাথে রাখো। C-তে <code>struct</code> দিয়ে নতুন টাইপ বানায়।</p></div></div></section>
+<section class="slide t-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><span class="t-kicker">প্রথম struct</span><h1 class="t-h sm">নাম আর বয়স</h1><div class="t-code" data-lang="c"><pre><code>#include &lt;stdio.h&gt;
+
+struct User {
+    char name[20];
+    int age;
+};
+
+int main(void) {
+    struct User u = {&quot;Mitu&quot;, 21};
+    printf(&quot;%s %d\n&quot;, u.name, u.age);
+    return 0;
+}</code></pre></div><div class="t-output"><span>output</span><code>Mitu 21</code></div><p class="t-note"><code>struct User</code> এখন একটা টাইপের মতো ব্যবহার করা যায়।</p></div></div></section>
+<section class="slide t-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">চারটা শব্দ</h1><p class="t-sub">struct, typedef, heap, malloc</p><div class="t-terms"><div class="t-card"><b class="t-term">struct</b><span class="t-mean">কয়েকটা মানের প্যাকেট</span><small>নিজের টাইপ।</small></div><div class="t-card"><b class="t-term">typedef</b><span class="t-mean">নামের ছোট রূপ</span><small><code>typedef struct User User;</code></small></div><div class="t-card"><b class="t-term">Heap</b><span class="t-mean">চাহিদা অনুযায়ী মেমোরি</span><small>প্রোগ্রাম চলার সময় বাড়ে।</small></div><div class="t-card"><b class="t-term">malloc</b><span class="t-mean">heap থেকে মেমোরি নেওয়া</span><small>শেষে free করতে হয়।</small></div></div></div></div></section>
+<section class="slide t-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><span class="t-kicker">malloc আর free</span><h1 class="t-h sm">heap থেকে মেমোরি নাও</h1><div class="t-code" data-lang="c"><pre><code>#include &lt;stdlib.h&gt;
+
+int main(void) {
+    int *nums = malloc(3 * sizeof(int));
+    if (!nums) return 1;
+
+    nums[0] = 10;
+    return 0;
+}</code></pre></div><p class="t-note">malloc ব্যর্থ হলে NULL; সফল হলে free করতে হবে।</p></div></div></section>
+<section class="slide t-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><span class="t-kicker">malloc আর free</span><h1 class="t-h sm">ব্যবহার ও ফেরত দাও</h1><div class="t-code" data-lang="c"><pre><code>nums[1] = 20;
+printf(&quot;%d\n&quot;, nums[1]); // 20
+
+free(nums);
+nums = NULL;</code></pre></div><p class="t-note">একই প্রোগ্রামের পরের অংশ — <code>nums</code> আগের স্লাইডে malloc করা।</p></div></div></section>
+<section class="slide t-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">Heap allocation</h1><div class="t-flow"><div class="t-step"><span class="t-num">1</span><div><b>চাও</b><p><code>malloc(size)</code>।</p></div></div><div class="t-step"><span class="t-num">2</span><div><b>পাও</b><p>ঠিকানা ফেরত, বা NULL।</p></div></div><div class="t-step"><span class="t-num">3</span><div><b>ব্যবহার</b><p>লেখো/পড়ো।</p></div></div><div class="t-step"><span class="t-num">4</span><div><b>ছাড়ো</b><p><code>free(ptr)</code>।</p></div></div></div></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><div class="t-visual" aria-hidden="true">💧</div><h1 class="t-h">Memory leak = ভাড়া ঘর না ছাড়া</h1><p class="t-body">বারবার malloc করে free না করলে প্রোগ্রাম চলতে চলতে মেমোরি খায়। দীর্ঘদিন চলা সার্ভারে এটা বড় সমস্যা।</p></div></div></section>
+<section class="slide t-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><span class="t-kicker">Dynamic array</span><h1 class="t-h sm">প্রয়োজন মতো বড়</h1><div class="t-code" data-lang="c"><pre><code>#include &lt;stdlib.h&gt;
+
+int *make_numbers(int n) {
+    int *a = malloc(n * sizeof(int));
+    if (!a) return NULL;
+    for (int i = 0; i &lt; n; i++) a[i] = i * i;
+    return a;
+}</code></pre></div><p class="t-note">ফাংশন মেমোরি বানিয়ে ঠিকানা ফেরত দেয়; কল করা দল free করবে।</p></div></div></section>
+<section class="slide t-slide t-big-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><div class="t-visual" aria-hidden="true">☠️</div><h1 class="t-h">Double free আর use-after-free</h1><p class="t-body">একই pointer দুবার free করলে বা free করার পরে ব্যবহার করলে বিপদ। <code>free</code> করার পরে pointer-এ <code>NULL</code> রাখো।</p></div></div></section>
+<section class="slide t-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">মেমোরির চারটা নিয়ম</h1><p class="t-sub">মালিকানা স্পষ্ট রাখো</p><div class="t-points"><div class="t-point"><span class="t-dot">→</span><div>যে malloc করে, সে free করে।</div></div><div class="t-point"><span class="t-dot">→</span><div>free করার পরে NULL রাখো।</div></div><div class="t-point"><span class="t-dot">→</span><div>সীমার বাইরে লিখো না।</div></div><div class="t-point"><span class="t-dot">→</span><div><code>sizeof</code> দিয়ে সাইজ হিসাব করো।</div></div></div></div></div></section>
+<section class="slide t-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><span class="t-kicker">Linked list node</span><h1 class="t-h sm">struct + pointer</h1><div class="t-code" data-lang="c"><pre><code>struct Node {
+    int value;
+    struct Node *next;
+};
+
+// newNode = malloc(sizeof(struct Node));
+// newNode-&gt;value = 42;
+// newNode-&gt;next = NULL;</code></pre></div><p class="t-note">নিজের struct-এর pointer রাখতে পারে — এটাই linked list।</p></div></div></section>
+<section class="slide t-slide" data-title="struct, malloc আর free"><div class="inner"><div class="t-wrap"><h1 class="t-h sm">মনে রাখো</h1><div class="t-recap"><div class="t-check"><span>✓</span><div>struct নিজের টাইপ।</div></div><div class="t-check"><span>✓</span><div>malloc heap থেকে মেমোরি দেয়।</div></div><div class="t-check"><span>✓</span><div>free না করলে leak।</div></div><div class="t-check"><span>✓</span><div>free-এর পরে ব্যবহার নয়।</div></div></div></div></div></section>
+<section class="slide " data-title="এই অধ্যায়ের কুইজ"><div class="inner"><span class="chip">📝 এই অধ্যায়ের কুইজ</span><div class="quiz" data-quiz="[{&quot;q&quot;: &quot;“malloc” কী?&quot;, &quot;o&quot;: [&quot;heap থেকে মেমোরি নেওয়া&quot;, &quot;নামের ছোট রূপ&quot;, &quot;চাহিদা অনুযায়ী মেমোরি&quot;, &quot;কয়েকটা মানের প্যাকেট&quot;], &quot;a&quot;: 0, &quot;why&quot;: &quot;malloc = heap থেকে মেমোরি নেওয়া. শেষে free করতে হয়।&quot;}, {&quot;q&quot;: &quot;“struct” কী?&quot;, &quot;o&quot;: [&quot;নামের ছোট রূপ&quot;, &quot;কয়েকটা মানের প্যাকেট&quot;, &quot;heap থেকে মেমোরি নেওয়া&quot;, &quot;চাহিদা অনুযায়ী মেমোরি&quot;], &quot;a&quot;: 1, &quot;why&quot;: &quot;struct = কয়েকটা মানের প্যাকেট. নিজের টাইপ।&quot;}, {&quot;q&quot;: &quot;“Heap” কী?&quot;, &quot;o&quot;: [&quot;চাহিদা অনুযায়ী মেমোরি&quot;, &quot;নামের ছোট রূপ&quot;, &quot;কয়েকটা মানের প্যাকেট&quot;, &quot;heap থেকে মেমোরি নেওয়া&quot;], &quot;a&quot;: 0, &quot;why&quot;: &quot;Heap = চাহিদা অনুযায়ী মেমোরি. প্রোগ্রাম চলার সময় বাড়ে।&quot;}, {&quot;q&quot;: &quot;malloc করা মেমোরি শেষে কী করতে হবে?&quot;, &quot;o&quot;: [&quot;delete&quot;, &quot;free&quot;, &quot;close&quot;, &quot;return&quot;], &quot;a&quot;: 1, &quot;why&quot;: &quot;C-তে malloc করা মেমোরি free দিয়ে ছাড়তে হয়।&quot;}, {&quot;q&quot;: &quot;struct কী?&quot;, &quot;o&quot;: [&quot;একটা ফাংশন&quot;, &quot;কয়েকটা মানের নিজের টাইপ&quot;, &quot;একটা ডেটাবেস&quot;, &quot;একটা লুপ&quot;], &quot;a&quot;: 1, &quot;why&quot;: &quot;struct একাধিক মানকে একসাথে একটি নতুন টাইপ হিসেবে রাখে।&quot;}]"></div></div></section>
+<section class="slide " data-title="শেষ"><div class="inner"><div class="finish"><div class="party">🎉</div><h2>অধ্যায় ৫ শেষ! 🎉</h2><p class="lead">আজকের ধারণাগুলো নিজের ভাষায় একবার বলো। তারপর পরের অধ্যায়ে যাও।</p><div class="wordlist"><span>struct</span><span>typedef</span><span>Heap</span><span>malloc</span></div><div class="callout"><b>পরের অধ্যায়</b><br>C কোথায় রাজত্ব করে — Where C still rules</div><div class="btns"><a class="btn" href="../ch-06/index.html">অধ্যায় ৬: C কোথায় রাজত্ব করে →</a><a class="btn ghost" href="../index.html">সব অধ্যায়</a></div></div></div></section></main><nav id="nav"><button id="prev" aria-label="আগের">‹</button><span id="count"></span><button id="next" aria-label="পরের">›</button><button id="theme" title="Dark mode" aria-label="Theme">◐</button></nav>
+<script src="../../../assets/app.js"></script>
+</body>
+</html>
