@@ -4,10 +4,12 @@ import json
 import random
 from pathlib import Path
 
+from learner import FIRST_NAME_BN, FULL_NAME, PHOTO
+
 ROOT = Path(__file__).resolve().parent
 SITE_URL = "https://polodev.github.io/ananya"   # absolute URL is only used for og:url; every link in the site is relative
-SITE_NAME = "ভাষার ঘর"
-SITE_NAME_EN = "Language Corner"
+SITE_NAME = "অনন্যার শেখার ঘর"
+SITE_NAME_EN = "Ananya’s Learning Corner"
 DIG = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
 esc = html.escape
 
@@ -27,19 +29,27 @@ def write(path, text):
 
 
 def head(base, title, description, url_path):
+    if "Ananya" not in title and "অনন্যা" not in title:
+        title = f"{title} · {FULL_NAME}"
     return f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description, quote=True)}">
-<meta name="theme-color" content="#4F46E5">
-<link rel="icon" type="image/png" href="{base}assets/img/favicon.png"><link rel="apple-touch-icon" href="{base}assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#962D66">
+<link rel="icon" type="image/png" sizes="64x64" href="{base}assets/img/ananya-favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="{base}assets/img/ananya-apple-touch-icon.png">
 <meta property="og:type" content="website"><meta property="og:title" content="{esc(title, quote=True)}">
 <meta property="og:description" content="{esc(description, quote=True)}"><meta property="og:url" content="{SITE_URL}/{url_path}">
+<meta property="og:site_name" content="{SITE_NAME}">
+<meta property="og:image" content="{SITE_URL}/assets/img/ananya-share-v1.png"><meta property="og:image:secure_url" content="{SITE_URL}/assets/img/ananya-share-v1.png">
+<meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ananya Debnath — অনন্যার শেখার ঘর">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title, quote=True)}">
+<meta name="twitter:description" content="{esc(description, quote=True)}"><meta name="twitter:image" content="{SITE_URL}/assets/img/ananya-share-v1.png">
 {FONTS}
 <link rel="stylesheet" href="{base}assets/app.css">"""
 
 
-DESC = "বাংলায় ইংরেজি (A2, B1, B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি — মোবাইলে, স্লাইডে, শুনে শুনে।"
+DESC = "অনন্যা দেবনাথের নিজের শেখার ঘর — বাংলায় ইংরেজি (A2–B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি। নিজের জীবনের উদাহরণ দিয়ে, নিজের গতিতে।"
 
 
 def page(path, title, body, theme="home", description=DESC):
@@ -61,7 +71,17 @@ def page(path, title, body, theme="home", description=DESC):
 
 
 def footer():
-    return f'<footer class="foot"><span>{SITE_NAME} · {SITE_NAME_EN}</span></footer>'
+    return f'<footer class="foot"><span>{FULL_NAME} · {SITE_NAME}<br>অল্প অল্প করে, নিজের গতিতে।</span></footer>'
+
+
+def avatar(base, cls="ava", zoom=False):
+    """Crop the original photo in CSS, keeping the untouched photo available to zoom."""
+    image = (f'<span class="portrait {cls}"><img src="{base}{PHOTO}" alt="{FULL_NAME}" '
+             'width="1573" height="1567" decoding="async"></span>')
+    if zoom:
+        return (f'<a class="portrait-link" href="{base}{PHOTO}" data-zoom '
+                f'aria-label="{FIRST_NAME_BN}র ছবি বড় করে দেখো">{image}</a>')
+    return image
 
 
 # ------------------------------------------------------------------ small components
@@ -91,8 +111,10 @@ def slide(inner, cls="", title=""):
 
 def cover(chip, h1, lead, learn, extra="", hint=True):
     items = "".join(f"<li>{x}</li>" for x in learn)
-    return slide(f'<span class="chip">{esc(chip)}</span><h1>{h1}</h1>{extra}<p class="lead">{lead}</p>'
-                 f'<p class="five">⏱ আজকের লক্ষ্য: ১০ মিনিট। পুরোটা না পারলে যতটুকু পারো — কাল বাকিটা।</p><ul class="learn">{items}</ul>'
+    return slide(f'<div class="cover-top"><span class="chip">{esc(chip)}</span>'
+                 f'<span class="for-you">{avatar("../../../")}<span>অনন্যার জন্য</span></span></div>'
+                 f'<h1>{h1}</h1>{extra}<p class="lead">{lead}</p>'
+                 f'<p class="five">⏱ অনন্যা, আজ ১০ মিনিট নিজের জন্য। যতটুকু পারো, সেখান থেকেই এগোও।</p><ul class="learn">{items}</ul>'
                  + ('<p class="hint">👉 ডান থেকে বামে swipe করে পরের স্লাইডে যাও — শুধু বাঁ-ডানে, উপর-নিচে কিছু নেই</p>' if hint else ""), "cover", "শুরু")
 
 
@@ -104,7 +126,8 @@ def quiz_slide(questions, title="কুইজ"):
 def finish_slide(heading, lead, chips, next_href=None, next_label="", extra=""):
     nxt = f'<a class="btn" href="{next_href}">{next_label} →</a>' if next_href else ""
     chip_html = "".join(f"<span>{c}</span>" for c in chips)
-    return slide(f'<div class="finish"><div class="party">🎉</div><h2>{heading}</h2><p class="lead">{lead}</p>'
+    return slide(f'<div class="finish"><div class="finish-you">{avatar("../../../", "finish-ava")}'
+                 f'<span>শাবাশ, {FIRST_NAME_BN}! 🎉</span></div><h2>{heading}</h2><p class="lead">{lead}</p>'
                  f'<div class="wordlist">{chip_html}</div>{extra}'
                  f'<div class="btns">{nxt}<a class="btn ghost" href="../index.html">সব অধ্যায়</a></div></div>', "", "শেষ")
 
@@ -115,7 +138,8 @@ def deck_page(path, title, deck_key, theme, slides, crumb, has_bn=False, has_pr=
     btns = (('<button id="prBtn" title="উচ্চারণ লুকাও" aria-label="উচ্চারণ লুকাও">🔤</button>' if has_pr else "")
             + ('<button id="bnBtn" title="বাংলা অর্থ লুকাও" aria-label="বাংলা অর্থ লুকাও">👁</button>' if has_bn else ""))
     slow = '<button id="slow" title="ধীরে বলো" aria-label="ধীরে">🐢</button>' if has_slow else ""
-    body = (f'<div id="top"><a href="../index.html">← সব অধ্যায়</a><span class="crumb">{esc(crumb)}</span><a href="{base}index.html" class="home" aria-label="হোম">🏠</a></div><div id="bar"></div>'
+    body = (f'<div id="top"><a href="../index.html">← সব অধ্যায়</a><span class="crumb">{esc(crumb)}</span>'
+            f'<a href="{base}index.html" class="me" aria-label="অনন্যার শেখার ঘর">{avatar(base)}</a></div><div id="bar"></div>'
             f'<main id="deck">{chr(10).join(slides)}</main>'
             '<nav id="nav"><button id="prev" aria-label="আগের">‹</button><span id="count"></span><button id="next" aria-label="পরের">›</button>'
             f'{slow}{btns}'

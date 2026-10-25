@@ -153,9 +153,9 @@
    "bn": "আমি প্রতি মাসে দুই হাজার টাকা জমাতে যাচ্ছি।"
   },
   {
-   "text": "Will Mitu join the new English course too?",
-   "pron_bn": "উইল মিতু জয়েন দ্য নিউ ইংলিশ কোর্স টু?",
-   "bn": "মিতুও কি নতুন ইংরেজি কোর্সে ভর্তি হবে?"
+   "text": "Will Ananya join the new English course too?",
+   "pron_bn": "উইল অনন্যা জয়েন দ্য নিউ ইংলিশ কোর্স টু?",
+   "bn": "অনন্যাও কি নতুন ইংরেজি কোর্সে ভর্তি হবে?"
   },
   {
    "text": "She is going to pay the course fee tomorrow.",
@@ -233,9 +233,9 @@
    "bn": "তুমি কি রাতে তোমার নীল পাঞ্জাবিটা পরবে?"
   },
   {
-   "text": "Yes, and Mitu is going to wear a saree.",
-   "pron_bn": "ইয়েস, অ্যান্ড মিতু ইজ গোয়িং টু ওয়্যার আ শাড়ি",
-   "bn": "হ্যাঁ, আর মিতু একটা শাড়ি পরতে যাচ্ছে।"
+   "text": "Yes, and Ananya is going to wear a saree.",
+   "pron_bn": "ইয়েস, অ্যান্ড অনন্যা ইজ গোয়িং টু ওয়্যার আ শাড়ি",
+   "bn": "হ্যাঁ, আর অনন্যা একটা শাড়ি পরতে যাচ্ছে।"
   },
   {
    "text": "I will try to save money every week.",
@@ -270,15 +270,15 @@
  ],
  "reading": [
   {
-   "bn": "মিতু, আগামী মাসে তুমি কী করবে?",
-   "pron_bn": "মিতু, হোয়াট আর ইউ গোয়িং টু ডু নেক্সট মান্থ?",
+   "bn": "অনন্যা, আগামী মাসে তুমি কী করবে?",
+   "pron_bn": "অনন্যা, হোয়াট আর ইউ গোয়িং টু ডু নেক্সট মান্থ?",
    "speaker": "Rafi",
-   "text": "Mitu, what are you going to do next month?"
+   "text": "Ananya, what are you going to do next month?"
   },
   {
    "bn": "আমি চাঁদপুরে আমার কাজিনের বিয়েতে যাব।",
    "pron_bn": "আই অ্যাম গোয়িং টু অ্যাটেন্ড মাই কাজিন্স ওয়েডিং ইন চাঁদপুর।",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "I am going to attend my cousin's wedding in Chandpur."
   },
   {
@@ -290,7 +290,7 @@
   {
    "bn": "ধন্যবাদ! আমি একটা নতুন কম্পিউটার কোর্সও শুরু করছি।",
    "pron_bn": "থ্যাংকস! আই অ্যাম গোয়িং টু স্টার্ট আ নিউ কম্পিউটার কোর্স টু।",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "Thanks! I am going to start a new computer course too."
   },
   {
@@ -302,7 +302,7 @@
   {
    "bn": "কোর্সের ফি তুমি কীভাবে দেবে?",
    "pron_bn": "হাউ উইল ইউ পে ফর দা কোর্স ফিজ?",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "How will you pay for the course fees?"
   },
   {
@@ -314,7 +314,7 @@
   {
    "bn": "ভালো পরিকল্পনা! আমিও তোমার সাথে টাকা জমাব।",
    "pron_bn": "গুড প্ল্যান! আই অ্যাম গোয়িং টু সেইভ মানি উইথ ইউ।",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "Good plan! I am going to save money with you."
   }
  ],
@@ -372,8 +372,8 @@
   },
   {
    "bn": "পরিকল্পনা",
-   "example": "I am going to share my plan with Mitu.",
-   "example_bn": "আমি মিতুকে আমার পরিকল্পনার কথা বলব।",
+   "example": "I am going to share my plan with Ananya.",
+   "example_bn": "আমি অনন্যাকে আমার পরিকল্পনার কথা বলব।",
    "pron_bn": "প্ল্যান",
    "text": "plan"
   },

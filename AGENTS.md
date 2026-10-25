@@ -1,4 +1,4 @@
-# Language Corner + Technology (ভাষার ঘর) — agent guide
+# Ananya’s Learning Corner (অনন্যার শেখার ঘর) — agent guide
 
 Learning site taught in **Bangla**, mobile first: languages (English A2–B2, Japanese A1, German A1) and a
 ten-course **Technology** track (101 → 1001) for a complete beginner.
@@ -42,9 +42,15 @@ sound rules, numbers), then A1 topic chapters.
 - Anything not in `cards()` (cover, tip, row grid, quiz) must fit on its own; the checker reports `needs vertical scroll`.
 
 ## Content rules
+- This is **Ananya Debnath / অনন্যা দেবনাথ**'s personal learning site. She is 26, a mother, studying for a master's in management.
+  Her son is **Siddharth Debnath Adyo / সিদ্ধার্থ দেবনাথ আদ্য** (Adyo / আদ্য). `learner.py` holds the profile and generation context.
+  Use their names in relevant examples; keep stories clearly as practice scenarios and do not invent further biography.
+  Japanese names: アナンニャ (Ananya), アドヨ (Adyo). Compute pronunciations with `letters_ja` as usual.
+  Portrait framing is in `assets/app.css`; regenerate photo icons and sharing artwork with `python3 tools/build_brand_assets.py`
+  (Playwright + Chromium) after a photo/framing change. Every page must retain Ananya's favicon and Open Graph metadata.
 - Bangla explanations address the learner as **তুমি** (validator flags আপনি/করুন… in teacher text).
 - Culture: no alcohol, pork or beef; no religious rituals (prayer, salam, mosque, temple); festivals (Eid, Puja, Boishakh) are fine.
-- Names: Rafi, Mitu, Tanvir, Nadia; Japanese: たなか, やまだ (hiragana), Bangladeshis in katakana (ラフィ, ミトゥ); German: Anna, Lukas, Frau Weber.
+- Names: Ananya, Adyo, Rafi, Mitu, Tanvir, Nadia; Japanese: たなか, やまだ (hiragana), Bangladeshis in katakana (アナンニャ, アドヨ, ラフィ, ミトゥ); German: Anna, Lukas, Frau Weber.
 - Bangladeshi places: Dhaka ダッカ, Chittagong チッタゴン, Sylhet, Chandpur.
 
 ## Generating content

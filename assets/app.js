@@ -279,20 +279,26 @@
     e.preventDefault();
     var lb = document.createElement('div');
     lb.id = 'lb';
+    lb.setAttribute('role', 'dialog');
+    lb.setAttribute('aria-modal', 'true');
+    lb.setAttribute('aria-label', a.getAttribute('aria-label') || 'ছবি');
     lb.innerHTML = '<img alt=""><button aria-label="বন্ধ">×</button>';
     lb.firstChild.src = a.getAttribute('href');
-    var close = function () { lb.remove(); document.removeEventListener('keydown', onKey); };
+    lb.firstChild.alt = a.querySelector('img').alt;
+    var close = function () { lb.remove(); document.removeEventListener('keydown', onKey); a.focus(); };
     var onKey = function (ev) { if (ev.key === 'Escape') close(); };
     lb.addEventListener('click', close);
     document.addEventListener('keydown', onKey);
     document.body.appendChild(lb);
+    lb.lastChild.focus();
   });
 
   // ---- greeting by time of day ----
   [].forEach.call(document.querySelectorAll('[data-greet]'), function (el) {
     var h = new Date().getHours();
     var g = h < 4 ? 'শুভ রাত্রি' : h < 12 ? 'শুভ সকাল' : h < 16 ? 'শুভ দুপুর' : h < 18 ? 'শুভ বিকেল' : h < 20 ? 'শুভ সন্ধ্যা' : 'শুভ রাত্রি';
-    el.textContent = g + '! 👋';
+    var name = el.getAttribute('data-greet');
+    el.textContent = g + (name ? ', ' + name : '') + '! 👋';
   });
 
   // ---- progress per course on language pages ----

@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from curriculum import COURSES, LANGS  # noqa: E402
 from validate import check_chapter  # noqa: E402
+from learner import CONTENT_CONTEXT  # noqa: E402
 
 SCHEMA = ROOT / "tools" / "chapter.schema.json"
 
@@ -52,13 +53,15 @@ Topic: {topic}
 Grammar focus: {grammar}
 Earlier chapters covered: {earlier}
 
+{learner_context}
+
 {lang_rules}
 
 Level: {level_note}
 
 Content rules:
 - Setting: everyday life of a young adult in Bangladesh (Dhaka, Chandpur, Chittagong, Sylhet) or, for Japanese/German,
-  a Bangladeshi learner (name: Rafi) talking with local people. Use these names: Rafi, Mitu, Tanvir, Nadia{local_names}.
+  Ananya talking with local people. Names: Ananya, Adyo, Rafi, Mitu, Tanvir, Nadia{local_names}.
 - Culturally safe for Bangladeshi Muslims and Hindus: NO alcohol (no beer, wine, sake), NO pork, NO beef, no dating
   or romance, no gambling, no religious practices (prayer, mosque, temple, salam); festivals like Eid or Puja are fine.
 - In your own Bangla (intro_bn, tip_bn, grammar points, why_bn) address the learner informally as তুমি
@@ -77,7 +80,7 @@ Content rules:
 """
 
 READING_RULE = {
-    "A1": "a short dialogue of exactly 8 lines between Rafi and one other person (speaker = first name).",
+    "A1": "a short dialogue of exactly 8 lines between Ananya and one other person (speaker = first name).",
     "A2": "a short dialogue of exactly 8 lines between two people (speaker = first name).",
     "B1": "a dialogue or short email/story of exactly 9 lines (speaker = first name for dialogue, empty string for a text).",
     "B2": "a short article, blog post or discussion of exactly 9 lines/sentences (speaker empty for an article, first name for a discussion).",
@@ -98,7 +101,8 @@ def build_prompt(course_key, n):
                  'Give pron_bn ONLY for "words" (the word itself). For reading lines, phrases and grammar examples set pron_bn to "".')
     return PROMPT.format(title=c["title"], level=c["level"], n=n, total=len(chs), title_bn=d["title_bn"], topic=d["topic"],
                          grammar=d["grammar"], earlier=earlier, lang_rules=LANG_RULES[lang].format(pron_rule=pron_rule),
-                         level_note=LEVEL_NOTES[c["level"]], reading_rule=READING_RULE[c["level"]], local_names=LOCAL_NAMES[lang])
+                         level_note=LEVEL_NOTES[c["level"]], reading_rule=READING_RULE[c["level"]], local_names=LOCAL_NAMES[lang],
+                         learner_context=CONTENT_CONTEXT)
 
 
 def run_one(course_key, n, force=False, effort="high"):

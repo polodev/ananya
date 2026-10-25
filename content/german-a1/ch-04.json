@@ -2,9 +2,9 @@
  "grammar": {
   "examples": [
    {
-    "bn": "আমি রাফি।",
-    "pron_bn": "ইশ বিন রাফি।",
-    "text": "Ich bin Rafi."
+    "bn": "আমি অনন্যা।",
+    "pron_bn": "ইশ বিন অনন্যা।",
+    "text": "Ich bin Ananya."
    },
    {
     "bn": "তুমি আনা।",
@@ -23,7 +23,7 @@
    }
   ],
   "points_bn": [
-   "<b>ich bin, du bist, er ist</b> — এটা দিয়ে পরিচয় দেবে। যেমন: আমি রাফি, তুমি আনা।",
+   "<b>ich bin, du bist, er ist</b> — এটা দিয়ে পরিচয় দেবে। যেমন: আমি অনন্যা, তুমি আনা।",
    "<b>ich heiße, du heißt, er heißt</b> — নাম বলতে এই রূপগুলো লাগে। Sie হলে হয় <b>heißen</b>।",
    "<b>Wie?</b> মানে কেমন, <b>Wer?</b> মানে কে। প্রশ্ন সবসময় প্রথমে বসে।",
    "বন্ধুদের বলো <b>du</b>, অচেনা বা বড়দের বলো <b>Sie</b>। Sie সবসময় বড় হাতের।"
@@ -37,8 +37,8 @@
      "heiße",
      "heißt du"
     ],
-    "q": "Ich ___ Rafi. খালি জায়গায় কী বসবে?",
-    "why_bn": "ich-এর সঙ্গে সবসময় heiße হয়। তাই সঠিক উত্তর: Ich heiße Rafi।"
+    "q": "Ich ___ Ananya. খালি জায়গায় কী বসবে?",
+    "why_bn": "ich-এর সঙ্গে সবসময় heiße হয়। তাই সঠিক উত্তর: Ich heiße Ananya।"
    },
    {
     "answer": 1,
@@ -78,9 +78,9 @@
    "text": "Mir geht es gut, danke."
   },
   {
-   "bn": "আমার নাম রাফি।",
-   "pron_bn": "ইশ হাইসে রাফি।",
-   "text": "Ich heiße Rafi."
+   "text": "Ich heiße Ananya Debnath.",
+   "bn": "আমার নাম অনন্যা দেবনাথ।",
+   "pron_bn": "ইশ হাইসে অনন্যা দেবনাথ।"
   },
   {
    "bn": "আমি ঢাকা থেকে এসেছি।",
@@ -213,9 +213,9 @@
    "bn": "তোমরা কারা?"
   },
   {
-   "text": "Wir sind Nadia und Rafi.",
-   "pron_bn": "ভিয়া জিন্ট নাডিয়া উন্ট রাফি।",
-   "bn": "আমরা নাদিয়া আর রাফি।"
+   "text": "Wir sind Nadia und Ananya.",
+   "pron_bn": "ভিয়া জিন্ট নাডিয়া উন্ট অনন্যা।",
+   "bn": "আমরা নাদিয়া আর অনন্যা।"
   },
   {
    "text": "Bist du Mitu oder Nadia?",
@@ -248,14 +248,14 @@
    "bn": "পরিচিত হয়ে ভালো লাগলো, আমার নাম লুকাস।"
   },
   {
-   "text": "Hallo, bist du Rafi?",
-   "pron_bn": "হালো, বিস্ট ডু রাফি?",
-   "bn": "হ্যালো, তুমি কি রাফি?"
+   "text": "Hallo, bist du Ananya?",
+   "pron_bn": "হালো, বিস্ট ডু অনন্যা?",
+   "bn": "হ্যালো, তুমি কি অনন্যা?"
   },
   {
-   "text": "Ja, ich heiße Rafi.",
-   "pron_bn": "ইয়া, ইশ হাইসে রাফি।",
-   "bn": "হ্যাঁ, আমার নাম রাফি।"
+   "text": "Ja, ich heiße Ananya.",
+   "pron_bn": "ইয়া, ইশ হাইসে অনন্যা।",
+   "bn": "হ্যাঁ, আমার নাম অনন্যা।"
   },
   {
    "text": "Gute Nacht, bis morgen früh.",
@@ -270,21 +270,21 @@
  ],
  "reading": [
   {
-   "bn": "হ্যালো, আমার নাম রাফি।",
-   "pron_bn": "হালো, ইশ হাইসে রাফি।",
-   "speaker": "Rafi",
-   "text": "Hallo, ich heiße Rafi."
+   "bn": "হ্যালো, আমার নাম অনন্যা।",
+   "pron_bn": "হালো, ইশ হাইসে অনন্যা।",
+   "speaker": "Ananya",
+   "text": "Hallo, ich heiße Ananya."
   },
   {
-   "bn": "হ্যালো রাফি, আমি আনা।",
-   "pron_bn": "হালো রাফি, ইশ বিন আনা।",
+   "bn": "হ্যালো অনন্যা, আমি আনা।",
+   "pron_bn": "হালো অনন্যা, ইশ বিন আনা।",
    "speaker": "Anna",
-   "text": "Hallo Rafi, ich bin Anna."
+   "text": "Hallo Ananya, ich bin Anna."
   },
   {
    "bn": "আনা, তুমি কেমন আছো?",
    "pron_bn": "ভি গেট এস ডিয়া, আনা?",
-   "speaker": "Rafi",
+   "speaker": "Ananya",
    "text": "Wie geht es dir, Anna?"
   },
   {
@@ -296,7 +296,7 @@
   {
    "bn": "ভালো, আর ওটা কে?",
    "pron_bn": "গুট, উন্ট ভেয়া ইস্ট ডাস?",
-   "speaker": "Rafi",
+   "speaker": "Ananya",
    "text": "Gut, und wer ist das?"
   },
   {
@@ -308,7 +308,7 @@
   {
    "bn": "ওর নাম কী?",
    "pron_bn": "ভি হাইস্ট এয়া ডেন?",
-   "speaker": "Rafi",
+   "speaker": "Ananya",
    "text": "Wie heißt er denn?"
   },
   {
@@ -319,12 +319,12 @@
   }
  ],
  "tip_bn": "জার্মানিতে বন্ধুদের tschüss বলো, কিন্তু দোকানে বা অচেনা মানুষকে Guten Tag আর Sie বলো। প্রতিদিন আয়নার সামনে দাঁড়িয়ে নিজের নাম আর কেমন আছো তিনবার করে বলো।",
- "title": "Hallo! Ich bin Rafi",
+ "title": "Hallo! Ich bin Ananya",
  "words": [
   {
    "bn": "হ্যালো",
-   "example": "Hallo, ich bin Rafi.",
-   "example_bn": "হ্যালো, আমি রাফি।",
+   "example": "Hallo, ich bin Ananya.",
+   "example_bn": "হ্যালো, আমি অনন্যা।",
    "pron_bn": "হালো",
    "text": "Hallo"
   },

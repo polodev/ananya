@@ -7,9 +7,9 @@
     "text": "I always wake up early in the morning."
    },
    {
-    "bn": "সে সাধারণত বাসে করে কাজে যায়।",
-    "pron_bn": "শি ইউজুয়ালি গোজ টু ওয়ার্ক বাই বাস।",
-    "text": "She usually goes to work by bus."
+    "text": "Ananya usually studies a little every day.",
+    "bn": "অনন্যা সাধারণত প্রতিদিন একটু করে পড়ে।",
+    "pron_bn": "অনন্যা ইউজুয়ালি স্টাডিজ আ লিটল এভরি ডে।"
    },
    {
     "bn": "আমরা মাঝে মাঝে দুপুরে মাছ আর ভাত খাই।",
@@ -25,7 +25,7 @@
   "points_bn": [
    "Present Simple দিয়ে আমরা প্রতিদিনের অভ্যাস বলি। যেমন: <b>I eat rice</b>, <b>She goes to work</b>।",
    "<b>always, usually, sometimes, never</b> বসে মূল verb-এর আগে। যেমন: <b>I always wake up</b>।",
-   "<b>he, she, Rafi</b>-এর সাথে verb-এর শেষে <b>s</b> যোগ হয়। যেমন: <b>goes, eats, cooks</b>।",
+   "<b>he, she, Ananya</b>-এর সাথে verb-এর শেষে <b>s</b> যোগ হয়। যেমন: <b>goes, eats, cooks</b>।",
    "প্রশ্ন করতে <b>Do / Does</b> সামনে বসে। যেমন: <b>Do you eat breakfast?</b>"
   ],
   "quiz": [
@@ -65,7 +65,7 @@
   ],
   "title_bn": "Present Simple আর Frequency Adverb"
  },
- "intro_bn": "এই অধ্যায় শেষে তুমি তোমার ঘুম, কাজ, খাওয়া আর সন্ধ্যার রুটিন নিয়ে সহজ ইংরেজিতে কথা বলতে পারবে।",
+ "intro_bn": "এই অনুশীলনের গল্পে অনন্যার পড়াশোনা আর আদ্যর সাথে সময় কাটানোর কথা আছে। তুমি নিজের রুটিন নিয়ে Present Simple-এ কথা বলা শিখবে।",
  "phrases": [
   {
    "bn": "আমি সাধারণত ছয়টায় ঘুম থেকে উঠি।",
@@ -163,14 +163,14 @@
    "bn": "তুমি সাধারণত কাজে কীভাবে যাও?"
   },
   {
-   "text": "I never go to work by rickshaw.",
-   "pron_bn": "আই নেভার গো টু ওয়ার্ক বাই রিকশা",
-   "bn": "আমি কখনো রিকশায় করে কাজে যাই না।"
+   "text": "Ananya usually reads her management notes.",
+   "bn": "অনন্যা সাধারণত তার ম্যানেজমেন্টের নোট পড়ে।",
+   "pron_bn": "অনন্যা ইউজুয়ালি রিডস হার ম্যানেজমেন্ট নোটস।"
   },
   {
-   "text": "Rafi usually starts work at nine o'clock.",
-   "pron_bn": "রাফি ইউজুয়ালি স্টার্টস ওয়ার্ক অ্যাট নাইন ও'ক্লক",
-   "bn": "রাফি সাধারণত নয়টায় কাজ শুরু করে।"
+   "text": "Ananya sometimes reads stories to Adyo.",
+   "bn": "অনন্যা মাঝে মাঝে আদ্যকে গল্প পড়ে শোনায়।",
+   "pron_bn": "অনন্যা সামটাইমস রিডস স্টোরিজ টু আদ্য।"
   },
   {
    "text": "Mitu always checks her email in the morning.",
@@ -270,52 +270,52 @@
  ],
  "reading": [
   {
-   "bn": "হাই মিতু! সকালে তুমি সাধারণত কী করো?",
-   "pron_bn": "হাই মিতু! হোয়াট ডু ইউ ইউজুয়ালি ডু ইন দা মর্নিং?",
-   "speaker": "Rafi",
-   "text": "Hi Mitu! What do you usually do in the morning?"
+   "text": "Hi Ananya! What do you usually study?",
+   "bn": "হাই অনন্যা! তুমি সাধারণত কী পড়ো?",
+   "pron_bn": "হাই অনন্যা! হোয়াট ডু ইউ ইউজুয়ালি স্টাডি?",
+   "speaker": "Nadia"
   },
   {
-   "bn": "আমি সবসময় ছয়টায় ঘুম থেকে উঠি।",
-   "pron_bn": "আই অলওয়েজ ওয়েক আপ অ্যাট সিক্স ও'ক্লক।",
-   "speaker": "Mitu",
-   "text": "I always wake up at six o'clock."
+   "text": "I study management at master's level.",
+   "bn": "আমি মাস্টার্সে ম্যানেজমেন্ট পড়ি।",
+   "pron_bn": "আই স্টাডি ম্যানেজমেন্ট অ্যাট মাস্টার্স লেভেল।",
+   "speaker": "Ananya"
   },
   {
-   "bn": "তুমি কি সবসময় পরিবারের সাথে নাশতা করো?",
-   "pron_bn": "ডু ইউ অলওয়েজ হ্যাভ ব্রেকফাস্ট উইথ ইয়োর ফ্যামিলি?",
-   "speaker": "Rafi",
-   "text": "Do you always have breakfast with your family?"
+   "text": "Do you usually study every day?",
+   "bn": "তুমি কি সাধারণত প্রতিদিন পড়াশোনা করো?",
+   "pron_bn": "ডু ইউ ইউজুয়ালি স্টাডি এভরি ডে?",
+   "speaker": "Nadia"
   },
   {
-   "bn": "হ্যাঁ, আমরা সাধারণত একসাথে ভাত আর সবজি খাই।",
-   "pron_bn": "ইয়েস, উই ইউজুয়ালি ইট রাইস অ্যান্ড ভেজিটেবলস টুগেদার।",
-   "speaker": "Mitu",
-   "text": "Yes, we usually eat rice and vegetables together."
+   "text": "I usually study a little every day.",
+   "bn": "আমি সাধারণত প্রতিদিন একটু করে পড়ি।",
+   "pron_bn": "আই ইউজুয়ালি স্টাডি আ লিটল এভরি ডে।",
+   "speaker": "Ananya"
   },
   {
-   "bn": "তুমি সাধারণত অফিসে কীভাবে যাও?",
-   "pron_bn": "হাউ ডু ইউ ইউজুয়ালি গো টু ইয়োর অফিস?",
-   "speaker": "Rafi",
-   "text": "How do you usually go to your office?"
+   "text": "Do you spend time with your son?",
+   "bn": "তুমি কি তোমার ছেলের সাথে সময় কাটাও?",
+   "pron_bn": "ডু ইউ স্পেন্ড টাইম উইথ ইয়োর সান?",
+   "speaker": "Nadia"
   },
   {
-   "bn": "আমি সাধারণত বাসে অফিসে যাই।",
-   "pron_bn": "আই ইউজুয়ালি গো টু দি অফিস বাই বাস।",
-   "speaker": "Mitu",
-   "text": "I usually go to the office by bus."
+   "text": "Yes, I spend time with my son, Adyo.",
+   "bn": "হ্যাঁ, আমি আমার ছেলে আদ্যর সাথে সময় কাটাই।",
+   "pron_bn": "ইয়েস, আই স্পেন্ড টাইম উইথ মাই সান, আদ্য।",
+   "speaker": "Ananya"
   },
   {
-   "bn": "সন্ধ্যায় তুমি মাঝে মাঝে কী করো?",
-   "pron_bn": "হোয়াট ডু ইউ সামটাইমস ডু ইন দি ইভনিং?",
-   "speaker": "Rafi",
-   "text": "What do you sometimes do in the evening?"
+   "text": "What do you sometimes do together?",
+   "bn": "তোমরা মাঝে মাঝে একসাথে কী করো?",
+   "pron_bn": "হোয়াট ডু ইউ সামটাইমস ডু টুগেদার?",
+   "speaker": "Nadia"
   },
   {
-   "bn": "আমি মাঝে মাঝে চা খাই আর পরিবারের সাথে গল্প করি।",
-   "pron_bn": "আই সামটাইমস ড্রিংক টি অ্যান্ড টক উইথ মাই ফ্যামিলি।",
-   "speaker": "Mitu",
-   "text": "I sometimes drink tea and talk with my family."
+   "text": "We sometimes read books together.",
+   "bn": "আমরা মাঝে মাঝে একসাথে বই পড়ি।",
+   "pron_bn": "উই সামটাইমস রিড বুকস টুগেদার।",
+   "speaker": "Ananya"
   }
  ],
  "tip_bn": "আয়নার সামনে দাঁড়িয়ে প্রতিদিন তোমার রুটিন জোরে জোরে ইংরেজিতে বলো। প্রথমে always দিয়ে বলো, তারপর usually, sometimes, never দিয়ে বদলে বলো।",

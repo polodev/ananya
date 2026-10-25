@@ -64,19 +64,19 @@
    "note_bn": "তুমি হাঁটার জায়গা ও সময় যোগ করেছ।",
    "steps": [
     {
-     "bn": "মিতু হাঁটে।",
-     "pron_bn": "মিতু ওয়াকস।",
-     "text": "Mitu walks."
+     "bn": "অনন্যা হাঁটে।",
+     "pron_bn": "অনন্যা ওয়াকস।",
+     "text": "Ananya walks."
     },
     {
-     "bn": "মিতু পার্কে হাঁটে।",
-     "pron_bn": "মিতু ওয়াকস ইন দা পার্ক।",
-     "text": "Mitu walks in the park."
+     "bn": "অনন্যা পার্কে হাঁটে।",
+     "pron_bn": "অনন্যা ওয়াকস ইন দা পার্ক।",
+     "text": "Ananya walks in the park."
     },
     {
-     "bn": "মিতু সকালে পার্কে হাঁটে।",
-     "pron_bn": "মিতু ওয়াকস ইন দা পার্ক ইন দা মর্নিং।",
-     "text": "Mitu walks in the park in the morning."
+     "bn": "অনন্যা সকালে পার্কে হাঁটে।",
+     "pron_bn": "অনন্যা ওয়াকস ইন দা পার্ক ইন দা মর্নিং।",
+     "text": "Ananya walks in the park in the morning."
     }
    ]
   },

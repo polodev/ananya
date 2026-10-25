@@ -5,7 +5,8 @@ Relative links everywhere, so it works at https://polodev.github.io/ananya/ and 
 import shutil
 
 from curriculum import COURSES, LANGS
-from engine import ROOT, SITE_NAME, SITE_NAME_EN, bn, esc, footer, page, write
+from engine import ROOT, SITE_NAME, avatar, bn, esc, footer, page, say_btn, write
+from learner import AGE, FULL_NAME, INTRODUCTION, NAME_BN
 import site_builder
 import site_letters
 import site_tech
@@ -40,12 +41,23 @@ def home():
         f'<a class="card lang {v["theme"]}" href="{k}/index.html"><div class="badge">{v["badge"]}</div><div><b>{v["name"]} — {v["bn"]}</b>'
         f'<span>{v["intro"]}</span><br><span class="levels">{" · ".join(c["level"] for c in courses_of(k).values())}</span></div></a>'
         for k, v in LANGS.items() if k != "technology")
-    body = (f'<header class="hero"><div class="in"><p class="eyebrow" data-greet>স্বাগতম! 👋</p><h1>{SITE_NAME}</h1>'
-            f'<p>ভাষা শেখো, টেক শেখো — দুটোই বাংলায়, মোবাইলে, স্লাইডে।</p></div></header>'
-            f'<main class="wrap">{tech_card}{cards}'
+    introduction = "".join(
+        f'<div class="intro-line">{say_btn(x["text"], "en-US")}<div><p lang="en">{esc(x["text"])}</p>'
+        f'<p class="intro-pr">{esc(x["pron_bn"])}</p><p class="intro-bn">{esc(x["bn"])}</p></div></div>'
+        for x in INTRODUCTION)
+    personal = (f'<section class="card personal-start" aria-labelledby="personal-title"><span class="personal-tag">তোমার নিজের শেখার ঘর</span>'
+                f'<h2 id="personal-title">অনন্যা, ছোট ছোট পদক্ষেপেই এগিয়ে যাও।</h2>'
+                f'<p>মাস্টার্সের পড়া আর আদ্যর সাথে সময়ের পাশে, নিজের শেখার জন্যও একটু সময়। আজ ১০ মিনিট দিয়ে শুরু করো।</p>'
+                f'<a class="btn" href="english/a2/ch-01/index.html">ইংরেজি দিয়ে শুরু করো →</a>'
+                f'<details class="personal-intro"><summary>নিজের পরিচয় ইংরেজিতে বলো 🔊</summary><div class="intro-lines">{introduction}</div></details></section>')
+    body = (f'<header class="hero"><div class="in hero-grid"><div class="hero-copy">'
+            f'<p class="eyebrow" data-greet="অনন্যা">স্বাগতম, অনন্যা! 👋</p><h1>{FULL_NAME}</h1>'
+            f'<p class="hero-name">{NAME_BN}</p><p class="profile-meta">{bn(AGE)} বছর · মা · Management-এ মাস্টার্স</p>'
+            f'<p>ভাষা শেখো, টেক শেখো — বাংলায়, তোমার নিজের গতিতে।</p></div>{avatar("", "hero-ava", zoom=True)}</div></header>'
+            f'<main class="wrap">{personal}<h2 class="home-heading">আজ কী শিখবে?</h2>{cards}{tech_card}'
             f'<p class="note">🔊 ভাষার স্লাইডে উচ্চারণ শুনতে পাবে · 👆 বাঁ-ডানে swipe করো · ✅ অগ্রগতি এই ফোনেই জমা থাকে</p></main>'
             + footer())
-    page("index.html", f"{SITE_NAME} — {SITE_NAME_EN}", body)
+    page("index.html", f"{FULL_NAME} — {SITE_NAME}", body)
 
 
 def language_page(k, v):
@@ -55,7 +67,7 @@ def language_page(k, v):
         keys = " ".join(f"{ck}/ch-{n:02d}" for n in range(1, len(c["chapters"]) + 1))
         cards += (f'<a class="card course" href="{level}/index.html" data-coursekeys="{keys}"><span class="tag">{c["level"]}</span><b>{c["title"]} — {c["tag"]}</b>'
                   f'<span class="sub">{c["sub"]}</span><span class="sub">{counts(c)}</span><span class="cprog"></span></a>')
-    body = (f'<header class="hero"><div class="in"><a class="back" href="../index.html">← হোম</a><h1>{v["name"]} — {v["bn"]}</h1><p>{v["intro"]}</p></div></header>'
+    body = (f'<header class="hero"><div class="in hero-grid"><div class="hero-copy"><a class="back" href="../index.html">← অনন্যার শেখার ঘর</a><h1>{v["name"]} — {v["bn"]}</h1><p>{v["intro"]}</p></div>{avatar("../", "hero-ava sm", zoom=True)}</div></header>'
             f'<main class="wrap">{cards}</main>' + footer())
     page(f"{k}/index.html", f"{v['name']} — {SITE_NAME}", body, v["theme"])
 
@@ -80,12 +92,12 @@ def course_page(ck, c):
         rows.append(f'<a class="day" data-deckkey="{ck}/ch-{n:02d}" href="ch-{n:02d}/index.html"><span class="n">অধ্যায়<b>{bn(n)}</b></span>'
                     f'<span class="t"><b>{esc(ch["title_bn"])}</b><span>{esc(sub)}</span></span><span class="tick">✓</span></a>')
     total = len(c["chapters"])
-    body = (f'<header class="hero"><div class="in"><a class="back" href="../index.html">← {v["name"]}</a><h1>{c["title"]}</h1><p>{c["lead"]}</p></div></header>'
+    body = (f'<header class="hero"><div class="in hero-grid"><div class="hero-copy"><a class="back" href="../index.html">← {v["name"]}</a><h1>{c["title"]}</h1><p>{c["lead"]}</p></div>{avatar("../../", "hero-ava sm", zoom=True)}</div></header>'
             f'<main class="wrap"><div class="card"><div class="bar"><i id="progress"></i></div>'
             f'<p class="note" id="streak"></p><p class="note" id="progress-text">০ / {bn(total)} অধ্যায় শেষ</p>'
             f'<p style="text-align:center;margin-top:10px"><a class="btn" id="continue" href="ch-01/index.html">▶ শুরু করো</a></p></div>'
             f'<div class="days">{"".join(rows)}</div></main>' + footer())
-    page(f"{ck}/index.html", f"{c['title']} — {c['tag']}", body, v["theme"])
+    page(f"{ck}/index.html", f"{c['title']} — {c['tag']} · {NAME_BN}", body, v["theme"])
 
 
 def not_found():

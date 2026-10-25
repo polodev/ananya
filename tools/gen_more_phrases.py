@@ -14,6 +14,7 @@ sys.path.insert(0, str(ROOT))
 from curriculum import COURSES  # noqa: E402
 from validate import check_chapter, PHRASES  # noqa: E402
 from gen_content import LANG_RULES, LEVEL_NOTES  # noqa: E402
+from learner import CONTENT_CONTEXT  # noqa: E402
 from de_pron import PROMPT as DE_RULES  # noqa: E402
 
 SCHEMA = ROOT / "tools" / "phrases.schema.json"
@@ -23,6 +24,7 @@ PROMPT = """You are adding useful sentences to one chapter of a mobile language 
 (native language Bangla). Answer with the JSON object only. Do not use any tools.
 
 Course: {title} (level {level}). Chapter topic: {topic}. Grammar focus: {grammar}.
+{learner_context}
 {lang_rules}
 {extra_rules}
 Level: {level_note}
@@ -33,7 +35,7 @@ polite requests and short statements; use the chapter's grammar often. They must
 
 Rules: natural modern language; "bn" = natural Bangla meaning (standard চলিত Bangla, never word-by-word);
 culturally safe for Bangladeshi Muslims and Hindus (no alcohol, pork, beef, dating, religious rituals);
-names only Rafi, Mitu, Tanvir, Nadia{names}.
+names Ananya, Adyo, Rafi, Mitu, Tanvir, Nadia{names}.
 """
 
 
@@ -54,7 +56,7 @@ def run(course_key, n):
     names = {"japanese": ", たなか, やまだ (Bangladeshi names in katakana: ラフィ, ミトゥ)", "german": ", Anna, Lukas, Frau Weber", "english": ""}[lang]
     prompt = PROMPT.format(title=c["title"], level=c["level"], topic=c["chapters"][n - 1]["topic"], grammar=c["chapters"][n - 1]["grammar"],
                            lang_rules=LANG_RULES[lang].format(pron_rule=pron_rule), extra_rules=extra, level_note=LEVEL_NOTES[c["level"]],
-                           need=need, existing="\n".join(x["text"] for x in have), names=names)
+                           need=need, existing="\n".join(x["text"] for x in have), names=names, learner_context=CONTENT_CONTEXT)
     last = ""
     for _ in range(3):
         with tempfile.TemporaryDirectory() as tmp:

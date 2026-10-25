@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from curriculum import COURSES  # noqa: E402
 from validate import check_builder  # noqa: E402
+from learner import CONTENT_CONTEXT  # noqa: E402
 
 KEY = "english/builder"
 SCHEMA = ROOT / "tools" / "builder.schema.json"
@@ -23,6 +24,8 @@ PROMPT = """You are writing one chapter of a "Sentence Builder" course for an ad
 
 Chapter {n} of 20, CEFR level {level}. Focus: {focus}.
 
+{learner_context}
+
 A builder starts from a short, simple core sentence and grows it in steps. Every step repeats the previous sentence
 and ADDS one new chunk (a word, a phrase or a clause) that practises the focus; change an existing word only when the
 grammar requires it (e.g. like tea -> like drinking tea). Example builder:
@@ -32,7 +35,7 @@ grammar requires it (e.g. like tea -> like drinking tea). Example builder:
 
 Write exactly 10 builders. Each builder has 3 to 5 steps (use 4-5 at B2 and above). The final sentence must sound
 natural and match level {level}{level_note}. Vary the core sentences (people, work, family, travel, study, health,
-shopping, weather, technology, city and village life in Bangladesh). Names only Rafi, Mitu, Tanvir, Nadia.
+shopping, weather, technology, city and village life in Bangladesh). Names: Ananya, Adyo, Rafi, Mitu, Tanvir, Nadia.
 Culturally safe for Bangladeshi Muslims and Hindus: no alcohol, pork, beef, dating, gambling or religious rituals.
 
 For every step: "text" (English), "bn" (natural Bangla meaning in standard চলিত Bangla, not word-by-word),
@@ -52,7 +55,8 @@ def run(n, force=False):
     out_f.parent.mkdir(parents=True, exist_ok=True)
     meta = COURSES[KEY]["chapters"][n - 1]
     pron_rule = ("English pronunciation in Bangla script, e.g. 'I like tea.' -> 'আই লাইক টি।'" if n <= 10 else 'set to ""')
-    prompt = PROMPT.format(n=n, level=meta["level"], focus=meta["topic"], level_note=LEVEL_NOTE[meta["level"]], pron_rule=pron_rule)
+    prompt = PROMPT.format(n=n, level=meta["level"], focus=meta["topic"], level_note=LEVEL_NOTE[meta["level"]], pron_rule=pron_rule,
+                           learner_context=CONTENT_CONTEXT)
     last = ""
     for _ in range(3):
         with tempfile.TemporaryDirectory() as tmp:

@@ -149,9 +149,9 @@
    "bn": "আমরা সবাই একসাথে বাসে করে সেখানে গিয়েছিলাম।"
   },
   {
-   "text": "Did Mitu come with your family?",
-   "pron_bn": "ডিড মিতু কাম উইথ ইওর ফ্যামিলি?",
-   "bn": "মিতু কি তোমার পরিবারের সাথে এসেছিল?"
+   "text": "Did Ananya come with your family?",
+   "pron_bn": "ডিড অনন্যা কাম উইথ ইওর ফ্যামিলি?",
+   "bn": "অনন্যা কি তোমার পরিবারের সাথে এসেছিল?"
   },
   {
    "text": "No, she stayed at home then.",
@@ -271,15 +271,15 @@
  ],
  "reading": [
   {
-   "bn": "হাই মিতু! তোমার সপ্তাহান্ত কেমন ছিল?",
-   "pron_bn": "হাই মিতু! হাউ ওয়াজ ইয়োর উইকএন্ড?",
+   "bn": "হাই অনন্যা! তোমার সপ্তাহান্ত কেমন ছিল?",
+   "pron_bn": "হাই অনন্যা! হাউ ওয়াজ ইয়োর উইকএন্ড?",
    "speaker": "Rafi",
-   "text": "Hi Mitu! How was your weekend?"
+   "text": "Hi Ananya! How was your weekend?"
   },
   {
    "bn": "খুব ভালো ছিল! আমি আমার চাচির বাড়ি গিয়েছিলাম।",
    "pron_bn": "ইট ওয়াজ গ্রেইট! আই ভিজিটেড মাই আন্ট।",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "It was great! I visited my aunt."
   },
   {
@@ -291,7 +291,7 @@
   {
    "bn": "হ্যাঁ, আমরা শুক্রবারে বাসে গিয়েছিলাম।",
    "pron_bn": "ইয়েস, উই ওয়েন্ট বাই বাস অন ফ্রাইডে।",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "Yes, we went by bus on Friday."
   },
   {
@@ -303,7 +303,7 @@
   {
    "bn": "হ্যাঁ, ঘুরেছি। নদীটা খুব সুন্দর ছিল।",
    "pron_bn": "ইয়েস, উই ডিড। দা রিভার ওয়াজ ভেরি বিউটিফুল।",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "Yes, we did. The river was very beautiful."
   },
   {
@@ -315,7 +315,7 @@
   {
    "bn": "আমরা একসাথে ভাত, মাছ আর সবজি খেয়েছি।",
    "pron_bn": "উই এইট রাইস, ফিশ অ্যান্ড ভেজিটেবলস টুগেদার।",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "We ate rice, fish and vegetables together."
   }
  ],

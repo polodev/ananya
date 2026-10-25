@@ -98,9 +98,9 @@
    "text": "Wie alt bist du?"
   },
   {
-   "bn": "আমার বয়স তেইশ বছর।",
-   "pron_bn": "ইশ বিন ড্রাই-উন্ট-ৎসভানৎসিশ ইয়ারে আল্ট।",
-   "text": "Ich bin dreiundzwanzig Jahre alt."
+   "text": "Ich bin sechsundzwanzig Jahre alt.",
+   "bn": "আমার বয়স ছাব্বিশ বছর।",
+   "pron_bn": "ইশ বিন জেক্সউন্টৎসভানৎসিশ ইয়ারে আল্ট।"
   },
   {
    "bn": "তুমি কি বিবাহিত?",
@@ -108,9 +108,9 @@
    "text": "Bist du verheiratet?"
   },
   {
-   "bn": "আমি অবিবাহিত।",
-   "pron_bn": "ইশ বিন লেডিশ।",
-   "text": "Ich bin ledig."
+   "text": "Ich bin Mutter.",
+   "bn": "আমি একজন মা।",
+   "pron_bn": "ইশ বিন মুটা।"
   },
   {
    "bn": "আমার পরিবার বড়।",
@@ -123,9 +123,9 @@
    "text": "Dein Bruder ist nett."
   },
   {
-   "bn": "তার স্বামী চট্টগ্রামে থাকেন।",
-   "pron_bn": "ইয়া মান ভোন্ট ইন চট্টগ্রাম।",
-   "text": "Ihr Mann wohnt in Chittagong."
+   "text": "Mein Sohn heißt Adyo.",
+   "bn": "আমার ছেলের নাম আদ্য।",
+   "pron_bn": "মাইন জোন হাইস্ট আদ্য।"
   },
   {
    "text": "Wie alt ist dein Bruder?",
@@ -270,52 +270,52 @@
  ],
  "reading": [
   {
-   "bn": "হ্যালো আনা! তোমার ভাইবোন আছে?",
-   "pron_bn": "হালো আনা! হাস্ট ডু গেশ্ভিস্টা?",
-   "speaker": "Rafi",
-   "text": "Hallo Anna! Hast du Geschwister?"
+   "text": "Hallo Ananya! Hast du einen Sohn?",
+   "bn": "হ্যালো অনন্যা! তোমার কি ছেলে আছে?",
+   "pron_bn": "হালো অনন্যা! হাস্ট ডু আইনেন জোন?",
+   "speaker": "Anna"
   },
   {
-   "bn": "হ্যাঁ, আমার এক ভাই আছে।",
-   "pron_bn": "ইয়া, ইশ হাবে আইনেন ব্রুডা।",
-   "speaker": "Anna",
-   "text": "Ja, ich habe einen Bruder."
+   "text": "Ja, ich habe einen Sohn.",
+   "bn": "হ্যাঁ, আমার ছেলে আছে।",
+   "pron_bn": "ইয়া, ইশ হাবে আইনেন জোন।",
+   "speaker": "Ananya"
   },
   {
-   "bn": "তোমার ভাইয়ের বয়স কত?",
-   "pron_bn": "ভি আল্ট ইস্ট ডাইন ব্রুডা?",
-   "speaker": "Rafi",
-   "text": "Wie alt ist dein Bruder?"
+   "text": "Wie heißt dein Sohn?",
+   "bn": "তোমার ছেলের নাম কী?",
+   "pron_bn": "ভি হাইস্ট ডাইন জোন?",
+   "speaker": "Anna"
   },
   {
-   "bn": "আমার ভাইয়ের বয়স বিশ বছর।",
-   "pron_bn": "মাইন ব্রুডা ইস্ট ৎসভানৎসিশ ইয়ারে আল্ট।",
-   "speaker": "Anna",
-   "text": "Mein Bruder ist zwanzig Jahre alt."
+   "text": "Mein Sohn heißt Siddharth Debnath Adyo.",
+   "bn": "আমার ছেলের নাম সিদ্ধার্থ দেবনাথ আদ্য।",
+   "pron_bn": "মাইন জোন হাইস্ট সিদ্ধার্থ দেবনাথ আদ্য।",
+   "speaker": "Ananya"
   },
   {
-   "bn": "তোমার একটা বোনও আছে?",
-   "pron_bn": "হাস্ট ডু আউখ আইনে শ্ভেস্টা?",
-   "speaker": "Rafi",
-   "text": "Hast du auch eine Schwester?"
+   "text": "Wie alt bist du?",
+   "bn": "তোমার বয়স কত?",
+   "pron_bn": "ভি আল্ট বিস্ট ডু?",
+   "speaker": "Anna"
   },
   {
-   "bn": "না, আমার কোনো বোন নেই।",
-   "pron_bn": "নাইন, ইশ হাবে কাইনে শ্ভেস্টা।",
-   "speaker": "Anna",
-   "text": "Nein, ich habe keine Schwester."
+   "text": "Ich bin sechsundzwanzig Jahre alt.",
+   "bn": "আমার বয়স ছাব্বিশ বছর।",
+   "pron_bn": "ইশ বিন জেক্সউন্টৎসভানৎসিশ ইয়ারে আল্ট।",
+   "speaker": "Ananya"
   },
   {
-   "bn": "আমার মা ঢাকায় শিক্ষক।",
-   "pron_bn": "মাইনে মুটা ইস্ট লেরারিন ইন ঢাকা।",
-   "speaker": "Rafi",
-   "text": "Meine Mutter ist Lehrerin in Dhaka."
+   "text": "Bist du Studentin?",
+   "bn": "তুমি কি ছাত্রী?",
+   "pron_bn": "বিস্ট ডু শ্টুডেনটিন?",
+   "speaker": "Anna"
   },
   {
-   "bn": "আমার বাবা বিবাহিত আর চল্লিশ বছর বয়সি।",
-   "pron_bn": "মাইন ফাটা ইস্ট ফেয়হাইরাটেট উন্ট ফিয়াৎসিশ।",
-   "speaker": "Anna",
-   "text": "Mein Vater ist verheiratet und vierzig."
+   "text": "Ja, ich bin Studentin und Mutter.",
+   "bn": "হ্যাঁ, আমি ছাত্রী আর মা।",
+   "pron_bn": "ইয়া, ইশ বিন শ্টুডেনটিন উন্ট মুটা।",
+   "speaker": "Ananya"
   }
  ],
  "tip_bn": "বাসায় আয়নার সামনে দাঁড়িয়ে meine Familie দিয়ে অনুশীলন করো: Das ist mein Vater, das ist meine Mutter। জার্মানিতে অপরিচিত বয়স্কদের সাথে Sie দিয়ে কথা বলো, এটা ভদ্রতা।",

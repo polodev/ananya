@@ -7,9 +7,9 @@
     "text": "If I had slept earlier last night, I would have felt much fresher at the morning meeting."
    },
    {
-    "bn": "মিতু যদি চট্টগ্রামে বাড়তি কাজ না নিত, তাহলে শুক্রবারে পরিবারের দুপুরের খাবারে যোগ দিতে পারত।",
+    "bn": "অনন্যা যদি চট্টগ্রামে বাড়তি কাজ না নিত, তাহলে শুক্রবারে পরিবারের দুপুরের খাবারে যোগ দিতে পারত।",
     "pron_bn": "",
-    "text": "If Mitu had not taken extra work in Chittagong, she would have joined the family lunch on Friday."
+    "text": "If Ananya had not taken extra work in Chittagong, she would have joined the family lunch on Friday."
    },
    {
     "bn": "তানভির যদি জ্বরের সময় ঠিকমতো বিশ্রাম নিত, তাহলে আরও দ্রুত সুস্থ হয়ে কাজে ফিরতে পারত।",
@@ -148,9 +148,9 @@
    "bn": "গত মাসে ওই ভারী কাজের চাপ তুমি অন্যভাবে কীভাবে সামলাতে, একটু বলবে কি?"
   },
   {
-   "text": "If Mitu had spoken to her manager earlier, she would have avoided complete burnout this week.",
+   "text": "If Ananya had spoken to her manager earlier, she would have avoided complete burnout this week.",
    "pron_bn": "",
-   "bn": "মিতু যদি আগেই ম্যানেজারের সঙ্গে কথা বলত, তাহলে এই সপ্তাহে সে পুরোপুরি ভেঙে পড়ত না।"
+   "bn": "অনন্যা যদি আগেই ম্যানেজারের সঙ্গে কথা বলত, তাহলে এই সপ্তাহে সে পুরোপুরি ভেঙে পড়ত না।"
   },
   {
    "text": "I would not have missed my son's school program if I had planned my meetings more carefully.",
@@ -248,9 +248,9 @@
    "bn": "গত মাসে বড় পণ্য উদ্বোধনের সময় ডেডলাইন নমনীয় হলে কি আমাদের চাপ কমত বলে মনে করো?"
   },
   {
-   "text": "If Mitu had refused that late-night assignment, she would have attended her sister's graduation ceremony.",
+   "text": "If Ananya had refused that late-night assignment, she would have attended her sister's graduation ceremony.",
    "pron_bn": "",
-   "bn": "মিতু যদি ওই গভীর রাতের কাজটা না নিত, তাহলে বোনের গ্র্যাজুয়েশন অনুষ্ঠানে যেতে পারত।"
+   "bn": "অনন্যা যদি ওই গভীর রাতের কাজটা না নিত, তাহলে বোনের গ্র্যাজুয়েশন অনুষ্ঠানে যেতে পারত।"
   },
   {
    "text": "Would you have felt less guilty if you had spent the entire Friday peacefully with your family?",
@@ -278,7 +278,7 @@
   {
    "bn": "তানভির যদি ঢাকায় ওই বাড়তি প্রজেক্টটা ফিরিয়ে দিত, তাহলে পরিবারের জন্য তার হাতে আরও সময় থাকত।",
    "pron_bn": "",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "If Tanvir had turned down that extra project in Dhaka, he would have had more time for his family."
   },
   {
@@ -302,7 +302,7 @@
   {
    "bn": "রাফি যদি চাঁদপুরে ঈদের সময় ছুটি নিত, তাহলে বাবা-মায়ের সঙ্গে ভাত, মাছ আর চা খেয়ে আনন্দ করতে পারত।",
    "pron_bn": "",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "If Rafi had taken leave during Eid in Chandpur, he would have enjoyed rice, fish and tea with his parents."
   },
   {
@@ -318,10 +318,10 @@
    "text": "If I had learned to say no sooner, I would have protected my weekends for rest, friends and long walks."
   },
   {
-   "bn": "আমরা যদি গত মাসে নিজেদের আফসোস খোলাখুলি বলতাম, তাহলে সবার জন্য অনেক স্বাস্থ্যকর রুটিন বানাতে পারতাম।",
+   "text": "If I had planned my study time better, I would have spent more time with Adyo.",
+   "bn": "আমি যদি পড়ার সময়টা আরও ভালোভাবে গুছিয়ে নিতাম, তাহলে আদ্যর সাথে আরও সময় কাটাতে পারতাম।",
    "pron_bn": "",
-   "speaker": "Mitu",
-   "text": "If we had discussed our regrets openly last month, we would have created a much healthier routine for everyone."
+   "speaker": "Ananya"
   }
  ],
  "tip_bn": "প্রতিদিন রাতে দুই মিনিট ভাবো, আজ কাজ আর বিশ্রামের ভারসাম্য কেমন ছিল। তারপর থার্ড কন্ডিশনাল দিয়ে ডায়েরিতে একটা বাক্য লেখো, যেমন If I had...।",
@@ -336,8 +336,8 @@
   },
   {
    "bn": "প্রয়োজনের বেশি কাজের চাপে থাকা",
-   "example": "Mitu felt completely overworked in Chittagong because she handled three urgent projects at the same time.",
-   "example_bn": "মিতু চট্টগ্রামে নিজেকে খুব কাজের চাপে পিষ্ট মনে করল, কারণ সে একসঙ্গে তিনটা জরুরি প্রজেক্ট সামলাচ্ছিল।",
+   "example": "Ananya felt completely overworked in Chittagong because she handled three urgent projects at the same time.",
+   "example_bn": "অনন্যা চট্টগ্রামে নিজেকে খুব কাজের চাপে পিষ্ট মনে করল, কারণ সে একসঙ্গে তিনটা জরুরি প্রজেক্ট সামলাচ্ছিল।",
    "pron_bn": "ওভারওয়ার্কড",
    "text": "overworked"
   },
@@ -385,8 +385,8 @@
   },
   {
    "bn": "কাজের চাপে দিশেহারা লাগা",
-   "example": "After answering fifty customer calls alone, Mitu felt completely overwhelmed and needed a short quiet break.",
-   "example_bn": "একা পঞ্চাশটা কাস্টমার কল ধরে মিতু পুরো দিশেহারা হয়ে গেল আর তার ছোট একটা শান্ত বিরতি দরকার হলো।",
+   "example": "After answering fifty customer calls alone, Ananya felt completely overwhelmed and needed a short quiet break.",
+   "example_bn": "একা পঞ্চাশটা কাস্টমার কল ধরে অনন্যা পুরো দিশেহারা হয়ে গেল আর তার ছোট একটা শান্ত বিরতি দরকার হলো।",
    "pron_bn": "ওভারহোয়েলমড",
    "text": "overwhelmed"
   },

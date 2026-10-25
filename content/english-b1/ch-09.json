@@ -65,17 +65,17 @@
   ],
   "title_bn": "Gerund বনাম Infinitive"
  },
- "intro_bn": "এই অধ্যায় শেষে তুমি ভাষা শেখা, পরীক্ষার প্রস্তুতি আর পড়ার অভ্যাস নিয়ে ইংরেজিতে সহজে কথা বলতে পারবে।",
+ "intro_bn": "অনন্যার ম্যানেজমেন্টের পড়া আর ইংরেজি শেখার অনুশীলনের গল্প দিয়ে তুমি পড়াশোনা নিয়ে কথা বলা শিখবে। enjoy doing আর decide to do-এর পার্থক্য বুঝবে।",
  "phrases": [
   {
-   "bn": "আমি সন্ধ্যায় ইংরেজি পড়তে ভালোবাসি।",
-   "pron_bn": "",
-   "text": "I enjoy studying English in the evening."
+   "text": "Ananya enjoys studying management.",
+   "bn": "অনন্যা ম্যানেজমেন্ট পড়তে ভালোবাসে।",
+   "pron_bn": ""
   },
   {
-   "bn": "আমি পরীক্ষার জন্য প্রতিদিন পড়ার সিদ্ধান্ত নিয়েছি।",
-   "pron_bn": "",
-   "text": "I have decided to study every day for the exam."
+   "text": "She wants to practise English with her son, Adyo.",
+   "bn": "সে তার ছেলে আদ্যর সাথে ইংরেজি চর্চা করতে চায়।",
+   "pron_bn": ""
   },
   {
    "bn": "আমার পড়ার পরিকল্পনা বানাতে সাহায্য করবে?",
@@ -148,9 +148,9 @@
    "bn": "পরীক্ষায় মনোযোগ দিতে আমি সোশ্যাল মিডিয়া ব্যবহার বন্ধ করে দিয়েছি।"
   },
   {
-   "text": "Mitu promised to share her notes before the test.",
+   "text": "Ananya promised to share her notes before the test.",
    "pron_bn": "",
-   "bn": "মিতু পরীক্ষার আগেই তার নোটগুলো দেবে বলে কথা দিয়েছে।"
+   "bn": "অনন্যা পরীক্ষার আগেই তার নোটগুলো দেবে বলে কথা দিয়েছে।"
   },
   {
    "text": "Do you prefer studying alone or revising with friends?",
@@ -248,9 +248,9 @@
    "bn": "আমি প্রতিদিন দশটা করে নতুন শব্দ শেখার চেষ্টা করছি।"
   },
   {
-   "text": "Mitu and Nadia enjoy quizzing each other before important exams.",
+   "text": "Ananya and Nadia enjoy quizzing each other before important exams.",
    "pron_bn": "",
-   "bn": "মিতু আর নাদিয়া গুরুত্বপূর্ণ পরীক্ষার আগে একে অন্যকে প্রশ্ন ধরে চর্চা করতে ভালোবাসে।"
+   "bn": "অনন্যা আর নাদিয়া গুরুত্বপূর্ণ পরীক্ষার আগে একে অন্যকে প্রশ্ন ধরে চর্চা করতে ভালোবাসে।"
   },
   {
    "text": "Can you suggest a good way to remember new vocabulary?",
@@ -276,10 +276,10 @@
    "text": "I have decided to join a new English course in Dhaka next month."
   },
   {
-   "bn": "খুব ভালো! অন্য ছাত্রদের সাথে নতুন ভাষা শিখতে আমার খুব ভালো লাগে।",
+   "text": "That's great! I enjoy studying management and learning English.",
+   "bn": "খুব ভালো! আমি ম্যানেজমেন্ট পড়তে আর ইংরেজি শিখতে ভালোবাসি।",
    "pron_bn": "",
-   "speaker": "Mitu",
-   "text": "That's great! I really enjoy learning new languages with other students."
+   "speaker": "Ananya"
   },
   {
    "bn": "আমি কথা বলা ভালো করতে চাই, কিন্তু প্রতিদিন সন্ধ্যায় চর্চা করতে দেরি করে ফেলি।",
@@ -290,7 +290,7 @@
   {
    "bn": "বুঝতে পারছি। আমি প্রতিদিন একটু একটু পড়ে গত পরীক্ষায় পাশ করতে পেরেছিলাম।",
    "pron_bn": "",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "I understand. I managed to pass my last exam by studying a little daily."
   },
   {
@@ -302,7 +302,7 @@
   {
    "bn": "একদম না। আমি বলবো প্রতিদিন বিশ মিনিট শুনে চর্চা দিয়ে শুরু করো।",
    "pron_bn": "",
-   "speaker": "Mitu",
+   "speaker": "Ananya",
    "text": "Of course not. I suggest starting with twenty minutes of listening practice daily."
   },
   {
@@ -312,10 +312,10 @@
    "text": "I have promised to avoid using my phone while I am studying at night."
   },
   {
-   "bn": "ভালো বুদ্ধি। আমি তাড়াতাড়ি নোট পড়া শেষ করেছি, তারপর শব্দগুলো ঝালিয়ে নিয়েছি।",
+   "text": "I finished reading my management notes and then practised English.",
+   "bn": "আমি ম্যানেজমেন্টের নোট পড়া শেষ করেছি, তারপর ইংরেজি চর্চা করেছি।",
    "pron_bn": "",
-   "speaker": "Mitu",
-   "text": "Good idea. I finished reading my notes early and then I revised vocabulary."
+   "speaker": "Ananya"
   },
   {
    "bn": "আশা করি পরীক্ষায় ভালো করবো আর একসাথে মজা নিয়ে ইংরেজি শিখতে থাকবো।",

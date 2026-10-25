@@ -21,42 +21,47 @@
    ]
   },
   {
-   "note_bn": "তুমি গল্প অবজেক্ট আর নতুন বিশেষণ যোগ করেছ।",
+   "note_bn": "তুমি অনন্যা কী পড়ে তা বলতে management, তারপর and English যোগ করেছ।",
    "steps": [
     {
-     "bn": "রাফি বই পড়ে।",
-     "pron_bn": "রাফি রিডস বুকস।",
-     "text": "Rafi reads books."
+     "text": "Ananya studies.",
+     "bn": "অনন্যা পড়াশোনা করে।",
+     "pron_bn": "অনন্যা স্টাডিজ।"
     },
     {
-     "bn": "রাফি বই আর গল্প পড়ে।",
-     "pron_bn": "রাফি রিডস বুকস অ্যান্ড স্টোরিজ।",
-     "text": "Rafi reads books and stories."
+     "text": "Ananya studies management.",
+     "bn": "অনন্যা ম্যানেজমেন্ট পড়ে।",
+     "pron_bn": "অনন্যা স্টাডিজ ম্যানেজমেন্ট।"
     },
     {
-     "bn": "রাফি নতুন বই আর গল্প পড়ে।",
-     "pron_bn": "রাফি রিডস নিউ বুকস অ্যান্ড স্টোরিজ।",
-     "text": "Rafi reads new books and stories."
+     "text": "Ananya studies management and English.",
+     "bn": "অনন্যা ম্যানেজমেন্ট আর ইংরেজি পড়ে।",
+     "pron_bn": "অনন্যা স্টাডিজ ম্যানেজমেন্ট অ্যান্ড ইংলিশ।"
     }
    ]
   },
   {
-   "note_bn": "তুমি গরম বিশেষণ আর মাছ অবজেক্ট যোগ করেছ।",
+   "note_bn": "এই অনুশীলনে তুমি stories, short আর to Adyo যোগ করে বাক্য বড় করেছ।",
    "steps": [
     {
-     "bn": "মিতু ভাত রাঁধে।",
-     "pron_bn": "মিতু কুকস রাইস।",
-     "text": "Mitu cooks rice."
+     "text": "Ananya reads.",
+     "bn": "অনন্যা পড়ে।",
+     "pron_bn": "অনন্যা রিডস।"
     },
     {
-     "bn": "মিতু গরম ভাত রাঁধে।",
-     "pron_bn": "মিতু কুকস হট রাইস।",
-     "text": "Mitu cooks hot rice."
+     "text": "Ananya reads stories.",
+     "bn": "অনন্যা গল্প পড়ে।",
+     "pron_bn": "অনন্যা রিডস স্টোরিজ।"
     },
     {
-     "bn": "মিতু গরম ভাত আর মাছ রাঁধে।",
-     "pron_bn": "মিতু কুকস হট রাইস অ্যান্ড ফিশ।",
-     "text": "Mitu cooks hot rice and fish."
+     "text": "Ananya reads short stories.",
+     "bn": "অনন্যা ছোট গল্প পড়ে।",
+     "pron_bn": "অনন্যা রিডস শর্ট স্টোরিজ।"
+    },
+    {
+     "text": "Ananya reads short stories to Adyo.",
+     "bn": "অনন্যা আদ্যকে ছোট গল্প পড়ে শোনায়।",
+     "pron_bn": "অনন্যা রিডস শর্ট স্টোরিজ টু আদ্য।"
     }
    ]
   },

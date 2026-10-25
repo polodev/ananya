@@ -1,6 +1,14 @@
-# ভাষার ঘর — Language Corner
+# অনন্যার শেখার ঘর — Ananya’s Learning Corner
 
 English, Japanese, German and Technology, taught in Bangla, built for reading on a phone.
+
+Personalized for **Ananya Debnath (অনন্যা দেবনাথ)**, 26, a mother studying for a master's degree in management.
+Her son is **Siddharth Debnath Adyo (সিদ্ধার্থ দেবনাথ আদ্য)**. Her portrait, greetings and lesson examples run through
+the site. `learner.py` holds the profile and spoken English introduction; lesson stories are practice scenarios.
+
+The photo is framed with CSS, preserving the original for the enlarged view. Photo favicons and the 1200×630
+WhatsApp/Open Graph sharing card are in `assets/img/`. To regenerate them after changing the photo or framing,
+run `python3 tools/build_brand_assets.py` (requires Playwright with Chromium), then `python3 build.py`.
 
 | Course | Level | Chapters | What's inside |
 |---|---|---|---|
