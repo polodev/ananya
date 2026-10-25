@@ -25,6 +25,7 @@ sound rules, numbers), then A1 topic chapters.
 - `site_topic.py` (topic decks), `site_letters.py` (letter/number decks), `site_builder.py` (sentence builder), `site_tech.py` (technology decks), `engine.py` (HTML), `build.py` (everything).
 - `validate.py` — checks counts, scripts (kana-only Japanese, no stray Chinese/Korean/Cyrillic), formal Bangla, culture rules, and the technology decks (slide shape, quiz size, code length).
 - `assets/app.css`, `assets/app.js` — the only CSS/JS. localStorage keys start with `lang:`.
+  Generated pages load both with `?version=<git-blob-hash>` via `engine.asset_url`; preserve this cache invalidation on every page, including the dynamic 404 stylesheet.
 
 ## Technology track
 - 10 courses, 72 chapters, 796 teaching slides. 101 is the full beginner picture; 201/301 are internet + JavaScript;

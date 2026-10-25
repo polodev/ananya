@@ -2,6 +2,7 @@
 import html
 import json
 import random
+import subprocess
 from pathlib import Path
 
 from learner import FIRST_NAME_BN, FULL_NAME, PHOTO
@@ -12,6 +13,12 @@ SITE_NAME = "অনন্যার শেখার ঘর"
 SITE_NAME_EN = "Ananya’s Learning Corner"
 DIG = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
 esc = html.escape
+ASSET_VERSIONS = {
+    name: subprocess.check_output(
+        ["git", "hash-object", str(ROOT / "assets" / name)], cwd=ROOT, text=True
+    ).strip()[:12]
+    for name in ("app.css", "app.js")
+}
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Klee+One:wght@400;600'
@@ -26,6 +33,11 @@ def write(path, text):
     p = ROOT / path
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(text, encoding="utf-8")
+
+
+def asset_url(base, name):
+    """A changed stylesheet or script must bypass older browser/CDN cache entries."""
+    return f"{base}assets/{name}?version={ASSET_VERSIONS[name]}"
 
 
 def head(base, title, description, url_path):
@@ -46,7 +58,7 @@ def head(base, title, description, url_path):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title, quote=True)}">
 <meta name="twitter:description" content="{esc(description, quote=True)}"><meta name="twitter:image" content="{SITE_URL}/assets/img/ananya-share-v1.png">
 {FONTS}
-<link rel="stylesheet" href="{base}assets/app.css">"""
+<link rel="stylesheet" href="{asset_url(base, 'app.css')}">"""
 
 
 DESC = "অনন্যা দেবনাথের নিজের শেখার ঘর — বাংলায় ইংরেজি (A2–B2), জাপানি (A1), জার্মান (A1) আর টেকনোলজি। নিজের জীবনের উদাহরণ দিয়ে, নিজের গতিতে।"
@@ -64,7 +76,7 @@ def page(path, title, body, theme="home", description=DESC):
 </head>
 <body class="t-{theme}">
 {body}
-<script src="{base}assets/app.js"></script>
+<script src="{asset_url(base, 'app.js')}"></script>
 </body>
 </html>
 """)
@@ -77,7 +89,7 @@ def footer():
 def avatar(base, cls="ava", zoom=False):
     """Crop the original photo in CSS, keeping the untouched photo available to zoom."""
     image = (f'<span class="portrait {cls}"><img src="{base}{PHOTO}" alt="{FULL_NAME}" '
-             'width="1573" height="1567" decoding="async"></span>')
+             'width="96" height="96" decoding="async"></span>')
     if zoom:
         return (f'<a class="portrait-link" href="{base}{PHOTO}" data-zoom '
                 f'aria-label="{FIRST_NAME_BN}র ছবি বড় করে দেখো">{image}</a>')
@@ -152,7 +164,7 @@ def deck_page(path, title, deck_key, theme, slides, crumb, has_bn=False, has_pr=
 </head>
 <body class="t-{theme} deck{' has-bn' if has_bn else ''}" data-deck="{deck_key}">
 {body}
-<script src="{base}assets/app.js"></script>
+<script src="{asset_url(base, 'app.js')}"></script>
 </body>
 </html>
 """)

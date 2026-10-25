@@ -5,7 +5,7 @@ Relative links everywhere, so it works at https://polodev.github.io/ananya/ and 
 import shutil
 
 from curriculum import COURSES, LANGS
-from engine import ROOT, SITE_NAME, avatar, bn, esc, footer, page, say_btn, write
+from engine import ROOT, SITE_NAME, asset_url, avatar, bn, esc, footer, page, say_btn, write
 from learner import AGE, FULL_NAME, INTRODUCTION, NAME_BN
 import site_builder
 import site_letters
@@ -32,15 +32,15 @@ def counts(c):
 
 
 def home():
-    tech = LANGS["technology"]
-    tech_card = (f'<a class="card tech-feature" href="technology/index.html"><span class="tf-tag">নতুন · ১০টি কোর্স</span>'
-                 f'<div class="tf-top"><div class="tf-badge">{tech["badge"]}</div><div><b>Technology — {tech["bn"]}</b>'
-                 f'<span>{tech["intro"]}</span></div></div>'
-                 f'<span class="tf-path">101 → 201 → 301 → … → 1001</span></a>')
+    course_labels = {
+        k: (f"{bn(len(courses_of(k)))}টি কোর্স · 101 → 1001" if k == "technology" else
+            " · ".join(c["level"] for c in courses_of(k).values()))
+        for k in LANGS
+    }
     cards = "".join(
         f'<a class="card lang {v["theme"]}" href="{k}/index.html"><div class="badge">{v["badge"]}</div><div><b>{v["name"]} — {v["bn"]}</b>'
-        f'<span>{v["intro"]}</span><br><span class="levels">{" · ".join(c["level"] for c in courses_of(k).values())}</span></div></a>'
-        for k, v in LANGS.items() if k != "technology")
+        f'<span>{v["intro"]}</span><br><span class="levels">{course_labels[k]}</span></div></a>'
+        for k, v in LANGS.items())
     introduction = "".join(
         f'<div class="intro-line">{say_btn(x["text"], "en-US")}<div><p lang="en">{esc(x["text"])}</p>'
         f'<p class="intro-pr">{esc(x["pron_bn"])}</p><p class="intro-bn">{esc(x["bn"])}</p></div></div>'
@@ -54,7 +54,7 @@ def home():
             f'<p class="eyebrow" data-greet="অনন্যা">স্বাগতম, অনন্যা! 👋</p><h1>{FULL_NAME}</h1>'
             f'<p class="hero-name">{NAME_BN}</p><p class="profile-meta">{bn(AGE)} বছর · মা · Management-এ মাস্টার্স</p>'
             f'<p>ভাষা শেখো, টেক শেখো — বাংলায়, তোমার নিজের গতিতে।</p></div>{avatar("", "hero-ava", zoom=True)}</div></header>'
-            f'<main class="wrap">{personal}<h2 class="home-heading">আজ কী শিখবে?</h2>{cards}{tech_card}'
+            f'<main class="wrap">{personal}<h2 class="home-heading">আজ কী শিখবে?</h2>{cards}'
             f'<p class="note">🔊 ভাষার স্লাইডে উচ্চারণ শুনতে পাবে · 👆 বাঁ-ডানে swipe করো · ✅ অগ্রগতি এই ফোনেই জমা থাকে</p></main>'
             + footer())
     page("index.html", f"{FULL_NAME} — {SITE_NAME}", body)
@@ -107,11 +107,11 @@ def not_found():
     # 404.html is served from any depth: work out the site root at run time (project page vs custom domain)
     p = ROOT / "404.html"
     html = p.read_text(encoding="utf-8")
-    html = html.replace('<link rel="stylesheet" href="assets/app.css">', "").replace('<script src="assets/app.js"></script>', "")
-    html = html.replace("</body>", """<script>
+    html = html.replace(f'<link rel="stylesheet" href="{asset_url("", "app.css")}">', "").replace(f'<script src="{asset_url("", "app.js")}"></script>', "")
+    html = html.replace("</body>", f"""<script>
 var root = /\\.github\\.io$/.test(location.hostname) ? '/' + location.pathname.split('/')[1] + '/' : '/';
 document.getElementById('home404').href = root;
-var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = root + 'assets/app.css'; document.head.appendChild(l);
+var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = root + '{asset_url("", "app.css")}'; document.head.appendChild(l);
 </script></body>""")
     write("404.html", html)
 
